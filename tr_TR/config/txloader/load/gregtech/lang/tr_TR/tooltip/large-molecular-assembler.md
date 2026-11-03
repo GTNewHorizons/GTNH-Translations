@@ -1,8 +1,8 @@
-Requires a {green:Data Orb} inside the controller
-Consumes {color_eu_usage:{var:basic_eut} {EU/t}} while idle, regardless of overclocks
+Kontrolcünün içinde bir {green:Veri Küresi} gerektirir
+Aşırı hız aşımlarından bağımsız olarak boştayken {color_eu_usage:{var:basic_eut} {EU/t}} tüketir
 {hr}
-{color_mode:Crafting}:
-- {color_voltage:{var:crafting_eut}} {color_tier:{EU/t}}, performs {color_parallel:{var:jobs_base}} jobs in {color_time:{var:duration_base}s}
-{color_mode:Overclocking}:
-- Reduces the duration to {color_time:{var:duration_oc1}s} and {color_time:{var:duration_oc2}s} for the first two overclocks
-- Every subsequent overclock quadruples {color_tier:{EU/t}} and doubles the number of jobs
+{color_mode:Üretim}:
+- {color_voltage:{var:crafting_eut}} {color_tier:{EU/t}}, {color_time:{var:duration_base}s} içinde {color_parallel:{var:jobs_base}} iş yapar
+{color_mode:Aşırı Hız Aşımı}:
+- İlk iki aşırı hız aşımında süreyi {color_time:{var:duration_oc1}s} ve {color_time:{var:duration_oc2}s} değerine düşürür
+- Sonraki her aşırı hız aşımı {color_tier:{EU/t}} değerini dörde katlar ve iş sayısını ikiye katlar

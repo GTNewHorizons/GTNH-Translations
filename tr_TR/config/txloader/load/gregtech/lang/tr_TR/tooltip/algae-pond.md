@@ -1,2 +1,2 @@
-Grows Algae!
-Provide {gold:Compost} to boost production by {green:1} tier
+Yosun Yetiştirir!
+Üretimi {green:1} kademe artırmak için {gold:Kompost} sağla

@@ -1,6 +1,6 @@
-Used to scan Data Sticks for Assembly Line Recipes
-Needs to be fed with computation to work
-Does not consume the item until the Data Stick is written
-Use screwdriver to change mode
-Computation required in scanner mode follows the formula:
-Recipe duration in ticks * (2 ^ (Recipe Voltage Tier - 1))
+Montaj Hattı Tarifleri için Data Stick'leri taramakta kullanılır
+Çalışması için hesaplama ile beslenmesi gerekir
+Data Stick yazılana kadar eşyayı tüketmez
+Modu değiştirmek için tornavida kullan
+Tarayıcı modunda gereken hesaplama şu formülü izler:
+Tick cinsinden Tarif süresi * (2 ^ (Tarif Gerilim Kademesi - 1))

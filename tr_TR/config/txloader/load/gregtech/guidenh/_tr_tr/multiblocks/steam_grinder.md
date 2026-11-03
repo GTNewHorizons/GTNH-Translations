@@ -4,35 +4,35 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAKzA
 navigation:
-  title: Steam Grinder
+  title: Buharlı Öğütücü
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:31041
   position: -501
 ---
-# Steam Grinder
+# Buharlı Öğütücü
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31041" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" /> is a multiblock Macerator available in the Steam age. It uses steam to grind ores and materials in batches. As an upgrade to the singleblock Steam Macerator, it can process up to eight copies of the same recipe at once and is useful in early ore processing lines.
+<ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" />, Buhar çağında bulunabilen bir multiblok Öğütücü'dür. Cevherleri ve malzemeleri partiler hâlinde öğütmek için buhar kullanır. Tek blok Buharlı Öğütücü'nün yükseltmesi olarak aynı tarifin sekiz kopyasına kadarını aynı anda işleyebilir ve erken cevher işleme hatlarında işe yarar.
 
-The machine has basic bronze and high pressure steel structures that share the same controller. Upgrading to the high pressure structure increases throughput, but does not raise the maximum recipe tier or provide additional ore byproducts.
+Makinenin aynı Kontrolcüyü paylaşan basit bronz ve Yüksek Basınçlı çelik yapıları vardır. Yüksek basınçlı yapıya yükseltmek verimi artırır, ancak maksimum tarif kademesini yükseltmez ve ek cevher yan ürünleri sağlamaz.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires Diamonds, Pistons, a Tumbaga Frame Box, and other materials |
-| Dimensions | 3×3 footprint, four blocks tall; controller at the front center of the second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Recipe range | Macerator recipes at LV or below, requiring no more than 32 EU/t |
-| Output limit | Only the first item in the recipe's output list; the high pressure structure does not add output types |
-| Parallels | Up to eight copies of the same recipe; lower recipe power does not raise this limit |
-| Processing bonuses | The basic structure runs at 125% of a singleblock bronze Steam Macerator's speed and 62.5% of its steam consumption rate per parallel |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| Açılma kademesi | Buhar; Kontrolcü tarifi Elmas, Piston, bir Tumbaga Çerçeve ve diğer malzemeler gerektirir |
+| Boyutlar | 3×3 taban alanı, dört blok yüksekliğinde; Kontrolcü ikinci katmanın ön ortasında |
+| Güç | Tam olarak bir Buhar Kapağı; Enerji Kapağı yok |
+| Tarif aralığı | LV veya altındaki Öğütücü tarifleri, en fazla 32 EU/t gerektirir |
+| Çıktı sınırı | Yalnızca tarifin çıktı listesindeki ilk eşya; yüksek basınçlı yapı çıktı türü eklemez |
+| Paralel sayısı | Aynı tarifin en fazla sekiz kopyası; daha düşük tarif gücü bu sınırı yükseltmez |
+| İşleme bonusları | Basit yapı, tek blok bronz Buharlı Öğütücü'nün hızının %125'inde çalışır ve paralel başına buhar tüketim oranı onun oranının %62.5'idir |
+| Yükseltmeler ve hız aşırtma | Yüksek basınçlı yapı hızı ve buhar tüketim oranını ikiye katlar; gerilim hız aşırtması yok |
+| Bakım ve kirlilik | Bakım yok, Kirlilik yok ve Egzoz Çıkışı gerekmez |
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+Kontrolcü, basit Kasa ve Buhar Kapağı için mevcut tarifler aşağıda gösterilmiştir. Diğer bileşenlerin tariflerini görmek için tablodaki eşyalara tıkla.
 
 <RecipesFor id="gregtech:gt.blockmachines:31041" />
 
@@ -40,136 +40,136 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### Yapı Malzemeleri
 
-The following quantities assume one Steam Hatch, one Input Bus, and one Output Bus. The basic structure uses bronze components, while the high pressure structure uses their steel counterparts. **The casings, Frame Boxes, and Gear Box Casings in one machine must all be of the same tier.**
+Aşağıdaki miktarlar bir Buhar Kapağı, bir Giriş Yolu ve bir Çıkış Yolu varsayar. Basit yapı bronz bileşenler kullanırken yüksek basınçlı yapı bunların çelik karşılıklarını kullanır. **Bir makinedeki Kasalar, Çerçeveler ve Dişli Kutusu Kasaları aynı kademeden olmalıdır.**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| Bileşen | Basit yapı | Yüksek basınçlı yapı | Miktar ve konum |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 17 in the basic setup; may be replaced with the hatches or buses below, but at least 14 actual casings must remain |
-| Frame Box | <ItemLink id="gregtech:gt.blockframes:300" showIcon="left" /> | <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | Eight, at the four corners of the second and third layers |
-| Gear Box Casing | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | One, at the center of the fourth layer |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" /> | Same controller | One, at the front center of the second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | At least one, replacing a casing |
+| Kasa | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | Basit kurulumda 17; aşağıdaki kapaklar veya yollar ile değiştirilebilir, ancak en az 14 gerçek Kasa kalmalı |
+| Çerçeve | <ItemLink id="gregtech:gt.blockframes:300" showIcon="left" /> | <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | Sekiz; ikinci ve üçüncü katmanların dört köşesinde |
+| Dişli Kutusu Kasası | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | Bir; dördüncü katmanın ortasında |
+| Kontrolcü | <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" /> | Aynı Kontrolcü | Bir; ikinci katmanın ön ortasında |
+| Buhar Kapağı | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Aynı Kapak | Tam olarak bir; bir Kasanın yerine |
+| Giriş Yolu | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Aynı Yol | En az bir; bir Kasanın yerine |
+| Çıkış Yolu | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Aynı Yol | En az bir; bir Kasanın yerine |
 
-The new structure has 20 positions for casings or hatches. Installing the three required interfaces leaves 17 casings; adding buses reduces the casing count accordingly. Hatches and buses cannot replace Frame Boxes or Gear Box Casings.
+Yeni yapıda Kasa veya Kapak için 20 konum vardır. Gerekli üç arayüzü kurmak 17 Kasa bırakır; Yol eklemek Kasa sayısını buna göre azaltır. Kapaklar ve Yollar Çerçevelerin veya Dişli Kutusu Kasalarının yerine geçemez.
 
-### Building by Layer
+### Katman Katman İnşa
 
-Count layers upward from the base. Choose the controller facing first, then follow the interactive structure or hologram layer by layer.
+Katmanları tabandan yukarıya doğru say. Önce Kontrolcünün yönünü seç, ardından etkileşimli yapıyı veya hologramı katman katman takip et.
 
-| Layer | What to place |
+| Katman | Ne yerleştirilecek |
 | --- | --- |
-| First | A full 3×3 base, giving nine casing positions |
-| Second | Frame Boxes at all four corners, the controller at the front center, and one casing position at the center of the left, right, and rear sides |
-| Third | Frame Boxes at all four corners and one casing position at the center of each of the four sides |
-| Fourth | A Gear Box Casing at the center and one casing position at the center of each of the four sides; the four corners do not need blocks |
+| Birinci | Tam 3×3 taban, dokuz Kasa konumu verir |
+| İkinci | Dört köşenin tamamında Çerçeveler, ön ortada Kontrolcü ve sol, sağ ve arka kenarların ortasında birer Kasa konumu |
+| Üçüncü | Dört köşenin tamamında Çerçeveler ve dört kenarın her birinin ortasında birer Kasa konumu |
+| Dördüncü | Ortada bir Dişli Kutusu Kasası ve dört kenarın her birinin ortasında birer Kasa konumu; dört köşede blok gerekmez |
 
-The empty center positions on the second and third layers do not need to be filled with casings. Place the Steam Hatch and steam Input and Output Buses in suitable casing positions for convenient pipe connections. Ordinary electric machine item buses cannot replace the steam versions.
+İkinci ve üçüncü katmanlardaki boş merkez konumlarının Kasa ile doldurulması gerekmez. Buhar Kapağını ve buharlı Giriş ve Çıkış Yollarını kolay boru bağlantıları için uygun Kasa konumlarına yerleştir. Sıradan elektrikli makine eşya yolları buharlı sürümlerin yerine geçemez.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+Yapıyı önizlemek ve inşa etmeye yardımcı olmak için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan. Ana kanal kademesi 1 basit yapıyı, kademe 2 ise yüksek basınçlı yapıyı seçer. Yardımlı inşadan sonra kapakları tak ve yapıyı kontrol et.
 
 > [!NOTE]
-> This page describes the new structure in 2.9.0. The current RC-2 also accepts the old hollow 3×3×3 structure, but the hologram and assisted construction use the new structure. The old page's explanation of parallels based on recipe power does not apply to the current version; the machine's maximum is fixed at eight parallels.
+> Bu sayfa 2.9.0'daki yeni yapıyı açıklar. Mevcut RC-2 eski içi boş 3×3×3 yapıyı da kabul eder, ancak hologram ve yardımlı inşa yeni yapıyı kullanır. Eski sayfanın tarif gücüne dayalı paralel açıklaması mevcut sürüm için geçerli değildir; makinenin maksimumu sekiz paralel olarak sabittir.
 
-## Machine Uses and Outputs
+## Makine Kullanımları ve Çıktılar
 
-The Steam Grinder uses the Macerator recipe map. When checking NEI, first confirm that the item has a Macerator recipe, then check its tier, input quantity, and **first item output**.
+Buharlı Öğütücü, Öğütücü tarif haritasını kullanır. NEI'yi kontrol ederken önce eşyanın Öğütücü tarifi olup olmadığını doğrula, ardından kademesini, girdi miktarını ve **ilk eşya çıktısını** kontrol et.
 
-| Use | Common recipes and considerations |
+| Kullanım | Yaygın tarifler ve dikkat edilecekler |
 | --- | --- |
-| Initial ore crushing | Turns eligible ores into Crushed Ore; this step increases the main output quantity for many common ores, with exact yields shown in NEI |
-| Grinding ore intermediates | Turns eligible Crushed Ore into Impure Dust and Centrifuged Ore into dust; the machine does not automatically perform later washing, centrifuging, or smelting steps |
-| Grinding materials | Turns ingots, gems, and other materials with matching recipes into dust for alloys and further processing |
-| Item recycling | Processes components or items with Macerator recycling recipes; check the outputs before sending in items you still need |
+| İlk cevher kırma | Uygun cevherleri Ezilmiş Cevher'e dönüştürür; bu adım birçok yaygın cevher için ana çıktı miktarını artırır, kesin verimler NEI'de gösterilir |
+| Cevher ara ürünlerini öğütme | Uygun Ezilmiş Cevheri Safsızlıklı Toz'a ve Santrifüjlenmiş Cevheri toza dönüştürür; makine sonraki yıkama, santrifüjleme veya eritme adımlarını otomatik olarak yapmaz |
+| Malzeme öğütme | Külçeleri, değerli taşları ve eşleşen tarifi olan diğer malzemeleri alaşımlar ve ileri işleme için toza dönüştürür |
+| Eşya geri dönüşümü | Öğütücü geri dönüşüm tarifleri olan bileşenleri veya eşyaları işler; hâlâ ihtiyacın olan eşyaları göndermeden önce çıktıları kontrol et |
 
-### Why There Are No Byproducts
+### Neden Yan Ürün Yok
 
-The machine only produces the **first item output** in the Macerator recipe's output list. Items in the second and later positions in NEI are not produced, even if they have an output chance. This is a machine limitation, rather than a shortage of slots in the Output Bus.
+Makine yalnızca Öğütücü tarifinin çıktı listesindeki **ilk eşya çıktısını** üretir. NEI'de ikinci ve sonraki konumlardaki eşyalar, çıktı şansları olsa bile üretilmez. Bu, Çıkış Yolu'ndaki yuva eksikliği değil, makinenin bir sınırlamasıdır.
 
-For example, if a recipe lists a main mineral, an ore byproduct, and Stone Dust as three outputs, the Steam Grinder only uses the quantity and chance of the first output. Adding Output Buses, increasing parallels, or upgrading to the high pressure structure does not unlock the remaining outputs.
+Örneğin bir tarif ana mineral, bir cevher yan ürünü ve Taş Tozu olmak üzere üç çıktı listeliyorsa Buharlı Öğütücü yalnızca ilk çıktının miktarını ve şansını kullanır. Çıkış Yolu eklemek, paralel sayısını artırmak veya yüksek basınçlı yapıya yükseltmek kalan çıktıları açmaz.
 
-If you need ore byproducts from the maceration step, consider machines with more outputs, such as the <ItemLink id="gregtech:gt.blockmachines:303" showIcon="left" />. Ore washing and centrifuging also have their own outputs; plan each step according to its machine and NEI recipe.
+Öğütme adımından cevher yan ürünlerine ihtiyacın varsa <ItemLink id="gregtech:gt.blockmachines:303" showIcon="left" /> gibi daha fazla çıktısı olan makineleri düşün. Cevher yıkama ve santrifüjlemenin de kendi çıktıları vardır; her adımı makinesine ve NEI tarifine göre planla.
 
 > [!NOTE]
-> The machine is available in the Steam age, but only accepts recipes up to LV. Upgrading to the high pressure steel structure does not enable MV or higher-tier recipes and does not change the first-item-output limit.
+> Makine Buhar çağında kullanılabilir, ancak yalnızca LV'ye kadar tarifleri kabul eder. Yüksek basınçlı çelik yapıya yükseltmek MV veya daha yüksek kademeli tarifleri etkinleştirmez ve ilk eşya çıktısı sınırını değiştirmez.
 
-### First Startup
+### İlk Çalıştırma
 
-1. Check the structure and confirm that the Steam Hatch, steam Input Bus, and steam Output Bus are installed.
-2. Connect the steam pipe to the Steam Hatch and confirm that steam actually enters it.
-3. Check the recipe tier and first item output in NEI, and leave space in the Output Bus.
-4. Start the machine with a small amount of material and observe the output route and steam buffer.
-5. Increase input quantities and parallels after confirming a continuous steam supply.
+1. Yapıyı kontrol et ve Buhar Kapağı, buharlı Giriş Yolu ve buharlı Çıkış Yolu'nun takılı olduğunu doğrula.
+2. Buhar borusunu Buhar Kapağına bağla ve buharın gerçekten içine girdiğini doğrula.
+3. NEI'de tarif kademesini ve ilk eşya çıktısını kontrol et ve Çıkış Yolu'nda yer bırak.
+4. Makineyi az miktarda malzemeyle başlat ve çıktı güzergâhını ve buhar tamponunu gözlemle.
+5. Sürekli buhar beslemesini doğruladıktan sonra girdi miktarlarını ve paralel sayısını artır.
 
-## Steam Supply and Throughput
+## Buhar Beslemesi ve Verim
 
-The Steam Grinder can process up to eight copies of **the same recipe** at once. This does not mean it can process eight different items in one cycle. Actual parallels also depend on input quantities, output space, and the parallel limit set in the GUI. Lower-power recipes do not raise the maximum above eight.
+Buharlı Öğütücü aynı anda **aynı tarifin** en fazla sekiz kopyasını işleyebilir. Bu, bir döngüde sekiz farklı eşya işleyebileceği anlamına gelmez. Gerçek paralel sayısı ayrıca girdi miktarlarına, çıktı alanına ve GUI'de ayarlanan paralel sınırına bağlıdır. Daha düşük güçlü tarifler maksimumu sekizin üzerine çıkarmaz.
 
-The basic structure runs at 125% of a singleblock bronze Steam Macerator's speed, taking roughly 80% as long. Its steam consumption rate per parallel is 62.5% of the singleblock machine's rate. Combining both bonuses gives roughly 50% of the total steam consumption for the same amount of material. However, running more parallels still increases the whole machine's instantaneous steam demand.
+Basit yapı, tek blok bronz Buharlı Öğütücü'nün hızının %125'inde çalışır ve yaklaşık %80 süre alır. Paralel başına buhar tüketim oranı, tek blok makinenin oranının %62.5'idir. İki bonus birleştiğinde aynı miktarda malzeme için toplam buhar tüketiminin yaklaşık %50'si elde edilir. Ancak daha fazla paralel çalıştırmak yine de tüm makinenin anlık buhar ihtiyacını artırır.
 
-| Property | Basic structure | High pressure structure |
+| Özellik | Basit yapı | Yüksek basınçlı yapı |
 | --- | --- | --- |
-| Accepted recipe tiers | LV and below | LV and below |
-| Maximum parallels | 8 | 8 |
-| Item output types | Only the recipe's first item output | Only the recipe's first item output |
-| Speed relative to the basic structure | 1× | 2× |
-| Steam consumption rate for the same recipe and parallel count | 1× | 2× |
-| Total steam consumption per recipe | Baseline | Approximately the same as the basic structure |
+| Kabul edilen tarif kademeleri | LV ve altı | LV ve altı |
+| Maksimum paralel | 8 | 8 |
+| Eşya çıktı türleri | Yalnızca tarifin ilk eşya çıktısı | Yalnızca tarifin ilk eşya çıktısı |
+| Basit yapıya göre hız | 1× | 2× |
+| Aynı tarif ve paralel sayısı için buhar tüketim oranı | 1× | 2× |
+| Tarif başına toplam buhar tüketimi | Temel değer | Basit yapıyla yaklaşık aynı |
 
-The high pressure upgrade increases speed and steam consumption rate together. It mainly improves throughput, without halving the total steam cost per item again. Actual duration and steam consumption are also affected by tick and integer rounding.
+Yüksek basınç yükseltmesi hızı ve buhar tüketim oranını birlikte artırır. Esas olarak verimi artırır, eşya başına toplam buhar maliyetini tekrar yarıya indirmez. Gerçek süre ve buhar tüketimi ayrıca tick ve tam sayı yuvarlamasından etkilenir.
 
-The Steam Hatch buffers 64,000 L of steam, but this only covers temporary shortfalls and cannot replace continuous boiler production. Size boilers and pipes for the **steam consumption rate while processing**.
+Buhar Kapağı 64.000 L buhar tamponlar, ancak bu yalnızca geçici eksiklikleri karşılar ve sürekli kazan üretiminin yerini tutamaz. Kazanları ve boruları **işleme sırasındaki buhar tüketim oranına** göre boyutlandır.
 
-Use Waila to check the operating steam consumption rate and watch whether the buffer keeps falling during continuous processing. If a value is shown in L/t, multiply by 20 to get L/s at the normal 20 TPS. Use matching units when comparing pipe throughput. If steam supply is insufficient, lower the parallel limit in the GUI, then increase boiler production or improve the piping.
+Çalışma sırasındaki buhar tüketim oranını kontrol etmek için Waila kullan ve sürekli işleme sırasında tamponun düşmeye devam edip etmediğini izle. Bir değer L/t olarak gösteriliyorsa normal 20 TPS'de L/s elde etmek için 20 ile çarp. Boru verimini karşılaştırırken uyumlu birimler kullan. Buhar beslemesi yetersizse GUI'deki paralel sınırını düşür, ardından kazan üretimini artır veya boru tesisatını iyileştir.
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation, and materials already consumed are not returned. Check steam production and pipe throughput before upgrading to high pressure or increasing the parallel limit.
+> İşleme sırasında buharın bitmesi mevcut işlemi iptal eder ve hâlihazırda tüketilen malzemeler geri verilmez. Yüksek basınca yükseltmeden veya paralel sınırını artırmadan önce buhar üretimini ve boru verimini kontrol et.
 
-## Upgrading to High Pressure
+## Yüksek Basınca Yükseltme
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31041" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. Replace **all** Bronze Plated Bricks, Bronze Frame Boxes, and Bronze Gear Box Casings with the Solid Steel Machine Casings, Steel Frame Boxes, and Steel Gear Box Casings listed in the table. Replacing only the casings, or leaving some bronze frames or gearboxes, fails the new structure's tier check.
+Yüksek basınçlı yapı aynı boyutları, kapak konumlarını ve Kontrolcüyü korur. **Tüm** Bronz Kaplamalı Tuğlaları, Bronz Çerçeveleri ve Bronz Dişli Kutusu Kasalarını tabloda listelenen Sağlam Çelik Makine Kasaları, Çelik Çerçeveler ve Çelik Dişli Kutusu Kasalarıyla değiştir. Yalnızca kasaları değiştirmek veya bazı bronz çerçeveleri ya da dişli kutularını bırakmak yeni yapının kademe kontrolünde başarısız olur.
 
-Stop processing and material input before upgrading. After replacing the components, check the structure again and confirm the machine displays the high pressure tier before restoring steam and production.
+Yükseltmeden önce işlemeyi ve malzeme girdisini durdur. Bileşenleri değiştirdikten sonra yapıyı tekrar kontrol et ve buhar ile üretimi geri yüklemeden önce makinenin yüksek basınç kademesini gösterdiğini doğrula.
 
-High pressure is a structure tier, not a separate steam fluid. The machine still uses ordinary steam, and the existing Steam Hatch and steam buses can be reused. No Energy Hatch is needed. The upgrade doubles speed and steam consumption rate, but the maximum remains eight parallels.
+Yüksek basınç ayrı bir buhar sıvısı değil, bir yapı kademesidir. Makine hâlâ sıradan buhar kullanır ve mevcut Buhar Kapağı ve buharlı yollar yeniden kullanılabilir. Enerji Kapağı gerekmez. Yükseltme hızı ve buhar tüketim oranını ikiye katlar, ancak maksimum sekiz paralel olarak kalır.
 
-## Automation and Item Routing
+## Otomasyon ve Eşya Yönlendirme
 
-Steam Input and Output Buses each have four item slots. They do not automatically pull from adjacent chests or push products into them; placing a chest next to a bus is not enough for automation.
+Buharlı Giriş ve Çıkış Yollarının her biri dört eşya yuvasına sahiptir. Bitişik sandıklardan otomatik olarak çekmez veya ürünleri onlara itmez; bir sandığı yolun yanına koymak otomasyon için yeterli değildir.
 
-- **Input:** Use hoppers, GT item pipes, conveyors, or item conduits to send items into the front face of the Input Bus.
-- **Output:** Actively extract from the front face of the Output Bus with pipes, conduits, or conveyors, then route products to storage or the next machine.
-- **Steam:** Connect fluid pipes from the boiler to the Steam Hatch. Item buses cannot receive steam.
-- **Routing:** Set filters for ores, Crushed Ore, Impure Dust, and other materials so intermediates do not enter the wrong processing step.
+- **Girdi:** Eşyaları Giriş Yolu'nun ön yüzüne göndermek için huniler, GT eşya boruları, konveyörler veya eşya kanalları kullan.
+- **Çıktı:** Borular, kanallar veya konveyörlerle Çıkış Yolu'nun ön yüzünden aktif olarak çek ve ürünleri depolamaya ya da sonraki makineye yönlendir.
+- **Buhar:** Kazandan Buhar Kapağına sıvı boruları bağla. Eşya yolları buhar alamaz.
+- **Yönlendirme:** Cevherler, Ezilmiş Cevher, Safsızlıklı Toz ve diğer malzemeler için filtreler ayarla, böylece ara ürünler yanlış işleme adımına girmez.
 
-The same grinder may serve several steps in an ore processing line. If both raw ores and newly produced Crushed Ore are sent back to the same Input Bus, check filters and priorities so one step does not continually fill the input slots. For continuous processing through several steps, consider separate machines and check the steam supply shared by the entire line.
+Aynı öğütücü bir cevher işleme hattında birkaç adıma hizmet edebilir. Hem ham cevherler hem de yeni üretilen Ezilmiş Cevher aynı Giriş Yoluna geri gönderiliyorsa, bir adımın girdi yuvalarını sürekli doldurmaması için filtreleri ve öncelikleri kontrol et. Birkaç adımdan geçen sürekli işleme için ayrı makineler düşün ve tüm hattın paylaştığı buhar beslemesini kontrol et.
 
-Additional Input Buses expand item buffering, while additional Output Buses help prevent output congestion. Neither raises the parallel limit or unlocks byproducts. Keep at least 14 actual casings when expanding, and do not install a second Steam Hatch.
+Ek Giriş Yolları eşya tamponlamasını genişletirken ek Çıkış Yolları çıktı tıkanıklığını önlemeye yardımcı olur. İkisi de paralel sınırını yükseltmez veya yan ürünleri açmaz. Genişletirken en az 14 gerçek Kasa bırak ve ikinci bir Buhar Kapağı takma.
 
-## Troubleshooting
+## Sorun Giderme
 
-| Symptom | What to check |
+| Belirti | Neyi kontrol etmeli |
 | --- | --- |
-| Incomplete new structure | Is the footprint 3×3 and the height four blocks? Is the controller at the front center of the second layer? Are the eight Frame Boxes on the second and third layers and the top Gear Box Casing correctly positioned? |
-| Structure tier mismatch | Are the casings, Frame Boxes, and Gear Box Casing all of the same tier? Were only some bronze components replaced? |
-| Missing Steam Hatch or buses | Is there exactly one Steam Hatch and at least one steam Input Bus and Output Bus? Were ordinary electric machine item buses used by mistake? |
-| Structure fails after adding buses | Are at least 14 actual casings left? Were any Frame Boxes or the Gear Box Casing replaced with buses? |
-| Inputs present but no recipe found | Does the item have a Macerator recipe? Are there enough inputs for one recipe? Is there enough output space? |
-| Recipe tier too high | Does the recipe shown in NEI exceed LV? The high pressure structure also cannot process MV or higher-tier recipes. |
-| NEI shows byproducts that the machine does not produce | The machine only produces the first item output. Adding Output Buses or upgrading to the high pressure structure does not unlock the remaining outputs. |
-| Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
-| Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
-| Fewer than eight recipes processed at once | Are there enough materials for copies of the same recipe? Is the parallel limit set lower? Can the output slots hold all products? |
+| Yeni yapı tamamlanmamış | Taban alanı 3×3 ve yükseklik dört blok mu? Kontrolcü ikinci katmanın ön ortasında mı? İkinci ve üçüncü katmanlardaki sekiz Çerçeve ve üstteki Dişli Kutusu Kasası doğru konumda mı? |
+| Yapı kademesi uyuşmuyor | Kasalar, Çerçeveler ve Dişli Kutusu Kasası aynı kademede mi? Yalnızca bazı bronz bileşenler mi değiştirildi? |
+| Buhar Kapağı veya yollar eksik | Tam olarak bir Buhar Kapağı ve en az bir buharlı Giriş Yolu ve Çıkış Yolu var mı? Yanlışlıkla sıradan elektrikli makine eşya yolları mı kullanıldı? |
+| Yol ekledikten sonra yapı başarısız oluyor | En az 14 gerçek Kasa kaldı mı? Herhangi bir Çerçeve veya Dişli Kutusu Kasası yollarla değiştirildi mi? |
+| Girdi var ama tarif bulunamadı | Eşyanın Öğütücü tarifi var mı? Bir tarif için yeterli girdi var mı? Yeterli çıktı alanı var mı? |
+| Tarif kademesi çok yüksek | NEI'de gösterilen tarif LV'yi aşıyor mu? Yüksek basınçlı yapı da MV veya daha yüksek kademeli tarifleri işleyemez. |
+| NEI makinenin üretmediği yan ürünleri gösteriyor | Makine yalnızca ilk eşya çıktısını üretir. Çıkış Yolu eklemek veya yüksek basınçlı yapıya yükseltmek kalan çıktıları açmaz. |
+| Kapakta buhar olmasına rağmen makine duruyor | Sürekli besleme yetişebiliyor mu? Borular kısıtlı mı veya diğer makinelerle buhar mı paylaşıyor? Mevcut paralel sayısı ve yüksek basınç kademesi kazan kapasitesini aşıyor mu? |
+| Yolun yanındaki sandık eşya aktarmıyor | Buharlı yollar eşyaları otomatik olarak çekmez veya itmez. Aktif aktarım ekipmanını, bağlantı yüzünü, yönü ve filtreleri kontrol et. |
+| Aynı anda sekizden az tarif işleniyor | Aynı tarifin kopyaları için yeterli malzeme var mı? Paralel sınırı daha düşük mü ayarlanmış? Çıktı yuvaları tüm ürünleri alabiliyor mu? |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+Genel yapı kontrolleri ve araç kullanımı için [Multiblok Makineler](./multiblocks_index.md) sayfasına bak.
 
-## Related Pages
+## İlgili Sayfalar
 
-- [GTNH Wiki: Steam Grinder](https://wiki.gtnewhorizons.com/wiki/Steam_Grinder)
+- [GTNH Wiki: Buharlı Öğütücü](https://wiki.gtnewhorizons.com/wiki/Steam_Grinder)

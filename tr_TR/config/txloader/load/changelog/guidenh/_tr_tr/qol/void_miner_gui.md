@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Void Miner Filtering
+  title: Boşluk Madencisi Filtreleme
   parent: qol.md
   icon: gregtech:gt.blockmachines:12739
 categories:
@@ -9,22 +9,22 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Void Miner Filtering
+# Boşluk Madencisi Filtreleme
 
-Ever found the process of adding specific ores to input buses for filtering your array of <Color id="RED">Void Miners</Color> tedious?
+<Color id="RED">Boşluk Madencileri</Color> dizinizi filtrelemek için giriş yollarına belirli cevherler ekleme sürecini hiç sıkıcı buldun mu?
 
-Now it is all able to be done through a single UI within the Void Miner itself!
+Artık hepsi Boşluk Madencisinin kendi içindeki tek bir arayüzden yapılabiliyor!
 
-Opening the new interface, you can toggle each ore from the current dimensions drop pool as you require. This change also adds:
-- Toggling between blacklist and whitelist mode without having to use a pesky old screwdriver
-- Copying and loading filter configurations using a <Color id="GREEN">Data Stick</Color>
-- Searching for, and highlighting ores by name
-- Adding or removing __all__ ores via a specific button
+Yeni arayüzü açarak mevcut boyutun düşme havuzundaki her cevheri istediğin gibi açıp kapatabilirsin. Bu değişiklik ayrıca şunları ekler:
+- Sinir bozucu eski tornavidayı kullanmadan kara liste ve beyaz liste modları arasında geçiş yapma
+- Bir <Color id="GREEN">Veri Çubuğu</Color> kullanarak filtre yapılandırmalarını kopyalama ve yükleme
+- Cevherleri ada göre arama ve vurgulama
+- Belirli bir düğmeyle __tüm__ cevherleri ekleme veya kaldırma
 
 > [!NOTE]
-> This new UI is fully compatible with existing setups, any ore in an input bus __OR__ selected in the UI is filtered
+> Bu yeni arayüz mevcut düzeneklerle tamamen uyumludur; bir giriş yolundaki __VEYA__ arayüzde seçilmiş herhangi bir cevher filtrelenir
 <FloatingImage src="../assets/qol/void_miner.png" align="left" wrap="square" displayWidth="128">
   <ImageAnnotation>
-    The new <Color id="RED">Void Miner Filtering</Color> panel
+    Yeni <Color id="RED">Boşluk Madencisi Filtreleme</Color> paneli
   </ImageAnnotation>
 </FloatingImage>

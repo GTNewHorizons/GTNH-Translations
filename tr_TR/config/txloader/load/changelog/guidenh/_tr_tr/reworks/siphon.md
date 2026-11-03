@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15559
 navigation:
-  title: Planetary Gas Siphon
+  title: Gezegen Gaz Sifonu
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15559
 categories:
@@ -11,70 +11,70 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Planetary Gas Siphon
+# Gezegen Gaz Sifonu
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15559"/>
 </GameScene>
-The <Color id="GREEN">Planetary Gas Siphon (PGS)</Color> is an IV tier multiblock for harvesting an infinite amount of gas from the gas giants Jupiter, Saturn, Uranus, and Neptune. The <Color id="GREEN">PGS</Color> is similar to a Fluid Drilling Rig <ItemImage id="gregtech:gt.blockmachines:149"/> except it operates from a space station high above the planets' surface. Each gas giant has four different gases, but only one can be extracted at a time. Adjust the programmed circuit value in the input bus to change the depth of the <ItemImage id="gregtech:gt.blockmachines:149"/> and therefore which gas to extract. Increase the extraction rate (L/s) of the machine by upgrading the heating coils and/or the energy hatch. 
+<Color id="GREEN">Gezegen Gaz Sifonu (PGS)</Color>, Jüpiter, Satürn, Uranüs ve Neptün gaz devlerinden sonsuz miktarda gaz toplamak için IV kademe bir multibloğdur. <Color id="GREEN">PGS</Color>, gezegenlerin yüzeyinin çok üzerindeki bir uzay istasyonundan çalışması dışında bir Sıvı Sondaj Kulesine <ItemImage id="gregtech:gt.blockmachines:149"/> benzer. Her gaz devinde dört farklı gaz vardır, ancak aynı anda yalnızca biri çıkarılabilir. <ItemImage id="gregtech:gt.blockmachines:149"/> derinliğini ve dolayısıyla hangi gazın çıkarılacağını değiştirmek için giriş yolundaki programlanmış devre değerini ayarla. Isıtma bobinlerini ve/veya enerji kapağını yükselterek makinenin çıkarma oranını (L/s) artır.
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> Coil Tiering: Higher tier coils grant a +10% speed boost per tier (additive)
-> Doubled Base Speed: The base processing speed has been doubled compared to the old structure
-> WAILA Upgrade: Hovering the controller now shows your current speed bonus and coil tier
+> Multibloğa (yapı dışında) aşağıdaki değişiklikler yapıldı:
+> Bobin Kademelendirmesi: Daha yüksek kademeli bobinler kademe başına +%10 hız bonusu verir (toplanır)
+> İki Katına Çıkan Temel Hız: Temel işleme hızı eski yapıya göre iki katına çıkarıldı
+> WAILA Yükseltmesi: Kontrolcünün üzerine gelmek artık mevcut hız bonusunu ve bobin kademesini gösterir
 
-## Construction
-The <Color id="GREEN">PGS</Color> has one tiered component. The heating coils determine the speed bonus of the machine. Buses/hatches may replace any siphon casing anywhere on the structure, but there must be exactly one of each including the energy hatch. Multi-amp and laser energy hatches are not supported. The mining pipes in the input bus are never consumed by the controller or placed in the world so the <Color id="GREEN">PGS</Color> does not need a direct line of sight to the gas giant below. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "coil" to specify the tier of the heating coils. 
+## İnşa
+<Color id="GREEN">PGS</Color>'nin tek kademeli bir bileşeni vardır. Isıtma bobinleri makinenin hız bonusunu belirler. Veriyolları/kapaklar yapının herhangi bir yerindeki sifon kasasının yerine geçebilir, ancak enerji kapağı dahil her birinden tam olarak bir tane olmalıdır. Çok amperli ve lazer enerji kapakları desteklenmez. Giriş yolundaki madencilik boruları kontrolcü tarafından asla tüketilmez veya dünyaya yerleştirilmez, bu yüzden <Color id="GREEN">PGS</Color>'nin aşağıdaki gaz devine doğrudan görüş hattına ihtiyacı yoktur. Isıtma bobinlerinin kademesini belirtmek için "coil" alt kanalıyla yapıyı görselleştirmek/inşa etmek üzere <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan.
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15559"/><ItemImage id="gregtech:gt.blockmachines:15559"/>
 - 184 <ItemLink id="gtnhintergalactic:gassiphoncasing"/><ItemImage id="gtnhintergalactic:gassiphoncasing"/>
 - 93 <ItemLink id="gregtech:gt.blockframes:316"/><ItemImage id="gregtech:gt.blockframes:316"/>
-- 12 Heating Coil (Tiered) <ItemLink id="gregtech:gt.blockcasings5:13"/><ItemImage id="gregtech:gt.blockcasings5:13"/>
+- 12 Isıtma Bobini (Kademeli) <ItemLink id="gregtech:gt.blockcasings5:13"/><ItemImage id="gregtech:gt.blockcasings5:13"/>
 - 6 <ItemLink id="bartworks:bw.werkstoffblockscasingadvanced.01:88"/><ItemImage id="bartworks:bw.werkstoffblockscasingadvanced.01:88"/>
-- 1 Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Output Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1 Enerji Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 Bakım Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ Giriş Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ Çıkış Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-PGS may wallshare each of their sides to save on casings, heating coils, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> or even <u>__four__</u> machines.
+### Duvar Paylaşımı
+PGS kasa, ısıtma bobini ve veriyolu/kapaktan tasarruf etmek için her bir kenarını duvar paylaşımıyla kullanabilir. Hiçbir tarif 1A'dan fazla güç kullanmadığından <u>__tek__</u> bir enerji kapağı <u>__iki__</u> hatta <u>__dört__</u> makine arasında paylaşılabilir.
 
-## Space Stations
-<Color id="GREEN">PGS</Color> must be built on a space station orbiting a gas giant. <Color id="BLUE">Space Stations</Color> are built by launching a rocket into space, clicking on a planet, and pressing the CREATE button on the right side of the screen where it says "A Space Station can be created here!". The cost of the space station for each of the gas giants is listed below. The player must have the required materials in their inventory (not a backpack or compressed chest) to press the button. The space station then appears as a satellite orbiting around the planet in the Galaxy Map, similar to a moon.
+## Uzay İstasyonları
+<Color id="GREEN">PGS</Color> bir gaz devinin yörüngesindeki bir uzay istasyonunda inşa edilmelidir. <Color id="BLUE">Uzay İstasyonları</Color>, uzaya bir roket fırlatıp bir gezegene tıklayarak ve ekranın sağ tarafında "Buraya bir Uzay İstasyonu oluşturulabilir!" yazan yerdeki CREATE düğmesine basarak inşa edilir. Gaz devlerinin her biri için uzay istasyonu maliyeti aşağıda listelenmiştir. Oyuncunun düğmeye basabilmesi için gerekli materyalleri envanterinde (sırt çantasında veya sıkıştırılmış sandıkta değil) bulundurması gerekir. Uzay istasyonu daha sonra Galaksi Haritasında gezegenin yörüngesinde, bir ay gibi bir uydu olarak görünür.
 
-- Jupiter - 1 EV Machine Hull, 4 EV Circuits, 6 Glass Panes, 231 Decorative Nickel Block
-- Saturn - 1 LuV Machine Hull, 4 LuV Circuits, 6 Glass Panes, 231 Decorative Mithril Block
-- Uranus - 1 LuV Machine Hull, 4 LuV Circuits, 6 Glass Panes, 231 Decorative Tungsten Block
-- Neptune - 1 ZPM Machine Hull, 4 ZPM Circuits, 6 Glass Panes, 231 Decorative Adamantite Block
+- Jüpiter - 1 EV Makine Gövdesi, 4 EV Devresi, 6 Cam Panel, 231 Dekoratif Nikel Bloğu
+- Satürn - 1 LuV Makine Gövdesi, 4 LuV Devresi, 6 Cam Panel, 231 Dekoratif Mithril Bloğu
+- Uranüs - 1 LuV Makine Gövdesi, 4 LuV Devresi, 6 Cam Panel, 231 Dekoratif Tungsten Bloğu
+- Neptün - 1 ZPM Makine Gövdesi, 4 ZPM Devresi, 6 Cam Panel, 231 Dekoratif Adamantit Bloğu
 
-Although not visible in NEI or the Galaxy Map, there is a tier associated with each gas giant. The player is unable to see or navigate to a gas giant's space station if the tier of their rocket is too low, despite their ability to create a space station with any rocket. 
+NEI'de veya Galaksi Haritasında görünmese de her gaz deviyle ilişkili bir kademe vardır. Roketlerinin kademesi çok düşükse oyuncu, herhangi bir roketle uzay istasyonu oluşturabilmesine rağmen bir gaz devinin uzay istasyonunu göremez veya oraya gidemez.
 
-<Color id="BLUE">Space Stations</Color> are initially very small and have an extremely awkward gravity effect. However, the player can make them as large as they would like and can build some walls/roofs to keep themselves from flying off into space. There is also no oxygen on space stations so bring a few extra oxygen tanks, or an oxygen collector and oxygen compressor for a more permanent solution. Leave a space station by launching a rocket from a launch pad. A filled rocket has more than enough fuel for a round-trip flight, but it may not be a bad idea to bring along a fuel loader and some extra rocket fuel just in case. 
+<Color id="BLUE">Uzay İstasyonları</Color> başlangıçta çok küçüktür ve son derece garip bir yerçekimi etkisine sahiptir. Ancak oyuncu onları istediği kadar büyütebilir ve uzaya uçup gitmemek için birkaç duvar/çatı inşa edebilir. Uzay istasyonlarında oksijen de yoktur, bu yüzden birkaç yedek oksijen tüpü veya daha kalıcı bir çözüm için bir oksijen toplayıcı ve oksijen kompresörü getir. Bir uzay istasyonundan ayrılmak için fırlatma rampasından roket fırlat. Dolu bir roket gidiş-dönüş uçuşu için fazlasıyla yeterli yakıta sahiptir, ancak her ihtimale karşı bir yakıt yükleyici ve biraz ekstra roket yakıtı getirmek fena fikir olmayabilir.
 
-## Usage
-The <Color id="GREEN">PGS</Color> harvests an infinite amount of gas from the gas giants Jupiter, Saturn, Uranus, and Neptune. However, it can only harvest one gas at a time, there is a minimum voltage tier for each gas, and overclocking can only be done by upgrading the energy hatch itself. Adjust the programmed circuit value in the input bus to change the depth of the <Color id="GREEN">PGS</Color> and therefore which gas to extract from the gas giant.
+## Kullanım
+<Color id="GREEN">PGS</Color>, Jüpiter, Satürn, Uranüs ve Neptün gaz devlerinden sonsuz miktarda gaz toplar. Ancak aynı anda yalnızca bir gaz toplayabilir, her gaz için minimum bir gerilim kademesi vardır ve overclock yalnızca enerji kapağının kendisi yükseltilerek yapılabilir. <Color id="GREEN">PGS</Color>'nin derinliğini ve dolayısıyla gaz devinden hangi gazın çıkarılacağını değiştirmek için giriş yolundaki programlanmış devre değerini ayarla.
 
-The depth also determines the inputs to the machine. The required number of mining pipes in the input bus is $$\text{Depth} \times 64$$ and the base EU/t is $$\text{Depth} \times 4^{T+2}$$ where $$T$$  is the tier of the gas giant. For example, pumping helium on Jupiter requires 128 mining pipes and the base power consumption is 2,048 EU/t or 1A EV. Overclocks always keep the number of amps the same regardless of voltage.
+Derinlik ayrıca makinenin girdilerini de belirler. Giriş yolunda gereken madencilik borusu sayısı $$\text{Depth} \times 64$$ ve temel EU/t $$\text{Depth} \times 4^{T+2}$$; burada $$T$$ gaz devinin kademesidir. Örneğin Jüpiter'de helyum pompalamak 128 madencilik borusu gerektirir ve temel güç tüketimi 2.048 EU/t yani 1A EV'dir. Overclock'lar gerilimden bağımsız olarak amper sayısını her zaman aynı tutar.
 
-The rate (L/s) at which gas is extracted depends on the gas giant, type of gas, and available power, as seen in the following tables. The <Color id="GREEN">PGS</Color> runs at 200% speed and gains a +10% speed bonus per heating coil tier, but the latter is NOT included in the listed rates. 
+Gazın çıkarılma oranı (L/s), aşağıdaki tablolarda görüldüğü gibi gaz devine, gaz türüne ve mevcut güce bağlıdır. <Color id="GREEN">PGS</Color> %200 hızda çalışır ve ısıtma bobini kademesi başına +%10 hız bonusu kazanır, ancak ikincisi listelenen oranlara DAHİL DEĞİLDİR.
 
-| Heating Coil   | Speed    |
+| Isıtma Bobini   | Hız    |
 |--------------- | --------------- |
-| Cupronickel   | 210%   |
-| Kanthal   | 220%   |
-| Nichrome   | 230%   |
-| TPV-Alloy   | 240%   |
-| HSS-G   | 250%   |
-| HSS-S   | 260%    |
-| Naquadah   | 270%   |
-| Naquadah Alloy   | 280%   |
-| Trinium   | 290%   |
-| Fluxed Electrum   | 300%   |
-| Awakened Draconium   | 310%   |
-| Infinity   | 320%   |
-| Hypogen   | 330%   |
-| Eternal   | 340%   |
+| Bakır-Nikel   | %210   |
+| Kantal   | %220   |
+| Nikrom   | %230   |
+| TPV-Alaşım   | %240   |
+| HSS-G   | %250   |
+| HSS-S   | %260    |
+| Naquadah   | %270   |
+| Naquadah Alaşımı   | %280   |
+| Trinyum   | %290   |
+| Yüklenmiş Elektrum   | %300   |
+| Uyandırılmış Drakonyum   | %310   |
+| Sonsuzluk   | %320   |
+| Hipojen   | %330   |
+| Ebedi   | %340   |

@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Interface Terminal Changes
+  title: Arayüz Terminali Değişiklikleri
   parent: ae2.md
   icon: appliedenergistics2:item.ItemMultiPart:480
 categories:
@@ -9,11 +9,11 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Interface Terminal Changes
-Managing a big ME network with dozens of interfaces has always been somewhat of a guessing game. Everything looks identical, and clutter is almost unavoidable. To combat this, the following changes have been made:
-- __Block Icons in section headers__: Each group of interfaces now shows a small icon of the actual interface block, so you can differentiate between Regular <ItemImage id="appliedenergistics2:tile.BlockInterface"/> and Dual <ItemImage id="ae2fc:fluid_interface"/> Interfaces at a glance.
-- __Priority Tooltips__: Hover over the interface icon to see the block's name, the current priority, and how many interfaces are in that group
-- __Wrong-Type Pattern Highlighting__: If you accidentally put a fluid pattern into a regular ME Interface, the slot lights up red in both the ME Interface GUI, and the Interface Terminal
-- __Hide Interfaces from Terminal__: Alt + Click the highlight button on any interface entry to toggle its visibility. As with the previous way of hiding them, they are still connected to your network, just hidden from the clutter!
-- __Show Hidden Toggle__: A new sidebar button allows you to reveal all hidden interfaces at once, so you can manage them without going to each individually
-- __Ghost Circuits and Non-Consumables__: GT Machines and Crafting Input Bus/Buffers now include their recipe configurations in the terminal name as follows: <Color id="GREEN">_Machine Name_ [24] {Extruder Shape (Rod)}</Color>. This is fully configurable in `config/GregTech/Machines`
+# Arayüz Terminali Değişiklikleri
+Onlarca arayüze sahip büyük bir ME ağını yönetmek her zaman bir tür tahmin oyunu olmuştur. Her şey aynı görünür ve dağınıklık neredeyse kaçınılmazdır. Bununla mücadele etmek için aşağıdaki değişiklikler yapıldı:
+- __Bölüm başlıklarında Blok Simgeleri__: Artık her arayüz grubu, gerçek arayüz bloğunun küçük bir simgesini gösterir; böylece Normal <ItemImage id="appliedenergistics2:tile.BlockInterface"/> ile Çift <ItemImage id="ae2fc:fluid_interface"/> Arayüzler arasında bir bakışta ayrım yapabilirsin.
+- __Öncelik İpuçları__: Arayüz simgesinin üzerine gelerek bloğun adını, geçerli önceliği ve o grupta kaç arayüz olduğunu görebilirsin
+- __Yanlış Türde Kalıp Vurgulama__: Yanlışlıkla normal bir ME Arayüzüne sıvı kalıbı koyarsan, yuva hem ME Arayüzü GUI'sinde hem de Arayüz Terminalinde kırmızı yanar
+- __Arayüzleri Terminalden Gizle__: Herhangi bir arayüz girişindeki vurgulama düğmesine Alt + Tıklayarak görünürlüğünü aç/kapat. Onları gizlemenin önceki yönteminde olduğu gibi, hâlâ ağına bağlıdırlar; sadece dağınıklıktan gizlenmişlerdir!
+- __Gizlileri Göster Anahtarı__: Yeni bir kenar çubuğu düğmesi, tüm gizli arayüzleri tek seferde göstermene olanak tanır; böylece her birine tek tek gitmeden onları yönetebilirsin
+- __Hayalet Devreler ve Tüketilmeyenler__: GT Makineleri ve Üretim Giriş Yolu/Tamponları artık tarif yapılandırmalarını terminal adına şu şekilde dahil ediyor: <Color id="GREEN">_Makine Adı_ [24] {Ekstrüder Şekli (Çubuk)}</Color>. Bu, `config/GregTech/Machines` içinde tamamen yapılandırılabilir

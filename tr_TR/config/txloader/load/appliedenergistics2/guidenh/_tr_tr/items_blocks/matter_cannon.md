@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Matter Cannon
+  title: Madde Topu
   icon: appliedenergistics2:item.ToolMassCannon
 categories:
 - tools
@@ -9,27 +9,27 @@ item_ids:
 - appliedenergistics2:item.ToolMassCannon
 ---
 
-# Matter Cannon
+# Madde Topu
 
 <ItemImage id="appliedenergistics2:item.ToolMassCannon" scale="4" />
 
-The matter cannon is a portable railgun that fires small items as projectiles, including <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:6" /> and metal nuggets. Damage depends on the ammunition: heavier items such as gold nuggets deal more damage than matter balls. Each shot consumes 1600 AE.
+Madde topu, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:6" /> ve metal kırıntıları gibi küçük eşyaları mermi olarak fırlatan taşınabilir bir raylı tüfektir. Hasar mühimmata bağlıdır: altın kırıntısı gibi daha ağır eşyalar madde kürelerinden daha fazla hasar verir. Her atış 1600 AE tüketir.
 
-When `matterCannonBlockDamage` is enabled, the cannon can break blocks according to their hardness and the ammunition's damage. Recharge it in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
+`matterCannonBlockDamage` etkinleştirildiğinde top, blokları sertliklerine ve mühimmatın hasarına göre kırabilir. Onu bir <ItemLink id="appliedenergistics2:tile.BlockCharger" /> içinde şarj et.
 
-Like a [storage cell](storage_cells.md), the cannon's ammunition magazine can be filled by placing it in the component slot of an <ItemLink id="appliedenergistics2:tile.BlockChest" />.
+Bir [depolama hücresi](storage_cells.md) gibi, topun mühimmat şarjörü de top bir <ItemLink id="appliedenergistics2:tile.BlockChest" /> bileşen yuvasına yerleştirilerek doldurulabilir.
 
-## Upgrades
+## Yükseltmeler
 
-The cannon supports these [upgrades](upgrade_cards.md), installed with a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />:
+Top şu [yükseltmeleri](upgrade_cards.md) destekler ve bunlar bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> ile takılır:
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> enables fuzzy matching and NBT-ignoring filters.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> switches the whitelist to a blacklist.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> increases energy use per shot and projectile power.
-* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> voids excess ammunition when full.~~
-* ~~<ItemLink id="ae2fc:energy_card" /> increases battery capacity.~~
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> bulanık eşleştirmeyi ve NBT yok sayan filtreleri etkinleştirir.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> beyaz listeyi kara listeye çevirir.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> atış başına enerji kullanımını ve mermi gücünü artırır.
+* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> dolduğunda fazla mühimmatı yok eder.~~
+* ~~<ItemLink id="ae2fc:energy_card" /> pil kapasitesini artırır.~~
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:item.ToolMassCannon" />
 

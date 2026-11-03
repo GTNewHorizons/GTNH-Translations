@@ -4,74 +4,74 @@ item_ids:
 quest_ids:
   - RLJR8nFySzSaZLeCRsabDg==
 navigation:
-  title: Beam Splitter
+  title: Işın Ayrıştırıcı
   parent: ./large_hadron_collider.md
   icon: gregtech:gt.blockmachines:3017
   position: -8001
 ---
-# Beam Splitter
+# Işın Ayrıştırıcı
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:3017" />
 </GameScene>
-The <ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" /> is a UV tier multiblock for filtering and/or splitting particle beams. 
+<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />, parçacık ışınlarını filtrelemek ve/veya bölmek için UV kademe bir multibloktur. 
 
-The Beam Splitter only supports one beam input hatch and four filtered beam output hatches, but it does not require any power or maintenance to run. 
+Işın Ayrıştırıcı yalnızca bir ışın girdi kapağı ve dört filtreli ışın çıkış kapağı destekler; ancak çalışmak için enerji veya bakım gerektirmez. 
 
-The Beam Splitter is completely optional, but may assist with the [Beam Line](./beam_line.md) and/or the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md). Also try the [<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />](./beam_mirror.md) and [<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md) before processing recipes in the [<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md).
+Işın Ayrıştırıcı tamamen isteğe bağlıdır, ancak [Işın Hattı](./beam_line.md) ve/veya [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) ile birlikte işine yarayabilir. Ayrıca [<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />](./beam_mirror.md) ve [<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md) araçlarını [<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md) içinde tarif işlemeden önce dene.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | UV |
-| Structure Size (LxWxH) | 9x9x3 |
-| Power | None |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| Kilit Açma Kademesi | UV |
+| Yapı Boyutu (UxGxY) | 9x9x3 |
+| Enerji | Yok |
+| Overclock | Yok |
+| Bakım | Bakım gerekmez |
+| Kirlilik | Kirlilik üretmez |
 
-## Crafting and Construction
-### Crafting
+## Üretim ve İnşa
+### Üretim
 <RecipesFor id="gregtech:gt.blockmachines:3017" handlerBlacklist="gt.recipe.researchStation" />
 
 <RecipesFor id="gregtech:gt.blockcasings3:10" />
 
 <RecipesFor id="gtnhlanth:casing.shielded_accelerator" handlerBlacklist="bq_quest" />
 
-### Structure
-The Beam Splitter has no tiered components. The glass can be any tier and has no effect on the operation of the machine. 
+### Yapı
+Işın Ayrıştırıcı'da kademeli bileşen yoktur. Cam herhangi bir kademede olabilir ve makinenin çalışmasını etkilemez. 
 
-The Beam Splitter can be rotated or flipped.
+Işın Ayrıştırıcı döndürülebilir veya ters çevrilebilir.
 
-The Beam Splitter only supports <ItemLink id="gregtech:gt.blockmachines:3014" showIcon="left" />.
+Işın Ayrıştırıcı yalnızca <ItemLink id="gregtech:gt.blockmachines:3014" showIcon="left" /> destekler.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+Camın kademesini belirtmek için "glass" alt kanalıyla yapıyı görselleştirmek/inşa etmek üzere <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan.
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" /> | 1, Front bottom center |
+| <ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" /> | 1, Ön alt merkez |
 | <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> | 42 |
-| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 27, Edge and corner of both ends of the machine |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 9 |
-| <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1, Above controller |
-| <ItemLink id="gregtech:gt.blockmachines:3014" showIcon="left" /> | 4, On the opposite side of the controller, each gap is 1 block |
+| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 27, Makinenin her iki ucunun kenarı ve köşesi |
+| <ItemImage id="bartworks:BW_TieredGlass" />Herhangi bir Kademeli Cam | 9 |
+| <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1, Kontrolcünün üstünde |
+| <ItemLink id="gregtech:gt.blockmachines:3014" showIcon="left" /> | 4, Kontrolcünün karşı tarafında, her boşluk 1 blok |
 
-### Wallsharing
+### Duvar paylaşımı
 
-Beam Splitters may wallshare each of their sides to save on casings and glass. However, it is not possible to share the beam input hatch or filtered beam output hatches due to the restrictions on their locations.
+Işın Ayrıştırıcılar kasa ve camdan tasarruf etmek için her bir yüzünü duvar paylaşımıyla kullanabilir. Ancak konum kısıtlamaları nedeniyle ışın girdi kapağı veya filtreli ışın çıkış kapakları paylaşılamaz.
 
-## Usage
+## Kullanım
 
 <GameScene interactive={true} wrap="square" align="right" width="300" height="300">
   <ImportStructure src="/assets/structures/beam_splitter_example_ponder.snbt" />
   <ImportPonder src="/assets/ponders/multiblocks/beam_splitter/beam_splitter_example_ponder.json" />
 </GameScene>
 
-The Beam Splitter filters and/or splits an input particle beam into 1-4 parts and never shuts down unless manually disabled. Particle beams also do not suffer any penalties or lose any energy/focus when passing through the machine. Only the rate is split evenly between all valid outputs. Fractional rates are always rounded down.
+Işın Ayrıştırıcı, gelen parçacık ışınını filtreler ve/veya 1-4 parçaya böler ve elle devre dışı bırakılmadıkça asla kapanmaz. Parçacık ışınları makineden geçerken herhangi bir ceza almaz veya enerji/odak kaybetmez. Yalnızca oran, tüm geçerli çıkışlar arasında eşit olarak bölünür. Kesirli oranlar her zaman aşağı yuvarlanır.
 
-The scene on the right shows the Beam Splitter's operation with an example.
+Sağdaki sahne, Işın Ayrıştırıcı'nın çalışmasını bir örnekle gösterir.
 
-The Beam Splitter perfectly complements the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) because the latter generates many different types of particles from the same beam output hatches and it would be wasteful for those to all go to the same [<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md).
+Işın Ayrıştırıcı, [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) ile mükemmel şekilde tamamlanır; çünkü ikincisi aynı ışın çıkış kapaklarından çok farklı parçacık türleri üretir ve bunların hepsinin aynı [<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md) gitmesi israf olurdu.
 
-There is no possible way to join particle beams together so recipes are going to be split across machines and therefore the particles should be too.
+Parçacık ışınlarını birleştirmenin hiçbir yolu yoktur; bu yüzden tarifler makineler arasında bölünecek ve dolayısıyla parçacıklar da bölünmelidir.
 
-## References
-- [GTNH Wiki : Beam Splitter](https://wiki.gtnewhorizons.com/wiki/Beam_Splitter)
+## Kaynaklar
+- [GTNH Wiki : Işın Ayrıştırıcı](https://wiki.gtnewhorizons.com/wiki/Beam_Splitter)

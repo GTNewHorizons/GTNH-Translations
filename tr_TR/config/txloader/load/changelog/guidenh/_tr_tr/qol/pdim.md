@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Personal Dimension Styling
+  title: Kişisel Boyut Tasarımı
   parent: qol.md
   icon: personalspace:personalPortal
 categories:
@@ -9,31 +9,31 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Personal Dimension Styling
-Bored of lawn-basing, or hovering over an abyssal void? Now the <Color id="GREEN">Personal Dimension Portal</Color> comes with a fresh new design, even including a "City Block" style preset!
+# Kişisel Boyut Tasarımı
+Çimenlikte inşa etmekten ya da dipsiz bir boşlukta süzülmekten sıkıldın mı? Artık <Color id="GREEN">Kişisel Boyut Portalı</Color> yepyeni bir tasarımla geliyor; hatta bir "Şehir Bloğu" tarzı ön ayarı bile içeriyor!
 
-## New Features:
-- A fresh new interface design!
-- A preview of the terrain being generated
-- Allowed metadata for the blocks in the configuration list
-- Expansion of features available when creating the dimension
-- Added __100+ decorative block presets__ and a brand-new terrain preset.
+## Yeni Özellikler:
+- Yepyeni bir arayüz tasarımı!
+- Oluşturulan arazinin önizlemesi
+- Yapılandırma listesindeki bloklar için meta veriye izin verilmesi
+- Boyut oluşturulurken kullanılabilen özelliklerin genişletilmesi
+- __100'den fazla dekoratif blok ön ayarı__ ve yepyeni bir arazi ön ayarı eklendi.
 
-Feel free to post your fun, cool, or straight whacky designs to the <a href="https://discord.gg/gtnh">discord</a>!
+Eğlenceli, havalı ya da düpedüz tuhaf tasarımlarını <a href="https://discord.gg/gtnh">Discord</a>'da paylaşmaktan çekinme!
 
 
 <FloatingImage src="../assets/qol/pdim_ui.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
-    The new main page of the Personal Portal UI
+    Kişisel Portal arayüzünün yeni ana sayfası
   </ImageAnnotation>
 </FloatingImage>
 <FloatingImage src="../assets/qol/pdim_ui2.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
-    The new preset visualisation tool
+    Yeni ön ayar görselleştirme aracı
   </ImageAnnotation>
 </FloatingImage>
 <FloatingImage src="../assets/qol/pdim_example.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
-    An example of the personal dimension in a new configuration!
+    Yeni bir yapılandırmada kişisel boyut örneği!
   </ImageAnnotation>
 </FloatingImage>

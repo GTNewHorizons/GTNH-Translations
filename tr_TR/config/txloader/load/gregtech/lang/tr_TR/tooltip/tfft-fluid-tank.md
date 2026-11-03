@@ -1,8 +1,8 @@
-High-Tech fluid tank that can hold up to 25 different fluids!
-Partitions 1/25th of the total capacity for each fluid, no overflowing allowed
-Right clicking the controller with a screwdriver enables excess voiding
-Fluid storage amount and running cost depends on the Storage Field Block used
+25 farklı sıvıya kadar tutabilen yüksek teknoloji sıvı tankı!
+Toplam kapasitenin 1/25'ini her sıvı için ayırır, taşmaya izin verilmez
+Kontrolcüye tornavida ile sağ tıklamak fazla sıvının yok edilmesini sağlar
+Sıvı depolama miktarı ve çalışma maliyeti kullanılan Depolama Alanı Bloğuna bağlıdır
 {gray:{hr}}
-Note on hatch locking:
-Use an Integrated Circuit in the GUI slot to limit which fluid is output
-The index of a stored fluid can be obtained through the Tricorder
+Kapak kilitleme hakkında not:
+Hangi sıvının çıktı olacağını sınırlamak için GUI yuvasına Entegre Devre koy
+Depolanan bir sıvının indeksi Trikorder ile elde edilebilir

@@ -1,45 +1,45 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Cables
+  title: Kablolar
   icon: appliedenergistics2:item.ItemMultiPart:36
 categories:
 - network infrastructure
 item_id: "appliedenergistics2:item.ItemMultiPart 0-16,20-36,40-56,60-76,520-536"
 ---
 
-# Cables
+# Kablolar
 
 <GameScene zoom="3" showBackground={false}>
   <ImportStructure src="../assets/structures/cables.snbt" />
   <IsometricCamera yaw="135" pitch="30" />
 </GameScene>
 
-While adjacent ME machines can also create an ME network, cables are still the primary way to extend an ME network over large areas.
+Bitişik ME makineleri de bir ME ağı oluşturabilse de, kablolar bir ME ağını geniş alanlara yaymanın hâlâ birincil yoludur.
 
-Differently colored cables can prevent adjacent cables from connecting to each other, making the distribution of [channels](../ae2_mechanics/channels.md) more efficient. They also affect the color of terminals connected to them, so terminals will not always appear purple. Fluix cables can connect to cables of all colors.
+Farklı renkteki kablolar, bitişik kabloların birbirine bağlanmasını önleyerek [kanalların](../ae2_mechanics/channels.md) dağıtımını daha verimli hale getirebilir. Ayrıca kendilerine bağlı terminallerin rengini de etkilerler, bu yüzden terminaller her zaman mor görünmez. Fluix kablolar her renkteki kabloya bağlanabilir.
 
-**Note that channels and cable colors are unrelated.**
+**Kanallar ile kablo renklerinin birbiriyle ilgisi olmadığını unutma.**
 
-## An Important Note
+## Önemli Bir Not
 
-**If you are new to AE2 and are not yet familiar with channels, use smart cables and dense cables wherever possible. They display the path of channels through the network, making it easier to understand how channels behave.**
+**AE2'de yeniysen ve kanallara henüz alışkın değilsen, mümkün olan her yerde akıllı kabloları ve kalın kabloları kullan. Kanalların ağ üzerindeki yolunu göstererek kanalların nasıl davrandığını anlamayı kolaylaştırırlar.**
 
-## Another Note
+## Bir Not Daha
 
-**Channels are not item/fluid/energy/other types of pipes.** Channels have no internal storage, and ME interfaces and machines do not "input" items into channels. The only thing channels do is connect AE2 [devices](../ae2_mechanics/devices.md) into a network.
+**Kanallar eşya/sıvı/enerji/diğer türdeki borular değildir. Kanalların dahili depolaması yoktur ve ME arayüzleri ile makineler kanallara eşya "girdi" olarak vermez. Kanalların tek yaptığı şey AE2 [cihazlarını](../ae2_mechanics/devices.md) bir ağa bağlamaktır.**
 
-## Glass Cable
+## Cam Kablo
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:16" scale="4" />
 
-<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" /> is the simplest cable, capable of transmitting energy and up to 8 [channels](../ae2_mechanics/channels.md). It comes in 17 colors, with Fluix as the default, and can be dyed into the corresponding color using any of the 16 dyes.
+<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" /> en basit kablodur; enerji ve 8 [kanala](../ae2_mechanics/channels.md) kadar iletebilir. Fluix'in varsayılan olduğu 17 renkte gelir ve 16 boyadan herhangi biriyle ilgili renge boyanabilir.
 
-To craft a dyed cable, surround a dye with 8 cables in the crafting grid. The colors of the cables used for crafting do not need to match, but they must be the same type of cable, such as glass or smart cable. Cables in the world can also be dyed using any Forge-compatible paintbrush.
+Boyalı bir kablo üretmek için üretim ızgarasında bir boyayı 8 kablo ile çevrele. Üretimde kullanılan kabloların renklerinin aynı olması gerekmez, ancak cam veya akıllı kablo gibi aynı kablo tipinde olmaları gerekir. Dünyadaki kablolar Forge uyumlu herhangi bir boya fırçasıyla da boyanabilir.
 
-Any dyed cable can be placed in a crafting table to remove its dye.
+Boyalı herhangi bir kablo, boyası gidermek için çalışma masasına konabilir.
 
-Cables can be wrapped with Fluix Crystals to create <ItemLink id="appliedenergistics2:item.ItemMultiPart:36" />, and can also be crafted into <ItemLink id="appliedenergistics2:item.ItemMultiPart:56" /> to better observe the behavior of [channels](../ae2_mechanics/channels.md).
+Kablolar, <ItemLink id="appliedenergistics2:item.ItemMultiPart:36" /> oluşturmak için Fluix Kristalleri ile sarılabilir ve [kanalların](../ae2_mechanics/channels.md) davranışını daha iyi gözlemlemek için <ItemLink id="appliedenergistics2:item.ItemMultiPart:56" /> olarak da üretilebilir.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:16" />
 
@@ -47,13 +47,13 @@ Cables can be wrapped with Fluix Crystals to create <ItemLink id="appliedenergis
 
 ---
 
-## Covered Cable
+## Kaplı Kablo
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:36" scale="4" />
 
-Compared to <ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />, covered cables do not provide any additional gameplay functionality. However, they can be used as practical decoration if you prefer their appearance.
+<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" /> ile karşılaştırıldığında, kaplı kablolar ekstra bir oynanış işlevi sunmaz. Ancak görünümlerini tercih ediyorsan pratik bir dekorasyon olarak kullanılabilirler.
 
-Covered cables can be dyed in the same way as <ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />. Four <ItemLink id="appliedenergistics2:item.ItemMultiPart:36" /> can be crafted into <ItemLink id="appliedenergistics2:item.ItemMultiPart:536" />.
+Kaplı kablolar <ItemLink id="appliedenergistics2:item.ItemMultiPart:16" /> ile aynı şekilde boyanabilir. Dört <ItemLink id="appliedenergistics2:item.ItemMultiPart:36" />, <ItemLink id="appliedenergistics2:item.ItemMultiPart:536" /> olarak üretilebilir.
 
 <Recipe id="appliedenergistics2:item.ItemMultiPart:36" />
 
@@ -61,13 +61,13 @@ Covered cables can be dyed in the same way as <ItemLink id="appliedenergistics2:
 
 ---
 
-## Dense Cable
+## Kalın Kablo
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:536" scale="4" />
 
-High-capacity cables can transmit 32 channels instead of the 8 channels of regular cables. However, dense cables do not support buses. You must first step down from a dense cable to a smaller cable, such as <ItemLink id="appliedenergistics2:item.ItemMultiPart:16" /> or <ItemLink id="appliedenergistics2:item.ItemMultiPart:56" />, before placing buses or panels on it.
+Yüksek kapasiteli kablolar, normal kabloların 8 kanalı yerine 32 kanal iletebilir. Ancak kalın kablolar bus'ları desteklemez. Üzerlerine bus veya panel yerleştirmeden önce kalın bir kablodan <ItemLink id="appliedenergistics2:item.ItemMultiPart:16" /> veya <ItemLink id="appliedenergistics2:item.ItemMultiPart:56" /> gibi daha küçük bir kabloya geçmen gerekir.
 
-Dense cables slightly modify the "shortest path" behavior of channels: channels will first take the shortest path to a dense cable, and then take the shortest path through that dense cable to the controller.
+Kalın kablolar kanalların "en kısa yol" davranışını biraz değiştirir: kanallar önce bir kalın kabloya en kısa yoldan gider, ardından o kalın kablo üzerinden kontrolcüye en kısa yoldan ulaşır.
 
 <Recipe id="appliedenergistics2:item.ItemMultiPart:536" />
 
@@ -75,7 +75,7 @@ Dense cables slightly modify the "shortest path" behavior of channels: channels 
 
 ---
 
-## Smart Cable
+## Akıllı Kablo
 
 <Row>
 
@@ -86,13 +86,13 @@ Dense cables slightly modify the "shortest path" behavior of channels: channels 
 
 </Row>
 
-Although they look similar to <ItemLink id="appliedenergistics2:item.ItemMultiPart:36" />, smart cables can display channel usage and provide diagnostic functionality. Channels are displayed as colored lines on the black stripes of the cable, making it easier to understand channel usage in the network. On regular smart cables, the first four channels are displayed as lines matching the cable color, while the last four are white. On dense cables, each line represents 4 channels.
+<ItemLink id="appliedenergistics2:item.ItemMultiPart:36" /> ile benzer görünseler de, akıllı kablolar kanal kullanımını gösterebilir ve teşhis işlevi sunar. Kanallar, kablonun siyah şeritleri üzerinde renkli çizgiler olarak gösterilir; bu da ağdaki kanal kullanımını anlamayı kolaylaştırır. Normal akıllı kablolarda ilk dört kanal kablo rengiyle uyumlu çizgiler olarak gösterilirken son dört kanal beyazdır. Kalın kablolarda ise her çizgi 4 kanalı temsil eder.
 
-On a network with an <ItemLink id="appliedenergistics2:tile.BlockController" />, the lines on the cable exactly match the actual paths of the channels.
+<ItemLink id="appliedenergistics2:tile.BlockController" /> bulunan bir ağda, kablo üzerindeki çizgiler kanalların gerçek yollarıyla tam olarak örtüşür.
 
-Smart cables on ad-hoc networks instead display the total number of channels used by the entire network, rather than the number of channels passing through the cable itself.
+Ad-hoc ağlardaki akıllı kablolar ise kablonun kendisinden geçen kanal sayısı yerine tüm ağ tarafından kullanılan toplam kanal sayısını gösterir.
 
-Smart cables can be dyed in the same way as <ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />.
+Akıllı kablolar <ItemLink id="appliedenergistics2:item.ItemMultiPart:16" /> ile aynı şekilde boyanabilir.
 
 <Recipe id="appliedenergistics2:item.ItemMultiPart:56" />
 

@@ -2,71 +2,71 @@
 item_ids:
   - gregtech:gt.blockmachines:15538
 navigation:
-  title: Large Thermal Refinery
+  title: Büyük Termal Rafineri
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15538
 categories:
-    - Structure Reworks
+    - Yapı Revizyonları
 author: Skorched
 date: 2026-05-23
 ---
 
-# Large Thermal Refinery
+# Büyük Termal Rafineri
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15538"/>
 </GameScene>
-The <Color id="GREEN">Large Thermal Refinery (LTR)</Color> is an EV tier multiblock for refining crushed ores and recycling depleted fuel rods. The <Color id="GREEN">LTR</Color> is a direct upgrade from the singleblock thermal centrifuge because it runs up to <Color id="RED">320%</Color> speed, uses as little as <Color id="BLUE">39%</Color> of the EU/t normally required, and offers <Color color="#ed6401">8</Color> parallels per voltage tier and 2 parallels per solenoid tier. Furthermore, every heating coil tier gives a 5% speed bonus (additive) and 5% EU/t discount (multiplicative). 
+<Color id="GREEN">Büyük Termal Rafineri (LTR)</Color>, ezilmiş cevherleri rafine etmek ve tükenmiş yakıt çubuklarını geri dönüştürmek için EV kademesinde bir multibloktur. <Color id="GREEN">LTR</Color>, tek blok termal santrifüjden doğrudan bir yükseltmedir; çünkü %<Color id="RED">320</Color>'ye varan hızda çalışır, normalde gereken EU/t'nin yalnızca %<Color id="BLUE">39</Color>'u kadarını kullanır ve voltaj kademesi başına <Color color="#ed6401">8</Color> paralel ile solenoid kademesi başına 2 paralel sunar. Ayrıca her Isıtma Bobini kademesi %5 hız bonusu (toplamalı) ve %5 EU/t indirimi (çarpımsal) verir. 
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multi (aside from the new structure):
-> - Tiered Coils: 5% additive bonus speed per tier, 5% multiplicative power reduction per tier
-> - Tiered Solenoids: 2 parallels per solenoid tier
+> Yeni yapı dışında, multiblokta aşağıdaki değişiklikler yapılmıştır:
+> - Kademeli Bobinler: kademe başına %5 toplamalı hız bonusu, kademe başına %5 çarpımsal güç azaltımı
+> - Kademeli Solenoidler: solenoid kademesi başına 2 paralel
 
-## Construction
-The <Color id="GREEN">LTR</Color> has two tiered components. The <Color id="RED">Heating Coils</Color> increase the speed bonus and energy discount of the machine. The <Color id="BLUE">Solenoids</Color> increase the number of parallels. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any thermal processing casing anywhere on the structure. Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure with subchannels "coil", "solenoid", and "glass" to specify the tier of those components. 
+## Yapım
+<Color id="GREEN">LTR</Color> iki kademeli bileşenden oluşur. <Color id="RED">Isıtma Bobinleri</Color> makinenin hız bonusunu ve enerji indirimini artırır. <Color id="BLUE">Solenoidler</Color> paralel sayısını artırır. Cam herhangi bir kademede olabilir ve makinenin çalışması üzerinde etkisi yoktur. Yollar/kapaklar yapının herhangi bir yerindeki termal işlem kasasının yerine geçebilir. Çok amperli ve lazer enerji kapakları desteklenmez, ancak hız aşırtma için birden fazla normal enerji kapağı kullanılabilir. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> kullan ve bu bileşenlerin kademesini belirtmek için "coil", "solenoid" ve "glass" alt kanallarını ver. 
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15538" /> <ItemImage id="gregtech:gt.blockmachines:15538" />
 - 85-92 <ItemLink id="miscutils:gtplusplus.blockcasings.2" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2" />
 - 20 <ItemLink id="gregtech:gt.blockframes:348" /> <ItemImage id="gregtech:gt.blockframes:348" />
-- 16 Heating Coil <ItemImage id="gregtech:gt.blockcasings5:11" />
-- 6 Solenoid Superconductor Coil <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10" />
-- 6 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 16 Isıtma Bobini <ItemImage id="gregtech:gt.blockcasings5:11" />
+- 6 Solenoid Süperiletken Bobini <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10" />
+- 6 Kademeli Cam (herhangi biri) <ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 4 <ItemLink id="gregtech:gt.blockcasings:11" /> <ItemImage id="gregtech:gt.blockcasings:11" />
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ Enerji Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 Bakım Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ Giriş Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ Girdi Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">LTRs</Color> may wallshare each of their sides to save on casings, glass, frame boxes, and buses/hatches. Many recipes use 2A of power so it is NOT possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines without at least fluxed electrum coils. 
+### Duvar Paylaşımı
+<Color id="GREEN">LTR</Color>'ler kasa, cam, çerçeve kutusu ve yol/kapaklardan tasarruf etmek için her bir yanında duvar paylaşımı yapabilir. Birçok tarif 2A güç kullanır, bu nedenle en az Fluxed Elektrum bobinleri olmadan <u>__iki__</u> makine arasında <u>__bir__</u> enerji kapağını paylaşmak MÜMKÜN DEĞİLDİR. 
 
-## Usage
-The <Color id="GREEN">LTR</Color> is a direct upgrade from the singleblock thermal centrifuge because it runs up to <Color id="RED">320%</Color> speed, uses as little as <Color id="BLUE">39%</Color> of the EU/t normally required, and offers <Color color="#ed6401">8</Color> parallels per voltage tier and <Color id="GREEN">2</Color> parallels per solenoid tier, as seen in the following table. Furthermore, every heating coil tier gives a 5% speed bonus (additive) and 5% EU/t discount (multiplicative). 
-### Heating Coils:
-|  Coil | Speed | EU/t |
+## Kullanım
+<Color id="GREEN">LTR</Color>, tek blok termal santrifüjden doğrudan bir yükseltmedir; çünkü %<Color id="RED">320</Color>'ye varan hızda çalışır, normalde gereken EU/t'nin yalnızca %<Color id="BLUE">39</Color>'u kadarını kullanır ve aşağıdaki tabloda görüldüğü gibi voltaj kademesi başına <Color color="#ed6401">8</Color> paralel ile solenoid kademesi başına <Color id="GREEN">2</Color> paralel sunar. Ayrıca her Isıtma Bobini kademesi %5 hız bonusu (toplamalı) ve %5 EU/t indirimi (çarpımsal) verir. 
+### Isıtma Bobinleri:
+|  Bobin | Hız | EU/t |
 | --------------- | --------------- | --------------- |
-| Cupronickel | 255% | 76.0% |
-| Kanthal | 260% | 72.2% |
-| Nichrome | 265% | 68.6% |
-| TPV-Alloy | 270% | 65.2% |
+| Bakır-Nikel | 255% | 76.0% |
+| Kantal | 260% | 72.2% |
+| Nikrom | 265% | 68.6% |
+| TPV-Alaşım | 270% | 65.2% |
 | HSS-G | 275% | 61.9% |
 | HSS-S | 280% | 58.8% |
 | Naquadah | 285% | 55.9% |
-| Naquadah Alloy | 290% | 53.1% |
-| Trinium | 295% | 50.4% |
-| Fluxed Electrum | 300% | 47.9% |
-| Awakened Draconium | 305% | 45.5% |
-| Infinity | 310% | 43.2% |
-| Hypogen | 315% | 41.1% |
-| Eternal | 320% | 39.0% |
+| Naquadah Alaşım | 290% | 53.1% |
+| Trinyum | 295% | 50.4% |
+| Fluxed Elektrum | 300% | 47.9% |
+| Uyandırılmış Drakonyum | 305% | 45.5% |
+| Sonsuzluk | 310% | 43.2% |
+| Hipojen | 315% | 41.1% |
+| Ebedi | 320% | 39.0% |
 
-### Solenoids:
+### Solenoidler:
 
 |  | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 |--------------- | -------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |

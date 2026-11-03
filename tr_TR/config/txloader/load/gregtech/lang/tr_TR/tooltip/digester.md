@@ -1,1 +1,1 @@
-Input ores and fluid, output water
+Girdi: cevherler ve sıvı; çıktı: su

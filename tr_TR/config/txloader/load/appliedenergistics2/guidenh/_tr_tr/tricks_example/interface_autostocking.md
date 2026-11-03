@@ -1,48 +1,43 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Interface Autostocking
+  title: Arayüz Otomatik Stoklama
   icon: appliedenergistics2:tile.BlockInterface
 ---
 
-# Interface Autostocking
+# Arayüz Otomatik Stoklama
 
-One might ask "How do I keep a certain amount of various items in stock, crafting more as needed?"
+Şunu sorabilirsin: "Çeşitli eşyalardan belirli bir miktarı stokta nasıl tutarım ve gerektikçe daha fazlasını nasıl üretirim?"
 
-One solution is use of an <ItemLink id="appliedenergistics2:tile.BlockInterface" /> and <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> to automatically request new items
-from your network's [autocrafting](../ae2_mechanics/autocrafting.md). This setup is more suited to maintaining a small quantity of a wide
-variety of items.
+Bir çözüm, ağının [otomatik üretim](../ae2_mechanics/autocrafting.md) sisteminden otomatik olarak yeni eşya talep etmek için bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> ve bir <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> kullanmaktır. Bu düzen, çok çeşitli eşyalardan az miktarda bulundurmaya daha uygundur.
 
-This demonstration setup is cut short so it isn't too wide, it is likely most optimal to use 4 <ItemLink id="appliedenergistics2:tile.BlockInterface" />s and 4 <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />s,
-to use all 8 [channels](../ae2_mechanics/channels.md) in a regular [cable](../items_blocks/cables.md).
+Bu gösterim düzeni çok geniş olmasın diye kısa kesilmiştir; [Kablolar](../items_blocks/cables.md) sayfasında anlatıldığı gibi normal bir kablodaki 8 [kanalın](../ae2_mechanics/channels.md) tamamını kullanmak için 4 <ItemLink id="appliedenergistics2:tile.BlockInterface" /> ve 4 <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> kullanman büyük olasılıkla en verimlisidir.
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/interface_autostocking.snbt" />
 
   <BoxAnnotation color="#dddddd" min="0 0 0" max="2 1 1">
-  (1) Interfaces: Set to keep the desired items in themselves. They have Crafting Cards.
+  (1) Arayüz Blokları: İstenen eşyaları kendi içlerinde tutacak şekilde ayarlanır. Üretim Kartları vardır.
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0 1 0" max="2 1.3 1">
-  (2) Storage Busses: "Input/Output Mode" set to "Extract Only".
+  (2) Depolama Otobüsleri: "Girdi/Çıktı Modu" "Yalnızca Çıkar" olarak ayarlanır.
   </BoxAnnotation>
 
   <DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-  To Main Network
+  Ana Ağa
   </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Configurations
+## Yapılandırmalar
 
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" />s (1) are set to keep the desired items in themselves, by clicking the desired item into their
-   top slots or dragging into the top slots from NEI, then clicking on the wrench icon above the slots to set the amount. They have <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />s.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />s (2) are set such that "Input/Output Mode" is set to "Extract Only".
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) arayüz blokları, istenen eşyaları kendi içlerinde tutacak şekilde ayarlanır: istenen eşyayı üst yuvalarına tıklayarak veya NEI'den üst yuvalara sürükleyerek, ardından miktarı ayarlamak için yuvaların üzerindeki İngiliz Anahtarı simgesine tıklayarak. İçlerinde <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> bulunur.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2), "Girdi/Çıktı Modu" "Yalnızca Çıkar" olacak şekilde ayarlanır.
 
-## How It Works
+## Nasıl Çalışır
 
-1. If an <ItemLink id="appliedenergistics2:tile.BlockInterface" /> cannot retrieve enough of a configured item from [network storage](../ae2_mechanics/import_export_storage.md),
-   (and it has a <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />), it will request that the network's [autocrafting](../ae2_mechanics/autocrafting.md) craft more of that item.
-2. The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />s allow the network to access the contents of the interfaces.
+1. Bir <ItemLink id="appliedenergistics2:tile.BlockInterface" />, [ağ depolamasından](../ae2_mechanics/import_export_storage.md) yapılandırılmış bir eşyadan yeterince çekemezse (ve içinde <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> varsa), ağın [otomatik üretim](../ae2_mechanics/autocrafting.md) sisteminden o eşyadan daha fazla üretmesini talep eder.
+2. <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />, ağın arayüzlerin içeriğine erişmesini sağlar.

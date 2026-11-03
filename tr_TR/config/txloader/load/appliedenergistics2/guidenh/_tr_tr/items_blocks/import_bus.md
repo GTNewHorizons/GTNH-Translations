@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Import Bus
+  title: ME İçe Aktarma Veriyolu
   icon: appliedenergistics2:item.ItemMultiPart:240
 categories:
 - devices

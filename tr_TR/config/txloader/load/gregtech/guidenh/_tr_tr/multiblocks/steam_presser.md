@@ -4,34 +4,34 @@ item_ids:
 quest_ids:
   - s6AEHSKiQe2XveT_oDZbZg
 navigation:
-  title: Steam Presser
+  title: Buharlı Pres
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:31083
   position: -501
 ---
-# Steam Presser
+# Buharlı Pres
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31083" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" /> is a multiblock Forge Hammer available in the Steam age. It uses steam to process ores and materials in batches, replacing a singleblock Steam Forge Hammer for tasks such as making plates and Long Rods. It can process up to eight copies of the same recipe at once.
+<ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" />, Buhar çağında kullanılabilen bir multiblok Dövme Çekicidir. Cevherleri ve malzemeleri partiler halinde işlemek için buhar kullanır; plaka ve Uzun Çubuk yapmak gibi işlerde tek bloklu Buharlı Dövme Çekicinin yerini alır. Aynı tarifin en fazla sekiz kopyasını aynı anda işleyebilir.
 
-The machine has basic bronze and high pressure steel structures that share the same controller. Upgrading to the high pressure structure increases throughput, but does not raise the maximum recipe tier.
+Makinenin aynı kontrolcüyü paylaşan temel bronz ve yüksek basınçlı çelik yapıları vardır. Yüksek basınçlı yapıya yükseltmek üretim hızını artırır, ancak maksimum tarif kademesini yükseltmez.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires Cast Iron Plates, an Anvil, a Tumbaga Frame Box, and other materials |
-| Dimensions | 5×5 footprint, seven blocks tall; controller at the front center of the second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Recipe range | Forge Hammer recipes at LV or below, requiring no more than 32 EU/t |
-| Parallels | Up to eight copies of the same recipe; the high pressure structure does not raise this limit |
-| Processing bonuses | The basic structure runs at 125% of a singleblock bronze Steam Forge Hammer's speed and 62.5% of its steam consumption rate per parallel |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| Açıldığı kademe | Buhar; kontrolcü tarifi Dökme Demir Plaka, Örs, Tumbaga Çerçeve Kutusu ve diğer malzemeleri gerektirir |
+| Boyutlar | 5×5 taban alanı, yedi blok yüksekliğinde; kontrolcü ikinci katmanın ön ortasında |
+| Güç | Tam olarak bir Buhar Kapağı; Enerji Kapağı yok |
+| Tarif aralığı | LV ve altı Dövme Çekici tarifleri; en fazla 32 EU/t gerektirir |
+| Paralel sayısı | Aynı tarifin en fazla sekiz kopyası; yüksek basınçlı yapı bu sınırı yükseltmez |
+| İşleme bonusları | Temel yapı, tek bloklu bronz Buharlı Dövme Çekici hızının %125'inde ve paralel başına buhar tüketim hızının %62,5'inde çalışır |
+| Yükseltmeler ve overclock | Yüksek basınçlı yapı hızı ve buhar tüketim hızını ikiye katlar; gerilim overclock'u yok |
+| Bakım ve kirlilik | Bakım yok, kirlilik yok ve Egzoz Çıkışı gerekmez |
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+Kontrolcü, temel kasa ve Buhar Kapağı için güncel tarifler aşağıda gösterilmiştir. Diğer bileşenlerin tariflerini görmek için tablodaki eşyalara tıkla.
 
 <RecipesFor id="gregtech:gt.blockmachines:31083" />
 
@@ -39,139 +39,139 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### Yapı Malzemeleri
 
-The following quantities assume one Steam Hatch, one Input Bus, and one Output Bus. The basic structure uses Bronze Plated Bricks, Bronze Pipe Casings, and Iron Blocks, while the high pressure structure uses their steel counterparts. **All three types of structure component must be of the same tier.**
+Aşağıdaki miktarlar bir Buhar Kapağı, bir Giriş Yolu ve bir Çıkış Yolu varsayar. Temel yapı Bronz Kaplamalı Tuğla, Bronz Boru Muhafazası ve Demir Blok kullanırken yüksek basınçlı yapı bunların çelik karşılıklarını kullanır. **Üç yapı bileşeni türünün tamamı aynı kademede olmalıdır.**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| Bileşen | Temel yapı | Yüksek basınçlı yapı | Miktar ve konum |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 39 in the basic setup; may be replaced with hatches or buses, but at least 35 actual casings must remain |
-| Pipe Casing | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | Two, at the center of the sixth and seventh layers |
-| Metal block | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmetal6:13" showIcon="left" /> | Two, at the center of the fourth and fifth layers |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" /> | Same controller | One, at the front center of the second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Fluid Input Hatch | For example, <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Same hatch | Optional, replacing a casing; supplies recipe fluids, such as acids used to process mineral crop products |
+| Kasa | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | Temel düzende 39; kapak veya veriyoluyla değiştirilebilir, ancak en az 35 gerçek kasa kalmalı |
+| Boru Muhafazası | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | İki adet, altıncı ve yedinci katmanların ortasında |
+| Metal blok | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmetal6:13" showIcon="left" /> | İki adet, dördüncü ve beşinci katmanların ortasında |
+| Kontrolcü | <ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" /> | Aynı kontrolcü | Bir adet, ikinci katmanın ön ortasında |
+| Buhar Kapağı | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Aynı kapak | Tam olarak bir adet, bir kasanın yerine |
+| Giriş Yolu | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Aynı yol | En az bir adet, bir kasanın yerine |
+| Çıkış Yolu | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Aynı yol | En az bir adet, bir kasanın yerine |
+| Sıvı Girdi Kapağı | Örneğin <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Aynı kapak | İsteğe bağlı, bir kasanın yerine; mineral ekin ürünlerini işlemek için kullanılan asitler gibi tarif sıvılarını sağlar |
 
-There are 42 positions for casings or hatches. Installing the three required interfaces leaves 39 casings; adding one Fluid Input Hatch leaves 38. At least 35 actual casings must remain when adding hatches or buses. Hatches and buses cannot replace Pipe Casings or metal blocks.
+Kasa veya kapak için 42 konum vardır. Gerekli üç arayüzü kurmak 39 kasa bırakır; bir Sıvı Girdi Kapağı eklemek 38 bırakır. Kapak veya veriyolu eklerken en az 35 gerçek kasa kalmalıdır. Kapaklar ve veriyolları Boru Muhafazalarının veya metal blokların yerini alamaz.
 
-### Building by Layer
+### Katman Katman İnşa
 
-Count layers upward from the base. Choose the controller facing first, then follow the interactive structure or hologram layer by layer. **The front of the base extends one block ahead of the controller**, so do not place the controller on the frontmost edge of the base.
+Katmanları tabandan yukarı doğru say. Önce kontrolcünün yönünü seç, ardından etkileşimli yapıyı veya hologramı katman katman takip et. **Tabanın ön tarafı kontrolcünün bir blok önüne uzanır**, bu yüzden kontrolcüyü tabanın en ön kenarına yerleştirme.
 
-| Layer | What to place |
+| Katman | Ne yerleştirilecek |
 | --- | --- |
-| First | A 5×5 base with the four corners omitted, giving 21 casing positions |
-| Second | The controller and the nine surrounding casing positions shown in the hologram |
-| Third | One casing position on each side to start the left and right pillars |
-| Fourth and fifth | Continue both pillars and place one Iron Block at the center of each layer; use Steel Blocks for the high pressure structure |
-| Sixth | Six casing positions as shown in the hologram, with the first Pipe Casing at the center |
-| Seventh | The second Pipe Casing directly above the first |
+| Birinci | Dört köşesi çıkarılmış 5×5 taban; 21 kasa konumu verir |
+| İkinci | Kontrolcü ve hologramda gösterilen çevresindeki dokuz kasa konumu |
+| Üçüncü | Sol ve sağ sütunları başlatmak için her iki yanda birer kasa konumu |
+| Dördüncü ve beşinci | Her iki sütunu sürdür ve her katmanın ortasına bir Demir Blok yerleştir; yüksek basınçlı yapı için Çelik Blok kullan |
+| Altıncı | Hologramda gösterildiği gibi altı kasa konumu; ilk Boru Muhafazası ortada |
+| Yedinci | İkinci Boru Muhafazası birincinin tam üstünde |
 
-Empty positions in the preview do not need to be filled with casings. Place the Steam Hatch and steam Input and Output Buses in lower casing positions for convenient pipe connections. Ordinary electric machine item buses cannot replace the steam versions.
+Önizlemedeki boş konumların kasalarla doldurulması gerekmez. Kolay boru bağlantıları için Buhar Kapağını ve buharlı Giriş ve Çıkış Yollarını alt kasa konumlarına yerleştir. Sıradan elektrikli makine eşya veriyolları buharlı sürümlerin yerini alamaz.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+Yapıyı önizlemek ve inşa etmeye yardımcı olmak için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan. Ana kanal kademesi 1 temel yapıyı, kademe 2 yüksek basınçlı yapıyı seçer. Yardımlı inşadan sonra kapakları tak ve yapıyı kontrol et.
 
-## Machine Uses
+## Makinenin Kullanım Alanları
 
-The Steam Presser uses the Forge Hammer recipe map. When checking NEI, first confirm that the item has a Forge Hammer recipe, then check its tier, input quantity, and outputs.
+Buharlı Pres, Dövme Çekici tarif haritasını kullanır. NEI'ye bakarken önce eşyanın Dövme Çekici tarifi olup olmadığını doğrula, ardından kademesini, girdi miktarını ve çıktılarını kontrol et.
 
-| Use | Common recipes and considerations |
+| Kullanım | Yaygın tarifler ve dikkat edilecekler |
 | --- | --- |
-| Making metal plates | Many early metals use three ingots to make two plates; parallels increase the number of recipes processed at once without changing the material ratio |
-| Making Long Rods | Eligible materials use two Rods to make one Long Rod; check NEI for the material and recipe tier |
-| Crushing ores | Processes ores with matching recipes into Crushed Ore or gems; outputs vary by ore rather than always producing the same kind of intermediate item |
-| Finishing ore processing | Processes eligible Centrifuged Ore into dust; the macerator route may provide additional byproducts, so compare the complete output lists in NEI first |
-| Processing mineral crops | Uses a Fluid Input Hatch to process CropsNH harvest products with Forge Hammer recipes at LV or below, producing Purified Crushed Ore or Impure Dust |
+| Metal plaka üretimi | Birçok erken dönem metal, iki plaka yapmak için üç külçe kullanır; paraleller malzeme oranını değiştirmeden aynı anda işlenen tarif sayısını artırır |
+| Uzun Çubuk üretimi | Uygun malzemeler bir Uzun Çubuk yapmak için iki Çubuk kullanır; malzeme ve tarif kademesi için NEI'ye bak |
+| Cevher kırma | Eşleşen tariflere sahip cevherleri Ezilmiş Cevher veya değerli taşlara işler; çıktılar her zaman aynı tür ara eşyayı üretmek yerine cevhere göre değişir |
+| Cevher işlemeyi tamamlama | Uygun Santrifüjlenmiş Cevheri toza işler; Öğütücü yolu ek yan ürünler sağlayabilir, bu yüzden önce NEI'deki tam çıktı listelerini karşılaştır |
+| Mineral ekinlerini işleme | LV ve altı Dövme Çekici tarifleriyle CropsNH hasat ürünlerini işlemek için Sıvı Girdi Kapağı kullanır; Temizlenmiş Ezilmiş Cevher veya Saf Olmayan Toz üretir |
 
-The machine only performs the Forge Hammer step. It does not automatically wash, centrifuge, or smelt the outputs. Route items according to their actual products when building an ore processing line, so intermediates that need further processing are not sent straight to a furnace.
+Makine yalnızca Dövme Çekici adımını gerçekleştirir. Çıktıları otomatik olarak yıkamaz, santrifüjlemez veya eritmez. Cevher işleme hattı kurarken eşyaları gerçek ürünlerine göre yönlendir; böylece daha fazla işlem gerektiren ara ürünler doğrudan fırına gönderilmez.
 
 > [!NOTE]
-> The machine's unlock tier and its maximum recipe tier are separate limits. It always runs on steam. Upgrading to the high pressure steel structure does not enable MV or higher-tier Forge Hammer recipes.
+> Makinenin açıldığı kademe ile maksimum tarif kademesi ayrı sınırlardır. Her zaman buharla çalışır. Yüksek basınçlı çelik yapıya yükseltmek MV veya daha yüksek kademeli Dövme Çekici tariflerini açmaz.
 
-### Mineral Crop Products
+### Mineral Ekin Ürünleri
 
-Installing a Fluid Input Hatch allows the machine to process CropsNH mineral crop harvests. For example, Coppon Fiber, Tine Twig, and Ferrofern Leaf have LV Forge Hammer recipes that require Sulfuric Acid, providing a continuous source of their corresponding minerals. Other crops may require different fluids or recipe tiers; check each recipe in NEI.
+Sıvı Girdi Kapağı takmak, makinenin CropsNH mineral ekin hasatlarını işlemesini sağlar. Örneğin Coppon Fiber, Tine Twig ve Ferrofern Leaf, Sülfürik Asit gerektiren LV Dövme Çekici tariflerine sahiptir ve ilgili minerallerinin sürekli bir kaynağını sağlar. Diğer ekinler farklı sıvılar veya tarif kademeleri gerektirebilir; her tarifi NEI'de kontrol et.
 
-These common recipes use a Programmed Circuit to select the output: configuration 1 produces Purified Crushed Ore, while configuration 2 produces Impure Dust. Send the harvest products to a steam Input Bus, set the circuit as shown in NEI, and supply enough recipe fluid through an ordinary Fluid Input Hatch.
+Bu yaygın tarifler çıktıyı seçmek için Programlanmış Devre kullanır: yapılandırma 1 Temizlenmiş Ezilmiş Cevher, yapılandırma 2 ise Saf Olmayan Toz üretir. Hasat ürünlerini buharlı Giriş Yoluna gönder, devreyi NEI'de gösterildiği gibi ayarla ve sıradan bir Sıvı Girdi Kapağından yeterli tarif sıvısı sağla.
 
-Steam still enters through the Steam Hatch to power the machine. Acids and other recipe fluids enter through a separate Fluid Input Hatch. Both hatches are needed; an Input Hatch cannot replace the Steam Hatch. Crop and recipe fluid requirements increase with the number of parallels.
+Buhar, makineyi çalıştırmak için yine Buhar Kapağından girer. Asitler ve diğer tarif sıvıları ayrı bir Sıvı Girdi Kapağından girer. İki kapak da gereklidir; bir Girdi Kapağı Buhar Kapağının yerini alamaz. Ekin ve tarif sıvısı gereksinimleri paralel sayısıyla artar.
 
-### First Startup
+### İlk Çalıştırma
 
-1. Check the structure and confirm that the Steam Hatch, steam Input Bus, and steam Output Bus are installed.
-2. Connect the steam pipe to the Steam Hatch and confirm that steam actually enters it.
-3. Leave space in the Output Bus and insert a small amount of material, enough for at least one recipe. Also supply any required fluids and circuit configuration.
-4. Start the machine and observe the output route and steam buffer.
-5. Increase input quantities and parallels after confirming a continuous steam supply.
+1. Yapıyı kontrol et ve Buhar Kapağı, buharlı Giriş Yolu ve buharlı Çıkış Yolunun takılı olduğunu doğrula.
+2. Buhar borusunu Buhar Kapağına bağla ve buharın gerçekten içeri girdiğini doğrula.
+3. Çıkış Yolunda boş yer bırak ve en az bir tarife yetecek kadar az miktarda malzeme koy. Gerekli sıvıları ve devre yapılandırmasını da sağla.
+4. Makineyi çalıştır ve çıktı yolunu ve buhar tamponunu gözlemle.
+5. Sürekli buhar beslemesini doğruladıktan sonra girdi miktarlarını ve paralelleri artır.
 
-## Steam Supply and Throughput
+## Buhar Beslemesi ve Üretim Hızı
 
-The Steam Presser can process up to eight copies of **the same recipe** at once. This does not mean it can process eight different items in one cycle. Actual parallels also depend on input quantities, output space, and the parallel limit set in the GUI.
+Buharlı Pres, aynı anda **aynı tarifin** en fazla sekiz kopyasını işleyebilir. Bu, tek bir döngüde sekiz farklı eşyayı işleyebileceği anlamına gelmez. Gerçek paralel sayısı ayrıca girdi miktarlarına, çıktı alanına ve GUI'de ayarlanan paralel sınırına bağlıdır.
 
-For example, if one plate recipe uses three ingots to make two plates, eight parallels require 24 ingots and produce 16 plates in one cycle. Inserting only eight ingots is not enough for eight parallels.
+Örneğin bir plaka tarifi iki plaka yapmak için üç külçe kullanıyorsa, sekiz paralel 24 külçe gerektirir ve tek döngüde 16 plaka üretir. Yalnızca sekiz külçe koymak sekiz paralel için yeterli değildir.
 
-The basic structure runs at 125% of a singleblock bronze Steam Forge Hammer's speed, taking roughly 80% as long. Its steam consumption rate per parallel is 62.5% of the singleblock machine's rate. Combining both bonuses gives roughly 50% of the total steam consumption for the same amount of material. However, running more parallels still increases the whole machine's instantaneous steam demand.
+Temel yapı, tek bloklu bronz Buharlı Dövme Çekicinin hızının %125'inde çalışır ve yaklaşık %80'i kadar süre alır. Paralel başına buhar tüketim hızı, tek bloklu makinenin hızının %62,5'idir. İki bonus birleştiğinde aynı miktar malzeme için toplam buhar tüketiminin yaklaşık %50'si elde edilir. Ancak daha fazla paralel çalıştırmak yine de tüm makinenin anlık buhar talebini artırır.
 
-| Property | Basic structure | High pressure structure |
+| Özellik | Temel yapı | Yüksek basınçlı yapı |
 | --- | --- | --- |
-| Accepted recipe tiers | LV and below | LV and below |
-| Maximum parallels | 8 | 8 |
-| Speed relative to the basic structure | 1× | 2× |
-| Steam consumption rate for the same recipe and parallel count | 1× | 2× |
-| Total steam consumption per recipe | Baseline | Approximately the same as the basic structure |
+| Kabul edilen tarif kademeleri | LV ve altı | LV ve altı |
+| Maksimum paralel | 8 | 8 |
+| Temel yapıya göre hız | 1× | 2× |
+| Aynı tarif ve paralel sayısı için buhar tüketim hızı | 1× | 2× |
+| Tarif başına toplam buhar tüketimi | Referans | Temel yapıyla yaklaşık aynı |
 
-The high pressure upgrade increases speed and steam consumption rate together. It mainly improves throughput, without halving the total steam cost per item again. Actual duration and steam consumption are also affected by tick and integer rounding.
+Yüksek basınç yükseltmesi hızı ve buhar tüketim hızını birlikte artırır. Esas olarak üretim hızını iyileştirir; eşya başına toplam buhar maliyetini tekrar yarıya indirmez. Gerçek süre ve buhar tüketimi tick ve tam sayı yuvarlamasından da etkilenir.
 
-The Steam Hatch buffers 64,000 L of steam, but this only covers temporary shortfalls and cannot replace continuous boiler production. Size boilers and pipes for the **steam consumption rate while processing**.
+Buhar Kapağı 64.000 L buhar tamponlar, ancak bu yalnızca geçici eksiklikleri karşılar ve sürekli kazan üretiminin yerini alamaz. Kazanları ve boruları **işlem sırasındaki buhar tüketim hızına** göre boyutlandır.
 
-Use Waila to check the operating steam consumption rate and watch whether the buffer keeps falling during continuous processing. If a value is shown in L/t, multiply by 20 to get L/s at the normal 20 TPS. Use matching units when comparing pipe throughput. If steam supply is insufficient, lower the parallel limit in the GUI, then increase boiler production or improve the piping.
+Çalışma sırasındaki buhar tüketim hızını kontrol etmek için Waila kullan ve sürekli işlem sırasında tamponun düşmeye devam edip etmediğini izle. Bir değer L/t cinsinden gösteriliyorsa, normal 20 TPS'de L/s elde etmek için 20 ile çarp. Boru verimini karşılaştırırken aynı birimleri kullan. Buhar beslemesi yetersizse GUI'deki paralel sınırını düşür, ardından kazan üretimini artır veya boru hattını iyileştir.
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation, and materials already consumed are not returned. Check steam production and pipe throughput before upgrading to high pressure or increasing the parallel limit.
+> İşlem sırasında buharın bitmesi mevcut işlemi iptal eder ve tüketilen malzemeler geri verilmez. Yüksek basınca yükseltmeden veya paralel sınırını artırmadan önce buhar üretimini ve boru verimini kontrol et.
 
-## Upgrading to High Pressure
+## Yüksek Basınca Yükseltme
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31083" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. Replace **all** Bronze Plated Bricks, Bronze Pipe Casings, and Iron Blocks with the Solid Steel Machine Casings, Steel Pipe Casings, and Steel Blocks listed in the table. Replacing only the casings, or leaving even one Iron Block, fails the tier check.
+Yüksek basınçlı yapı aynı boyutları, kapak konumlarını ve kontrolcüyü korur. **Tüm** Bronz Kaplamalı Tuğlaları, Bronz Boru Muhafazalarını ve Demir Blokları tabloda listelenen Sağlam Çelik Makine Kasaları, Çelik Boru Muhafazaları ve Çelik Bloklarla değiştir. Yalnızca kasaları değiştirmek veya tek bir Demir Blok bırakmak bile kademe kontrolünden geçmez.
 
-Stop processing and material input before upgrading. After replacing the components, check the structure again and confirm the machine displays the high pressure tier before restoring steam and production.
+Yükseltmeden önce işlemi ve malzeme girişini durdur. Bileşenleri değiştirdikten sonra yapıyı yeniden kontrol et ve buhar ile üretimi geri açmadan önce makinenin yüksek basınç kademesini gösterdiğini doğrula.
 
-High pressure is a structure tier, not a separate steam fluid. The machine still uses ordinary steam, and the existing Steam Hatch and steam buses can be reused. No Energy Hatch is needed. The upgrade doubles speed and steam consumption rate, but the maximum remains eight parallels and the recipe tier limit remains LV.
+Yüksek basınç ayrı bir buhar sıvısı değil, bir yapı kademesidir. Makine yine sıradan buhar kullanır ve mevcut Buhar Kapağı ile buharlı veriyolları yeniden kullanılabilir. Enerji Kapağı gerekmez. Yükseltme hızı ve buhar tüketim hızını ikiye katlar, ancak maksimum sekiz paralel kalır ve tarif kademesi sınırı LV olarak devam eder.
 
-## Automation and Item Routing
+## Otomasyon ve Eşya Yönlendirme
 
-Steam Input and Output Buses each have four item slots. They do not automatically pull from adjacent chests or push products into them; placing a chest next to a bus is not enough for automation.
+Buharlı Giriş ve Çıkış Yollarının her birinde dört eşya yuvası vardır. Bitişik sandıklardan otomatik olarak çekmez veya ürünleri onlara itmez; otomasyon için bir veriyolunun yanına sandık koymak yeterli değildir.
 
-- **Input:** Use hoppers, GT item pipes, conveyors, or item conduits to send items into the front face of the Input Bus.
-- **Output:** Actively extract from the front face of the Output Bus with pipes, conduits, or conveyors, then route products to storage or the next machine.
-- **Steam:** Connect fluid pipes from the boiler to the Steam Hatch. Item buses cannot receive steam.
-- **Recipe fluids:** When processing mineral crops or other recipes with fluid inputs, connect a separate fluid pipe to an ordinary Input Hatch to supply the acids or other fluids required by NEI.
-- **Routing:** Set input filters for plate production, Long Rod production, and ore processing as needed, so different materials do not fill all four input slots. Route mineral products to later machines according to their actual item types.
+- **Giriş:** Eşyaları Giriş Yolunun ön yüzüne göndermek için huniler, GT eşya boruları, konveyörler veya eşya kanalları kullan.
+- **Çıkış:** Aktif olarak Çıkış Yolunun ön yüzünden borular, kanallar veya konveyörlerle çek, ardından ürünleri depolamaya veya bir sonraki makineye yönlendir.
+- **Buhar:** Kazandan Buhar Kapağına sıvı boruları bağla. Eşya veriyolları buhar alamaz.
+- **Tarif sıvıları:** Mineral ekinleri veya sıvı girdili diğer tarifleri işlerken, NEI'nin gerektirdiği asitleri veya diğer sıvıları sağlamak için ayrı bir sıvı borusunu sıradan bir Girdi Kapağına bağla.
+- **Yönlendirme:** Gerektiğinde plaka üretimi, Uzun Çubuk üretimi ve cevher işleme için girdi filtreleri ayarla; böylece farklı malzemeler dört girdi yuvasının hepsini doldurmaz. Mineral ürünlerini gerçek eşya türlerine göre sonraki makinelere yönlendir.
 
-Additional Input Buses expand item buffering, while additional Output Buses help prevent output congestion. Neither raises the eight-parallel limit. Keep at least 35 actual casings when adding Fluid Input Hatches or buses, and do not install a second Steam Hatch.
+Ek Giriş Yolları eşya tamponlamasını genişletir, ek Çıkış Yolları ise çıktı tıkanıklığını önlemeye yardımcı olur. Hiçbiri sekiz paralel sınırını yükseltmez. Sıvı Girdi Kapağı veya veriyolu eklerken en az 35 gerçek kasa bırak ve ikinci bir Buhar Kapağı takma.
 
-## Troubleshooting
+## Sorun Giderme
 
-| Symptom | What to check |
+| Belirti | Kontrol edilecekler |
 | --- | --- |
-| Incomplete structure | Is the footprint 5×5 and the height seven blocks? Is the controller on the second layer, one block behind the frontmost edge of the base? Are the two upper Pipe Casings and two central metal blocks correctly positioned? |
-| Structure tier mismatch | Are the casings, Pipe Casings, and metal blocks all of the same tier? Are any Iron Blocks or bronze components left after upgrading? |
-| Missing Steam Hatch or buses | Is there exactly one Steam Hatch and at least one steam Input Bus and Output Bus? Were ordinary electric machine item buses used by mistake? |
-| Structure fails after adding buses | Are at least 35 actual casings left? Were any Pipe Casings or metal blocks replaced with buses? |
-| Inputs present but no recipe found | Does the item have a Forge Hammer recipe? Are there enough inputs for one recipe? Are the required fluids and circuit configuration supplied? Is there enough output space? |
-| Mineral crop products do not process | Is an ordinary Fluid Input Hatch installed and supplied with the required acid or other fluid? Is the circuit configuration correct? Is the recipe at LV or below? |
-| Recipe tier too high | Does the recipe shown in NEI exceed LV? The high pressure structure also cannot process MV or higher-tier recipes. |
-| Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
-| Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
-| Fewer than eight recipes processed at once | Are there enough materials for copies of the same recipe? Is the parallel limit set lower? Can the output slots hold all products? |
+| Yapı tamamlanmamış | Taban alanı 5×5 ve yükseklik yedi blok mu? Kontrolcü ikinci katmanda, tabanın en ön kenarının bir blok gerisinde mi? Üstteki iki Boru Muhafazası ve ortadaki iki metal blok doğru konumda mı? |
+| Yapı kademesi uyuşmuyor | Kasalar, Boru Muhafazaları ve metal blokların hepsi aynı kademede mi? Yükseltmeden sonra kalan Demir Blok veya bronz bileşen var mı? |
+| Buhar Kapağı veya veriyolları eksik | Tam olarak bir Buhar Kapağı ve en az bir buharlı Giriş Yolu ile Çıkış Yolu var mı? Yanlışlıkla sıradan elektrikli makine eşya veriyolları mı kullanıldı? |
+| Veriyolu ekledikten sonra yapı geçersiz | En az 35 gerçek kasa kaldı mı? Boru Muhafazaları veya metal bloklardan herhangi biri veriyoluyla değiştirildi mi? |
+| Girdiler var ama tarif bulunamıyor | Eşyanın Dövme Çekici tarifi var mı? Bir tarif için yeterli girdi var mı? Gerekli sıvılar ve devre yapılandırması sağlandı mı? Yeterli çıktı alanı var mı? |
+| Mineral ekin ürünleri işlenmiyor | Sıradan bir Sıvı Girdi Kapağı takılı ve gerekli asit veya başka bir sıvı sağlanıyor mu? Devre yapılandırması doğru mu? Tarif LV veya altında mı? |
+| Tarif kademesi çok yüksek | NEI'de gösterilen tarif LV'yi aşıyor mu? Yüksek basınçlı yapı da MV veya daha yüksek kademeli tarifleri işleyemez. |
+| Kapakta buhar olmasına rağmen makine duruyor | Sürekli besleme yetişebiliyor mu? Borular kısıtlı mı veya diğer makinelerle buhar paylaşıyor mu? Mevcut paralel sayısı ve yüksek basınç kademesi kazan kapasitesini aşıyor mu? |
+| Veriyolunun yanındaki sandık eşya aktarmıyor | Buharlı veriyolları eşyaları otomatik olarak çekmez veya itmez. Aktif aktarım ekipmanını, bağlantı yüzünü, yönü ve filtreleri kontrol et. |
+| Aynı anda sekizden az tarif işleniyor | Aynı tarifin kopyaları için yeterli malzeme var mı? Paralel sınırı daha düşük mü ayarlanmış? Çıktı yuvaları tüm ürünleri alabiliyor mu? |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+Genel yapı kontrolleri ve araç kullanımı için [Multiblok Makineler](./multiblocks_index.md) sayfasına bak.
 
-## References
+## Kaynaklar
 
-- [GTNH Wiki: Steam Presser](https://wiki.gtnewhorizons.com/wiki/Steam_Presser)
+- [GTNH Wiki: Buharlı Pres](https://wiki.gtnewhorizons.com/wiki/Steam_Presser)

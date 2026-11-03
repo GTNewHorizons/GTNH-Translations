@@ -4,9 +4,9 @@ item_ids:
 quest_ids:
   - kazCPEWoSmiZhR4bkHlEBQ==
 navigation:
-  title: Eye of Harmony
+  title: Ahenk Gözü
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15410
   position: -12001
 ---
-# Eye of Harmony
+# Ahenk Gözü

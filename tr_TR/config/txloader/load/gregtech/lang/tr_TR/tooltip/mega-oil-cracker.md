@@ -1,7 +1,7 @@
-{color_efficiency:{var:eu_usage_base}^(Heating Coil Tier)} {EU} Usage
+{color_efficiency:{var:eu_usage_base}^(Isıtma Bobini Kademesi)} {EU} Kullanımı
 {hr}
-Hydro and Steam-Cracking have different benefits:
-{color_mode:Hydro}: Consumes {color_amount:{var:hydro_h2_saving}%} less Hydrogen and outputs {color_amount:{var:hydro_output_bonus}%} more cracked fluid
-{color_mode:Steam}: Outputs {color_amount:{var:steam_output_bonus}%} more cracked fluid
-{color_note:Compared to a Chemical Reactor}
+Hidro ve Buharlı Çatlatmanın farklı avantajları vardır:
+{color_mode:Hidro}: {color_amount:{var:hydro_h2_saving}%} daha az Hidrojen tüketir ve {color_amount:{var:hydro_output_bonus}%} daha fazla çatlak sıvı üretir
+{color_mode:Buhar}: {color_amount:{var:steam_output_bonus}%} daha fazla çatlak sıvı üretir
+{color_note:Bir Kimyasal Reaktöre kıyasla}
 {hr}

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Inscriber
+  title: Yazıcı
   icon: appliedenergistics2:tile.BlockInscriber
 categories:
 - machines
@@ -9,15 +9,15 @@ item_ids:
 - appliedenergistics2:tile.BlockInscriber
 ---
 
-# Inscriber
+# Yazıcı
 
 <ItemImage id="appliedenergistics2:tile.BlockInscriber" scale="4" />
 
-The inscriber presses circuit boards and [processors](processors.md) using [presses](presses.md), and can also crush several items into dust. It accepts AE2 energy (AE) and Fabric/Forge Energy (E/FE). In sided mode, items inserted from different sides enter different slots; use a <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" /> to rotate it. It can also push results to adjacent inventories.
+Yazıcı, [presleri](presses.md) kullanarak devre kartlarını ve [işlemcileri](processors.md) basar ve ayrıca birkaç eşyayı Toz haline getirebilir. AE2 Enerjisi (AE) ve Fabric/Forge Enerjisi (E/FE) kabul eder. Yönlü modda, farklı yönlerden yerleştirilen eşyalar farklı yuvalara girer; döndürmek için bir <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" /> kullan. Ayrıca sonuçları bitişik envanterlere itebilir.
 
-The input buffer size is adjustable. Use a small buffer when feeding many inscribers from one inventory so materials are distributed more evenly.
+Girdi tamponunun boyutu ayarlanabilir. Tek bir envanterden çok sayıda yazıcıyı beslerken materyallerin daha eşit dağılması için küçük bir tampon kullan.
 
-The four circuit presses craft [processors](processors.md):
+Dört devre presi [işlemcileri](processors.md) üretir:
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:13" scale="4" />
@@ -26,46 +26,46 @@ The four circuit presses craft [processors](processors.md):
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:19" scale="4" />
 </Row>
 
-The name press can name items like an anvil, which is useful for labeling things in a <ItemLink id="appliedenergistics2:item.ItemMultiPart:500" />.
+İsim presi, bir örs gibi eşyaları adlandırabilir; bu, bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:500" /> içindeki şeyleri etiketlemek için kullanışlıdır.
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:21" scale="4" />
 
-## Settings
+## Ayarlar
 
-* Sided mode routes input and extraction by side. In non-sided mode, an internal filter chooses the target slot, but the top and bottom slots cannot be extracted.
-* Results can be pushed to adjacent inventories.
-* The input buffer can be large for manual feeding or small for large parallel setups.
+* Yönlü mod, girdiyi ve çıkarmayı yöne göre yönlendirir. Yönlü olmayan modda dahili bir filtre hedef yuvayı seçer, ancak üst ve alt yuvalardan çıkarma yapılamaz.
+* Sonuçlar bitişik envanterlere itilebilir.
+* Girdi tamponu manuel besleme için büyük, büyük paralel kurulumlar içinse küçük olabilir.
 
-## GUI And Sidedness
+## Arayüz ve Yönlülük
 
-In sided mode, the side used for insertion or extraction selects the slot.
+Yönlü modda, yerleştirme veya çıkarma için kullanılan yön yuvayı seçer.
 
-![Inscriber GUI](../assets/images/inscriber_gui.png) ![Inscriber sides](../assets/images/inscriber_sides.png)
+![Yazıcı arayüzü](../assets/images/inscriber_gui.png) ![Yazıcı yönleri](../assets/images/inscriber_sides.png)
 
-A. **Top input** is accessed from the top (items can be inserted and extracted).
+A. **Üst girdi** üst taraftan erişilir (eşyalar yerleştirilebilir ve çıkarılabilir).
 
-B. **Center input** is accessed from the left, right, front, and rear (items can be inserted but not extracted).
+B. **Orta girdi** sol, sağ, ön ve arka taraftan erişilir (eşyalar yerleştirilebilir ancak çıkarılamaz).
 
-C. **Bottom input** is accessed from the bottom (items can be inserted and extracted).
+C. **Alt girdi** alt taraftan erişilir (eşyalar yerleştirilebilir ve çıkarılabilir).
 
-D. **Output** is extracted from the left, right, front, and rear (items can be extracted but not inserted).
+D. **Çıktı** sol, sağ, ön ve arka taraftan çıkarılır (eşyalar çıkarılabilir ancak yerleştirilemez).
 
-## Simple Automation
+## Basit Otomasyon
 
-Sidedness and rotation allow semi-automated setups:
+Yönlülük ve döndürme, yarı otomatik kurulumlara olanak tanır:
 
 <GameScene width="350" height="220" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/inscriber_hopper_automation.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-Alternatively, pipe items into and out of the inscriber in non-sided mode.
+Alternatif olarak, yönlü olmayan modda eşyaları borularla yazıcıya verip dışarı alabilirsin.
 
-## Upgrades
+## Yükseltmeler
 
-The inscriber supports <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> (the acceleration card).
+Yazıcı <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> (hızlandırma kartı) destekler.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:tile.BlockInscriber" />
 

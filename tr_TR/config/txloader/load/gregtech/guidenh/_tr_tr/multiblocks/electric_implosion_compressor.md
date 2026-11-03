@@ -4,9 +4,9 @@ item_ids:
 quest_ids:
   - IlCOpa8bR9WbOjSOPxZIlA==
 navigation:
-  title: Electric Implosion Compressor
+  title: Elektrik Patlama Kompresörü
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15563
   position: -9001
 ---
-# Electric Implosion Compressor
+# Elektrik Patlama Kompresörü

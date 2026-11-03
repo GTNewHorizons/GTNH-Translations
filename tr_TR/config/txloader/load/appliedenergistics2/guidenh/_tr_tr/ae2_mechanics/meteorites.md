@@ -1,19 +1,19 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Meteorites
+  title: Meteoritler
   icon: appliedenergistics2:tile.BlockSkyStone
 ---
 
-# Meteorites
+# Meteoritler
 
-Meteorites are the starting point for AE2. Most importantly, there is a <ItemLink id="appliedenergistics2:tile.BlockSkyChest" showIcon="left"/> at the center, which may contain one of the Inscriber Presses.
+Meteoritler AE2'nin başlangıç noktasıdır. En önemlisi, merkezinde bir <ItemLink id="appliedenergistics2:tile.BlockSkyChest" showIcon="left"/> bulunur ve bu sandık Inscriber Preslerinden birini içerebilir.
 
-[Getting Started](../getting_started.md) will provide info on what to do once you find one.
+[Başlarken](../getting_started.md), bir tane bulduğunda ne yapacağın bilgisini verecektir.
 
-## Finding Meteorites
+## Meteoritleri Bulmak
 
-Meteorites are fairly common. Some generate on the surface, but many are buried underground.
-You can use an <ItemLink id="appliedenergistics2:tile.BlockSkyCompass" showIcon="left" /> to find them. However, the Meteorite Compass only tells you that a meteorite exists in the current chunk; it does not point you precisely to its location.
+Meteoritler oldukça yaygındır. Bazıları yüzeyde oluşur, ancak birçoğu yer altına gömülüdür.
+Onları bulmak için bir <ItemLink id="appliedenergistics2:tile.BlockSkyCompass" showIcon="left" /> kullanabilirsin. Ancak Meteorit Pusulası yalnızca mevcut yığında bir meteorit olduğunu söyler; seni tam konumuna yönlendirmez.
 
 ![Meteorite Crater](../assets/images/meteorite_crater.png)

@@ -1,15 +1,15 @@
 ---
 navigation:
-  title: Channels
+  title: Kanallar
   parent: /ae2_mechanics_index.md
   icon: appliedenergistics2:item.ItemMultiPart:56
 ---
 
-# Channels
+# Kanallar
 
-## What Are Channels?
+## Kanallar Nedir?
 
-Channels are a resource consumed by devices in an AE2 [ME Network](me_network_connections.md). An ME network uses channels to support [devices](devices.md) that provide networked storage and other network services. The number of channels available on cables is limited: each cable can only carry so many channels. When you connect a channel-using device to the network by cable, that device occupies one channel on the cable. Once the cable runs out of channels, newly added devices can no longer connect to the ME network.
+Kanallar, bir AE2 [ME Ağı](me_network_connections.md) içindeki cihazlar tarafından tüketilen bir kaynaktır. Bir ME ağı, ağa bağlı depolama ve diğer ağ hizmetleri sağlayan [cihazları](devices.md) desteklemek için kanalları kullanır. Kablolarda kullanılabilir kanal sayısı sınırlıdır: her kablo yalnızca belirli sayıda kanal taşıyabilir. Kanal kullanan bir cihazı kabloyla ağa bağladığında, o cihaz kabloda bir kanal kaplar. Kablo kanallarını tükettiğinde, yeni eklenen cihazlar artık ME ağına bağlanamaz.
 
 <GameScene zoom="4" showBackground={false} width="300" rotateX={20} rotateY={-75}>
   <ImportStructure src="../assets/structures/channels_channel_count.snbt" />
@@ -90,80 +90,80 @@ Channels are a resource consumed by devices in an AE2 [ME Network](me_network_co
   color="#ff0000"
   thickness="1"
   alwaysOnTop={true}>
-  All 8 channels in the cable have been used, so the Drive does not get one. 
+  Kablodaki 8 kanalın tamamı kullanıldığı için Sürücü kanal alamıyor. 
   </LineAnnotation>
   <DiamondAnnotation pos="0.5 0.55 2" color="#ff0000">
-    All 8 channels in the cable have been used, so the Drive does not get one. 
+    Kablodaki 8 kanalın tamamı kullanıldığı için Sürücü kanal alamıyor. 
   </DiamondAnnotation>
 </GameScene>
 
-Normal cables can carry 8 channels, while dense cables can carry 32 channels. An easy way to observe channel usage is to use [Smart Cables](../items_blocks/cables.md#Smart Cable), which show channel usage with their textures and lighting.
+Normal kablolar 8 kanal taşıyabilirken kalın kablolar 32 kanal taşıyabilir. Kanal kullanımını gözlemlemenin kolay bir yolu, kanal kullanımını dokuları ve ışıklarıyla gösteren [Akıllı Kabloları](../items_blocks/cables.md#Smart Cable) kullanmaktır.
 
 
-# Channel Routing
+# Kanal Yönlendirmesi
 
-In an ME network with an <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />, channels are routed in three steps:
+Bir <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" /> içeren ME ağında kanallar üç adımda yönlendirilir:
 
-1. The channel takes the shortest path from the adjacent device to the nearest normal cable, whether that is Glass Cable, Covered Cable, or Smart Cable.
-2. It then continues along that normal cable to the nearest dense cable.
-3. It finally travels along that dense cable to the ME Controller.
+1. Kanal, bitişik cihazdan en yakın normal kabloya en kısa yolu izler; bu kablo Cam Kablo, Kaplamalı Kablo veya Akıllı Kablo olabilir.
+2. Ardından o normal kablo boyunca en yakın kalın kabloya devam eder.
+3. Son olarak o kalın kablo boyunca ME Kontrolcüsüne gider.
 
-If the shortest path is already full, some devices may fail to receive the channels they need.
+En kısa yol zaten doluysa bazı cihazlar ihtiyaç duydukları kanalları alamayabilir.
 
-You can use cable coloring, <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/>, and <ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/> to force channels to travel along the path you want. Color does not affect channel priority. It only prevents cables of different colors from connecting to each other, which helps control channel routing.
+Kanalları istediğin yoldan gitmeye zorlamak için kablo renklendirmesini, <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/>, ve <ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/> kullanabilirsin. Renk, kanal önceliğini etkilemez. Yalnızca farklı renkteki kabloların birbirine bağlanmasını engeller; bu da kanal yönlendirmesini kontrol etmeye yardımcı olur.
 
 > [!NOTE]
-> Uncolored (Fluix) cables can connect to cables of any color.
+> Renksiz (Fluix) kablolar her renkteki kabloya bağlanabilir.
 
-For example, in the following setup the cables form a loop. Because channels always try to use the shortest path, some Drives end up losing channels and going offline.
+Örneğin aşağıdaki düzenekte kablolar bir döngü oluşturur. Kanallar her zaman en kısa yolu kullanmaya çalıştığından bazı Sürücüler kanal kaybedip çevrimdışı olur.
 
 <GameScene zoom="2" showBackground={false} width="200" rotateX={90} rotateY={-90}>
     <ImportStructure src="../assets/structures/channels_channel_loop1.snbt" />
 </GameScene>
 
-This can be fixed by carefully constraining channel paths with cable colors, Quartz Fiber, and Cable Anchors. Network structures should be tree-like, with as few loops and ambiguous mesh paths as possible.
+Bu, kanal yollarını kablo renkleri, Kuvars Fiber ve Kablo Çapalarıyla dikkatlice sınırlandırarak düzeltilebilir. Ağ yapıları olabildiğince az döngü ve belirsiz örgü yolu içeren ağaç benzeri yapılar olmalıdır.
 
 <GameScene zoom="2" showBackground={false} width="200" rotateX={90} rotateY={-90}>
     <ImportStructure src="../assets/structures/channels_channel_loop2.snbt" />
 </GameScene>
 
 
-# Network Design
+# Ağ Tasarımı
 
-As described above, ME networks should be designed as branching trees. Use dense cables as the main trunk carrying channels out of the controller, then split off normal cables from the dense line to feed devices. Each normal cable group should serve no more than 8 devices. If you need more, split off another normal cable branch from the dense cable.
+Yukarıda açıklandığı gibi ME ağları dallanan ağaçlar olarak tasarlanmalıdır. Kanalları kontrolcüden dışarı taşıyan ana gövde olarak kalın kablolar kullan, ardından cihazları beslemek için kalın hattan normal kablolar ayır. Her normal kablo grubu en fazla 8 cihaza hizmet etmelidir. Daha fazlasına ihtiyacın varsa kalın kablodan başka bir normal kablo dalı ayır.
 
-The following is an example of a <Color id="RED">poorly structured</Color> network. It is full of loops: the cables form loops, and direct channel transmission between devices also creates loops. The result is a network that is hard to read, hard to analyze, and likely to leave some components offline because they do not receive channels.
+Aşağıda <Color id="RED">kötü yapılandırılmış</Color> bir ağ örneği var. Döngülerle doludur: kablolar döngüler oluşturur ve cihazlar arasında doğrudan kanal aktarımı da döngüler yaratır. Sonuç, okunması ve çözümlenmesi zor olan ve kanal alamadıkları için bazı bileşenleri muhtemelen çevrimdışı bırakan bir ağdır.
 
 <GameScene zoom="4" showBackground={false} width="400" rotateX={30} rotateY={100}>
     <ImportStructure src="../assets/structures/channels_bad_design.snbt" />
 </GameScene>
 
-Here is an example of a <Color id="GREEN">well-structured</Color> network:
+İşte <Color id="GREEN">iyi yapılandırılmış</Color> bir ağ örneği:
 <GameScene zoom="2" showBackground={false} width="400" rotateY={-115} rotateX={30}>
     <ImportStructure src="../assets/structures/channels_good_design.snbt" />
     <BoxAnnotation min="11 0 8" max="13 1 5" color="#00ff1a" thickness="1">
-      Use different cable colors to separate sections so they are easier to identify and less likely to connect accidentally.
+      Bölümleri ayırmak için farklı kablo renkleri kullan; böylece daha kolay tanımlanır ve yanlışlıkla bağlanma olasılıkları azalır.
     </BoxAnnotation>
     <BoxAnnotation min="5 0 4" max="3 4 6" color="#00ff1a" thickness="1">
-      This normal cable carries exactly 8 channels for 8 Interfaces. There is no channel shortage and no waste here, because Molecular Assemblers themselves do not use channels.
+      Bu normal kablo 8 Arayüz için tam olarak 8 kanal taşıyor. Burada kanal sıkıntısı da atık da yok çünkü Moleküler Birleştiricilerin kendisi kanal kullanmaz.
     </BoxAnnotation>
 </GameScene>
 
-# Ad-Hoc Networks
+# Ad-Hoc Ağlar
 
-A network without an <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" /> is an ad-hoc network. It can support at most 8 channel-using devices. If you exceed 8 devices, the entire network fails instead of only the extra devices going offline. At that point, you must either remove some devices or add an ME Controller.
+Bir <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" /> olmayan ağ ad-hoc bir ağdır. Kanal kullanan en fazla 8 cihazı destekleyebilir. 8 cihazı aşarsan yalnızca fazladan cihazların çevrimdışı olması yerine tüm ağ çöker. Bu noktada ya bazı cihazları kaldırmalı ya da bir ME Kontrolcüsü eklemelisin.
 
-Unlike a normal controller-based network, Smart Cables in an ad-hoc network show the total number of channels in use across the whole network, not the number passing through that specific cable.
+Normal kontrolcü tabanlı bir ağdan farklı olarak, ad-hoc ağdaki Akıllı Kablolar o belirli kablodan geçen kanal sayısını değil, tüm ağda kullanılan toplam kanal sayısını gösterir.
 
-In practice, every device in an ad-hoc network occupies one channel on every cable in the entire network. That is completely different from how an ME Controller allocates channels by shortest path. In other words, all used channels are spread evenly across the entire ad-hoc network, and there is no real notion of a routed channel path.
+Pratikte ad-hoc ağdaki her cihaz, tüm ağdaki her kabloda bir kanal kaplar. Bu, bir ME Kontrolcüsünün kanalları en kısa yola göre ayırmasından tamamen farklıdır. Başka bir deyişle, kullanılan tüm kanallar tüm ad-hoc ağa eşit şekilde yayılır ve yönlendirilmiş bir kanal yolu kavramı gerçekte yoktur.
 
-<FloatingImage src="../assets/images/channels_normal_network.png"  wrap="top-bottom" align="left"  displayWidth="300" title="Normal Network" >
+<FloatingImage src="../assets/images/channels_normal_network.png"  wrap="top-bottom" align="left"  displayWidth="300" title="Normal Ağ" >
   <ImageAnnotation>
-  Normal Network
+  Normal Ağ
   </ImageAnnotation>
 </FloatingImage>
-<FloatingImage src="../assets/images/channels_ad_hoc_network.png"  wrap="top-bottom" align="left"  displayWidth="300" title="Ad-Hoc Network" >
+<FloatingImage src="../assets/images/channels_ad_hoc_network.png"  wrap="top-bottom" align="left"  displayWidth="300" title="Ad-Hoc Ağ" >
   <ImageAnnotation>
-  Ad-Hoc Network
+  Ad-Hoc Ağ
   </ImageAnnotation>
 </FloatingImage>

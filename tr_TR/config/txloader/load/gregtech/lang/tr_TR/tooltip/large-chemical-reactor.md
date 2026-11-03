@@ -1,3 +1,3 @@
-Accepts fluids instead of fluid cells
-Can perform several direct recipes that skip intermediate compounds
-{color_mechanic:Performs 4/4 Perfect Overclocks}
+Sıvı hücreleri yerine sıvıları kabul eder
+Ara bileşikleri atlayan birkaç doğrudan tarif yapabilir
+{color_mechanic:4/4 Mükemmel Aşırı Hız Aşımı yapar}

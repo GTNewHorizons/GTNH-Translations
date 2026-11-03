@@ -1,7 +1,7 @@
-Consumes a fixed {aqua:{var:eu_usage} {EU/t}}
-Has 2 Modes, use a {white:screwdriver} to switch between them:
-{color_mode:Direct Steam Mode}: Consumes {color_cold:{var:water_rate} {L}/t} of {color_cold:{fluid:ic2distilledwater}} to produce {color_steam:{var:steam_rate} {L}/t} of {color_steam:{fluid:ic2superheatedsteam}}
-{color_mode:Coolant Heating Mode}: Consumes {color_cold:{var:coolant_rate} {L}/t} of {color_cold:{fluid:ic2coolant}} to produce {color_hot:{var:coolant_rate} {L}/t} of {color_hot:{fluid:ic2hotcoolant}}
+Sabit {aqua:{var:eu_usage} {EU/t}} tüketir
+2 Modu vardır, aralarında geçiş yapmak için {white:tornavida} kullan:
+{color_mode:Doğrudan Buhar Modu}: {color_steam:{var:steam_rate} {L}/t} {color_steam:{fluid:ic2superheatedsteam}} üretmek için {color_cold:{var:water_rate} {L}/t} {color_cold:{fluid:ic2distilledwater}} tüketir
+{color_mode:Soğutucu Isıtma Modu}: {color_hot:{var:coolant_rate} {L}/t} {color_hot:{fluid:ic2hotcoolant}} üretmek için {color_cold:{var:coolant_rate} {L}/t} {color_cold:{fluid:ic2coolant}} tüketir
 {hr}
-Each maintenance issue lowers output efficiency by {color_loss:10%}
-{color_danger:Explodes} if it ever runs out of {color_cold:{fluid:ic2distilledwater}} or {color_cold:{fluid:ic2coolant}}
+Her bakım sorunu çıktı verimliliğini {color_loss:%10} azaltır
+{color_cold:{fluid:ic2distilledwater}} veya {color_cold:{fluid:ic2coolant}} tükenirse {color_danger:Patlar}

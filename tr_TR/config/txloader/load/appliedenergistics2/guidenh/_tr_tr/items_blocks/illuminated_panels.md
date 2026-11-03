@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Illuminated Panels
+  title: Işıklı Paneller
   icon: appliedenergistics2:item.ItemMultiPart:180
 categories:
 - misc ingredients blocks
@@ -11,7 +11,7 @@ item_ids:
 - appliedenergistics2:item.ItemMultiPart:200
 ---
 
-# Illuminated Panels
+# Işıklı Paneller
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiPart:160" scale="4" />
@@ -19,11 +19,11 @@ item_ids:
   <ItemImage id="appliedenergistics2:item.ItemMultiPart:200" scale="4" />
 </Row>
 
-Illuminated panels are decorative light sources and are also used in the production of [terminals](terminals.md).
+Işıklı paneller dekoratif ışık kaynaklarıdır ve [terminallerin](terminals.md) üretiminde de kullanılır.
 
-They are [cable subparts](../ae2_mechanics/cables_subparts.md).
+Onlar [kablo alt parçalarıdır](../ae2_mechanics/cables_subparts.md).
 
-## Recipes
+## Tarifler
 
 <Row>
   <RecipeFor id="appliedenergistics2:item.ItemMultiPart:160" />

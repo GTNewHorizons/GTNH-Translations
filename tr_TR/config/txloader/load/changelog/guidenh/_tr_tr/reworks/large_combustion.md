@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15533
 navigation:
-  title: Large Combustion Engine
+  title: Büyük Yanmalı Motor
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15533
 categories:
@@ -11,49 +11,49 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Large Combustion Engine
+# Büyük Yanmalı Motor
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15533"/>
 </GameScene>
-The <Color id="GREEN">Large Combustion Engine (LCE)</Color> is an EV tier multiblock for generating power from combustible fuels. The <Color id="GREEN">LCE</Color> is a direct upgrade from singleblock combustion generators because it has much higher fuel efficiency and can output more than 1A of power. However, the <Color id="GREEN">LCE</Color> must be supplied with 1,000 L/h of lubricant to run, and optionally 40 L/s of oxygen to boost the machine. Boosting is highly recommended because it triples the maximum power output and increases the fuel efficiency from 100% to 150%. Power is extracted from a 4A dynamo hatch on the back of the machine. Do not break the dynamo hatch while the machine is running or else it explodes. Save on fuel by automatically toggling the <Color id="GREEN">LCE</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>. The <Color id="GREEN">LCE</Color> is superseded by the Extreme Combustion Engine <ItemImage id="gregtech:gt.blockmachines:15534"/> and the Universal Chemical Fuel Engine <ItemImage id="gregtech:gt.blockmachines:15535"/> in IV. 
+<Color id="GREEN">Büyük Yanmalı Motor (LCE)</Color>, yanıcı yakıtlardan güç üretmek için kullanılan EV kademe bir multibloktur. <Color id="GREEN">LCE</Color>, tek bloklu yanmalı jeneratörlerin doğrudan yükseltmesidir çünkü çok daha yüksek yakıt verimliliğine sahiptir ve 1A'dan fazla güç çıktısı verebilir. Ancak <Color id="GREEN">LCE</Color>'nin çalışması için 1.000 L/h yağlayıcı ile beslenmesi gerekir ve isteğe bağlı olarak makineyi güçlendirmek için 40 L/s oksijen verilebilir. Güçlendirme şiddetle önerilir çünkü maksimum güç çıktısını üçe katlar ve yakıt verimliliğini yüzde 100'den yüzde 150'ye çıkarır. Güç, makinenin arkasındaki 4A dinamo kapağından alınır. Makine çalışırken dinamo kapağını kırma, yoksa patlar. Lapotronik Süperkapasitöre <ItemImage id="gregtech:gt.blockmachines:13106"/> bağlı bir RS mandalı ile <Color id="GREEN">LCE</Color>'yi otomatik açıp kapatarak yakıttan tasarruf et. <Color id="GREEN">LCE</Color>'nin yerini IV'te Ekstrem Yanmalı Motor <ItemImage id="gregtech:gt.blockmachines:15534"/> ve Evrensel Kimyasal Yakıt Motoru <ItemImage id="gregtech:gt.blockmachines:15535"/> alır. 
 
 [GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure itself has changed, the core functionality of the multiblock is the same as previous
+> Yalnızca yapının kendisi değişti, multiblokun çekirdek işlevselliği öncekiyle aynı
 
-## Construction
-The <Color id="GREEN">LCE</Color> has no tiered components. The maintenance hatch and muffler hatch may replace any stable titanium machine casing that is NOT touching a gear box casing. The input hatch(es) may replace any stable titanium machine casing that IS touching a gear box casing. A quadruple input hatch may be useful for inserting all the necessary fluids. The dynamo hatch is limited to the center casing on the right side of the structure, opposite the controller, and cannot be greater than 4A. There is also mandatory air in front of the engine intake casings. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+## Yapım
+<Color id="GREEN">LCE</Color>'nin kademeli bileşenleri yoktur. Bakım Kapağı ve Egzoz Çıkışı, dişli kutusu kasasına temas ETMEYEN herhangi bir dengeli titanyum makine gövdesinin yerine geçebilir. Girdi kapağı(ları), dişli kutusu kasasına temas EDEN herhangi bir dengeli titanyum makine gövdesinin yerine geçebilir. Gerekli tüm sıvıları koymak için dörtlü girdi kapağı işe yarayabilir. Dinamo Kapağı, yapının sağ tarafında kontrolcünün karşısındaki orta kasayla sınırlıdır ve 4A'dan büyük olamaz. Ayrıca motor emme kasalarının önünde zorunlu hava boşluğu vardır. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan. 
 
-### Requires:
+### Gerekli:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15533"/><ItemImage id="gregtech:gt.blockmachines:15533"/>
 - 21 <ItemLink id="gregtech:gt.blockframes:473"/><ItemImage id="gregtech:gt.blockframes:473"/>
 - 19 <ItemLink id="gregtech:gt.blockcasings8"/><ItemImage id="gregtech:gt.blockcasings8"/>
 - 10-15 <ItemLink id="gregtech:gt.blockcasings4:2"/><ItemImage id="gregtech:gt.blockcasings4:2"/>
 - 8 <ItemLink id="gregtech:gt.blockcasings4:13"/><ItemImage id="gregtech:gt.blockcasings4:13"/>
 - 4 <ItemLink id="gregtech:gt.blockcasings2:4"/><ItemImage id="gregtech:gt.blockcasings2:4"/>
-- 1 Dynamo Hatch (right center casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 Maintenance Hatch (any titanium casing not next to gearbox) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any titanium casing not next to gearbox) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 1+ Input Hatch (any titanium casing not next to gearbox) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 1 Dinamo Kapağı (sağ orta kasa) <ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 Bakım Kapağı (dişli kutusunun yanında olmayan herhangi bir titanyum kasa) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (dişli kutusunun yanında olmayan herhangi bir titanyum kasa) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 1+ Girdi Kapağı (dişli kutusunun yanında olmayan herhangi bir titanyum kasa) <ItemImage id="gregtech:gt.blockmachines:50" />
 
-### Wallsharing
-<Color id="GREEN">LCEs</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. That does NOT include the input hatch due to the restriction on its location. 
+### Duvar Paylaşımı
+<Color id="GREEN">LCE</Color>'ler kasa, çerçeve kutusu ve veri yolu/kapaklardan tasarruf etmek için her bir kenarını duvar paylaşabilir. Konum kısıtlaması nedeniyle buna girdi kapağı dahil DEĞİLDİR. 
 
-## Usage
-The <Color id="GREEN">LCE</Color> generates power from combustible diesel fuels. The most popular options are light fuel, diesel, and cetane-boosted diesel. Jet Fuel A and high octane gasoline are also fairly common, but they are typically used in the Extreme Combustion Engine or Universal Chemical Fuel Engine instead. The last two fuels have such high energy values that they cannot be used in the default mode. 
+## Kullanım
+<Color id="GREEN">LCE</Color>, yanıcı dizel yakıtlardan güç üretir. En popüler seçenekler hafif yakıt, dizel ve setan takviyeli dizeldir. Jet Yakıtı A ve yüksek oktanlı benzin de oldukça yaygındır, ancak bunlar genellikle bunun yerine Ekstrem Yanmalı Motorda veya Evrensel Kimyasal Yakıt Motorunda kullanılır. Son iki yakıt o kadar yüksek enerji değerlerine sahiptir ki varsayılan modda kullanılamazlar. 
 
-The <Color id="GREEN">LCE</Color> has two operating modes, listed below. The machine automatically switches between them based on the available inputs. Boosting is highly recommended because it triples the maximum EU/t and increases the fuel efficiency from 100% to 150%. The oxygen is not difficult to sustain--simply build a sugar beet or sweed farm and electrolyze the sugar.
+<Color id="GREEN">LCE</Color>'nin aşağıda listelenen iki çalışma modu vardır. Makine mevcut girdilere göre aralarında otomatik geçiş yapar. Güçlendirme şiddetle önerilir çünkü maksimum EU/t'yi üçe katlar ve yakıt verimliliğini yüzde 100'den yüzde 150'ye çıkarır. Oksijeni sürdürmek zor değildir--sadece bir şeker pancarı veya şalgam çiftliği kur ve şekeri elektroliz et.
 
-_Default_
-- Inputs: Fuel + 1,000 L/h lubricant
-- Output: Maximum 2,048 EU/t at 100% fuel efficiency.
+_Varsayılan_
+- Girdiler: Yakıt + 1.000 L/h yağlayıcı
+- Çıktı: Yüzde 100 yakıt verimliliğinde maksimum 2.048 EU/t.
 
-_Boosted_
-- Inputs: Fuel + 1,000 L/h lubricant + 40 L/s oxygen
-- Output: Maximum 6,144 EU/t at 150% fuel efficiency.
+_Güçlendirilmiş_
+- Girdiler: Yakıt + 1.000 L/h yağlayıcı + 40 L/s oksijen
+- Çıktı: Yüzde 150 yakıt verimliliğinde maksimum 6.144 EU/t.
 
-The <Color id="GREEN">LCE</Color> also has its own efficiency value that is directly proportional to the power output of the machine. The efficiency of the <Color id="GREEN">LCE</Color> increases linearly while the machine is active and almost immediately resets back to 0% while the machine is idle. It takes 33s (default) or 100s (boosted) to reach maximum efficiency. View the current efficiency by using a Portable Scanner on the controller, or by looking at the efficiency value in WAILA.
+<Color id="GREEN">LCE</Color>'nin ayrıca makinenin güç çıktısıyla doğru orantılı kendi verimlilik değeri vardır. <Color id="GREEN">LCE</Color>'nin verimliliği makine çalışırken doğrusal olarak artar ve makine boştayken neredeyse anında yüzde sıfıra geri döner. Maksimum verimliliğe ulaşmak 33 sn (varsayılan) veya 100 sn (güçlendirilmiş) sürer. Mevcut verimliliği kontrolcüye bir Taşınabilir Tarayıcı kullanarak veya WAILA'daki verimlilik değerine bakarak görebilirsin.
 
-The <Color id="GREEN">LCE</Color> should run for as long as possible but not forever because additional EU is voided once the dynamo hatch is full. The solution is to automatically toggle the <Color id="GREEN">LCE</Color> with an RS latch connected to a Lapotronic Supercapacitor or battery buffer.
+<Color id="GREEN">LCE</Color> mümkün olduğunca uzun süre çalışmalı ama sonsuza kadar değil, çünkü dinamo kapağı dolduğunda fazladan EU boşa gider. Çözüm, Lapotronik Süperkapasitöre veya pil tamponuna bağlı bir RS mandalı ile <Color id="GREEN">LCE</Color>'yi otomatik açıp kapatmaktır.

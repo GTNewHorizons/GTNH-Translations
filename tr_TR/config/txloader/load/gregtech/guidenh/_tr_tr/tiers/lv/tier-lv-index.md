@@ -1,10 +1,10 @@
 ---
 navigation:
-  title: LV (Low Voltage)
-  icon: minecraft:grass
+  title: LV (Düşük Gerilim)
+  icon: minecraft:grass # Çim
   parent: /tiers/tiers_index.md
   position: -1
 ---
 
 > [!WARNING]
-> This page is under construction. Check again later, or [help contribute](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
+> Bu sayfa yapım aşamasında. Daha sonra tekrar kontrol et veya [katkıda bulunmaya yardım et](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!

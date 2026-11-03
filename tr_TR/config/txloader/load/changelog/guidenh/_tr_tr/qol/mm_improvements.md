@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Matter Manipulator Improvements
+  title: Madde Manipülatörü İyileştirmeleri
   parent: qol.md
   icon: matter-manipulator:itemMatterManipulator3
 categories:
@@ -9,25 +9,25 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Matter Manipulator Improvements
-A few nice changes have been made to how the <Color id="GREEN">Matter Manipulator</Color> <ItemImage id="matter-manipulator:itemMatterManipulator3" /> works! They are outlined below
+# Madde Manipülatörü İyileştirmeleri
+<Color id="GREEN">Madde Manipülatörü</Color> <ItemImage id="matter-manipulator:itemMatterManipulator3" /> öğesinin çalışma biçiminde birkaç hoş değişiklik yapıldı! Aşağıda bunlar açıklanıyor
 
-# Advanced Copy Options (Smart Copy)
-The Copy/Paste radial menu now comes with an <Color id="BLUE">__Advanced Options__</Color> sub-menu with three new toggles:
-- __Link to External Hubs (MKII+)__: When copying wireless connectors linked to a hub _outside_ of the copied region, pasted connectors will remain linked to that hub!
-- __Auto-P2P Interfaces (MKII+)__: Replaces ME interfaces with P2P ME Interface tunnels. The source will receive an "input-side" tunnel, and the pasted version will get the "output-side" tunnel, with frequencies automatically matched. Patterns will remain at the source, so you can replicate processing set-ups that all route to that single set of patterns! (This also works with Fluid P2P Interface tunnels)
-- __Auto-Proxy CRIBs (MKIII)__: Replaces <Color id="RED">Crafting Input Buses</Color> in the copied structure with <Color id="BLUE">Crafting Input Proxies</Color> linked back to the original bus! Again, the linking is automatic!
+# Gelişmiş Kopyalama Seçenekleri (Akıllı Kopyalama)
+Kopyala/Yapıştır radyal menüsü artık üç yeni anahtar içeren bir <Color id="BLUE">__Gelişmiş Seçenekler__</Color> alt menüsüyle geliyor:
+- __Harici Merkezlere Bağla (MKII+)__: Kopyalanan bölgenin _dışındaki_ bir merkeze bağlı kablosuz bağlayıcıları kopyalarken, yapıştırılan bağlayıcılar o merkeze bağlı kalır!
+- __Otomatik P2P Arayüzleri (MKII+)__: ME arayüzlerini P2P ME Arayüz tünelleriyle değiştirir. Kaynak "giriş tarafı" tüneli alır, yapıştırılan sürüm ise "çıkış tarafı" tünelini alır ve frekanslar otomatik olarak eşleştirilir. Kalıplar kaynakta kalır, böylece hepsi o tek kalıp setine yönlenen işleme düzeneklerini çoğaltabilirsin! (Bu, Sıvı P2P Arayüz tünelleriyle de çalışır)
+- __Otomatik Proxy CRIB'ler (MKIII)__: Kopyalanan yapıdaki <Color id="RED">Üretim Giriş Veriyollarını</Color>, özgün veriyoluna geri bağlanan <Color id="BLUE">Üretim Giriş Proxileri</Color> ile değiştirir! Yine bağlantı otomatiktir!
 
 <FloatingImage src="../assets/qol/mm_smart.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
-    The new Smart Copy menu
+    Yeni Akıllı Kopyalama menüsü
   </ImageAnnotation>
 </FloatingImage>
 <br clear="all"/>
-# Decorative Block Support
-For those of you obsessed with your Carpenter's Blocks, Project Red, or Forge Microblocks, the <Color id="GREEN">Matter Manipulator</Color> now fully supports them!
+# Dekoratif Blok Desteği
+Marangozun Blokları, Project Red veya Forge Microblocks tutkunuysan, <Color id="GREEN">Madde Manipülatörü</Color> artık onları tamamen destekliyor!
 
-Copying and pasting these blocks has historically been impossible to get right, but now they will not only save their orientation, but will preserve decorative covers!
+Bu blokları kopyalayıp yapıştırmak geçmişte bir türlü doğru yapılamıyordu, ama artık yalnızca yönlerini korumakla kalmayacak, dekoratif kaplamalarını da koruyacaklar!
 
-## OpenComputers Cable Support
-Cable Mode now works with OpenComputers cables. Right click a cable to select, then start drawing lines, just like with GregTech/Applied Energistics cables!
+## OpenComputers Kablo Desteği
+Kablo Modu artık OpenComputers kablolarıyla çalışıyor. Bir kabloyu seçmek için sağ tıkla, sonra tıpkı GregTech/Applied Energistics kablolarında olduğu gibi çizgi çizmeye başla!

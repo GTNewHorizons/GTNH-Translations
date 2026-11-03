@@ -1,6 +1,6 @@
 {hr}
-{dark_green:{var:rubber_discount}%} rubber discount per {color_name:Item Pipe Casing} Tier (additive)
-An {color-pattern:dark_red,red,gold,yellow,green,aqua,light_purple,dark_purple:Elastic Singularity} can be inserted into the controller to gain the following bonuses
-{color_parallel:{var:singularity_parallels}x} Parallels, {dark_green:+{var:singularity_discount}%} rubber discount, and the use of {color_hatch:Multi-Amp and Laser Hatches}
+Her {color_name:Eşya Borusu Kasası} Kademesinde {dark_green:{var:rubber_discount}%} kauçuk indirimi (toplamalı)
+Aşağıdaki bonusları kazanmak için kontrolcüye bir {color-pattern:dark_red,red,gold,yellow,green,aqua,light_purple,dark_purple:Elastik Tekillik} takılabilir
+{color_parallel:{var:singularity_parallels}x} Paralel, {dark_green:+{var:singularity_discount}%} kauçuk indirimi ve {color_hatch:Çok Amperli ve Lazer Kapakları} kullanımı
 {hr}
-{dark_aqua:Make sure to cover up!}
+{dark_aqua:Örtünmeyi unutma!}

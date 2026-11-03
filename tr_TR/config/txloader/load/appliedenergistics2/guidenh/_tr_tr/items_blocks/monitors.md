@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Monitors
+  title: Monitörler
   icon: appliedenergistics2:item.ItemMultiPart:400
 categories:
 - devices

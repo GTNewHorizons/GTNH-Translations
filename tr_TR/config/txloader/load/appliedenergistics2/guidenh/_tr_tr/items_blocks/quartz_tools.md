@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Certus Quartz Pickaxe
+  title: Certus Kuvars Kazma
   icon: appliedenergistics2:item.ToolCertusQuartzPickaxe
 categories:
 - tools
@@ -9,7 +9,7 @@ item_ids:
 - appliedenergistics2:item.ToolCertusQuartzPickaxe
 ---
 
-# Quartz Tools
+# Kuvars Aletleri
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ToolCertusQuartzAxe" scale="4" />
@@ -26,9 +26,9 @@ item_ids:
   <ItemImage id="appliedenergistics2:item.ToolNetherQuartzSword" scale="4" />
 </Row>
 
-Quartz tools are functionally identical to iron tools, with the same attack damage, durability, and mining speed. They have Nether Quartz and [Certus Quartz](fluix_crystal.md) variants.
+Kuvars aletleri işlevsel olarak demir aletlerle birebir aynıdır; saldırı hasarı, dayanıklılık ve blokları kırma hızı aynıdır. Nether Kuvars ve [Certus Kuvars Kristali](fluix_crystal.md) varyantları vardır.
 
-## Recipes
+## Tarifler
 
 <Column>
 <Row>

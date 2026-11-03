@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Fluid Interface
+  title: ME Sıvı Arayüzü
   icon: ae2fc:fluid_interface
 item_ids:
   - ae2fc:fluid_interface
@@ -9,7 +9,7 @@ categories:
 - devices
 ---
 
-# ME Dual Fluid Interface
+# ME Çift Sıvı Arayüzü
 
 <Row gap="20">
 <BlockImage id="ae2fc:fluid_interface" scale="4" />
@@ -17,81 +17,81 @@ categories:
 <ItemImage id="ae2fc:part_fluid_p2p_interface" scale="4" />
 </Row>
 
-*"Mysterious power from AE2FC"*
+*"AE2FC'den gelen gizemli güç"*
 
-An interface behaves like a small chest or fluid tank. Its configured slots can automatically be filled from or emptied
-into [network storage](../ae2_mechanics/import_export_storage.md). It can process up to nine item groups per tick, and can
-therefore provide fast input and output when paired with high-speed pipes.
+Bir arayüz küçük bir sandık veya sıvı tankı gibi davranır. Yapılandırılmış yuvaları [ağ depolamasından](../ae2_mechanics/import_export_storage.md)
+otomatik olarak doldurulabilir veya oraya boşaltılabilir. Tik başına en fazla dokuz eşya grubu işleyebilir ve bu sayede
+yüksek hızlı borularla eşleştirildiğinde hızlı girdi ve çıktı sağlayabilir.
 
-It can store up to nine different fluids at once, unlike a normal tank that stores only one, while also storing items.
-When disconnected from a network it continues to work as a normal container.
+Yalnızca bir sıvı depolayan normal bir tankın aksine, aynı anda dokuz farklı sıvı depolayabilir ve bunun yanında eşya da depolar.
+Ağdan ayrıldığında normal bir kap olarak çalışmaya devam eder.
 
-## Internal Operation
+## İç İşleyiş
 
-The interface is effectively a composite device containing multiple high-speed <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />
-and <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> buses, plus multiple <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> level emitters:
+Arayüz aslında birden fazla yüksek hızlı <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />
+ve <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> veriyolunu, ayrıca birden fazla <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> seviye yayıcısını içeren bileşik bir cihazdır:
 
 <GameScene width="450" height="200" zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/interface_internals.snbt" />
-  <BoxAnnotation color="#dddddd" min="2.3 0.3 1.3" max="9.7 1 1.7">Level emitters controlling stored quantities</BoxAnnotation>
-  <BoxAnnotation color="#dddddd" min="2.3 4 1.3" max="9.7 4.7 1.7">Level emitters controlling stored quantities</BoxAnnotation>
-  <BoxAnnotation color="#dddddd" min="2.3 1.3 1.3" max="9.7 2 1.7">High-speed import bus array, one item group per tick</BoxAnnotation>
-  <BoxAnnotation color="#dddddd" min="2.3 3 1.3" max="9.7 3.7 1.7">High-speed export bus array, one item group per tick</BoxAnnotation>
-  <BoxAnnotation color="#dddddd" min="2 2 1" max="10 3 2">Nine independent storage slots</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="2.3 0.3 1.3" max="9.7 1 1.7">Depolanan miktarları kontrol eden seviye yayıcıları</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="2.3 4 1.3" max="9.7 4.7 1.7">Depolanan miktarları kontrol eden seviye yayıcıları</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="2.3 1.3 1.3" max="9.7 2 1.7">Yüksek hızlı içe aktarma veriyolu dizisi, tik başına bir eşya grubu</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="2.3 3 1.3" max="9.7 3.7 1.7">Yüksek hızlı dışa aktarma veriyolu dizisi, tik başına bir eşya grubu</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="2 2 1" max="10 3 2">Dokuz bağımsız depolama yuvası</BoxAnnotation>
   <IsometricCamera yaw="15" pitch="15" />
 </GameScene>
 
-## Special Interactions
+## Özel Etkileşimler
 
-* Attaching an <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> to an unconfigured interface makes the storage bus
-  access all [storage](../ae2_mechanics/import_export_storage.md) on the interface's network, as though it were attached to
-  the network itself. Configuring any item in the interface disables this behavior.
+* Yapılandırılmamış bir arayüze <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> takmak, depolama veriyolunun
+gerçekten ağın kendisine takılmış gibi arayüzün ağındaki tüm [depolamaya](../ae2_mechanics/import_export_storage.md)
+erişmesini sağlar. Arayüzde herhangi bir eşya yapılandırmak bu davranışı devre dışı bırakır.
 
 <GameScene width="200" height="150" zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/interface_storage.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-* An unconfigured interface on a [subnetwork](../ae2_mechanics/subnetworks.md) lets a connected ME interface push directly
-  into the subnetwork's storage, skipping the interface slots and waiting for available space before sending the next batch.
+* Bir [alt ağ](../ae2_mechanics/subnetworks.md) üzerindeki yapılandırılmamış arayüz, bağlı bir ME arayüzünün doğrudan
+alt ağın deposuna itmesini sağlar; arayüz yuvalarını atlar ve bir sonraki yığını göndermeden önce boş alan bekler.
 
 <GameScene width="320" height="200" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/fluid_interface_storage.snbt" />
-  <BoxAnnotation color="#dddddd" min="2.7 0 1" max="3 1 2">Interface (must be the flat variant)</BoxAnnotation>
-  <BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 4">Storage bus array</BoxAnnotation>
-  <BoxAnnotation color="#dddddd" min="0 0 0" max="1 1 4">Target machines (multiple machines or input faces)</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="2.7 0 1" max="3 1 2">Arayüz (düz varyant olmalı)</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 4">Depolama veriyolu dizisi</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="0 0 0" max="1 1 4">Hedef makineleri (birden fazla makine veya girdi yüzü)</BoxAnnotation>
   <IsometricCamera yaw="185" pitch="30" />
 </GameScene>
 
-## Variants
+## Varyantlar
 
-Interfaces have a normal block form and a flat [cable subpart](../ae2_mechanics/cables_subparts.md):
+Arayüzlerin normal bir blok formu ve düz bir [Kablolar alt parçası](../ae2_mechanics/cables_subparts.md) vardır:
 
-* **Normal interface:** accepts and outputs items on every side and provides network connections on every side.
-* **Flat interface:** can be placed densely on a cable, accepts and outputs only on its front, and does not provide a
-  network connection on its front.
+* **Normal arayüz:** her taraftan eşya kabul eder ve çıktı verir, her tarafta ağ bağlantısı sağlar.
+* **Düz arayüz:** bir kablo üzerine sık yerleştirilebilir, yalnızca ön yüzünden kabul eder ve çıktı verir, ön yüzünde
+  ağ bağlantısı sağlamaz.
 
-The two forms can be converted in a crafting grid.
+İki form bir üretim ızgarasında birbirine dönüştürülebilir.
 
-## Settings
+## Ayarlar
 
-* The nine slots at the top define the item or fluid quantities to maintain.
-* Right-click a fluid container, such as a bucket, to set a fluid filter.
-* Click the wrench beside a slot to set its target quantity.
+* Üstteki dokuz yuva, korunacak eşya veya sıvı miktarlarını tanımlar.
+* Sıvı filtresi ayarlamak için kova gibi bir sıvı kabına sağ tıkla.
+* Bir yuvanın hedef miktarını ayarlamak için yanındaki İngiliz Anahtarı'na tıkla.
 
-## Upgrade Support
+## Yükseltme Desteği
 
-The interface supports these [upgrade cards](upgrade_cards.md):
+Arayüz şu [yükseltme kartlarını](upgrade_cards.md) destekler:
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> enables fuzzy matching (by damage value or ignoring NBT).
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> enables autocrafting requests, extracting stored items first
-  and triggering [autocrafting](../ae2_mechanics/autocrafting.md) when storage is insufficient.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> bulanık eşleştirmeyi etkinleştirir (hasar değerine göre veya NBT'yi yok sayarak).
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> otomatik üretim isteklerini etkinleştirir; önce depolanan eşyaları
+  özütler ve depolama yetersiz olduğunda [otomatik üretimi](../ae2_mechanics/autocrafting.md) tetikler.
 
-## Priority
+## Öncelik
 
-Click the wrench in the top-right corner of the GUI to set priority. Higher-priority interfaces receive items first.
+Öncelik ayarlamak için GUI'nin sağ üst köşesindeki İngiliz Anahtarı'na tıkla. Daha yüksek öncelikli arayüzler eşyaları önce alır.
 
-## Recipes
+## Tarifler
 
 <Recipe id="ae2fc:fluid_interface" />
 

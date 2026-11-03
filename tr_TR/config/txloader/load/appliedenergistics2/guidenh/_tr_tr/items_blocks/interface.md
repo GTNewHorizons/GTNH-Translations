@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Interface
+  title: ME Arayüzü
   icon: appliedenergistics2:tile.BlockInterface
 item_ids:
   - appliedenergistics2:tile.BlockInterface
@@ -10,7 +10,7 @@ categories:
 - devices
 ---
 
-# ME Interface
+# ME Arayüzü
 
 <Row gap="20">
 <BlockImage id="appliedenergistics2:tile.BlockInterface" scale="4" />
@@ -18,48 +18,48 @@ categories:
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:471" scale="4" />
 </Row>
 
-An interface acts as a small chest and fluid tank. It inserts and extracts from [network storage](../ae2_mechanics/import_export_storage.md) according to the stock levels configured in its slots. It attempts to complete transfers in one game tick, up to nine item stacks per tick, making it a fast input/output method.
+Bir arayüz küçük bir sandık ve sıvı tankı gibi işlev görür. Yuvalarında yapılandırılmış stok seviyelerine göre [ağ depolamasından](../ae2_mechanics/import_export_storage.md) eşya ekler ve çıkarır. Aktarımları tek bir oyun tick'inde, tick başına en fazla dokuz eşya yığınına kadar tamamlamaya çalışır; bu da onu hızlı bir giriş/çıkış yöntemi yapar.
 
-Unlike most fluid tanks, an interface can store up to nine fluid types as well as items. It is effectively a chest or multi-fluid tank with additional network behavior; disconnecting it from a network disables that behavior. This makes interfaces useful when a small amount of many different things must be stored.
+Çoğu sıvı tankının aksine bir arayüz eşyaların yanı sıra en fazla dokuz sıvı türü de depolayabilir. Esasen ek ağ davranışına sahip bir sandık veya çoklu sıvı tankıdır; ağdan bağlantısını kesmek bu davranışı devre dışı bırakır. Bu, çok sayıda farklı şeyden az miktarda depolanması gerektiğinde arayüzleri kullanışlı kılar.
 
-## How An Interface Works Internally
+## Bir Arayüzün İç Yapısı
 
-An interface is essentially a chest/tank with <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />, <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />, and <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> attached.
+Bir arayüz esasen kendisine <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />, <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> ve <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> eklenmiş bir sandık/tanktır.
 
 <GameScene width="450" height="200" zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/interface_internals.snbt" />
-  <BoxAnnotation color="#dddddd" min="2.3 0.3 1.3" max="9.7 1 1.7">Level emitters control the stocking quantity</BoxAnnotation>
-  <BoxAnnotation color="#dddddd" min="2.3 4 1.3" max="9.7 4.7 1.7">Level emitters control the stocking quantity</BoxAnnotation>
-  <BoxAnnotation color="#dddddd" min="2.3 1.3 1.3" max="9.7 2 1.7">Import buses transfer one stack per game tick</BoxAnnotation>
-  <BoxAnnotation color="#dddddd" min="2.3 3 1.3" max="9.7 3.7 1.7">Export buses transfer one stack per game tick</BoxAnnotation>
-  <BoxAnnotation color="#dddddd" min="2 2 1" max="10 3 2">Nine independent internal slots</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="2.3 0.3 1.3" max="9.7 1 1.7">Seviye yayıcıları stok miktarını kontrol eder</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="2.3 4 1.3" max="9.7 4.7 1.7">Seviye yayıcıları stok miktarını kontrol eder</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="2.3 1.3 1.3" max="9.7 2 1.7">İçe aktarma veriyolları oyun tick'i başına bir yığın aktarır</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="2.3 3 1.3" max="9.7 3.7 1.7">Dışa aktarma veriyolları oyun tick'i başına bir yığın aktarır</BoxAnnotation>
+  <BoxAnnotation color="#dddddd" min="2 2 1" max="10 3 2">Dokuz bağımsız iç yuva</BoxAnnotation>
   <IsometricCamera yaw="15" pitch="15" />
 </GameScene>
 
-## Special Interactions
+## Özel Etkileşimler
 
-Connecting a <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> to an unconfigured interface exposes the entire [network storage](../ae2_mechanics/import_export_storage.md) of the interface's network to the storage-bus network. The interface network behaves like one large chest. Setting an item in an interface request slot disables this behavior.
+Yapılandırılmamış bir arayüze bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> bağlamak, arayüzün ağının tüm [ağ depolamasını](../ae2_mechanics/import_export_storage.md) depolama veriyolu ağına açar. Arayüz ağı tek büyük bir sandık gibi davranır. Bir arayüzün istek yuvasına eşya ayarlamak bu davranışı devre dışı bırakır.
 
-An interface connected to another interface can form a [subnetwork](../ae2_mechanics/subnetworks.md): when the source interface has no request, it skips its own inventory and sends items directly to storage on the destination subnetwork, waiting if that storage cannot accept the next batch.
+Başka bir arayüze bağlı bir arayüz bir [alt ağ](../ae2_mechanics/subnetworks.md) oluşturabilir: kaynak arayüzün isteği yoksa kendi envanterini atlar ve eşyaları doğrudan hedef alt ağdaki depolamaya gönderir; o depolama sonraki partiyi kabul edemiyorsa bekler.
 
-## Variants
+## Varyantlar
 
-Interfaces have normal and flat/[subpart](../ae2_mechanics/cables_subparts.md) variants. Normal interfaces output and receive on all sides and provide network connections. Flat interfaces are cable subparts, so several can share one cable; they can exchange items with their own storage but do not provide a network connection. The two forms can be converted in a crafting grid.
+Arayüzlerin normal ve düz/[alt parça](../ae2_mechanics/cables_subparts.md) varyantları vardır. Normal arayüzler her taraftan çıktı verir ve alır, ağ bağlantısı sağlar. Düz arayüzler kablo alt parçalarıdır, bu yüzden birkaçı tek bir kabloyu paylaşabilir; kendi depolamalarıyla eşya alışverişi yapabilirler ama ağ bağlantısı sağlamazlar. İki form üretim ızgarasında birbirine dönüştürülebilir.
 
-## Settings
+## Ayarlar
 
-The top row configures items to keep in stock. Items can be placed directly or dragged from NEI; click the wrench above a populated slot to set its amount. Right-click with a fluid container to set the fluid as a filter instead of the container item. A slot configured for stocking will not accept other items.
+Üst sıra stokta tutulacak eşyaları yapılandırır. Eşyalar doğrudan yerleştirilebilir veya NEI'den sürüklenebilir; miktarını ayarlamak için dolu bir yuvanın üzerindeki İngiliz anahtarına tıkla. Filtre olarak kap eşyası yerine sıvıyı ayarlamak için bir sıvı kabıyla sağ tıkla. Stok için yapılandırılmış bir yuva başka eşya kabul etmez.
 
-## Upgrades
+## Yükseltmeler
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> enables fuzzy matching and NBT-ignoring filters.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> lets the interface request missing ingredients from the [autocrafting](../ae2_mechanics/autocrafting.md) system.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> bulanık eşleştirmeyi ve NBT yok sayan filtreleri etkinleştirir.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> arayüzün [otomatik üretim](../ae2_mechanics/autocrafting.md) sisteminden eksik bileşenleri istemesini sağlar.
 
-## Priority
+## Öncelik
 
-Click the wrench in the top-right of the GUI to set priority. Higher-priority interfaces obtain items before lower-priority interfaces.
+Önceliği ayarlamak için GUI'nin sağ üst köşesindeki İngiliz anahtarına tıkla. Yüksek öncelikli arayüzler eşyaları düşük öncelikli arayüzlerden önce alır.
 
-## Recipe
+## Tarif
 
 <Row>
 <Recipe id="appliedenergistics2:tile.BlockInterface" />

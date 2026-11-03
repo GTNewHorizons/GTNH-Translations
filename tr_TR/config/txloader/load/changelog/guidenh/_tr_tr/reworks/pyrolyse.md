@@ -2,64 +2,64 @@
 item_ids:
   - gregtech:gt.blockmachines:15546
 navigation:
-  title: Pyrolyse Oven
+  title: Piroliz Fırını
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15546
 categories:
-    - Structure Reworks
+    - Yapı Revizyonları
 author: Skorched
 date: 2026-05-27
 ---
 
-# Pyrolyse Oven
+# Piroliz Fırını
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15546"/>
 </GameScene>
-The <Color id="GREEN">Pyrolyse Oven (PO)</Color> is an MV tier multiblock for burning logs into charcoal with the option of one fluid byproduct (ie. coal gas, wood gas, wood vinegar, wood tar, charcoal byproducts). The <Color id="GREEN">Pyrolyse Oven</Color> is a direct upgrade from the basic Coke Oven <ItemImage id="gregtech:gt.blockmachines:236"/> because it runs on electricity and can overclock with enough power. It also gains a speed bonus that scales linearly with the tier of the heating coils. The fluid byproducts are useful for producing organic compounds such as ethylene, benzene, and toluene. Although slower initially, the Pyrolyse Oven is generally recommended over the Advanced Coke Oven <ItemImage id="Railcraft:machine.alpha:12"/> because it scales better and the fluid byproducts are crucial for progression. Both are superseded by the Industrial Coke Oven <ItemImage id="gregtech:gt.blockmachines:15543"/> in EV. 
+<Color id="GREEN">Piroliz Fırını (PO)</Color>, kütükleri odun kömürüne yakmak ve isteğe bağlı olarak bir sıvı yan ürün (örn. kömür gazı, odun gazı, odun sirkesi, odun katranı, odun kömürü yan ürünleri) üretmek için MV kademe bir Multibloktur. <Color id="GREEN">Piroliz Fırını</Color>, temel Kok Fırınının doğrudan yükseltmesidir <ItemImage id="gregtech:gt.blockmachines:236"/> çünkü elektrikle çalışır ve yeterli güçle hız aşırtma yapabilir. Ayrıca ısıtma bobinlerinin kademesiyle doğrusal olarak ölçeklenen bir hız bonusu kazanır. Sıvı yan ürünler, etilen, benzen ve toluen gibi organik bileşiklerin üretiminde faydalıdır. Başlangıçta daha yavaş olsa da, Piroliz Fırını genellikle Gelişmiş Kok Fırını <ItemImage id="Railcraft:machine.alpha:12"/> yerine önerilir çünkü daha iyi ölçeklenir ve sıvı yan ürünler ilerleme için kritiktir. Her ikisinin de yerini EV'de Endüstriyel Kok Fırını <ItemImage id="gregtech:gt.blockmachines:15543"/> alır. 
 <br clear="all"/>
 
 > [!NOTE]
-> The only change to this multiblock is in the structure itself
+> Bu Multibloktaki tek değişiklik yapının kendisindedir.
 
-## Construction
-The <Color id="GREEN">Pyrolyse Oven</Color> has one tiered component. The heating coils determine the heat capacity of the machine and must all be the same tier for the structure to form. The energy hatch, maintenance hatch, and output bus/hatch may replace any pyrolyse oven casing on the bottom layer of the structure. The muffler hatch and input bus/hatch may replace any pyrolyse oven casing on the top layer of the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking--similar to the EBF and nearly every GregTech multiblock. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "coil" to specify the tier of the heating coils. 
+## Yapım
+<Color id="GREEN">Piroliz Fırını</Color>nın kademeli bir bileşeni vardır. Isıtma bobinleri makinenin ısı kapasitesini belirler ve yapının oluşması için hepsinin aynı kademede olması gerekir. Enerji kapağı, bakım kapağı ve çıkış yolu/kapağı yapının alt katmanındaki herhangi bir piroliz fırını kasasının yerini alabilir. Egzoz çıkışı ve giriş yolu/kapağı yapının üst katmanındaki herhangi bir piroliz fırını kasasının yerini alabilir. <Color id="RED">Çok Amperli ve Lazer Enerji Kapakları</Color> desteklenmez, ancak hız aşırtma için birden fazla normal enerji kapağı olabilir--EYF ve neredeyse her GregTech Multiblokunda olduğu gibi. Isıtma bobinlerinin kademesini belirtmek üzere "coil" alt kanalıyla yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan. 
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15546"/><ItemImage id="gregtech:gt.blockmachines:15546"/>
 - 60-68 <ItemLink id="gregtech:gt.blockcasingsNH:2"/><ItemImage id="gregtech:gt.blockcasingsNH:2"/>
-- 12 Heating Coil (tiered) <ItemImage id="gregtech:gt.blockcasings5:11"/>
+- 12 Isıtma Bobini (kademeli) <ItemImage id="gregtech:gt.blockcasings5:11"/>
 - 8 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 4 <ItemLink id="gregtech:gt.blockcasings3:14"/><ItemImage id="gregtech:gt.blockcasings3:14"/>
 - 2 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
-- 1+ Energy Hatch (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any top layer casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any top layer casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any top layer casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ Enerji Kapağı (herhangi bir alt katman kasası) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 Bakım Kapağı (herhangi bir alt katman kasası) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (herhangi bir üst katman kasası) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ Giriş Yolu (herhangi bir üst katman kasası) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ Girdi Kapağı (herhangi bir üst katman kasası) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Yolu (herhangi bir alt katman kasası) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ Çıkış Kapağı (herhangi bir alt katman kasası) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">Pyrolyse Ovens</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. That includes up to half the heating coils as seen in the image above. This is highly recommended because the heating coils are the most expensive part of the structure. 
+### Duvar Paylaşımı
+<Color id="GREEN">Piroliz Fırınları</Color>, kasa, çerçeve kutusu ve yol/kapaklardan tasarruf etmek için yanlarının her birini duvar paylaşımına açabilir. Buna, yukarıdaki görselde görüldüğü gibi ısıtma bobinlerinin yarısına kadarı da dahildir. Isıtma bobinleri yapının en pahalı kısmı olduğundan bu şiddetle önerilir. 
 
-## Usage
-The <Color id="GREEN">Pyrolyse Oven</Color> gains a speed bonus that scales linearly with the tier of its heating coils. More specifically, the processing speed starts at 50% with cupronickel coils and increases by 50% with every heating coil tier above that, as seen in the following table. The length of a recipe with a base processing time of 16 seconds and no overclocks is provided as reference. The speed bonus does NOT increase the power consumption of the Pyrolyse Oven since the EU/t remains the same. Instead, it actually reduces the total EU consumed because it runs for a shorter amount of time. 
+## Kullanım
+<Color id="GREEN">Piroliz Fırını</Color>, ısıtma bobinlerinin kademesiyle doğrusal olarak ölçeklenen bir hız bonusu kazanır. Daha spesifik olarak, işleme hızı bakır-nikel bobinlerle %50'de başlar ve bunun üzerindeki her ısıtma bobini kademesinde %50 artar; aşağıdaki tabloda görüldüğü gibi. Temel işleme süresi 16 saniye olan ve hız aşırtma içermeyen bir tarifin süresi referans olarak verilmiştir. Hız bonusu, EU/t aynı kaldığı için Piroliz Fırınının güç tüketimini ARTIRMAZ. Aksine, daha kısa süre çalıştığı için tüketilen toplam EU'yu aslında azaltır. 
 
-| Heating Coil | Speed | Example | Total EU |
+| Isıtma Bobini | Hız | Örnek | Toplam EU |
 | --------------- | --------------- | --------------- | --------------- |
-| Cupronickel | 50% | 32.00s | 200% |
-| Kanthal | 100% | 16.00s | 100% |
-| Nichrome | 150% | 10.67s | 66.7% |
-| TPV-Alloy | 200% | 8.00s | 50.0% |
+| Bakır-Nikel | 50% | 32.00s | 200% |
+| Kantal | 100% | 16.00s | 100% |
+| Nikrom | 150% | 10.67s | 66.7% |
+| TPV-Alaşım | 200% | 8.00s | 50.0% |
 | HSS-G | 250% | 6.40s | 40.0% |
 | HSS-S | 300% | 5.33s | 33.3% |
 | Naquadah | 350% | 4.57s | 28.6% |
-| Naquadah Alloy | 400% | 4.00s | 25.0% |
-| Trinium | 450% | 3.56s | 22.2% |
-| Electrum Flux | 500% | 3.20s | 20.0% |
-| Awakened Draconium | 550% | 2.91s | 18.2% |
-| Infinity | 600% | 2.67s | 16.7% |
-| Hypogen | 650% | 2.46s | 15.4% |
-| Eternal | 700% | 2.29s | 14.3% |
+| Naquadah Alaşımı | 400% | 4.00s | 25.0% |
+| Trinyum | 450% | 3.56s | 22.2% |
+| Elektrum Flaks | 500% | 3.20s | 20.0% |
+| Uyandırılmış Drakonyum | 550% | 2.91s | 18.2% |
+| Sonsuzluk | 600% | 2.67s | 16.7% |
+| Hipojen | 650% | 2.46s | 15.4% |
+| Ebedi | 700% | 2.29s | 14.3% |
 
-The <Color id="GREEN">Pyrolyse Oven</Color> is primarily used to burn logs into charcoal with the option of ONE fluid byproduct--determined by the programmed circuit in the input bus or controller. The most common choice is charcoal byproducts because it breaks down into dimethylbenzene, wood gas, wood vinegar, and wood tar in a Distillation Tower <ItemImage id="gregtech:gt.blockmachines:1126"/>. Another common choice is wood tar for making nitrobenzene more directly/efficiently. There is also the option to use 1,000L of nitrogen gas per 16 logs to double the processing speed of the machine, which is again determined by the programmed circuit in the input bus or controller.
+<Color id="GREEN">Piroliz Fırını</Color> esas olarak kütükleri odun kömürüne yakmak için kullanılır ve isteğe bağlı BİR sıvı yan ürün üretir--bu, giriş yolu veya kontrolcüdeki programlanmış devre tarafından belirlenir. En yaygın seçenek odun kömürü yan ürünleridir çünkü bunlar bir Damıtma Kulesi <ItemImage id="gregtech:gt.blockmachines:1126"/> içinde dimetilbenzen, odun gazı, odun sirkesi ve odun katranına ayrışır. Bir diğer yaygın seçenek, nitrobenzeni daha doğrudan/verimli üretmek için odun katranıdır. Ayrıca, makinenin işleme hızını çift katına çıkarmak için 16 kütük başına 1.000L azot gazı kullanma seçeneği de vardır; bu da yine giriş yolu veya kontrolcüdeki programlanmış devre tarafından belirlenir.

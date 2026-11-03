@@ -13,16 +13,16 @@ item_ids:
   - gregtech:gt.blockmachines:11185
   - gregtech:gt.blockmachines:11186
 navigation:
-  title: Merged Canning Machines
+  title: Birleştirilmiş Konserveleme Makineleri
   parent: ../reworks/reworks.md
   icon: gregtech:gt.blockmachines:231
 categories:
-    - Miscellaneous Changes
+    - Diğer Değişiklikler
 author: Skorched
 date: 2026-05-26
 ---
 
-# Merging Canning Machines
-Although a relatively minor change, the Fluid Canners (<ItemImage id="gregtech:gt.blockmachines:431" />) have now become officially deprecated. The functionality is now fully merged with the Canning Machines (<ItemImage id="gregtech:gt.blockmachines:231" />)!
+# Konserveleme Makinelerini Birleştirme
+Nispeten küçük bir değişiklik olsa da, Sıvı Konserveleyiciler (<ItemImage id="gregtech:gt.blockmachines:431" />) artık resmen kullanımdan kaldırıldı. İşlevleri tamamen Konserveleme Makineleri (<ItemImage id="gregtech:gt.blockmachines:231" />) ile birleştirildi!
 
-Can't complain at losing extra machines floating around on your LV lines!
+LV hatlarında etrafta dolaşan fazladan makineleri kaybetmekten şikayet edemezsin!

@@ -1,20 +1,20 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Wireless Receiver
+  title: Kablosuz Alıcı
   icon: appliedenergistics2:item.ItemMultiMaterial:41
 categories:
-- misc ingredients blocks
+- misc ingredients Blokları
 item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:41
 ---
 
-# Wireless Receiver
+# Kablosuz Alıcı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:41" scale="4" />
 
-A <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:9" /> placed in a reflector dish. It is a component of short-range wireless ME technology.
+Bir reflektör çanağına yerleştirilen <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:9" />. Kısa menzilli kablosuz ME teknolojisinin bir bileşenidir.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:41" />

@@ -2,56 +2,56 @@
 item_ids:
   - gregtech:gt.blockmachines:368
 navigation:
-  title: Mass Solidifier
+  title: Kütle Katılaştırıcı
   parent: reworks.md
   icon: gregtech:gt.blockmachines:368
 categories:
-    - New Multiblocks
-    - Structure Reworks
+    - Yeni Multibloklar
+    - Yapı Yenilemeleri
 author: Skorched
 date: 2026-05-27
 ---
 
-# Mass Solidifier
+# Kütle Katılaştırıcı
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:368"/>
 </GameScene>
-The <Color id="GREEN">Mass Solidifier</Color> is an IV tier multiblock for casting liquid metals into molds. The <Color id="GREEN">Mass Solidifier</Color> is a direct upgrade from the singleblock fluid solidifier because it runs up to <Color id="RED">300%</Color> speed, only uses <Color id="BLUE">80%</Color> of the EU/t normally required, and offers <Color id="GREEN">10</Color> parallels per voltage tier. The speed increases by 5% per second while the machine is active and decreases by 10% per second while inactive. Solidifier Hatches <ItemImage id="gregtech:gt.blockmachines:31781"/> have a configurable ghost slot for a mold that only applies to the fluid in its own hatch, allowing one machine to handle as many recipes as needed. The <Color id="GREEN" >Mass Solidifier</Color> is superseded by the [Exo-Foundry](../multis/exo_foundry.md) in UEV. 
+<Color id="GREEN">Kütle Katılaştırıcı</Color> (yeşil), sıvı metalleri kalıplara dökmek için kullanılan IV kademe bir multibloktur. <Color id="GREEN">Kütle Katılaştırıcı</Color>, tek bloklu sıvı katılaştırıcının doğrudan yükseltmesidir; çünkü <Color id="RED">%300</Color> (kırmızı) hızda çalışır, normalde gereken EU/t'nin yalnızca <Color id="BLUE">%80</Color>'ini (mavi) kullanır ve gerilim kademesi başına <Color id="GREEN">10</Color> paralel sunar. Makine çalışırken hız her saniye %5 artar, çalışmadığında ise her saniye %10 azalır. Katılaştırıcı Kapakları <ItemImage id="gregtech:gt.blockmachines:31781"/> yalnızca kendi kapağındaki sıvıya uygulanan, yapılandırılabilir bir hayalet kalıp yuvasına sahiptir; böylece tek bir makine gerektiği kadar tarifi işleyebilir. <Color id="GREEN" >Kütle Katılaştırıcı</Color>'nın yerini UEV kademesinde [Exo-Foundry](../multis/exo_foundry.md) alır. 
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Deprecation: This replaces the old Fluid Shaper
-> - Solidifier Hatches: New hatches that take fluids and have a ghost mold slot
-> - Parallels: 10 Parallels per Voltage Tier instead of 2 + 3 per "slice"
+> Multiblokta (yapı dışında) şu değişiklikler yapıldı:
+> - Kullanımdan kaldırma: Bu, eski Sıvı Şekillendirici'nin yerini alır
+> - Katılaştırıcı Kapakları: Sıvı alan ve hayalet kalıp yuvasına sahip yeni kapaklar
+> - Paraleller: "Dilim" başına 2 + 3 yerine Gerilim Kademesi başına 10 paralel
 
 
-## Construction
-The <Color id="GREEN">Mass Solidifier</Color> has one tiered component. The glass determines the maximum tier of the energy hatch. UEV tier glass allows any tier, effectively removing the restriction. Buses/hatches may replace any solidifier casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+## İnşaat
+<Color id="GREEN">Kütle Katılaştırıcı</Color>'nın kontrolcü dışında tek kademeli bileşeni vardır: cam. Cam, enerji kapağının maksimum kademesini belirler. UEV kademe cam her kademeye izin verir ve kısıtlamayı fiilen ortadan kaldırır. Yollar/kapaklar yapının herhangi bir yerindeki katılaştırıcı kasasının yerini alabilir. <Color id="RED">Çok Amperli ve Lazer Enerji Kapakları</Color> desteklenmez, ancak hız aşırtma için birden fazla normal enerji kapağı olabilir. Camın kademesini belirtmek için "glass" alt kanalıyla yapıyı görselleştirmek/inşa etmek üzere <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan.
 
-Unique to the <Color id="GREEN">Mass Solidifier</Color> is the <Color id="BLUE">Solidifier Hatch</Color> <ItemImage id="gregtech:gt.blockmachines:31781"/> which is effectively an input hatch with a configurable ghost slot for a mold. Shift-click the mold slot to open a menu with all available options. The mold only applies to the fluid in its own hatch regardless of input separation settings. There are four tiers of the solidifier hatch for increasing its internal capacity and is eventually superseded by the crafting input buffer. 
+<Color id="GREEN">Kütle Katılaştırıcı</Color>'ya özgü olan <Color id="BLUE">Katılaştırıcı Kapağı</Color> <ItemImage id="gregtech:gt.blockmachines:31781"/>, aslında yapılandırılabilir bir hayalet kalıp yuvasına sahip bir girdi kapağıdır. Tüm mevcut seçenekleri içeren bir menü açmak için kalıp yuvasına shift-tıkla. Kalıp, girdi ayrıştırma ayarlarından bağımsız olarak yalnızca kendi kapağındaki sıvıya uygulanır. Katılaştırıcı kapağının iç kapasitesini artıran dört kademesi vardır ve sonunda yerini Üretim Girdi Tamponuna bırakır. 
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:368"/><ItemImage id="gregtech:gt.blockmachines:368"/>
 - 24-73 <ItemLink id="gregtech:gt.blockcasings10:13"/><ItemImage id="gregtech:gt.blockcasings10:13"/>
-- 42 Tiered Glass <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 42 Kademeli Cam <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 34 <ItemLink id="gregtech:gt.blockcasings10:14"/><ItemImage id="gregtech:gt.blockcasings10:14"/>
 - 13 <ItemLink id="gregtech:gt.blockcasings:11"/><ItemImage id="gregtech:gt.blockcasings:11"/>
 - 7 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
 - 3 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ Enerji Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 Bakım Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 0+ Giriş Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ Girdi Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">Mass Solidifiers</Color> may wallshare each of their sides to save on casings, glass, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### Duvar Paylaşımı
+<Color id="GREEN">Kütle Katılaştırıcılar</Color>, kasa, cam ve yol/kapaklardan tasarruf etmek için her bir kenarında duvar paylaşımı yapabilir. Hiçbir tarif 1A'dan fazla güç kullanmaz, bu nedenle <u>__iki__</u> makine arasında <u>__bir__</u> enerji kapağı paylaşmak mümkündür. 
 
-## Usage
-The <Color id="GREEN">Mass Solidifier</Color> is a direct upgrade from the singleblock fluid solidifier because it runs up to 300% speed, only uses 80% of the EU/t normally required, and offers 10 parallels per voltage tier, as seen in the following table.
+## Kullanım
+<Color id="GREEN">Kütle Katılaştırıcı</Color>, tek bloklu sıvı katılaştırıcının doğrudan yükseltmesidir; çünkü %300'e kadar hızda çalışır, normalde gereken EU/t'nin yalnızca %80'ini kullanır ve aşağıdaki tabloda görüldüğü gibi gerilim kademesi başına 10 paralel sunar.
 
 
 
@@ -60,4 +60,4 @@ The <Color id="GREEN">Mass Solidifier</Color> is a direct upgrade from the singl
 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 | 110 | 120 | 130 | 140 | 150 |
 
 
-The speed of the <Color id="GREEN">Mass Solidifier</Color> increases by 5% per second while active and decreases by 10% per second while inactive. That means it takes 40 seconds of runtime to reach its maximum speed, but only 20 seconds to lose it all. It is highly recommended to multiply patterns and keep the machine running for as long as possible to take full advantage of the boost. 
+<Color id="GREEN">Kütle Katılaştırıcı</Color>'nın hızı çalışırken her saniye %5 artar, çalışmadığında ise her saniye %10 azalır. Bu, maksimum hızına ulaşmasının 40 saniye çalışma süresi aldığı, ancak tümünü kaybetmesinin yalnızca 20 saniye sürdüğü anlamına gelir. Artıştan tam olarak yararlanmak için desenleri çoğaltman ve makineyi olabildiğince uzun süre çalıştırman şiddetle önerilir. 

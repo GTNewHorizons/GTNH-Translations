@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Toggle Bus
+  title: ME Anahtar Veriyolu
   icon: appliedenergistics2:item.ItemMultiPart:80
 categories:
 - network infrastructure
@@ -10,16 +10,16 @@ item_ids:
 - appliedenergistics2:item.ItemMultiPart:100
 ---
 
-# The Toggle Bus
+# Anahtar Veriyolu
 
 <GameScene zoom="8" showBackground={false}>
   <ImportStructure src="../assets/structures/toggle_bus.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-A cable subpart that can toggle its connection state using redstone, allowing a section of an [ME Network](../ae2_mechanics/me_network_connections.md) to be disconnected. The inverted variant provides the opposite behavior. Toggling can cause the network to reboot and recalculate connected devices.
+Kızıltaş kullanarak bağlantı durumunu değiştirebilen bir kablo alt parçası; bir [ME Ağı](../ae2_mechanics/me_network_connections.md) bölümünün bağlantısını kesmeye olanak tanır. Ters çevrilmiş varyant tam tersi davranış sunar. Durum değiştirmek ağın yeniden başlamasına ve bağlı cihazları yeniden hesaplamasına neden olabilir.
 
-## Recipes
+## Tarifler
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:80" />
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:100" />

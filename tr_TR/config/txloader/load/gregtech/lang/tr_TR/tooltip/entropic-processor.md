@@ -1,9 +1,9 @@
-Processes substances by increasing or decreasing their entropy
+Maddeleri entropilerini artırarak veya azaltarak işler
 {hr}
-Has {color_parallel:{var:base_parallels}} Parallels by default
-Using {color_key:Advanced Alchemical Constructs} increases the machine's parallels to {color_parallel:{var:advanced_parallels}}
+Varsayılan olarak {color_parallel:{var:base_parallels}} Paralel'e sahiptir
+{color_key:Gelişmiş Simyevi Yapılar} kullanmak, makinenin paralel sayısını {color_parallel:{var:advanced_parallels}} değerine çıkarır
 {hr}
-Mixes fluids or solids with a magical catalyst
-Catalyst is consumed by the recipe, then returned upon completion
+Akışkanları veya katıları Sihirli bir katalizörle karıştırır
+Katalizör tarif tarafından tüketilir, ardından tamamlandığında geri verilir
 {hr}
-Performs {color_mechanic:1 4/4 Perfect Overclock} per {color_name:Casing} Tier ({color_name:Thaumium} = 1 Perfect OC)
+Her {color_name:Casing} Kademesi için {color_mechanic:1 4/4 Kusursuz Hız Aşırtma} yapar ({color_name:Thaumium} = 1 Kusursuz Hız Aşırtma)

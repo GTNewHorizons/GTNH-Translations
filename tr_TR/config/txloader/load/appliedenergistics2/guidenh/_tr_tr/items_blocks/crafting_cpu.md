@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Crafting CPU Multiblock (Storage, Coprocessor, Monitor, Unit)
+  title: Üretim CPU'su Multibloğu (Depolama, Yardımcı İşlemci, Monitör, Birim)
   icon: appliedenergistics2:tile.BlockSingularityCraftingStorage
 categories:
 - devices
@@ -26,7 +26,7 @@ item_ids:
 - appliedenergistics2:tile.BlockSingularityCraftingStorage
 ---
 
-# Crafting CPU
+# Üretim CPU'su
 
 <GameScene width="350" height="220" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/crafting_cpus.snbt" />
@@ -43,29 +43,29 @@ item_ids:
   <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit:0" scale="4" />
 </Row>
 
-Crafting CPUs manage crafting requests and jobs. They store intermediate products while multi-step crafting jobs are in progress, and affect the maximum size of jobs and, to some degree, how quickly they complete. See [autocrafting](../ae2_mechanics/autocrafting.md) for more details.
+Üretim CPU'ları üretim isteklerini ve işlerini yönetir. Çok adımlı üretim işleri sürerken ara ürünleri depolar; işlerin maksimum boyutunu ve bir dereceye kadar ne kadar hızlı tamamlandıklarını etkiler. Daha fazla ayrıntı için [otomatik üretime](../ae2_mechanics/autocrafting.md) bak.
 
-Right-click a Crafting CPU to open the crafting status UI and check the progress of its active job.
+Etkin işinin ilerlemesini görmek için bir Üretim CPU'suna sağ tıklayarak üretim durumu arayüzünü aç.
 
-## Settings
+## Ayarlar
 
-*   A Crafting CPU can accept requests from players only, automation only (such as an <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> with an <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />), or both.
+*   Bir Üretim CPU'su istekleri yalnızca oyunculardan, yalnızca otomasyondan (ör. bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> ile bir <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />) veya her ikisinden de kabul edebilir.
 
-## Construction
+## İnşaat
 
-Crafting CPUs are multiblocks and must be solid rectangular prisms with no gaps. They are made from several components.
+Üretim CPU'ları multibloktur ve boşluksuz, katı dikdörtgen prizmalar olmalıdır. Birkaç bileşenden oluşurlar.
 
-Each CPU must contain at least one Crafting Storage block; the smallest valid CPU is a single 1k Crafting Storage block.
+Her CPU en az bir Üretim Deposu bloğu içermelidir; geçerli en küçük CPU tek bir 1k Üretim Deposu bloğudur.
 
-# Crafting Unit
+# Üretim Birimi
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit" scale="4" />
 
-(Optional) Crafting Units fill space in a CPU so that it remains a solid rectangular prism when there are not enough other components. They are also an ingredient in the other components.
+(İsteğe bağlı) Üretim Birimleri, yeterli başka bileşen olmadığında CPU'nun katı dikdörtgen prizma olarak kalması için boşlukları doldurur. Ayrıca diğer bileşenlerin üretiminde malzeme olarak kullanılır.
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingUnit" />
 
-# Crafting Storage
+# Üretim Deposu
 
 <Row>
   <BlockImage id="appliedenergistics2:tile.BlockCraftingStorage:0" scale="4" />
@@ -85,7 +85,7 @@ Each CPU must contain at least one Crafting Storage block; the smallest valid CP
   <BlockImage id="appliedenergistics2:tile.BlockAdvancedCraftingStorage:3" scale="4" />
 </Row>
 
-(Required) Crafting Storage is available in all standard cell sizes: 1k, 4k, 16k, 64k, and 256k. It stores the ingredients and intermediate products of a crafting job, so jobs with more ingredients require larger or additional storage blocks.
+(Gerekli) Üretim Deposu tüm standart hücre boyutlarında mevcuttur: 1k, 4k, 16k, 64k ve 256k. Bir üretim işinin bileşenlerini ve ara ürünlerini depolar; bu yüzden daha fazla bileşen içeren işler daha büyük veya ek depolama blokları gerektirir.
 
 <Column>
   <Row>
@@ -109,20 +109,20 @@ Each CPU must contain at least one Crafting Storage block; the smallest valid CP
   </Row>
 </Column>
 
-# Crafting Coprocessing Unit
+# Üretim Yardımcı İşlem Birimi
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit:1" scale="4" />
 
-(Optional) Crafting Coprocessing Units increase the CPU's operating rate, allowing the system to send ingredient batches from an <ItemLink id="appliedenergistics2:tile.BlockInterface" /> more frequently and keep up with fast machines. For example, when an interface surrounded by <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />s can send batches faster than one assembler can process them, it distributes batches among the assemblers.
+(İsteğe bağlı) Üretim Yardımcı İşlem Birimleri CPU'nun işlem hızını artırır; sistemin bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> üzerinden bileşen gruplarını daha sık göndermesini ve hızlı makinelere ayak uydurmasını sağlar. Örneğin, <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />lerle çevrili bir arayüz grupları tek bir Montajcının işleyebileceğinden daha hızlı gönderebildiğinde, grupları Montajcılar arasında dağıtır.
 
-Some complex recipes have multiple steps that can run in parallel, such as making planks and books at the same time for bookshelves. In the crafting status UI, opened by right-clicking a CPU or using the hammer icon in a [terminal](terminals.md), these steps appear as “scheduled”. Each Coprocessing Unit allows one additional such step to run in parallel, where it appears as “crafting”. In practice, Coprocessing Units are usually added for batch insertion speed rather than for the number of parallel recipe steps.
+Bazı karmaşık tariflerde, kitap rafları için aynı anda tahta ve kitap üretmek gibi paralel çalışabilecek birden fazla adım vardır. Bir CPU'ya sağ tıklayarak veya bir [terminalde](terminals.md) çekiç simgesini kullanarak açılan üretim durumu arayüzünde bu adımlar “zamanlandı” olarak görünür. Her Yardımcı İşlem Birimi, bu türden bir ek adımın paralel çalışmasına izin verir; o adım “üretiliyor” olarak görünür. Pratikte Yardımcı İşlem Birimleri genellikle paralel tarif adımı sayısından çok, grup ekleme hızı için eklenir.
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingUnit:1" />
 
-# Crafting Monitor
+# Üretim Monitörü
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingMonitor" scale="4" />
 
-(Optional) A Crafting Monitor displays the job currently handled by its CPU. Its screen can be dyed with a <ItemLink id="appliedenergistics2:item.ToolColorApplicator" />.
+(İsteğe bağlı) Bir Üretim Monitörü, CPU'nun o anda yürüttüğü işi gösterir. Ekranı bir <ItemLink id="appliedenergistics2:item.ToolColorApplicator" /> ile boyanabilir.
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingMonitor" />

@@ -1,20 +1,20 @@
-Insert an electrode in the {color_name:Electrode Hatch}
-Speed, parallel, OC, and power usage depend on the electrode
-Some electrodes have special effects, check their tooltip
-Below {red:{var:surge_threshold}%} durability: {red:{var:surge_chance}%} chance for an {color_danger:Arc Surge}
-Ignites the arc before each recipe, ignition power scales with electrode penalty and parallels
-Powers down the arc after work ends
+{color_name:Elektrot Kapağı} içine bir elektrot yerleştir
+Hız, paralel, hız aşırtma ve güç kullanımı elektrota bağlıdır
+Bazı elektrotların özel etkileri vardır, ipuçlarını kontrol et
+{red:{var:surge_threshold}%} dayanıklılığın altında: {red:{var:surge_chance}%} {color_danger:Ark Dalgalanması} şansı
+Her tariften önce arkı ateşler, ateşleme gücü elektrot cezası ve paralellerle ölçeklenir
+İş bittikten sonra arkı söndürür
 {hr}
-{color_mode:Blast Mode}:
-Processes {color_name:EBF} recipes at {color_amount:{var:blast_power_multiplier}x} power cost
+{color_mode:Patlatma Modu}:
+{color_name:EYF} tariflerini {color_amount:{var:blast_power_multiplier}x} güç maliyetiyle işler
 {hr}
-{color_mode:Ore Mode}:
-Processes metallic ores into molten metal
-Startup time: {color_amount:{var:ore_startup_seconds}} seconds
-Consumes ores and raw ores from {color_name:Input Buses}
-If all parallels are used up, startup ends immediately
-If no ores enter for {color_amount:{var:ore_idle_ticks}} ticks, startup ends immediately
-Outputs {color_key:Molten Metals}
-{color_note:Only furnace-smeltable ores, no blasting}
+{color_mode:Cevher Modu}:
+Metalik cevherleri eriyik metale işler
+Başlatma süresi: {color_amount:{var:ore_startup_seconds}} saniye
+{color_name:Giriş Yolları} içindeki cevherleri ve ham cevherleri tüketir
+Tüm paraleller kullanılırsa başlatma hemen sona erer
+{color_amount:{var:ore_idle_ticks}} tick boyunca cevher girmezse başlatma hemen sona erer
+{color_key:Eriyik Metaller} çıkarır
+{color_note:Yalnızca fırında eritilebilen cevherler, patlatma yok}
 {hr}
-Right-click the controller with a {color_name:Screwdriver} to change mode
+{color_name:Tornavida} ile kontrolcüye sağ tıklayarak modu değiştir

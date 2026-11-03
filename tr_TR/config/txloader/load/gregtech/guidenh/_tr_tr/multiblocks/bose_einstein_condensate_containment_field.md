@@ -4,33 +4,33 @@ item_ids:
 quest_ids:
   - 0U_ex_O9TKWF-ShWD_4UuQ==
 navigation:
-  title: Bose-Einstein Condensate Containment Field
+  title: Bose-Einstein Yoğuşuk Muhafaza Alanı
   parent: ./bose_einstein_condensate_line.md
   icon: gregtech:gt.blockmachines:15755
   position: -11001
 ---
-# Bose-Einstein Condensate Containment Field
+# Bose-Einstein Yoğuşuk Muhafaza Alanı
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15755" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left" /> is a UIV tier multiblock for storing entangled condensate in the [BEC Line](./bose_einstein_condensate_line.md)--similar to a fluid tank. 
+<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left" />, [BEC Hattı](./bose_einstein_condensate_line.md) içinde dolanık yoğuşuk depolamak için kullanılan UIV kademesi bir multibloktur; bir sıvı tankına benzer. 
 
-Entangled condensate is generated in the [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Entanglement Apparatus</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md) and transferred to the Containment Field via BEC hatches. 
+Dolanık yoğuşuk, [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Dolanıklık Cihazı</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md) içinde üretilir ve BEC kapakları aracılığıyla Muhafaza Alanına aktarılır.
 
-Stored condensate is exposed to all [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) on the current network and only ever leaves the machine when requested by an IO Node for a recipe.
+Depolanan yoğuşuk, mevcut ağdaki tüm [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizilerine</ItemLink>](./bose_einstein_condensate_observation_array.md) maruz kalır ve makineden yalnızca bir tarif için İo Düğümü tarafından talep edildiğinde çıkar.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | UIV |
-| Structure Size (LxWxH) | 45x45x17 |
-| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| Kilit Açma Kademesi | UIV |
+| Yapı Boyutu (UxGxY) | 45x45x17 |
+| Güç | Her tür kapak kullanılabilir, Çok Amperli ve Lazer Kapakları dahil |
+| Overclock | Yok |
+| Bakım | Bakım gerekmez |
+| Kirlilik | Kirlilik üretmez |
 
-## Crafting and Construction
-### Crafting
+## Üretim ve Yapım
+### Üretim
 <RecipesFor id="gregtech:gt.blockmachines:15755" handlerBlacklist="gt.recipe.researchStation" />
 
 <RecipesFor id="gregtech:gt.blockglass1:9" handlerBlacklist="gt.recipe.researchStation" />
@@ -47,23 +47,23 @@ Stored condensate is exposed to all [<ItemLink id="gregtech:gt.blockmachines:157
 
 <RecipesFor id="gregtech:gt.blockcasings.bec:5" handlerBlacklist="gt.recipe.researchStation" />
 
-### Structure
+### Yapı
 
-The Containment Field has no tiered components. 
+Muhafaza Alanının kademeli bileşenleri yoktur. 
 
-Multi-amp and laser energy hatches are supported for greatly increasing the capacity of the machine. 
+Makinenin kapasitesini büyük ölçüde artırmak için çok amperli ve lazer enerji kapakları desteklenir. 
 
-The Containment Field can be rotated or flipped.
+Muhafaza Alanı döndürülebilir veya çevrilebilir.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
+Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan.
 
-Unique to the Containment Field is the <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> which emits a redstone signal if the set condition inside its GUI is true.  
-There is a filter for specifying a particular type of entangled condensate, a comparison operator, and a threshold value.  
-For example, emit a redstone signal if entangled infinity condensate is greater than or equal to 100,000L. Leave the filter blank to sum all stored condensates together.
+Muhafaza Alanına özgü olan <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" />, GUI'sinde ayarlanan koşul doğruysa Kızıltaş sinyali yayar.  
+Belirli bir dolanık yoğuşuk türünü belirtmek için bir filtre, bir karşılaştırma operatörü ve bir eşik değeri vardır.  
+Örneğin, dolanık sonsuzluk yoğuşuğu 100.000L'ye eşit veya daha büyükse Kızıltaş sinyali yay. Tüm depolanan yoğuşukları toplamak için filtreyi boş bırak.
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left" /> | 1, Front center, 3rd layer |
+| <ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left" /> | 1, Ön orta, 3. katman |
 | <ItemLink id="gregtech:gt.blockglass1:9" showIcon="left" /> | 1236 |
 | <ItemLink id="gregtech:gt.blockcasings.bec" showIcon="left" /> | 1045 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:4" showIcon="left" /> | 896 |
@@ -71,69 +71,69 @@ For example, emit a redstone signal if entangled infinity condensate is greater 
 | <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> | 508 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> | 439-442 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:5" showIcon="left" /> | 324-343 |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
-| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 1-4, Replaces the <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> on each of the four sides of layer 9 |
-| <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> | 0+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Normal, Çok Amperli, Lazer kullanılabilir</Tooltip> | 1+, herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerine geçebilir |
+| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 1-4, 9. katmanın dört yanının her birindeki <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerine geçer |
+| <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> | 0+, herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerine geçebilir |
 
-### Wallsharing
+### Duvar Paylaşımı
 
-Containment Field may wallshare each of their sides to save lots of blocks, but since the capacity can be increased virtually infinitely with a single Containment Field via the GUI, more than one is generally not built.
+Muhafaza Alanı, çok sayıda bloktan tasarruf etmek için her bir yüzünü duvar paylaşımıyla kullanabilir; ancak GUI üzerinden tek bir Muhafaza Alanıyla kapasite neredeyse sonsuza kadar artırılabildiği için genellikle birden fazla inşa edilmez.
 
-## Usage
+## Kullanım
 
-The Containment Field is the second step in the [BEC Line](./bose_einstein_condensate_line.md) and stores entangled condensate until it is requested by an [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Node</ItemLink>](./bose_einstein_condensate_teleportation_node.md) for a recipe. Condensate both enters and leaves the Containment Field through BEC hatches on the sides of the structure and is exposed to all [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) on the current network. Optionally, use a [<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left">Maxwell Gate</ItemLink>](./bose_einstein_condensate_maxwell_gate.md) to filter and limit the direction of condensate flow--similar to a diode and fluid filter.
+Muhafaza Alanı, [BEC Hattı](./bose_einstein_condensate_line.md) içindeki ikinci adımdır ve bir tarif için [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">İo Düğümü</ItemLink>](./bose_einstein_condensate_teleportation_node.md) tarafından talep edilene kadar dolanık yoğuşuk depolar. Yoğuşuk Muhafaza Alanına girer ve oradan çıkar; her iki yönde de akış, yapının yanlarındaki BEC kapakları üzerinden gerçekleşir ve mevcut ağdaki tüm [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizilerine</ItemLink>](./bose_einstein_condensate_observation_array.md) maruz kalır. İsteğe bağlı olarak, bir diyot ve sıvı filtresine benzer şekilde yoğuşuk akışının yönünü filtrelemek ve sınırlamak için bir [<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left">Maxwell Kapısı</ItemLink>](./bose_einstein_condensate_maxwell_gate.md) kullan.
 
-The field strength of the Containment Field is set manually in the GUI of the controller by clicking the "Edit Parameter" button<FloatingImage src="gtnhintergalactic:textures/gui/overlay_button/options.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={4.0} scaleY={4.0} />(or with OpenComputers) and determines both the maximum capacity and passive power consumption of the machine; every 1 unit of field strength increases the maximum capacity by 1L at the cost of 1 EU/t. It is not possible to filter or partition the storage based on condensate type.
+Muhafaza Alanının alan gücü, kontrolcünün GUI'sinde "Edit Parameter" düğmesine tıklanarak<FloatingImage src="gtnhintergalactic:textures/gui/overlay_button/options.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={4.0} scaleY={4.0} />(veya OpenComputers ile) elle ayarlanır ve hem maksimum kapasiteyi hem de makinenin pasif güç tüketimini belirler; her 1 birim alan gücü, 1 EU/t maliyetle maksimum kapasiteyi 1L artırır. Depolamayı yoğuşuk türüne göre filtrelemek veya bölümlemek mümkün değildir.
 
-The maximum capacity is only a soft cap since excess condensate can still enter the Containment Field, but 11% of all condensate is voided each second until it falls back below the maximum capacity. This penalty applies evenly to all stored condensates and never prioritizes any one over the others.  
-Avoid this penalty by setting the field strength really high, or by using an unfiltered <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> to disable the [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Entanglement Apparatus</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md) with a machine controller cover when condensate levels get too high.
+Maksimum kapasite yalnızca yumuşak bir üst sınırdır; fazla yoğuşuk yine de Muhafaza Alanına girebilir, ancak seviye maksimum kapasitenin altına düşene kadar her saniye tüm yoğuşuğun %11'i yok edilir. Bu ceza tüm depolanan yoğuşuklara eşit şekilde uygulanır ve hiçbirini diğerlerine göre asla önceliklendirmez.  
+Alan gücünü gerçekten yüksek ayarlayarak ya da yoğuşuk seviyeleri çok yükseldiğinde filtresiz bir <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> kullanıp makine kontrolcü kapağıyla [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Dolanıklık Cihazını</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md) devre dışı bırakarak bu cezadan kaçın.
 
 > [!CAUTION]
-> The Containment Field voids all of its contents if it ever powerfails or is manually disabled. Keep it running at all times while in use unless it is absolutely necessary to shut it down.
+> Muhafaza Alanının gücü herhangi bir nedenle kesilirse veya elle devre dışı bırakılırsa tüm içeriğini yok eder. Kullanımdayken, kapatılması kesinlikle gerekmedikçe her zaman çalışır durumda tut.
 
-If multiple Containment Fields are available on the same network, then the condensate inserted into network is split proportional to their total field strength.  
-For example, if one Containment Field has a 150,000 field strength and another has a 50,000 field strength, then the former receives 75% of the condensate and the latter receives only 25% of the condensate.
+Aynı ağda birden fazla Muhafaza Alanı varsa, ağa verilen yoğuşuk toplam alan güçleriyle orantılı olarak bölünür.  
+Örneğin, bir Muhafaza Alanının alan gücü 150.000, diğerininki 50.000 ise ilki yoğuşuğun %75'ini, ikincisi ise yalnızca %25'ini alır.
 
-### OpenComputers Integration
+### OpenComputers Entegrasyonu
 
-The Containment Field is automatable with OpenComputers and has a few additional functions/methods compared to standard GregTech multiblocks, as seen below. These can be used to dynamically change the field strength of the Containment Field based on the current condensate levels as an extra protection against voiding.
+Muhafaza Alanı OpenComputers ile otomatikleştirilebilir ve aşağıda görüldüğü gibi standart GregTech multibloklarına kıyasla birkaç ek fonksiyona/metoda sahiptir. Bunlar, yok edilmeye karşı ek koruma olarak mevcut yoğuşuk seviyelerine göre Muhafaza Alanının alan gücünü dinamik olarak değiştirmek için kullanılabilir.
 
 ```lua
--- List all available methods for the Containment Field
+-- Muhafaza Alanı için mevcut tüm yöntemleri listele
 local component = require('component')
 local bec_storage = component.bec_storage
 
 for k,v in pairs(bec_storage) do print(k,v) end
 
--- Returns all stored condensate as a table mapping fluid names to amounts
+-- Depolanan tüm yoğuşuğu, sıvı adlarını miktarlara eşleyen bir tablo olarak döndürür
 bec_storage.getStoredCondensate()
 
--- Returns the field strength of the Containment Field as a number
+-- Muhafaza Alanının alan gücünü sayı olarak döndürür
 bec_storage.getFieldStrength()
 
--- Sets the field strength of the Containment Field from a number
+-- Muhafaza Alanının alan gücünü bir sayıdan ayarlar
 bec_storage.setFieldStrength(strength)
 ```
 ```lua
 ---@meta
 
--- Stub for the OpenComputers `bec_storage` component.
+-- OpenComputers `bec_storage` bileşeni için sahte tanım.
 
 ---@class BecStorageComponentProxy: ComponentProxy
 BecStorageComponentProxy = {}
 
----Get all condensates stored in **current** Containment Field.
----@return table[string, number] table of condensates stored.
+---**Mevcut** Muhafaza Alanında depolanan tüm yoğuşukları getir.
+---@return table[string, number] depolanan yoğuşukların tablosu.
 function BecStorageComponentProxy.getStoredCondensate() end
 
----Get the current field strength of the Containment Field connected.
----@return number current field strength.
+---Bağlı Muhafaza Alanının mevcut alan gücünü getir.
+---@return number mevcut alan gücü.
 function BecStorageComponentProxy.getFieldStrength() end
   
----Config the field strength of the Containment Field. number below 0 will be interpreted as 1.
+---Muhafaza Alanının alan gücünü yapılandır. 0'ın altındaki sayı 1 olarak yorumlanır.
 ---@param  strength number
 function BecStorageComponentProxy.setFieldStrength(strength) end
 ```
 
-## References
-- [GTNH Wiki : Bose-Einstein Condensate Containment Field](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Containment_Field)
+## Kaynaklar
+- [GTNH Wiki : Bose-Einstein Yoğuşuk Muhafaza Alanı](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Containment_Field)

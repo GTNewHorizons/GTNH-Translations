@@ -4,38 +4,38 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAFhA==
 navigation:
-  title: Assembly Line
+  title: Montaj Hattı
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1170
   position: -5001
 ---
 
-# Assembly Line
+# Montaj Hattı
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1170" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" /> (assline or AL) is an IV tier multiblock for crafting LuV+ tier components. 
+<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" /> (assline veya AL), LuV+ kademe bileşenleri üretmek için kullanılan IV kademe bir multibloktur. 
 
-The machine is built as a series of slices and inputs must be inserted in the exact order in which they appear in NEI. 
+Makine bir dizi dilim halinde inşa edilir ve girdiler NEI'de göründükleri tam sırayla yerleştirilmelidir. 
 
-Recipes are also NOT implicit and must be explicitly shared with the AL via <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" />. This is unlike any multiblock the player has encountered up to this point and requires more advanced techniques for automation. For normal assembler recipes, see the [<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" />](./precise_auto_assembler_mt_3662.md) or [<ItemLink id="gregtech:gt.blockmachines:876" showIcon="left" />](./large_scale_auto_assembler_v101.md). 
+Tarifler ayrıca örtük değildir ve <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" /> ile AL'ye açıkça paylaşılmalıdır. Bu, oyuncunun bu noktaya kadar karşılaştığı multiblokların hiçbirine benzemez ve otomasyon için daha gelişmiş teknikler gerektirir. Normal montajcı tarifleri için [<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" />](./precise_auto_assembler_mt_3662.md) veya [<ItemLink id="gregtech:gt.blockmachines:876" showIcon="left" />](./large_scale_auto_assembler_v101.md) sayfalarına bak. 
 
-The AL is generally superseded by the [<ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />](./advanced_assembly_line.md) with its parallel processing and support for multi-amp and laser energy hatches, but AL's tier skipping prevents AAL from fully replacing AL, since AAL cannot do tier skipping.
+AL, paralel işleme ve çok amperli ve lazer enerji kapakları desteğiyle genellikle [<ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />](./advanced_assembly_line.md) tarafından geride bırakılır, ancak AAL kademe atlaması yapamadığı için AL'nin kademe atlaması AAL'nin AL'nin yerini tamamen almasını engeller.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | IV |
-| Structure Size(LxWxH) | 3x5-16x4 |
-| Power | Regular |
-| Overclocks | Imperfect |
-| Maintenance | Need Maintenance |
-| Pollution | Produces no pollution |
+| Açılma Kademesi | IV |
+| Yapı Boyutu(UxGxY) | 3x5-16x4 |
+| Güç | Normal |
+| Hız Aşırtma | Kusurlu |
+| Bakım | Bakım Gerekli |
+| Kirlilik | Kirlilik üretmez |
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-### Crafting
+### Üretim
 <RecipesFor id="gregtech:gt.blockmachines:1170" handlerBlacklist="gt.recipe.scanner" />
 
 <RecipesFor id="gregtech:gt.blockcasings3:10" />
@@ -46,43 +46,43 @@ The AL is generally superseded by the [<ItemLink id="gregtech:gt.blockmachines:1
 
 <RecipesFor id="gregtech:gt.blockcasings2:9" />
 
-### Structure
+### Yapı
 
-The AL is built as a series of slices with an input bus at the bottom center of each one to hold a single unique input. The total number of slices required therefore depends on the total number of inputs in the recipe. For example, the LuV motor has five solid inputs and therefore needs five slices to craft. The order in which the ingredients are inserted is the same order in which they appear in NEI.
+AL, her birinin alt-orta kısmında tek bir benzersiz girdi tutan bir giriş yolu bulunan bir dizi dilim halinde inşa edilir. Bu nedenle gereken toplam dilim sayısı, tarifteki toplam girdi sayısına bağlıdır. Örneğin LuV motorun beş katı girdisi vardır ve bu yüzden üretimi için beş dilim gerekir. Malzemelerin yerleştirilme sırası, NEI'de göründükleri sıranın aynısıdır.
 
-AL can be rotated and mirrored, and the first slice is where controller exists.
+AL döndürülebilir ve aynalanabilir; kontrolcü ilk dilimde bulunur.
 
-The glass can be any tier and has no effect on the operation of the machine. 
+Cam herhangi bir kademede olabilir ve makinenin çalışmasına hiçbir etkisi yoktur. 
 
-Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. The AL can only tier skip ONE time (ie. IV energy hatches can run up to LuV recipes). 
+Çok amperli ve lazer enerji kapakları desteklenmez, ancak hız aşırtma için birden fazla normal enerji kapağı olabilir. AL yalnızca BİR kez kademe atlayabilir (yani IV enerji kapakları en fazla LuV tariflerini çalıştırabilir). 
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and subchannel "length" to specify the number of slices $$(\text{Slices} = \text{Length} + 4)$$.
+Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan; camın kademesini belirtmek için "glass", dilim sayısını belirtmek için "length" alt kanalını ver $$(\text{Slices} = \text{Length} + 4)$$.
 
-The input buses can be any tier but it is recommended to use <ItemLink id="gregtech:gt.blockmachines:70" showIcon="left" /> because their limited capacity(1 slot) is very useful for automation. 
+Giriş yolları herhangi bir kademede olabilir, ancak sınırlı kapasiteleri (1 yuva) otomasyon için çok yararlı olduğundan <ItemLink id="gregtech:gt.blockmachines:70" showIcon="left" /> kullanman önerilir. 
 
-<ItemLink id="gregtech:gt.blockmachines:2711" showIcon="left" /> set to auto-pull and linked input buses do <Color id="red">**NOT**</Color> work if they make more than one item type visible per slice. 
+Otomatik çekmeye ayarlanmış <ItemLink id="gregtech:gt.blockmachines:2711" showIcon="left" /> ve bağlantılı giriş yolları, dilim başına birden fazla eşya tipini görünür kılıyorsa <Color id="red">**Kırmızı: ÇALIŞMAZ**</Color>. 
 
-At max length, the output bus should replace a solid steel machine casing on layer 1 of the last slice instead of replacing the final input bus. 
+Maksimum uzunlukta çıkış yolu, son giriş yolunun yerine değil, son dilimin 1. katmanındaki bir sağlam çelik makine gövdesinin yerine geçmelidir. 
 
-Only four input hatches are required because no recipe uses more than four fluids, and <ItemImage id="gregtech:gt.blockmachines:200" noTooltip /> Quadruple input hatches do <Color id="red">**NOT**</Color> work, but there can be gaps between the input hatches if necessary.
+Hiçbir tarif dörtten fazla sıvı kullanmadığı için yalnızca dört girdi kapağı gerekir ve <ItemImage id="gregtech:gt.blockmachines:200" noTooltip /> Dörtlü girdi kapakları <Color id="red">**Kırmızı: ÇALIŞMAZ**</Color>, ancak gerekirse girdi kapakları arasında boşluklar olabilir.
 
-#### Base Structure (Minimum requirements)
-| Component | Quantity and placement |
+#### Temel Yapı (Minimum gereksinimler)
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" /> | First slice, 3rd layer |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any tiered glass | 10, Both sides of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 8, Both sides of 3rd layer |
-| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-12, Both sides of 1st layer and center of 4th layer |
-| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 5, Center of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 5, Center of 3rd layer |
-| <ItemImage id="gregtech:gt.blockmachines:145" noTooltip />Data Access Hatch | 1, Any both sides of 3rd layer but <Color id="red">**NOT**</Color> on first slice |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Any 4th layer Casings |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Any 1st layer side Casings |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 5, Center of 1st layer |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 0+, Any 1st layer side Casings |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1, Last slice's 1st layer side Casings |
+| <ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" /> | İlk dilim, 3. katman |
+| <ItemImage id="bartworks:BW_TieredGlass" />Herhangi bir kademeli cam | 10, 2. katmanın her iki yanı |
+| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 8, 3. katmanın her iki yanı |
+| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-12, 1. katmanın her iki yanı ve 4. katmanın ortası |
+| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 5, 2. katmanın ortası |
+| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 5, 3. katmanın ortası |
+| <ItemImage id="gregtech:gt.blockmachines:145" noTooltip />Veri Erişim Kapağı | 1, 3. katmanın her iki yanında herhangi bir yer, ancak ilk dilimde <Color id="red">**Kırmızı: OLAMAZ**</Color> |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Enerji Kapağı Etiketi: Yalnızca Normal Kapaklara izin verilir</Tooltip> | 1+, 4. katmandaki herhangi bir makine gövdesi |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Bakım Kapağı | 1+, 1. katmanın herhangi bir yan gövdesi |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Giriş Yolu | 5, 1. katmanın ortası |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Girdi Kapağı | 0+, 1. katmanın herhangi bir yan gövdesi |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Çıkış Yolu | 1, son dilimin 1. katman yan gövdesi |
 
-#### Each Additional Slice
+#### Her Ek Dilim
 
 <GameScene interactive={true} wrap="square" align="right" width="170" height="130">
   <Block id="gregtech:gt.blockmachines:71" />
@@ -97,50 +97,50 @@ Only four input hatches are required because no recipe uses more than four fluid
   <Block id="gregtech:gt.blockcasings2" y="3"/>
 </GameScene>
 
-Each additional slice (1 length) requires these blocks:
+Her ek dilim (1 uzunluk) şu blokları gerektirir:
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any tiered glass | 2, Both sides of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 2, Both sides of 3rd layer |
-| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-3, Both sides of 1st layer and center of 4th layer |
-| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 1, Center of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 1, Center of 3rd layer |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 0+, Any 4th layer Casings |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1, Center of 1st layer |
+| <ItemImage id="bartworks:BW_TieredGlass" />Herhangi bir kademeli cam | 2, 2. katmanın her iki yanı |
+| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 2, 3. katmanın her iki yanı |
+| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-3, 1. katmanın her iki yanı ve 4. katmanın ortası |
+| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 1, 2. katmanın ortası |
+| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 1, 3. katmanın ortası |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Enerji Kapağı Etiketi: Yalnızca Normal Kapaklara izin verilir</Tooltip> | 0+, 4. katmandaki herhangi bir makine gövdesi |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Giriş Yolu | 1, 1. katmanın ortası |
 
-Note that the <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus must be moved to the last slice when you extend AL slices.
+AL dilimlerini uzattığında <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Çıkış Yolu'nun son dilime taşınması gerektiğini unutma.
 
-### Wallsharing
+### Duvar Paylaşımı
 
-ALs may wallshare each of their sides to save on casings, glass, and buses/hatches. That includes any input hatches, maintenance hatches, data access hatches, and output buses. Sharing a data access hatch is particuarly valuable for saving TPS and reducing the amount of data sticks needed.
+AL'ler gövde, cam ve yol/kapaklardan tasarruf etmek için her bir yanını duvar paylaşımına açabilir. Buna girdi kapakları, bakım kapakları, veri erişim kapakları ve çıkış yolları dahildir. Bir veri erişim kapağını paylaşmak, TPS tasarrufu ve gereken veri çubuğu sayısını azaltmak için özellikle değerlidir.
 
-## Usage
+## Kullanım
 
-### Scanning Recipes
+### Tarifleri Taramak
 
-Simply inserting the inputs of a recipe into the AL (and in the correct order) is not enough for the machine to start processing. Recipes must be explicitly shared with the AL via <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" /> scanned with the necessary information in a singleblock scanner.
+Bir tarifin girdilerini AL'ye (ve doğru sırada) yerleştirmek, makinenin işlemeye başlaması için yeterli değildir. Tariflerin, tek bloklu bir tarayıcıda gerekli bilgiyle taranmış <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" /> aracılığıyla AL ile açıkça paylaşılması gerekir.
 
-To scan the recipe for an <ItemLink id="gregtech:gt.metaitem.01:32606" showIcon="left" />, for example, insert both an IV motor and data stick into a scanner, as seen in the recipe below. The output is a data stick specifically for LuV motors and goes in the Data Access Hatch on the AL. The IV motor is consumed in the process. All data stick recipes and the items to scan for them are visible through NEI. Note that recipes may change with updates of GTNH and would require the player to update their data sticks.
+Örneğin bir <ItemLink id="gregtech:gt.metaitem.01:32606" showIcon="left" /> için tarifi taramak üzere, aşağıdaki tarifte görüldüğü gibi hem bir IV motor hem de bir veri çubuğunu tarayıcıya yerleştir. Çıktı, özellikle LuV motorları için olan bir veri çubuğudur ve AL'deki Veri Erişim Kapağına konur. IV motor bu işlemde tüketilir. Tüm veri çubuğu tarifleri ve bunlar için taranacak eşyalar NEI aracılığıyla görülebilir. Tariflerin GTNH güncellemeleriyle değişebileceğini ve oyuncunun veri çubuklarını güncellemesini gerektirebileceğini unutma.
 
 <Recipe id="gregtech:gt.metaitem.01:32606" handlerId="gt.recipe.scanner" /> 
 
-Later in the game, the scanner is replaced by the [<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />](./research_station.md) and [<ItemLink id="gregtech:gt.blockmachines:15311" showIcon="left" />](./quantum_computer.md). These two multiblocks work together to unlock the recipes for some of the most advanced items in GTNH.
+Oyunun ilerleyen kısımlarında tarayıcının yerini [<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />](./research_station.md) ve [<ItemLink id="gregtech:gt.blockmachines:15311" showIcon="left" />](./quantum_computer.md) alır. Bu multiblokların ikisi, yani Araştırma İstasyonu ve Kuantum Bilgisayarı, GTNH'deki en gelişmiş eşyalardan bazılarının tariflerini açmak için birlikte çalışır.
 
-### Data Access Hatches
-There are four types of data access hatches, listed below. There can only be one per AL but they can be safely wallshared between machines.
+### Veri Erişim Kapakları
+Aşağıda listelenen dört tür veri erişim kapağı vardır. AL başına yalnızca bir tane olabilir, ancak makineler arasında güvenle duvar paylaşımı yapılabilir.
 
-- <ItemLink id="gregtech:gt.blockmachines:145" showIcon="left" /> - Holds up to four data sticks
-- <ItemLink id="gregtech:gt.blockmachines:146" showIcon="left" /> - Holds up to sixteen data sticks
-- <ItemLink id="gregtech:gt.blockmachines:147" showIcon="left" /> - Holds up to sixteen data sticks and allows for input/output of data sticks.
-- <ItemLink id="gregtech:gt.blockmachines:15442" showIcon="left" /> - Reads any number of data sticks from a [<ItemLink id="gregtech:gt.blockmachines:15313" showIcon="left" />](./data_bank.md).
+- <ItemLink id="gregtech:gt.blockmachines:145" showIcon="left" /> - En fazla dört veri çubuğu tutar
+- <ItemLink id="gregtech:gt.blockmachines:146" showIcon="left" /> - En fazla on altı veri çubuğu tutar
+- <ItemLink id="gregtech:gt.blockmachines:147" showIcon="left" /> - En fazla on altı veri çubuğu tutar ve veri çubuklarının girdi/çıktısına izin verir.
+- <ItemLink id="gregtech:gt.blockmachines:15442" showIcon="left" /> - Bir [<ItemLink id="gregtech:gt.blockmachines:15313" showIcon="left" />](./data_bank.md) içinden herhangi sayıda veri çubuğu okur.
 
-### Troubleshooting
+### Sorun Giderme
 
-1. **No Valid Recipe Found.** There are numerous reasons for this error such as missing items, missing fluids, ingredients in the wrong order, more than one output bus, etc. Check that all items are in the correct input bus/hatch.
-1. **No Data Sticks Found.** The controller cannot find any data sticks. Either the data access hatch is empty or the data sticks are not scanned with a recipe. Holding shift shows what item the data stick is scanned with, similar to an AE2 pattern.
-1. **Recipes keep overlapping.** You likely forgot to either insert a blocking card or enable blocking mode on an interface that stores patterns.
+1. **Geçerli Tarif Bulunamadı.** Bu hatanın eksik eşyalar, eksik sıvılar, yanlış sıradaki malzemeler, birden fazla çıkış yolu gibi pek çok nedeni olabilir. Tüm eşyaların doğru giriş yolu/kapağında olduğunu kontrol et.
+1. **Veri Çubuğu Bulunamadı.** Kontrolcü hiçbir veri çubuğu bulamıyor. Ya veri erişim kapağı boş ya da veri çubukları bir tarifle taranmamış. Shift tuşunu basılı tutmak, AE2 şablonuna benzer şekilde veri çubuğunun hangi eşyayla tarandığını gösterir.
+1. **Tarifler üst üste biniyor.** Muhtemelen şablonları saklayan bir arayüze engelleme kartı takmayı ya da engelleme modunu aktifleştirmeyi unuttun.
 
-## References
+## Kaynaklar
 
-- [GTNH Wiki: Assembly Line](https://wiki.gtnewhorizons.com/wiki/Assembly_Line)
+- [GTNH Wiki: Montaj Hattı](https://wiki.gtnewhorizons.com/wiki/Assembly_Line)

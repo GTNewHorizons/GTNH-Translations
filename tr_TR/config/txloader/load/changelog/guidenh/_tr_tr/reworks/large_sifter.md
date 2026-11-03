@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15542
 navigation:
-  title: Large Sifter
+  title: Büyük Elek
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15542
 categories:
@@ -11,42 +11,42 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Large Sifter
+# Büyük Elek
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15542"/>
 </GameScene>
-The <Color id="GREEN">Large Sifter</Color> is an HV tier multiblock for sifting gems and minerals. The <Color id="GREEN">Large Sifter</Color> is a direct upgrade from the singleblock sifter because it runs at <Color id="RED">500%</Color> speed, only uses <Color id="BLUE">75%</Color> of the EU/t normally required, and offers <Color id="GREEN">4</Color> parallels per voltage tier. It is recommended to passively sift dusts and liquids with no other use. 
+<Color id="GREEN">Büyük Elek</Color>, değerli taşları ve mineralleri elemek için HV kademesinde bir multibloktur. <Color id="GREEN">Büyük Elek</Color>, tek bloklu eleğin doğrudan yükseltmesidir; çünkü <Color id="RED">%500</Color> hızda çalışır, normalde gereken EU/t'nin yalnızca <Color id="BLUE">%75</Color>'ini kullanır ve gerilim kademesi başına <Color id="GREEN">4</Color> paralel sunar. Başka kullanımı olmayan tozları ve sıvıları pasif olarak elemek önerilir.
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure of this multiblock has changed, the mechanics stay the same
+> Bu multibloğun yalnızca yapısı değişti; mekanikler aynı kalıyor
 
-## Construction
-The <Color id="GREEN">Large Sifter</Color> has no tiered components. Buses/hatches may replace any casing anywhere on the structure. Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+## İnşa
+<Color id="GREEN">Büyük Elek</Color>'in kademeli bileşenleri yoktur. Veriyolları/kapaklar yapının herhangi bir yerindeki herhangi bir kasanın yerini alabilir. Çok amperli ve lazer enerji kapakları desteklenmez, ancak overclock için birden fazla normal enerji kapağı olabilir. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan.
 
-### Requires:
+### Gerekenler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15542"/><ItemImage id="gregtech:gt.blockmachines:15542"/>
 - 45-59 <ItemLink id="miscutils:gtplusplus.blockcasings.2:5"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:5"/>
 - 19 <ItemLink id="miscutils:gtplusplus.blockcasings.2:6"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:6"/>
 - 16 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ Enerji Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 Bakım Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ Giriş Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ Girdi Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ Çıkış Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">Large Sifters</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### Duvar Paylaşımı
+<Color id="GREEN">Büyük Elekler</Color> kasa, çerçeve kutusu ve veriyolu/kapaklardan tasarruf etmek için her bir yüzünü duvar paylaşımına açabilir. Hiçbir tarif 1A'dan fazla güç kullanmaz, bu yüzden <u>__bir__</u> enerji kapağını <u>__iki__</u> makine arasında paylaşmak mümkündür.
 
-## Usage
-The <Color id="GREEN">Large Sifter</Color> is a direct upgrade from the singleblock sifter because it runs at 500% speed, only uses 75% of the EU/t normally required, and offers 4 parallels per voltage tier, as seen in the following table.
+## Kullanım
+<Color id="GREEN">Büyük Elek</Color>, tek bloklu eleğin doğrudan yükseltmesidir; çünkü %500 hızda çalışır, normalde gereken EU/t'nin yalnızca %75'ini kullanır ve aşağıdaki tabloda görüldüğü gibi gerilim kademesi başına 4 paralel sunar.
 
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 | 4 | 8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 | 44 | 48 | 52 | 56 | 60 |
 
 
-There are a few dusts and liquids in GTNH that are only ever used in the sifter and serve no other purpose. It is highly recommended to put these in ME stocking buses/hatches, or an AE2 subnetwork with partitioned storage cells and sticky cards. 
+GTNH'de yalnızca elekte kullanılan ve başka hiçbir amaca hizmet etmeyen birkaç toz ve sıvı vardır. Bunları ME stoklama veriyollarına/kapaklarına veya bölümlenmiş depolama hücreleri ve yapışkan kartlar içeren bir AE2 alt ağına koyman şiddetle önerilir.

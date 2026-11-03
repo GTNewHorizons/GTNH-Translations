@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Color Coded ME Drives
+  title: Renk Kodlu ME Sürücüleri
   parent: ae2.md
   icon: appliedenergistics2:tile.BlockDrive
 categories:
@@ -9,13 +9,13 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Color Coded ME Drives
-The visual rendering of ME Drives has changed! Now when applying a color to a drive, the color is applied to the chassis itself instead of the individual drives!
+# Renk Kodlu ME Sürücüleri
+ME Sürücülerinin görsel işlenişi değişti! Artık bir sürücüye renk uyguladığında renk, tek tek sürücülere değil, şasinin kendisine uygulanıyor!
 
-This allows you to maintain a color-coded storage system, whilst still being able to discern types and tiers of the cells inside from outside the GUI!
+Bu sayede renk kodlu bir depolama sistemi kurabilir, aynı zamanda içindeki hücrelerin türlerini ve seviyelerini arayüz dışından da ayırt edebilirsin!
 
 <FloatingImage src="../assets/ae2/colored_drives.png" align="left" displayWidth="256">
   <ImageAnnotation>
-    An example of a color coded set-up using ME Drives
+    ME Sürücüleri kullanılarak yapılmış renk kodlu bir kurulum örneği
   </ImageAnnotation>
 </FloatingImage>

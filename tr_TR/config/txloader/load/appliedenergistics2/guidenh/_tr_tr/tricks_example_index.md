@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: Tips and Examples
+  title: İpuçları ve Örnekler
   icon: appliedenergistics2:tile.BlockSkyCompass
   position: 2
   parent: /index.md
 ---
-# Tips and Examples
-This page collects various AE tips and practical examples from the guide. Use them to help plan and build your GTNH systems.
+# İpuçları ve Örnekler
+Bu sayfa rehberdeki çeşitli AE ipuçlarını ve pratik örnekleri bir araya getirir. GTNH sistemlerini planlamana ve kurmana yardımcı olmak için bunları kullan.

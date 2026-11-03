@@ -1,84 +1,84 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Types of Storage and Network Cleanliness
+  title: Depolama Türleri ve Ağ Düzeni
   icon: appliedenergistics2:tile.BlockDrive
 ---
 
-# Various Kinds of Storage and Keeping Your Network Organized
+# Çeşitli Depolama Türleri ve Ağını Düzenli Tutmak
 
-Using filters, [partitions](../items_blocks/cell_workbench.md), and [storage priority](../ae2_mechanics/import_export_storage.md#storage-priority),
-you can set up several tiers of storage for various kinds of things.
+Filtreleri, [bölümlemeleri](../items_blocks/cell_workbench.md) ve [depolama önceliğini](../ae2_mechanics/import_export_storage.md#storage-priority)
+kullanarak farklı türde şeyler için birkaç depolama kademesi kurabilirsin.
 
-The kinds of storage tend to be:
-* General storage, for all the random stuff you have a few to a few thousand of. This uses small [cells](../items_blocks/storage_cells.md),
-like 4k or 16k.
-* Bulk storage, for all the stuff you have more than a few thousand of, like cobble or iron. This uses big cells like 256k
-or the cells from the MEGA addon.
-* Local storage at farms, as described in [Specialized Local Storage](specialized_local_storage.md). Certus farm examples depend on high-version Budding Certus and are not migrated to 1.7.10.
+Depolama türleri genellikle şunlardır:
+* Genel depolama, birkaç ila birkaç bin adet sahip olduğun rastgele her şey için. 4k veya 16k gibi küçük [hücreler](../items_blocks/storage_cells.md)
+kullanır.
+* Yığın depolama, birkaç binden fazla sahip olduğun her şey için, örneğin kırıktaş veya demir. 256k gibi büyük hücreler
+veya MEGA eklentisindeki hücreler kullanır.
+* Çiftliklerde yerel depolama, [Özelleştirilmiş Yerel Depolama](specialized_local_storage.md) bölümünde anlatıldığı gibi. Certus çiftliği örnekleri yüksek sürümlü Budding Certus bloklarına bağlıdır ve 1.7.10'a taşınmamıştır.
 
-The priorities are set up so that when items are dumped into the main network, it first tries to store them in the specialized
-bulk or local storage, and if that can't be done (due to filters and partitions), it then puts the items in general storage.
-This means that items WILL NOT ACTIVELY MOVE from one storage to the other, but will "migrate" as they enter and leave the network.
-To actively move items, use an <ItemLink id="appliedenergistics2:tile.BlockIOPort" />.
+Öncelikler şöyle ayarlanır: eşyalar ana ağa atıldığında ağ önce onları özelleştirilmiş
+yığın veya yerel depolamada saklamayı dener; bu yapılamazsa (filtreler ve bölümlemeler nedeniyle) eşyaları genel depolamaya koyar.
+Bu, eşyaların bir depolamadan diğerine ETKİN OLARAK TAŞINMAYACAĞI, ancak ağa girip çıkarken "göç edeceği" anlamına gelir.
+Eşyaları etkin olarak taşımak için bir <ItemLink id="appliedenergistics2:tile.BlockIOPort" /> kullan.
 
 <GameScene zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/network_storage_types.snbt" />
 
   <BoxAnnotation color="#33dd33" min="0 0 4" max="1 1.3 5">
-  Bulk Storage. In this case a filtered storage bus on a large capacity storage like a drawer. This storage bus is filtered to
-  coal. It has a high priority so whenever coal enters the network, it goes to this storage bus, and whenever coal is
-  pulled from the network, it is pulled from *everywhere except here*, so coal "migrates" to this drawer.
+  Yığın Depolama. Bu durumda çekmece gibi yüksek kapasiteli bir depolama üzerinde filtrelenmiş bir depolama veriyolu. Bu depolama veriyolu
+  kömüre filtrelenmiştir. Yüksek önceliğe sahiptir, böylece kömür ağa girdiğinde bu depolama veriyoluna gider ve kömür
+  ağdan çekildiğinde *burası hariç her yerden* çekilir, böylece kömür bu çekmeceye "göç eder".
 
-  IMPORTANT NOTE: Big optimized inventories like drawers are fine for this, but big *un*optimized inventories with many slots, like
-  colossal chests, are terrible for performance when used with storage busses.
+  ÖNEMLİ NOT: Çekmeceler gibi büyük optimize edilmiş envanterler bunun için uygundur, ancak devasa sandıklar gibi
+  çok sayıda yuvaya sahip büyük *optimize edilmemiş* envanterler depolama veriyollarıyla kullanıldığında performans açısından berbattır.
   </BoxAnnotation>
 
   <BoxAnnotation color="#33dd33" min="2 0 4" max="3 1 5">
-  Bulk Storage. In this case a partitioned 256k cell in a drive with high priority. This cell is partitioned to
-  cobblestone and iron. It has an Equal Distribution Card, so it won't be completely filled with cobblestone, leaving
-  no space for iron. The drive has a high priority so whenever cobble or iron enters the network, it goes to this storage bus,
-  and whenever cobble or iron is pulled from the network, it is pulled from *everywhere except here*, so cobble and iron "migrate" to this cell.
+  Yığın Depolama. Bu durumda yüksek öncelikli bir sürücüde bölümlenmiş 256k'lık bir hücre. Bu hücre kırıktaşa ve
+  demire bölümlenmiştir. Eşit Dağıtım Kartı vardır, böylece tamamen kırıktaşla dolup demire
+  yer bırakmaz. Sürücü yüksek önceliğe sahiptir, böylece kırıktaş veya demir ağa girdiğinde bu depolama veriyoluna gider
+  ve kırıktaş veya demir ağdan çekildiğinde *burası hariç her yerden* çekilir, böylece kırıktaş ve demir bu hücreye "göç eder".
   </BoxAnnotation>
 
   <BoxAnnotation color="#33dddd" min="4 0 4" max="5 1 5">
-  General Storage. In this case a drive full of 16k cells. These cells are not partitioned. The drive has a neutral priority
-  (in this case 0) so whenever something enters the network, it goes to the specialized bulk or local storage first,
-  and whenever something is pulled from the network, it is pulled from here first, so items that have specialized storage naturally
-  "migrate" out of general storage.
+  Genel Depolama. Bu durumda 16k hücrelerle dolu bir sürücü. Bu hücreler bölümlenmemiştir. Sürücü nötr önceliğe sahiptir
+  (bu durumda 0), böylece bir şey ağa girdiğinde önce özelleştirilmiş yığın veya yerel depolamaya gider
+  ve bir şey ağdan çekildiğinde önce buradan çekilir, böylece özelleştirilmiş depolaması olan eşyalar doğal olarak
+  genel depolamadan "göç eder".
   </BoxAnnotation>
 
   <BoxAnnotation color="#88ff88" min="7 0 4" max="8 1 5">
-  This IO Port plays an important role in keeping the network organized. Because storage priority does not *actively*
-  move items, cells used in General Storage should be periodically "shuffled" through an IO port to move items that have a
-  place in specialized storage into that specialized storage. This "defragments" the storage, making sure things aren't
-  being stored in multiple places.
+  Bu İo Bağlantı Noktası ağı düzenli tutmada önemli bir rol oynar. Depolama önceliği eşyaları *etkin olarak*
+  taşımadığından, Genel Depolamada kullanılan hücreler, özelleştirilmiş depolamada yeri olan eşyaları o depolamaya taşımak için
+  düzenli olarak bir İo bağlantı noktasından "karıştırılmalıdır". Bu, depolamayı "birleştirir" ve eşyaların
+  birden fazla yerde saklanmadığından emin olur.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dd3333" min="10 0 1" max="11 1 2">
-  Local Storage at a mob farm. This drive has cells partitioned to the drops you want to keep, like bones and arrows.
-  The drive itself is not given priority, because the thing that affects the priority is the storage bus accessing the subnet
-  from the main net. The cells have equal distribution cards and overflow destruction cards.
+  Bir canavar çiftliğinde yerel depolama. Bu sürücüde, tutmak istediğin düşüşlere (kemik ve ok gibi) bölümlenmiş hücreler var.
+  Sürücünün kendisine öncelik verilmez, çünkü önceliği etkileyen şey alt ağa ana ağdan erişen depolama veriyoludur.
+  Hücrelerde eşit dağıtım kartları ve taşma yok etme kartları vardır.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dd3333" min="9 1 1" max="10 2.3 2">
-  Local Storage at a mob farm. This storage bus - interface setup allows the main network to access this subnet's storage.
-  The storage bus is given a high priority and filtered to the things stored in the cells on the subnet.
+  Bir canavar çiftliğinde yerel depolama. Bu depolama veriyolu - arayüz kurulumu, ana ağın bu alt ağın depolamasına erişmesini sağlar.
+  Depolama veriyoluna yüksek öncelik verilir ve alt ağdaki hücrelerde saklanan şeylere filtrelenir.
 
-  IMPORTANT: Due to the trash can setup on the subnet, make sure to filter this storage bus or it will start trashing
-  *every single item, fluid, etc. that enters the network*!
+  ÖNEMLİ: Alt ağdaki çöp kutusu kurulumu nedeniyle bu depolama veriyolunu filtrelediğinden emin ol, yoksa
+  *ağa giren her bir eşyayı, sıvıyı vb. çöpe atmaya* başlar!
   </BoxAnnotation>
 
   <BoxAnnotation color="#dd3333" min="8 0 1" max="9 1.3 2">
-  Local Storage at a mob farm. This storage bus on a matter condenser is set to a lower priority than the drive. This means
-  that mob drops that cannot enter the cells in the drive will overflow to here, and be disposed of. This is important,
-  in order to prevent the subnet from being jammed full of random junk like mostly-broken bows.
+  Bir canavar çiftliğinde yerel depolama. Bir madde yoğunlaştırıcısı üzerindeki bu depolama veriyolu, sürücüden daha düşük önceliğe ayarlanmıştır. Bu,
+  sürücüdeki hücrelere giremeyen canavar düşüşlerinin buraya taşacağı ve imha edileceği anlamına gelir. Bu önemlidir,
+  çünkü alt ağın çoğu kırık yaylar gibi rastgele çöplerle dolup tıkanmasını önler.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dd33dd" min="10.7 1 7" max="12 2.3 8">
-  Local Storage at a melon farm. This setup uses a similar method used in the various certus farm examples. A storage bus
-  on the subnet inserts the thing being farmed into a barrel. Another storage bus on the main network (filtered to melon
-  slices and with a high priority) gives the main network access to the things being farmed.
+  Bir karpuz çiftliğinde yerel depolama. Bu kurulum, çeşitli certus çiftliği örneklerinde kullanılan benzer bir yöntemi kullanır. Alt ağdaki bir depolama veriyolu
+  yetiştirilen şeyi bir varile ekler. Ana ağdaki başka bir depolama veriyolu (karpuz
+  dilimlerine filtrelenmiş ve yüksek öncelikli) ana ağa yetiştirilen şeylere erişim sağlar.
   </BoxAnnotation>
 
   <IsometricCamera yaw="270" pitch="30" />

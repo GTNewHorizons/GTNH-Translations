@@ -1,10 +1,10 @@
 ---
 navigation:
-  title: Bee with You
+  title: Arı Seninle
   icon: 'Forestry:beeQueenGE:0:{Genome:{Chromosomes:[0:{UID0:"gregtech.bee.speciesInfinity",UID1:"gregtech.bee.speciesInfinity"}]}}'
   position: 20
 ---
 
-# Bee with You
+# Arı Seninle
 
-Guides for Forestry beekeeping.
+Forestry arıcılığı için rehberler.

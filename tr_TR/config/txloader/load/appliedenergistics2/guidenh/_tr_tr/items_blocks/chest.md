@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Chest
+  title: ME Sandığı
   icon: appliedenergistics2:tile.BlockChest
 categories:
 - devices
@@ -9,47 +9,47 @@ item_ids:
 - appliedenergistics2:tile.BlockChest
 ---
 
-# ME Chest
+# ME Sandığı
 
 <BlockImage id="appliedenergistics2:tile.BlockChest" meta="0" nbt='{inv:{item0:{},item1:{id:"appliedenergistics2:item.ItemBasicStorageCell.1k",Count:1b,tag:{ic:1L,it:1s,__guidenh_encoded_keys_v1:[0:{v:1L,k:"@0"},1:{v:{Craft:0b,Cnt:1L,id:"minecraft:stone",Count:0b,Damage:0s,Req:0L},k:"#0"}]},Damage:0s}},proxy:{p:0,g:341L,k:-1L},orientation_up:"UP",SORT_BY:"NAME",terminalSettings:[0:{uuid_l:-8061629327903583552L,uuid_m:-937944366173238364L,savedString:"""",map:[]}],VIEW_MODE:"ALL",paintedColor:16b,id:"BlockChest",priority:0,SORT_DIRECTION:"ASCENDING",orientation_forward:"NORTH",internalCurrentPower:40.0d}' scale="4" />
 
-The ME Chest is like a miniature network containing an <ItemLink id="appliedenergistics2:item.ItemMultiPart:380" />, an <ItemLink id="appliedenergistics2:tile.BlockDrive" />, and an <ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" />. It can be used as a small network storage, but its functionality is limited by the fact that it can only hold a single [storage cell](storage_cells.md).
+ME Sandığı, içinde bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:380" />, bir <ItemLink id="appliedenergistics2:tile.BlockDrive" /> ve bir <ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" /> bulunduran minyatür bir ağ gibidir. Küçük bir ağ depolaması olarak kullanılabilir, ancak işlevselliği yalnızca tek bir [depolama hücresi](storage_cells.md) tutabilmesi nedeniyle sınırlıdır.
 
-It is particularly useful for interacting with the cells inside it individually. The terminal integrated into it can only access the cells inside the chest, while [devices](../ae2_mechanics/devices.md) in a normal network can access any [network storage](../ae2_mechanics/import_export_storage.md), including the ME Chest.
+Özellikle içindeki hücrelerle tek tek etkileşim kurmak için kullanışlıdır. İçine entegre edilmiş terminal yalnızca sandığın içindeki hücrelere erişebilirken, normal bir ağdaki [cihazlar](../ae2_mechanics/devices.md) ME Sandığı da dahil olmak üzere herhangi bir [ağ depolamasına](../ae2_mechanics/import_export_storage.md) erişebilir.
 
-It has two GUIs, with different GUIs opened depending on the side. Interacting with the terminal on the top opens the terminal interface. A storage bus can access the storage of the cells inside the ME Chest from any side without a cell slot. Logistics systems can only insert items into it and cannot extract items from it. Interacting with other sides opens the GUI for placing a storage cell and setting its priority. Item logistics systems can only output the cell through the side with the cell slot.
+İki GUI'si vardır; hangi GUI'nin açılacağı tarafa göre değişir. Üst taraftaki terminalle etkileşime geçmek terminal arayüzünü açar. Bir depolama veriyolu, hücre yuvası olmayan herhangi bir taraftan ME Sandığı içindeki hücrelerin depolamasına erişebilir. Lojistik sistemler ona yalnızca eşya ekleyebilir, ondan eşya çekemez. Diğer taraflarla etkileşime geçmek, bir depolama hücresi yerleştirme ve önceliğini ayarlama GUI'sini açar. Eşya lojistik sistemleri hücreyi yalnızca hücre yuvası olan taraftan çıkarabilir.
 
-It can be rotated using the <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />.
+<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" /> kullanılarak döndürülebilir.
 
-It has only a small AE energy buffer, so without an [energy cell](energy_cells.md), attempting to input and output too many items simultaneously may cause it to run out of energy.
+Yalnızca küçük bir AE enerji tamponuna sahiptir; bu nedenle bir [enerji hücresi](energy_cells.md) olmadan aynı anda çok fazla eşya girişi ve çıkışı yapmaya çalışmak enerjisinin tükenmesine yol açabilir.
 
-The terminal can be dyed using the <ItemLink id="appliedenergistics2:item.ToolColorApplicator" />.
+Terminal, <ItemLink id="appliedenergistics2:item.ToolColorApplicator" /> kullanılarak boyanabilir.
 
 <GameScene width="250" height="100" zoom="4" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/chest_color.snbt" />
   <IsometricCamera yaw="105" pitch="30" />
 </GameScene>
 
-## Settings
+## Ayarlar
 
-The ME Chest has the same settings as <ItemLink id="appliedenergistics2:item.ItemMultiPart:380" /> and <ItemLink id="appliedenergistics2:item.ItemMultiPart:360" />, but does not support <ItemLink id="appliedenergistics2:item.ItemViewCell" />.
+ME Sandığı <ItemLink id="appliedenergistics2:item.ItemMultiPart:380" /> ve <ItemLink id="appliedenergistics2:item.ItemMultiPart:360" /> ile aynı ayarlara sahiptir, ancak <ItemLink id="appliedenergistics2:item.ItemViewCell" /> desteklemez.
 
-## Cell Status LEDs
+## Hücre Durumu LED'leri
 
-The cells inside the chest can indicate their status through their LEDs:
+Sandığın içindeki hücreler durumlarını LED'leri aracılığıyla gösterebilir:
 
-| Color | Status |
+| Renk | Durum |
 | :--- | :--- |
-| Green | Empty |
-| Blue | Contains items |
-| Orange | [Types](../ae2_mechanics/bytes_and_types.md) are full, cannot add new types |
-| Red | [Bytes](../ae2_mechanics/bytes_and_types.md) are full, cannot add new items |
-| Black | No energy or the chest is missing a [channel](../ae2_mechanics/channels.md) |
+| Yeşil | Boş |
+| Mavi | Eşya içeriyor |
+| Turuncu | [Türler](../ae2_mechanics/bytes_and_types.md) dolu, yeni tür eklenemiyor |
+| Kırmızı | [Baytlar](../ae2_mechanics/bytes_and_types.md) dolu, yeni eşya eklenemiyor |
+| Siyah | Enerji yok veya sandıkta [kanal](../ae2_mechanics/channels.md) eksik |
 
-## Priority
+## Öncelik
 
-The priority can be set by clicking the wrench in the top-right corner of the GUI. Items entering the network will preferentially enter the storage location with the highest priority. If two storage locations have the same priority, the one that already contains the item will be preferred. A cell with a [partition](cell_workbench.md) is considered to already contain the item when priorities are equal. Items extracted from storage will preferentially be extracted from the location with the lowest priority. This priority system causes high-priority storage locations to be filled while low-priority locations are emptied during item input and output.
+Öncelik, GUI'nin sağ üst köşesindeki İngiliz anahtarına tıklanarak ayarlanabilir. Ağa giren eşyalar tercihen en yüksek önceliğe sahip depolama konumuna girer. İki depolama konumu aynı önceliğe sahipse, eşyayı zaten içeren konum tercih edilir. [Biçimlendirmeye](cell_workbench.md) sahip bir hücre, öncelikler eşit olduğunda eşyayı zaten içeriyor kabul edilir. Depolamadan çıkarılan eşyalar tercihen en düşük önceliğe sahip konumdan çıkarılır. Bu öncelik sistemi, eşya girişi ve çıkışı sırasında yüksek öncelikli depolama konumlarının doldurulmasına, düşük öncelikli konumların ise boşaltılmasına neden olur.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:tile.BlockChest" />

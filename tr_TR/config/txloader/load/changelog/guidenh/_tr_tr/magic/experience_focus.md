@@ -1,15 +1,15 @@
 ---
 navigation:
-  title: "Wand Focus: Experience Improvements"
+  title: "Asa Odağı: Tecrübe İyileştirmeleri"
   parent: magic.md
   icon: ThaumicTinkerer:focusXPDrain
 categories:
-    - Magic Changes
-    - Quality Of Life
+    - Büyü Değişiklikleri
+    - Yaşam Kalitesi
 author: koolkrafter5
 date: 2026-06-11
 ---
 
-The <ItemLink id="ThaumicTinkerer:focusXPDrain"/> <ItemImage id="ThaumicTinkerer:focusXPDrain"/> may now be upgraded in the <ItemLink id="Thaumcraft:blockStoneDevice:13"/> <ItemImage id="Thaumcraft:blockStoneDevice:13"/>! <Color color="#FFAA00AA">Frugal</Color> will reduce the <Color id="GREEN">experience cost</Color> by 1 per tick per level, while <Color color="#FFAA00AA">Potency</Color> will provide an <Color id="GREEN">additional 20% vis</Color> per level. Are these upgrades actually worth it when upgrading them in the Manipulator takes so much <Color id="GREEN">experience</Color> up front and requires an <Color id="BLUE">energized node</Color> which solves your vis needs on its own? Maybe not, but it's better than not being able to upgrade it at all!
+<ItemLink id="ThaumicTinkerer:focusXPDrain"/> <ItemImage id="ThaumicTinkerer:focusXPDrain"/> artık <ItemLink id="Thaumcraft:blockStoneDevice:13"/> <ItemImage id="Thaumcraft:blockStoneDevice:13"/> içinde yükseltilebilir! <Color color="#FFAA00AA">Frugal</Color>, <Color id="GREEN">Yeşil tecrübe maliyetini</Color> seviye başına her tick'te 1 azaltır; <Color color="#FFAA00AA">Potens</Color> ise seviye başına <Color id="GREEN">Yeşil ek %20 vis</Color> sağlar. Onları Manipülatör'de yükseltmek başta bu kadar çok <Color id="GREEN">Yeşil tecrübe</Color> gerektiriyorken ve vis ihtiyacını tek başına çözen bir <Color id="BLUE">Mavi enerjili düğüm</Color> gerektiriyorken bu yükseltmeler gerçekten buna değer mi? Belki değmez, ama hiç yükseltememekten iyidir!
 
-It will now also recharge the <Color id="BLUE">lowest aspect</Color> in your wand rather than attempting to fill them round-robin.
+Artık asandaki en düşük <Color id="BLUE">Mavi aspekti</Color> sırayla doldurmaya çalışmak yerine şarj edecek.

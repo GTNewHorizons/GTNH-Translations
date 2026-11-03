@@ -4,9 +4,9 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAMOQ==
 navigation:
-  title: Large Chemical Reactor
+  title: Büyük Kimyasal Reaktör
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1169
   position: -3001
 ---
-# Large Chemical Reactor
+# Büyük Kimyasal Reaktör

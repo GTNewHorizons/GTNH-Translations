@@ -1,4 +1,4 @@
 #include:gregtech:large-turbine-rotor
-Generates power from Plasma based on the turbine and fitting
-Outputs 1 {L} of fluid for every 1 {L} of Plasma
+Türbine ve bağlantı parçasına göre Plazmadan güç üretir
+Her 1 {L} Plazma için 1 {L} Sıvı çıktısı verir
 #include:gregtech:large-turbine-fitting

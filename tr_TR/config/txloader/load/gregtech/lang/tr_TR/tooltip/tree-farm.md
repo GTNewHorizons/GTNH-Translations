@@ -1,13 +1,13 @@
-Farms and harvests trees using {EU}
-Place a {color_key:Sapling} in the controller and a {color_key:Tool} in an input bus
+{EU} kullanarak ağaç yetiştirir ve hasat eder
+Kontrolcüye bir {color_key:Fidan}, girdi yoluna bir {color_key:Alet} yerleştir
 {hr}
-Different tools are required for different outputs:
-{color_key:Logs}: {color_name:Saw} {color_speed:({var:tool_multiplier_logs_saw}x)}, {color_name:Buzzsaw} {color_speed:({var:tool_multiplier_logs_buzzsaw}x)}, {color_name:Chainsaw} {color_speed:({var:tool_multiplier_logs_chainsaw}x)}
-{color_key:Saplings}: {color_name:Branch Cutter} {color_speed:({var:tool_multiplier_saplings_branch_cutter}x)}, {color_name:Grafter} {color_speed:({var:tool_multiplier_saplings_grafter}x)}
-{color_key:Leaves}: {color_name:Shears} {color_speed:({var:tool_multiplier_leaves_shear}x)}, {color_name:Wire Cutter} {color_speed:({var:tool_multiplier_leaves_wire_cutter}x)}, {color_name:Electric Wire Cutter} {color_speed:({var:tool_multiplier_leaves_electric_wire_cutter}x)}
-{color_key:Fruit}: {color_name:Knife} {color_speed:({var:tool_multiplier_fruit_knife}x)}
-{color_note:Multiple tools can be used at the same time}
+Farklı çıktılar için farklı aletler gerekir:
+{color_key:Kütükler}: {color_name:Testere} {color_speed:({var:tool_multiplier_logs_saw}x)}, {color_name:Daire Testere} {color_speed:({var:tool_multiplier_logs_buzzsaw}x)}, {color_name:Zincirli Testere} {color_speed:({var:tool_multiplier_logs_chainsaw}x)}
+{color_key:Fidanlar}: {color_name:Dal Kesici} {color_speed:({var:tool_multiplier_saplings_branch_cutter}x)}, {color_name:Aşıcı} {color_speed:({var:tool_multiplier_saplings_grafter}x)}
+{color_key:Yapraklar}: {color_name:Makas} {color_speed:({var:tool_multiplier_leaves_shear}x)}, {color_name:Tel Keskisi} {color_speed:({var:tool_multiplier_leaves_wire_cutter}x)}, {color_name:Elektrikli Tel Keskisi} {color_speed:({var:tool_multiplier_leaves_electric_wire_cutter}x)}
+{color_key:Meyveler}: {color_name:Bıçak} {color_speed:({var:tool_multiplier_fruit_knife}x)}
+{color_note:Aynı anda birden fazla alet kullanılabilir}
 {hr}
-Work time is fixed at {color_time:{var:ticks_per_operation}}
-{color_name:Energy Input Tier} multiplies output further
-{color_amount:Output multiplier =} {color_formula:2 * (Tier^2) - (2 * Tier) + 5}
+Çalışma süresi {color_time:{var:ticks_per_operation}} olarak sabittir
+{color_name:Enerji Girişi Kademesi} çıktıyı daha da çoğaltır
+{color_amount:Çıktı çarpanı =} {color_formula:2 * (Tier^2) - (2 * Tier) + 5}

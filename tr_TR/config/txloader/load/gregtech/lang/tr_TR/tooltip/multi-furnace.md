@@ -1,1 +1,1 @@
-{color_parallel:4 + (2 * Heating Coil Tier)} Parallels
+{color_parallel:4 + (2 * Isıtma Bobini Kademesi)} Paralel

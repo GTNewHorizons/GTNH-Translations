@@ -1,2 +1,2 @@
-Select which particles to blacklist in the output hatches
-Input particles are split evenly among all valid output hatches
+Çıktı kapaklarında hangi parçacıkların kara listeye alınacağını seç
+Girdi parçacıkları tüm geçerli çıktı kapakları arasında eşit olarak dağıtılır

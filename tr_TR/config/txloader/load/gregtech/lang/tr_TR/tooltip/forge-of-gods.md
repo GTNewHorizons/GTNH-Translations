@@ -1,15 +1,15 @@
-{italic:Also known as Godforge or Gorge for short}
+{italic:Kısaca Godforge veya Gorge olarak da bilinir}
 {aqua:{hr:73}}
-A massive structure harnessing the thermal, gravitational and
-kinetic energy of a stabilized neutron star for material processing
-This multiblock can house {red:up to 16 modules} which utilize the star to energize materials
-to varying degrees, ranging from regular smelting to matter degeneration
-{EU} requirements for all modules are handled via wireless energy directly
+Stabilize edilmiş bir nötron yıldızının termal, kütleçekimsel ve
+kinetik enerjisini malzeme işleme için kullanan devasa bir yapı
+Bu multiblok, yıldızı kullanarak malzemeleri değişen derecelerde
+enerjilendiren {red:16 modüle kadar} modül barındırabilir; sıradan eritmeden madde bozunumuna kadar
+Tüm modüllerin {EU} gereksinimleri doğrudan kablosuz enerji ile karşılanır
 {aqua:{hr:73}}
-This multiblock has an {gold:extensive upgrade tree} which influences all of its functions,
-such as {gold:unlocking new module types}, {gold:increasing heat levels} and {gold:granting}
-{gold:various processing speed bonuses}. These upgrades can be unlocked by reaching
-certain milestones and/or spending materials
+Bu multiblokun tüm işlevlerini etkileyen {gold:kapsamlı bir yükseltme ağacı} vardır,
+örneğin {gold:yeni modül türlerinin kilidini açmak}, {gold:ısı seviyelerini artırmak} ve
+{gold:çeşitli işlem hızı bonusları} {gold:sağlamak}. Bu yükseltmeler belirli kilometre taşlarına
+ulaşarak ve/veya malzeme harcayarak açılabilir
 {aqua:{hr:73}}
-{green:Clicking on the logo in the controller gui opens an extensive information window},
-explaining everything there is to know about this multiblock
+{green:Kontrolcü GUI'sindeki logoya tıklamak kapsamlı bir bilgi penceresi açar},
+bu multiblok hakkında bilinmesi gereken her şeyi açıklar

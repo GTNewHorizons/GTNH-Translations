@@ -10,6 +10,6 @@ author: koolkrafter5
 date: 2026-06-09
 ---
 
-This update includes various improvements to existing and new NEI handlers for many magic mods.
+Bu güncelleme, birçok büyü modu için mevcut ve yeni NEI işleyicilerinde çeşitli iyileştirmeler içeriyor.
 
 <Category name="Magic NEI" rows="3"/>

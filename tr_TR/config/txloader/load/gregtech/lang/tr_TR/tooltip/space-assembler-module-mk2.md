@@ -1,4 +1,4 @@
-Module that adds the Space Assembler to the Space Elevator
-{light_purple:{bold:Is this really necessary?}}
-Runs at {VNF:voltageTier} at {color_speed:150%} speed with up to {color_parallel:16} parallels
+Uzay Asansörüne Uzay Montajcısını ekleyen modül
+{light_purple:{bold:Bu gerçekten gerekli mi?}}
+{VNF:voltageTier} seviyesinde, {color_speed:150%} hızla ve en fazla {color_parallel:16} paralel ile çalışır
 {lang:gt.blockmachines.multimachine.project.ig.motorT3}

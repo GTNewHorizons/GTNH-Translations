@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Sky Stone Chest
+  title: Gökyüzü Taşı Sandığı
   icon: appliedenergistics2:tile.BlockSkyChest
 categories:
 - misc ingredients blocks
@@ -10,6 +10,6 @@ item_ids:
 ---
 <ItemImage id="appliedenergistics2:tile.BlockSkyChest" scale="4"/>
 
-A Sky Stone Chest can generate in the core of a meteorite structure found in the world. It may contain <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:13" showIcon="left"/>, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:14" showIcon="left"/>, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:15" showIcon="left"/>, and <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:19" showIcon="left"/>.
+Gökyüzü Taşı Sandığı, dünyada bulunan bir meteorit yapısının çekirdeğinde oluşabilir. İçinde <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:13" showIcon="left"/>, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:14" showIcon="left"/>, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:15" showIcon="left"/> ve <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:19" showIcon="left"/> bulunabilir.
 
-Unlike a normal chest, a Sky Stone Chest can still be opened even if there is a solid block directly above it.
+Normal bir sandığın aksine, Gökyüzü Taşı Sandığı doğrudan üstünde katı bir blok olsa bile açılabilir.

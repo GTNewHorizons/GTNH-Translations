@@ -1,5 +1,5 @@
-Machine Type: {color_machine_type:BEC Nanite Detector Hatch}
-Checks the Nanite Tier requested by a {color_key:{item:gregtech:gt.blockmachines:15757}}.
-Emits a redstone signal when a condition is true.
-Condition is configurable in the UI.
-{color_mode:Analog mode} ignores the threshold and emits an analog redstone signal.
+Makine Tipi: {color_machine_type:BEC Nanit Dedektör Kapağı}
+Bir {color_key:{item:gregtech:gt.blockmachines:15757}} tarafından talep edilen Nanit Kademesini kontrol eder.
+Bir koşul doğru olduğunda kızıltaş sinyali yayar.
+Koşul arayüzden yapılandırılabilir.
+{color_mode:Analog mod} eşiği yok sayar ve analog kızıltaş sinyali yayar.

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Wireless Connectors
+  title: Kablosuz Bağlayıcılar
   icon: appliedenergistics2:tile.BlockWirelessConnector
 categories:
 - devices

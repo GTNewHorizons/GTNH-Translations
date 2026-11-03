@@ -24,9 +24,9 @@ quest_ids:
   - vrE4rYLuSnmmtAklayd6gw==
   - GvlZG9IESmW2qsEMw-hkIw==
 navigation:
-  title: Lapotronic Supercapacitor
+  title: Lapotronik Süperkapasitör
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:13106
   position: -4001
 ---
-# Lapotronic Supercapacitor
+# Lapotronik Süperkapasitör

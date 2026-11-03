@@ -1,5 +1,5 @@
-Oxidizes gas fuels to generate electricity without polluting the environment
-Consumes up to {var:euPerTickX20}EU worth of fuel with up to 100% efficiency each second
-Steam production requires the SOFC to heat up completely first
-Outputs {var:euPerTick}EU/t and {var:steamPerSec}L/s Steam
-Additionally, requires {var:oxygenPerSec}L/s Oxygen gas
+Gaz yakıtları oksitleyerek çevreyi kirletmeden elektrik üretir
+Saniyede {var:euPerTickX20}EU değerinde yakıtı %100'e kadar verimle tüketir
+Buhar üretimi için SOFC'nin önce tamamen ısınması gerekir
+{var:euPerTick}EU/t ve {var:steamPerSec}L/s Buhar üretir
+Ek olarak {var:oxygenPerSec}L/s Oksijen gazı gerektirir

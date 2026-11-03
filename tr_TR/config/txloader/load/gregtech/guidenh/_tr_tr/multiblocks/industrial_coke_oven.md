@@ -4,9 +4,9 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAMOQ==
 navigation:
-  title: Industrial Coke Oven
+  title: Endüstriyel Kok Fırını
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15543
   position: -4001
 ---
-# Industrial Coke Oven
+# Endüstriyel Kok Fırını

@@ -1,32 +1,32 @@
-{light_purple:Dimensions not included!}
-Converts protomatter into antimatter
-Use screwdriver to disable rendering
-Passively consumes {var:base_consumption} + ({dark_aqua:Antimatter} * 1000)^(1.5 - {green:{bold:{underline:M}}}) {EU/t}
-The consumption decays by 1% every tick when empty
-Actively uses ({dark_aqua:Antimatter} * {var:active_base_mult})^(1.5 - {dark_purple:{bold:{underline:G}}}) {EU} per cycle to produce antimatter
+{light_purple:Boyutlar dahil değil!}
+Protomaddeyi antimaddeye dönüştürür
+Görüntülemeyi kapatmak için tornavida kullan
+Pasif olarak {var:base_consumption} + ({dark_aqua:Antimadde} * 1000)^(1.5 - {green:{bold:{underline:M}}}) {EU/t} tüketir
+Boşken tüketim her tick %1 azalır
+Antimadde üretmek için döngü başına aktif olarak ({dark_aqua:Antimadde} * {var:active_base_mult})^(1.5 - {dark_purple:{bold:{underline:G}}}) {EU} kullanır
 {hr}
-Cycles every second
-Every cycle, the lowest amount of antimatter in the 16 antimatter hatches is recorded
-All hatches with more than the lowest amount {red:lose half the difference!}
-{red:Voids 10% of antimatter} if it runs out of energy/protomatter during a cycle
-Base production per hatch is (1/16) * ({dark_aqua:Antimatter}^(0.5 + {gold:{bold:{underline:C}}})) of antimatter each cycle
-Each hatch multiplies the base production per hatch with a random number pulled from
-a normal distribution with a mean of 0.2 + {aqua:{bold:{underline:A}}} and a variance of 1
-The total gain of antimatter can be negative!
+Her saniye döngü yapar
+Her döngüde, 16 antimadde kapağındaki en düşük antimadde miktarı kaydedilir
+En düşük miktardan fazlasına sahip tüm kapaklar {red:farkın yarısını kaybeder!}
+{red:Antimaddenin %10'unu yok eder}, döngü sırasında enerjisi/protomaddesi biterse
+Kapak başına temel üretim, her döngüde (1/16) * ({dark_aqua:Antimadde}^(0.5 + {gold:{bold:{underline:C}}})) antimaddedir
+Her kapak, kapak başına temel üretimi şuradan çekilen rastgele bir sayıyla çarpar:
+ortalaması 0.2 + {aqua:{bold:{underline:A}}} ve varyansı 1 olan normal dağılım
+Toplam antimadde kazancı negatif olabilir!
 {hr}
-Can be supplied with stabilization fluids to improve antimatter generation
-Each stabilization can only use one of the fluids at a time
-{green:{bold:{underline:M}}}{green:agnetic Stabilization} (Consumes {dark_aqua:Antimatter}^0.5 {L} of fluid per cycle)
+Antimadde üretimini iyileştirmek için stabilizasyon sıvıları ile beslenebilir
+Her stabilizasyon aynı anda sıvılardan yalnızca birini kullanabilir
+{green:{bold:{underline:M}}}{green:anyetik Stabilizasyon} (Döngü başına {dark_aqua:Antimadde}^0.5 {L} sıvı tüketir)
 1. {fluid:molten.tengampurified} = {green:0.1}
 2. {fluid:temporalfluid} = {green:0.2}
 3. {fluid:molten.magmatter} = {green:0.3}
-{dark_purple:{bold:{underline:G}}}{dark_purple:ravity Stabilization} (Consumes {dark_aqua:Antimatter}^0.5 {L} of fluid per cycle)
+{dark_purple:{bold:{underline:G}}}{dark_purple:ravite Stabilizasyonu} (Döngü başına {dark_aqua:Antimadde}^0.5 {L} sıvı tüketir)
 1. {fluid:molten.spacetime} = {dark_purple:0.05}
 2. {fluid:spatialfluid} = {dark_purple:0.10}
 3. {fluid:molten.eternity} = {dark_purple:0.15}
-{gold:{bold:{underline:C}}}{gold:ontainment Stabilization} (Consumes {dark_aqua:Antimatter}^(2/7) {L} of fluid per cycle)
+{gold:{bold:{underline:C}}}{gold:ontainment Stabilizasyonu} (Döngü başına {dark_aqua:Antimadde}^(2/7) {L} sıvı tüketir)
 1. {fluid:molten.shirabon} = {gold:0.05}
 2. {fluid:molten.magnetohydrodynamicallyconstrainedstarmatter} = {gold:0.10}
-{aqua:{bold:{underline:A}}}{aqua:ctivation Stabilization} (Consumes {dark_aqua:Antimatter}^(1/3) {L} of fluid per cycle)
+{aqua:{bold:{underline:A}}}{aqua:ktivasyon Stabilizasyonu} (Döngü başına {dark_aqua:Antimadde}^(1/3) {L} sıvı tüketir)
 1. {fluid:naquadah based liquid fuel mkv (depleted)} = {aqua:0.05}
 2. {fluid:naquadah based liquid fuel mkvi (depleted)} = {aqua:0.10}

@@ -1,10 +1,10 @@
 ---
 navigation:
-  title: Miscellaneous Changes
+  title: Çeşitli Değişiklikler
   parent: /index.md
   icon: gregtech:gt.metaitem.01:32416
 ---
-# Miscellaneous Changes
-As with any update, 2.9 comes with many changes that don't neatly fit into a specific category, but that doesn't make them any less impactful! The following list highlights the main ones, but does ***not*** include the slew of bug fixes, minor tweaks, and general work in the background that you will experience.
+# Çeşitli Değişiklikler
+Her güncellemede olduğu gibi, 2.9 da belirli bir kategoriye tam olarak uymayan, ancak bu onları daha az etkili kılmayan birçok değişiklik getiriyor! Aşağıdaki liste en önemlilerini vurguluyor, ancak karşılaşacağın çok sayıda hata düzeltmesini, küçük ayarlamayı ve arka plandaki genel çalışmayı ***içermiyor***.
 
-<Category name="Miscellaneous Changes" rows="3" />
+<Category name="Çeşitli Değişiklikler" rows="3" />

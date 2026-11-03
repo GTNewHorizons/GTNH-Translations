@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Alchemic Calcinator Improvements
+  title: Simyevi Kireçleyici İyileştirmeleri
   parent: magic.md
   icon: AWWayofTime:blockAlchemicCalcinator
 categories:
-    - Magic Changes
-    - Quality Of Life
+    - Büyü Değişiklikleri
+    - Yaşam Kalitesi
 author: koolkrafter5
 date: 2026-06-11
 ---
 
-The <ItemLink id="AWWayofTime:blockAlchemicCalcinator"/> <ItemImage id="AWWayofTime:blockAlchemicCalcinator"/> has received a few usability improvements:
+<ItemLink id="AWWayofTime:blockAlchemicCalcinator"/> <ItemImage id="AWWayofTime:blockAlchemicCalcinator"/> birkaç kullanım iyileştirmesi aldı:
 
-* Attempting to place an unbound <Color id="RED">Blood Orb</Color> <ItemImage id="AWWayofTime:weakBloodOrb"/> into the calcinator will <Color id="BLUE">automatically bind</Color> it to you.
-* Automation can now only place <Color id="RED">Blood Orbs</Color> <ItemImage id="AWWayofTime:weakBloodOrb"/> in the <Color id="RED">Blood Orb</Color> slot and <Color id="GREEN">reagents</Color> <ItemImage id="AWWayofTime:bloodMagicBaseAlchemyItems:2"/> in the <Color id="GREEN">reagent</Color> slot.
-* Right-clicking with a stack of <Color id="GREEN">reagents</Color> in hand will now add the <Color id="BLUE">whole stack</Color> rather than only adding one.
+* Bağlanmamış bir <Color id="RED">Kırmızı Kan Küresi</Color> <ItemImage id="AWWayofTime:weakBloodOrb"/> kireçleyiciye yerleştirilmeye çalışıldığında <Color id="BLUE">Mavi otomatik bağlama</Color> ile sana bağlanır.
+* Otomasyon artık <Color id="RED">Kırmızı Kan Kürelerini</Color> <ItemImage id="AWWayofTime:weakBloodOrb"/> yalnızca <Color id="RED">Kırmızı Kan Küresi</Color> yuvasına, <Color id="GREEN">Yeşil reaktifleri</Color> <ItemImage id="AWWayofTime:bloodMagicBaseAlchemyItems:2"/> de yalnızca <Color id="GREEN">Yeşil reaktif</Color> yuvasına yerleştirebilir.
+* Elinde bir küme <Color id="GREEN">Yeşil reaktif</Color> varken sağ tıklamak artık tek bir tane eklemek yerine <Color id="BLUE">Mavi kümenin tamamını</Color> ekler.

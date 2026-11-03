@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Resource Pack Update Notifier
+  title: Kaynak Paketi Güncelleme Bildiricisi
   parent: misc.md
   icon: minecraft:painting
 categories:
@@ -9,7 +9,7 @@ author: Skorched
 date: 2026-05-20
 ---
 
-# Resource Pack Update Notifier
-We know you play with resource packs, so now you have a handy in-game notifier for updating! No more broken textures that are fixed somewhere else!
+# Kaynak Paketi Güncelleme Bildiricisi
+Kaynak paketleriyle oynadığını biliyoruz, bu yüzden artık güncelleme için kullanışlı bir oyun içi bildiricin var! Bir yerde düzeltilen bozuk dokulara veda et!
 
-The <Color id="GREEN">Resource Pack Update Checker</Color> looks at your enabled resource packs, and checks GitHub releases for newer compatible versions. This does require the resource pack creator to opt-in, but if an update is found, you will receive an in-game chat message with a clickable link to the newest compatible release!
+<Color id="GREEN">Kaynak Paketi Güncelleme Denetleyicisi</Color>, etkin kaynak paketlerine bakar ve GitHub sürümlerinde daha yeni uyumlu sürümler olup olmadığını kontrol eder. Bunun için kaynak paketi oluşturucusunun onay vermesi gerekir, ancak bir güncelleme bulunursa en yeni uyumlu sürüme tıklanabilir bağlantı içeren bir oyun içi sohbet mesajı alırsın!

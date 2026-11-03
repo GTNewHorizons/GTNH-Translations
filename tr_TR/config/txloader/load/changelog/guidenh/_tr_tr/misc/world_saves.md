@@ -1,13 +1,13 @@
 ---
 navigation:
-  title: World Selection Improvements
+  title: Dünya Seçimi İyileştirmeleri
   parent: misc.md
   icon: gtneioreplugin:blockDimensionDisplay_Ow
 categories:
-    - Miscellaneous Changes
+    - Diğer Değişiklikler
 author: Skorched
 date: 2026-05-30
 ---
 
-# World Selection Improvements
-World saves now capture a screenshot and display it as an icon in the world list! Loading a world shows a progress bar with a chunk colormap grid as spawn chunks generate. The world selection screen also now has a search bar that filters by name, or even folder!
+# Dünya Seçimi İyileştirmeleri
+Dünya kayıtları artık bir ekran görüntüsü alıp dünya listesinde simge olarak gösteriyor! Bir dünya yüklenirken, doğuş yığınları oluşturuldukça yığın renk haritası ızgarası içeren bir ilerleme çubuğu gösteriliyor. Dünya seçim ekranında artık ada, hatta klasöre göre filtreleme yapan bir arama çubuğu da var!

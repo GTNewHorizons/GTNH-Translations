@@ -1,24 +1,24 @@
 ---
 navigation:
-  title: Tool Revamp
+  title: Alet Yenilemesi
   parent: qol.md
   icon: gregtech:gt.metatool.01:120
 categories:
-    - Quality Of Life
+    - Yaşam Kalitesi
 author: Skorched
 date: 2026-05-25
 ---
 
-# Tool Revamp
-Some tools in the pack were given some extra love and functionality expanded where appropriate!
-## Mechanical Changes:
-- <Color id="RED">Electric Wire Cutters </Color> <ItemImage id="gregtech:gt.metatool.01:120"/>are no longer EV restricted, and have new LV-MV variants! 
-- <Color id="GREEN">Electric Files </Color> <ItemImage id="gregtech:gt.metatool.01:204"/>are no longer HV restricted, and have new LV-MV variants! 
-- <Color id="BLUE">Jackhammers</Color> <ItemImage id="gregtech:gt.metatool.01:130"/>are no longer HV restricted, and have new LV-MV variants! 
-- All tools are able to be created with Sodium, Cadmium, or Lithium battery variants. The internal EU storage will reflect the battery size
-- Some tools were given more material options for consistency. See if you can find some new ones!
-- The <Color color="#00ffff">Soft Mallet</Color> was given cyclable (Toggle/On/Off) modes so you have certainty on large groups of machines
+# Alet Yenilemesi
+Paketteki bazı aletlere biraz ekstra özen gösterildi ve işlevleri uygun yerlerde genişletildi!
+## Mekanik Değişiklikler:
+- <Color id="RED">Elektrikli Tel Kesiciler </Color> <ItemImage id="gregtech:gt.metatool.01:120"/>artık EV ile sınırlı değil ve yeni LV-MV varyantları var! 
+- <Color id="GREEN">Elektrikli Eğeler </Color> <ItemImage id="gregtech:gt.metatool.01:204"/>artık HV ile sınırlı değil ve yeni LV-MV varyantları var! 
+- <Color id="BLUE">Kırıcı Matkaplar</Color> <ItemImage id="gregtech:gt.metatool.01:130"/>artık HV ile sınırlı değil ve yeni LV-MV varyantları var! 
+- Tüm aletler Sodyum, Kadmiyum veya Lityum pil varyantlarıyla üretilebilir. Dahili EU depolaması pil boyutunu yansıtır
+- Tutarlılık için bazı aletlere daha fazla malzeme seçeneği eklendi. Bakalım yenilerini bulabilecek misin!
+- <Color color="#00ffff">Yumuşak Tokmak</Color> artık döngüsel (Değiştir/Açık/Kapalı) modlara sahip, böylece büyük makine gruplarında ne yaptığından emin olabilirsin
 
-## Texture Changes:
-- All tools with LV-HV variants (excluding the Soldering Iron) have their base colored to match the material they are made from
-- All tools made with exotic materials now have custom sets, with animations that reflect their materials! <ItemImage id="gregtech:gt.metatool.01:100:{GT.ToolStats:{PrimaryMaterial:Infinity,SpecialData:-1L,MaxDamage:262144000L,Tier:1L,Mode:0b,MaxCharge:100000L,Voltage:32L,Electric:1b,SecondaryMaterial:Steel}}" />
+## Doku Değişiklikleri:
+- LV-HV varyantı olan tüm aletlerin (Lehim Demiri hariç) taban rengi, yapıldıkları malzemeyle uyumlu olacak şekilde renklendirildi
+- Egzotik malzemelerden yapılan tüm aletler artık kendi özel setlerine sahip; malzemelerini yansıtan animasyonlarla birlikte! <ItemImage id="gregtech:gt.metatool.01:100:{GT.ToolStats:{PrimaryMaterial:Infinity,SpecialData:-1L,MaxDamage:262144000L,Tier:1L,Mode:0b,MaxCharge:100000L,Voltage:32L,Electric:1b,SecondaryMaterial:Steel}}" />

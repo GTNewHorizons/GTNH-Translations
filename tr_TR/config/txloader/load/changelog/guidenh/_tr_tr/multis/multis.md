@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: New Multiblocks
+  title: Yeni Multibloklar
   parent: /index.md
   icon: gregtech:gt.blockmachines:9500
 ---
-# New Multiblocks
-There are quite a few new <Color id="GREEN">Multiblocks</Color> added in 2.9, ranging all of the way from Steam Age through to the very late game! This category of pages aims to detail them to a reasonable extent so that you can get stuck in!
-<Category name="New Multiblocks" rows="3"/>
+# Yeni Multibloklar
+2.9'da, Buhar Çağı'ndan oyunun çok geç dönemlerine kadar uzanan epey yeni <Color id="GREEN">Multibloklar</Color> eklendi! Bu sayfa kategorisi, sen de hemen başlayabilesin diye onları makul ölçüde ayrıntılandırmayı amaçlıyor!
+<Category name="Yeni Multibloklar" rows="3"/>

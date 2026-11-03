@@ -1,8 +1,8 @@
 {aqua:{bold:Water Tier: }}{color_tier:{var:tier}}
-Must be linked to a Purification Plant using a {color_name:{item:gregtech:gt.metaitem.01:32708}} to work
+Çalışması için bir {color_name:{item:gregtech:gt.metaitem.01:32708}} kullanılarak bir Arıtma Tesisi'ne bağlanmalı
 {hr}
-{color_danger:Will explode} if the input hatch contains more than {white:{var:max_ozone} {L}} of {white:{var:ozone}}
-Receives a {color_misc:{var:bonus}%} bonus to success chance for every doubling of {color_name:{var:ozone}}
+Girdi kapağı {white:{var:max_ozone} {L}} değerinden fazla {white:{var:ozone}} içeriyorsa {color_danger:Will explode}
+{color_name:{var:ozone}} her iki katına çıktığında başarı şansına {color_misc:{var:bonus}%} bonus alır
 {hr}
 {aqua:{italic:The second step in water purification is ozonation, which involves injecting large quantities of small}}
 {aqua:{italic:bubbles of highly reactive ozone gas into the water. This removes trace element contaminants like}}

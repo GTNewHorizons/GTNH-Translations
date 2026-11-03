@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Memory Card
+  title: Hafıza Kartı
   icon: appliedenergistics2:item.ToolMemoryCard
 categories:
 - tools
@@ -9,16 +9,16 @@ item_ids:
 - appliedenergistics2:item.ToolMemoryCard
 ---
 
-# The Memory Card
+# Hafıza Kartı
 
 <ItemImage id="appliedenergistics2:item.ToolMemoryCard" scale="4" />
 
-The Memory Card copies settings between AE2 [devices](../ae2_mechanics/devices.md), links [P2P tunnels](p2p_tunnels.md), and pastes [upgrade cards](upgrade_cards.md) into devices.
+Hafıza Kartı, AE2 [cihazları](../ae2_mechanics/devices.md) arasında ayarları kopyalar, [P2P tünellerini](p2p_tunnels.md) bağlar ve [yükseltme kartlarını](upgrade_cards.md) cihazlara yapıştırır.
 
-* Shift-right-click to copy settings or generate a new P2P linking frequency.
-* Right-click to paste settings, upgrade cards, or a linking frequency.
+* Ayarları kopyalamak veya yeni bir P2P bağlantı frekansı oluşturmak için Shift + sağ tıkla.
+* Ayarları, yükseltme kartlarını veya bir bağlantı frekansını yapıştırmak için sağ tıkla.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:item.ToolMemoryCard" />
 

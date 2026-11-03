@@ -9,13 +9,13 @@ item_ids:
   - WarpTheory:item.warptheory.paper
   - WarpTheory:item.warptheory.cleanser
 navigation:
-  title: Warp and Eldritch Knowledge
+  title: Delilik ve Eldritch Bilgisi
   parent: ./index.md
   icon: 'Thaumcraft:ItemEldritchObject:0'
   position: 30
 ---
 
-# Warp and Eldritch Knowledge
+# Delilik ve Eldritch Bilgisi
 
 <Column width="600" align="center" gap="8">
 
@@ -23,138 +23,138 @@ navigation:
   <FloatingImage src="/assets/images/thaumcraft_logo.png" x="50" y="132" width="2078" height="445" displayWidth="300" wrap="inline" title="Thaumcraft" />
 </Column>
 
-Eldritch knowledge explores the world's deepest secrets, but often leads its students astray.<br>
-Delving into forbidden research gradually builds up <Color color="#B7A0D6">Warp</Color>.<br>
-The whispers, hallucinations, and physical changes it brings can also lead to discoveries in <Color color="#B7A0D6">Eldritch Studies</Color>.
+Eldritch bilgisi dünyanın en derin sırlarını araştırır, ancak öğrencilerini sık sık yoldan çıkarır.<br>
+Yasak araştırmalara dalmak yavaş yavaş <Color color="#B7A0D6">Delilik</Color> biriktirir.<br>
+Beraberinde getirdiği fısıltılar, halüsinasyonlar ve fiziksel değişimler de <Color color="#B7A0D6">Eldritch Çalışmaları</Color>'nda keşiflere yol açabilir.
 
-Eldritch Studies covers void metal, primal energy, and exploration of the Outer Lands, connecting to the Advanced Alchemical Furnace, the Staff Core of the Primal, and later KAMI research.
-GTNH's **Warp Theory** expands Warp events and provides ways to deal with permanent Warp.
+Eldritch Çalışmaları; Hiçlik Metali, ilksel enerji ve Dış Topraklar'ın keşfini kapsar ve Gelişmiş Simya Fırını, İlksel Asa Çekirdeği ile sonraki KAMI araştırmalarına bağlanır.
+GTNH'nin **Warp Theory** modu Delilik olaylarını genişletir ve kalıcı Delilik ile başa çıkma yolları sunar.
 
-## Sources and Types of Warp
+## Deliliğin Kaynakları ve Türleri
 
-Research marked with purple forbidden knowledge warnings in the Thaumonomicon is a major source of Warp.<br>
-Crafting certain items, eating some foods, and using magical tools can also add Warp; look for the relevant markings in research entries and item tooltips.
+Thaumonomicon'da mor yasak bilgi uyarılarıyla işaretlenmiş araştırmalar başlıca Delilik kaynağıdır.<br>
+Belirli eşyaları üretmek, bazı yiyecekleri yemek ve büyülü araçları kullanmak da Delilik ekleyebilir; araştırma girdilerindeki ve eşya ipuçlarındaki ilgili işaretlere bak.
 
-| Type | Properties | Treatment |
+| Tür | Özellikler | Tedavi |
 | --- | --- | --- |
-| **Temporary Warp** | Gradually fades during Warp checks | Wait, or remove it with items such as Sanitizing Soap |
-| **Sticky Warp** | Does not fade naturally; also called normal Warp | Sanitizing Soap has a chance to reduce it; cleansing items from addons can also remove it |
-| **Permanent Warp** | Ordinary Sanitizing Soap cannot remove it | In NH, items such as Pure Tears and Purification Talismans can remove it |
+| **Geçici Delilik** | Delilik kontrolleri sırasında yavaş yavaş kaybolur | Bekle veya Dezenfektan Sabun gibi eşyalarla kaldır |
+| **Yapışkan Delilik** | Doğal olarak kaybolmaz; normal Deliliğe de denir | Dezenfektan Sabun'ın azaltma şansı vardır; eklentilerdeki temizleyici eşyalar da kaldırabilir |
+| **Kalıcı Delilik** | Sıradan Dezenfektan Sabun kaldıramaz | NH'de Saf Gözyaşı ve Arındırma Tılsımı gibi eşyalar kaldırabilir |
 
-Equipment with the **Warping** property also adds Warp to event calculations.<br>
-This contribution comes from items currently worn or held and disappears when they are unequipped; cleansing items do not remove the property from the equipment itself.
+**Warping** özelliğine sahip ekipmanlar da olay hesaplamalarına Delilik ekler.<br>
+Bu katkı hâlihazırda takılı veya elde tutulan eşyalardan gelir ve eşyalar çıkarıldığında kaybolur; temizleyici eşyalar özelliği ekipmanın kendisinden kaldırmaz.
 
-**Checking your Warp**
+**Deliliğini Kontrol Etmek**
 
-GTNH's IGI overlay can display Warp directly. You can also check it with the following items:
+GTNH'nin IGI katmanı Deliliği doğrudan gösterebilir. Ayrıca şu eşyalarla da kontrol edebilirsin:
 
-- <ItemLink id="WarpTheory:item.warptheory.paper" showIcon="left" />: Shows the exact amounts of permanent, sticky, and temporary Warp in chat when used. Color changes, burning, and other reactions also indicate the danger level.
-- <ItemLink id="Thaumcraft:ItemSanityChecker" showIcon="left" />: Displays a Warp bar while held. Dark purple represents permanent Warp, light purple represents sticky Warp, and pink represents temporary Warp. The bar is full at a combined total of 100; use litmus paper to check higher values.
+- <ItemLink id="WarpTheory:item.warptheory.paper" showIcon="left" />: Kullanıldığında sohbette kalıcı, yapışkan ve geçici Delilik miktarlarını tam olarak gösterir. Renk değişimleri, yanma ve diğer tepkiler de tehlike seviyesini belirtir.
+- <ItemLink id="Thaumcraft:ItemSanityChecker" showIcon="left" />: Elde tutulduğunda bir Delilik çubuğu gösterir. Koyu mor kalıcı Deliliği, açık mor yapışkan Deliliği, pembe ise geçici Deliliği temsil eder. Çubuk toplam 100'de doludur; daha yüksek değerleri kontrol etmek için turnusol kağıdı kullan.
 
-## Warp Events and the Timer
+## Delilik Olayları ve Zamanlayıcı
 
-Thaumcraft's own Warp events include Unnatural Hunger, Sun Scorned, blurred vision, increased Vis costs, and Eldritch Guardians appearing in dense fog. Some whispers also grant research points or new discoveries.
+Thaumcraft'ın kendi Delilik olayları arasında Doğal Olmayan Açlık, Güneşin Gazabı, bulanık görüş, artan Vis maliyetleri ve yoğun siste beliren Eldritch Muhafızları bulunur. Bazı fısıltılar araştırma puanı veya yeni keşifler de verir.
 
-- **Vis drained from your wand**, affecting subsequent crafting and combat.
-- **Inventory items swapped or shuffled**, along with random teleportation and unusual movement.
-- **Poison, Wither, Blindness**, and other effects, or the appearance of Firebats and hostile creatures.
-- Events that cause lasting damage, such as **countdown explosions, nearby block decay, and spawning a Wither**.
+- **Asandan Vis çekilmesi**, sonraki üretimi ve savaşı etkiler.
+- **Envanter eşyalarının yer değiştirmesi veya karışması**, beraberinde rastgele ışınlanma ve olağandışı hareket.
+- **Zehir, Wither, Körlük** ve diğer etkiler ya da Ateş Yarasalarının ve düşman yaratıkların ortaya çıkması.
+- Kalıcı hasara yol açan olaylar, örneğin **geri sayımlı patlamalar, yakındaki blokların bozulması ve bir Wither çağırma**.
 
-Events are triggered by random checks. The available events also depend on Warp strength, the timer, and configuration.<br>
-The table below lists some event thresholds in NH's default configuration. The **effective strength** used to select an event depends on current Warp and the timer, and equipment such as faceplates can reduce it.
+Olaylar rastgele kontrollerle tetiklenir. Mevcut olaylar ayrıca Delilik gücüne, zamanlayıcıya ve ayarlara bağlıdır.<br>
+Aşağıdaki tablo, NH'nin varsayılan ayarlarındaki bazı olay eşiklerini listeler. Bir olayı seçmek için kullanılan **etkin güç**, mevcut Deliliğe ve zamanlayıcıya bağlıdır; yüz plakası gibi ekipmanlar bunu azaltabilir.
 
-| Effective Strength Threshold | Additional Risk |
+| Etkin Güç Eşiği | Ek Risk |
 | --- | --- |
-| 50 | Draining Vis from your wand |
-| 125 | Swapping inventory items |
-| 130 | Random teleportation |
-| 150 | Shuffling inventory items |
-| 160 | Countdown explosion |
-| 180 | Nearby block decay |
-| 200 | Spawning a Wither |
+| 50 | Asandan Vis çekilmesi |
+| 125 | Envanter eşyalarının yer değiştirmesi |
+| 130 | Rastgele ışınlanma |
+| 150 | Envanter eşyalarının karışması |
+| 160 | Geri sayımlı patlama |
+| 180 | Yakındaki blokların bozulması |
+| 200 | Bir Wither çağırma |
 
-Block decay affects blocks, plants, and leaves that the event can transform; countdown explosions and Withers can cause further damage to nearby facilities.<br>
-Where you stay while accumulating Warp also determines how much these events can damage.
+Blok bozulması, olayın dönüştürebileceği blokları, bitkileri ve yaprakları etkiler; geri sayımlı patlamalar ve Wither'lar yakındaki yapılara daha fazla hasar verebilir.<br>
+Delilik biriktirirken nerede durduğun da bu olayların ne kadar hasar verebileceğini belirler.
 
-**Event decay in 2.9**
+**2.9'da olay sönümü**
 
-After you stop gaining new Warp, events gradually weaken; ordinary random events stop once the timer runs out.<br>
-**Gaining Warp again reactivates the timer.** Forbidden research, related crafting, and other sources can all end this quiet period.<br>
-Equipment with the Warping property affects event strength but **does not reset the timer**. Existing sticky and permanent Warp remains after events stop.
-
-> [!WARNING]
-> High Warp events can cause explosions, damage terrain, or spawn a Wither near the player. Stay away from important machines, storage, and other players' facilities when gaining large amounts of Warp, waiting for Eldritch discoveries, or using cleansing items with backlash.
-
-## Warp Ward and Symptom Relief
-
-<Color color="#B7A0D6">Warp Ward</Color> prevents ordinary Warp events for its duration. Your existing Warp remains, making it useful for suppressing events while crafting, exploring, or going about daily activities.
-
-**Purifying Bath Salts and the Arcane Spa**
-
-Throwing <ItemLink id="Thaumcraft:ItemBathSalts" showIcon="left" /> into water creates Purifying Fluid. Bathing in it grants Warp Ward; higher permanent Warp shortens the protection.
-
-An <ItemLink id="Thaumcraft:blockStoneDevice:12" showIcon="left" /> uses water and Purifying Bath Salts to replenish Purifying Fluid in the area above it, providing a convenient way to renew protection at your base.
-
-Botania's <ItemLink id='Botania:brewFlask:0:{brewKey:"warpWard"}' showIcon="left" /> also provides Warp Ward. Each dose from a regular flask grants 10 minutes of protection.
-
-An equipped <ItemLink id="WarpTheory:item.warptheory.portableshower" showIcon="left" /> reapplies Warp Ward when it expires, making it useful when regularly wearing equipment with the Warping property.
-
-<ItemLink id="thaumicbases:rosehipSyrup" showIcon="left" /> reduces the level of effects such as blurred vision, Unnatural Hunger, and Vis Exhaustion, removing them when they are already at the lowest level. It also treats some ordinary negative potion effects.
-
-## Reducing and Removing Warp
-
-**Sanitizing Soap**
-
-Finishing the use animation of <ItemLink id="Thaumcraft:ItemSanitySoap" showIcon="left" /> removes all temporary Warp and has a chance to reduce sticky Warp by 1.
-
-- The base chance is **33%**.
-- Warp Ward adds **25 percentage points**.
-- Standing in Purifying Fluid adds another **25 percentage points**, for **83%** when both conditions are met.
-
-Keep using the soap until the animation finishes. Using it in Purifying Fluid saves materials when removing large amounts of sticky Warp.
-
-**Thaumic Insurgence soaps**
-
-Thaumic Insurgence provides additional cleansing options:
-
-- <ItemLink id="thaumicinsurgence:item.ItemSanitySoapAlpha" showIcon="left" /> (α soap): Also removes temporary Warp and has a chance to reduce sticky Warp by 1, with a higher base chance of 50%. Warp Ward and Purifying Fluid raise this to 100%.
-
-- <ItemLink id="thaumicinsurgence:item.ItemSanitySoapBeta" showIcon="left" />: On success, converts **1 permanent Warp into 2 sticky Warp**, which can then be removed with ordinary or α soap. The base chance is 10%, with Warp Ward and Purifying Fluid each adding 15 percentage points. Failure adds 2 temporary Warp.
-
-**Impure Tear**
-
-<ItemLink id="WarpTheory:item.warptheory.cleanserminor" showIcon="left" /> removes 5 Warp when your combined permanent, sticky, and temporary Warp is **at least 50**.<br>
-It removes temporary Warp first, then sticky Warp, then permanent Warp. It can lower high Warp, but cannot continue cleansing once the total falls below the threshold. Its research requires Eldritch Epiphany, Arcane Litmus Paper, and other prerequisites.
-
-**Pure Tear**
-
-<ItemLink id="WarpTheory:item.warptheory.cleanser" showIcon="left" /> removes all accumulated temporary, sticky, and permanent Warp at once.<br>
-Its powerful effect places its research behind Eldritch Revelation, Ichor, and other prerequisites, with demanding material requirements.
-
-The **Purge Your Warp** quest offers another way to obtain a Pure Tear. Check its required submissions and rewards even if you have not completed the corresponding research.
+Yeni Delilik kazanmayı bıraktıktan sonra olaylar yavaş yavaş zayıflar; sıradan rastgele olaylar zamanlayıcı bitince durur.<br>
+**Tekrar Delilik kazanmak zamanlayıcıyı yeniden etkinleştirir.** Yasak araştırmalar, ilgili üretimler ve diğer kaynaklar bu sessiz dönemi sona erdirebilir.<br>
+Warping özelliğine sahip ekipmanlar olay gücünü etkiler ancak **zamanlayıcıyı sıfırlamaz**. Olaylar durduktan sonra mevcut yapışkan ve kalıcı Delilik kalır.
 
 > [!WARNING]
-> A Pure Tear queues a series of backlash events based on your Warp before cleansing. **Warp Ward cannot prevent this backlash.** After using it, stay away from your base until the concentrated events have finished.
+> Yüksek Delilik olayları patlamalara, arazi hasarına veya oyuncunun yakınında bir Wither çağrılmasına neden olabilir. Büyük miktarda Delilik kazanırken, Eldritch keşiflerini beklerken veya geri tepmeli temizleyici eşyalar kullanırken önemli makinelerden, depolardan ve diğer oyuncuların yapılarından uzak dur.
 
-**Purification Talisman**
+## Delilik Kalkanı ve Belirti Giderme
 
-An equipped <ItemLink id="WarpTheory:item.warptheory.amulet" showIcon="left" /> periodically attempts to reduce Warp, gradually removing permanent Warp as well. It is suitable for ongoing cleansing.
+<Color color="#B7A0D6">Delilik Kalkanı</Color>, süresi boyunca sıradan Delilik olaylarını engeller. Mevcut Deliliğin kalır; bu da onu üretim yaparken, keşfe çıkarken veya günlük işlerle uğraşırken olayları bastırmak için kullanışlı kılar.
 
-The cleansing process still queues ordinary Warp events. Warp Ward delays these events, which may resume after the protection ends; choose a suitable place to stay while cleansing.
+**Arındırıcı Banyo Tuzları ve Gizemli Spa**
 
-## Discovering Eldritch Research
+<ItemLink id="Thaumcraft:ItemBathSalts" showIcon="left" /> eşyasını suya atmak Arındırıcı Sıvı oluşturur. İçinde banyo yapmak Delilik Kalkanı verir; daha yüksek kalıcı Delilik koruma süresini kısaltır.
 
-The two Eldritch discoveries come from random checks during Thaumcraft Warp events. They use the **sum of the player's permanent and sticky Warp**:
+Bir <ItemLink id="Thaumcraft:blockStoneDevice:12" showIcon="left" />, su ve Arındırıcı Banyo Tuzları kullanarak üstündeki alandaki Arındırıcı Sıvıyı yeniler; üssünde korumayı yenilemenin pratik bir yolunu sunar.
 
-- **Eldritch Epiphany**: Can unlock when the total is **greater than 25**, revealing the Eldritch tab in the Thaumonomicon and opening research paths such as void metal and the Sanity Checker.
-- **Eldritch Revelation**: Can unlock when the total is **greater than 50**. It is a prerequisite for Opening the Eye and some advanced Eldritch research.
+Botania'nın <ItemLink id='Botania:brewFlask:0:{brewKey:"warpWard"}' showIcon="left" /> eşyası da Delilik Kalkanı sağlar. Normal bir şişeden alınan her doz 10 dakika koruma verir.
 
-Temporary Warp and equipment Warp do not count toward these thresholds. Reaching the required amount still leaves you waiting for a random check, so the time required varies.
+Takılı bir <ItemLink id="WarpTheory:item.warptheory.portableshower" showIcon="left" /> süresi dolduğunda Delilik Kalkanını yeniden uygular; Warping özellikli ekipmanı düzenli olarak giydiğinde kullanışlıdır.
 
-**Warp Ward prevents this check.** If you regularly wear a Portable Shower or maintain another source of protection, remove it and wait in an area prepared for Warp events.<br>
-You can reduce your Warp after receiving the discoveries; unlocked research remains available.
+<ItemLink id="thaumicbases:rosehipSyrup" showIcon="left" /> bulanık görüş, Doğal Olmayan Açlık ve Vis Tükenmesi gibi etkilerin seviyesini düşürür ve zaten en düşük seviyedeyse onları kaldırır. Bazı sıradan olumsuz iksir etkilerini de tedavi eder.
 
-## Crimson Cult and Opening the Eye
+## Deliliği Azaltma ve Kaldırma
+
+**Dezenfektan Sabun**
+
+<ItemLink id="Thaumcraft:ItemSanitySoap" showIcon="left" /> kullanım animasyonunu tamamlamak tüm geçici Deliliği kaldırır ve yapışkan Deliliği 1 azaltma şansı vardır.
+
+- Temel şans **%33**'tür.
+- Delilik Kalkanı **25 puan** ekler.
+- Arındırıcı Sıvı içinde durmak bir **25 puan** daha ekler; her iki koşul da sağlanırsa bu **%83** olur.
+
+Animasyon bitene kadar sabunu kullanmaya devam et. Büyük miktarda yapışkan Deliliği kaldırırken Arındırıcı Sıvı içinde kullanmak malzeme tasarrufu sağlar.
+
+**Thaumic Insurgence sabunları**
+
+Thaumic Insurgence ek temizleme seçenekleri sunar:
+
+- <ItemLink id="thaumicinsurgence:item.ItemSanitySoapAlpha" showIcon="left" /> (α sabunu): Ayrıca geçici Deliliği kaldırır ve yapışkan Deliliği 1 azaltma şansı vardır; temel şansı %50 ile daha yüksektir. Delilik Kalkanı ve Arındırıcı Sıvı bunu %100'e çıkarır.
+
+- <ItemLink id="thaumicinsurgence:item.ItemSanitySoapBeta" showIcon="left" />: Başarılı olduğunda **1 kalıcı Deliliği 2 yapışkan Deliliğe** dönüştürür; bunlar daha sonra normal veya α sabunu ile kaldırılabilir. Temel şans %10'dur; Delilik Kalkanı ve Arındırıcı Sıvı her biri 15 puan ekler. Başarısızlık 2 geçici Delilik ekler.
+
+**Saf Olmayan Gözyaşı**
+
+<ItemLink id="WarpTheory:item.warptheory.cleanserminor" showIcon="left" />, kalıcı, yapışkan ve geçici Deliliğinin toplamı **en az 50** olduğunda 5 Delilik kaldırır.<br>
+Önce geçici Deliliği, sonra yapışkan Deliliği, en son kalıcı Deliliği kaldırır. Yüksek Deliliği düşürebilir, ancak toplam eşiğin altına düştüğünde temizlemeye devam edemez. Araştırması Eldritch İdrakı, Gizemli Turnusol Kağıdı ve diğer önkoşulları gerektirir.
+
+**Saf Gözyaşı**
+
+<ItemLink id="WarpTheory:item.warptheory.cleanser" showIcon="left" /> biriktirilmiş tüm geçici, yapışkan ve kalıcı Deliliği tek seferde kaldırır.<br>
+Güçlü etkisi nedeniyle araştırması Eldritch Vahyi, Ichor ve diğer önkoşulların arkasındadır ve zorlu malzeme gereksinimleri vardır.
+
+**Deliliğini Temizle** görevi Saf Gözyaşı elde etmenin başka bir yolunu sunar. İlgili araştırmayı tamamlamamış olsan bile gerekli teslimleri ve ödülleri kontrol et.
+
+> [!WARNING]
+> Saf Gözyaşı, temizlemeden önceki Deliliğine bağlı olarak bir dizi geri tepme olayı sıraya koyar. **Delilik Kalkanı bu geri tepmeyi engelleyemez.** Kullandıktan sonra, yoğunlaşmış olaylar bitene kadar üssünden uzak dur.
+
+**Arındırma Tılsımı**
+
+Takılı bir <ItemLink id="WarpTheory:item.warptheory.amulet" showIcon="left" /> düzenli olarak Deliliği azaltmayı dener ve kalıcı Deliliği de yavaş yavaş kaldırır. Sürekli temizlik için uygundur.
+
+Temizleme süreci yine de sıradan Delilik olaylarını sıraya koyar. Delilik Kalkanı bu olayları geciktirir; koruma bittikten sonra devam edebilirler; temizlik yaparken uygun bir yer seç.
+
+## Eldritch Araştırmalarını Keşfetmek
+
+İki Eldritch keşfi, Thaumcraft Delilik olayları sırasındaki rastgele kontrollerden gelir. **Oyuncunun kalıcı ve yapışkan Deliliğinin toplamını** kullanırlar:
+
+- **Eldritch İdrakı**: Toplam **25'ten büyük** olduğunda açılabilir; Thaumonomicon'daki Eldritch sekmesini ortaya çıkarır ve Hiçlik Metali ile Akıl Sağlığı Ölçer gibi araştırma yollarını açar.
+- **Eldritch Vahyi**: Toplam **50'den büyük** olduğunda açılabilir. Gözü Açmak ve bazı gelişmiş Eldritch araştırmaları için önkoşuldur.
+
+Geçici Delilik ve ekipman Deliliği bu eşiklere sayılmaz. Gerekli miktara ulaşmak yine de rastgele bir kontrolü beklemen anlamına gelir, bu yüzden gereken süre değişir.
+
+**Delilik Kalkanı bu kontrolü engeller.** Düzenli olarak Taşınabilir Duş takıyorsan veya başka bir koruma kaynağı sürdürüyorsan, onu çıkar ve Delilik olaylarına hazırlanmış bir alanda bekle.<br>
+Keşifleri aldıktan sonra Deliliğini azaltabilirsin; açılan araştırmalar kullanılabilir kalır.
+
+## Kızıl Tarikat ve Gözü Açmak
 
 <Column width="240" align="right" wrap="square" alignItems="center" gap="4">
 
@@ -165,7 +165,7 @@ You can reduce your Warp after receiving the discoveries; unlocked research rema
 
 <Column width="120" align="center" gap="0">
 
-Ordinary Eldritch Obelisk
+Sıradan Eldritch Dikilitaşı
 
 </Column>
 
@@ -176,43 +176,43 @@ Ordinary Eldritch Obelisk
 
 <Column width="120" align="center" gap="0">
 
-Crimson Cult Obelisk
+Kızıl Tarikat Dikilitaşı
 
 </Column>
 
 </Column>
 
-While exploring, you may discover two kinds of Eldritch Obelisks. Crimson Clerics and Crimson Knights can be found near Crimson Cult obelisks, and defeating them can yield <ItemLink id="Thaumcraft:ItemEldritchObject:1" showIcon="left" />.<br>
+Keşfe çıkarken iki tür Eldritch Dikilitaşı bulabilirsin. Kızıl Tarikat dikilitaşlarının yakınında Kızıl Rahipler ve Kızıl Şövalyeler bulunabilir ve onları yenmek <ItemLink id="Thaumcraft:ItemEldritchObject:1" showIcon="left" /> kazanmanı sağlayabilir.<br>
 
-Scanning the relevant enemies helps reveal research clues. Hold the book and right-click to read it, unlocking **Crimson Cult**.<br>
-Crimson Knights fight in melee, while Crimson Clerics use ranged magic.
+İlgili düşmanları taramak araştırma ipuçlarının ortaya çıkmasına yardımcı olur. Kitabı elinde tut ve okumak için sağ tıkla; **Kızıl Tarikat** açılır.<br>
+Kızıl Şövalyeler yakın dövüşte savaşır, Kızıl Rahipler ise menzilli büyü kullanır.
 
-(Crimson Clerics do not attack unprovoked. Leaving some clerics alive allows Crimson Knights to keep spawning, greatly increasing your opportunities to obtain <ItemLink id="Thaumcraft:ItemEldritchObject:1" showIcon="left" />.)
+(Kızıl Rahipler kışkırtılmadan saldırmaz. Bazı rahipleri sağ bırakmak Kızıl Şövalyelerin sürekli doğmasını sağlar ve <ItemLink id="Thaumcraft:ItemEldritchObject:1" showIcon="left" /> elde etme fırsatlarını büyük ölçüde artırır.)
 
-Eldritch Guardians may also appear around the ritual area. These sites are useful sources of Crimson Rites, Eldritch Eyes, and related scans.
+Ayin alanının çevresinde Eldritch Muhafızları da belirebilir. Bu bölgeler Kızıl Ayinler, Eldritch Gözleri ve ilgili taramalar için faydalı kaynaklardır.
 
-After completing **Crimson Cult** and **Eldritch Revelation**, you can research **Opening the Eye** to gain access to the Outer Lands.
+**Kızıl Tarikat** ve **Eldritch Vahyi**ni tamamladıktan sonra Dış Topraklar'a erişim kazanmak için **Gözü Açmak** araştırmasını yapabilirsin.
 
-The ritual requires an intact naturally generated Eldritch Obelisk of either kind, with its Eldritch Altar at the base and Sinister Node above preserved.<br>
-Insert **4 <ItemLink id="Thaumcraft:ItemEldritchObject:0" showIcon="left" />** into the altar, then right-click it with a wand to open an Eldritch Portal.<br>
-The ritual has a base requirement of **100 Vis of each of the six primal aspects**. **Arcane crafting Vis discounts apply.**
+Ayin, her iki türden de olsa doğal olarak oluşmuş sağlam bir Eldritch Dikilitaşı, tabanında Eldritch Sunağı ve üstünde Uğursuz Düğüm korunmuş olmasını gerektirir.<br>
+Sunakta **4 <ItemLink id="Thaumcraft:ItemEldritchObject:0" showIcon="left" />** yerleştir, ardından bir asa ile sağ tıklayarak bir Eldritch Portalı aç.<br>
+Ayinin temel gereksinimi, altı ilksel aspektin her birinden **100 Vis**'tir. **Gizemli üretim Vis indirimleri geçerlidir.**
 
-Eldritch Eyes can drop from Eldritch Guardians or be made through infusion after completing Opening the Eye research.<br>
-The node above the altar participates in opening the portal; bottling or converting it affects the ritual.
+Eldritch Gözleri, Eldritch Muhafızlarından düşebilir veya Gözü Açmak araştırmasını bitirdikten sonra İnfüzyon ile yapılabilir.<br>
+Sunağın üstündeki düğüm portalın açılmasına katılır; onu şişelemek veya dönüştürmek ayini etkiler.
 
-Gadomancy provides the **Gate of the Voidwalkers**, an artificial entrance built using a Node Manipulator and a Redirection Focus.<br>
-It also requires Eldritch Eyes and wand Vis. The corresponding research shows its structure.
+Gadomancy, bir Düğüm Manipülatörü ve bir Yönlendirme Odağı kullanılarak inşa edilen yapay bir giriş olan **Hiçlik Yürüyücülerinin Kapısı**nı sunar.<br>
+Ayrıca Eldritch Gözleri ve asa Vis'i gerektirir. İlgili araştırma yapısını gösterir.
 
 > [!WARNING]
-> The Gate of the Voidwalkers allows only one entity to pass through, after which the entrance disappears. Prepare another means of returning, or be ready to complete the Outer Lands challenge before leaving.
+> Hiçlik Yürüyücülerinin Kapısı yalnızca tek bir varlığın geçmesine izin verir, ardından giriş kaybolur. Başka bir dönüş yolu hazırla ya da ayrılmadan önce Dış Topraklar mücadelesini tamamlamaya hazır ol.
 
-## Exploring the Outer Lands
+## Dış Topraklar'ı Keşfetmek
 
-<Color color="#B7A0D6">The Outer Lands</Color> is a separate maze built from Ancient Stone. Corridors connect rooms containing enemies, Ancient Urns, research clues, and boss areas. An expedition usually involves finding a key room, obtaining a Runed Tablet, opening a boss room, and returning with a Primordial Pearl.
+<Color color="#B7A0D6">Dış Topraklar</Color>, Antik Taş'tan inşa edilmiş ayrı bir labirenttir. Koridorlar; düşmanlar, Antik Küpler, araştırma ipuçları ve boss alanları içeren odaları birbirine bağlar. Bir sefer genellikle anahtar odasını bulmayı, bir Rünlü Tablet elde etmeyi, bir boss odasını açmayı ve bir İlksel İnci ile geri dönmeyi içerir.
 
-Entering through an Eldritch Portal grants **The Outer Lands** research. Special blocks and glyphs reveal further research clues; obtaining a pearl opens additional Eldritch and addon research paths in the Thaumonomicon.
+Bir Eldritch Portalı'ndan girmek **Dış Topraklar** araştırmasını verir. Özel bloklar ve glifler daha fazla araştırma ipucu ortaya çıkarır; bir inci elde etmek Thaumonomicon'da ek Eldritch ve eklenti araştırma yolları açar.
 
-**The maze and research clues**
+**Labirent ve araştırma ipuçları**
 
 <Column width="240" align="right" wrap="square" alignItems="center" gap="4">
 
@@ -223,34 +223,34 @@ Entering through an Eldritch Portal grants **The Outer Lands** research. Special
 
 <Column width="120" align="center" gap="0">
 
-Key Room
+Anahtar Odası
 
 </Column>
 
 </Column>
 
-- <ItemLink id="Thaumcraft:blockEldritch:5" showIcon="left" /> and <ItemLink id="Thaumcraft:blockCosmeticSolid:11" showIcon="left" />: Scan these after entering the Outer Lands to discover **Revelations in the Outer Lands** and learn more about the maze.
-- **Libraries and other special rooms**: Their layouts differ from ordinary corridors and contain special blocks and loot related to research.
-- **Ancient Urns**: Found in corridors and rooms, they release loot when broken. Higher-quality urns may also appear around boss rooms.
-- **Key rooms**: A Runed Tablet floats above the central stone pedestal, guarded by Eldritch Guardians. These rooms are the source of naturally generated tablets.
-- **Boss room entrances**: An Ancient Locking Mechanism requires a Runed Tablet to activate.
+- <ItemLink id="Thaumcraft:blockEldritch:5" showIcon="left" /> ve <ItemLink id="Thaumcraft:blockCosmeticSolid:11" showIcon="left" />: Dış Topraklar'a girdikten sonra **Dış Topraklar'daki Vahiyler**i keşfetmek ve labirent hakkında daha fazla bilgi edinmek için bunları tara.
+- **Kütüphaneler ve diğer özel odalar**: Düzenleri sıradan koridorlardan farklıdır ve araştırmayla ilgili özel bloklar ve ganimet içerir.
+- **Antik Küpler**: Koridorlarda ve odalarda bulunur, kırıldığında ganimet bırakır. Boss odalarının çevresinde daha kaliteli küpler de görünebilir.
+- **Anahtar odaları**: Merkezi taş kaidenin üzerinde, Eldritch Muhafızları tarafından korunan bir Rünlü Tablet süzülür. Bu odalar doğal olarak oluşan tabletlerin kaynağıdır.
+- **Boss odası girişleri**: Bir Antik Kilitleme Mekanizması etkinleşmek için Rünlü Tablet gerektirir.
 
-Enemies in the maze include Eldritch Guardians, Shambling Husks, and Eldritch Crabs. Narrow corridors affect ranged attacks and movement; dense fog, negative effects, and branching paths can also slow exploration.
+Labirentteki düşmanlar arasında Eldritch Muhafızları, Sürünen Kabuklar ve Eldritch Yengeçleri bulunur. Dar koridorlar menzilli saldırıları ve hareketi etkiler; yoğun sis, olumsuz etkiler ve dallanan yollar da keşfi yavaşlatabilir.
 
-The Outer Lands restricts common forms of creative flight and Thaumcraft levitation, so changes in elevation along the corridors matter.<br>
-Marking the entrance, explored branches, and boss rooms helps you find your way back.
+Dış Topraklar, yaygın yaratıcı uçuş biçimlerini ve Thaumcraft havada süzülmesini kısıtlar; bu yüzden koridorlar boyunca yükseklik değişimleri önemlidir.<br>
+Girişi, keşfedilen dalları ve boss odalarını işaretlemek geri dönüş yolunu bulmana yardımcı olur.
 
-## Runed Tablets and Ancient Locking Mechanisms
+## Rünlü Tabletler ve Antik Kilitleme Mekanizmaları
 
-A <ItemLink id="Thaumcraft:ItemEldritchObject:2" showIcon="left" /> is the key to opening an Outer Lands boss room.<br>
-Naturally generated tablets appear at the center of dedicated key rooms. Search the maze to find one, then bring it to a boss room entrance.
+Bir <ItemLink id="Thaumcraft:ItemEldritchObject:2" showIcon="left" />, bir Dış Topraklar boss odasını açmanın anahtarıdır.<br>
+Doğal olarak oluşan tabletler, bu iş için ayrılmış anahtar odalarının merkezinde görünür. Bulmak için labirenti ara, sonra onu bir boss odası girişine götür.
 
-After completing Opening the Eye, you can research **Runed Tablet** and craft tablets through infusion. The research itself adds 5 Warp, and the recipe has an instability of **10**.
+Gözü Açmak'ı tamamladıktan sonra **Rünlü Tablet** araştırmasını yapabilir ve İnfüzyon ile tablet üretebilirsin. Araştırmanın kendisi 5 Delilik ekler ve tarifin kararsızlığı **10**'dur.
 
-The main ingredients include:
+Ana bileşenler şunlardır:
 
-- <ItemLink id="DraconicEvolution:infoTablet" showIcon="left" /> as the central ingredient.
-- **2 Eldritch Eyes** and **4 Void Seeds**.
+- <ItemLink id="DraconicEvolution:infoTablet" showIcon="left" /> merkezi bileşen olarak.
+- **2 Eldritch Gözü** ve **4 Hiçlik Tohumu**.
 - <ItemLink id="ThaumicExploration:pureZombieBrain" showIcon="left" />.
 - <ItemLink id="Automagy:crystalBrain:3" showIcon="left" />.
 
@@ -263,161 +263,161 @@ The main ingredients include:
 
 <Column width="120" align="center" gap="0">
 
-Boss Room Door
+Boss Odası Kapısı
 
 </Column>
 
 </Column>
 
-The essentia requirements are **128 Praecantatio, 64 Alienis, 64 Cognitio, 32 Iter, 32 Tenebrae, and 32 Vacuos**.<br>
-Crafted tablets are useful once you have the materials and essentia supply, reducing the time spent searching for a key room on each expedition.
+Esans gereksinimleri **128 Praecantatio, 64 Alienis, 64 Cognitio, 32 Iter, 32 Tenebrae ve 32 Vacuos**'tur.<br>
+Üretilmiş tabletler, malzemelere ve Esans tedarikine sahip olduğunda kullanışlıdır; her seferde anahtar odası aramak için harcanan süreyi azaltır.
 
-**Use and consumption**
+**Kullanım ve tüketim**
 
-Right-clicking the locking mechanism with a tablet consumes **1 tablet**. After a brief charging period, the mechanism transforms the room and creates its challenge.
+Kilitleme mekanizmasına bir tabletle sağ tıklamak **1 tablet** tüketir. Kısa bir şarj süresinden sonra mekanizma odayı dönüştürür ve mücadelesini oluşturur.
 
-Each mechanism can only be activated once. After obtaining more tablets, look for unopened boss rooms in new mazes.<br>
-Outer Lands challenges include an Eldritch Construct, an Eldritch Warden, the Crimson Cult, and Taint. The room type is determined by world generation.
+Her mekanizma yalnızca bir kez etkinleştirilebilir. Daha fazla tablet elde ettikten sonra yeni labirentlerde açılmamış boss odaları ara.<br>
+Dış Topraklar mücadeleleri arasında bir Eldritch Yapıtı, bir Eldritch Bekçisi, Kızıl Tarikat ve Lekelenme bulunur. Oda türü dünya oluşumu tarafından belirlenir.
 
-## Boss Challenges in the Outer Lands
+## Dış Topraklar'daki Boss Mücadeleleri
 
-**Eldritch Construct**
+**Eldritch Yapıtı**
 
-The construct has two combat forms. An attack that would defeat its initial body causes it to shed its head and enter a headless form, continuing the fight.<br>
-Losing its head also causes an explosion. Defeat the transformed body to obtain a Primordial Pearl.
+Yapıtın iki savaş formu vardır. Başlangıçtaki bedenini yenilgiye uğratacak bir saldırı, onun kafasını dökmesine ve kafasız bir forma geçerek savaşa devam etmesine neden olur.<br>
+Kafasını kaybetmesi ayrıca bir patlamaya neden olur. İlksel İnci elde etmek için dönüşmüş bedeni yenilgiye uğrat.
 
-This transformation interrupts the pace of combat; watch for the explosion and subsequent attacks when fighting at close range.
+Bu dönüşüm savaşın ritmini böler; yakın mesafede savaşırken patlamaya ve sonraki saldırılara dikkat et.
 
-**Eldritch Warden**
+**Eldritch Bekçisi**
 
-The warden primarily attacks with ranged Eldritch projectiles and can apply Wither, Weakness, and other effects.<br>
-It appears with additional absorption health. Depleting this shield triggers a frenzy, briefly making it invulnerable and creating a force field.
+Bekçi ağırlıklı olarak menzilli Eldritch mermileriyle saldırır ve Wither, Zayıflık ve diğer etkileri uygulayabilir.<br>
+Ek soğurma canıyla ortaya çıkar. Bu kalkanı tüketmek bir çılgınlığı tetikler; onu kısa süreliğine dokunulmaz yapar ve bir kuvvet alanı oluşturur.
 
-Leave enough room to dodge its projectiles and force field. Defeating the warden yields a Primordial Pearl and a Rare Treasure Bag.
+Mermilerinden ve kuvvet alanından kaçmak için yeterli alan bırak. Bekçiyi yenmek bir İlksel İnci ve bir Nadir Hazine Çuvalı verir.
 
-**Crimson Cult**
+**Kızıl Tarikat**
 
-The Crimson Portal at the center of the room continually spawns Crimson Knights and Clerics, followed by a Crimson Praetor. The praetor restores the health of nearby cultists; dealing with it first makes the remaining enemies easier to clear.
+Odanın merkezindeki Kızıl Portalı sürekli Kızıl Şövalyeler ve Rahipler, ardından bir Kızıl Praetor çağırır. Praetor yakındaki tarikat üyelerinin sağlığını yeniler; önce onunla ilgilenmek kalan düşmanları temizlemeyi kolaylaştırır.
 
-The portal has strong health regeneration before the praetor appears. **The Primordial Pearl in this room drops from the Crimson Portal**, which must be defeated. The praetor also drops a Rare Treasure Bag.
+Portalın, praetor ortaya çıkmadan önce güçlü bir can yenilenmesi vardır. **Bu odadaki İlksel İnci, yenilgiye uğratılması gereken Kızıl Portalı'ndan düşer.** Praetor ayrıca bir Nadir Hazine Çuvalı düşürür.
 
-**Taint**
+**Lekelenme**
 
-These rooms contain tainted terrain and several tentacles, including Giant Taintacles. Their attacks and the tainted environment interfere with movement, so consider your footing and attacks from other tentacles while clearing them.
+Bu odalar lekeli arazi ve Dev Leke Dokunaçları da dahil olmak üzere birkaç dokunaç içerir. Saldırıları ve lekeli çevre hareketi aksatır; bu yüzden onları temizlerken ayak basışına ve diğer dokunaçlardan gelen saldırılara dikkat et.
 
-The last Giant Taintacle defeated drops a Primordial Pearl. Defeating just one may leave other Giant Taintacles in the room.
+Yenilen son Dev Leke Dokunacı bir İlksel İnci düşürür. Yalnızca birini yenmek odada başka Dev Leke Dokunaçları bırakabilir.
 
-Maintain Warp Ward during an Outer Lands expedition to reduce additional Warp events during combat. After completing the challenge, use the return portal to leave.
+Dış Topraklar seferi sırasında Delilik Kalkanını koru ki savaş esnasında ek Delilik olayları azalsın. Mücadeleyi tamamladıktan sonra ayrılmak için dönüş portalını kullan.
 
-### Void Metal and Primal Energy
+### Hiçlik Metali ve İlksel Enerji
 
-**Void metal**
+**Hiçlik Metali**
 
-After Eldritch Epiphany and Thaumium research, you can research void metal. <ItemLink id="Thaumcraft:ItemResource:17" showIcon="left" /> is used to make <ItemLink id="Thaumcraft:ItemResource:16" showIcon="left" />, and is also required for Eldritch Eyes, Runed Tablets, and various addon devices.
+Eldritch İdrakı ve Thaumium araştırmasından sonra Hiçlik Metali araştırmasını yapabilirsin. <ItemLink id="Thaumcraft:ItemResource:17" showIcon="left" />, <ItemLink id="Thaumcraft:ItemResource:16" showIcon="left" /> yapımında kullanılır ve ayrıca Eldritch Gözleri, Rünlü Tabletler ve çeşitli eklenti cihazları için gereklidir.
 
-Void metal opens several paths:
+Hiçlik Metali birkaç yol açar:
 
-- **Void metal tools and armor**: Some tools and equipment repair their own durability and have the Warping property.
-- **Void metal wand caps**: Reduce wand Vis costs and support further wand upgrades.
-- **Advanced essentia storage**: Expands storage capacity for individual aspects, supporting larger alchemy and infusion recipes.
-- **Void Thaumaturge Robes**: Combine protection, Vis discounts, and abilities such as those of the Goggles of Revealing.
-- **Addon material paths**: Research into Shadowmetal, Shadow Fortress equipment, and Primordial equipment continues to build on void metal discoveries.
+- **Hiçlik Metali aletleri ve zırhı**: Bazı aletler ve ekipmanlar kendi dayanıklılığını onarır ve Warping özelliğine sahiptir.
+- **Hiçlik Metali asa uçları**: Asa Vis maliyetlerini azaltır ve daha ileri asa yükseltmelerini destekler.
+- **Gelişmiş Esans depolaması**: Tek tek aspektler için depolama kapasitesini genişletir ve daha büyük simya ve infüzyon tariflerini destekler.
+- **Hiçlik Thaumaturge Cübbeleri**: Korumayı, Vis indirimlerini ve Hakikat Gözlüğü'nünkiler gibi yetenekleri birleştirir.
+- **Eklenti malzeme yolları**: Gölge Metali, Gölge Kale ekipmanı ve İlksel ekipman araştırmaları Hiçlik Metali keşiflerinin üzerine inşa edilmeye devam eder.
 
-**Primal energy and the Staff Core of the Primal**
+**İlksel enerji ve İlksel Asa Çekirdeği**
 
-<ItemLink id="Thaumcraft:ItemResource:15" showIcon="left" /> is an important ingredient in Eldritch crafting, used for Eldritch Eyes, the Primal Crusher, and several advanced magical recipes.
+<ItemLink id="Thaumcraft:ItemResource:15" showIcon="left" />, Eldritch üretiminde önemli bir bileşendir; Eldritch Gözleri, İlksel Kırıcı ve birkaç gelişmiş büyülü tarif için kullanılır.
 
-**Wand Focus: Primal** fires powerful orbs of primal energy that can damage the surrounding environment. Both the focus and its orbs are part of the scanning prerequisites for the Staff Core of the Primal.<br>
-The staff core builds on research into several elemental staff cores. See [Wands, Vis and Nodes](./wands_vis_nodes.md) for its capacity, charging, and prerequisites.
+**Asa Odağı: İlksel**, çevreye hasar verebilen güçlü ilksel enerji küreleri fırlatır. Hem odak hem de küreleri, İlksel Asa Çekirdeği'nin tarama önkoşullarının bir parçasıdır.<br>
+Asa çekirdeği, birkaç elemental asa çekirdeği araştırmasının üzerine inşa edilir. Kapasitesi, şarjı ve önkoşulları için [Asalar, Vis ve Düğümler](./wands_vis_nodes.md) sayfasına bak.
 
-## Primordial Pearls and Their Research Uses
+## İlksel İnciler ve Araştırma Kullanımları
 
-A <ItemLink id="Thaumcraft:ItemEldritchObject:3" showIcon="left" /> is an important reward from the Outer Lands and a key material for developing more advanced Eldritch devices.<br>
-Scanning it reveals **Primordial Pearl** research, connecting to the Advanced Alchemical Furnace, Primal Crusher, Primordial Node Manipulation, and several addon research paths.
+Bir <ItemLink id="Thaumcraft:ItemEldritchObject:3" showIcon="left" />, Dış Topraklar'dan gelen önemli bir ödül ve daha gelişmiş Eldritch cihazları geliştirmek için kilit bir malzemedir.<br>
+Onu taramak **İlksel İnci** araştırmasını ortaya çıkarır; bu da Gelişmiş Simya Fırını, İlksel Kırıcı, İlksel Düğüm Manipülasyonu ve birkaç eklenti araştırma yoluna bağlanır.
 
-**Advanced Alchemical Furnace**
+**Gelişmiş Simya Fırını**
 
-The Advanced Alchemical Furnace increases the buffer and processing capacity of essentia extraction, using Ignis, Perditio, and Aqua Centi-Vis.<br>
-Its research also requires knowledge of Essentia Distillation and Centi-Vis power. Once the constructs and furnace are ready, it can connect to existing essentia storage and logistics to meet the demands of large infusion recipes.
+Gelişmiş Simya Fırını, Ignis, Perditio ve Aqua Centi-Vis kullanarak esans çıkarımının tamponunu ve işleme kapasitesini artırır.<br>
+Araştırması ayrıca Esans Damıtma ve Centi-Vis gücü bilgisini gerektirir. Yapıtlar ve fırın hazır olduğunda, büyük infüzyon tariflerinin taleplerini karşılamak için mevcut esans depolamasına ve lojistiğine bağlanabilir.
 
-See [Alchemy and Essentia](./alchemy_essentia.md) for its components, inputs, outputs, and power supply.
+Bileşenleri, girdileri, çıktıları ve güç kaynağı için [Simya ve Esans](./alchemy_essentia.md) sayfasına bak.
 
-**Primal Crusher**
+**İlksel Kırıcı**
 
-The <ItemLink id="Thaumcraft:ItemPrimalCrusher" showIcon="left" /> combines abilities from the Shovel of the Earthmover, Pickaxe of the Core, and void metal tools. It mines earth and stone in a **3×3** area and has a chance to turn eligible ores into Native Clusters.<br>
-It repairs its own durability, making it useful for large excavations as well as combat.
+<ItemLink id="Thaumcraft:ItemPrimalCrusher" showIcon="left" />, Toprak Taşıyıcının Küreği, Çekirdek Kazması ve Hiçlik Metali aletlerinin yeteneklerini birleştirir. **3×3**'lük bir alanda toprak ve taş kazar ve uygun cevherleri Doğal Kümeler'e dönüştürme şansı vardır.<br>
+Kendi dayanıklılığını onarır; bu da onu büyük kazılar kadar savaş için de kullanışlı kılar.
 
-**Primordial Gauntlet and addon devices**
+**İlksel Eldiven ve eklenti cihazları**
 
-Witching Gadgets' <ItemLink id="WitchingGadgets:item.WG_PrimordialGlove" showIcon="left" /> holds an aura node and uses it to recharge socketed Infused Gems. Its sockets stabilize the gems, allowing their abilities to be reused after recharging.
+Witching Gadgets'in <ItemLink id="WitchingGadgets:item.WG_PrimordialGlove" showIcon="left" /> eşyası bir aura düğümü barındırır ve onu yuvaya takılı İnfüzyonlu Mücevherleri şarj etmek için kullanır. Yuvaları mücevherleri stabilize eder ve şarj edildikten sonra yeteneklerinin yeniden kullanılmasını sağlar.
 
-Pearls are also used for advanced rings, Primordial equipment, and content from addons such as Thaumic Horizons and Tainted Magic.<br>
-These paths consume substantial amounts of essentia and advanced materials. A steady pearl supply allows you to develop production devices, tools, and protection separately.
+İnciler ayrıca gelişmiş yüzükler, İlksel ekipman ve Thaumic Horizons ile Tainted Magic gibi eklentilerin içeriği için kullanılır.<br>
+Bu yollar önemli miktarda esans ve gelişmiş malzeme tüketir. İstikrarlı bir inci tedariki, üretim cihazlarını, aletleri ve korumayı ayrı ayrı geliştirmeni sağlar.
 
-### Primordial Node Manipulation
+### İlksel Düğüm Manipülasyonu
 
-**Primordial Node Manipulation** research provides a way to modify ordinary aura nodes with pearls. Using a Primordial Pearl on a node consumes the pearl and changes the node's base aspect amounts, with a chance to improve its quality.
+**İlksel Düğüm Manipülasyonu** araştırması, sıradan aura düğümlerini incilerle değiştirmenin bir yolunu sunar. Bir düğümde İlksel İnci kullanmak inciyi tüketir ve düğümün temel aspekt miktarlarını değiştirir; kalitesini iyileştirme şansı vardır.
 
-- The base amounts of **existing primal aspects** may increase or decrease.
-- **Missing primal aspects** have a chance to be added.
-- The base amounts of **compound aspects** may decrease.
-- Nodes of **Fading, Pale, or Normal quality** have a chance to improve.
+- **Mevcut ilksel aspektlerin** temel miktarları artabilir veya azalabilir.
+- **Eksik ilksel aspektlerin** eklenme şansı vardır.
+- **Bileşik aspektlerin** temel miktarları azalabilir.
+- **Sönümlenen, Solgun veya Normal kalitedeki** düğümlerin iyileşme şansı vardır.
 
-A pearl can react with a node even before this research is completed; completing it improves the chances of some favorable changes. With an established pearl supply, it offers another way to modify nodes, taking both random outcomes and pearl costs into account.
+Bir inci, bu araştırma tamamlanmadan önce bile bir düğümle tepkimeye girebilir; araştırmayı tamamlamak bazı olumlu değişikliklerin şansını artırır. Yerleşik bir inci tedarikiyle bu, hem rastgele sonuçları hem de inci maliyetlerini hesaba katarak düğümleri değiştirmenin başka bir yolunu sunar.
 
-See [Wands, Vis and Nodes](./wands_vis_nodes.md) for custom nodes, Node Manipulators, and Energized Nodes.
+Özel düğümler, Düğüm Manipülatörleri ve Enerjilendirilmiş Düğümler için [Asalar, Vis ve Düğümler](./wands_vis_nodes.md) sayfasına bak.
 
-## Obtaining a Steady Supply of Primordial Pearls
+## İstikrarlı İlksel İnci Tedariki Sağlamak
 
-**Primordial Berry**
+**İlksel Meyve**
 
-CropsNH's **Primordial Berry** produces pearls when harvested at maturity. Plant a Primordial Pearl in Crop Sticks as the seed to establish the first crop.
+CropsNH'nin **İlksel Meyvesi**, olgunlaştığında hasat edildiğinde inci üretir. İlk mahsulü oluşturmak için tohum olarak Ekin Çubuklarına bir İlksel İnci dik.
 
-- Primordial Berry cannot be obtained through crossbreeding, spread naturally, or be bred with other plants.
-- Improving its stats requires devices such as the **Crop Gene Extractor and Crop Synthesizer**.
-- Its preferred biome tags include **End and Magical**. At least one suitable biome tag or sufficient biome humidity is needed to prevent crop sickness.
-- It has a long growth cycle and needs a stable growing environment with suitable acceleration.
+- İlksel Meyve melezleme yoluyla elde edilemez, doğal olarak yayılmaz ve diğer bitkilerle çaprazlanamaz.
+- İstatistiklerini iyileştirmek **Ekin Gen Çıkarıcısı ve Ekin Sentezleyicisi** gibi cihazlar gerektirir.
+- Tercih ettiği biyom etiketleri arasında **End ve Büyülü** bulunur. Mahsul hastalığını önlemek için en az bir uygun biyom etiketi veya yeterli biyom nemi gerekir.
+- Uzun bir büyüme döngüsü vardır ve uygun hızlandırma ile istikrarlı bir büyüme ortamına ihtiyaç duyar.
 
-**Reassembling pearl fragments**
+**İnci parçalarını yeniden birleştirme**
 
-GTNH also provides a <ItemLink id="dreamcraft:PrimordialPearlFragment" showIcon="left" /> route: processing a Primordial Pearl in a Forge Hammer produces **3 fragments**. The corresponding Witching Gadgets research and infusion recipe then turn each fragment back into a pearl.
+GTNH ayrıca bir <ItemLink id="dreamcraft:PrimordialPearlFragment" showIcon="left" /> yolu sunar: bir İlksel İnciyi Dövme Çekiç'te işlemek **3 parça** üretir. İlgili Witching Gadgets araştırması ve infüzyon tarifi daha sonra her parçayı tekrar bir inciye dönüştürür.
 
-The reassembly research requires Primordial Pearl and Ichor-related prerequisites. Its recipe consumes Eldritch Eyes, Ichor materials, Aurora Blocks, and large amounts of essentia, with an instability of **20**.<br>
-This route turns one pearl into several, making it suitable once you have a complete Ichor material supply and infusion infrastructure.
+Yeniden birleştirme araştırması İlksel İnci ve Ichor ile ilgili önkoşulları gerektirir. Tarifi Eldritch Gözleri, Ichor malzemeleri, Aurora Blokları ve büyük miktarda esans tüketir; kararsızlığı **20**'dir.<br>
+Bu yol bir inciyi birkaç taneye dönüştürür; eksiksiz bir Ichor malzeme tedarikine ve infüzyon altyapısına sahip olduğunda uygundur.
 
-## Pearl Revitalization and the Extremely Primordial Pearl
+## İnci Diriltme ve Aşırı İlksel İnci
 
-**Pearl Revitalization in Witching Gadgets**
+**Witching Gadgets'te İnci Diriltme**
 
-Some Witching Gadgets recipes for Primordial equipment draw the energy from a pearl, leaving a <ItemLink id="WitchingGadgets:item.WG_Material:12" showIcon="left" />.<br>
-After completing **Pearl Revitalization** research, infusion can restore it to a Primordial Pearl.
+İlksel ekipman için bazı Witching Gadgets tarifleri inciden enerji çeker ve geride bir <ItemLink id="WitchingGadgets:item.WG_Material:12" showIcon="left" /> bırakır.<br>
+**İnci Diriltme** araştırmasını tamamladıktan sonra infüzyon onu tekrar bir İlksel İnciye dönüştürebilir.
 
-The recipe uses one shard of each of the six primal aspects and a <ItemLink id="Thaumcraft:blockCrystal:6" showIcon="left" />. It requires **64 essentia of each primal aspect** and **384 Praecantatio**, with an instability of **10**.<br>
-When making Primordial Gauntlets, weapons, and armor, these leftover pearls can be returned to your material supply.
+Tarif, altı ilksel aspektin her birinden bir parça ve bir <ItemLink id="Thaumcraft:blockCrystal:6" showIcon="left" /> kullanır. **Her ilksel aspektten 64 esans** ve **384 Praecantatio** gerektirir; kararsızlığı **10**'dur.<br>
+İlksel Eldivenler, silahlar ve zırh üretirken bu artık inciler malzeme tedarikine geri kazandırılabilir.
 
-**Extremely Primordial Pearl**
+**Aşırı İlksel İnci**
 
-The <ItemLink id="Avaritia:big_pearl" showIcon="left" /> comes from Avaritia's integration with Thaumcraft, unlocked after Primordial Pearl research.<br>
-Its infusion uses one ordinary Primordial Pearl as the central ingredient and **7 more** around it, consuming **8 pearls** in total.
+<ItemLink id="Avaritia:big_pearl" showIcon="left" />, Avaritia'nın Thaumcraft ile entegrasyonundan gelir ve İlksel İnci araştırmasından sonra açılır.<br>
+İnfüzyonu merkezi bileşen olarak bir sıradan İlksel İnci ve çevresinde **7 tane daha** kullanır; toplamda **8 inci** tüketir.
 
-This infusion has an instability of **12** and requires 64 essentia each of the six primal aspects, Alienis, and Praecantatio, plus 32 Terminus. Producing it in quantity requires the corresponding essentia reserves and altar stability.
+Bu infüzyonun kararsızlığı **12**'dir ve altı ilksel aspektin her birinden, Alienis ve Praecantatio'dan 64'er esans ile 32 Terminus gerektirir. Seri üretim, ilgili esans rezervlerini ve sunak kararlılığını gerektirir.
 
-When used as a catalyst in later recipes, the Extremely Primordial Pearl can be retained. It is used for the Akashic Record and several Infinity equipment recipes. It does not stack; recipes requiring several pearls at once need that many separate pearls.
+Sonraki tariflerde katalizör olarak kullanıldığında Aşırı İlksel İnci korunabilir. Akaşik Kayıt ve birkaç Sonsuzluk ekipman tarifi için kullanılır. Yığılmaz; aynı anda birkaç inci gerektiren tarifler o kadar ayrı inciye ihtiyaç duyar.
 
-## Further Protection: Primordial Armor
+## Daha Fazla Koruma: İlksel Zırh
 
-**Primordial Armor** consists of <ItemLink id="WitchingGadgets:item.WG_PrimordialHelm" showIcon="left" />, <ItemLink id="WitchingGadgets:item.WG_PrimordialChest" showIcon="left" />, <ItemLink id="WitchingGadgets:item.WG_PrimordialLegs" showIcon="left" />, and <ItemLink id="WitchingGadgets:item.WG_PrimordialBoots" showIcon="left" />.<br>
-Its material path uses Shadow Fortress equipment, void metal, and pearls, making it worth considering when developing advanced magical protection.
+**İlksel Zırh**; <ItemLink id="WitchingGadgets:item.WG_PrimordialHelm" showIcon="left" />, <ItemLink id="WitchingGadgets:item.WG_PrimordialChest" showIcon="left" />, <ItemLink id="WitchingGadgets:item.WG_PrimordialLegs" showIcon="left" /> ve <ItemLink id="WitchingGadgets:item.WG_PrimordialBoots" showIcon="left" /> parçalarından oluşur.<br>
+Malzeme yolu Gölge Kale ekipmanı, Hiçlik Metali ve incileri kullanır; bu da gelişmiş büyülü koruma geliştirirken onu değerlendirmeye değer kılar.
 
-Each piece can be independently tuned to a **primal affinity** by sneak-right-clicking while holding it. Several pieces tuned to the same aspect also meet the item counts required by some abilities.
+Her parça, elinde tutarken gizlice sağ tıklayarak bağımsız şekilde bir **ilksel yakınlığa** ayarlanabilir. Aynı aspekte ayarlanmış birkaç parça, bazı yeteneklerin gerektirdiği eşya sayılarını da karşılar.
 
-- **Aer affinity**: Reflects projectiles; at least two Aer-tuned pieces provide creative flight.
-- **Terra affinity**: Grants regeneration when injured, while the boots also provide knockback resistance.
-- **Ignis affinity**: Extinguishes you automatically and reduces fire and explosion damage; the helm can provide Night Vision.
-- **Aqua affinity**: Removes several negative effects; the helm can provide Water Breathing and underwater Night Vision.
-- **Ordo affinity**: Provides regeneration and reduces the level and duration of Thaumcraft's Warp-related negative status effects.
-- **Perditio affinity**: Applies Blindness and Slowness to attackers when you are hit.
+- **Aer yakınlığı**: Mermileri yansıtır; en az iki Aer'e ayarlanmış parça yaratıcı uçuş sağlar.
+- **Terra yakınlığı**: Yaralandığında yenilenme verir; botlar ayrıca geri savrulma direnci sağlar.
+- **Ignis yakınlığı**: Seni otomatik olarak söndürür ve ateş ile patlama hasarını azaltır; kask Gece Görüşü sağlayabilir.
+- **Aqua yakınlığı**: Birkaç olumsuz etkiyi kaldırır; kask Su Altında Nefes Alma ve su altında Gece Görüşü sağlayabilir.
+- **Ordo yakınlığı**: Yenilenme sağlar ve Thaumcraft'ın Delilikle ilgili olumsuz durum etkilerinin seviyesini ve süresini azaltır.
+- **Perditio yakınlığı**: Vurulduğunda saldırganlara Körlük ve Yavaşlık uygular.
 
-The Primordial Helm also reduces the effective strength of Warp Theory events. When wearing it regularly, combine it with protection such as a Portable Shower to manage the Warp contributed by your equipment.
+İlksel Kask ayrıca Warp Theory olaylarının etkin gücünü azaltır. Düzenli olarak giyerken, ekipmanının katkıda bulunduğu Deliliği yönetmek için Taşınabilir Duş gibi bir korumayla birleştir.
 
 </Column>

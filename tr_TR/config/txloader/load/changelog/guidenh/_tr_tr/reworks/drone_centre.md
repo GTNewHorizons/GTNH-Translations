@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15568
 navigation:
-  title: Drone Centre
+  title: Drone Merkezi
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15568
 categories:
@@ -11,57 +11,57 @@ author: Skorched
 date: 2026-05-23
 ---
 
-# Drone Centre
+# Drone Merkezi
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15568"/>
 </GameScene>
-The <Color id="GREEN">Drone Centre</Color> is an IV tier multiblock for automatic maintenance repairs, power control, and monitoring of nearby machines. <Color id="RED">Drones</Color> are inserted through an input bus and service any machines within range that have a <Color id="BLUE">Drone Downlink Module</Color> <ItemImage id="gregtech:gt.blockmachines:9401" /> installed (replaces the maintenance hatch). The <Color id="GREEN">Centre</Color> does not consume any power and the maintenance repairs are free, but there is a slight chance every second that a drone crashes and voids. There are four tiers of drones in total with increasingly larger ranges and longer lifespans. The T4 drone also unlocks the ability to work across dimensions. The drones do not actually fly around or leave the Drone Centre, unfortunately. 
+<Color id="GREEN">Drone Merkezi</Color>, yakındaki makinelerin otomatik bakım onarımları, güç kontrolü ve izlenmesi için IV kademe bir multibloktur. <Color id="RED">Dronlar</Color> bir Giriş Yolu aracılığıyla yerleştirilir ve menzil içinde <Color id="BLUE">Drone Bağlantı Modülü</Color> <ItemImage id="gregtech:gt.blockmachines:9401" /> takılı olan tüm makinelere hizmet verir (bakım kapağının yerini alır). <Color id="GREEN">Merkez</Color> hiç güç tüketmez ve bakım onarımları ücretsizdir, ancak her saniye bir dronun düşüp yok olma ihtimali az da olsa vardır. Toplamda dört dron kademesi vardır ve menzilleri giderek büyür, ömürleri uzar. T4 dron ayrıca boyutlar arası çalışma yeteneğini açar. Ne yazık ki dronlar gerçekten uçmaz veya Drone Merkezinden ayrılmaz.
 <br clear="all"/>
 
 > [!NOTE]
-> The following are the main changes in multiblock:
-> - New Sync Logic: Machine control now actually works regardless of line of sight
-> - Custom Machine Grouping: Organize your machines into custom groups for better management
-> - Improved Switch Button: Switch button now turns on/off all machines by group
-> - Cross-Dimension Connections: Use new T4 Drones to activate dimensional connections and infinite range
-> - Connection Keys: Prevent your T4 drones connecting to other players' drilling plants!
-> - Production Recorder: Keep track of what your factory is actually doing!
+> Aşağıdakiler multibloktaki ana değişikliklerdir:
+> - Yeni Eşitleme Mantığı: Makine kontrolü artık görüş hattından bağımsız olarak gerçekten çalışıyor
+> - Özel Makine Gruplaması: Daha iyi yönetim için makinelerini özel gruplara ayır
+> - Geliştirilmiş Anahtar Düğmesi: Anahtar düğmesi artık tüm makineleri gruba göre açıp kapatıyor
+> - Boyutlar Arası Bağlantılar: Boyutsal bağlantıları ve sonsuz menzili etkinleştirmek için yeni T4 Dronları kullan
+> - Bağlantı Anahtarları: T4 dronlarının diğer oyuncuların sondaj tesislerine bağlanmasını önle!
+> - Üretim Kaydedici: Fabrikanın gerçekte ne yaptığını takip et!
 
 
-## Construction
-The <Color id="GREEN">Drone Centre</Color> does not have any tiered components or a maintenance hatch, energy hatch, or muffler hatch. The only thing it needs is an input bus for the drones. The hempcrete can be any color and has no effect on the operation of the machine. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure.
+## İnşa
+<Color id="GREEN">Drone Merkezi</Color> kademeli bileşenlere veya bakım kapağına, enerji kapağına ya da Egzoz Çıkışına sahip değildir. Tek ihtiyacı dronlar için bir Giriş Yoludur. Kenevir betonu her renkte olabilir ve makinenin çalışmasını etkilemez. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> kullan.
 
-Unique to the <Color id="GREEN">Drone Centre</Color> is the <Color id="BLUE">Drone Downlink Module</Color> which replaces the maintenance hatch on OTHER machines to connect them to the network for automatic maintenance repairs, power control, and monitoring. The Drone Downlink Module searches for an active Drone Centre every 10 seconds until it finds one so try not to have too many without an active connection to avoid lag spikes. Right-click the Drone Downlink Module to rename the host machine for easier identification. 
+<Color id="GREEN">Drone Merkezine</Color> özgü olan <Color id="BLUE">Drone Bağlantı Modülü</Color>, DİĞER makinelerdeki bakım kapağının yerini alarak onları otomatik bakım onarımları, güç kontrolü ve izleme için ağa bağlar. Drone Bağlantı Modülü, bir tane bulana kadar her 10 saniyede bir etkin bir Drone Merkezi arar; bu yüzden gecikme sıçramalarını önlemek için etkin bağlantısı olmayan çok sayıda modül bulundurmamaya çalış. Daha kolay tanımlamak için ana makineyi yeniden adlandırmak üzere Drone Bağlantı Modülüne sağ tıkla. 
 
-### Requires:
+### Gerekenler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15568" /> <ItemImage id="gregtech:gt.blockmachines:15568" />
 - 61 <ItemLink id="gregtech:gt.blockcasings2:13" /> <ItemImage id="gregtech:gt.blockcasings2:13" />
 - 47 <ItemLink id="gregtech:gt.blockframes:305" /> <ItemImage id="gregtech:gt.blockframes:305" />
-- 29 <ItemLink id="chisel:hempcrete" /> (any color) <ItemImage id="chisel:hempcrete" /> 
+- 29 <ItemLink id="chisel:hempcrete" /> (her renk) <ItemImage id="chisel:hempcrete" /> 
 - 28 <ItemLink id="gregtech:gt.blockframes:32" /> <ItemImage id="gregtech:gt.blockframes:32" />
 - 20-26 <ItemLink id="gregtech:gt.blockcasings2" /> <ItemImage id="gregtech:gt.blockcasings2" />
-- 1+ Input Bus (any steel machine casing) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 1+ Giriş Yolu (herhangi bir çelik makine gövdesi) <ItemImage id="gregtech:gt.blockmachines:70" />
 
-### Wallsharing
-Machines may wallshare the same <Color id="BLUE">Drone Downlink Module</Color> without any issues; the controllers appear separately under power control and monitoring. 
+### Duvar Paylaşımı
+Makineler aynı <Color id="BLUE">Drone Bağlantı Modülünü</Color> sorunsuzca duvar paylaşabilir; kontrolcüler güç kontrolü ve izleme altında ayrı ayrı görünür. 
 
-## Usage
-<Color id="RED">Drones</Color> are inserted through an input bus on the structure. On machine start, the controller consumes the highest tier drone available to service all machines within range that have a <Color id="BLUE">Drone Downlink Module</Color> installed. The active drone runs until it "crashes" based on a random chance every second. When that happens, the active drone is voided and the next highest tier drone available assumes responsibility. View the tier of the current drone in the WAILA of the controller and retrieve it by breaking the controller, if necessary. 
+## Kullanım
+<Color id="RED">Dronlar</Color> yapıdaki bir Giriş Yolundan yerleştirilir. Makine başlatıldığında kontrolcü, menzil içinde <Color id="BLUE">Drone Bağlantı Modülü</Color> takılı tüm makinelere hizmet vermek için mevcut en yüksek kademe dronu tüketir. Etkin dron, her saniye rastgele bir şansa bağlı olarak "düşene" kadar çalışır. Bu olduğunda etkin dron yok edilir ve mevcut bir sonraki en yüksek kademe dron sorumluluğu devralır. Mevcut dronun kademesini kontrolcünün WAILA'sında gör ve gerekirse kontrolcüyü kırarak onu geri al. 
 
-### Drones
-There are four tiers of drones available. They are all functionally the same but higher tiers have larger ranges and longer average lifespans, as seen in the following table. The T3 and T4 drones are even unbreakable, although they are unlocked much later than the auto-taping maintenance hatch. To enable cross-dimension, the downlink module must have the same key with the <Color id="GREEN">Drone Centre</Color>. 
+### Dronlar
+Dört dron kademesi mevcuttur. Hepsi işlevsel olarak aynıdır, ancak aşağıdaki tabloda görüldüğü gibi daha yüksek kademeler daha geniş menzile ve daha uzun ortalama ömre sahiptir. T3 ve T4 dronlar kırılmaz bile; ancak otomatik bantlı bakım kapağından çok daha sonra açılırlar. Boyutlar arası çalışmayı etkinleştirmek için bağlantı modülü ile <Color id="GREEN">Drone Merkezinin</Color> aynı anahtara sahip olması gerekir. 
 
-| Tier | Range | Probability to Crash | Average Lifespan | Cross-Dimension |
+| Kademe | Menzil | Düşme Olasılığı | Ortalama Yaşam Ömrü | Boyutlar Arası |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
-| 1 | 128 | 1 / 28,800 each second | 8 hours | \u274c |
-| 2 | 512 | 1 / 172,800 each second | 48 hours | \u274c|
-| 3 | 4096 | Never | Infinite | \u274c|
-| 4 | 4096 | Never | Infinite | \u2705 |
+| 1 | 128 | Her saniye 1 / 28.800 | 8 saat | ❌ |
+| 2 | 512 | Her saniye 1 / 172.800 | 48 saat | ❌|
+| 3 | 4096 | Asla | Sonsuz | ❌|
+| 4 | 4096 | Asla | Sonsuz | ✅ |
 
-The range is determined by the <Color id="RED">Euclidean Distance</Color> between a <Color id="BLUE">Drone Downlink Module</Color> and the <Color id="GREEN">Drone Centre</Color> controller. Use the following equation to calculate distance from their coordinates:
+Menzil, <Color id="RED">Öklid Mesafesi</Color> ile bir <Color id="BLUE">Drone Bağlantı Modülü</Color> ile <Color id="GREEN">Drone Merkezi</Color> kontrolcüsü arasındaki mesafeye göre belirlenir. Koordinatlarından mesafeyi hesaplamak için aşağıdaki denklemi kullan:
 
 <Latex formula="\text{Distance} = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2 + (z_1 - z_2)^2}" />
 
-### Power Control
-All machines with a <Color id="BLUE">Drone Downlink Module</Color> installed appear on the machine list within the GUI of the controller. The machines can be renamed, highlighted in the world, and enabled/disabled remotely. There are also buttons in the GUI of the controller to enable/disable ALL machines in the same dimension regardless of distance. The power control is extremely useful when trying to re-enable everything after powerfailing, or preparing to upgrade/move a <ItemLink id="gregtech:gt.blockmachines:13106" /> . 
+### Güç Kontrolü
+<Color id="BLUE">Drone Bağlantı Modülü</Color> takılı tüm makineler kontrolcünün GUI'sindeki makine listesinde görünür. Makineler yeniden adlandırılabilir, dünyada vurgulanabilir ve uzaktan etkinleştirilip devre dışı bırakılabilir. Kontrolcünün GUI'sinde ayrıca mesafeden bağımsız olarak aynı boyuttaki TÜM makineleri etkinleştirmek/devre dışı bırakmak için düğmeler vardır. Güç kontrolü, elektrik kesintisinden sonra her şeyi yeniden etkinleştirmeye çalışırken veya bir <ItemLink id="gregtech:gt.blockmachines:13106" /> yükseltmeye/taşımaya hazırlanırken son derece kullanışlıdır. 

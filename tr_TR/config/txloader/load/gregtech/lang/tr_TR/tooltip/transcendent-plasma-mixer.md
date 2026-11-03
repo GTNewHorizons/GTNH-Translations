@@ -1,4 +1,4 @@
-Assisting in all your DTPF needs!
-Set the number of {color_parallel:parallels} in the controller menu
-All inputs scale, except time...
-{color_note:Power is only pulled from wireless networks}
+Tüm DTPF ihtiyaçlarınızda size yardımcı olur!
+Kontrolcü menüsünde {color_parallel:paralel} sayısını ayarla
+Süre hariç tüm girişler ölçeklenir...
+{color_note:Güç yalnızca kablosuz ağlardan çekilir}

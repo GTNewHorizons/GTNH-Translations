@@ -1,7 +1,7 @@
-Module that adds Space Pumping Operations to the Space Elevator
-{light_purple:{bold:Sucking up entire gas planets was never easier}}
+Uzay Asansörü'ne Uzay Pompalama İşlemleri ekleyen modül
+{light_purple:{bold:Bütün gaz gezegenlerini içine çekmek hiç bu kadar kolay olmamıştı}}
 {lang:gt.blockmachines.multimachine.project.ig.desc2}
-Set Planet and Gas Type determine pumped fluid
-Can be void protected by locking output hatches
-Runs at {VNF:voltageTier} with up to {color_parallel:4} parallels
+Ayarlanan Gezegen ve Gaz Tipi, pompalanan sıvıyı belirler
+Çıktı kapaklarını kilitleyerek Hiçlik koruması sağlanabilir
+{VNF:voltageTier} seviyesinde, {color_parallel:4} paralel işleme kadar çalışır
 {lang:gt.blockmachines.multimachine.project.ig.motorT2}

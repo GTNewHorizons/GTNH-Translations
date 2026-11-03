@@ -1,8 +1,8 @@
-Engraves wafers with a photon beam and distinct §dMasks§7 or templates
+Gofretleri bir foton ışını ve farklı §dMaskeler§7 veya şablonlarla kazır
 {lang:gtnhlanth.tt.beaminfo}
 {gray:{hr}}
-Engraving recipes all have their own suitable §9Beam Energy§7 range,
-minimum §2Beam Focus§7, minimum §6Beam Rate§7, and minimum §3EU/t Requirement
+Kazıma tariflerinin hepsinin kendi uygun §9Işın Enerjisi§7 aralığı,
+minimum §2Işın Odaklanması§7, minimum §6Işın Hızı§7 ve minimum §3EU/t Gereksinimi vardır
 {gray:{hr}}
-Processing speed is determined solely by the §6Beam Rate§7, not the §3EU/t Provided
-§fRecipe Duration = 5 seconds * §6Required Beam Rate§f / §6Input Beam Rate
+İşlem hızı yalnızca §6Işın Hızı§7 ile belirlenir, sağlanan §3EU/t ile değil
+§fTarif Süresi = 5 saniye * §6Gerekli Işın Hızı§f / §6Girdi Işın Hızı

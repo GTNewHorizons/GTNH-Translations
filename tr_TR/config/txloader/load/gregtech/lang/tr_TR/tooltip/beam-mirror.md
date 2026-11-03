@@ -1,2 +1,2 @@
-Takes in particle beams and sends them back out
-{color_note:That's literally it.}
+Parçacık ışınlarını alır ve geri gönderir
+{color_note:Kelimenin tam anlamıyla bu kadar.}

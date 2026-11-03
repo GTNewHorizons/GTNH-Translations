@@ -1,4 +1,4 @@
 #include:gregtech:large-turbine-rotor
-Generates power from Supercritical (SC) Steam based on the turbine and fitting
-Outputs 1 {L} of Superheated (SH) Steam for every 1 {L} of Supercritical Steam
+Türbine ve bağlantı parçasına göre Süperkritik (SC) Buhar'dan güç üretir
+Her 1 {L} Süperkritik Buhar için 1 {L} Kızgın (SH) Buhar verir
 #include:gregtech:large-turbine-fitting

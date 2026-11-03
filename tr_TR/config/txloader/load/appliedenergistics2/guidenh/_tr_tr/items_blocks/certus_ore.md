@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Certus Quartz Ore
+  title: Certus Kuvars Cevheri
   icon: gregtech:gt.blockores2:516
 categories:
 - misc ingredients blocks
@@ -14,11 +14,11 @@ item_ids:
 - appliedenergistics2:tile.OreQuartzCharged
 ---
 
-# Certus Quartz Ore
+# Certus Kuvars Cevheri
 
 <Row>
   <BlockImage id="appliedenergistics2:tile.OreQuartz" scale="4" />
   <BlockImage id="appliedenergistics2:tile.OreQuartzCharged" scale="4" />
 </Row>
 
-Like other ores, it generates throughout the world or in ore veins. Breaking them drops <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:10" /> and <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />.
+Diğer cevherler gibi dünya genelinde veya cevher damarlarında oluşur. Kırıldığında <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:10" /> ve <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" /> düşürür.

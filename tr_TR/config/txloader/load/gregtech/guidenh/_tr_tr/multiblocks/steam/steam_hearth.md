@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:31087
 navigation:
-  title: Steam Hearth
+  title: Buharlı Ocak
   parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:31087
   position: 1
@@ -10,30 +10,30 @@ quest_ids:
   - AAAAAAAAAAAAAAAAAAADZg
 ---
 
-# Steam Hearth
+# Buharlı Ocak
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31087" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" /> is a multiblock furnace available in the Steam age. It uses steam to smelt items in batches, processing up to eight copies of the same recipe at once. Blasting and Smoking modes can further speed up eligible metal and food recipes, respectively.
+<ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" />, Buhar çağında kullanılabilen bir Multiblok fırındır. Eşyaları partiler hâlinde eritmek için buhar kullanır ve aynı tarifin sekiz kopyasına kadarını tek seferde işler. Eritme (Blasting) ve Tütsüleme (Smoking) modları, uygun metal ve yemek tariflerini ayrıca hızlandırabilir.
 
-The Steam Hearth has basic bronze and high pressure steel structures that share the same controller. It does not consume electric power, but the boiler must provide a continuous steam supply.
+Buharlı Ocak'ın, aynı kontrolcüyü paylaşan temel bronz ve yüksek basınçlı çelik yapıları vardır. Elektrik gücü tüketmez, ancak kazanın sürekli buhar sağlaması gerekir.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires a High Pressure Steam Furnace and other materials |
-| Dimensions | 3×3×3, with the controller at the front center of the second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Processing modes | Furnace, Blasting, and Smoking; accepted items depend on the selected recipe map |
-| Parallels | Up to eight copies of the same recipe; the high pressure structure does not raise this limit |
-| Processing bonuses | In Furnace mode, the basic structure runs at 125% of a singleblock bronze Steam Furnace's speed and 62.5% of its steam consumption rate per parallel |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| Kilit açma kademesi | Buhar; kontrolcü tarifi bir Yüksek Basınçlı Buhar Fırını ve diğer materyalleri gerektirir |
+| Boyutlar | 3×3×3, kontrolcü ikinci katmanın ön ortasında |
+| Güç | Tam olarak bir Buhar Kapağı; Enerji Kapağı yok |
+| İşleme modları | Fırın, Eritme (Blasting) ve Tütsüleme (Smoking); kabul edilen eşyalar seçili tarif haritasına bağlıdır |
+| Paralel işlem | Aynı tarifin en fazla sekiz kopyası; yüksek basınçlı yapı bu sınırı artırmaz |
+| İşleme avantajları | Fırın modunda temel yapı, tek blok bronz Buhar Fırını'nın hızının %125'inde ve paralel başına buhar tüketim oranının %62,5'inde çalışır |
+| Yükseltmeler ve hız aşırtma | Yüksek basınçlı yapı hızı ve buhar tüketim oranını Çift katına çıkarır; gerilim hız aşırtması yok |
+| Bakım ve kirlilik | Bakım yok, kirlilik yok ve Egzoz Çıkışı gerekmez |
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+Kontrolcü, temel kasa ve Buhar Kapağı için mevcut tarifler aşağıda gösterilmiştir. Diğer bileşenlerin tariflerini görmek için tablodaki eşyalara tıkla.
 
 <RecipesFor id="gregtech:gt.blockmachines:31087" />
 
@@ -41,119 +41,119 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### Yapı Materyalleri
 
-The following quantities assume one Steam Hatch, one Input Bus, and one Output Bus. The basic structure uses bronze components, while the high pressure structure uses their steel counterparts. **All four types of structure component must be of the same tier.**
+Aşağıdaki miktarlar bir Buhar Kapağı, bir Giriş Yolu ve bir Çıkış Yolu varsayar. Temel yapı bronz bileşenler kullanır, yüksek basınçlı yapı ise bunların çelik karşılıklarını kullanır. **Dört yapı bileşeni türünün tümü aynı kademede olmalıdır.**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| Bileşen | Temel yapı | Yüksek basınçlı yapı | Miktar ve konum |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | Six in the basic setup; casing positions on the bottom and middle layers may be replaced with the hatches or buses below, but at least two actual casings must remain |
-| Gear Box | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | Four, at the center of each edge of the top layer |
-| Pipe Casing | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | Four, at the center of each edge of the bottom layer |
-| Firebox | <ItemLink id="gregtech:gt.blockcasings3:13" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings3:14" showIcon="left" /> | Three, at the center of the left, right, and rear sides of the middle layer |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" /> | Same controller | One, at the front center of the second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | At least one, replacing a casing |
+| Kasa | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | Temel kurulumda altı adet; alt ve orta katmanlardaki kasa konumları aşağıdaki kapaklar veya yollar ile değiştirilebilir, ancak en az iki gerçek kasa kalmalıdır |
+| Dişli Kutusu | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | Dört adet, üst katmanın her kenarının ortasında |
+| Boru Muhafazası | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | Dört adet, alt katmanın her kenarının ortasında |
+| Külhan | <ItemLink id="gregtech:gt.blockcasings3:13" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings3:14" showIcon="left" /> | Üç adet, orta katmanın sol, sağ ve arka kenarlarının ortasında |
+| Kontrolcü | <ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" /> | Aynı kontrolcü | Bir adet, ikinci katmanın ön ortasında |
+| Buhar Kapağı | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Aynı kapak | Tam olarak bir adet, bir kasanın yerine |
+| Giriş Yolu | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Aynı yol | En az bir adet, bir kasanın yerine |
+| Çıkış Yolu | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Aynı yol | En az bir adet, bir kasanın yerine |
 
-There are nine positions for casings or hatches. Installing the three required interfaces leaves six casings. Each additional bus replaces another casing. Hatches cannot replace Gear Boxes, Pipe Casings, or Fireboxes.
+Kasa veya kapak için dokuz konum vardır. Gerekli üç arayüzü kurmak altı kasa Yaprakları bırakır. Her ek yol bir kasa daha değiştirir. Kapaklar Dişli Kutuları, Boru Muhafazaları veya Külhanların yerine geçemez.
 
-### Building by Layer
+### Katman Katman İnşa
 
-Build the bottom layer first, then the middle layer containing the controller, and finally the four Gear Boxes on top. Empty positions in the preview do not need to be filled with casings. The structure requires neither glass nor Heating Coils.
+Önce alt katmanı, ardından kontrolcüyü içeren orta katmanı ve son olarak üstteki dört Dişli Kutusunu inşa et. Önizlemedeki boş konumların kasalarla doldurulması gerekmez. Yapı ne cam ne de Isıtma Bobinleri gerektirir.
 
-Place the Steam Hatch and steam Input and Output Buses in suitable casing positions for convenient pipe connections. Ordinary electric machine Input and Output Buses cannot replace the steam versions. Maintenance and Muffler Hatches are not required.
+Kolay boru bağlantıları için Buhar Kapağını ve buharlı Giriş ve Çıkış Yollarını uygun kasa konumlarına yerleştir. Sıradan elektrikli makine Giriş ve Çıkış Yolları buharlı sürümlerin yerine geçemez. Bakım ve Egzoz Çıkışı gerekmez.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+Yapıyı önizlemek ve inşa etmeye yardımcı olmak için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan. Ana kanal kademe 1 temel yapıyı, kademe 2 ise yüksek basınçlı yapıyı seçer. Destekli inşanın ardından kapakları yerleştir ve yapıyı kontrol et.
 
-## Uses and Processing Modes
+## Kullanım ve İşleme Modları
 
-The Steam Hearth can process furnace recipes in bulk, producing items such as stone, glass, directly smelted materials, and cooked food. Different inputs may yield different products. Check NEI before smelting, especially before using intermediate products from an ore processing chain.
+Buharlı Ocak, fırın tariflerini toplu olarak işleyebilir; taş, cam, doğrudan eritilen materyaller ve pişmiş yemek gibi eşyalar üretir. Farklı girdiler farklı ürünler verebilir. Erirmeden önce, özellikle cevher işleme zincirinden gelen ara ürünleri kullanmadan önce NEI'yi kontrol et.
 
-Right-click the controller with a <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> to cycle through **Furnace → Blasting → Smoking → Furnace**. You can also use the mode button in the GUI. Waila and the controller interface show the current mode.
+Modları **Fırın → Eritme (Blasting) → Tütsüleme (Smoking) → Fırın** sırasında geçirmek için kontrolcüye <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> ile sağ tıkla. GUI'deki mod düğmesini de kullanabilirsin. Waila ve kontrolcü arayüzü mevcut modu gösterir.
 
-| Mode | Accepted recipes | Change relative to Furnace mode at the same structure tier |
+| Mod | Kabul edilen tarifler | Aynı yapı kademesindeki Fırın moduna göre değişim |
 | --- | --- | --- |
-| Furnace | Ordinary furnace recipes | Base speed and steam consumption rate |
-| Blasting | Metal recipes accepted by the Et Futurum Blast Furnace | Double speed and steam consumption rate |
-| Smoking | Food recipes accepted by the Et Futurum Smoker | Double speed and steam consumption rate |
+| Fırın | Sıradan fırın tarifleri | Temel hız ve buhar tüketim oranı |
+| Eritme (Blasting) | Et Futurum Yüksek Fırını'nın kabul ettiği metal tarifleri | Çift hız ve buhar tüketim oranı |
+| Tütsüleme (Smoking) | Et Futurum Tütsüleyicisi'nin kabul ettiği yemek tarifleri | Çift hız ve buhar tüketim oranı |
 
-Blasting and Smoking only process items in their respective recipe maps; they do not automatically fall back to Furnace mode. If an item with a furnace recipe does not process, check the selected mode first. Being a metal or food item alone does not guarantee a recipe in the specialized mode.
+Eritme ve Tütsüleme yalnızca kendi tarif haritalarındaki eşyaları işler; otomatik olarak Fırın moduna geri dönmezler. Fırın tarifi olan bir eşya işlenmiyorsa önce seçili modu kontrol et. Yalnızca metal veya yemek eşyası olmak, özel modda bir tarifi olduğunu garanti etmez.
 
 > [!NOTE]
-> Blasting here corresponds to the Blast Furnace processing introduced in Minecraft 1.14+. It cannot replace an [Electric Blast Furnace](../lv/electric_blast_furnace.md) or Bricked Blast Furnace. It has no heat or Heating Coil mechanic, and selecting Blasting does not enable Electric Blast Furnace recipes.
+> Buradaki Eritme, Minecraft 1.14+ ile gelen Yüksek Fırın işlemesine karşılık gelir. Bir [Elektrikli Yüksek Fırın](../lv/electric_blast_furnace.md) veya Tuğla Yüksek Fırın'ın yerini alamaz. Isı veya Isıtma Bobini mekaniği yoktur ve Eritme'yi seçmek Elektrikli Yüksek Fırın tariflerini aktifleştirmez.
 
-### First Startup
+### İlk Çalıştırma
 
-1. Check the structure and confirm that the Steam Hatch, steam Input Bus, and steam Output Bus are installed.
-2. Connect the steam pipe to the Steam Hatch and confirm that steam actually enters it.
-3. Select the appropriate mode for the input and leave space in the Output Bus.
-4. Enable the machine and supply a small amount of ingredients. Watch the products and stored steam.
-5. Confirm a continuous steam supply before increasing ingredient input and parallel count.
+1. Yapıyı kontrol et ve Buhar Kapağı ile buharlı Giriş ve Çıkış Yollarının takılı olduğunu doğrula.
+2. Buhar borusunu Buhar Kapağına bağla ve buharın gerçekten içeri girdiğini doğrula.
+3. Girdi için uygun modu seç ve Çıkış Yolunda boş yer bırak.
+4. Makineyi aktifleştir ve az miktarda malzeme ver. Ürünleri ve depolanan buharı izle.
+5. Malzeme girdisini ve paralel sayısını artırmadan önce sürekli buhar beslemesini doğrula.
 
-## Steam Supply and Throughput
+## Buhar Beslemesi ve İşlem Kapasitesi
 
-The Steam Hearth processes up to eight copies of **the same recipe** at once. It does not process eight different items together in one cycle. Actual parallels also depend on ingredient quantities, output space, and the parallel limit set in the GUI.
+Buharlı Ocak aynı anda **aynı tarifin** en fazla sekiz kopyasını işler. Bir döngüde sekiz farklı eşyayı birlikte işlemez. Gerçek paralel sayısı ayrıca malzeme miktarlarına, çıktı alanına ve GUI'de ayarlanan paralel sınırına bağlıdır.
 
-In Furnace mode, the basic structure runs at 125% of a singleblock bronze Steam Furnace's speed, taking approximately 80% of its time. Its steam consumption rate per parallel is 62.5% of that furnace's rate. Combining these bonuses gives approximately 50% of the total steam consumption for the same item. Running multiple parallels still increases the machine's instantaneous steam demand.
+Fırın modunda temel yapı, tek blok bronz Buhar Fırını'nın hızının %125'inde çalışır ve süresinin yaklaşık %80'ini alır. Paralel başına buhar tüketim oranı, o fırının oranının %62,5'idir. Bu avantajların birleşmesi, aynı eşya için toplam buhar tüketiminin yaklaşık %50'sini verir. Birden fazla paralel çalıştırmak yine de makinenin anlık buhar talebini artırır.
 
-The following comparison uses **the basic structure in Furnace mode, with the same parallel count**, as the baseline:
+Aşağıdaki karşılaştırma, temel olarak **Fırın modundaki temel yapıyı ve aynı paralel sayısını** kullanır:
 
-| Structure and mode | Processing speed | Steam consumption rate |
+| Yapı ve mod | İşleme hızı | Buhar tüketim oranı |
 | --- | --- | --- |
-| Basic structure, Furnace | 1× | 1× |
-| Basic structure, Blasting or Smoking | 2× | 2× |
-| High pressure structure, Furnace | 2× | 2× |
-| High pressure structure, Blasting or Smoking | 4× | 4× |
+| Temel yapı, Fırın | 1× | 1× |
+| Temel yapı, Eritme veya Tütsüleme | 2× | 2× |
+| Yüksek basınçlı yapı, Fırın | 2× | 2× |
+| Yüksek basınçlı yapı, Eritme veya Tütsüleme | 4× | 4× |
 
-The mode and high pressure bonuses stack. Both increase speed and steam consumption rate together, mainly improving throughput. They do not halve the total steam consumed per item again. Actual time and consumption are also affected by tick and integer rounding.
+Mod ve yüksek basınç avantajları birleşir. İkisi de hızı ve buhar tüketim oranını birlikte artırır, esas olarak işlem kapasitesini iyileştirir. Eşya başına tüketilen toplam buharı tekrar yarıya indirmezler. Gerçek süre ve tüketim tick ve tam sayı yuvarlamasından da etkilenir.
 
-Size boilers and pipes for **the steam consumption rate during operation**, rather than relying only on the Steam Hatch's 64,000 L capacity.
+Kazanları ve boruları yalnızca Buhar Kapağının 64.000 L kapasitesine güvenmek yerine **çalışma sırasındaki buhar tüketim oranına** göre boyutlandır.
 
-Use Waila to check the operating steam consumption rate and watch whether stored steam keeps falling during continuous processing. If an interface uses L/t, multiply by 20 to obtain L/s at normal 20 TPS. Use matching units when comparing pipe throughput. If supply is insufficient, lower the parallel limit in the GUI, then expand boiler production or improve the pipes.
+Çalışma sırasındaki buhar tüketim oranını görmek ve sürekli işleme boyunca depolanan buharın düşmeye devam edip etmediğini izlemek için Waila kullan. Bir arayüz L/t kullanıyorsa normal 20 TPS'de L/s elde etmek için 20 ile çarp. Boru kapasitesini karşılaştırırken aynı birimleri kullan. Besleme yetersizse GUI'deki paralel sınırını düşür, ardından kazan üretimini genişlet veya boruları iyileştir.
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation without returning consumed ingredients. Before upgrading to high pressure or selecting a faster mode, check steam production and pipe throughput.
+> İşleme sırasında buharın bitmesi, tüketilen malzemeleri geri vermeden mevcut işlemi iptal eder. Yüksek basınca yükseltmeden veya daha hızlı bir mod seçmeden önce buhar üretimini ve boru kapasitesini kontrol et.
 
-## Upgrading to High Pressure
+## Yüksek Basınca Yükseltme
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31087" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. However, **all Bronze Plated Bricks, Bronze Gear Boxes, Bronze Pipe Casings, and Bronze Fireboxes must be replaced with their steel counterparts in the table**. Replacing only the casings or Fireboxes, or mixing components from both tiers, fails the tier check.
+Yüksek basınçlı yapı aynı boyutları, kapak konumlarını ve kontrolcüyü korur. Ancak **tüm Bronz Kaplamalı Tuğlalar, Bronz Dişli Kutuları, Bronz Boru Muhafazaları ve Bronz Külhanlar tablodaki çelik karşılıklarıyla değiştirilmelidir**. Yalnızca kasaları veya Külhanları değiştirmek ya da iki kademeden bileşenleri karıştırmak kademe kontrolünü başarısız kılar.
 
-Stop processing and ingredient input before upgrading. After replacing the components, check the structure again and confirm that the machine reports the high pressure tier before restoring steam and production.
+Yükseltmeden önce işlemeyi ve malzeme girdisini durdur. Bileşenleri değiştirdikten sonra yapıyı yeniden kontrol et ve buhar ile üretimi geri yüklemeden önce makinenin yüksek basınç kademesini bildirdiğini doğrula.
 
-High pressure is a structure tier, not a separate steam fluid. The machine still uses ordinary steam, and the existing Steam Hatch and steam buses can be reused. No electric Energy Hatch is needed. The upgrade doubles speed and steam consumption rate, while the maximum remains eight parallels.
+Yüksek basınç ayrı bir buhar sıvısı değil, bir yapı kademesidir. Makine yine sıradan buhar kullanır ve mevcut Buhar Kapağı ile buharlı yollar yeniden kullanılabilir. Elektrikli Enerji Kapağı gerekmez. Yükseltme hızı ve buhar tüketim oranını Çift katına çıkarır, maksimum ise sekiz paralel olarak kalır.
 
-## Automation and Sorting
+## Otomasyon ve Sıralama
 
-Steam Input and Output Buses each have four item slots. They do not automatically pull ingredients from adjacent chests or push products into them. Simply placing a chest next to a bus does not automate transport.
+Buharlı Giriş ve Çıkış Yollarının her biri dört eşya yuvasına sahiptir. Yanlarındaki sandıklardan malzemeleri otomatik olarak çekmez veya ürünleri onlara itmez. Bir yolun yanına sandık koymak taşımayı otomatikleştirmez.
 
-- **Input:** Use hoppers, GT Item Pipes, Conveyor Modules, Item Conduits, or similar equipment to insert items through the Input Bus's front face.
-- **Output:** Actively extract from the Output Bus's front face with pipes, conduits, or Conveyor Modules, then send the products to storage or the next machine.
-- **Steam:** Use fluid pipes to deliver boiler output to the Steam Hatch. Item buses cannot receive steam.
-- **Sorting:** Filter the transport equipment for the intended ingredients so items that the current mode cannot process do not fill the input slots.
+- **Girdi:** Eşyaları Giriş Yolunun ön yüzünden vermek için huniler, GT Eşya Boruları, Konveyör Modülleri, Eşya Kanalları veya benzeri ekipman kullan.
+- **Çıktı:** Borular, kanallar veya Konveyör Modülleri ile Çıkış Yolunun ön yüzünden aktif olarak çek ve ürünleri depolamaya veya bir sonraki makineye gönder.
+- **Buhar:** Kazan çıktısını Buhar Kapağına ulaştırmak için sıvı boruları kullan. Eşya yolları buhar alamaz.
+- **Sıralama:** Amaçlanan malzemeler için taşıma ekipmanını filtrele, böylece mevcut modun işleyemeyeceği eşyalar giriş yuvalarını doldurmaz.
 
-If you frequently need to process metals, food, and other materials at the same time, use separate machines or switch modes when changing ingredients. More Input Buses increase the item buffer but do not raise the parallel limit. More Output Buses can reduce output blockages.
+Metalleri, yemekleri ve diğer materyalleri sık sık aynı anda işlemen gerekiyorsa ayrı makineler kullan veya malzeme değiştirirken modu değiştir. Daha fazla Giriş Yolu eşya tamponunu artırır ancak paralel sınırını yükseltmez. Daha fazla Çıkış Yolu çıktı tıkanıklıklarını azaltabilir.
 
-## Troubleshooting
+## Sorun Giderme
 
-| Symptom | What to check |
+| Belirti | Kontrol edilecekler |
 | --- | --- |
-| Incomplete structure | Controller at the front center of the second layer; correct positions for four Gear Boxes, four Pipe Casings, and three Fireboxes |
-| Structure tier mismatch | Casings, Gear Boxes, Pipe Casings, and Fireboxes must all be of the same tier; check for bronze components left after upgrading |
-| Missing Steam Hatch or bus | Exactly one Steam Hatch and at least one steam Input and Output Bus; check for incorrect hatch types |
-| Structure fails after adding buses | At least two actual casings must remain; buses cannot replace Gear Boxes, Pipe Casings, or Fireboxes |
-| Ingredients present but no recipe found | Correct mode, a valid recipe for the item in that mode, and enough output space |
-| Stops after starting despite stored steam | Sufficient sustained supply, pipe restrictions or shared supply, and whether the parallel count, high pressure tier, or faster mode exceeds boiler capacity |
-| Chest beside a bus does not transfer items | Steam buses do not automatically pull or push items; check active transport equipment, connection faces, directions, and filters |
-| Fewer than eight recipes processed | Enough ingredients for the same recipe, the GUI parallel limit, and output space for all products |
-| Steam consumption increases after upgrading | High pressure doubles consumption rate, and Blasting or Smoking can double it again; increase the steam supply accordingly |
+| Eksik yapı | Kontrolcü ikinci katmanın ön ortasında mı; dört Dişli Kutusu, dört Boru Muhafazası ve üç Külhanın konumları doğru mu |
+| Yapı kademesi uyuşmazlığı | Kasalar, Dişli Kutuları, Boru Muhafazaları ve Külhanların tümü aynı kademede olmalı; yükseltmeden sonra kalan bronz bileşenleri kontrol et |
+| Eksik Buhar Kapağı veya yol | Tam olarak bir Buhar Kapağı ve en az bir buharlı Giriş ve Çıkış Yolu; yanlış kapak türlerini kontrol et |
+| Yol ekledikten sonra yapı bozuluyor | En az iki gerçek kasa kalmalı; yollar Dişli Kutuları, Boru Muhafazaları veya Külhanların yerine geçemez |
+| Malzemeler var ama tarif bulunamıyor | Doğru mod, eşyanın o modda geçerli bir tarifi ve yeterli çıktı alanı |
+| Depolanan buhara rağmen başladıktan sonra duruyor | Yeterli sürekli besleme, boru kısıtlamaları veya paylaşılan besleme ve paralel sayısı, yüksek basınç kademesi ya da daha hızlı modun kazan kapasitesini aşıp aşmadığı |
+| Yolun yanındaki sandık eşya taşımıyor | Buharlı yollar eşyaları otomatik çekmez veya itmez; aktif taşıma ekipmanını, bağlantı yüzlerini, yönlerini ve filtreleri kontrol et |
+| Sekizden az tarif işleniyor | Aynı tarif için yeterli malzeme, GUI paralel sınırı ve tüm ürünler için çıktı alanı |
+| Yükseltmeden sonra buhar tüketimi artıyor | Yüksek basınç tüketim oranını Çift katına çıkarır ve Eritme veya Tütsüleme bunu tekrar Çift katına çıkarabilir; buhar beslemesini buna göre artır |
 
-See [Multiblock Machines](../multiblocks_index.md) for general structure checks and tool controls.
+Genel yapı kontrolleri ve araç kullanımı için [Multibloklar Makineleri](../multiblocks_index.md) sayfasına bak.
 
-## References
+## Kaynaklar
 
 - [GTNH Wiki: Steam Hearth](https://wiki.gtnewhorizons.com/wiki/Steam_Hearth)

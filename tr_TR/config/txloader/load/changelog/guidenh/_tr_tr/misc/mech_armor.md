@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Mechanical Armor
+  title: Mekanik Zırh
   parent: misc.md
   icon: minecraft:diamond_chestplate
 categories:
-    - Miscellaneous Armor
+    - Muhtelif Zırh
 author: Skorched
 date: 2026-05-20
 ---
 
-# Mechanical Armor
-<Color id="RED">Mechanical Armor</Color> is a new set of powerful tech-based armor that can scale with your progression! First constructed in HV, you can unlock new augments, frames and energy cores as you progress through the tiers to become more powerful as you go.
+# Mekanik Zırh
+<Color id="RED">Mekanik Zırh</Color>, ilerlemenle birlikte ölçeklenebilen, teknoloji tabanlı güçlü yeni bir zırh setidir! İlk kez HV'de üretilir; kademelerde ilerledikçe yeni yükseltmelerin, çerçevelerin ve enerji çekirdeklerinin kilidini açarak giderek daha güçlü olabilirsin.
 
-Different frames will have different numbers of **Movement**, **Protection**, **Utility**, and **Prismatic** slots, which determine which augment types can be placed into the armor! Choose your frames wisely to make use of those critical slots!
+Farklı çerçeveler farklı sayılarda **Hareket**, **Koruma**, **Yardımcı** ve **Prizmatik** yuvaya sahip olur; bu yuvalar zırha hangi yükseltme türlerinin yerleştirilebileceğini belirler! Bu kritik yuvalardan yararlanmak için çerçevelerini akıllıca seç!
 
-Expect this armor set to cover the same range and abilities as the current tech armors (NanoSuit, QuantumSuit etc.) with similar tiering
+Bu zırh setinin, mevcut teknoloji zırhlarıyla (NanoSuit, QuantumSuit vb.) benzer kademelendirmeyle aynı yelpazeyi ve yetenekleri kapsaması beklenir.
 
-This guide will not go in depth on the specifics, those are for you to discover as you progress!
+Bu kılavuz ayrıntılara derinlemesine girmez; ilerledikçe bunları sen keşfedeceksin!

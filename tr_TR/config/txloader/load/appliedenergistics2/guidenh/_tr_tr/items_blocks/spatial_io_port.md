@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Spatial IO Port
+  title: Uzamsal G/Ç Bağlantı Noktası
   icon: appliedenergistics2:tile.BlockSpatialIOPort
 categories:
 - devices 
@@ -9,14 +9,14 @@ item_ids:
 - appliedenergistics2:tile.BlockSpatialIOPort
 ---
 
-# Spatial I/O Port
+# Uzamsal G/Ç Bağlantı Noktası
 
 <BlockImage id="appliedenergistics2:tile.BlockSpatialIOPort" scale="4" />
 
-The Spatial I/O Port is used by [Spatial I/O](../ae2_mechanics/spatial_io.md). It holds [spatial cells](spatial_cells.md) and controls spatial transfer operations.
+Uzamsal G/Ç Bağlantı Noktası, [Uzamsal G/Ç](../ae2_mechanics/spatial_io.md) tarafından kullanılır. [Uzamsal hücreleri](spatial_cells.md) tutar ve uzamsal aktarım işlemlerini kontrol eder.
 
-Its cell slot can be filled or emptied by item transport devices such as hoppers and AE2 buses, making automation possible.
+Hücre yuvası, huniler ve AE2 veriyolları gibi eşya taşıma cihazlarıyla doldurulabilir veya boşaltılabilir; bu da otomasyonu mümkün kılar.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:tile.BlockSpatialIOPort" />

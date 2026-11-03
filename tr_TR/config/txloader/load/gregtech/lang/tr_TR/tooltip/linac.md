@@ -1,20 +1,20 @@
-Accelerates particle beams to higher energies by passing them through an electric field
-Electrically neutral {color_mechanic:Particles} are therefore unaffected
+Parçacık ışınlarını bir elektrik alanından geçirerek daha yüksek enerjilere hızlandırır
+Elektriksel olarak nötr {color_mechanic:Parçacıklar} bu nedenle etkilenmez
 {lang:gtnhlanth.tt.beaminfo}
 {hr}
-Requires {aqua:Length * 1,000 {var:fluidUnit}/s} of {aqua:Coolant} to run, returns as {red:Hot Coolant}
+Çalışmak için {aqua:Uzunluk * 1,000 {var:fluidUnit}/s} {aqua:Soğutucu} gerektirir, {red:Sıcak Soğutucu} olarak geri döner
 {lang:gtnhlanth.tt.coolant.oxygen}
 {lang:gtnhlanth.tt.coolant.nitrogen}
 {lang:gtnhlanth.tt.coolant.coolant}
 {lang:gtnhlanth.tt.coolant.Scoolant}
 {hr}
-Increasing the length/power increases the {blue:Output Beam Energy} but decreases the {dark_green:Output Beam Focus}
-Preserve {dark_green:Beam Focus} more effectively with lower temperature {aqua:Coolant}
+Uzunluğu/gücü artırmak {blue:Çıktı Işın Enerjisini} artırır ancak {dark_green:Çıktı Işın Odaklanmasını} azaltır
+{dark_green:Işın Odaklanmasını} daha düşük sıcaklıkta {aqua:Soğutucu} ile daha etkili koru
 {hr}
-{blue:Output Beam Energy}{color_formula: = max(}{color_note:V}{white:, 50) * 10^}{color_note:IE}
-where {color_note:V}{color_formula: = 0.25 * (Length - 1) * cbrt({color_eu_usage:{EU/t} Provided})}
-and {color_note:IE}{color_formula: = 1 + min({blue:Input Beam Energy}, 7500) / }{blue:Max Particle Energy}
+{blue:Çıktı Işın Enerjisi}{color_formula: = max(}{color_note:V}{white:, 50) * 10^}{color_note:IE}
+burada {color_note:V}{color_formula: = 0.25 * (Uzunluk - 1) * cbrt({color_eu_usage:{EU/t} Sağlanan})}
+ve {color_note:IE}{color_formula: = 1 + min({blue:Girdi Işın Enerjisi}, 7500) / }{blue:Maks Parçacık Enerjisi}
 {hr}
-{dark_green:Output Beam Focus}{color_formula: = (dark_green:Input Beam Focus} + {color_note:Machine Focus})/2} if {dark_green:Input Beam Focus}{color_formula: > {color_note:Machine Focus}}
-{dark_green:Output Beam Focus}{color_formula: = {dark_green:Input Beam Focus} * {color_note:Machine Focus}/100} if {dark_green:Input Beam Focus}{color_formula: <= {color_note:Machine Focus}}
-where {color_note:Machine Focus}{color_formula: = min(90, max(5, (-0.9 * (Length-1) * 1.1^(0.2 * {aqua:Coolant Temperature}) + 110)))}
+{dark_green:Çıktı Işın Odaklanması}{color_formula: = (dark_green:Girdi Işın Odaklanması} + {color_note:Makine Odaklanması})/2} eğer {dark_green:Girdi Işın Odaklanması}{color_formula: > {color_note:Makine Odaklanması}}
+{dark_green:Çıktı Işın Odaklanması}{color_formula: = {dark_green:Girdi Işın Odaklanması} * {color_note:Makine Odaklanması}/100} eğer {dark_green:Girdi Işın Odaklanması}{color_formula: <= {color_note:Makine Odaklanması}}
+burada {color_note:Makine Odaklanması}{color_formula: = min(90, max(5, (-0.9 * (Uzunluk-1) * 1.1^(0.2 * {aqua:Soğutucu Sıcaklığı}) + 110)))}

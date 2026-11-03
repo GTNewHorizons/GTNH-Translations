@@ -1,48 +1,48 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Network Interactions
+  title: Ağ Etkileşimleri
   icon: appliedenergistics2:item.ItemMultiPart:16
 ---
 
-# Network Interactions
+# Ağ Etkileşimleri
 
-# Independent ME Networks
-In vanilla AE2, an ME Network is a group of devices connected by [cables](./channels.md) and other channel-carrying parts. In theory, even a single cable can be a network.
+# Bağımsız ME Ağları
+Vanilla AE2'de ME Ağı, [kablolar](./channels.md) ve kanal taşıyan diğer parçalarla birbirine bağlanan cihazlar grubudur. Teoride tek bir kablo bile bir ağ olabilir.
 
-The defining trait of one ME Network is that all of its cables and devices draw [channels](./channels.md) from the same set of controllers.
+Bir ME Ağını tanımlayan özellik, tüm kablo ve cihazlarının [kanalları](./channels.md) aynı kontrolcü kümesinden çekmesidir.
 
-From this, you can infer that networks which are not connected to each other through cables or channel-carrying devices do not transmit channels to each other, and can therefore be treated as independent ME Networks.
+Bundan, kablolar veya kanal taşıyan cihazlar aracılığıyla birbirine bağlı olmayan ağların birbirine kanal iletmediği ve dolayısıyla bağımsız ME Ağları olarak ele alınabileceği sonucunu çıkarabilirsin.
 
-* Naturally, two networks that are physically far apart and not connected via [Wireless Connectors](../items_blocks/wireless_connectors.md) or a [Quantum Ring](./quantum_bridge.md) are independent.
-* Two ME Networks connected only by <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/> or <ItemLink id="appliedenergistics2:item.ItemMultiPart:120" showIcon="left"/> are also treated as independent networks. Quartz Fiber transmits power but not channels, while Cable Anchors transmit neither power nor channels and are only used to separate adjacent cables. Cables of different colors also do not connect to each other; see [Channels](./channels.md) for details.
+* Doğal olarak, fiziksel olarak birbirinden uzakta olan ve [Kablosuz Bağlayıcılar](../items_blocks/wireless_connectors.md) veya bir [Kuantum Halkası](./quantum_bridge.md) ile bağlanmayan iki ağ bağımsızdır.
+* Yalnızca <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/> veya <ItemLink id="appliedenergistics2:item.ItemMultiPart:120" showIcon="left"/> ile bağlanan iki ME Ağı da bağımsız ağ olarak kabul edilir. Kuvars Lifi enerji iletir ama kanal iletmez; Kablo Çapaları ise ne enerji ne de kanal iletir ve yalnızca bitişik kabloları ayırmak için kullanılır. Farklı renkteki kablolar da birbirine bağlanmaz; ayrıntılar için [Kanallar](./channels.md) sayfasına bak.
 
-# Interaction Between Networks
-Networks are not only independent. They can also interact with each other, and these interactions can be very flexible. They are the basis of most AE2 automation systems. Broadly speaking, as long as two independent ME Networks affect each other, that can be considered network interaction. Using an ME P2P tunnel to transmit channels in [P2P](./p2p_tunnels.md) is one example.
+# Ağlar Arası Etkileşim
+Ağlar yalnızca bağımsız değildir. Birbirleriyle de etkileşebilirler ve bu etkileşimler çok esnek olabilir. Çoğu AE2 otomasyon sisteminin temeli budur. Genel olarak, iki bağımsız ME Ağı birbirini etkilediği sürece bu, ağ etkileşimi sayılabilir. Kanalları [P2P](./p2p_tunnels.md) ile iletmek için bir ME P2P tüneli kullanmak bunun bir örneğidir.
 
-> See also: [Subnetworks](./subnetworks.md)
+> Ayrıca bak: [Alt Ağlar](./subnetworks.md)
 
-Interaction between ME Networks mainly depends on [Interfaces](../items_blocks/interface.md) and [Storage Buses](../items_blocks/storage_bus.md), whose behavior gives different networks different roles.
+ME Ağları arasındaki etkileşim esas olarak [Arayüzler](../items_blocks/interface.md) ve [Depolama Veriyollarına](../items_blocks/storage_bus.md) bağlıdır; bunların davranışı farklı ağlara farklı roller verir.
 
-## Typical Read Interaction
+## Tipik Okuma Etkileşimi
 
-Two ME Networks usually have a structure like this:
+İki ME Ağı genellikle şöyle bir yapıya sahiptir:
 
 <GameScene zoom="4" width="400" rotateY={0} rotateX={0}>
   <ImportStructure src="../assets/structures/network_interaction_basic_interacton.snbt" />
 </GameScene>
 
-Because of how Interfaces and Storage Buses work, the blue network is usually the side being accessed, while the white network is usually the side doing the accessing. In this setup, the blue network is treated by the white network as a large "container", and the white network can [read from or write to](./import_export_storage.md) it.
+Arayüzlerin ve Depolama Veriyollarının çalışma şekli nedeniyle mavi ağ genellikle erişilen taraf, beyaz ağ ise genellikle erişen taraftır. Bu kurulumda mavi ağ, beyaz ağ tarafından büyük bir "kap" olarak görülür ve beyaz ağ ondan [okuyabilir veya ona yazabilir](./import_export_storage.md).
 
-## Nested Interaction
-The structure above can be nested into multiple layers. However, this arrangement has a narrow range of practical use cases, and careless use can consume a very large amount of hardware resources.
+## İç İçe Etkileşim
+Yukarıdaki yapı birden çok katman halinde iç içe geçirilebilir. Ancak bu düzenin pratik kullanım alanı dardır ve dikkatsiz kullanım çok büyük miktarda donanım kaynağı tüketebilir.
 
 <GameScene zoom="3" width="400" rotateY={0} rotateX={0}>
   <ImportStructure src="../assets/structures/network_interaction_nesting_interacton.snbt" />
 </GameScene>
 
-## Mutual Reading
-If two networks can read each other's contents through Storage Buses, then those two ME Networks are mutually reading from one another. In some cases this is a technical workaround for a special need, but in most cases it only causes storage confusion and can severely hurt game performance.
+## Karşılıklı Okuma
+İki ağ, Depolama Veriyolları aracılığıyla birbirinin içeriğini okuyabiliyorsa bu iki ME Ağı karşılıklı olarak birbirinden okuyor demektir. Bazı durumlarda bu, özel bir ihtiyaç için teknik bir çözümdür; ancak çoğu durumda yalnızca depolama karmaşasına yol açar ve oyun performansını ciddi şekilde düşürebilir.
 
 <GameScene zoom="3" width="400" rotateY={0} rotateX={0}>
   <ImportStructure src="../assets/structures/network_interaction_network_read.snbt" />

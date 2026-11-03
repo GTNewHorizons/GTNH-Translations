@@ -1,280 +1,280 @@
 ---
 navigation:
-  title: Multiblock Machines
+  title: Multiblok Makineleri
   icon: structurelib:item.structurelib.constructableTrigger
   parent: ./gtnh_basics_index.md
 ---
 
-# Multiblock Machines
+# Multiblok Makineleri
 
 > [!NOTE]
-> Some links are broken due to their pages not being available at this time. Help support GTNH's development by [contributing to the guide](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
+> Bazı sayfalar şu anda mevcut olmadığı için bazı bağlantılar bozuk. [Rehbere katkıda bulunarak](https://github.com/GTNewHorizons/GTNH-Guide-Pack) GTNH'nin geliştirilmesine destek ol!
 
-A **Multiblock** is a machine built from two or more blocks. Sizes range from small Thermal Refineries to massive superstructures like the Forge of the Gods. They typically serve a very specific purpose and are always better than their singleblock equivalent (ie. runs faster, better recipes), if one exists. Most multiblocks have their own unique casings and structure, but the input/output (I/O) of items, fluids, and energy is nearly universal. Items are transferred via buses, fluids are transferred via hatches, and power is transferred via energy/dynamo hatches. There is also the maintenance hatch for repairing the machine and the muffler hatch for releasing pollution. Use the tooltip and/or the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to see which buses/hatches are necessary and where they fit into the overall structure.
+Bir **Multiblok**, iki veya daha fazla bloktan inşa edilen bir makinedir. Boyutları küçük Termal Rafinerilerden Forge of the Gods gibi devasa üst yapılara kadar uzanır. Genellikle çok spesifik bir amaca hizmet ederler ve eğer varsa, tek blok karşılıklarından her zaman daha iyidirler (ör. daha hızlı çalışır, daha iyi tarifler). Çoğu multiblokun kendine özgü kasaları ve yapısı vardır, ancak eşya, sıvı ve enerji giriş/çıkışı (I/O) neredeyse evrenseldir. Eşyalar yollar aracılığıyla, sıvılar kapaklar aracılığıyla, güç ise enerji/dinamo kapakları aracılığıyla aktarılır. Ayrıca makineyi onarmak için bakım kapağı ve kirliliği salmak için egzoz çıkışı vardır. Hangi yolların/kapakların gerekli olduğunu ve genel yapıya nerede oturduklarını görmek için ipucunu ve/veya <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan.
 
 > [!IMPORTANT]
-> Not all multiblocks in GTNH are from GregTech. There are a select few from other mods (ie. Railcraft Boilers and Smelteries) that do not follow any of the information on this page. Visit their individual pages for more details.
+> GTNH'deki tüm multibloklar GregTech'ten değildir. Bu sayfadaki bilgilerin hiçbirine uymayan, diğer modlardan gelen birkaç tanesi vardır (ör. Railcraft Kazanları ve İzabe Ocakları). Daha fazla ayrıntı için kendi sayfalarını ziyaret et.
 
 ---
 
-# Construction
+# Yapım
 
-Although multiblocks come in a variety of shapes, sizes, and casings, there are many common components for the I/O of items, fluids, and energy. The following subsections describe the purpose and function of each one. Note that multiblocks rarely require ALL of these to form and that there may be restrictions on their amounts and locations. Always check the tooltip and <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> for detailed information about a multiblock's construction requirements.
+Multibloklar çeşitli şekil, boyut ve kasalarda olsa da eşya, sıvı ve enerji I/O'su için birçok ortak bileşen vardır. Aşağıdaki alt bölümler her birinin amacını ve işlevini açıklar. Multiblokların nadiren bunların TAMAMINI oluşum için gerektirdiğini ve miktarları ile konumları üzerinde kısıtlamalar olabileceğini unutma. Bir multiblokun yapım gereksinimleri hakkında ayrıntılı bilgi için her zaman ipucunu ve <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kontrol et.
 
-## Controller
+## Kontrolcü
 
-The controller is the heart of the multiblock. It determines the placement and orientation of the entire structure as well as the operational settings of the machine. Right-click the controller to open the GUI which contains (1) the name of the machine at the top, (2) the status of the machine, (3) a sound toggle, (4) a few configurable parameters, (5) the power panel, and (6) any manual overrides. A short description of each of the configurable parameters and manual overrides is provided below.
+Kontrolcü multiblokun kalbidir. Tüm yapının yerleşimini ve yönünü olduğu kadar makinenin çalışma ayarlarını da belirler. GUI'yi açmak için kontrolcüye sağ tıkla; burada (1) üstte makinenin adı, (2) makinenin durumu, (3) bir ses açma/kapama düğmesi, (4) birkaç yapılandırılabilir parametre, (5) güç paneli ve (6) varsa manuel geçersiz kılmalar bulunur. Yapılandırılabilir parametrelerin ve manuel geçersiz kılmaların her birinin kısa bir açıklaması aşağıda verilmiştir.
 
-- **Void Mode** - Determines the behavior of the multiblock when there is no room in the output bus and/or output hatch. Choose to void only items, only fluids, or both. Void nothing means temporarily pause the machine until there is enough room for all products.
-- **Input Separation** - Prevents SOLID ingredients in different input buses from being used in the same recipe, including any programmed circuits. This is particularly useful for multiblocks with a high potential for recipe conflicts.
-- **Batch Mode** - Run multiples of the same recipe as one large recipe. This does NOT provide any sort of time discount or increase the throughput of the machine. The purpose is to reduce lag and improve TPS by lowering the number of recipe checks.
-- **Lock Recipe** - Prevent the multiblock from running other recipes. This can be set while a multiblock is currently running, or prior to the desired recipe.
-- **Update Structure** - Force a structure check. Multiblocks already do periodic structure checks, but this can save a few seconds (or minutes) of waiting.
-- **Power Switch** - Enable or disable the multiblock. This does NOT interrupt active recipes.
+- **Yok Etme Modu** - Çıkış yolunda ve/veya çıkış kapağında yer olmadığında multiblokun davranışını belirler. Yalnızca eşyaları, yalnızca sıvıları veya ikisini birden yok etmeyi seç. Hiçbir şeyi yok etme, tüm ürünler için yeterli yer olana kadar makineyi geçici olarak duraklat anlamına gelir.
+- **Giriş Ayrıştırma** - Farklı giriş yollarındaki KATI bileşenlerin, programlanmış devreler dahil, aynı tarifte kullanılmasını engeller. Bu, tarif çakışması potansiyeli yüksek multibloklar için özellikle kullanışlıdır.
+- **Toplu Mod** - Aynı tarifin katlarını tek bir büyük tarif olarak çalıştırır. Bu, hiçbir şekilde zaman indirimi sağlamaz veya makinenin verimini artırmaz. Amacı, tarif kontrol sayısını azaltarak lag'i düşürmek ve TPS'yi iyileştirmektir.
+- **Tarifi Kilitle** - Multiblokun başka tarifler çalıştırmasını engeller. Bu, multiblok çalışırken veya istediğin tariften önce ayarlanabilir.
+- **Yapıyı Güncelle** - Yapı kontrolünü zorlar. Multibloklar zaten periyodik yapı kontrolü yapar, ancak bu birkaç saniye (veya dakika) beklemekten kurtarır.
+- **Güç Anahtarı** - Multibloku etkinleştirir veya devre dışı bırakır. Bu, aktif tarifleri KESMEZ.
 
-There are two options inside the power panel. The first is setting the maximum number of parallels which defaults to the maximum available. There is not much reason to ever lower it or manually set the value, unless there is a very specific scenario that requires absolute precision over energy efficiency. The second option toggles powerfail events which includes the message in chat and the blinking powerfail icon that appears when looking at the controller from a distance. In multiplayer, use the first command to invite other players to the same SpaceProject team and share powerfail information. Use the second command to immediately clear all powerfail icons from the world.
+Güç panelinde iki seçenek vardır. Birincisi, varsayılan olarak mevcut maksimuma ayarlanan maksimum paralel sayısını belirlemektir. Enerji verimliliği üzerinde mutlak hassasiyet gerektiren çok özel bir senaryo yoksa, bunu düşürmek veya değeri elle ayarlamak için pek bir sebep yoktur. İkinci seçenek, sohbetteki mesajı ve kontrolcüye uzaktan bakıldığında görünen yanıp sönen güç kesintisi simgesini içeren güç kesintisi olaylarını açar/kapatır. Çok oyunculu modda, diğer oyuncuları aynı SpaceProject ekibine davet etmek ve güç kesintisi bilgilerini paylaşmak için ilk komutu kullan. Dünyadaki tüm güç kesintisi simgelerini hemen temizlemek için ikinci komutu kullan.
 
 ```
 /sp invite <name>
 /powerfails clear
 ```
 
-There are also a few unique interactions and shortcuts to changing the operational settings of the machine without having to enter the GUI. All of these involve right-clicking the controller with some sort of GregTech tool in hand. This reduces the durability of the tool, but it works very well with the Ring of Loki to quickly configure many machines at the same time.
+GUI'ye girmeden makinenin çalışma ayarlarını değiştirmenin birkaç özgün etkileşimi ve kısayolu da vardır. Bunların hepsi elinde bir tür GregTech aleti varken kontrolcüye sağ tıklamayı içerir. Bu, aletin dayanıklılığını azaltır, ancak aynı anda birçok makineyi hızlıca yapılandırmak için Ring of Loki ile çok iyi çalışır.
 
-- **Wrench** - Rotate the controller and therefore the entire structure. Sneak right-click to flip the controller horizontally.
-- **Screwdriver** - Enable/disable input separation. Also used to change the mode of certain multiblocks.
-- **Wire Cutters** - Enable/disable batch mode.
-- **Soft Mallet** - Enable/disable the machine.
-- **Hammer** - Enable/disable sound muffling.
-- **Soldering Iron** - Set the strength (strong/weak) of the redstone signal from covers. This is not exclusive to controllers.
+- **İngiliz Anahtarı** - Kontrolcüyü ve dolayısıyla tüm yapıyı döndürür. Kontrolcüyü yatay olarak çevirmek için eğilerek sağ tıkla.
+- **Lehim Demiri** - Giriş ayrıştırmasını açar/kapatır. Ayrıca belirli multiblokların modunu değiştirmek için kullanılır.
+- **Tel Makası** - Toplu modu açar/kapatır.
+- **Yumuşak Tokmak** - Makineyi açar/kapatır.
+- **Çekiç** - Ses susturmayı açar/kapatır.
+- **Lehim Demiri** - Kaplamalardan gelen kızıltaş sinyalinin gücünü (güçlü/zayıf) ayarlar. Bu yalnızca kontrolcülere özgü değildir.
 
-## Buses
+## Yollar
 
-<ItemImage id="minecraft:chest" /> **Input Bus** / <ItemImage id="minecraft:chest" /> **Output Bus**
+<ItemImage id="minecraft:chest" /> **Giriş Yolu** (Sandık simgeli) / <ItemImage id="minecraft:chest" /> **Çıkış Yolu** (Sandık simgeli)
 
-Input and output buses are for inserting and extracting SOLID ingredients, respectively. Fluids and gases cannot be supplied via cells, buckets, or similar containers. Input buses do not automatically pull from adjacent inventories, but output buses automatically push to adjacent inventories, if one exists. The tier of the bus determines the available capacity or total number of item slots:
+Giriş ve çıkış yolları sırasıyla KATI bileşenleri yerleştirmek ve çıkarmak içindir. Sıvılar ve gazlar hücreler, kovalar veya benzeri kaplar aracılığıyla sağlanamaz. Giriş yolları bitişik envanterlerden otomatik olarak çekmez, ancak çıkış yolları varsa bitişik envanterlere otomatik olarak iteler. Yolun kademesi mevcut kapasiteyi veya toplam eşya yuvası sayısını belirler:
 
-| Tier | ULV | LV | MV | HV+ |
+| Kademe | ULV | LV | MV | HV+ |
 |------|-----|----|----|-----|
-| Slots | 1 | 4 | 9 | 16 |
+| Yuvalar | 1 | 4 | 9 | 16 |
 
-Right-click an input bus with a screwdriver to enable/disable the filter which prevents any ingredients without a use in the multiblock from entering the bus. Sneak right-click the input bus with a screwdriver to enable/disable sorting and limiting mode. Sorting mode constantly pushes items to the top-most slots while limiting mode prevents more than one stack of an item from entering the bus. There is also a filter in the GUI of output buses to lock them to specific items (drag from NEI).
+Multiblokta kullanımı olmayan hiçbir bileşenin yola girmesini engelleyen filtreyi açmak/kapatmak için bir giriş yoluna tornavidayla sağ tıkla. Sıralama ve sınırlama modunu açmak/kapatmak için giriş yoluna tornavidayla eğilerek sağ tıkla. Sıralama modu eşyaları sürekli en üstteki yuvalara iterken, sınırlama modu bir eşyanın birden fazla yığınının yola girmesini engeller. Çıkış yollarının GUI'sinde onları belirli eşyalara kilitlemek için bir filtre de vardır (NEI'den sürükle).
 
-- **Super Buses** - An upgrade from regular input/output buses although the only difference is their slot capacity. Regular buses are capped at 16 slots while super buses range from 32-160 slots. The problem, however, is that they are much more expensive and require a Tier+3 regular input bus to craft. The LV super bus, for example, is crafted from five LV conveyor modules, two LV motors, and an EV input bus.
+- **Süper Yollar** - Normal giriş/çıkış yollarının bir yükseltmesidir, ancak tek fark yuva kapasiteleridir. Normal yollar 16 yuvayla sınırlıyken süper yollar 32-160 yuva arasında değişir. Ancak sorun şu ki çok daha pahalıdırlar ve üretmek için Kademe+3 normal bir giriş yolu gerektirirler. Örneğin LV süper yol, beş LV konveyör modülü, iki LV motor ve bir EV giriş yolundan üretilir.
 
-- **Stocking Input Bus (ME)** and **Output Bus (ME)** - An even better upgrade from regular input/output buses because they connect directly to an AE2 network for seamless I/O of items. Right-click with wire cutters to allow ME channels to connect to any side, including other buses/hatches. The advanced version even supports auto-pull which allows it to stock itself with any item in the network.
+- **Stoklayan Giriş Yolu (ME)** ve **Çıkış Yolu (ME)** - Normal giriş/çıkış yollarının daha da iyi bir yükseltmesidir çünkü eşyaların sorunsuz I/O'su için doğrudan bir AE2 ağına bağlanırlar. ME kanallarının diğer yollar/kapaklar dahil herhangi bir tarafa bağlanmasına izin vermek için tel makasıyla sağ tıkla. Gelişmiş sürüm, ağdaki herhangi bir eşyayla kendini stoklamasına olanak tanıyan otomatik çekmeyi bile destekler.
 
-## Hatches
+## Kapaklar
 
-<ItemImage id="minecraft:cauldron" /> **Input Hatch** / <ItemImage id="minecraft:cauldron" /> **Output Hatch**
+<ItemImage id="minecraft:cauldron" /> **Giriş Kapağı** / <ItemImage id="minecraft:cauldron" /> **Çıkış Kapağı**
 
-Input and output hatches are for inserting and extracting FLUID ingredients, respectively. Input hatches do not automatically pull from adjacent inventories, but output hatches automatically push to adjacent inventories, if one exists. The tier of the hatch determines the available capacity. Input hatches can technically "hold" much more than these amounts by placing a stack of large fluid cells into their inventory.
+Giriş ve çıkış kapakları sırasıyla SIVI bileşenleri yerleştirmek ve çıkarmak içindir. Giriş kapakları bitişik envanterlerden otomatik olarak çekmez, ancak çıkış kapakları varsa bitişik envanterlere otomatik olarak iteler. Kapağın kademesi mevcut kapasiteyi belirler. Giriş kapakları, envanterlerine bir yığın büyük sıvı hücresi koyarak teknik olarak bu miktarlardan çok daha fazlasını "tutabilir".
 
-| Tier | ULV | LV | MV | HV | EV | IV | ... |
+| Kademe | ULV | LV | MV | HV | EV | IV | ... |
 |------|-----|----|----|----|----|----|-----|
-| Capacity | 8,000 L | 16,000 L | 32,000 L | 64,000 L | 128,000 L | 256,000 L | ... |
+| Kapasite | 8.000 L | 16.000 L | 32.000 L | 64.000 L | 128.000 L | 256.000 L | ... |
 
-Right-click an output hatch with a screwdriver to change whether to output steam and/or other fluids. Alternatively, set the filter in the GUI of the output hatch to lock it to a specific fluid (drag from NEI).
+Buhar ve/veya diğer sıvıların çıkıp çıkmayacağını değiştirmek için bir çıkış kapağına tornavidayla sağ tıkla. Alternatif olarak, çıkış kapağının GUI'sindeki filtreyi belirli bir sıvıya kilitlemek için ayarla (NEI'den sürükle).
 
-- **Quadruple Input Hatches** - An upgrade from regular input hatches that can hold up to four different fluids simultaneously at 1/4th the capacity of a regular input hatch of the same tier. These pair nicely with quadruple fluid pipes for transporting multiple fluids around.
+- **Dörtlü Giriş Kapakları** - Normal giriş kapaklarının bir yükseltmesidir; aynı kademedeki normal bir giriş kapağının kapasitesinin 1/4'ünde aynı anda dört farklı sıvı tutabilir. Birden fazla sıvıyı taşımak için dörtlü sıvı borularıyla güzel bir ikili oluştururlar.
 
-- **Stocking Input Hatch (ME)** and **Output Hatch (ME)** - An even better upgrade from regular input/output hatches because they connect directly to an AE2 network for seamless I/O of fluids. Right-click with wire cutters to allow ME channels to connect to any side, including other buses/hatches. The advanced version even supports auto-pull which allows it to stock itself with any fluid in the network.
+- **Stoklayan Giriş Kapağı (ME)** ve **Çıkış Kapağı (ME)** - Normal giriş/çıkış kapaklarının daha da iyi bir yükseltmesidir çünkü sıvıların sorunsuz I/O'su için doğrudan bir AE2 ağına bağlanırlar. ME kanallarının diğer yollar/kapaklar dahil herhangi bir tarafa bağlanmasına izin vermek için tel makasıyla sağ tıkla. Gelişmiş sürüm, ağdaki herhangi bir sıvıyla kendini stoklamasına olanak tanıyan otomatik çekmeyi bile destekler.
 
-## Energy & Dynamo Hatches
+## Enerji ve Dinamo Kapakları
 
-<ItemImage id="minecraft:redstone_block" /> **Energy Hatch** / <ItemImage id="minecraft:redstone_block" /> **Dynamo Hatch**
+<ItemImage id="minecraft:redstone_block" /> **Enerji Kapağı** / <ItemImage id="minecraft:redstone_block" /> **Dinamo Kapağı**
 
-These are for inserting and extracting power at a specific voltage tier. More specifically, a standard energy hatch can supply up to 2A of power to a multiblock and a standard dynamo hatch can extract up to 1A of power from a multiblock. Be very careful to use the correct voltage and amperage with these hatches otherwise cables could burn, ingredients could void, and machines could explode.
+Bunlar belirli bir voltaj kademesinde güç yerleştirmek ve çıkarmak içindir. Daha spesifik olarak, standart bir enerji kapağı bir multibloka 2A'ya kadar güç sağlayabilir ve standart bir dinamo kapağı bir multibloktan 1A'ya kadar güç çekebilir. Bu kapaklarla doğru voltajı ve amperajı kullanmaya çok dikkat et, aksi hâlde kablolar yanabilir, bileşenler yok olabilir ve makineler patlayabilir.
 
-- **Buffered Dynamo Hatches** - A small upgrade from standard dynamo hatches and can extract up to 4A of power from a multiblock. These also have a slightly larger internal buffer for storing power when there is nowhere for it to go. *(Deprecated as of 2.9 - instead, use a 4A Multi-Amp hatch.)*
+- **Tamponlu Dinamo Kapakları** - Standart dinamo kapaklarının küçük bir yükseltmesidir ve bir multibloktan 4A'ya kadar güç çekebilir. Ayrıca gidecek yeri olmadığında güç depolamak için biraz daha büyük bir dahili tamponları vardır. *(2.9 itibarıyla kullanımdan kaldırıldı - bunun yerine 4A Çoklu Amper kapağı kullan.)*
 
-- **Multi-Amp Hatches** - An upgrade from standard energy/dynamo hatches and can transfer up to 64A of power to/from a multiblock. Whether these are allowed or not highly depends on the multiblock.
+- **Çoklu Amper Kapakları** - Standart enerji/dinamo kapaklarının bir yükseltmesidir ve bir multibloka/den 64A'ya kadar güç aktarabilir. İzin verilip verilmedikleri büyük ölçüde multibloka bağlıdır.
 
-- **Laser Hatches** - Unlocked much later on and can transfer millions of amps to/from a multiblock via laser vacuum pipes. Again, whether these are allowed or not highly depends on the multiblock.
+- **Lazer Kapakları** - Çok daha sonra açılır ve lazer vakum boruları aracılığıyla bir multibloka/den milyonlarca amper aktarabilir. Yine, izin verilip verilmedikleri büyük ölçüde multibloka bağlıdır.
 
-## Maintenance Hatch
+## Bakım Kapağı
 
-<ItemImage id="minecraft:iron_door" /> **Maintenance Hatch**
+<ItemImage id="minecraft:iron_door" /> **Bakım Kapağı**
 
-This hatch is for repairing any maintenance issues -- random occurrences that increase the power consumption of the multiblock by 10% each. There are six different maintenance issues in total and having all of them simultaneously is enough to shut the multiblock down. Each one generates a very specific message in the controller and corresponds to a very specific GregTech tool. WAILA also displays **HAS PROBLEMS** in red text while looking at the controller.
+Bu kapak, her biri multiblokun güç tüketimini %10 artıran rastgele olaylar olan bakım sorunlarını onarmak içindir. Toplamda altı farklı bakım sorunu vardır ve hepsinin aynı anda bulunması multibloku kapatmaya yeter. Her biri kontrolcüde çok spesifik bir mesaj oluşturur ve çok spesifik bir GregTech aletine karşılık gelir. WAILA ayrıca kontrolcüye bakarken kırmızı metinle **SORUNLARI VAR** gösterir.
 
-Repair maintenance issues by opening the maintenance hatch, picking up the necessary tool, and left-clicking the center button. This consumes a small amount of durability and/or charge with every use.
+Bakım sorunlarını, bakım kapağını açıp gerekli aleti eline alarak ve ortadaki düğmeye sol tıklayarak onar. Bu, her kullanımda az miktarda dayanıklılık ve/veya şarj tüketir.
 
-| Maintenance Issue | Tool to Fix |
+| Bakım Sorunu | Onarım Aleti |
 |-------------------|-------------|
-| "Pipe is loose" | Wrench |
-| "Screws are loose" | Screwdriver |
-| "Something is stuck" | Soft Mallet |
-| "Platings are dented" | Hammer |
-| "Circuitry burned out" | Soldering Iron |
-| "That doesn't belong there" | Crowbar |
+| "Boru gevşek" | İngiliz Anahtarı |
+| "Vidalar gevşek" | Tornavida |
+| "Bir şey sıkışmış" | Yumuşak Tokmak |
+| "Kaplamalar çökük" | Çekiç |
+| "Devre yanmış" | Lehim Demiri |
+| "Orada olmaması gereken bir şey var" | Levye |
 
-There is a 1 in 6,000 chance every 50 seconds of runtime for a new maintenance issue to appear. That is an average of 300,000 seconds or 83.3 hours of runtime between maintenance issues. Disabled or idle multiblocks do not increase runtime and therefore do not generate any maintenance issues or increase the likelihood thereof. Multiblocks without maintenance hatches ignore the mechanic entirely.
+Yeni bir bakım sorununun ortaya çıkması için her 50 saniyelik çalışma süresinde 6.000'de 1 şans vardır. Bu, bakım sorunları arasında ortalama 300.000 saniye veya 83,3 saat çalışma süresi demektir. Devre dışı veya boşta duran multibloklar çalışma süresini artırmaz ve bu nedenle hiçbir bakım sorunu oluşturmaz veya bunların olasılığını artırmaz. Bakım kapağı olmayan multibloklar bu mekaniği tamamen yok sayar.
 
-There are a few different types of maintenance hatches and methods to repair them, listed below. Maintenance hatches may be wallshared between machines, although repairs must still be made for each one individually.
+Aşağıda listelenen birkaç farklı bakım kapağı türü ve onarım yöntemi vardır. Bakım kapakları makineler arasında duvar paylaşabilir, ancak onarımlar yine de her biri için ayrı ayrı yapılmalıdır.
 
-- **Tool Box (LV)** - Holds up to nine tools and applies all of them simultaneously when a maintenance hatch is right-clicked from OUTSIDE its internal GUI. This consumes durability and/or charge of all tools inside regardless of the issue(s) present. Soldering material for the soldering iron may also be stored in and used from the Tool Box. Can be automated with a Dynamism Tablet and needs a maintenance cover.
+- **Alet Çantası (LV)** - Dokuz alete kadar tutar ve bakım kapağının dahili GUI'sinin DIŞINDAN sağ tıklanması durumunda hepsini aynı anda uygular. Mevcut sorun(lar)dan bağımsız olarak içindeki tüm aletlerin dayanıklılığını ve/veya şarjını tüketir. Lehim demiri için lehim malzemesi de Alet Çantasında saklanabilir ve oradan kullanılabilir. Bir Dynamism Tablet ile otomatikleştirilebilir ve bir bakım kaplaması gerektirir.
 
-- **BrainTech Aerospace Advanced Reinforced Duct Tape (MV)** - A single use item that solves all maintenance issues simultaneously. The tape visually appears around the maintenance hatch but that does not prevent future maintenance issues or reduce the chances of them occurring.
+- **BrainTech Aerospace Gelişmiş Güçlendirilmiş Koli Bandı (MV)** - Tüm bakım sorunlarını aynı anda çözen tek kullanımlık bir eşya. Bant bakım kapağının etrafında görsel olarak belirir, ancak bu gelecekteki bakım sorunlarını engellemez veya oluşma şanslarını azaltmaz.
 
-- **Wand Focus: Maintenance (HV)** - A reusable Thaumcraft wand focus from Electromagic Tools that solves all maintenance issues simultaneously at the cost of 25 ignis, 25 terra, and 25 ordo. Vis discounts and the frugal focus upgrade can reduce the cost of these repairs.
+- **Wand Focus: Maintenance (HV)** - Electromagic Tools'tan yeniden kullanılabilir bir Thaumcraft asa odağıdır; 25 ignis, 25 terra ve 25 ordo karşılığında tüm bakım sorunlarını aynı anda çözer. Vis indirimleri ve frugal odak yükseltmesi bu onarımların maliyetini azaltabilir.
 
-- **Drone Downlink Module (IV)** - Automatically repairs any maintenance issues if there is an active Drone Centre within range of the hatch. Tier 1 and Tier 2 drones have a chance to crash and be destroyed every second, but fixing maintenance issues is completely free. It also allows remote control over connected multiblocks which is very useful after a widespread power outage.
+- **Drone Downlink Module (IV)** - Kapak menzilinde aktif bir Drone Centre varsa tüm bakım sorunlarını otomatik olarak onarır. Kademe 1 ve Kademe 2 dronlar her saniye düşme ve yok olma şansına sahiptir, ancak bakım sorunlarını düzeltmek tamamen ücretsizdir. Ayrıca bağlı multibloklar üzerinde uzaktan kontrol sağlar; bu, geniş çaplı bir elektrik kesintisinden sonra çok kullanışlıdır.
 
-- **Auto Maintenance Hatch (LuV)** - Automatically repairs any maintenance issue at the cost of 4 duct tape, 2 lubricant cells, 4 steel screws, and 2 HV circuits. The internal inventory has four total slots, or one for each type of item.
+- **Otomatik Bakım Kapağı (LuV)** - 4 koli bandı, 2 yağlayıcı hücresi, 4 çelik vida ve 2 HV devre karşılığında herhangi bir bakım sorununu otomatik olarak onarır. Dahili envanterde toplam dört yuva, yani her eşya türü için bir yuva vardır.
 
-- **Auto-Taping Maintenance Hatch (UV)** - Automatically repairs any maintenance issue at no cost. The permanent solution to maintenance.
+- **Otomatik Bantlama Bakım Kapağı (UV)** - Herhangi bir bakım sorununu ücretsiz olarak otomatik onarır. Bakıma kalıcı çözüm.
 
-## Muffler Hatch
+## Egzoz Çıkışı
 
-<ItemImage id="minecraft:dispenser" /> **Muffler Hatch**
+<ItemImage id="minecraft:dispenser" /> **Egzoz Çıkışı**
 
-This hatch releases pollution from the machine. There must be at least one block of air in front of the muffler hatch in order for the multiblock to function. Even pipes and wires are considered an obstruction. The amount of pollution generated depends on the multiblock and the tier of the muffler hatch:
+Bu kapak makineden kirliliği salar. Multiblokun çalışması için egzoz çıkışının önünde en az bir hava bloğu olmalıdır. Borular ve kablolar bile engel sayılır. Üretilen kirlilik miktarı multibloka ve egzoz çıkışının kademesine bağlıdır:
 
-| Tier | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV |
+| Kademe | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV |
 |------|----|----|----|----|----|-----|-----|----|-----|
-| Pollution | 100% | 87% | 75% | 62% | 50% | 37% | 25% | 12% | 0% |
+| Kirlilik | %100 | %87 | %75 | %62 | %50 | %37 | %25 | %12 | %0 |
 
-If pollution is disabled, muffler hatches are still required, but their tier is no longer relevant.
+Kirlilik devre dışıysa egzoz çıkışları hâlâ gereklidir, ancak kademeleri artık önemli değildir.
 
-## Wallsharing
+## Duvar Paylaşımı
 
-A unique property of GregTech multiblocks is their ability to wallshare parts of their structure to save on casings, glass, coils, buses/hatches, and more. Simply overlap structures to allow multiple machines to use the same block(s) simultaneously. There are *very* few exceptions where that is not beneficial to the player and is therefore extremely useful throughout the entire game, whether building a second [Electric Blast Furnace](../multiblocks/lv/electric_blast_furnace.md) or a second Eye of Harmony.
+GregTech multibloklarının benzersiz bir özelliği, kasa, cam, bobin, yol/kapak ve daha fazlasından tasarruf etmek için yapılarının parçalarını duvar paylaşma yeteneğidir. Birden fazla makinenin aynı bloğu/blokları aynı anda kullanmasına izin vermek için yapıları basitçe üst üste bindir. Bunun oyuncuya faydalı olmadığı *çok* az istisna vardır ve bu nedenle ikinci bir [Elektrikli Yüksek Fırın](../multiblocks/lv/electric_blast_furnace.md) veya ikinci bir Eye of Harmony inşa ederken olsun, oyunun tamamı boyunca son derece kullanışlıdır.
 
-Maintenance and muffler hatches are always safe to share, but be careful when sharing energy hatches because they can only pull up to 2A of power. Ensure that the recipes for a multiblock do not exceed 1A of power and repair maintenance issues as soon as possible, or else the additional power cost could cause both machines to powerfail.
+Bakım ve egzoz çıkışlarını paylaşmak her zaman güvenlidir, ancak enerji kapaklarını paylaşırken dikkatli ol çünkü yalnızca 2A'ya kadar güç çekebilirler. Bir multiblokun tariflerinin 1A gücü aşmadığından emin ol ve bakım sorunlarını mümkün olan en kısa sürede onar, aksi hâlde ek güç maliyeti her iki makinenin de güç kesintisi yaşamasına neden olabilir.
 
 ---
 
-# Usage
+# Kullanım
 
-Although multiblocks operate very similarly to [singleblock machines](../singleblock/singleblock_index.md), there are a few distinct differences. First and foremost is that multiblocks **void** ingredients when they power fail. There is no restarting the recipe like in singleblocks; the ingredients just disappear, permanently. The multiblock also shuts down and has to be manually restarted. Periodically check your energy storage to prevent this from happening and turn off multiblocks or stop using them when energy levels are low. Also ensure that the entire multiblock is chunkloaded to avoid the controller loading in before the energy hatches.
+Multibloklar [tek blok makinelere](../singleblock/singleblock_index.md) çok benzer şekilde çalışsa da birkaç belirgin fark vardır. Her şeyden önce, multibloklar güç kesintisi yaşadığında bileşenleri **yok eder**. Tek bloklardaki gibi tarifi yeniden başlatmak yoktur; bileşenler kalıcı olarak kaybolur. Multiblok ayrıca kapanır ve elle yeniden başlatılması gerekir. Bunun olmasını önlemek için enerji depolamanı periyodik olarak kontrol et ve enerji seviyeleri düşükken multiblokları kapat veya kullanmayı bırak. Ayrıca kontrolcünün enerji kapaklarından önce yüklenmesini önlemek için tüm multiblokun chunkloaded olduğundan emin ol.
 
-## Overclocking
+## Hız Aşırtma
 
-An overclock occurs when the supplied power is at least 1 voltage tier higher than required by the recipe. Singleblocks can only achieve this with higher tier machines, but multiblocks can use higher tier and/or multiple energy hatches. The player first encounters overclocking when using the [Electric Blast Furnace](../multiblocks/lv/electric_blast_furnace.md); two energy hatches are needed to supply 4A of LV power, simulating 1A of MV power. There are two different types of overclocks and the one used depends on the multiblock itself. Those under "mixed" can use both in the same recipe or depend on an upgrade. Those under "unique" follow their own special rules and do not fit into either category.
+Sağlanan güç, tarifin gerektirdiğinden en az 1 voltaj kademesi yüksek olduğunda hız aşırtma gerçekleşir. Tek bloklar bunu yalnızca daha yüksek kademe makinelerle başarabilir, ancak multibloklar daha yüksek kademe ve/veya birden fazla enerji kapağı kullanabilir. Oyuncu hız aşırtmayla ilk kez [Elektrikli Yüksek Fırın](../multiblocks/lv/electric_blast_furnace.md) kullanırken karşılaşır; 4A LV güç sağlamak ve 1A MV gücü simüle etmek için iki enerji kapağı gerekir. İki farklı hız aşırtma türü vardır ve hangisinin kullanıldığı multiblokun kendisine bağlıdır. "Karma" olanlar aynı tarifte ikisini de kullanabilir veya bir yükseltmeye bağlıdır. "Benzersiz" olanlar kendi özel kurallarını izler ve iki kategoriye de girmez.
 
-- **Imperfect Overclocks** - Consume 4x the power for 2x the speed (4/2). This is the standard behavior of most multiblocks. For example, consider a recipe that normally takes 128 EU/t and 60s to run for a total of 153,600 EU. An imperfect overclock changes that to 512 EU/t and 30s to run for a total of 307,200 EU. Notice that the total energy is doubled which means the extra speed may not always be worth the additional power cost. Alternatively, build more of the same multiblock at the same voltage tier to provide the same effect for half the power.
+- **Kusurlu Hız Aşırtmalar** - 2 kat hız için 4 kat güç tüketir (4/2). Bu, çoğu multiblokun standart davranışıdır. Örneğin, normalde 128 EU/t ve 60 sn süren ve toplamda 153.600 EU harcayan bir tarif düşün. Kusurlu bir hız aşırtma bunu 512 EU/t ve 30 sn'ye, toplamda 307.200 EU'ya çevirir. Toplam enerjinin çift katına çıktığına dikkat et; bu da ekstra hızın her zaman ek güç maliyetine değmeyebileceği anlamına gelir. Alternatif olarak, aynı etkiyi yarı güçle sağlamak için aynı voltaj kademesinde aynı multibloktan daha fazla inşa et.
 
-- **Perfect Overclocks** - Consume 4x the power for 4x the speed (4/4). The total energy remains the same so there is no downside to increasing the supplied voltage/amperage. The only reason to build multiple of the same multiblock with perfect overclocks is when there is not enough room for additional energy hatches. Very few multiblocks allow perfect overclocks.
+- **Kusursuz Hız Aşırtmalar** - 4 kat hız için 4 kat güç tüketir (4/4). Toplam enerji aynı kalır, bu yüzden sağlanan voltajı/amperajı artırmanın bir dezavantajı yoktur. Kusursuz hız aşırtmalı aynı multibloktan birden fazla inşa etmenin tek nedeni, ek enerji kapakları için yeterli yer olmamasıdır. Çok az multiblok kusursuz hız aşırtmaya izin verir.
 
-Overclocking is only possible down to 1 tick because that is the smallest unit of time in Minecraft, but nearly every multiblock in GTNH is capable of subticking or increasing its number of parallels by a corresponding amount to simulate additional overclocks. The only exception is the Advanced Assembly Line which is capped at 1 tick per slice.
+Hız aşırtma yalnızca 1 tick'e kadar mümkündür çünkü bu Minecraft'taki en küçük zaman birimidir, ancak GTNH'deki neredeyse her multiblok ek hız aşırtmaları simüle etmek için alt tickleme yapabilir veya paralel sayısını buna karşılık gelen miktarda artırabilir. Tek istisna, dilim başına 1 tick ile sınırlı olan Gelişmiş Montaj Hattı'dır.
 
-## Parallels
+## Paraleller
 
-A parallel is a multiple of a recipe that runs concurrently with the original. Parallels increase the throughput and power consumption of a multiblock without increasing the overall length of the recipe. Two parallels, for example, double the EU/t to process twice the number of inputs simultaneously. The total EU remains the same, as with perfect overclocks, which means parallels are perfectly energy efficient and very powerful. Note that adding parallels is NOT the same as increasing the batch size -- the latter is only for saving TPS and does not increase the throughput of the multiblock.
+Bir paralel, orijinaliyle eşzamanlı çalışan bir tarif katıdır. Paraleller, tarifin toplam süresini artırmadan multiblokun verimini ve güç tüketimini artırır. Örneğin iki paralel, aynı anda iki kat girdi işlemek için EU/t'yi ikiye katlar. Kusursuz hız aşırtmalarda olduğu gibi toplam EU aynı kalır; bu da paralellerin mükemmel enerji verimli ve çok güçlü olduğu anlamına gelir. Paralel eklemenin toplu boyutu artırmakla AYNI olmadığını unutma -- ikincisi yalnızca TPS tasarrufu içindir ve multiblokun verimini artırmaz.
 
-- **Batch Size** - More recipes per iteration, same EU/t, longer duration.
-- **Parallels** - More recipes per iteration, higher EU/t, same duration.
+- **Toplu Boyut** - Yineleme başına daha fazla tarif, aynı EU/t, daha uzun süre.
+- **Paraleller** - Yineleme başına daha fazla tarif, daha yüksek EU/t, aynı süre.
 
-Parallels are calculated AFTER energy discounts and BEFORE overclocks. Consider a recipe that consumes 2,000 EU/t over 16 seconds in the Volcanus which offers 8 parallels and only uses 90% of the EU/t normally required. The energy discount first reduces the base recipe to 1,800 EU/t over 16 seconds. If there is enough power for the maximum number of parallels then the multiblock consumes 8 x 1,800 = 14,400 EU/t over 16 seconds. If there is still enough power and high enough coils to grant a perfect overclock then the multiblock consumes 4 x 14,400 = 57,600 EU/t over 4 seconds. Lastly, one imperfect overclock increases the power consumption to 4 x 57,600 = 230,400 EU/t over 2 seconds.
+Paraleller enerji indirimlerinden SONRA ve hız aşırtmalardan ÖNCE hesaplanır. Volcanus'ta 16 saniye boyunca 2.000 EU/t tüketen bir tarif düşün; Volcanus 8 paralel sunar ve normalde gereken EU/t'nin yalnızca %90'ını kullanır. Enerji indirimi önce temel tarifi 16 saniyede 1.800 EU/t'ye düşürür. Maksimum paralel sayısı için yeterli güç varsa multiblok 16 saniyede 8 x 1.800 = 14.400 EU/t tüketir. Hâlâ yeterli güç ve kusursuz bir hız aşırtma sağlayacak kadar yüksek bobin varsa multiblok 4 saniyede 4 x 14.400 = 57.600 EU/t tüketir. Son olarak, bir kusurlu hız aşırtma güç tüketimini 2 saniyede 4 x 57.600 = 230.400 EU/t'ye çıkarır.
 
 ```
 EU/t = Base EU/t x EU Usage x Parallels x 4^Overclocks
 ```
 
-## Troubleshooting
+## Sorun Giderme
 
-If a multiblock is not working, the first thing to do is open the controller for a clue on what is wrong. The following are some common error messages and what they could mean. If all else fails, reread the tooltip and the construction requirements on the wiki before rebuilding the entire multiblock with the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />.
+Bir multiblok çalışmıyorsa yapılacak ilk şey, neyin yanlış olduğuna dair bir ipucu için kontrolcüyü açmaktır. Aşağıda bazı yaygın hata mesajları ve ne anlama gelebilecekleri yer alıyor. Her şey başarısız olursa, tüm multibloku <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> ile yeniden inşa etmeden önce wiki'deki ipucunu ve yapım gereksinimlerini tekrar oku.
 
-### \*\* HAS PROBLEMS \*\*
+### \*\* SORUNLARI VAR \*\*
 
-- Needs Maintenance
-  - Use tools inside Maintenance Hatch GUI, **OR**
-  - Right-click with Tool Box on Maintenance Hatch
-    - Must have full complement of tools
-    - Soldering Iron must be charged
-    - Needs soldering material (consumable)
-- Volcanus with no Pyrotheum - causes voiding & maintenance issues
-- Cryogenic Freezer with no Cryotheum - causes voiding & maintenance issues
+- Bakım Gerekiyor
+  - Bakım Kapağı GUI'sindeki aletleri kullan, **VEYA**
+  - Bakım Kapağına Alet Çantasıyla sağ tıkla
+    - Tam alet takımına sahip olmalı
+    - Lehim Demiri şarjlı olmalı
+    - Lehim malzemesi gerekir (tüketilebilir)
+- Pyrotheum olmadan Volcanus - yok olmalara ve bakım sorunlarına neden olur
+- Kriyotheum olmadan Cryogenic Freezer - yok olmalara ve bakım sorunlarına neden olur
 
-### \*\* INCOMPLETE STRUCTURE \*\*
+### \*\* EKSİK YAPI \*\*
 
-- Multiblock built incorrectly
-  - Missing parts - left-Shift over controller in NEI
-  - Parts are in the wrong position
-  - Exceeds maximums or does not meet minimums
-  - Wrong casings - some blocks are visually similar
-  - Energy Hatch is insufficient tier
-  - Mixed coils or casing types
-  - Controller is facing the interior of the multiblock
-  - Something inside a multi that should be hollow
-- Structure not recognized
-  - Not built in one chunk or fully chunkloaded
-  - Break and replace Controller
+- Multiblok yanlış inşa edilmiş
+  - Eksik parçalar - NEI'de kontrolcünün üzerine sol Shift ile gel
+  - Parçalar yanlış konumda
+  - Maksimumları aşıyor veya minimumları karşılamıyor
+  - Yanlış kasalar - bazı bloklar görsel olarak benzer
+  - Enerji Kapağı kademesi yetersiz
+  - Karışık bobin veya kasa türleri
+  - Kontrolcü multiblokun içine bakıyor
+  - İçi boş olması gereken bir multiblokun içinde bir şey var
+- Yapı tanınmadı
+  - Tek bir chunk'ta inşa edilmemiş veya tamamen chunkloaded değil
+  - Kontrolcüyü kır ve yerine koy
 
-### Does Not Turn On
+### Açılmıyor
 
-- No power
-  - Power line has breaks / not connected
-  - A cover is blocking power transmission somewhere
-  - Transformers are not oriented properly
-  - Energy Hatch input isn't facing power
-  - Generator(s) aren't turned on and connected
-  - Generator(s) out of fuel
-  - Battery Buffer has no batteries
-  - Batteries are not charged
-  - Battery and Buffer tier don't match
-- Incorrect recipe
-  - Liquids aren't in Input Hatch
-  - Items aren't in Input Bus
-  - Programmed Circuit not set in Input Bus / Controller
-  - Wrong ingredients, verify by metadata
-  - Coils/Casings/Energy Hatch insufficient tier for recipe
-  - Blocked by unusable recipe items in buses/hatches
-- Disabled
-  - Hit with Soft Mallet
-  - Press power button in controller
-- No Energy Hatch - add at least one Energy Hatch to accept power
-- Structure insufficient - multiblock configuration doesn't meet recipe's needs; gas/liquid needs an output in a different location
+- Güç yok
+  - Güç hattında kopukluklar var / bağlı değil
+  - Bir kaplama bir yerde güç iletimini engelliyor
+  - Transformatörler doğru yönde değil
+  - Enerji Kapağı girişi güce bakmıyor
+  - Jeneratör(ler) açık ve bağlı değil
+  - Jeneratör(ler)in yakıtı bitti
+  - Pil Tamponunda pil yok
+  - Piller şarjlı değil
+  - Pil ve Tampon kademesi uyuşmuyor
+- Yanlış tarif
+  - Sıvılar Giriş Kapağında değil
+  - Eşyalar Giriş Yolunda değil
+  - Programlanmış Devre Giriş Yolunda / Kontrolcüde ayarlanmamış
+  - Yanlış bileşenler, metadata ile doğrula
+  - Bobinler/Kasalar/Enerji Kapağı tarif için yetersiz kademede
+  - Yollardaki/kapaklardaki kullanılamayan tarif eşyaları tarafından engelleniyor
+- Devre dışı
+  - Yumuşak Tokmakla vurulmuş
+  - Kontrolcüdeki güç düğmesine bas
+- Enerji Kapağı yok - güç kabul etmek için en az bir Enerji Kapağı ekle
+- Yapı yetersiz - multiblok yapılandırması tarifin ihtiyaçlarını karşılamıyor; gaz/sıvı farklı bir konumda çıkış gerektiriyor
 
-### Turns On then Voids / Shuts Down
+### Açılıyor sonra Yok Ediyor / Kapanıyor
 
-- Insufficient power
-  - Not enough power generation - check recipe
-  - Too much power being used by other machines
-  - Not enough power delivered due to cable loss
-  - Over-limited by diode or transformer
-  - Battery Buffers only output 1A per battery
-  - Recipe is overclocking, consuming more power than expected
-  - Not all Energy Hatches are connected to power
-  - Not enough Energy Hatches to accept power (2A max each)
-- Muffler Hatch blocked
-  - Muffler is not pointing out
-  - Muffler does not have an air block above it
-  - Advanced Muffler Hatches need air filters
-- Missing Consumables
-  - Turbine item for Air Filters and Turbines
-  - Cryotheum for Cryogenic Freezer
-  - Pyrotheum for Volcanus
+- Yetersiz güç
+  - Yeterli güç üretimi yok - tarifi kontrol et
+  - Diğer makineler çok fazla güç kullanıyor
+  - Kablo kaybı nedeniyle yeterli güç iletilmiyor
+  - Diyot veya transformatör tarafından fazla sınırlanmış
+  - Pil Tamponları pil başına yalnızca 1A çıkış verir
+  - Tarif hız aşırtıyor, beklenenden fazla güç tüketiyor
+  - Tüm Enerji Kapakları güce bağlı değil
+  - Güç kabul etmek için yeterli Enerji Kapağı yok (her biri en fazla 2A)
+- Egzoz Çıkışı engellenmiş
+  - Egzoz dışa bakmıyor
+  - Egzozun üstünde hava bloğu yok
+  - Gelişmiş Egzoz Çıkışları hava filtreleri gerektirir
+- Eksik Tüketilebilirler
+  - Hava Filtreleri ve Türbinler için türbin eşyası
+  - Cryogenic Freezer için Kriyotheum
+  - Volcanus için Pyrotheum
 
-### Wrong Output
+### Yanlış Çıktı
 
-- Incorrect circuit set
-- Input separation not enabled on a multi-bus setup
-- Water/Lava conditions not met for the Rock Breaker
+- Yanlış devre ayarlanmış
+- Çoklu yol kurulumunda giriş ayrıştırma etkin değil
+- Rock Breaker için Su/Lav koşulları karşılanmadı
 
-### Voids at Random / Runs Intermittently
+### Rastgele Yok Ediyor / Aralıklı Çalışıyor
 
-- Power loss - another machine is competing for amps, or power production is inconsistent
-- Job Done - no ingredients left to process, or no pollution in chunks for Air Filter
+- Güç kaybı - başka bir makine amper için yarışıyor veya güç üretimi tutarsız
+- İş Bitti - işlenecek bileşen kalmadı veya Hava Filtresi için chunk'larda kirlilik yok
 
-### Needs More Power
+### Daha Fazla Güç Gerekiyor
 
-- Insufficient Energy Hatch tier
-- Insufficient casing/hull tier for recipe
+- Enerji Kapağı kademesi yetersiz
+- Tarif için kasa/gövde kademesi yetersiz
 
-### Overflowed
+### Taştı
 
-- Coil / heat casings mismatch
+- Bobin / ısı kasaları uyuşmuyor
 
-### Not Enough Output Space
+### Yeterli Çıkış Alanı Yok
 
-- Output doesn't have enough slots for the recipe
-- Output is full/missing
-- Missing an output for directional products
-  - EBF needs a hatch on top for gas and a hatch on bottom for fluids
+- Çıkışta tarif için yeterli yuva yok
+- Çıkış dolu/eksik
+- Yönlü ürünler için çıkış eksik
+  - EYF'nin gaz için üstte bir kapağa ve sıvılar için altta bir kapağa ihtiyacı var
 
-### No Valid Recipe Found
+### Geçerli Tarif Bulunamadı
 
-- No combination of valid items / wrong item
-- Missing input hatch/bus
+- Geçerli eşya kombinasyonu yok / yanlış eşya
+- Giriş kapağı/yolu eksik

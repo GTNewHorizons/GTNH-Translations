@@ -4,41 +4,41 @@ item_ids:
 quest_ids:
   - 52NvoXdXSuCp2hCvV_otBA==
 navigation:
-  title: Bose-Einstein Condensate Teleportation Node
+  title: Bose-Einstein Yoğunlaşması Işınlanma Düğümü
   parent: ./bose_einstein_condensate_line.md
   icon: gregtech:gt.blockmachines:15757
   position: -11001
 ---
-# Bose-Einstein Condensate Teleportation Node
+# Bose-Einstein Yoğunlaşması Işınlanma Düğümü
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15757" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Bose-Einstein Condensate Teleportation Node (IO Node)</ItemLink> is a UIV tier multiblock for inserting and extracting items in the [BEC Line](./bose_einstein_condensate_line.md)--similar to an input/output bus. However, in practice the items never actually leave the IO Node and recipes are processed locally instead of in the [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md); the IO Node is technically the assembler and the Observation Array is really just a large router for power, condensate, and nanites. 
+<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Bose-Einstein Yoğunlaşması Işınlanma Düğümü (IO Düğümü)</ItemLink>, [BEC Hattı](./bose_einstein_condensate_line.md) içinde eşya yerleştirmek ve çıkarmak için kullanılan UIV kademe bir multibloktur; bir giriş/çıkış veriyoluna benzer. Ancak pratikte eşyalar IO Düğümünden hiç ayrılmaz ve tarifler [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizisi</ItemLink>](./bose_einstein_condensate_observation_array.md) yerine yerel olarak işlenir; teknik olarak bir Montajcı IO Düğümüdür ve Gözlem Dizisi aslında yalnızca güç, yoğunlaşma ve nanitler için büyük bir yönlendiricidir.
 
-Up to 16 IO Nodes may connect to the same Observation Array via line-of-sight connector hatches, but it is not recommended to run different recipes at the same time because that could introduce penalties and potentially void outputs. 
+16 adede kadar IO Düğümü, görüş hattı bağlantı kapakları aracılığıyla aynı Gözlem Dizisine bağlanabilir; ancak aynı anda farklı tarifler çalıştırmak cezalar getirebileceği ve çıkışları potansiyel olarak yok edebileceği için önerilmez.
 
-Optionally, use a <ItemLink id="gregtech:gt.blockmachines:15758" showIcon="left" /> to read the tier of the current required nanite or <ItemLink id="gregtech:gt.blockmachines:15759" showIcon="left" /> to pause the machine.
+İsteğe bağlı olarak, o anda gereken nanitin kademesini okumak için <ItemLink id="gregtech:gt.blockmachines:15758" showIcon="left" /> veya makineyi duraklatmak için <ItemLink id="gregtech:gt.blockmachines:15759" showIcon="left" /> kullan.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | UIV |
-| Structure Size (LxWxH) | 13x7x23 |
-| Power | None |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| Açılma Kademesi | UIV |
+| Yapı Boyutu (UxGxY) | 13x7x23 |
+| Güç | Yok |
+| Overclock | Yok |
+| Bakım | Bakım gerekmez |
+| Kirlilik | Kirlilik üretmez |
 
 > [!NOTE]
-> IO Nodes work with Observation Array, so most of the mechanic explanation is written in there.
+> IO Düğümleri Gözlem Dizisi ile çalışır, bu yüzden mekanik açıklamalarının çoğu orada yazılmıştır.
 > 
-> This guide only informs you about IO Node's structure, construction, hatches for automation, and OpenComputers integration.
+> Bu rehber sana yalnızca IO Düğümünün yapısı, inşası, otomasyon kapakları ve OpenComputers entegrasyonu hakkında bilgi verir.
 >
-> Please check [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) and [BEC Line](./bose_einstein_condensate_line.md) guide for overall mechanics and detailed recipes.
+> Genel mekanikler ve ayrıntılı tarifler için lütfen [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizisi</ItemLink>](./bose_einstein_condensate_observation_array.md) ve [BEC Hattı](./bose_einstein_condensate_line.md) rehberine bak.
 
-## Crafting and Construction
-### Crafting
+## Üretim ve İnşa
+### Üretim
 
 <RecipesFor id="gregtech:gt.blockmachines:15757" handlerBlacklist="gt.recipe.researchStation" />
 
@@ -58,19 +58,19 @@ Optionally, use a <ItemLink id="gregtech:gt.blockmachines:15758" showIcon="left"
 
 <RecipesFor id="gregtech:gt.blockcasings.bec:6" handlerBlacklist="gt.recipe.researchStation" />
 
-### Structure
+### Yapı
 
-The IO Node has no tiered components, and can be rotated or flipped.
+IO Düğümünün kademeli bileşeni yoktur ve döndürülebilir veya ters çevrilebilir.
 
-The <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> must face directly into one on the [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) for them to link, but there is no cabling inbetween and they can be up to 128 blocks apart if necessary. Just make sure there are no opaque blocks in between.
+Bağlanmaları için <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> doğrudan [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizisi</ItemLink>](./bose_einstein_condensate_observation_array.md) üzerindeki bir tanesine bakmalıdır; ancak aralarında kablo yoktur ve gerekirse 128 blok mesafeye kadar ayrı olabilirler. Yalnızca aralarında opak blok olmadığından emin ol.
 
-There is no maintenance hatch or even an energy hatch because the IO Node receives all its power from the Observation Array. 
+Bakım kapağı, hatta enerji kapağı yoktur; çünkü IO Düğümü tüm gücünü Gözlem Dizisinden alır.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
+Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan.
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left" /> | 1, Front center, 12th layer |
+| <ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left" /> | 1, Ön orta, 12. katman |
 | <ItemLink id="gregtech:gt.blockcasings.bec" showIcon="left" /> | 94 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:3" showIcon="left" /> | 88 |
 | <ItemLink id="gregtech:gt.blockglass1:9" showIcon="left" /> | 56 |
@@ -79,62 +79,62 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | <ItemLink id="gregtech:gt.blockcasings.bec:5" showIcon="left" /> | 44 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:4" showIcon="left" /> | 32 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:6" showIcon="left" /> | 20 |
-| <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> | 1, Back center casing |
-| <ItemLink id="gregtech:gt.blockmachines:15758" showIcon="left" /> | 0+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
-| <ItemLink id="gregtech:gt.blockmachines:15759" showIcon="left" /> | 0+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> | 1, Arka orta kasa |
+| <ItemLink id="gregtech:gt.blockmachines:15758" showIcon="left" /> | 0+, herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerine geçebilir |
+| <ItemLink id="gregtech:gt.blockmachines:15759" showIcon="left" /> | 0+, herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Giriş Yolu | 1+, herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Çıkış Yolu | 1+, herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerine geçebilir |
 
-### Wallsharing
+### Duvar Paylaşımı
 
-Bose-Einstein Condensate Teleportation Node can wallshare, although it is useless since multiple IO Nodes' positions are usually gapped by [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) and its hatch position.
+Bose-Einstein Yoğunlaşması Işınlanma Düğümü duvar paylaşımı yapabilir; ancak birden fazla IO Düğümünün konumu genellikle [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizisi</ItemLink>](./bose_einstein_condensate_observation_array.md) ve onun kapak konumu nedeniyle aralıklı olduğundan bu işe yaramaz.
 
-## Usage
+## Kullanım
 
-The IO Node has 2 specialized hatches that can help automation: <ItemLink id="gregtech:gt.blockmachines:15758" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:15759" showIcon="left" />.
+IO Düğümünde otomasyona yardımcı olabilecek 2 özel kapak vardır: <ItemLink id="gregtech:gt.blockmachines:15758" showIcon="left" /> ve <ItemLink id="gregtech:gt.blockmachines:15759" showIcon="left" />.
 
-<!-- This contents are from BEC line guide - should update both if there are any changes -->
-- <ItemLink id="gregtech:gt.blockmachines:15758" showIcon="left" /> : emits a redstone signal if the set condition inside its GUI is true.  
-  There is a comparison operator and a threshold value for the tier of the current requested nanite.
-- <ItemLink id="gregtech:gt.blockmachines:15759" showIcon="left" /> : can pause the machine either immediately or upon transitioning to a new input step/nanite when it receives a redstone signal.  
-  Pausing the machine halts all recipe progress and prevents condensate from being inserted, but the IO Node can still read the nanite(s) in the Observation Array, still updates any nanite detector hatches, and still consumes power.
+<!-- Bu içerik BEC hattı rehberinden alınmıştır - değişiklik olursa ikisini de güncelle -->
+- <ItemLink id="gregtech:gt.blockmachines:15758" showIcon="left" /> : GUI'sindeki ayarlanan koşul doğruysa kızıltaş sinyali yayar.  
+  O anda istenen nanitin kademesi için bir karşılaştırma operatörü ve eşik değeri vardır.
+- <ItemLink id="gregtech:gt.blockmachines:15759" showIcon="left" /> : kızıltaş sinyali aldığında makineyi ya hemen ya da yeni bir girdi adımına/nanite geçişte duraklatabilir.  
+  Makineyi duraklatmak tüm tarif ilerlemesini durdurur ve yoğunlaşmanın yerleştirilmesini engeller; ancak IO Düğümü yine de Gözlem Dizisindeki nanitleri okuyabilir, nanit dedektörü kapaklarını güncellemeye devam eder ve güç tüketmeye devam eder.
 
-### OpenComputers Integration
-The IO Node is automatable with OpenComputers and has a few additional functions/methods compared to standard GregTech multiblocks, as seen below. These can be used to dynamically change the speed divisor and gather information about the nanites, condensates, and current recipe.
+### OpenComputers Entegrasyonu
+IO Düğümü OpenComputers ile otomatikleştirilebilir ve standart GregTech multibloklarına kıyasla aşağıda görüldüğü gibi birkaç ek işlev/yöntem sunar. Bunlar hız bölenini dinamik olarak değiştirmek ve nanitler, yoğunlaşmalar ile mevcut tarif hakkında bilgi toplamak için kullanılabilir.
 ```lua
--- List all available methods for the IO Node
+-- IO Düğümü için kullanılabilir tüm yöntemleri listele
 local component = require('component')
 local bec_io_node = component.bec_io_node
 
 for k,v in pairs(bec_io_node) do print(k,v) end
 
--- Returns the requested nanite tier as a table {name, tier}
+-- İstenen nanit kademesini {name, tier} tablosu olarak döndürür
 bec_io_node.getRequiredTier()
 
--- Returns the provided nanite tier as a table {name, tier}
+-- Sağlanan nanit kademesini {name, tier} tablosu olarak döndürür
 bec_io_node.getProvidedTier()
 
--- Returns the provided nanite amount as a number
+-- Sağlanan nanit miktarını sayı olarak döndürür
 bec_io_node.getAvailableNanites()
 
--- Returns the current types and amounts of condensate required as a table
+-- Gereken yoğunlaşma türlerini ve miktarlarını tablo olarak döndürür
 bec_io_node.getRequiredCondensate()
 
--- Returns the current types and amounts of condensate consumed as a table
+-- Tüketilen yoğunlaşma türlerini ve miktarlarını tablo olarak döndürür
 bec_io_node.getConsumedCondensate()
 
--- Returns all recipe steps as a table. Each step has a nanite (table), start tick (number), end tick (number), and index (number)
+-- Tüm tarif adımlarını tablo olarak döndürür. Her adımda nanit (tablo), başlangıç tick'i (sayı), bitiş tick'i (sayı) ve indeks (sayı) bulunur
 bec_io_node.getRecipeSteps()
 
--- Returns the amount of slowdowns currently applied as a number
+-- Şu anda uygulanan yavaşlatma miktarını sayı olarak döndürür
 bec_io_node.getSlowdowns()
 
--- Returns the speed divisor of the IO Node as a number
+-- IO Düğümünün hız bölenini sayı olarak döndürür
 bec_io_node.getManualSlowdown()
 
--- Sets the speed divisor of the IO Node from a number
+-- IO Düğümünün hız bölenini bir sayıdan ayarlar
 bec_io_node.setSpeedDivisor(divisor)
 ```
 
-## References
-- [GTNH Wiki: Bose-Einstein Condensate Teleportation Node](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Teleportation_Node)
+## Kaynaklar
+- [GTNH Wiki: Bose-Einstein Yoğunlaşması Işınlanma Düğümü](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Teleportation_Node)

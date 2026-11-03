@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Network Visualisation Tool Changes
+  title: Ağ Görselleştirme Aracı Değişiklikleri
   parent: ae2.md
   icon: appliedenergistics2:item.ToolNetworkVisualiser
 categories:
@@ -9,12 +9,12 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Network Visualisation Tool
-If you've ever been far enough in the game before, you will know that the Network Visualisation Tool <ItemImage id="appliedenergistics2:item.ToolNetworkVisualiser"/> starts to become a tangled mess of unreadable lines.
+# Ağ Görselleştirme Aracı
+Oyunda yeterince ilerlediysen, Ağ Görselleştirme Aracı'nın <ItemImage id="appliedenergistics2:item.ToolNetworkVisualiser"/> okunamayan çizgilerden oluşan karmaşık bir yumağa dönüşmeye başladığını bilirsin.
 
-To help, the rendering has now been changed! The changes are also completely configurable in `config/ae2stuff.cfg`, or via the in-game config for AE2Stuff!
+Bunu kolaylaştırmak için görselleştirme artık değiştirildi! Değişiklikler ayrıca `config/ae2stuff.cfg` dosyasında veya AE2Stuff'ın oyun içi yapılandırması aracılığıyla tamamen yapılandırılabilir!
 <FloatingImage src="../assets/ae2/visualization.png" align="left" displayWidth="256">
   <ImageAnnotation>
-    An example of the new rendering
+    Yeni görselleştirmeye bir örnek
   </ImageAnnotation>
 </FloatingImage>

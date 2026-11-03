@@ -1,66 +1,66 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Spatial IO
+  title: Uzamsal İo
   icon: appliedenergistics2:tile.BlockSpatialPylon
 ---
 
-# Spatial IO
+# Uzamsal İo
 
-Spatial IO is a way to cut-and-paste physical volumes of space in your world. Through a multiblock structure composed of <ItemLink id="appliedenergistics2:tile.BlockSpatialPylon" showIcon="left"/> and <ItemLink id="appliedenergistics2:tile.BlockSpatialIOPort" showIcon="left"/>, it allows you to compress a defined volume of space into a Spatial Storage Cell, carry it with you, and release the stored contents anywhere. You can even move end portal frames!
+Uzamsal İo, dünyandaki fiziksel uzay hacimlerini kesip yapıştırmanın bir yoludur. <ItemLink id="appliedenergistics2:tile.BlockSpatialPylon" showIcon="left"/> ve <ItemLink id="appliedenergistics2:tile.BlockSpatialIOPort" showIcon="left"/> bloklarından oluşan bir multiblok yapı sayesinde tanımlı bir uzay hacmini bir Uzamsal Depolama Hücresine sıkıştırmanı, yanında taşımanı ve depolanan içeriği herhangi bir yerde serbest bırakmanı sağlar. End portalı çerçevelerini bile taşıyabilirsin!
 
-Spatial Pylons can move blocks and entities, which means if you have the means to move storage cells across dimensions and automate the Spatial IO system, you can even use Spatial Pylons to teleport living entities, including players, across dimensions. However, do note that the energy cost of Spatial Pylons is quite significant. During periods when power generation is tight, it is best to calculate the operating cost in advance.
+Uzamsal Pilonlar blokları ve varlıkları taşıyabilir; bu da depolama hücrelerini boyutlar arasında taşıyacak araçlara sahipsen ve Uzamsal İo sistemini otomatikleştirebiliyorsan, Uzamsal Pilonları oyuncular dahil canlı varlıkları boyutlar arasında ışınlamak için bile kullanabileceğin anlamına gelir. Ancak Uzamsal Pilonların enerji maliyetinin oldukça yüksek olduğunu unutma. Enerji üretiminin kısıtlı olduğu dönemlerde işletme maliyetini önceden hesaplaman en iyisidir.
 
-# Spatial Pylon Multiblock Structure
-The operation of Spatial IO requires a defined area, and the volume of this space must be less than or equal to the volume of the Spatial Storage Cell used.
+# Uzamsal Pilon Multiblok Yapısı
+Uzamsal İo'nun çalışması tanımlı bir alan gerektirir ve bu alanın hacmi, kullanılan Uzamsal Depolama Hücresinin hacmine eşit veya ondan küçük olmalıdır.
 
-The area of effect is defined by Spatial Pylon blocks. All Spatial Pylons must be in the same ME Network; using a subnetwork is recommended. Using 1\*1\*n (n > 1) adjacent Spatial Pylon blocks can form a Spatial Pylon pillar. Multiple pillars will construct a 1-block-thick square shell, and the space inside it is the area of effect for the Spatial IO system. In other words, the area of effect for Spatial IO is one block smaller than the bounds of the entire Spatial Pylon multiblock structure.
+Etki alanı Uzamsal Pilon blokları tarafından tanımlanır. Tüm Uzamsal Pilonlar aynı ME Ağında olmalıdır; bir alt ağ kullanman önerilir. 1\*1\*n (n > 1) bitişik Uzamsal Pilon bloğu kullanmak bir Uzamsal Pilon sütunu oluşturabilir. Birden fazla sütun 1 blok kalınlığında kare bir kabuk oluşturur ve içindeki boşluk Uzamsal İo sistemi için etki alanıdır. Başka bir deyişle, Uzamsal İo'nun etki alanı, tüm Uzamsal Pilon multiblok yapısının sınırlarından bir blok daha küçüktür.
 
-The construction of the Spatial IO multiblock system follows these rules:
-  * Each Spatial Pylon pillar must be composed of at least 2 Spatial Pylon blocks, and the pillar must be a straight line.
-  * All Spatial Pylon pillars must be in the same ME Network, and each pillar occupies 1 channel.
+Uzamsal İo multiblok sisteminin inşası şu kurallara uyar:
+  * Her Uzamsal Pilon sütunu en az 2 Uzamsal Pilon bloğundan oluşmalı ve sütun düz bir çizgi olmalıdır.
+  * Tüm Uzamsal Pilon sütunları aynı ME Ağında olmalıdır ve her sütun 1 kanal kaplar.
   
 <GameScene zoom="2" rotateY={200} height="200"  >
     <ImportStructure src="../assets/structures/spatial_io_spatial_pylons_rule.snbt" />
     <BoxAnnotation min="3 0 0" max="5 1 1" color="#EE3333" thickness="1">
-      This Spatial Pylon pillar is dark red, indicating it is unpowered. It might be difficult to distinguish the two in this scene, but it is much more obvious in-game.
+      Bu Uzamsal Pilon sütunu koyu kırmızıdır, bu da onun enerjisiz olduğunu gösterir. Bu sahnede ikisini ayırt etmek zor olabilir, ancak oyun içinde çok daha belirgindir.
     </BoxAnnotation>
 </GameScene>
 
-  * The area of effect is defined by the Spatial Pylon blocks with the maximum and minimum X, Y, and Z coordinates across the entire Spatial Pylon system.
-  * The minimum defined area of effect is 1\*1\*1.
-  * All Spatial Pylon pillars must be located on the square shell. There cannot be any active Spatial Pylon pillars within the area of effect inside the shell.
-  * Valid Spatial Pylon textures will connect.
-    * A dotted purple texture indicates an invalid Spatial Pylon structure.
-    * Dark red Spatial Pylons indicate they are unpowered.
-    * Bright red Spatial Pylons indicate a valid Spatial Pylon structure, but the multiblock structure has not formed a valid area of effect.
-    * Bright purple Spatial Pylons indicate that the multiblock structure is fully formed.
+  * Etki alanı, tüm Uzamsal Pilon sistemi boyunca maksimum ve minimum X, Y ve Z koordinatlarındaki Uzamsal Pilon blokları tarafından tanımlanır.
+  * Tanımlanabilecek en küçük etki alanı 1\*1\*1'dir.
+  * Tüm Uzamsal Pilon sütunları kare kabuk üzerinde yer almalıdır. Kabuğun içindeki etki alanında etkin Uzamsal Pilon sütunu bulunamaz.
+  * Geçerli Uzamsal Pilon dokuları birbirine bağlanır.
+    * Noktalı mor doku geçersiz bir Uzamsal Pilon yapısını belirtir.
+    * Koyu kırmızı Uzamsal Pilonlar enerjisiz olduklarını belirtir.
+    * Parlak kırmızı Uzamsal Pilonlar geçerli bir Uzamsal Pilon yapısını, ancak multiblok yapısının geçerli bir etki alanı oluşturmadığını belirtir.
+    * Parlak mor Uzamsal Pilonlar multiblok yapısının tamamen oluştuğunu belirtir.
 
 <GameScene zoom="2"  width ="300" height="200" rotateY={225} >
     <ImportStructure src="../assets/structures/spatial_io_spatial_pylons_rule2.snbt" />
     <Block id="appliedenergistics2:tile.BlockCableBus" nbt='{__guidenh_encoded_keys_v1:[0:{v:{id:"appliedenergistics2:item.ItemMultiPart",Count:1b,Damage:36s},k:"def:6"},1:{v:{},k:"extra:6"}],id:"BlockCableBus",hasRedstone:2}' x="2" z="2"/>
     <BoxAnnotation min="5 0 0" max="0 5 5" color="#EE3333" thickness="1" alwaysOnTop={true}>
-      The red box shows the bounds of the Spatial Pylon structure, and the area of effect is located inside the "shell".
+      Kırmızı kutu Uzamsal Pilon yapısının sınırlarını gösterir ve etki alanı "kabuğun" içinde yer alır.
     </BoxAnnotation>
     <BoxAnnotation min="4 1 1" max="1 4 4" color="#00ff00" thickness="1">
-      The green box is the Spatial IO area of effect. Placing a new Spatial Pylon pillar connected to the same network within this area will result in an invalid Spatial Pylon multiblock structure.
+      Yeşil kutu Uzamsal İo etki alanıdır. Bu alana aynı ağa bağlı yeni bir Uzamsal Pilon sütunu yerleştirmek, geçersiz bir Uzamsal Pilon multiblok yapısıyla sonuçlanır.
     </BoxAnnotation>
 </GameScene>
 
-# Spatial IO Port
-The <ItemLink id="appliedenergistics2:tile.BlockSpatialIOPort" showIcon="left"/> is the control terminal for Spatial IO operations. It displays the statistical information of the multiblock structure.
+# Uzamsal İo Bağlantı Noktası
+<ItemLink id="appliedenergistics2:tile.BlockSpatialIOPort" showIcon="left"/> Uzamsal İo işlemleri için kontrol terminalidir. Multiblok yapısının istatistiksel bilgilerini gösterir.
 
-After building the entire system, if you want to execute a Spatial IO operation, place a Spatial Storage Cell in the input slot and send a redstone pulse to the Spatial IO Port; the Spatial IO system will then activate. Note that any blocks and entities within the area of effect, including yourself, will be stored inside the cell. If you have no way to escape, you will be trapped in the Spatial Storage Cell dimension - a dark, featureless space. You can use this to prank your friends!
+Tüm sistemi kurduktan sonra bir Uzamsal İo işlemi yürütmek istersen, giriş yuvasına bir Uzamsal Depolama Hücresi koy ve Uzamsal İo Bağlantı Noktasına bir Kızıltaş darbesi gönder; Uzamsal İo sistemi ardından etkinleşir. Etki alanındaki tüm blokların ve varlıkların, kendin dahil, hücrenin içine depolanacağını unutma. Kaçma yolun yoksa Uzamsal Depolama Hücresi boyutunda - karanlık, özelliksiz bir alan - mahsur kalırsın. Bunu arkadaşlarına şaka yapmak için kullanabilirsin!
 
-# Energy Consumption
-Each activation of the Spatial IO Port consumes the required energy all at once. The value is listed in the Spatial IO Port, so prepare enough [Energy Cells](../items_blocks/energy_cells.md) in advance.
+# Enerji Tüketimi
+Uzamsal İo Bağlantı Noktasının her etkinleştirilmesi, gereken enerjiyi tek seferde tüketir. Değer Uzamsal İo Bağlantı Noktasında listelenir, bu yüzden önceden yeterli [Enerji Hücresi](../items_blocks/energy_cells.md) hazırla.
 
-The energy consumption for a single Spatial IO operation grows rapidly with the volume of the area of effect, and it is influenced by the energy efficiency coefficient. During periods when power generation is tight, improving power generation is a wise choice.
+Tek bir Uzamsal İo işleminin enerji tüketimi, etki alanının hacmiyle hızla artar ve enerji verimliliği katsayısından etkilenir. Enerji üretiminin kısıtlı olduğu dönemlerde enerji üretimini iyileştirmek akıllıca bir seçimdir.
 
-Simply put, energy efficiency is positively correlated with the number of Spatial Pylons constituting the multiblock structure, but the reduction effect of energy efficiency on power consumption decreases logarithmically. This means that achieving maximum reduction requires extremely high energy efficiency, which in turn requires more Spatial Pylon blocks. Considering the energy consumption alongside the crafting costs of the Energy Cells and Spatial Pylon blocks themselves, a balance is usually reached at around 50~60% efficiency.
+Basitçe söylemek gerekirse, enerji verimliliği multiblok yapısını oluşturan Uzamsal Pilon sayısıyla pozitif ilişkilidir, ancak enerji verimliliğinin güç tüketimini azaltma etkisi logaritmik olarak düşer. Bu, maksimum azaltmayı elde etmenin son derece yüksek enerji verimliliği gerektirdiği, bunun da daha fazla Uzamsal Pilon bloğu gerektirdiği anlamına gelir. Enerji tüketimini Enerji Hücrelerinin ve Uzamsal Pilon bloklarının üretim maliyetleriyle birlikte düşündüğünde, genellikle %50~60 verimlilik civarında bir dengeye ulaşılır.
 
-# Complete Operational Structure
-If you understand all the rules of the multiblock structure, you can see that the structure below is valid and operational.
+# Tam Çalışır Yapı
+Multiblok yapısının tüm kurallarını anladıysan, aşağıdaki yapının geçerli ve çalışır olduğunu görebilirsin.
 
 <GameScene zoom="2" width="300" rotateY={200} >
     <ImportStructure src="../assets/structures/spatial_io_mess.snbt" />
@@ -70,7 +70,7 @@ If you understand all the rules of the multiblock structure, you can see that th
     </BoxAnnotation>
 </GameScene>
 
-However, it is too messy and not concise enough. In practice, you can refer to the structural designs below:
+Ancak fazlasıyla dağınık ve yeterince sade değil. Pratikte aşağıdaki yapı tasarımlarına başvurabilirsin:
 <GameScene zoom="2" width="300" rotateY={200} >
     <ImportStructure src="../assets/structures/spatial_io_simple.snbt" />
     <BoxAnnotation min="9 0 0" max="5 4 4" color="#EE3333" thickness="1">
@@ -83,7 +83,7 @@ However, it is too messy and not concise enough. In practice, you can refer to t
     </BoxAnnotation>
 </GameScene>
 
-A structure with higher energy efficiency:
+Daha yüksek enerji verimliliğine sahip bir yapı:
 
 <GameScene zoom="2" width="300" rotateY={-135} >
     <ImportStructure src="../assets/structures/spatial_io_efficiency.snbt" />
@@ -93,22 +93,22 @@ A structure with higher energy efficiency:
     </BoxAnnotation>
 </GameScene>
 
-Now that everything is ready, let's activate Spatial IO!
+Her şey hazır olduğuna göre, hadi Uzamsal İo'yu etkinleştirelim!
 
 <GameScene zoom="2" width="400" height="275" rotateY={30}>
     <ImportStructure src="../assets/structures/spatial_io_working.snbt" />
     <ImportPonder src="../assets/ponder/spatial_io_working.json" />
 </GameScene>
 
-# Spatial Storage Cell Dimension
-The working principle of the Spatial Pylon is to swap the entire space within the selected area with a space of the same size inside the [Spatial Storage Cell](../items_blocks/spatial_cells.md). When a new Spatial Storage Cell is used for the first time, the cell creates a dimension that perfectly matches its volume specifications. In other words, you can think of every new Spatial Storage Cell as being filled with air blocks; the first time the Spatial Pylon is used for spatial exchange, it will swap out the correspondingly sized air volume from the storage cell.
+# Uzamsal Depolama Hücresi Boyutu
+Uzamsal Pilonun çalışma prensibi, seçilen alandaki tüm uzayı [Uzamsal Depolama Hücresi](../items_blocks/spatial_cells.md) içindeki aynı boyuttaki bir uzayla takas etmektir. Yeni bir Uzamsal Depolama Hücresi ilk kez kullanıldığında, hücre hacim özellikleriyle tam olarak eşleşen bir boyut oluşturur. Başka bir deyişle, her yeni Uzamsal Depolama Hücresini hava bloklarıyla dolu olarak düşünebilirsin; Uzamsal Pilon ilk kez uzamsal takas için kullanıldığında, depolama hücresinden karşılık gelen boyuttaki hava hacmini takas eder.
 
-<Color id="RED">Once a Spatial Storage Cell is used, you cannot reset, format, or adjust its size. If you wish to use a different size, you must craft a new cell.</Color>
+<Color id="RED">Bir Uzamsal Depolama Hücresi kullanıldıktan sonra sıfırlayamaz, biçimlendiremez veya boyutunu ayarlayamazsın. Farklı bir boyut kullanmak istersen yeni bir hücre üretmelisin.</Color>
 
 <GameScene zoom="2" width="400" height="200" rotateY={200} offsetX={-80} allowLayerSlider={false} gridButtonEnabled={false}>
     <ImportStructure src="../assets/structures/spatial_io_dimension.snbt" />
     <BoxAnnotation min="-3 2 -2" max="-6 5 1" color="#EE3333" thickness="1">
-    Spatial Storage Cell Dimension
+    Uzamsal Depolama Hücresi Boyutu
     </BoxAnnotation>
     <ImportPonder src="../assets/ponder/spatial_io_dimension.json" />
 </GameScene>

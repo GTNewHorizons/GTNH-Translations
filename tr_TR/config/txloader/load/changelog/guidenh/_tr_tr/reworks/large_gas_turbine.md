@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15527
 navigation:
-  title: Large Gas Turbine
+  title: Büyük Gaz Türbini
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15527
 categories:
@@ -11,87 +11,87 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Large Gas Turbine
+# Büyük Gaz Türbini
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15527"/>
 </GameScene>
-The <Color id="GREEN">Large Gas Turbine (LGT)</Color> is an EV tier multiblock for generating power from gas. The <Color id="GREEN">Large Gas Turbine</Color> is a direct upgrade from the singleblock gas turbines because it outputs up to 4A of power with much higher efficiency. However, a turbine must be placed inside the controller for the machine to run, the input rate of fuel must be carefully regulated, and it must be running for at least 50 seconds to fully warm up. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate (L/t). Power is extracted from a 4A dynamo hatch on the back of the structure as the gas turns into pollution. Breaking the dynamo hatch while the machine is running causes it to explode. Save on fuel by automatically toggling the LGT with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>.
+<Color id="GREEN">Büyük Gaz Türbini (LGT)</Color>, gazdan güç üretmek için kullanılan EV kademe bir Multibloktur. <Color id="GREEN">Büyük Gaz Türbini</Color>, çok daha yüksek verimlilikle 4A'ya kadar güç verdiği için tek bloklu gaz Türbinlerinin doğrudan yükseltmesidir. Ancak makinenin çalışması için Kontrolcünün içine bir Türbin yerleştirilmelidir, Yakıt giriş hızı dikkatlice ayarlanmalıdır ve tamamen ısınması için en az 50 saniye çalışması gerekir. Türbinler dört farklı boyutta ve her biri kendi verimlilik bonusuna ve optimal akış hızına (L/t) sahip birçok farklı malzemede bulunur. Gaz Kirlilik haline gelirken güç, yapının arkasındaki 4A Dinamo Kapağından çekilir. Makine çalışırken Dinamo Kapağını kırmak patlamasına neden olur. Lapotronik Süperkapasitöre <ItemImage id="gregtech:gt.blockmachines:13106"/> bağlı bir RS mandalı ile LGT'yi otomatik açıp kapatarak Yakıttan tasarruf et.
 
-The <Color id="GREEN">LGT</Color> is superseded by the XL Turbo Gas Turbine which consumes as much gas and produces as much power as 16 <Color id="GREEN">LGT</Color>, but only requires 12 turbines. It also supports multi-amp and laser energy hatches for serious power generation. There is also the Solid-Oxide Fuel Cell which oxidizes gas to generate electricity without a turbine and without polluting the environment. However, it requires 100 L/s of oxygen during operation, is generally locked to 100% efficiency, does not support overflow, and does not have an XL variant. 
+<Color id="GREEN">LGT</Color>'nin yerini, 16 <Color id="GREEN">LGT</Color> kadar gaz tüketip o kadar güç üreten ancak yalnızca 12 Türbin gerektiren XL Turbo Gaz Türbini alır. Ayrıca ciddi güç üretimi için çok amperli ve lazer Enerji Kapaklarını da destekler. Türbin olmadan ve Çevreyi kirletmeden elektrik üretmek için gazı oksitleyen Katı Oksitli Yakıt Hücresi de vardır. Ancak çalışırken 100 L/s oksijen gerektirir, genellikle yüzde 100 verimliliğe sabitlenmiştir, taşmayı desteklemez ve XL varyantı yoktur. 
 
 [GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure has changed, the mechanics of the multiblock are identical
+> Yalnızca yapı değişti, Multiblokun mekaniği birebir aynı
 
-## Construction
-The <Color id="GREEN">LGT</Color> has no tiered components. The maintenance hatch, muffler hatch, input hatch, and output hatch may replace any turbine casing on the back half of the structure. The dynamo hatch is limited to the center casing on the very back of the structure and cannot be greater than 4A. The 9 blocks directly in front of the controller are mandatory air. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+## Yapım
+<Color id="GREEN">LGT</Color>'nin kademeli bileşenleri yoktur. Bakım Kapağı, Egzoz Çıkışı, Girdi Kapağı ve Çıkış Kapağı yapının arka yarısındaki herhangi bir Türbin Gövdesinin yerini alabilir. Dinamo Kapağı yapının en arkasındaki merkez kasayla sınırlıdır ve 4A'dan büyük olamaz. Kontrolcünün hemen önündeki 9 blok Hava Blokları olmak zorundadır. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan.
 
-Unique to large turbines is the turbine housing which is effectively a ULV input bus for storing an extra turbine that automatically replaces the one inside the controller once it breaks. It is completely optional and gated to UV, but helps maximize runtime. 
+Büyük Türbinlere özgü olan Türbin muhafazası, esasen Kontrolcünün içindeki Türbin kırıldığında otomatik olarak onun yerini alacak fazladan bir Türbin depolamaya yarayan bir ULV Giriş Yolu'dur. Tamamen isteğe bağlıdır ve UV'ye kilitlidir, ancak çalışma süresini en üst düzeye çıkarmaya yardımcı olur. 
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15527"/><ItemImage id="gregtech:gt.blockmachines:15527"/>
 - 14 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
 - 8-13 <ItemLink id="gregtech:gt.blockcasings4:10"/><ItemImage id="gregtech:gt.blockcasings4:10"/>
 - 12 <ItemLink id="gregtech:gt.blockcasings11"/><ItemImage id="gregtech:gt.blockcasings11"/>
-- 1 Dynamo Hatch (back center turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 Maintenance Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Dinamo Kapağı (arka orta Türbin Gövdesi) <ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 Bakım Kapağı (arka Türbin Gövdelerinden herhangi biri) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 0+ <ItemLink id="gregtech:gt.blockmachines:31025"/><ItemImage id="gregtech:gt.blockmachines:31025"/>
-- 0+ Input Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 0+ Girdi Kapağı (arka Türbin Gövdelerinden herhangi biri) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Kapağı (arka Türbin Gövdelerinden herhangi biri) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">LGTs</Color> may wallshare each of their sides to save on casings, frame boxes, and hatches. However, do NOT share the input hatch because the fuel is not split evenly between the <Color id="GREEN">LGTs</Color> -- one consumes everything and the other receives nothing. The restriction on the hatch locations makes that difficult to accomplish anyway. 
+### Duvar Paylaşımı
+<Color id="GREEN">LGT</Color>'ler kasa, çerçeve kutusu ve kapaktan tasarruf etmek için her bir yanını duvar paylaşabilir. Ancak Girdi Kapağını paylaşMA çünkü Yakıt <Color id="GREEN">LGT</Color>'ler arasında eşit olarak bölünmez -- biri her şeyi tüketir, diğeri hiçbir şey almaz. Kapak konumlarındaki kısıtlama zaten bunu başarmayı zorlaştırır. 
 
-## Usage
-The <Color id="GREEN">LGT</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid game when gas production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
+## Kullanım
+<Color id="GREEN">LGT</Color>'nin aşağıda listelenen iki çalışma modu vardır, ancak aralarındaki ölçülebilir farklar için yukarıda bağlantısı verilen planlayıcıya bak. Gaz üretiminin düşük olduğu oyunun erken-orta döneminde ilki, güç çıktısının verimlilikten daha önemli olduğu geç oyunda ise ikincisi daha iyidir. Kontrolcüye tornavida kullanarak modlar arasında geçiş yap.
 
-- Tight Fitting Mode - High efficiency, Low optimal flow rate (power).
-- Loose Fitting Mode - Low efficiency, High optimal flow rate (power).
+- Sıkı Geçme Modu - Yüksek verimlilik, Düşük optimal akış hızı (güç).
+- Gevşek Geçme Modu - Düşük verimlilik, Yüksek optimal akış hızı (güç).
 
-The speed of the <Color id="GREEN">LGT</Color> increases linearly up to 100% while active and decreases back to 0% while inactive. Speed is directly proportional to the power output of the machine and takes 50 seconds to reach its maximum value regardless of the turbine size/material. Speed decays extremely fast when the <Color id="GREEN">LGT</Color> is disabled, the turbine is removed, the structure is broken, or fuel runs out. View the current speed of the turbine by using a Portable Scanner <ItemImage id="gregtech:gt.metaitem.01:32762"/> on the controller or looking at the "efficiency" value in WAILA. 
+<Color id="GREEN">LGT</Color>'nin hızı çalışırken doğrusal olarak yüzde 100 değerine kadar artar ve çalışmadığında tekrar yüzde 0 değerine düşer. Hız, makinenin güç çıktısıyla doğru orantılıdır ve Türbinin boyutu/malzemesi ne olursa olsun maksimum değerine ulaşması 50 saniye sürer. Hız, <Color id="GREEN">LGT</Color> devre dışı bırakıldığında, Türbin çıkarıldığında, yapı bozulduğunda veya Yakıt bittiğinde son derece hızlı düşer. Türbinin mevcut hızını, Kontrolcüde Taşınabilir Tarayıcı <ItemImage id="gregtech:gt.metaitem.01:32762"/> kullanarak veya WAILA'daki "verimlilik" değerine bakarak görebilirsin. 
 
-## Optimal Flow Rate
-The rate (L/t) at which gas enters the <Color id="GREEN">LGT</Color> is extremely important. Too little gas and only a fraction of the potential power is generated; too much gas and a tremendous quantity of fuel is wasted. Ideally, gas enters the <Color id="GREEN">LGT</Color> at the optimal flow rate of the turbine which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}$$) in L/t is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, EU/L is the density of the gas, and $$\eta_0$$ is the base efficiency of the turbine. 
+## Optimal Akış Hızı
+Gazın <Color id="GREEN">LGT</Color>'ye girdiği hız (L/t) son derece önemlidir. Çok az gaz olursa potansiyel gücün yalnızca bir kısmı üretilir; çok fazla gaz olursa muazzam miktarda Yakıt boşa harcanır. İdeal olarak gaz, <Color id="GREEN">LGT</Color>'ye Türbinin optimal akış hızında girer; bu hız boyut/malzeme ve makinenin çalışma moduna göre önemli ölçüde değişir. NEI'de görünse de, L/t cinsinden optimal akış hızı ($$\dot{m}$$) aşağıdaki denklemlerle hesaplanır; burada $$k$$ her malzemeyle ilişkili bir çarpandır, size 1=küçük ile 4=devasa arasında bir sabittir, EU/L gazın yoğunluğudur ve $$\eta_0$$ Türbinin temel verimliliğidir. 
 
 <Latex formula="\dot{m}^* \text{Tight} = k \times \text{size} \times 50 \div EU/L">
-  Where:
-  - $$\dot{m}^* =$$ Optimal Flow Rate
-  - $$k =$$ Material Multiplier
-  - size = Turbine size (1=small, 4=huge)
+  Burada:
+  - $$\dot{m}^* =$$ Optimal Akış Hızı
+  - $$k =$$ Malzeme Çarpanı
+  - size = Türbin boyutu (1=küçük, 4=devasa)
 </Latex>
 <Latex formula="\dot{m}^* \text{Loose} = k \times \text{size} \times 100 \div EU/L \times 1.05^{20(\eta_0 - 0.8)}">
-  Where:
-  - $$\dot{m}^* =$$ Optimal Flow Rate
-  - $$k =$$ Material Multiplier
-  - size = Turbine size (1=small, 4=huge)
-  - $$\eta_0 =$$ Base Efficiency
+  Burada:
+  - $$\dot{m}^* =$$ Optimal Akış Hızı
+  - $$k =$$ Malzeme Çarpanı
+  - size = Türbin boyutu (1=küçük, 4=devasa)
+  - $$\eta_0 =$$ Temel Verimlilik
 </Latex>
 
-The quicker and easier way to calculate the optimal flow rate in tight fitting mode is to divide the optimal gas EU/t (visible in NEI) by the density of the gas, and then divide the result by 2. Some have very low densities and thus very high optimal flow rates--especially if the <Color id="GREEN">LGT</Color> is in loose mode. The player may need to upgrade their fluid regulator or add a second input hatch to meet the increased demand. Eventually it becomes necessary to switch to AE2 fluid P2P tunnels which effectively have no transfer limit and no regard for temperature or heat capacity. 
+Sıkı geçme modunda optimal akış hızını hesaplamanın daha hızlı ve kolay yolu, optimal gaz EU/t değerini (NEI'de görünür) gazın yoğunluğuna bölmek ve ardından sonucu 2'ye bölmektir. Bazıları çok düşük yoğunluğa ve dolayısıyla çok yüksek optimal akış hızına sahiptir--özellikle <Color id="GREEN">LGT</Color> gevşek moddaysa. Oyuncunun artan talebi karşılamak için sıvı regülatörünü yükseltmesi veya ikinci bir Girdi Kapağı eklemesi gerekebilir. Sonunda, etkin olarak aktarım sınırı olmayan ve Sıcaklık veya ısı kapasitesini hesaba katmayan AE2 sıvı P2P tünellerine geçmek gerekli hale gelir. 
 
-## Power & Overflow
-The power generated by the <Color id="GREEN">LGT</Color> depends on the current flow rate ($$\dot{m}$$), the optimal flow rate ($$\dot{m}^*$$), and the efficiency of the turbine ($$\eta$$). Exceeding the optimal flow rate generates additional power with diminishing returns based on the overflow tier ($$T$$) of the turbine. There are only three overflow tiers in total and they depend strictly on the material of the turbine. A higher overflow tier also increases the maximum flow rate ($$\dot{m}_{max}$$). View the overflow tier of a turbine through NEI and the current power output of the machine through WAILA.
+## Güç ve Taşma
+<Color id="GREEN">LGT</Color> tarafından üretilen güç, mevcut akış hızına ($$\dot{m}$$), optimal akış hızına ($$\dot{m}^*$$) ve Türbinin verimliliğine ($$\eta$$) bağlıdır. Optimal akış hızını aşmak, Türbinin taşma kademesine ($$T$$) bağlı olarak azalan getiriyle ek güç üretir. Toplamda yalnızca üç taşma kademesi vardır ve bunlar kesinlikle Türbinin malzemesine bağlıdır. Daha yüksek bir taşma kademesi maksimum akış hızını ($$\dot{m}_{max}$$) da artırır. Bir Türbinin taşma kademesini NEI'den, makinenin mevcut güç çıktısını ise WAILA'dan gör.
 
-Power is extracted from a 4A dynamo hatch on the back of the structure. Do not break the dynamo hatch while the machine is running or else the <Color id="GREEN">LGT</Color> will explode. Exceeding the maximum EU/t or the total EU in the dynamo's buffer is perfectly safe; the <Color id="GREEN">LGT</Color> will not explode if an attached battery buffer or Lapotronic Supercapacitor (LSC) is full and there is nowhere for the EU to go. Any additional EU is simply voided. It is highly recommended to automatically toggle the <Color id="GREEN">LGT</Color> with a redstone RS latch to avoid wasting fuel.
+Güç, yapının arkasındaki 4A Dinamo Kapağından çekilir. Makine çalışırken Dinamo Kapağını kırma, yoksa <Color id="GREEN">LGT</Color> patlar. Maksimum EU/t'yi veya Dinamonun Tamponundaki toplam EU'yu aşmak tamamen güvenlidir; bağlı bir Pil Tamponu veya Lapotronik Süperkapasitör (LSC) doluysa ve EU'nun gidecek başka yeri yoksa <Color id="GREEN">LGT</Color> patlamaz. Fazladan EU basitçe yok edilir. Yakıt israfını önlemek için <Color id="GREEN">LGT</Color>'yi bir kızıltaş RS mandalı ile otomatik olarak açıp kapatman şiddetle önerilir.
 
 
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times EU/L \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$\eta$$: Verimlilik
 </Latex>
 <Latex formula="\text{EU/t} (> \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^* \times (3T-1)} \Biggr) \times EU/L \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
-  - $$T$$: Overflow Tier
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$\eta$$: Verimlilik
+  - $$T$$: Taşma Kademesi
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (1.5T)">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}_{max}$$: Maximum Flow Rate
-  - $$T$$ Overflow Tier
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}_{max}$$: Maksimum Akış Hızı
+  - $$T$$ Taşma Kademesi
 </Latex>

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Spatial Storage Cells
+  title: Uzamsal Depolama Hücreleri
   icon: appliedenergistics2:item.ItemSpatialStorageCell.2Cubed
 categories:
 - tools
@@ -19,8 +19,8 @@ item_ids:
 <ItemImage id="appliedenergistics2:item.ItemSpatialStorageCell.128Cubed" scale="4"/>
 </Row>
 
-Spatial Storage Cells are the storage medium used by the [Spatial IO system](../ae2_mechanics/spatial_io.md). When the system runs, the volume of the selected area must be less than or equal to the capacity of the Spatial Storage Cell being used. There are three tiers of Spatial Storage Cell, with capacities of 2, 16, and 128 cubic meters.
+Uzamsal Depolama Hücreleri, [Uzamsal G/Ç sistemi](../ae2_mechanics/spatial_io.md) tarafından kullanılan depolama ortamıdır. Sistem çalıştığında, seçilen alanın hacmi kullanılan Uzamsal Depolama Hücresinin kapasitesine eşit veya ondan küçük olmalıdır. 2, 16 ve 128 metreküp kapasiteli üç Uzamsal Depolama Hücresi kademesi vardır.
 
-Internally, a Spatial Storage Cell is effectively a separate dimension. A Spatial Pylon setup works by swapping the entire selected region with an equally sized region inside the cell. The first time you use a new Spatial Storage Cell, it creates a dimension matching its internal size. In practice, you can think of each fresh Spatial Storage Cell as being filled with air blocks. The first spatial transfer swaps that air-filled region back out into the world.
+Dahili olarak, bir Uzamsal Depolama Hücresi esasen ayrı bir boyuttur. Bir Uzamsal Pilon düzeneği, seçilen bölgenin tamamını hücre içindeki eşit büyüklükte bir bölgeyle değiştirerek çalışır. Yeni bir Uzamsal Depolama Hücresini ilk kez kullandığında, hücrenin dahili boyutuyla eşleşen bir boyut oluşturur. Pratikte, her yeni Uzamsal Depolama Hücresini hava bloklarıyla dolu olarak düşünebilirsin. İlk uzamsal aktarımda, hava dolu o bölge dünyadaki seçili alanla yer değiştirir.
 
-<Color id="RED">Once a Spatial Storage Cell has been used, you cannot reset, reformat, or resize it. If you want a different size, craft a new cell.</Color>
+<Color id="RED">Bir Uzamsal Depolama Hücresi kullanıldıktan sonra onu sıfırlayamaz, yeniden biçimlendiremez veya yeniden boyutlandıramazsın. Farklı bir boyut istiyorsan yeni bir hücre üret.</Color>

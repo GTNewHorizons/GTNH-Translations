@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Certus Quartz Crystal
+  title: Certus Kuvars Kristali
   icon: gregtech:gt.metaitem.01:8516
 categories:
 - misc ingredients blocks
@@ -10,16 +10,16 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:10
 ---
 
-# Certus Quartz Crystal
+# Certus Kuvars Kristali
 
 <ItemImage id="gregtech:gt.metaitem.01:8516" scale="4" />
 
-*"Certus Quartz Crystals possess a unique trait————their crystalline matrix can store large amounts of energy"*
+*"Certus Kuvars Kristalleri eşsiz bir özelliğe sahiptir————kristal matrisleri büyük miktarda enerji depolayabilir"*
 
-One of the primary crafting materials for AE2 blocks, [devices](../ae2_mechanics/devices.md), and items. Obtained by mining [Certus Quartz Ore](certus_ore.md).
+AE2 blokları, [cihazlar](../ae2_mechanics/devices.md) ve eşyalar için başlıca üretim materyallerinden biri. [Certus Kuvars Cevheri](certus_ore.md) kazılarak elde edilir.
 
 
-## Some Alternate Recipes
+## Bazı Alternatif Tarifler
 
 <Recipe id="gregtech:gt.metaitem.01:8516" handlerId="smelting" />
 

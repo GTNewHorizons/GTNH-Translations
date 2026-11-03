@@ -1,22 +1,22 @@
 ---
 navigation:
-  title: Sound Changes
+  title: Ses Değişiklikleri
   parent: misc.md
   icon: gregtech:gt.WirelessHeadphones
 categories:
-    - Miscellaneous Changes
+    - Çeşitli Değişiklikler
 author: Skorched
 date: 2026-05-30
 ---
 
-# Sound Changes
-There have been quite a few sound changes coming to 2.9. These are explained briefly below:
+# Ses Değişiklikleri
+2.9'a epey ses değişikliği geliyor. Bunlar aşağıda kısaca açıklanıyor:
 
-## Structure Rework Sounds:
-Lots of the new [Structure Reworks](../reworks/reworks.md) come with brand new sounds! They won't all be listed here, but see how many you can find!
+## Yapı Yenileme Sesleri:
+Yeni [Yapı Yenilemelerinin](../reworks/reworks.md) çoğu yepyeni seslerle geliyor! Hepsi burada listelenmeyecek, ama kaç tanesini bulabileceğine bir bak!
 
-## Sound Center Location:
-Multiblock sounds will now emit from the center of the structure, instead of the previous emission from the controller.
+## Ses Merkezi Konumu:
+Multiblok sesleri artık kontrolcüden yayılmak yerine yapının merkezinden yayacak.
 
 ## Howler Alarm:
-The Howler Alarm <ItemImage id="IC2NuclearControl:blockNuclearControlMain:2"/> now comes with a new sound setting, the <Color id="GREEN">Factorio Rocket Silo</Color>!
+Howler Alarm <ItemImage id="IC2NuclearControl:blockNuclearControlMain:2"/> artık yeni bir ses ayarıyla geliyor: <Color id="GREEN">Factorio Roket Silo</Color>!

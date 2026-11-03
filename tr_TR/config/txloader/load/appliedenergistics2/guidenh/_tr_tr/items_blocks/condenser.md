@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Condenser
+  title: Yoğuşturucu
   icon: appliedenergistics2:tile.BlockCondenser
   position: 310
 categories:
@@ -11,4 +11,4 @@ item_ids:
 ---
 <ItemImage id="appliedenergistics2:tile.BlockCondenser" scale="4"/>
 
-The Condenser can destroy unwanted items fed into it, or convert them into <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:6" showIcon="left" /> or <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:47" showIcon="left" />. The former is ammunition for the <ItemLink id="appliedenergistics2:item.ToolMassCannon" showIcon="left" />, while the latter is an important item for a [Quantum Ring](../ae2_mechanics/quantum_bridge.md) setup.
+Yoğuşturucu, AE2 Makineleri arasında yer alan ve içine verilen istenmeyen eşyaları yok edebilen ya da bunları <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:6" showIcon="left" /> veya <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:47" showIcon="left" /> haline dönüştürebilen bir bloktur. İlki <ItemLink id="appliedenergistics2:item.ToolMassCannon" showIcon="left" /> için mermidir; ikincisi ise bir [Kuantum Yüzüğü](../ae2_mechanics/quantum_bridge.md) düzeneğinin blokları için önemli bir eşyadır.

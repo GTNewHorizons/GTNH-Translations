@@ -4,33 +4,33 @@ item_ids:
 quest_ids:
   - xTkeDXIZSlmRkde8LZgzLw==
 navigation:
-  title: Beam Crafter
+  title: Işın Üreticisi
   parent: ./large_hadron_collider.md
   icon: gregtech:gt.blockmachines:3015
   position: -8001
 ---
-# Beam Crafter
+# Işın Üreticisi
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:3015" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" /> is a UV tier multiblock that captures particle beams for crafting recipes.
+<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />, üretim tarifleri için parçacık ışınlarını yakalayan UV kademesinde bir multibloktur.
 
-If necessary, use the [<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />](./beam_mirror.md), [<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md), and/or the [<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md) to control the flow of particle beams following the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md).
+Gerekirse, [<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />](./beam_mirror.md), [<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md) ve/veya [<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md) kullanarak [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) sonrasındaki parçacık ışınlarının akışını kontrol et.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | UV |
-| Structure Size (LxWxH) | 11x17x5 |
-| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| Kilit Açma Kademesi | UV |
+| Yapı Boyutu (GxUxY) | 11x17x5 |
+| Güç | Her tür kapak kullanılabilir; Çok Amperli ve Lazer Kapaklar dahil |
+| Hız Aşırtma | Yok |
+| Bakım | Bakım gerekmez |
+| Kirlilik | Kirlilik üretmez |
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-### Crafting
+### Üretim
 
 <RecipesFor id="gregtech:gt.blockmachines:3015" handlerBlacklist="gt.recipe.scanner" />
 
@@ -40,47 +40,47 @@ If necessary, use the [<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="l
 
 <RecipesFor id="gregtech:gt.blockmachines:10503" handlerBlacklist="gt.recipe.scanner" />
 
-### Structure
+### Yapı
 
-The Beam Crafter has no tiered components. The glass can be any tier and has no effect on the operation of the machine.
+Işın Üreticisinin kademeli bileşeni yoktur. Cam herhangi bir kademeden olabilir ve makinenin çalışmasını etkilemez.
 
-The Beam Crafter can be rotated or flipped.
+Işın Üreticisi döndürülebilir veya ters çevrilebilir.
 
-<ItemLink id="gregtech:gt.blockmachines:2715" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:2714" showIcon="left" /> are incompatible with the Beam Crafter, so use regular or stocking input buses/hatches.
+<ItemLink id="gregtech:gt.blockmachines:2715" showIcon="left" /> ve <ItemLink id="gregtech:gt.blockmachines:2714" showIcon="left" />, Işın Üreticisi ile uyumlu değildir; bu yüzden normal veya stoklamalı giriş yolu ve girdi kapakları kullan.
 
-Multi-Amp and Laser Energy Hatches are supported, but they **do not overclock** the machine.
+Çok Amperli ve Lazer Enerji Kapakları desteklenir, ancak makineyi **hız aşırtma** uygulamazlar.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan; camın kademesini belirtmek üzere "glass" alt kanalını ver.
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" /> | 1, Front center, 1st layer |
+| <ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" /> | 1, Ön orta, 1. katman |
 | <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> | 0-225 |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 26 |
+| <ItemImage id="bartworks:BW_TieredGlass" />Herhangi bir kademeli cam | 26 |
 | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 16 |
-| <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 2, Center of both ends of the structure |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Can replace any <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+, Can replace any <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 0+, Can replace any <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1+, Can replace any <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Output Hatch | 0+, Can replace any <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 2, Yapının her iki ucunun ortası |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Normal, Çok Amperli, Lazer kullanılabilir</Tooltip> | 1+, Herhangi bir <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Giriş Yolu | 1+, Herhangi bir <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Girdi Kapağı | 0+, Herhangi bir <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Çıkış Yolu | 1+, Herhangi bir <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Çıkış Kapağı | 0+, Herhangi bir <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> yerine geçebilir |
 
-### Wallsharing
+### Duvar Paylaşımı
 
-Beam Crafters may wallshare each of their sides to save on casings and glass. However, it is not possible to share the beam input hatches due to the restrictions on their locations.
+Işın Üreticileri kasa ve camdan tasarruf etmek için her bir yüzünü duvar paylaşımıyla kullanabilir. Ancak konumlarındaki kısıtlamalar nedeniyle ışın giriş kapaklarını paylaşmak mümkün değildir.
 
-## Usage
-The Beam Crafter is the final step in the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) and captures one or more of the output particle beams for recipes. More specifically, it permanently buffers up to 2B of each particle type and only ever consumes them when a recipe requires them.
+## Kullanım
+Işın Üreticisi, [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) zincirinin son adımıdır ve tarifler için çıkış parçacık ışınlarından bir veya daha fazlasını yakalar. Daha açıkçası, her parçacık türünden kalıcı olarak 2B'ye kadar tamponlar ve bunları yalnızca bir tarif gerektirdiğinde tüketir.
 
-There is no passive decay and it does not matter which beam input hatch the particles enter through. **However, particles are only added to the buffer while the Beam Crafter is actively processing a recipe.**
+Pasif bozunma yoktur ve parçacıkların hangi ışın giriş kapağından girdiği önemli değildir. **Ancak parçacıklar tampona yalnızca Işın Üreticisi etkin biçimde bir tarifi işlerken eklenir.**
 
-Beam Crafter recipes start immediately upon receiving any valid inputs and only finish when the machine receives enough of the required particles, similar to how the [<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />](./research_station.md) consumes computation. Therefore, the duration of recipes is strictly determined by the rate at which particles are consumed. It could be instantaneous if there are enough particles stored in the buffer, or last forever if the collision energy of the LHC is not high enough to produce the required particles.
+Işın Üreticisi tarifleri, geçerli herhangi bir girdi alır almaz hemen başlar ve yalnızca makine gereken parçacıklardan yeterince aldığında tamamlanır; tıpkı [<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />](./research_station.md) hesaplama gücü tüketmesi gibi. Bu nedenle tariflerin süresi, parçacıkların tüketilme hızıyla kesin olarak belirlenir. Tamponda yeterli parçacık depolanmışsa anlık olabilir veya LHC'nin çarpışma enerjisi gereken parçacıkları üretmeye yetmiyorsa sonsuza kadar sürebilir.
 
-All available recipes are listed in the following table along with their requirements and the module(s) that can produce both particles on their own. The "None" column refers to using only a [<ItemLink id="gregtech:gt.blockmachines:10506" showIcon="left" />](./source_chamber.md) to produce the required particles - no LHC necessary.
+Mevcut tüm tarifler, gereksinimleri ve iki parçacığı da kendi başına üretebilen modül(ler) ile birlikte aşağıdaki tabloda listelenmiştir. "Yok" sütunu, gereken parçacıkları üretmek için yalnızca bir [<ItemLink id="gregtech:gt.blockmachines:10506" showIcon="left" />](./source_chamber.md) kullanıldığını belirtir - LHC gerekmez.
 
-| Recipe | Tier | Particle 1 || Particle 2 || Modules |||||
+| Tarif | Kademe | Parçacık 1 || Parçacık 2 || Modüller |||||
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ^^ | ^^ | Type | Amount | Type | Amount | None | CMS | ATLAS | ALICE | LHCb |
+| ^^ | ^^ | Tür | Miktar | Tür | Miktar | Yok | CMS | ATLAS | ALICE | LHCb |
 | <ItemLink id="miscutils:dustNeptunium238" showIcon="left" /> | EV | <ItemLink id="gtnhlanth:particle:12" showIcon="left" /> | 250 | <ItemLink id="gtnhlanth:particle:12" showIcon="left" /> | 250 | &a✓ | &c✗ | &a✓ | &a✓ | &c✗ |
 | <ItemLink id="miscutils:particleBase:24" showIcon="left" />(1) | LuV | <ItemLink id="gtnhlanth:particle:11" showIcon="left" /> | 120 | <ItemLink id="gtnhlanth:particle:5" showIcon="left" /> | 720 | &a✓ | &a✓ | &a✓ | &c✗ | &c✗ |
 | <ItemLink id="miscutils:particleBase:24" showIcon="left" />(64) | ^^ | <ItemLink id="gtnhlanth:particle:11" showIcon="left" /> | 5 | <ItemLink id="gtnhlanth:particle:6" showIcon="left" /> | 3 | &c✗ | &a✓ | &a✓ | &c✗ | &c✗ |
@@ -107,8 +107,8 @@ All available recipes are listed in the following table along with their require
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:183" showIcon="left" /> | ^^ | <ItemLink id="gtnhlanth:particle:4" showIcon="left" /> | 50 | <ItemLink id="gtnhlanth:particle:3" showIcon="left" /> | 5 | &c✗ | &c✗ | &c✗ | &c✗ | &a✓ |
 {: widths="200, 30, 90, 40, 90, 40, 32, 32, 32, 32, 32"}
 
-The CMS module only supports a few basic recipes such as the two for unknown particles. The ATLAS module supports nearly every recipe because it has such a large pool of particles, but that also makes it difficult to obtain any one in particular. The ALICE module is also quite flexible, but its pool is much smaller for more concentrated crafts. The LHCb module supports the most advanced recipes like the ZPIC wafer and stable boson containment unit, and has a higher yield of the two rarest particles.
+CMS modülü yalnızca bilinmeyen parçacıklara ait iki tarif gibi birkaç temel tarifi destekler. ATLAS modülü neredeyse her tarifi destekler çünkü çok geniş bir parçacık havuzuna sahiptir, ancak bu aynı zamanda belirli bir parçacığı elde etmeyi zorlaştırır. ALICE modülü de oldukça esnektir, ancak daha yoğun üretimler için havuzu çok daha küçüktür. LHCb modülü, ZPIC yonga plakası ve kararlı bozon muhafaza birimi gibi en gelişmiş tarifleri destekler ve en nadir iki parçacıkta daha yüksek verim sağlar.
 
-## References
+## Kaynaklar
 
-- [GTNH Wiki : Beam Crafter](https://wiki.gtnewhorizons.com/wiki/Beam_Crafter)
+- [GTNH Wiki : Işın Üreticisi](https://wiki.gtnewhorizons.com/wiki/Beam_Crafter)

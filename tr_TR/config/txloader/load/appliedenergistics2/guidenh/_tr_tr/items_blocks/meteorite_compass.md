@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Meteorite Compass
+  title: Meteorit Pusulası
   icon: appliedenergistics2:tile.BlockSkyCompass
 categories:
 - tools
@@ -9,13 +9,13 @@ item_ids:
 - appliedenergistics2:tile.BlockSkyCompass
 ---
 
-# The Meteorite Compass
+# Meteorit Pusulası
 
 <ItemImage id="appliedenergistics2:tile.BlockSkyCompass" scale="4" />
 
-The Meteorite Compass points toward chunks containing a [meteorite](../ae2_mechanics/meteorites.md), including artificial meteorites. It spins quickly when the current chunk contains one and slowly when no meteorite is nearby.
+Meteorit Pusulası, yapay meteoritler de dahil olmak üzere [meteorit](../ae2_mechanics/meteorites.md) içeren yığınlara doğru işaret eder. Bulunduğun yığın bir meteorit içeriyorsa hızlı döner; yakınında meteorit blokları yoksa yavaş döner.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:tile.BlockSkyCompass" />
 

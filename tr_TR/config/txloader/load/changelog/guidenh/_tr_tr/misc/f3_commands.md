@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: F3 Commands
+  title: F3 Komutları
   parent: misc.md
   icon: gregtech:gt.metaitem.01:32761
 categories:
-    - Miscellaneous Changes
+    - Diğer Değişiklikler
 author: Skorched
 date: 2026-05-30
 ---
 
-# F3 Commands
-As part of 2.9, almost all F3 commands now have translatable debug messages. F3+Q and F3+D have also been backported which shows the list of commands, or clears chat respectively.
+# F3 Komutları
+2.9'un bir parçası olarak, neredeyse tüm F3 komutları artık çevrilebilir hata ayıklama mesajlarına sahip. Ayrıca F3+Q ve F3+D de geri portlandı; bunlar sırasıyla komut listesini gösteriyor ve sohbeti temizliyor.
 
 <FloatingImage src="../assets/misc/f3.png" displayWidth="384">
   <ImageAnnotation>
-    The list of key bindings for debug commands
+    Hata ayıklama komutları için tuş atamaları listesi
   </ImageAnnotation>
 </FloatingImage>

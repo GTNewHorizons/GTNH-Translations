@@ -1,172 +1,172 @@
 ---
 navigation:
   parent: /tricks_example_index.md
-  title: Item/Fluid "Pipe" Subnet
+  title: Eşya/Sıvı "Boru" Alt Ağı
   icon: appliedenergistics2:item.ItemMultiPart:220
 ---
 
-# Item/Fluid "Pipe" Subnet
+# Eşya/Sıvı "Boru" Alt Ağı
 
-A simple method of emulating an item and/or fluid pipe with AE2 [devices](../ae2_mechanics/devices.md), useful for, well, anything you'd use an item or fluid pipe for.
-This includes returning the result of a craft to a <ItemLink id="appliedenergistics2:tile.BlockInterface" />.
+AE2 [cihazlarıyla](../ae2_mechanics/devices.md) bir eşya ve/veya sıvı borusunu taklit etmenin basit bir yöntemi; kısacası, bir eşya veya sıvı borusunu ne için kullanıyorsan onun için işe yarar.
+Buna bir üretimin sonucunu bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> içine geri döndürmek de dahildir.
 
-There are generally two different methods of achieving this:
+Bunu başarmanın genellikle iki farklı yöntemi vardır:
 
-## Import Bus -> Storage Bus
+## İçe Aktarma Veriyolu -> Depolama Veriyolu
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_storage_pipe.snbt" />
   <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
-    (1) Import Bus: Can be filtered.
+    (1) İçe Aktarma Veriyolu: Filtrelenebilir.
   </BoxAnnotation>
   <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
-    (2) Storage Bus: Can be filtered. This (and other storage busses you want to be a destination)
-    must be the only storage on the network.
+    (2) Depolama Veriyolu: Filtrelenebilir. Bu (ve hedef olmasını istediğin diğer depolama veriyolları)
+    ağdaki tek depolama olmalıdır.
   </BoxAnnotation>
   <DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
-    Source
+    Kaynak
   </DiamondAnnotation>
   <DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
-    Destination
+    Hedef
   </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-The <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (1) on the source inventory imports the items or fluid, and attempts to store them in [network storage](../ae2_mechanics/import_export_storage.md).
-Since the only storage on the network is the <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2) (which is why this is a subnet and not on your main network), the items or fluid
-are placed in the destination inventory, thus being transferred. Energy is provided through a <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" />.
-Both the import bus and storage bus can be filtered, but the setup will transfer everything it can access if no filters are applied.
-This setup also works with multiple import busses and multiple storage busses.
+Kaynak envanterdeki <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (1) eşyaları veya sıvıyı içe aktarır ve bunları [ağ deposuna](../ae2_mechanics/import_export_storage.md) depolamaya çalışır.
+Ağdaki tek depolama <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2) olduğundan (bu yüzden bu bir alt ağdır ve ana ağında değildir), eşyalar veya sıvı
+hedef envantere konur ve böylece aktarılmış olur. Enerji bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" /> üzerinden sağlanır.
+Hem içe aktarma veriyolu hem de depolama veriyolu filtrelenebilir, ancak filtre uygulanmazsa düzen erişebildiği her şeyi aktarır.
+Bu düzen birden fazla içe aktarma veriyolu ve birden fazla depolama veriyolu ile de çalışır.
 
-## Storage Bus -> Export Bus
+## Depolama Veriyolu -> Dışa Aktarma Veriyolu
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/storage_export_pipe.snbt" />
   <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
-    (1) Storage Bus: Can be filtered. This (and other storage busses you want to be a source)
-    must be the only storage on the network.
+    (1) Depolama Veriyolu: Filtrelenebilir. Bu (ve kaynak olmasını istediğin diğer depolama veriyolları)
+    ağdaki tek depolama olmalıdır.
   </BoxAnnotation>
   <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
-    (2) Export Bus: Must be filtered.
+    (2) Dışa Aktarma Veriyolu: Filtrelenmelidir.
   </BoxAnnotation>
   <DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
-    Source
+    Kaynak
   </DiamondAnnotation>
   <DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
-    Destination
+    Hedef
   </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-The <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> on the destination inventory attempts to pull items in its filter from [network storage](../ae2_mechanics/import_export_storage.md).
-Since the only storage on the network is the <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (which is why this is a subnet and not on your main network), the items or fluid
-are pulled from the source inventory, thus being transferred. Energy is provided through a <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" />.
-Because export busses must be filtered to function, this setup only operates if you filter the export bus.
-This setup also works with multiple storage busses and multiple export busses.
+Hedef envanterdeki <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> filtresindeki eşyaları [ağ deposundan](../ae2_mechanics/import_export_storage.md) çekmeye çalışır.
+Ağdaki tek depolama <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> olduğundan (bu yüzden bu bir alt ağdır ve ana ağında değildir), eşyalar veya sıvı
+kaynak envanterden çekilir ve böylece aktarılmış olur. Enerji bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" /> üzerinden sağlanır.
+Dışa aktarma veriyolları çalışmak için filtrelenmek zorunda olduğundan, bu düzen yalnızca dışa aktarma veriyolunu filtrelediğinde çalışır.
+Bu düzen birden fazla depolama veriyolu ve birden fazla dışa aktarma veriyolu ile de çalışır.
 
-## A Setup That Does Not Work (Import Bus -> Export Bus)
+## Çalışmayan Bir Düzen (İçe Aktarma Veriyolu -> Dışa Aktarma Veriyolu)
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_export_pipe.snbt" />
   <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dd3333" thickness="1">
-    Import Bus: Since the network has no storage, there is nowhere for it to import to.
+    İçe Aktarma Veriyolu: Ağda depolama olmadığından içe aktarabileceği bir yer yok.
   </BoxAnnotation>
   <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dd3333" thickness="1">
-    (2) Export Bus: Since the network has no storage, there is nothing for it to export.
+    (2) Dışa Aktarma Veriyolu: Ağda depolama olmadığından dışa aktarabileceği bir şey yok.
   </BoxAnnotation>
   <DiamondAnnotation pos="4.5 0.5 0.5" color="#ff0000">
-    Source
+    Kaynak
   </DiamondAnnotation>
   <DiamondAnnotation pos="0.5 0.5 0.5" color="#ff0000">
-    Destination
+    Hedef
   </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-A setup with just an import and export bus will not work. The import bus will attempt to pull from the source inventory
-and store the items or fluid in network storage. The export bus will attempt to pull from network storage and put the
-items or fluid in the destination inventory. However since this network **has no storage**, the import bus can't import
-and the export bus can't export, so nothing happens.
+Yalnızca bir içe aktarma ve bir dışa aktarma veriyolundan oluşan bir düzen çalışmaz. İçe aktarma veriyolu kaynak envanterden çekmeye
+ve eşyaları veya sıvıyı ağ deposuna depolamaya çalışır. Dışa aktarma veriyolu ağ deposundan çekmeye ve
+eşyaları veya sıvıyı hedef envantere koymaya çalışır. Ancak bu ağın **depolaması olmadığından** içe aktarma veriyolu içe aktaramaz
+ve dışa aktarma veriyolu dışa aktaramaz, bu yüzden hiçbir şey olmaz.
 
-## Inputting And Outputting Through 1 Face
+## Tek Yüzden Girdi ve Çıktı
 
-Say you have some machine that can receive input and have its output pulled through 1 face. (Like a <ItemLink id="appliedenergistics2:tile.BlockCharger" />)
-You can both push in the ingredients and pull out the result, by combining the 2 pipe subnet methods:
+Girdi alabilen ve çıktısı tek yüzden çekilebilen bir makinen olduğunu düşün. (Bir <ItemLink id="appliedenergistics2:tile.BlockCharger" /> gibi.)
+2 boru alt ağı yöntemini birleştirerek hem malzemeleri içeri itebilir hem de sonucu dışarı çekebilirsin:
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_storage_export_pipe.snbt" />
   <BoxAnnotation min="4 1 1" max="5 1.3 2" color="#dddddd" thickness="1">
-    (1) Import Bus: Can be filtered.
+    (1) İçe Aktarma Veriyolu: Filtrelenebilir.
   </BoxAnnotation>
   <BoxAnnotation min="2 1 1" max="3 1.3 2" color="#dddddd" thickness="1">
-    (2) Storage Bus: Can be filtered. This (and other storage busses you want to push and pull items)
-    must be the only storage on the network.
+    (2) Depolama Veriyolu: Filtrelenebilir. Bu (ve eşya itip çekmek istediğin diğer depolama veriyolları)
+    ağdaki tek depolama olmalıdır.
   </BoxAnnotation>
   <BoxAnnotation min="2 0 1" max="3 1 2" color="#dddddd" thickness="1">
-    (3) Thing You Want To Push To And Pull From: In this case a Charger.
+    (3) İçine İtmek ve Ondan Çekmek İstediğin Şey: Bu durumda bir Şarj Cihazı.
   </BoxAnnotation>
   <BoxAnnotation min="0 1 1" max="1 1.3 2" color="#dddddd" thickness="1">
-    (4) Export Bus: Must be filtered.
+    (4) Dışa Aktarma Veriyolu: Filtrelenmelidir.
   </BoxAnnotation>
   <DiamondAnnotation pos="4.5 0.5 1.5" color="#00ff00">
-    Source
+    Kaynak
   </DiamondAnnotation>
   <DiamondAnnotation pos="0.5 0.5 1.5" color="#00ff00">
-    Destination
+    Hedef
   </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Interfaces
+## Arayüzler
 
-It turns out there are [devices](../ae2_mechanics/devices.md) besides import busses and export busses that push items into
-and pull items out of [network storage](../ae2_mechanics/import_export_storage.md)!
-Of relevance here is the <ItemLink id="appliedenergistics2:tile.BlockInterface" />. If an item is inserted that the interface is not set to stock, the interface will
-push it to network storage, which we can exploit similarly to the import bus -> storage bus pipe. Setting an interface to
-stock some item will pull it from network storage, similar to the storage bus -> export bus pipe. Interfaces can be set to
-stock some things and not stock others, allowing you to remotely push and pull through storage busses, if you for some reason want to do that.
+İçe aktarma ve dışa aktarma veriyollarının yanı sıra eşyaları [ağ deposuna](../ae2_mechanics/import_export_storage.md) iten
+ve oradan çeken [cihazlar](../ae2_mechanics/devices.md) da varmış!
+Burada ilgili olan <ItemLink id="appliedenergistics2:tile.BlockInterface" />. Arayüzün stoklamak üzere ayarlanmadığı bir eşya yerleştirilirse arayüz onu
+ağ deposuna iter; bundan içe aktarma veriyolu -> depolama veriyolu borusuna benzer şekilde yararlanabiliriz. Bir arayüzü
+bir eşyayı stoklamak üzere ayarlamak, onu ağ deposundan çeker; depolama veriyolu -> dışa aktarma veriyolu borusuna benzer. Arayüzler
+bazı şeyleri stoklayıp bazılarını stoklamayacak şekilde ayarlanabilir; böylece bir nedenden dolayı bunu yapmak istersen depolama veriyolları üzerinden uzaktan itme ve çekme yapabilirsin.
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/interface_pipes.snbt" />
   <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
-    Interface
+    Arayüz
   </BoxAnnotation>
   <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
-    Storage Bus
+    Depolama Veriyolu
   </BoxAnnotation>
   <BoxAnnotation min="3.7 0 2" max="4 1 3" color="#dddddd" thickness="1">
-    Storage Bus
+    Depolama Veriyolu
   </BoxAnnotation>
   <BoxAnnotation min="0 1 2" max="1 1.3 3" color="#dddddd" thickness="1">
-    Interface
+    Arayüz
   </BoxAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## One-To-Many and Many-To One (and many-to-many)
+## Birden Çoka ve Çoktan Bire (ve çoktan çoka)
 
-Of course, you don't have to use just one <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> or <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> or <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />
+Elbette yalnızca bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> veya <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> veya <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> kullanmak zorunda değilsin
 
 <GameScene zoom="3" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/many_to_many_pipe.snbt" />
   <IsometricCamera yaw="185" pitch="30" />
 </GameScene>
 
-## Providing To Multiple Places
+## Birden Fazla Yere Tedarik Etme
 
-From all this, we can derive a method to send ingredients from one <ItemLink id="appliedenergistics2:tile.BlockInterface" /> to many different
-locations, like an array of machines, or several different faces of one machine.
+Tüm bunlardan, malzemeleri bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> içinden bir makine dizisi veya bir makinenin birkaç farklı yüzü gibi
+birçok farklı konuma göndermenin bir yöntemini çıkarabiliriz.
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/fluid_interface_storage.snbt" />
   <BoxAnnotation min="2.7 0 1" max="3 1 2" color="#dddddd" thickness="1">
-    Interface (must be flat, not fullblock)
+    Arayüz (düz olmalı, tam blok değil)
   </BoxAnnotation>
   <BoxAnnotation min="1 0 0" max="1.3 1 4" color="#dddddd" thickness="1">
-    Storage Busses
+    Depolama Veriyolları
   </BoxAnnotation>
   <BoxAnnotation min="0 0 0" max="1 1 4" color="#dddddd" thickness="1">
-    Places you want to pattern-provide to (multiple machines, or multiple faces of 1 machine)
+    Kalıpla tedarik etmek istediğin yerler (birden fazla makine veya 1 makinenin birden fazla yüzü)
   </BoxAnnotation>
   <IsometricCamera yaw="185" pitch="30" />
 </GameScene>

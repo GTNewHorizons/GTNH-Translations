@@ -2,7 +2,7 @@
 item_ids: 
   - gregtech:gt.blockmachines:15565
 navigation:
-  title: Cryogenic Freezer
+  title: Kriyojenik Dondurucu
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15565
 categories:
@@ -11,40 +11,40 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Cryogenic Freezer 
+# Kriyojenik Dondurucu 
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15565"/>
 </GameScene>
 
-The <Color id="GREEN">Cryogenic Freezer (CF)</Color> is an IV tier multiblock for mass cooling hot ingots and fluids. The <Color id="GREEN">CF</Color> is a direct upgrade from the Vacuum Freezer because it runs at <Color id="BLUE">300%</Color> speed, only uses <Color id="GREEN">90%</Color> of the EU/t normally required, and offers a fixed <Color id="RED">16</Color> parallels. The <Color id="GREEN">CF</Color> consumes 10 L/s of gelid cryotheum during operation through a specialized cryotheum cooling hatch. If it ever runs out, the machine crashes immediately and causes a random maintenance issue to occur. The [Endothermic Fridge](../multis/endothermic_fridge.md) only outperforms the Cryogenic Freezer if it can take full advantage of its 256 parallels (4+ overclocks) or use subspace cooling. 
+<Color id="GREEN">Kriyojenik Dondurucu (CF)</Color>, sıcak külçeleri ve sıvıları toplu olarak soğutmak için IV kademe bir multibloktur. <Color id="GREEN">CF</Color>, Vakum Dondurucudan doğrudan bir yükseltmedir çünkü <Color id="BLUE">%300</Color> hızda çalışır, normalde gereken EU/t'nin yalnızca <Color id="GREEN">%90</Color>'ını kullanır ve sabit <Color id="RED">16</Color> paralel sunar. <Color id="GREEN">CF</Color>, çalışma sırasında özel bir Kriyotheum soğutma kapağı üzerinden 10 L/s gelid Kriyotheum tüketir. Eğer tükenirse makine anında çöker ve rastgele bir bakım sorununun oluşmasına neden olur. [Endotermik Buzdolabı](../multis/endothermic_fridge.md), Kriyojenik Dondurucuyu ancak 256 paralelinden (4+ overclock) tam olarak yararlanabildiğinde veya alt uzay soğutması kullanabildiğinde geride bırakır. 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Higher speed: 220% -> 300%
-> - More Parallels: 8 -> 16
+> Multiblokta (yapı dışında) şu değişiklikler yapıldı:
+> - Daha yüksek hız: 220% -> 300%
+> - Daha fazla paralel: 8 -> 16
 
-## Construction
-The <Color id="GREEN">Cryogenic Freezer</Color> has no tiered components. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+## İnşaat
+<Color id="GREEN">Kriyojenik Dondurucu</Color>'nun kademeli bileşenleri yoktur. Yollar/kapaklar yapının herhangi bir yerindeki herhangi bir kasanın yerini alabilir. <Color id="RED">Çok Amperli ve Lazerli Enerji Kapakları</Color> desteklenmez, ancak overclock için birden fazla normal enerji kapağı olabilir. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan. 
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15565"/><ItemImage id="gregtech:gt.blockmachines:15565"/>
 - 46-56 <ItemLink id="miscutils:gtplusplus.blockcasings.3:10"/><ItemImage id="miscutils:gtplusplus.blockcasings.3:10"/>
 - 24 <ItemLink id="miscutils:blockFrameGtGrisium"/><ItemImage id="miscutils:blockFrameGtGrisium"/>
 - 1+ <ItemLink id="gregtech:gt.blockmachines:967"/><ItemImage id="gregtech:gt.blockmachines:967"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ Enerji Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 Bakım Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ Giriş Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ Girdi Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ Çıkış Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">Cryogenic Freezers</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### Duvar Paylaşımı
+<Color id="GREEN">Kriyojenik Dondurucular</Color> kasa, çerçeve kutusu, yol ve kapaklardan tasarruf etmek için her bir kenarını duvar paylaşımına açabilir. Hiçbir tarif 1A'dan fazla güç kullanmadığından <u>__tek__</u> bir enerji kapağını <u>__iki__</u> makine arasında paylaşmak mümkündür. 
 
-## Usage
-The <Color id="GREEN">Cryogenic Freezer</Color> is a direct upgrade from the Vacuum Freezer because it runs at 300% speed, only uses 90% of the EU/t normally required, and offers a fixed 16 parallels.
+## Kullanım
+<Color id="GREEN">Kriyojenik Dondurucu</Color>, %300 hızda çalıştığı, normalde gereken EU/t'nin yalnızca %90'ını kullandığı ve sabit 16 paralel sunduğu için Vakum Dondurucudan doğrudan bir yükseltmedir.
 
-The <Color id="GREEN">Cryogenic Freezer</Color> consumes 10 L/s of gelid cryotheum during operation through a specialized cryotheum cooling hatch. If it ever runs out, the machine crashes immediately and causes a random maintenance issue to occur. Cryotheum is primarily sourced from evolved cold blazes on Europa or the cryotheum bee. Blizz dust can also be made from blaze powder if necessary. 
+<Color id="GREEN">Kriyojenik Dondurucu</Color>, çalışma sırasında özel bir Kriyotheum soğutma kapağı üzerinden 10 L/s gelid Kriyotheum tüketir. Eğer tükenirse makine anında çöker ve rastgele bir bakım sorununun oluşmasına neden olur. Kriyotheum esas olarak Europa'daki evrimleşmiş soğuk blaze'lerden veya Kriyotheum arısından elde edilir. Gerekirse blaze tozundan Blizz tozu da yapılabilir. 

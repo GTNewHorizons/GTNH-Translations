@@ -4,30 +4,30 @@ navigation:
   parent: qol.md
   icon: Botania:cosmetic:25
 categories:
-    - Quality Of Life
+    - Yaşam Kalitesi
 author: Skorched
 date: 2026-05-16
 ---
 
 # Freecam
-Now in 2.9, we have a Freecam mod! Perfect for all you show-offs who want that perfect angle to showcase your newest building madness!
+Artık 2.9'da bir Freecam modumuz var! En yeni inşa çılgınlığını sergilemek için o kusursuz açıyı arayan tüm gösteriş meraklıları için birebir!
 
-## Features:
-- Creative and Static (no drifting) movement options
-- Camera hitbox is below half a block, so it can even fit under a half slab
-- <Color id="GREEN">Tripod System</Color>: Save camera positions by holding the _toggle_ button and pressing a number key
-- Four collision modes:
-- - Full
-- - Ignore Transparent (non-opaque blocks)
-- - Ignore Openables (doors, trapdoors etc.)
-- - None (no-clip)
-- Config options for fullbright, removing fog, hand rendering, and initial perspective
+## Özellikler:
+- Yaratıcı ve Sabit (kayma yok) hareket seçenekleri
+- Kamera vuruş kutusu yarım bloktan küçük, bu yüzden yarım basamağın altına bile sığabilir
+- <Color id="GREEN">Tripod System</Color>: _aç/kapa_ tuşunu basılı tutup bir sayı tuşuna basarak kamera konumlarını kaydet
+- Dört çarpışma modu:
+- - Dolu
+- - Saydamları Yoksay (opak olmayan bloklar)
+- - Açılabilirleri Yoksay (kapılar, tuzak kapıları vb.)
+- - Yok (içinden geçme)
+- Tam parlaklık, sisi kaldırma, el çizimi ve başlangıç perspektifi için yapılandırma seçenekleri
 
-## Default Controls:
-- F4 - Toggle Freecam (Currently bound: <KeyBind id="key.freecam.toggle"/>)
-- F4 + 1-9 - Open or switch to <Color id="GREEN">Tripod</Color> slot (Currently bound: <KeyBind id="key.freecam.toggle" /> + 1-9)
-- F4 + C - Toggle player/camera controls (Currently bound: <KeyBind id="key.freecam.playerControl" />)
-- F4 + R - Reset all <Color id="GREEN">Tripods</Color> (Currently bound: <KeyBind id="key.freecam.resetTripods" />)
-- Mouse Wheel Scroll - Adjust Flight Speed
+## Varsayılan Kontroller:
+- F4 - Freecam'i Aç/Kapat (Şu anda bağlı: <KeyBind id="key.freecam.toggle"/>)
+- F4 + 1-9 - <Color id="GREEN">Tripod</Color> yuvasını aç veya değiştir (Şu anda bağlı: <KeyBind id="key.freecam.toggle" /> + 1-9)
+- F4 + C - Oyuncu/kamera kontrollerini aç/kapat (Şu anda bağlı: <KeyBind id="key.freecam.playerControl" />)
+- F4 + R - Tüm <Color id="GREEN">Tripod</Color>'ları sıfırla (Şu anda bağlı: <KeyBind id="key.freecam.resetTripods" />)
+- Fare Tekerleği Kaydırma - Uçuş Hızını Ayarla
 > [!NOTE]
-> Server Owners can force collision mode, or disable the mod entirely for players
+> Sunucu sahipleri çarpışma modunu zorunlu kılabilir veya modu oyuncular için tamamen devre dışı bırakabilir

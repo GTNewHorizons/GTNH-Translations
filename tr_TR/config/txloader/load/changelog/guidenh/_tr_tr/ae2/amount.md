@@ -2,7 +2,7 @@
 item_ids:
   - appliedenergistics2:item.ItemMultiPart:360
 navigation:
-  title: Terminal QoL Changes
+  title: Terminal Kullanım Kolaylığı Değişiklikleri
   parent: ae2.md
 categories:
     - Applied Energistics 2
@@ -10,23 +10,23 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Terminal QoL Changes
-Given how much time you spend ~~jumping on machines~~ inside your terminals, they were overdue for some quality of life upgrades!
+# Terminal Kullanım Kolaylığı Değişiklikleri
+Terminallerinin içinde ~~makinelerin üstünde zıplamak~~ ne kadar çok zaman geçirdiğin düşünülürse, yaşam kalitesi iyileştirmeleri çoktan gecikmişti!
 
-## Enhanced Pin Management
-Pins are now separated into __Player__ and __Crafting__ sections, both separated and with a maximum of up to 16 for each (depending on resolution). Crafted items will automatically get pinned in the crafting Pin slots. This is all configurable in your mod settings
+## Gelişmiş Pin Yönetimi
+Pinler artık __Oyuncu__ ve __Üretim__ bölümlerine ayrıldı; her ikisi de ayrı ve her biri en fazla 16 adete kadar (çözünürlüğe bağlı olarak) olabilir. Üretilen eşyalar otomatik olarak üretim Pin yuvalarına sabitlenir. Bunların hepsi mod ayarlarından yapılandırılabilir.
 
-## Configurable Amounts
-If you've ever found that the autocrafting amounts seem odd to you, now you can configure them! When looking to autocraft any item, click the wrench in the bottom left to set new values for use in the future!
+## Yapılandırılabilir Miktarlar
+Otomatik üretim miktarları sana tuhaf geldiyse, artık bunları yapılandırabilirsin! Herhangi bir eşyayı otomatik üretmek istediğinde, ileride kullanılacak yeni değerler ayarlamak için sol alttaki İngiliz Anahtarı'na tıkla!
 
 <FloatingImage src="../assets/ae2/gui_amount.png" align="left" displayWidth="256">
   <ImageAnnotation>
-    The config page
+    Yapılandırma sayfası
   </ImageAnnotation>
 </FloatingImage>
 
 <FloatingImage src="../assets/ae2/gui_amount_2.png" align="left" displayWidth="256">
   <ImageAnnotation>
-    The result of that change
+    Bu değişikliğin sonucu
   </ImageAnnotation>
 </FloatingImage>

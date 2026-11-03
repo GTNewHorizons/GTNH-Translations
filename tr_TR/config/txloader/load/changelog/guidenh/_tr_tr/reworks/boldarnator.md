@@ -15,46 +15,46 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15556"/>
 </GameScene>
-The <Color id="GREEN">Boldarnator</Color> is an IV tier multiblock for creating and harvesting basic rocks. The <Color id="GREEN">Boldarnator</Color> is a direct upgrade from the singleblock rock breaker because it runs at 300% speed, only uses <Color id="BLUE">75%</Color> of the EU/t normally required, and offers <Color id="RED">8</Color> parallels per voltage tier. The available rocks are cobblestone, stone, obsidian, basalt, deepslate, netherrack, and end stone. The only requirement is a catalyst and/or programmed circuit inside an input bus. The lava, water, and catalyst are NOT consumed during processing so the only cost is 1 redstone dust per obsidian and 1 glowstone dust per netherrack. Everything else is completely free. 
+<Color id="GREEN">Boldarnator</Color>, temel kayaları üretmek ve toplamak için IV kademe bir Multibloktur. <Color id="GREEN">Boldarnator</Color>, tek bloklu kaya kırıcının doğrudan yükseltmesidir; çünkü %300 hızda çalışır, normalde gereken EU/t'nin yalnızca <Color id="BLUE">%75</Color>'ini kullanır ve her gerilim kademesi için <Color id="RED">8</Color> paralel sunar. Kullanılabilir kayalar kırıktaş, taş, obsidyen, bazalt, derin kayrak, netherrack ve end taşıdır. Tek gereksinim, bir giriş yolunda bir katalizör ve/veya programlanmış devre bulunmasıdır. Lav, su ve katalizör işleme sırasında TÜKETİLMEZ, bu yüzden tek maliyet her obsidyen için 1 kızıltaş tozu ve her netherrack için 1 parlak taş tozudur. Diğer her şey tamamen bedavadır. 
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> Lava and water are no longer needed to be supplied, as they exist with the structure
+> Multiblokta (yapı dışında) şu değişiklikler yapıldı:
+> Lav ve su artık sağlanmak zorunda değil, çünkü yapıyla birlikte hazır bulunuyorlar
 
-## Construction
-The <Color id="GREEN">Boldarnator</Color> has no tiered components. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. The lava and water are spawned for free once the structure is formed and therefore do NOT need to be placed manually. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass. 
+## İnşaat
+<Color id="GREEN">Boldarnator</Color>'ın kademeli bileşenleri yoktur. Cam herhangi bir kademede olabilir ve makinenin çalışmasına bir etkisi yoktur. Yollar/kapaklar yapı üzerinde herhangi bir yerdeki herhangi bir kasanın yerini alabilir. <Color id="RED">Çok Amperli ve Lazer Enerji Kapakları</Color> desteklenmez, ancak hız aşırtma için birden fazla normal enerji kapağı kullanılabilir. Lav ve su, yapı kurulduğunda bedavaya oluşturulur ve bu yüzden elle yerleştirilmeleri GEREKMEZ. Camın kademesini belirtmek için "glass" alt kanalıyla yapıyı görselleştirmek/inşa etmek üzere <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan. 
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15556"/><ItemImage id="gregtech:gt.blockmachines:15556"/>
 - 50-53 <ItemLink id="miscutils:gtplusplus.blockcasings.2"/><ItemImage id="miscutils:gtplusplus.blockcasings.2"/>
 - 36 <ItemLink id="gregtech:gt.blockframes:81"/><ItemImage id="gregtech:gt.blockframes:81"/>
-- 12 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 1+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 12 Kademeli Cam (herhangi biri) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 1+ Enerji Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 Bakım Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ Giriş Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 1+ Çıkış Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">Boldarnator</Color> may wallshare each of their sides to save on casings, glass, frameboxes, and buses/hatches. That includes the tanks on either side, but the fluids cannot be switched without horizontally flipping one of the controllers first (sneak right-click with a wrench). No recipe uses more than 0.5A of power so it is possible to share <u>__one__</u> energy hatch between <u>__four__</u> machines. 
+### Duvar Paylaşımı
+<Color id="GREEN">Boldarnator</Color>, kasa, cam, çerçeve ve yol/kapaklardan tasarruf etmek için her bir kenarını duvar paylaşımına açabilir. Buna iki yandaki tanklar da dahildir, ancak kontrolcülerden biri önce yatay olarak çevrilmeden (İngiliz Anahtarı ile eğilip sağ tıklayarak) sıvılar değiştirilemez. Hiçbir tarif 0,5A'dan fazla güç kullanmaz, bu yüzden <u>__bir__</u> enerji kapağını <u>__dört__</u> makine arasında paylaşmak mümkündür. 
 
-## Usage
-The <Color id="GREEN">Boldarnator</Color> is a direct upgrade from the singleblock rock breaker because it runs at 300% speed, only uses 75% of the EU/t normally required, and offers 8 parallels per voltage tier. 
+## Kullanım
+<Color id="GREEN">Boldarnator</Color>, tek bloklu kaya kırıcının doğrudan yükseltmesidir; çünkü %300 hızda çalışır, normalde gereken EU/t'nin yalnızca %75'ini kullanır ve her gerilim kademesi için 8 paralel sunar. 
 
-The <Color id="GREEN">Boldarnator</Color> has seven available recipes, listed below by their programmed circuit value. Five of them are completely free and only require specific non-consumable catalysts in the input bus. The other two consume 1 redstone dust per obsidian and 1 glowstone dust per netherrack. Despite appearing as a requirement in NEI, the lava and water are taken directly from the tanks on either side and do not need to be present in an input hatch.
+<Color id="GREEN">Boldarnator</Color>'ın, programlanmış devre değerlerine göre aşağıda listelenen yedi kullanılabilir tarifi vardır. Bunlardan beşi tamamen bedavadır ve yalnızca giriş yolunda belirli, tüketilemeyen katalizörler gerektirir. Diğer ikisi her obsidyen için 1 kızıltaş tozu ve her netherrack için 1 parlak taş tozu tüketir. NEI'de gereksinim olarak görünmesine rağmen lav ve su doğrudan iki yandaki tanklardan alınır ve bir girdi kapağında bulunmaları gerekmez.
 
-1. Cobblestone - Free
-2. Stone - Free
-3. Obsidian - Consumes 1 redstone per operation.
-4. Basalt - Free. Requires soul sand and blue ice in the input bus.
-5. Deepslate - Free. Requires soul sand and magma block in the input bus.
-6. Netherrack - Consumes 1 glowstone per operation.
-7. End Stone - Free.
+1. Kırıktaş - Bedava
+2. Taş - Bedava
+3. Obsidyen - Her işlemde 1 kızıltaş tüketir.
+4. Bazalt - Bedava. Giriş yolunda ruh kumu ve mavi buz gerektirir.
+5. Derin kayrak - Bedava. Giriş yolunda ruh kumu ve magma bloğu gerektirir.
+6. Netherrack - Her işlemde 1 parlak taş tüketir.
+7. End taşı - Bedava.
 
-The <Color id="GREEN">Boldarnator</Color> is particularly useful for a cobblestone to silicon processing line. Crush the cobblestone into gravel and then again into sand. Electrolyze the sand into silicon dioxide dust and react it with magnesium dust to obtain an endless supply of silicon. The magnesia dust can be electrolyzed back into magnesium dust in a closed-loop system with no loss. This also produces some oxygen as a byproduct.
+<Color id="GREEN">Boldarnator</Color> özellikle kırıktaştan silisyuma uzanan bir işleme hattı için kullanışlıdır. Kırıktaşı çakıla, ardından tekrar kuma öğüt. Kumu silisyum dioksit tozuna elektroliz et ve sonsuz silisyum kaynağı elde etmek için bunu magnezyum tozuyla tepkimeye sok. Magnezya tozu, kayıpsız kapalı devre bir sistemde tekrar magnezyum tozuna elektroliz edilebilir. Bu ayrıca yan ürün olarak bir miktar oksijen üretir.
 
-The <Color id="GREEN">Boldarnator</Color> is also useful for producing cobblestone for Thaumcraft saplings which automatically convert the cobblestone into soul sand (nether sapling) or end stone (end sapling). Centrifuge the soul sand for unlimited saltpeter, coal dust, sand, and oil. Centrifuge the end stone dust for unlimited tungstate, platinum metallic powder, sand, and helium. A video tutorial on setting this up can be found [here](https://www.youtube.com/watch?v=-Xvlm86FScA).
+<Color id="GREEN">Boldarnator</Color> ayrıca, kırıktaşı otomatik olarak ruh kumuna (nether fidanı) veya end taşına (end fidanı) dönüştüren Thaumcraft fidanları için kırıktaş üretmede de kullanışlıdır. Sonsuz güherçile, kömür tozu, kum ve petrol için ruh kumunu santrifüj et. Sonsuz tungstat, platin metalik tozu, kum ve helyum için end taşı tozunu santrifüj et. Bunun nasıl kurulacağına dair video anlatımını [burada](https://www.youtube.com/watch?v=-Xvlm86FScA) bulabilirsin.
 
-Other uses for the Boldarnator include producing enough obsidian for the Ender Quarry in LuV and enough cobblestone for bedrockium in UV (26,244 cobblestone per ingot). 
+Boldarnator'ın diğer kullanımları arasında LuV'de Ender Taşocağı için yeterli obsidyen ve UV'de Katmankayamsı için yeterli kırıktaş üretmek yer alır (külçe başına 26.244 kırıktaş). 

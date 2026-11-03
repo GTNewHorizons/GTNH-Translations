@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Instantly Connecting Pipes
+  title: Boruları Anında Bağlama
   parent: qol.md
   icon: gregtech:gt.blockmachines:5633
 categories:
@@ -9,9 +9,9 @@ author: Skorched
 date: 2026-05-25
 ---
 
-# Instantly Connecting Pipes
-Ever had to connect up a long pipeline and got frustrated by the awkward delay between placing a pipe and it actually registering the connection? Well cry no more!
+# Boruları Anında Bağlama
+Hiç uzun bir boru hattını bağlaman gerekti ve bir boruyu yerleştirmekle bağlantının gerçekten kaydedilmesi arasındaki o tuhaf gecikme yüzünden çıldırdın mı? Artık gözyaşı dökmene gerek yok!
 
-All GregTech fluid pipes <ItemImage id="gregtech:gt.blockmachines:30729" />, item pipes <ItemImage id="gregtech:gt.blockmachines:5633" />, and cables <ItemImage id="gregtech:gt.blockmachines:1211" /> will now instantly connect to any blocks that you explicitly connect them to (such as by placing directly onto the block/pipe/cable).
+Tüm GregTech sıvı boruları <ItemImage id="gregtech:gt.blockmachines:30729" />, eşya boruları <ItemImage id="gregtech:gt.blockmachines:5633" /> ve kablolar <ItemImage id="gregtech:gt.blockmachines:1211" /> artık açıkça bağladığın tüm bloklara anında bağlanır (örneğin doğrudan bloğun/borunun/kablonun üzerine yerleştirerek).
 > [!NOTE]
-> Worry not, they will _not_ instantly connect to any adjacent pipe without the explicit placement of the pipe on that pipe
+> Endişelenme, boruyu o borunun üzerine açıkça yerleştirmedikçe bitişikteki herhangi bir boruya anında bağlanmazlar

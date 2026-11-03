@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Upgrade Cards
+  title: Yükseltme Kartları
   icon: appliedenergistics2:item.ItemMultiMaterial:25
   position: 410
 categories:
@@ -27,7 +27,7 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:67
 ---
 
-# Upgrade Cards
+# Yükseltme Kartları
 <Column>
   <Row>
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
@@ -65,10 +65,9 @@ item_ids:
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:66" scale="2" />
   </Row>
 </Column>
-Upgrade cards change the behavior of AE2 devices and machines, increasing their speed, improving their
-filter capacity, enabling redstone control, etc.
+Yükseltme kartları, AE2 cihazlarının ve makinelerinin davranışını değiştirir; hızlarını artırır, filtre kapasitelerini iyileştirir, Kızıltaş kontrolünü etkinleştirir vb.
 
-## Card Components
+## Kart Bileşenleri
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:25" scale="2" />
@@ -76,7 +75,7 @@ filter capacity, enabling redstone control, etc.
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:28" scale="2" />
 </Row>
 
-Upgrade cards are crafted using either a Basic Card or an Advanced Card as the base.
+Yükseltme kartları, temel olarak bir Temel Kart veya Gelişmiş Kart kullanılarak üretilir.
 
 <Row>
   <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:25" />
@@ -84,182 +83,176 @@ Upgrade cards are crafted using either a Basic Card or an Advanced Card as the b
   <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:28" />
 </Row>
 
-## Redstone Card
+## Kızıltaş Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
 
-Redstone Cards add redstone control to a device, including a toggle in its GUI for switching between redstone modes.
+Kızıltaş Kartları bir cihaza Kızıltaş kontrolü ekler; GUI'sinde Kızıltaş modları arasında geçiş yapmak için bir düğme bulunur.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:26" />
 
-## Capacity Card
+## Kapasite Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:27" scale="2" />
 
-Capacity Cards increase the number of filter slots in Import Buses, Export Buses, Storage Buses, and Formation Planes.
+Kapasite Kartları; İçe Aktarma Veriyolları, Dışa Aktarma Veriyolları, Depolama Veriyolları ve Oluşum Düzlemlerindeki filtre yuvası sayısını artırır.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:27" />
 
-## Overflow Void Card
+## Taşma Yok Etme Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" />
 
-Overflow Void Cards can be applied to [Storage Cells](storage_cells.md) in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
-They delete incoming items when the cell is full. Make sure to [partition](cell_workbench.md) your cells first.
-When combined with an Equal Distribution Card, an item is voided as soon as its own partition is full, even if other partitions still have room.
+Taşma Yok Etme Kartları, bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> içindeki [Depolama Hücrelerine](storage_cells.md) uygulanabilir.
+Hücre dolduğunda gelen eşyaları yok ederler. Önce hücrelerini [bölümlediğinden](cell_workbench.md) emin ol.
+Eşit Dağıtım Kartı ile birleştirildiğinde, diğer bölümlerde hâlâ yer olsa bile bir eşya kendi bölümü dolduğu anda yok edilir.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:68" />
 
-## Fuzzy Card
+## Bulanık Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:29" scale="2" />
 
-Fuzzy Cards let filtered devices and tools match by durability and/or ignore item NBT. That allows you to export
-all iron axes regardless of durability or enchantments, or export only damaged diamond swords instead of fully repaired ones.
+Bulanık Kartlar, filtrelenen cihazların ve araçların dayanıklılığa göre eşleşmesini ve/veya eşya NBT'sini yok saymasını sağlar. Bu sayede dayanıklılık veya büyüler ne olursa olsun tüm demir baltaları dışa aktarabilir ya da tamamen tamir edilmiş elmas kılıçlar yerine yalnızca hasarlı olanları dışa aktarabilirsin.
 
-Below is an example of how fuzzy durability comparison modes work. The left side shows the bus configuration, and the top row shows the compared item.
+Aşağıda bulanık dayanıklılık karşılaştırma modlarının nasıl çalıştığına dair bir örnek var. Sol taraf veriyolu yapılandırmasını, üst satır ise karşılaştırılan eşyayı gösterir.
 
-| 25%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| %25                    | %10 Hasarlı Kazma | %30 Hasarlı Kazma | %80 Hasarlı Kazma | Tam Onarımlı Kazma |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            | ✔                   | ✔                   | ✔                   |
+| Neredeyse Kırık Kazma  | ✔                   | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            |
+| Tamamen Onarılmış Kazma | \*\*\*\*            | ✔                   | ✔                   | ✔                   |
 
 ---
 
-| 50%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| %50                    | %10 Hasarlı Kazma | %30 Hasarlı Kazma | %80 Hasarlı Kazma | Tam Onarımlı Kazma |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            | \*\*\*\*            | ✔                   | ✔                   |
+| Neredeyse Kırık Kazma  | ✔                   | ✔                   | \*\*\*\*            | \*\*\*\*            |
+| Tamamen Onarılmış Kazma | \*\*\*\*            | \*\*\*\*            | ✔                   | ✔                   |
 
 ---
 
-| 75%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| %75                    | %10 Hasarlı Kazma | %30 Hasarlı Kazma | %80 Hasarlı Kazma | Tam Onarımlı Kazma |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            |                     | ✔                   | ✔                   |
+| Neredeyse Kırık Kazma  | ✔                   | ✔                   | \*\*\*\*            | \*\*\*\*            |
+| Tamamen Onarılmış Kazma | \*\*\*\*            |                     | ✔                   | ✔                   |
 
 ---
 
-| 99%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| %99                    | %10 Hasarlı Kazma | %30 Hasarlı Kazma | %80 Hasarlı Kazma | Tam Onarımlı Kazma |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | ✔                   | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            | ✔                   |
+| Neredeyse Kırık Kazma  | ✔                   | ✔                   | ✔                   | \*\*\*\*            |
+| Tamamen Onarılmış Kazma | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            | ✔                   |
 
 ---
 
-| Ignore                 | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| Yok Say                | %10 Hasarlı Kazma | %30 Hasarlı Kazma | %80 Hasarlı Kazma | Tam Onarımlı Kazma |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | ✔                   | **✔**               |
-| Fully Repaired Pickaxe | **✔**               | **✔**               | **✔**               | ✔                   |
+| Neredeyse Kırık Kazma  | ✔                   | ✔                   | ✔                   | **✔**               |
+| Tamamen Onarılmış Kazma | **✔**               | **✔**               | **✔**               | ✔                   |
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:29" />
 
-## Acceleration Card
+## Hızlandırma Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
 
-Acceleration Cards speed things up. They let Import and Export Buses move more items per operation, and make Inscribers
-and Molecular Assemblers work faster.
+Hızlandırma Kartları işleri hızlandırır. İçe ve Dışa Aktarma Veriyollarının işlem başına daha fazla eşya taşımasını, Yontucuların ve Moleküler Birleştiricilerin daha hızlı çalışmasını sağlar.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:30" />
 
-## Hyper-Acceleration Card
+## Hiper Hızlandırma Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:56" scale="2" />
 
-Hyper-Acceleration Cards are a faster version of normal Acceleration Cards, but they can only be used in the ME-IO Port,
-ME Import/Export Buses, and ME Fluid Import/Export Buses.
+Hiper Hızlandırma Kartları, normal Hızlandırma Kartlarının daha hızlı sürümüdür ancak yalnızca ME G/Ç Bağlantı Noktasında, ME İçe/Dışa Aktarma Veriyollarında ve ME Sıvı İçe/Dışa Aktarma Veriyollarında kullanılabilir.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:56" />
 
-## Superluminal Acceleration Card
+## Işıktan Hızlı Hızlandırma Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:67" scale="2" />
 
-The Superluminal Acceleration Card is the fastest AE card for moving items or fluids, but it can only be used in the
-ME-IO Port and ME Import/Export Buses.
+Işıktan Hızlı Hızlandırma Kartı, eşya veya sıvı taşımak için en hızlı AE kartıdır ancak yalnızca ME G/Ç Bağlantı Noktasında ve ME İçe/Dışa Aktarma Veriyollarında kullanılabilir.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:67" />
 
-## Inverter Card
+## Evirici Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" />
 
-Inverter Cards switch a device or tool filter from whitelist mode to blacklist mode.
+Evirici Kartlar, bir cihazın veya aracın filtresini beyaz liste modundan kara liste moduna geçirir.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:31" />
 
-## Crafting Card
+## Üretim Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
 
-Crafting Cards let the device send requests to your [autocrafting](../ae2_mechanics/autocrafting.md)
-system for the items it needs.
+Üretim Kartları, cihazın ihtiyaç duyduğu eşyalar için [otomatik üretim](../ae2_mechanics/autocrafting.md) sistemine istek göndermesini sağlar.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:53" />
 
-## Equal Distribution Card
+## Eşit Dağıtım Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" />
 
-Equal Distribution Cards can be applied to [Storage Cells](storage_cells.md) in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
-They divide the cell into equal partitions based on how the card is [partitioned](cell_workbench.md), which prevents a single item type from filling the whole cell.
+Eşit Dağıtım Kartları, bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> içindeki [Depolama Hücrelerine](storage_cells.md) uygulanabilir. Hücreyi, kartın [bölümlenme](cell_workbench.md) biçimine göre eşit bölümlere ayırır; bu da tek bir eşya türünün hücrenin tamamını doldurmasını önler.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:69" />
 
-## Pattern Capacity Card
+## Kalıp Kapasite Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:54" scale="2" />
 
-Each Pattern Capacity Card provides an additional 9 pattern slots to the interface, up to a maximum of 3 cards per interface.
+Her Kalıp Kapasite Kartı arayüze 9 ek kalıp yuvası sağlar; arayüz başına en fazla 3 kart kullanılabilir.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:54" />
 
-## Ore Dictionary Filter Card
+## Cevher Sözlüğü Filtre Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:55" scale="2" />
 
-Allows filtering by Ore Dictionary entry and supports regular expression matching.
+Cevher Sözlüğü girdisine göre filtreleme yapmayı sağlar ve düzenli ifade eşleştirmesini destekler.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:55" />
 
-## Sticky Card
+## Yapışkan Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:64" scale="2" />
 
-Any items, fluids, or essentia partitioned onto this cell may only be stored in cells or Storage Buses that also have Sticky Cards, and nowhere else in the network.
+Bu hücreye bölümlenen eşyalar, sıvılar veya esanslar yalnızca Yapışkan Kartı olan hücrelerde veya Depolama Veriyollarında depolanabilir; ağın başka hiçbir yerinde depolanamaz.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:64" />
 
-## Advanced Blocking Card
+## Gelişmiş Engelleme Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:63" scale="2" />
 
-Advanced Blocking Cards extend blocking to the entire connected ME network instead of only adjacent inventories. When enabled, the interface prevents recipe ingredients from being inserted if the target network already contains the relevant items or fluids.
+Gelişmiş Engelleme Kartları, engellemeyi yalnızca bitişik envanterlerle sınırlamak yerine bağlı ME ağının tamamına uygular. Etkinleştirildiğinde arayüz, hedef ağda ilgili eşyalar veya sıvılar zaten varsa tarif bileşenlerinin eklenmesini engeller.
 
-In Default mode, blocking is triggered only when recipe-relevant items or fluids are present in the network (excluding catalysts such as lenses, circuits, or molds).
+Varsayılan modda engelleme yalnızca ağda tarifle ilgili eşyalar veya sıvılar varsa tetiklenir (mercek, devre veya kalıp gibi katalizörler hariç).
 
-In Loose mode, blocking is triggered by the presence of any item or fluid in the network.
+Gevşek modda ağda herhangi bir eşya veya sıvının bulunması engellemeyi tetikler.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:63" />
 
-## Locking Card
+## Kilitleme Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:65" scale="2" />
 
-This card has 4 modes:
+Bu kartın 4 modu vardır:
 
-*   Mode 1: Never locks crafting
-*   Mode 2: Locks crafting until a redstone pulse is received
-*   Mode 3: Locks crafting when a redstone signal is present
-*   Mode 4: Locks crafting when no redstone signal is present
+*   Mod 1: Üretimi asla kilitlemez
+*   Mod 2: Bir Kızıltaş darbesi alınana kadar üretimi kilitler
+*   Mod 3: Kızıltaş sinyali varken üretimi kilitler
+*   Mod 4: Kızıltaş sinyali yokken üretimi kilitler
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:65" />
 
-## Fake Crafting Card
+## Sahte Üretim Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:66" scale="2" />
 
-If an Interface is equipped with this card, it immediately completes the **crafting job** after submitting it, without waiting for the result to return. This only works if the submitted job's final output is the intended product.
+Bir Arayüz bu kartla donatılırsa, **üretim işini** gönderdikten hemen sonra sonucun dönmesini beklemeden tamamlar. Bu yalnızca gönderilen işin nihai çıktısı amaçlanan ürünse çalışır.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:66" />

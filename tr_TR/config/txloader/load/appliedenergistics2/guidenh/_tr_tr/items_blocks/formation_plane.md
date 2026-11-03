@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Formation Plane
+  title: ME Oluşum Düzlemi
   icon: appliedenergistics2:item.ItemMultiPart:320
 categories:
 - devices
@@ -9,44 +9,44 @@ item_ids:
 - appliedenergistics2:item.ItemMultiPart:320
 ---
 
-# Formation Plane
+# Oluşum Düzlemi
 
 <Row gap="20">
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:320" scale="4" />
 <ItemImage id="ae2fc:part_fluid_formation_plane" scale="4" />
 </Row>
 
-The formation plane places blocks and drops items. It works like an insert-only <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />, placing or dropping items when [devices](../ae2_mechanics/devices.md) insert them into [network storage](../ae2_mechanics/import_export_storage.md), such as an <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> or <ItemLink id="appliedenergistics2:tile.BlockInterface" />.
+Oluşum düzlemi blok yerleştirir ve eşya düşürür. Yalnızca ekleme yapan bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> gibi çalışır; [cihazlar](../ae2_mechanics/devices.md) eşyaları, örneğin bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> veya <ItemLink id="appliedenergistics2:tile.BlockInterface" /> gibi [ağ depolarına](../ae2_mechanics/import_export_storage.md) eklediğinde bunları yerleştirir veya düşürür.
 
 <GameScene width="350" height="220" zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/formation_plane_demonstration.snbt" />
   <IsometricCamera yaw="255" pitch="30" />
 </GameScene>
 
-This device uses the same mechanics as storage buses in [pipe subnet](../tricks_example/pipe_subnet.md) setups and can replace them when you want to place blocks or drop items instead of transporting them.
+Bu cihaz, [boru alt ağı](../tricks_example/pipe_subnet.md) kurulumlarındaki depolama veriyollarıyla aynı mekanikleri kullanır ve eşyaları taşımak yerine blok yerleştirmek veya eşya düşürmek istediğinde onların yerini alabilir.
 
-They are [cable subparts](../ae2_mechanics/cables_subparts.md).
+Bunlar [kablo alt parçalarıdır](../ae2_mechanics/cables_subparts.md).
 
-**Enable fake players in your chunk claim.**
+**Chunk sahiplenmende sahte oyunculara izin ver.**
 
-## Filtering
+## Filtreleme
 
-By default, the plane places or drops anything. Items in filter slots form a whitelist. Items and fluids can be dragged from NEI; right-clicking with a fluid container selects the fluid.
+Varsayılan olarak düzlem her şeyi yerleştirir veya düşürür. Filtre yuvalarındaki eşyalar beyaz liste oluşturur. Eşyalar ve sıvılar NEI'den sürüklenebilir; bir sıvı kabıyla sağ tıklamak sıvıyı seçer.
 
-## Priority
+## Öncelik
 
-Click the wrench in the top-right of the GUI to set priority. Items entering the network start at the highest-priority storage.
+Öncelik ayarlamak için GUI'nin sağ üst köşesindeki anahtara tıkla. Ağa giren eşyalar en yüksek öncelikli depodan başlar.
 
-## Settings
+## Ayarlar
 
-* The plane can place blocks in-world or drop items.
+* Düzlem dünyada blok yerleştirebilir veya eşya düşürebilir.
 
-## Upgrades
+## Yükseltmeler
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> increases filter slots.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> enables fuzzy matching and NBT-ignoring filters.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> switches whitelist filtering to a blacklist.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> filtre yuvası sayısını artırır.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> bulanık eşleştirmeyi ve NBT yok sayan filtreleri etkinleştirir.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> beyaz liste filtrelemesini kara listeye çevirir.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:320" />

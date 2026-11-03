@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Potion of Blissful Oblivion
+  title: Mutluluk Veren Unutkanlık İksiri
   parent: magic.md
   icon: WarpTheory:item.warptheory.oblivionpotion
 categories:
@@ -10,8 +10,8 @@ date: 2026-06-09
 ---
 
 
-Have you acquired too much warp and wish you could start everything over? The <ItemLink id="WarpTheory:item.warptheory.oblivionpotion"/> <ItemImage id="WarpTheory:item.warptheory.oblivionpotion"/> is a new item that has been added which will <Color id="RED">__entirely wipe__</Color> your Thaumcraft progress. All warp, research, discovered aspects, scanned objects, and knowledge points in the research table will be <Color id="RED">__reset__</Color> back to how it was when you first started.
+Çok fazla Delilik mi biriktirdin ve her şeye baştan başlamak mı istiyorsun? <ItemLink id="WarpTheory:item.warptheory.oblivionpotion"/> <ItemImage id="WarpTheory:item.warptheory.oblivionpotion"/> Thaumcraft ilerlemeni <Color id="RED">__tamamen silen__</Color> yeni bir eşyadır. Tüm Delilik, araştırma, keşfedilen aspektler, taranan nesneler ve araştırma masasındaki bilgi puanları, ilk başladığın andaki haline <Color id="RED">__sıfırlanacak__</Color>.
 
-See its <QuestLink id="EL2z-VAzS9eVmQFpNnwimg==" text="quest"/> for more information.
+Daha fazla bilgi için <QuestLink id="EL2z-VAzS9eVmQFpNnwimg==" text="quest"/> görevine bak.
 
 <Recipe id="WarpTheory:item.warptheory.oblivionpotion" handlerId="thaumcraft.arcane.shaped"/>

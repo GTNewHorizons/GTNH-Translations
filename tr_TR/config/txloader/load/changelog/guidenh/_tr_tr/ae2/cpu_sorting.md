@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: CPU Sorting
+  title: CPU Sıralaması
   parent: ae2.md
   icon: appliedenergistics2:tile.BlockAdvancedCraftingUnit:3
 categories:
@@ -9,14 +9,14 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# CPU Sorting
-Ever wished you could sort your CPUs without being limited to just sorting by name? Well now you can!
+# CPU Sıralaması
+CPU'larını yalnızca ada göre sıralamakla sınırlı kalmadan sıralamayı hiç istedin mi? Artık istediğini yapabilirsin!
 
-CPUs can now be sorted by a variety of metrics as follows:
-- CPU Name
-- Storage Memory
-- Number of Co-Processors
-- Crafting Status
-- Automation (Player, Mixed, Non-Player)
+CPU'lar artık şu çeşitli ölçütlere göre sıralanabilir:
+- CPU Adı
+- Depolama Belleği
+- Yardımcı İşlemci Sayısı
+- Üretim Durumu
+- Otomasyon (Oyuncu, Karma, Oyuncu Dışı)
 
-They can also be sorted as Ascending or Descending on any of those categories!
+Ayrıca bu kategorilerin herhangi birinde Artan veya Azalan olarak sıralanabilirler!

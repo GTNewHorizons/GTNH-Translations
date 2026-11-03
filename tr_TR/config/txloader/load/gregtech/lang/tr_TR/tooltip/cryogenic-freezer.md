@@ -1,2 +1,2 @@
 {hr}
-Consumes {aqua:{var:cryotheum} {L}/s} of {aqua:{fluid:cryotheum}} whilst running
+Çalışırken {aqua:{var:cryotheum} {L}/s} {aqua:{fluid:cryotheum}} Kriyotheum Sıvısı tüketir

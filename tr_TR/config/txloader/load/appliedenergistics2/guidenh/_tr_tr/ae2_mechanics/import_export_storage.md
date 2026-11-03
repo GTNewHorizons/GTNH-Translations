@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Import, Export, and Storage
+  title: İçe Aktarma, Dışa Aktarma ve Depolama
   icon: appliedenergistics2:item.ItemMultiPart:240
 item_ids:
 - appliedenergistics2:item.ItemMultiPart:260
@@ -17,56 +17,56 @@ item_ids:
 
 {/* most of the content on this page should be moved to individual item pages (items_blocks directory); should be rewritten in the future*/}
 
-# Import, Export, and Storage
+# İçe Aktarma, Dışa Aktarma ve Depolama
 
 > [!NOTE]
-> Some links are broken due to their pages not being written at this time. Help support GTNH's development by contributing on the [GitHub](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
+> Bazı bağlantılar, sayfaları henüz yazılmadığı için kırık. [GitHub](https://github.com/GTNewHorizons/GTNH-Guide-Pack) üzerinden katkıda bulunarak GTNH'nin geliştirilmesine destek ol!
 
-## "Import" and "Export", "Read" and "Write"
+## "İçe Aktarma" ve "Dışa Aktarma", "Okuma" ve "Yazma"
 
-In AE, all uses of **import** and **export** are defined relative to the ME network itself. **Import** means bringing something into the ME network, while **export** means moving something out of the ME network into the outside world. For example, an ME Export Bus exports contents from the ME network into an external inventory.
+AE'de **içe aktarma** ve **dışa aktarma**nın tüm kullanımları ME ağının kendisine göre tanımlanır. **İçe aktarma**, bir şeyi ME ağına getirmek; **dışa aktarma** ise bir şeyi ME ağından dış dünyaya çıkarmak anlamına gelir. Örneğin bir ME Dışa Aktarma Veriyolu, ME ağındaki içeriği harici bir envantere aktarır.
 
-The concepts of "Read" and "Write" also revolve around the ME network. Reading means the ME Network reads from other inventories, and writing means the ME Network writes to others, just like a computer would. The same applies to "Read-Only" and "Write-Only". For example, when a Storage Bus in a network is set to "Read-Only", the ME Network can only read the target of that Storage Bus and cannot place contents into it; "Write-Only" is the exact opposite.
+"Okuma" ve "Yazma" kavramları da ME ağı etrafında döner. Okuma, ME Ağının diğer envanterlerden okuması; yazma ise ME Ağının bir bilgisayar gibi diğerlerine yazması anlamına gelir. Aynı durum "Salt Okunur" ve "Salt Yazılır" için de geçerlidir. Örneğin bir ağdaki Depolama Veriyolu "Salt Okunur" olarak ayarlandığında ME Ağı yalnızca o Depolama Veriyolunun hedefini okuyabilir ve içine içerik koyamaz; "Salt Yazılır" ise tam tersidir.
 
-# Buses
-AE2 provides [cable](../items_blocks/cables.md) subparts to handle logistics between the ME network and the outside world.
+# Veriyolları
+AE2, ME ağı ile dış dünya arasındaki lojistiği yönetmek için [kablo](../items_blocks/cables.md) alt parçaları sağlar.
 
-## Import Buses and Export Buses
-<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" showIcon="left" />, <ItemLink id="ae2fc:part_fluid_import" showIcon="left" />, <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" showIcon="left" />, and <ItemLink id="ae2fc:part_fluid_export" showIcon="left" /> can interact with items or fluids between AE storage and external containers.
+## İçe Aktarma Veriyolları ve Dışa Aktarma Veriyolları
+<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" showIcon="left" />, <ItemLink id="ae2fc:part_fluid_import" showIcon="left" />, <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" showIcon="left" /> ve <ItemLink id="ae2fc:part_fluid_export" showIcon="left" />, AE deposu ile harici kaplar arasında eşyalar veya sıvılarla etkileşime girebilir.
 
-Attaching them to a cable adjacent to a container allows for the exchange of items and fluids between the ME Network and the external container.
+Bunları bir kabın bitişiğindeki kabloya takmak, ME Ağı ile harici kap arasında eşya ve sıvı alışverişine olanak tanır.
 
 <GameScene zoom="4" width="300" rotateX="-10" rotateY="0">
     <ImportStructure src="../assets/structures/io_system_import_export.snbt" />
 </GameScene>
 
-In GTNH, ME Buses can interact with GregTech Input/Output Buses and Hatches under the following rules:
-* ME Item Buses can <Color id="Red">only</Color> interact with items when attached to the front face of a GT Bus.
-* ME Item Buses can <Color id="Red">only</Color> interact with items when attached to the front face of a GT Fluid Hatch.
-* ME Fluid Buses can interact with fluids when attached to any face of a GT Fluid Hatch.
+GTNH'de ME Veriyolları, aşağıdaki kurallar çerçevesinde GregTech Girdi/Çıktı Veriyolları ve Kapakları ile etkileşime girebilir:
+* ME Eşya Veriyolları, bir GT Veriyolunun ön yüzüne takıldığında eşyalarla <Color id="Red">yalnızca</Color> etkileşime girebilir.
+* ME Eşya Veriyolları, bir GT Sıvı Kapağının ön yüzüne takıldığında eşyalarla <Color id="Red">yalnızca</Color> etkileşime girebilir.
+* ME Sıvı Veriyolları, bir GT Sıvı Kapağının herhangi bir yüzüne takıldığında sıvılarla etkileşime girebilir.
 
-## Storage Buses
-<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="left" /> and <ItemLink id="ae2fc:part_fluid_storage_bus" showIcon="left" /> can read items or fluids from attached containers into the ME network, acting like an "external hard drive" for your AE storage.
+## Depolama Veriyolları
+<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="left" /> ve <ItemLink id="ae2fc:part_fluid_storage_bus" showIcon="left" />, bağlı kaplardaki eşyaları veya sıvıları ME ağına okuyabilir ve AE depolaman için bir "harici sabit disk" gibi davranır.
 
 <GameScene zoom="4" width="300" rotateX="-10" rotateY="0">
     <ImportStructure src="../assets/structures/io_system_storage_bus.snbt" />
 </GameScene>
 
-The uses of Storage Buses go far beyond simply exposing external storage. In GTNH especially, they are a core part of automation.
+Depolama Veriyollarının kullanımı, harici depolamayı basitçe açığa çıkarmanın çok ötesine geçer. Özellikle GTNH'de otomasyonun çekirdek bir parçasıdır.
 
-## Other Buses
-GTNH adds Essentia Buses to AE2 to support Thaumcraft 4. You can use the AE system to store and automate essentia.
-See <ItemLink id="thaumicenergistics:part.base" showIcon="left" />, <ItemLink id="thaumicenergistics:part.base:3" showIcon="left" />, and <ItemLink id="thaumicenergistics:part.base:2" showIcon="left" /> for details.
+## Diğer Veriyollar
+GTNH, Thaumcraft 4'ü desteklemek için AE2'ye Esans Veriyolları ekler. Esansı depolamak ve otomatikleştirmek için AE sistemini kullanabilirsin.
+Ayrıntılar için <ItemLink id="thaumicenergistics:part.base" showIcon="left" />, <ItemLink id="thaumicenergistics:part.base:3" showIcon="left" /> ve <ItemLink id="thaumicenergistics:part.base:2" showIcon="left" /> sayfalarına bak.
 
-# Storage Priority
-All Storage Buses can have their priority adjusted in the top-right corner of their UI. In an ME network, priority is an integer. Higher values make the logistics system prefer storing items or fluids there, while lower values make it prefer taking items or fluids from there first.
+# Depolama Önceliği
+Tüm Depolama Veriyollarının önceliği, arayüzlerinin sağ üst köşesinden ayarlanabilir. Bir ME ağında öncelik bir tam sayıdır. Yüksek değerler lojistik sisteminin eşyaları veya sıvıları orada depolamayı tercih etmesini sağlarken, düşük değerler eşyaları veya sıvıları önce oradan almayı tercih etmesini sağlar.
 
-The following example can help clarify the concept. Suppose there are two chests in the network, each with a Storage Bus of a different priority attached, and they each contain one <ItemLink id="minecraft:stone" showIcon="left" />:
-* When you import a Stone into the ME Network, AE will store it in the chest with the higher priority.
-* When you take a Stone out of the ME Network, AE will extract it from the chest with the lower priority first.
-* When you use [autocrafting](./autocrafting.md) for a request that requires Stone as a material, AE will use the Stone from the chest with the lower priority first.
+Aşağıdaki örnek kavramı netleştirmeye yardımcı olabilir. Ağda her birine farklı öncelikte bir Depolama Veriyolu takılı iki sandık olduğunu ve her birinde birer <ItemLink id="minecraft:stone" showIcon="left" /> bulunduğunu varsayalım:
+* ME Ağına bir Taş aktardığında AE onu önceliği daha yüksek olan sandıkta depolar.
+* ME Ağından bir Taş aldığında AE onu önce önceliği daha düşük olan sandıktan çeker.
+* Taşı malzeme olarak gerektiren bir istek için [otomatik üretim](./autocrafting.md) kullandığında AE, Taşı önce önceliği daha düşük olan sandıktan kullanır.
 
-In addition to Storage Buses, the priority of the <ItemLink id="appliedenergistics2:tile.BlockDrive" showIcon="left" /> can also be adjusted.
+Depolama Veriyollarına ek olarak <ItemLink id="appliedenergistics2:tile.BlockDrive" showIcon="left" /> önceliği de ayarlanabilir.
 
-# Upgrade Cards
-All ME Buses can accept [upgrade cards](./upgrade_card.md) to gain additional functional adjustments. Hovering your mouse over the card slots in the top right corner of a bus's UI will show which upgrade cards that bus supports, and the descriptions of the different upgrade cards also list the types of buses they apply to.
+# Yükseltme Kartları
+Tüm ME Veriyolları, ek işlevsel ayarlar kazanmak için [yükseltme kartları](./upgrade_card.md) kabul edebilir. Faren bir veriyolunun arayüzünün sağ üst köşesindeki kart yuvalarının üzerine geldiğinde o veriyolunun hangi yükseltme kartlarını desteklediği gösterilir; farklı yükseltme kartlarının açıklamaları da hangi veriyolu türlerine uygulandıklarını listeler.

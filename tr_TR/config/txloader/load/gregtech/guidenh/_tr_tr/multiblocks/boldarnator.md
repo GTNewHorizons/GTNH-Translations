@@ -14,67 +14,67 @@ navigation:
   <ImportStructureLib controller="gregtech:gt.blockmachines:15556" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:15556" showIcon="left" /> is an IV tier multiblock for creating and harvesting basic rocks.
+<ItemLink id="gregtech:gt.blockmachines:15556" showIcon="left" />, temel kayaları oluşturmak ve toplamak için IV kademe bir multibloktur.
 
-The Boldarnator is a direct upgrade from the [singleblock rock breaker](/singleblock/rock_breaker.md) because it runs at 300% speed, only uses 75% of the EU/t normally required, and offers 8 parallels per voltage tier.
+Boldarnator, [tek bloklu kaya kırıcıya](/singleblock/rock_breaker.md) göre doğrudan bir yükseltmedir: %300 hızda çalışır, normalde gereken EU/t'nin yalnızca %75'ini kullanır ve gerilim kademesi başına 8 paralel sunar.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | IV |
-| Structure Size (LxWxH) | 5x7x5 |
-| Power | Regular |
-| Overclocks | Imperfect |
-| Maintenance | Need Maintenance |
-| Pollution | Produces 100 gibbl/s pollution, and require Muffler Hatch |
+| Kilit açma kademesi | IV |
+| Yapı Boyutu (UxGxY) | 5x7x5 |
+| Güç | Normal |
+| Overclock | Kusurlu |
+| Bakım | Bakım Gerekli |
+| Kirlilik | 100 gibbl/s kirlilik üretir ve Egzoz Çıkışı gerektirir |
 
-## Crafting and Construction
-### Crafting
+## Üretim ve İnşa
+### Üretim
 <RecipesFor id="gregtech:gt.blockmachines:15556" handlerBlacklist="codechicken.nei.recipe.ShapelessRecipeHandler" />
 
 <RecipesFor id="miscutils:gtplusplus.blockcasings.2" />
 
 <RecipesFor id="gregtech:gt.blockframes:81" />
 
-### Structure
+### Yapı
 
-The Boldarnator has no tiered components. The glass can be any tier and has no effect on the operation of the machine.
+Boldarnator'ın kademeli bileşenleri yoktur. Cam herhangi bir kademede olabilir ve makinenin çalışmasına etkisi yoktur.
 
-Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking.
+Çok amperli ve lazer enerji kapakları desteklenmez, ancak overclock için birden fazla normal enerji kapağı bulunabilir.
 
-The lava and water are spawned for free once the structure is formed, and therefore do NOT need to be placed manually.
+Lav ve su, yapı oluşturulduğunda ücretsiz olarak oluşturulur ve bu nedenle elle yerleştirilmeleri GEREKMEZ.
 
-The Boldarnator can be rotated or flipped.
+Boldarnator döndürülebilir veya çevrilebilir.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> aracını "glass" alt kanalıyla kullanarak camın kademesini belirt.
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:15556" showIcon="left" /> | 1, Front center, 3rd layer |
+| <ItemLink id="gregtech:gt.blockmachines:15556" showIcon="left" /> | 1, Ön orta, 3. katman |
 | <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> | 50-55 |
 | <ItemLink id="gregtech:gt.blockframes:81" showIcon="left" /> | 36 |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 12 |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Can replace any <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Can replace any <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:91" noTooltip />Muffler Hatch | 1+, Can replace any <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+, Can replace any <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 0+, Can replace any <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1+, Can replace any <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> |
+| <ItemImage id="bartworks:BW_TieredGlass" />Herhangi Bir Kademeli Cam | 12 |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Yalnızca Normal Kapaklara izin verilir</Tooltip> | 1+, herhangi bir <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Bakım Kapağı | 1+, herhangi bir <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:91" noTooltip />Egzoz Çıkışı | 1+, herhangi bir <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Giriş Yolu | 1+, herhangi bir <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Girdi Kapağı | 0+, herhangi bir <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Çıkış Yolu | 1+, herhangi bir <ItemLink id="miscutils:gtplusplus.blockcasings.2" showIcon="left" /> yerine geçebilir |
 
-### Wallsharing
+### Duvar Paylaşımı
 
-Boldarnators may wallshare each of their sides to save on casings, glass, frameboxes, and buses/hatches. That includes the tanks on either side, but the fluids cannot be switched without horizontally flipping one of the controllers first (sneak right-click with a wrench).
+Boldarnator'lar kasa, cam, çerçeve kutusu ve veriyolu/kapak tasarrufu için her bir yüzünü duvar paylaşımıyla birleştirebilir. Buna her iki yandaki tanklar da dahildir, ancak önce kontrolcülerden biri yatay olarak ters çevrilmeden sıvılar değiştirilemez (İngiliz anahtarıyla eğilip sağ tıkla).
 
-No recipe uses more than 0.5A of power so it is possible to share one energy hatch between four machines.
+Hiçbir tarif 0,5A'dan fazla güç kullanmaz, bu yüzden bir enerji kapağı dört makine arasında paylaşılabilir.
 
-## Usage
+## Kullanım
 
-The Boldarnator can create <ItemLink id="minecraft:cobblestone" showIcon="left" />, <ItemLink id="minecraft:stone" showIcon="left" />, <ItemLink id="minecraft:netherrack" showIcon="left" />, <ItemLink id="Botania:stone:1" showIcon="left" />, <ItemLink id="etfuturum:cobbled_deepslate" showIcon="left" />, <ItemLink id="minecraft:obsidian" showIcon="left" />, and can simulate <ItemLink id="thaumicbases:genLeaves:2" showIcon="left" /> and <ItemLink id="thaumicbases:genLeaves:3" showIcon="left" />'s behaviors (which convert the block underneath into its corresponding block, like <ItemLink id="minecraft:soul_sand" showIcon="left" />, <ItemLink id="minecraft:quartz_ore" showIcon="left" />, and <ItemLink id="minecraft:end_stone" showIcon="left" />), at the cost of a 10% chance to consume the leaves.
+Boldarnator; <ItemLink id="minecraft:cobblestone" showIcon="left" />, <ItemLink id="minecraft:stone" showIcon="left" />, <ItemLink id="minecraft:netherrack" showIcon="left" />, <ItemLink id="Botania:stone:1" showIcon="left" />, <ItemLink id="etfuturum:cobbled_deepslate" showIcon="left" />, <ItemLink id="minecraft:obsidian" showIcon="left" /> oluşturabilir ve <ItemLink id="thaumicbases:genLeaves:2" showIcon="left" /> ile <ItemLink id="thaumicbases:genLeaves:3" showIcon="left" /> davranışlarını (altındaki bloğu kendi karşılık gelen bloğuna dönüştürür; örneğin <ItemLink id="minecraft:soul_sand" showIcon="left" />, <ItemLink id="minecraft:quartz_ore" showIcon="left" /> ve <ItemLink id="minecraft:end_stone" showIcon="left" />), her işlemde %10 yaprak tüketme şansı karşılığında taklit edebilir.
 
-The Boldarnator offers 8 parallels per voltage tier. The following table shows the parallels and the processing rate of each block per tier.
+Boldarnator gerilim kademesi başına 8 paralel sunar. Aşağıdaki tablo, kademe başına paralelleri ve her bloğun işlem hızını gösterir.
 
 |  | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Parallels | 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 | 80 | 88 | 96 | 104 | 112 | 120 |
+| Paralel sayısı | 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 | 80 | 88 | 96 | 104 | 112 | 120 |
 | <ItemLink id="minecraft:cobblestone" showIcon="left" />/s | 4 | 20 | 88 | 128 | 400 | 960 | 2,240 | 3,840 | 8,640 | 19,200 | 42,240 | 46,080 | 99,840 | 215,040 | 460,800 |
 | <ItemLink id="minecraft:stone" showIcon="left" />/s | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ |
 | <ItemLink id="minecraft:netherrack" showIcon="left" />/s | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ |
@@ -83,12 +83,12 @@ The Boldarnator offers 8 parallels per voltage tier. The following table shows t
 | <ItemLink id="minecraft:obsidian" showIcon="left" />/s | 0.5 | 2.4 | 10 | 15 | 38 | 96 | 225 | 640 | 1,440 | 3,200 | 5,280 | 5,760 | 12,480 | 26,880 | 57,600 |
 {: widths="90"}
 
-You can check the recipes that the Boldarnator can process in NEI. It shows which items are required for processing, including items that are consumed during processing and items that are not. Currently, there are 4 recipes that consume items:
-1. <ItemLink id="minecraft:obsidian" showIcon="left" /> - Consumes 1 redstone per operation.
-1. <ItemLink id="minecraft:netherrack" showIcon="left" /> - Consumes 1 glowstone per operation.
-1. <ItemLink id="thaumicbases:genLeaves:2" showIcon="left" /> - 10% chance to consume leaves per operation.
-1. <ItemLink id="thaumicbases:genLeaves:3" showIcon="left" /> - 10% chance to consume leaves per operation.
+Boldarnator'ın işleyebileceği tarifleri NEI'de kontrol edebilirsin. İşlem için hangi eşyaların gerektiğini, işlem sırasında tüketilenler ve tüketilmeyenler dahil gösterir. Şu anda eşya tüketen 4 tarif var:
+1. <ItemLink id="minecraft:obsidian" showIcon="left" /> - İşlem başına 1 Kızıltaş tüketir.
+1. <ItemLink id="minecraft:netherrack" showIcon="left" /> - İşlem başına 1 Parlak taş tüketir.
+1. <ItemLink id="thaumicbases:genLeaves:2" showIcon="left" /> - İşlem başına %10 şansla yaprak tüketir.
+1. <ItemLink id="thaumicbases:genLeaves:3" showIcon="left" /> - İşlem başına %10 şansla yaprak tüketir.
 
-## References
+## Kaynaklar
 
 - [GTNH Wiki : Boldarnator](https://wiki.gtnewhorizons.com/wiki/Boldarnator)

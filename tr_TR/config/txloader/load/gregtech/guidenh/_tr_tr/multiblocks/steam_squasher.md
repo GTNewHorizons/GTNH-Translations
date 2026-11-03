@@ -14,25 +14,25 @@ navigation:
   <ImportStructureLib controller="gregtech:gt.blockmachines:31078" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" /> is a multiblock Compressor available in the Steam age. It uses steam to compress materials in batches. As an upgrade to the singleblock Steam Compressor, it can process up to eight copies of the same recipe at once, making material blocks, Compressed Fireclay, and Compressed Air Cells.
+<ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" />, Buhar çağında kullanılabilen bir multiblok Kompresördür. Malzemeleri partiler hâlinde sıkıştırmak için buhar kullanır. Tek bloklu Buharlı Kompresörün yükseltmesi olarak aynı tarifin sekiz kopyasına kadar aynı anda işleyebilir; malzeme blokları, Sıkıştırılmış Ateş Kili ve Sıkıştırılmış Hava Hücreleri üretir.
 
-The machine has basic bronze and high pressure steel structures that share the same controller. Upgrading to the high pressure structure increases throughput, but does not raise the maximum recipe tier or replace machines with special compression tiers.
+Makinenin, aynı kontrolcüyü paylaşan temel bronz ve yüksek basınçlı çelik yapıları vardır. Yüksek basınç yapısına yükseltmek verimi artırır, ancak maksimum tarif kademesini yükseltmez ve özel sıkıştırma kademelerine sahip makinelerin yerini tutmaz.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires Pistons, Tumbaga Gears, a Tumbaga Frame Box, and other materials |
-| Dimensions | Three blocks wide, seven blocks deep, and three blocks tall; controller at the front center of the second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Recipe range | Ordinary Compressor recipes at LV or below, requiring no more than 32 EU/t |
-| Special limit | Cannot process recipes requiring a special compression tier; the high pressure steel structure does not unlock them |
-| Parallels | Up to eight copies of the same recipe; the high pressure structure does not raise this limit |
-| Processing bonuses | The basic structure runs at 125% of a singleblock bronze Steam Compressor's speed and 62.5% of its steam consumption rate per parallel |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| Kilit açma kademesi | Buhar; kontrolcü tarifi Pistonlar, Tumbaga Dişlileri, bir Tumbaga Çerçeve ve diğer malzemeleri gerektirir |
+| Boyutlar | Üç blok genişliğinde, yedi blok derinliğinde ve üç blok yüksekliğinde; kontrolcü ikinci katmanın ön ortasında |
+| Güç | Tam olarak bir Buhar Kapağı; Enerji Kapağı yok |
+| Tarif aralığı | LV veya altındaki sıradan Kompresör tarifleri, 32 EU/t'yi aşmayacak şekilde |
+| Özel sınır | Özel bir sıkıştırma kademesi gerektiren tarifleri işleyemez; yüksek basınçlı çelik yapı bunları açmaz |
+| Paralel sayısı | Aynı tarifin en fazla sekiz kopyası; yüksek basınç yapısı bu sınırı artırmaz |
+| İşlem bonusları | Temel yapı, tek bloklu bronz Buharlı Kompresörün hızının %125'inde ve paralel başına buhar tüketim hızının %62,5'inde çalışır |
+| Yükseltmeler ve hız aşırtma | Yüksek basınç yapısı hızı ve buhar tüketim hızını ikiye katlar; gerilim hız aşırtması yok |
+| Bakım ve kirlilik | Bakım yok, kirlilik yok ve Egzoz Çıkışı gerekmez |
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+Kontrolcü, temel kasa ve Buhar Kapağı için mevcut tarifler aşağıda gösterilmiştir. Diğer bileşenlerin tariflerini görmek için tablodaki eşyalara tıkla.
 
 <RecipesFor id="gregtech:gt.blockmachines:31078" />
 
@@ -40,124 +40,124 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### Yapı Malzemeleri
 
-The following quantities assume one Steam Hatch, one Input Bus, and one Output Bus. The basic structure uses Bronze Plated Bricks, Bronze Pipe Casings, and Iron Blocks, while the high pressure structure uses their steel counterparts. **The casings, Pipe Casings, and metal blocks in one machine must all be of the same tier.**
+Aşağıdaki miktarlar bir Buhar Kapağı, bir Giriş Yolu ve bir Çıkış Yolu varsayar. Temel yapı Bronz Kaplamalı Tuğlalar, Bronz Boru Muhafazaları ve Demir Blokları kullanır; yüksek basınç yapısı ise bunların çelik karşılıklarını kullanır. **Bir makinedeki kasalar, boru muhafazaları ve metal blokların tümü aynı kademede olmalıdır.**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| Bileşen | Temel yapı | Yüksek basınç yapısı | Miktar ve konum |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 27 in the basic setup; may be replaced with the hatches or buses below, but at least 14 actual casings must remain |
-| Pipe Casing | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | Ten: eight around the front controller and two more along the center of the second layer inside the structure |
-| Metal block | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmetal6:13" showIcon="left" /> | Six: three on each of the second and third layers in the fifth row counted from the front |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" /> | Same controller | One, at the front center of the second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Fluid Input Hatch | For example, <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Same hatch | Optional, replacing a casing; supplies recipe fluids |
+| Kasa | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | Temel kurulumda 27; aşağıdaki kapaklar veya yollar ile değiştirilebilir, ancak en az 14 gerçek kasa kalmalıdır |
+| Boru Muhafazası | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | On: sekizi ön kontrolcünün etrafında, ikisi daha yapının içindeki ikinci katmanın ortası boyunca |
+| Metal blok | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmetal6:13" showIcon="left" /> | Altı: önden sayıldığında beşinci sırada, ikinci ve üçüncü katmanların her birinde üç tane |
+| Kontrolcü | <ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" /> | Aynı kontrolcü | Bir, ikinci katmanın ön ortasında |
+| Buhar Kapağı | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Aynı kapak | Tam olarak bir, bir kasanın yerine |
+| Giriş Yolu | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Aynı yol | En az bir, bir kasanın yerine |
+| Çıkış Yolu | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Aynı yol | En az bir, bir kasanın yerine |
+| Sıvı Girdi Kapağı | Örneğin, <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Aynı kapak | İsteğe bağlı, bir kasanın yerine; tarif sıvılarını sağlar |
 
-The new structure has 30 positions for casings or hatches. Installing the three required interfaces leaves 27 casings; adding one Fluid Input Hatch leaves 26. At least 14 actual casings must remain when adding more hatches or buses. Hatches and buses cannot replace Pipe Casings or metal blocks.
+Yeni yapıda kasalar veya kapaklar için 30 konum vardır. Gerekli üç arayüzün takılması kasa Yapraklarından 27'sini bırakır; bir Sıvı Girdi Kapağı eklemek Yaprakları 26'ya indirir. Daha fazla kapak veya yol eklerken en az 14 gerçek kasa kalmalıdır. Kapaklar ve yollar, Boru Muhafazalarının veya metal blokların yerini alamaz.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+Yapıyı önizlemek ve inşa etmeye yardımcı olmak için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan. Ana kanal kademesi 1 temel yapıyı, kademe 2 ise yüksek basınç yapısını seçer. Yardımlı inşadan sonra kapakları tak ve yapıyı kontrol et.
 
-## Machine Uses
+## Makine Kullanımları
 
-The Steam Squasher uses the Compressor recipe map. When checking NEI, first confirm that the item has a Compressor recipe, then check its tier, input quantity, outputs, and special requirements.
+Steam Squasher, Kompresör tarif haritasını kullanır. NEI'de kontrol ederken önce eşyanın bir Kompresör tarifi olup olmadığını doğrula, sonra kademesini, girdi miktarını, çıktıları ve özel gereksinimleri kontrol et.
 
-| Use | Common recipes and considerations |
+| Kullanım | Yaygın tarifler ve dikkat edilecekler |
 | --- | --- |
-| Making material blocks | Eligible metals commonly use nine ingots to make one metal block; some dusts also have block compression recipes. Check NEI for the material and recipe tier. |
-| Making building blocks | Compresses Clay Balls, Bricks, Nether Bricks, Glowstone Dust, and other materials into their corresponding blocks; for example, four brick items make one brick block |
-| Making Compressed Fireclay | Compresses Fireclay Dust into Compressed Fireclay for later firing; the Compressor does not perform the firing step itself |
-| Producing Compressed Air Cells | Compresses Empty Cells into Compressed Air Cells for later air processing |
-| Other ordinary compression recipes | Processes Alloy Plates and other materials with eligible recipes; check the Compressor recipe in NEI to confirm compatibility |
+| Malzeme blokları yapmak | Uygun metaller genellikle bir metal bloğu yapmak için dokuz külçe kullanır; bazı tozların da blok sıkıştırma tarifleri vardır. Malzeme ve tarif kademesi için NEI'ye bak. |
+| İnşaat blokları yapmak | Kil Toplarını, Tuğlaları, Nether Tuğlalarını, Parlak taş Tozunu ve diğer malzemeleri karşılık gelen bloklarına sıkıştırır; örneğin dört tuğla eşyası bir tuğla bloğu yapar |
+| Sıkıştırılmış Ateş Kili yapmak | Ateş Kili Tozunu, sonradan pişirilmek üzere Sıkıştırılmış Ateş Kiline sıkıştırır; Kompresör pişirme adımını kendisi yapmaz |
+| Sıkıştırılmış Hava Hücreleri üretmek | Boş Hücreleri, sonradan hava işleme için Sıkıştırılmış Hava Hücrelerine sıkıştırır |
+| Diğer sıradan sıkıştırma tarifleri | Alaşım Plakalarını ve uygun tariflere sahip diğer malzemeleri işler; uyumluluğu doğrulamak için NEI'deki Kompresör tarifini kontrol et |
 
-### Air Cells and Later Oxygen Production
+### Hava Hücreleri ve Sonraki Oksijen Üretimi
 
-An ordinary compression recipe turns **one Empty Cell into one Compressed Air Cell**. Empty Cells enter through the steam Input Bus, and Compressed Air Cells leave through the steam Output Bus. This recipe only needs steam for power; it does not need an additional water supply, air supplied through an Input Hatch, or a special air collection device.
+Sıradan bir sıkıştırma tarifi **bir Boş Hücreyi bir Sıkıştırılmış Hava Hücresine** dönüştürür. Boş Hücreler buharlı Giriş Yolundan girer ve Sıkıştırılmış Hava Hücreleri buharlı Çıkış Yolundan çıkar. Bu tarif güç için yalnızca buhar gerektirir; ek su beslemesi, Girdi Kapağından verilen hava veya özel bir hava toplama cihazı gerekmez.
 
-Compressed Air Cells can be used in later oxygen and nitrogen production, but this machine only produces Compressed Air Cells. **It does not directly output Oxygen or Nitrogen.** Before further processing, check the uses of Compressed Air Cells and Air fluid in NEI, then supply the fluids, cells, and output interfaces required by the next machine's recipe.
+Sıkıştırılmış Hava Hücreleri sonraki oksijen ve azot üretiminde kullanılabilir, ancak bu makine yalnızca Sıkıştırılmış Hava Hücreleri üretir. **Doğrudan Oksijen veya Azot çıkarmaz.** Daha ileri işlemeden önce NEI'de Sıkıştırılmış Hava Hücrelerinin ve Hava sıvısının kullanımlarını kontrol et, sonra bir sonraki makinenin tarifinin gerektirdiği sıvıları, hücreleri ve çıktı arayüzlerini sağla.
 
-For automation, send Empty Cells to the Compressor and Compressed Air Cells to the next machine. Empty Cells returned by the process can be routed back to the input. Leave enough buffer for cell circulation so all Empty Cells do not become stuck in other machines.
+Otomasyon için Boş Hücreleri Kompresöre, Sıkıştırılmış Hava Hücrelerini bir sonraki makineye gönder. İşlemden geri dönen Boş Hücreler girdiye geri yönlendirilebilir. Hücre dolaşımı için yeterli tampon bırak, böylece tüm Boş Hücreler diğer makinelerde sıkışıp kalmasın.
 
 > [!NOTE]
-> The machine is available in the Steam age, but only accepts recipes up to LV. The high pressure steel structure raises the machine's structure tier. It does not enable MV or higher-tier recipes, or recipes requiring a special compression tier.
+> Makine Buhar çağında kullanılabilir, ancak yalnızca LV'ye kadar olan tarifleri kabul eder. Yüksek basınçlı çelik yapı makinenin yapı kademesini yükseltir. MV veya daha yüksek kademeli tarifleri ya da özel bir sıkıştırma kademesi gerektiren tarifleri etkinleştirmez.
 
-### First Startup
+### İlk Çalıştırma
 
-1. Check the structure and confirm that the Steam Hatch, steam Input Bus, and steam Output Bus are installed.
-2. Connect the steam pipe to the Steam Hatch and confirm that steam actually enters it.
-3. Check the recipe and input quantity in NEI, and leave space in the Output Bus.
-4. Start the machine with a small amount of material and observe the output route and steam buffer.
-5. Increase input quantities and parallels after confirming a continuous steam supply.
+1. Yapıyı kontrol et ve Buhar Kapağı, buharlı Giriş Yolu ve buharlı Çıkış Yolunun takılı olduğunu doğrula.
+2. Buhar borusunu Buhar Kapağına bağla ve buharın gerçekten içeri girdiğini doğrula.
+3. NEI'de tarifi ve girdi miktarını kontrol et ve Çıkış Yolunda yer bırak.
+4. Makineyi az miktarda malzemeyle başlat ve çıktı yolunu ve buhar tamponunu gözlemle.
+5. Sürekli buhar beslemesini doğruladıktan sonra girdi miktarlarını ve paralel sayısını artır.
 
-## Steam Supply and Throughput
+## Buhar Beslemesi ve Verim
 
-The Steam Squasher can process up to eight copies of **the same recipe** at once. This does not mean it can process eight different items in one cycle. Actual parallels also depend on input quantities, output space, and the parallel limit set in the GUI.
+Steam Squasher aynı anda **aynı tarifin** sekiz kopyasına kadar işleyebilir. Bu, bir döngüde sekiz farklı eşyayı işleyebileceği anlamına gelmez. Gerçek paralel sayısı ayrıca girdi miktarlarına, çıktı alanına ve GUI'de ayarlanan paralel sınırına bağlıdır.
 
-For example, if a block compression recipe uses nine ingots to make one metal block, eight parallels require 72 ingots and produce eight metal blocks in one cycle.
+Örneğin, bir blok sıkıştırma tarifi bir metal bloğu yapmak için dokuz külçe kullanıyorsa, sekiz paralel 72 külçe gerektirir ve bir döngüde sekiz metal bloğu üretir.
 
-The basic structure runs at 125% of a singleblock bronze Steam Compressor's speed, taking roughly 80% as long. Its steam consumption rate per parallel is 62.5% of the singleblock machine's rate. Combining both bonuses gives roughly 50% of the total steam consumption for the same amount of material. However, running more parallels still increases the whole machine's instantaneous steam demand.
+Temel yapı, tek bloklu bronz Buharlı Kompresörün hızının %125'inde çalışır ve yaklaşık %80 süre alır. Paralel başına buhar tüketim hızı, tek bloklu makinenin hızının %62,5'idir. İki bonusu birleştirmek, aynı malzeme miktarı için toplam buhar tüketiminin yaklaşık %50'sini verir. Ancak daha fazla paralel çalıştırmak yine de tüm makinenin anlık buhar talebini artırır.
 
-| Property | Basic structure | High pressure structure |
+| Özellik | Temel yapı | Yüksek basınç yapısı |
 | --- | --- | --- |
-| Accepted recipe tiers | Ordinary Compressor recipes at LV and below | Ordinary Compressor recipes at LV and below |
-| Maximum parallels | 8 | 8 |
-| Speed relative to the basic structure | 1× | 2× |
-| Steam consumption rate for the same recipe and parallel count | 1× | 2× |
-| Total steam consumption per recipe | Baseline | Approximately the same as the basic structure |
+| Kabul edilen tarif kademeleri | LV ve altındaki sıradan Kompresör tarifleri | LV ve altındaki sıradan Kompresör tarifleri |
+| Maksimum paralel sayısı | 8 | 8 |
+| Temel yapıya göre hız | 1× | 2× |
+| Aynı tarif ve paralel sayısı için buhar tüketim hızı | 1× | 2× |
+| Tarif başına toplam buhar tüketimi | Referans | Temel yapıyla yaklaşık aynı |
 
-The high pressure upgrade increases speed and steam consumption rate together. It mainly improves throughput, without halving the total steam cost per item again. Actual duration and steam consumption are also affected by tick and integer rounding.
+Yüksek basınç yükseltmesi hızı ve buhar tüketim hızını birlikte artırır. Esas olarak verimi iyileştirir; eşya başına toplam buhar maliyetini bir kez daha yarıya indirmez. Gerçek süre ve buhar tüketimi ayrıca tick ve tam sayı yuvarlamasından etkilenir.
 
-The Steam Hatch buffers 64,000 L of steam, but this only covers temporary shortfalls and cannot replace continuous boiler production. Size boilers and pipes for the **steam consumption rate while processing**.
+Buhar Kapağı 64.000 L buhar tamponlar, ancak bu yalnızca geçici eksiklikleri karşılar ve sürekli kazan üretiminin yerini tutamaz. Kazanları ve boruları **işlem sırasındaki buhar tüketim hızına** göre boyutlandır.
 
-Use Waila to check the operating steam consumption rate and watch whether the buffer keeps falling during continuous processing. If a value is shown in L/t, multiply by 20 to get L/s at the normal 20 TPS. Use matching units when comparing pipe throughput. If steam supply is insufficient, lower the parallel limit in the GUI, then increase boiler production or improve the piping.
+Çalışma sırasındaki buhar tüketim hızını kontrol etmek için Waila kullan ve sürekli işlem sırasında tamponun düşmeye devam edip etmediğini izle. Bir değer L/t olarak gösteriliyorsa, normal 20 TPS'de L/s elde etmek için 20 ile çarp. Boru verimini karşılaştırırken aynı birimleri kullan. Buhar beslemesi yetersizse GUI'de paralel sınırını düşür, ardından kazan üretimini artır veya boru tesisatını iyileştir.
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation, and materials already consumed are not returned. Check steam production and pipe throughput before upgrading to high pressure or increasing the parallel limit.
+> İşlem sırasında buharın tükenmesi mevcut işlemi iptal eder ve tüketilen malzemeler geri verilmez. Yüksek basınca yükseltmeden veya paralel sınırını artırmadan önce buhar üretimini ve boru verimini kontrol et.
 
-## Upgrading to High Pressure
+## Yüksek Basınca Yükseltme
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31078" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. Replace **all** Bronze Plated Bricks, Bronze Pipe Casings, and Iron Blocks with the Solid Steel Machine Casings, Steel Pipe Casings, and Steel Blocks listed in the table.
+Yüksek basınç yapısı aynı boyutları, kapak konumlarını ve kontrolcüyü korur. **Tüm** Bronz Kaplamalı Tuğlaları, Bronz Boru Muhafazalarını ve Demir Bloklarını tabloda listelenen Sağlam Çelik Makine Kasaları, Çelik Boru Muhafazaları ve Çelik Blokları ile değiştir.
 
-Stop processing and material input before upgrading. After replacing the components, check the structure again and confirm the machine displays the high pressure tier before restoring steam and production.
+Yükseltmeden önce işlemeyi ve malzeme girişini durdur. Bileşenleri değiştirdikten sonra yapıyı tekrar kontrol et ve buhar ile üretimi geri yüklemeden önce makinenin yüksek basınç kademesini gösterdiğini doğrula.
 
-High pressure is the machine's structure tier. It still uses ordinary steam, and the existing Steam Hatch and steam buses can be reused. The upgrade doubles speed and steam consumption rate, but the maximum remains eight parallels.
+Yüksek basınç, makinenin yapı kademesidir. Hâlâ sıradan buhar kullanır ve mevcut Buhar Kapağı ile buharlı yollar yeniden kullanılabilir. Yükseltme hızı ve buhar tüketim hızını ikiye katlar, ancak maksimum sekiz paralel olarak kalır.
 
-## Automation and Item Routing
+## Otomasyon ve Eşya Yönlendirme
 
-Steam Input and Output Buses each have four item slots. They do not automatically pull from adjacent chests or push products into them; placing a chest next to a bus is not enough for automation.
+Buharlı Giriş ve Çıkış Yollarının her biri dört eşya yuvasına sahiptir. Bitişik sandıklardan otomatik olarak çekmez veya ürünleri onlara itmez; bir yolun yanına sandık koymak otomasyon için yeterli değildir.
 
-- **Input:** Use hoppers, GT item pipes, conveyors, or item conduits to send items into the front face of the Input Bus.
-- **Output:** Actively extract from the front face of the Output Bus with pipes, conduits, or conveyors, then route products to storage or the next machine.
-- **Steam:** Connect fluid pipes from the boiler to the Steam Hatch. An ordinary Input Hatch cannot replace the Steam Hatch for power.
-- **Recipe fluids:** Only install an additional ordinary Input Hatch and supply the corresponding fluid when the NEI recipe requires a fluid input. Producing Compressed Air Cells does not need this interface.
-- **Routing:** Set filters for material blocks, Compressed Fireclay, Compressed Air Cells, and other products so air cells do not enter material storage and intermediates that need firing do not remain at the output.
+- **Girdi:** Eşyaları Giriş Yolunun ön yüzüne göndermek için huniler, GT eşya boruları, konveyörler veya eşya kanalları kullan.
+- **Çıktı:** Çıkış Yolunun ön yüzünden borular, kanallar veya konveyörlerle aktif olarak çek, sonra ürünleri depolamaya veya bir sonraki makineye yönlendir.
+- **Buhar:** Kazandan Buhar Kapağına sıvı boruları bağla. Sıradan bir Girdi Kapağı güç için Buhar Kapağının yerini alamaz.
+- **Tarif sıvıları:** Yalnızca NEI tarifi bir sıvı girdisi gerektirdiğinde ek bir sıradan Girdi Kapağı tak ve karşılık gelen sıvıyı sağla. Sıkıştırılmış Hava Hücreleri üretmek bu arayüzü gerektirmez.
+- **Yönlendirme:** Malzeme blokları, Sıkıştırılmış Ateş Kili, Sıkıştırılmış Hava Hücreleri ve diğer ürünler için filtreler ayarla, böylece hava hücreleri malzeme deposuna girmez ve pişirilmesi gereken ara ürünler çıktıda kalmaz.
 
-Block compression recipes often consume several items at once. Size the input buffer for "inputs per recipe × target parallels". Avoid filling the input slots with small quantities of many different materials, leaving too few of each for even one recipe.
+Blok sıkıştırma tarifleri genellikle aynı anda birkaç eşya tüketir. Girdi tamponunu "tarif başına girdi × hedef paralel" için boyutlandır. Girdi yuvalarını birçok farklı malzemenin az miktarlarıyla doldurmaktan kaçın; aksi hâlde her birinden tek bir tarif için bile çok az kalır.
 
-Additional Input Buses expand item buffering, while additional Output Buses help prevent output congestion. Neither raises the parallel limit. Keep at least 14 actual casings when expanding, and do not install a second Steam Hatch.
+Ek Giriş Yolları eşya tamponunu genişletir, ek Çıkış Yolları ise çıktı tıkanıklığını önlemeye yardımcı olur. Hiçbiri paralel sınırını artırmaz. Genişletirken en az 14 gerçek kasa bırak ve ikinci bir Buhar Kapağı takma.
 
-## Troubleshooting
+## Sorun Giderme
 
-| Symptom | What to check |
+| Belirti | Neyi kontrol etmeli |
 | --- | --- |
-| Incomplete new structure | Is the structure three blocks wide, seven blocks deep, and three blocks tall? Is the controller at the front center of the second layer? Are the ten Pipe Casings and six metal blocks correctly positioned? |
-| Structure tier mismatch | Are the casings, Pipe Casings, and metal blocks all of the same tier? Were only some bronze components replaced, or any Iron Blocks left? |
-| Missing Steam Hatch or buses | Is there exactly one Steam Hatch and at least one steam Input Bus and Output Bus? Were ordinary electric machine item buses used by mistake? |
-| Structure fails after adding hatches | Are at least 14 actual casings left? Were any Pipe Casings or metal blocks replaced with hatches or buses? |
-| Inputs present but no recipe found | Does the item have a Compressor recipe? Are there enough inputs for one recipe? Does the recipe require a compression tier? Is there enough output space? |
-| Recipe tier too high | Does the recipe shown in NEI exceed LV? The high pressure structure also cannot process MV or higher-tier recipes. |
-| Empty Cells do not become Oxygen Cells | The Compressor produces Compressed Air Cells. Oxygen and Nitrogen require further processing in other machines. |
-| Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
-| Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
-| Fewer than eight recipes processed at once | Are there enough inputs for eight copies of the same recipe? Is the parallel limit set lower? Can the output slots hold all products? |
+| Yeni yapı tamamlanmıyor | Yapı üç blok genişliğinde, yedi blok derinliğinde ve üç blok yüksekliğinde mi? Kontrolcü ikinci katmanın ön ortasında mı? On Boru Muhafazası ve altı metal blok doğru konumda mı? |
+| Yapı kademesi uyuşmuyor | Kasalar, Boru Muhafazaları ve metal blokların tümü aynı kademede mi? Yalnızca bazı bronz bileşenler mi değiştirildi, yoksa Demir Blokları mı kaldı? |
+| Buhar Kapağı veya yollar eksik | Tam olarak bir Buhar Kapağı ve en az bir buharlı Giriş Yolu ve Çıkış Yolu var mı? Yanlışlıkla sıradan elektrikli makine eşya yolları mı kullanıldı? |
+| Kapaklar eklendikten sonra yapı hata veriyor | En az 14 gerçek kasa kaldı mı? Herhangi bir Boru Muhafazası veya metal blok kapak ya da yolla değiştirildi mi? |
+| Girdiler var ama tarif bulunamıyor | Eşyanın bir Kompresör tarifi var mı? Bir tarif için yeterli girdi var mı? Tarif bir sıkıştırma kademesi gerektiriyor mu? Yeterli çıktı alanı var mı? |
+| Tarif kademesi çok yüksek | NEI'de gösterilen tarif LV'yi aşıyor mu? Yüksek basınç yapısı da MV veya daha yüksek kademeli tarifleri işleyemez. |
+| Boş Hücreler Oksijen Hücresine dönüşmüyor | Kompresör Sıkıştırılmış Hava Hücreleri üretir. Oksijen ve Azot, diğer makinelerde daha ileri işleme gerektirir. |
+| Kapakta buhar olmasına rağmen makine duruyor | Sürekli besleme yetişebiliyor mu? Borular kısıtlı mı veya buharı diğer makinelerle mi paylaşıyor? Mevcut paralel sayısı ve yüksek basınç kademesi kazan kapasitesini aşıyor mu? |
+| Yolun yanındaki sandık eşya aktarmıyor | Buharlı yollar eşyaları otomatik olarak çekmez veya itmez. Aktif aktarım ekipmanını, bağlantı yüzünü, yönü ve filtreleri kontrol et. |
+| Aynı anda sekizden az tarif işleniyor | Aynı tarifin sekiz kopyası için yeterli girdi var mı? Paralel sınırı daha düşük mü ayarlanmış? Çıktı yuvaları tüm ürünleri tutabiliyor mu? |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+Genel yapı kontrolleri ve araç kullanımı için [Multibloklar](./multiblocks_index.md) sayfasına bak.
 
-## Related Pages
+## İlgili Sayfalar
 
 - [GTNH Wiki: Steam Squasher](https://wiki.gtnewhorizons.com/wiki/Steam_Squasher)

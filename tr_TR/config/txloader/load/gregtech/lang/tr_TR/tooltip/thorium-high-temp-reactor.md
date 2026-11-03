@@ -1,12 +1,12 @@
-Heats coolant with the radioactive decay of TRISO Pebbles
-Insert at least {gold:{var:min_pebbles} Pebbles} and {yellow:{var:helium} {var:unit} Helium} to start
-Having any less than the maximum {var:max_pebbles} Pebbles reduces efficiency
+TRISO Çakıllarının radyoaktif bozunmasıyla soğutucuyu ısıtır
+Başlamak için en az {gold:{var:min_pebbles} Çakıl} ve {yellow:{var:helium} {var:unit} Helyum} yerleştir
+Maksimum {var:max_pebbles} Çakıldan daha azına sahip olmak verimliliği düşürür
 {gray:{hr}}
-A lower efficiency means a higher power cost and less hot coolant
-{white:Power Cost (EU/t) =} {aqua:3,840 / Efficiency}
-{white:Hot Coolant ({var:unit}/t) =} {red:{var:coolant_rate} * Efficiency}
+Daha düşük verimlilik, daha yüksek güç maliyeti ve daha az sıcak soğutucu demektir
+{white:Güç Maliyeti (EU/t) =} {aqua:3,840 / Verimlilik}
+{white:Sıcak Soğutucu ({var:unit}/t) =} {red:{var:coolant_rate} * Verimlilik}
 {gray:{hr}}
-Each operation is {light_purple:{var:duration} hours} regardless of the Pebble amount
-Consumes up to {gold:{var:consumption}%} of the stored {gold:Pebbles} and all the {yellow:Helium} at the start
-Outputs burned out TRISO Pebbles at the end
-There is no consequence for running out of coolant while running
+Her işlem, Çakıl miktarından bağımsız olarak {light_purple:{var:duration} saat} sürer
+Başlangıçta depolanan {gold:Çakılların} en fazla {gold:{var:consumption}%}'ini ve tüm {yellow:Helyumu} tüketir
+Sonunda yanmış TRISO Çakılları çıkarır
+Çalışırken soğutucunun bitmesinin bir sonucu yoktur

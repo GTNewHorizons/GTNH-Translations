@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Color Applicator
+  title: Renk Uygulayıcı
   icon: appliedenergistics2:item.ToolColorApplicator
 categories:
 - tools
@@ -9,24 +9,24 @@ item_ids:
 - appliedenergistics2:item.ToolColorApplicator
 ---
 
-# Color Applicator
+# Renk Uygulayıcı
 
 <ItemImage id="appliedenergistics2:item.ToolColorApplicator" scale="4" />
 
-The color applicator paints colorable blocks such as [cables](cables.md), wool, terracotta, glass, and concrete. It consumes [paintballs](paintballs.md) or dyes; snowballs remove cable colors and paint from blocks.
+Renk uygulayıcı; [kablolar](cables.md), yün, pişmiş toprak, cam ve beton gibi renklendirilebilir blokları boyar. [Boya topları](paintballs.md) veya boyalar tüketir; kartopları kablo renklerini ve bloklardaki boyayı temizler.
 
-Recharge it in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />. Like a [storage cell](storage_cells.md), its paint storage can be filled by placing it in the component slot of an <ItemLink id="appliedenergistics2:tile.BlockChest" />.
+Onu bir <ItemLink id="appliedenergistics2:tile.BlockCharger" /> içinde şarj et. Bir [depolama hücresi](storage_cells.md) gibi, boya deposu da onu bir <ItemLink id="appliedenergistics2:tile.BlockChest" /> bileşen yuvasına koyarak doldurulabilir.
 
-Right-click a target to apply the selected color. Shift-scroll to change the selected paintball or dye, or right-click without a target.
+Seçili rengi uygulamak için hedefe sağ tıkla. Seçili boya topunu veya boyayı değiştirmek için Shift ile kaydır ya da hedef olmadan sağ tıkla.
 
-## Upgrades
+## Yükseltmeler
 
-Color applicators support the following [upgrades](upgrade_cards.md), installed with a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />:
+Renk uygulayıcılar, bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> ile kurulan şu [yükseltmeleri](upgrade_cards.md) destekler:
 
-* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" /> evenly distributes storage between colors.~~
-* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> voids excess material when storage is full.~~
-* ~~<ItemLink id="ae2fc:energy_card" /> increases battery capacity.~~
+* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" /> depolamayı renkler arasında eşit olarak dağıtır.~~
+* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> depo dolduğunda fazla malzemeyi yok eder.~~
+* ~~<ItemLink id="ae2fc:energy_card" /> pil kapasitesini artırır.~~
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:item.ToolColorApplicator" />

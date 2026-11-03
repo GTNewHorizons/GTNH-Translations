@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Fluix Block
+  title: Fluix Bloğu
   icon: appliedenergistics2:tile.BlockFluix
 categories:
 - misc ingredients blocks
@@ -9,13 +9,13 @@ item_ids:
 - appliedenergistics2:tile.BlockFluix
 ---
 
-# The Fluix Block
+# Fluix Bloğu
 
 <BlockImage id="appliedenergistics2:tile.BlockFluix" scale="8" />
 
-The storage block for <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />. It is also used in the recipes for several machines.
+<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" /> için depolama bloğu. Ayrıca birkaç makinenin tarifinde de kullanılır.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:tile.BlockFluix" />
 

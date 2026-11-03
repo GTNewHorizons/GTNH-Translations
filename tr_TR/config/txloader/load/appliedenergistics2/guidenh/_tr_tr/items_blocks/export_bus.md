@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Export Bus
+  title: ME Dışa Aktarma Veriyolu
   icon: appliedenergistics2:item.ItemMultiPart:260
 categories:
 - devices

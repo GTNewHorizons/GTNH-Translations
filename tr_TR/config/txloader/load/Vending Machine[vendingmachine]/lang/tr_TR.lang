@@ -1,159 +1,159 @@
 # Items
-item.vendingmachine.placeholder.name=Placeholder Item
+item.vendingmachine.placeholder.name=Yer Tutucu Eşya
 
 # Blocks
-gt.blockmachines.multimachine.vendingmachine.name=Vending Machine
-gt.blockmachines.multimachine.vendingmachine.name.gui=Vending Machine
-casing.0.name=Vending Machine Casing
+gt.blockmachines.multimachine.vendingmachine.name=Otomat
+gt.blockmachines.multimachine.vendingmachine.name.gui=Otomat
+casing.0.name=Otomat Kasası
 
 hatch.vendinguplink.me.name=ME Otomat Uplink Kapağı
 
 # Tooltips
-vendingmachine.vendinguplink.me.no_cached_stacks=No stacks pending ME network insertion
-vendingmachine.vendinguplink.me.contains_cached_stacks=%s%d%s stacks pending ME network insertion:
-vendingmachine.vendinguplink.me.and_more_stacks=%sAnd %d more...
+vendingmachine.vendinguplink.me.no_cached_stacks=ME ağına eklenmeyi bekleyen yığın yok
+vendingmachine.vendinguplink.me.contains_cached_stacks=%s%d%s yığın ME ağına eklenmeyi bekliyor:
+vendingmachine.vendinguplink.me.and_more_stacks=%sVe %d tane daha...
 
 # Gui
-vendingmachine.gui.requirementHeader=Requirements:
-vendingmachine.gui.requirement.unknown=Unknown Requirement
-vendingmachine.gui.requirement.betterquesting=Quest
-vendingmachine.gui.requirement.betterquesting.missing=Missing Quest
-vendingmachine.gui.item_eject=Eject Items
-vendingmachine.gui.coin_eject=Eject All Coins from Wallet
-vendingmachine.gui.single_coin_type_eject_hint=Shift-Click to Extract Coins from Wallet
-vendingmachine.gui.search=Search
-vendingmachine.gui.required_inputs=Requires:
-vendingmachine.gui.nc_inputs=Requires (Not Consumed):
-vendingmachine.gui.alternative_oredict=Accepts Oredict:
-vendingmachine.gui.shared_trades_tooltip=Shares cooldown with %s other trade(s)
-vendingmachine.gui.cooldown_remaining_tooltip=%s/%s trades remaining
-vendingmachine.gui.cooldown_started_tooltip=Trade limit will reset in %s
-vendingmachine.gui.cooldown_idle_tooltip=Trade limit will reset %s after a trade is made
-vendingmachine.gui.trades_scale_tooltip=Limit scales with online team members
-vendingmachine.gui.trade_hint=Shift-Click to Purchase
-vendingmachine.gui.favourite_hint=Ctrl-Click to Toggle as Favourite
-vendingmachine.gui.display_mode=Display:
-vendingmachine.gui.display_mode_tile=Tiles
-vendingmachine.gui.display_mode_list=List
-vendingmachine.gui.display_sort=Sort:
-vendingmachine.gui.display_sort_smart=Smart
-vendingmachine.gui.display_sort_alphabet=Alphabetical Order
-vendingmachine.gui.display_wallet_personal=Personal Wallet
-vendingmachine.gui.display_wallet_team=Team Wallet
-vendingmachine.gui.display_track=Music:
-vendingmachine.gui.display_track_none=None
-vendingmachine.gui.display_track_lunch_break=Lunch Break by Sol IX
+vendingmachine.gui.requirementHeader=Gereksinimler:
+vendingmachine.gui.requirement.unknown=Bilinmeyen Gereksinim
+vendingmachine.gui.requirement.betterquesting=Görev
+vendingmachine.gui.requirement.betterquesting.missing=Eksik Görev
+vendingmachine.gui.item_eject=Eşyaları At
+vendingmachine.gui.coin_eject=Cüzdandaki Tüm Sikkeleri At
+vendingmachine.gui.single_coin_type_eject_hint=Cüzdandan Sikke Çıkarmak İçin Shift + Tıkla
+vendingmachine.gui.search=Arama
+vendingmachine.gui.required_inputs=Gereksinimler:
+vendingmachine.gui.nc_inputs=Gerekli (Tüketilmez):
+vendingmachine.gui.alternative_oredict=Oredict Kabul Eder:
+vendingmachine.gui.shared_trades_tooltip=Bekleme süresini %s diğer takasla paylaşır
+vendingmachine.gui.cooldown_remaining_tooltip=Kalan takas: %s/%s
+vendingmachine.gui.cooldown_started_tooltip=Takas limiti %s sonra sıfırlanacak
+vendingmachine.gui.cooldown_idle_tooltip=Takas limiti bir takas yapıldıktan %s sonra sıfırlanacak
+vendingmachine.gui.trades_scale_tooltip=Limit, çevrimiçi takım üyelerine göre ölçeklenir
+vendingmachine.gui.trade_hint=Satın almak için Shift-Tıkla
+vendingmachine.gui.favourite_hint=Favorilere eklemek/çıkarmak için Ctrl-Tıkla
+vendingmachine.gui.display_mode=Görünüm:
+vendingmachine.gui.display_mode_tile=Kutucuklar
+vendingmachine.gui.display_mode_list=Liste
+vendingmachine.gui.display_sort=Sırala:
+vendingmachine.gui.display_sort_smart=Akıllı
+vendingmachine.gui.display_sort_alphabet=Alfabetik Sıra
+vendingmachine.gui.display_wallet_personal=Kişisel Cüzdan
+vendingmachine.gui.display_wallet_team=Takım Cüzdanı
+vendingmachine.gui.display_track=Müzik:
+vendingmachine.gui.display_track_none=Hiç
+vendingmachine.gui.display_track_lunch_break=Sol IX'in Lunch Break'i
 vendingmachine.gui.cooldown_display.second=s
-vendingmachine.gui.cooldown_display.minute=m
+vendingmachine.gui.cooldown_display.minute=d
 vendingmachine.gui.cooldown_display.hour=h
-vendingmachine.gui.cooldown_display.day=d
+vendingmachine.gui.cooldown_display.day=A
 vendingmachine.gui.in=IN
 vendingmachine.gui.out=OUT
-vendingmachine.gui.volume.tooltip_volume_display=Volume: %s%%
-vendingmachine.gui.volume.tooltip_open_panel=Shift-click to adjust
-vendingmachine.gui.volume.title=Music Volume
+vendingmachine.gui.volume.tooltip_volume_display=Ses: %s%%
+vendingmachine.gui.volume.tooltip_open_panel=Ayarlamak için Shift-tıkla
+vendingmachine.gui.volume.title=Müzik Sesi
 vendingmachine.gui.volume.percent=%s%%
-vendingmachine.gui.error.incomplete_structure=Incomplete Structure.
-vendingmachine.gui.error.player_using=Someone is using the vending machine at the moment.
+vendingmachine.gui.error.incomplete_structure=Yapı Tamamlanmadı.
+vendingmachine.gui.error.player_using=Şu anda biri otomatı kullanıyor.
 
 # Chat
-vendingmachine.chat.trade_restock=Vending Machine Restocked: %s
+vendingmachine.chat.trade_restock=Otomat Stoğu Yenilendi: %s
 
 # Command
-vendingmachine.command.usage=Usage: %s
-vendingmachine.command.error.player_not_found=Player "%s" was not found.
-vendingmachine.command.error.integer_format=Invalid amount "%s". Expected a whole number.
-vendingmachine.command.no_wallet=No wallet found.
-vendingmachine.command.error.invalid_currency_with_list=Unknown coin type "%s". Valid coin types are %s. Hover over a coin name to see the unlocalised name accepted by this command.
+vendingmachine.command.usage=Kullanım: %s
+vendingmachine.command.error.player_not_found="%s" adlı oyuncu bulunamadı.
+vendingmachine.command.error.integer_format=Geçersiz miktar "%s". Tam sayı bekleniyordu.
+vendingmachine.command.no_wallet=Cüzdan bulunamadı.
+vendingmachine.command.error.invalid_currency_with_list=Bilinmeyen jeton türü "%s". Geçerli jeton türleri: %s. Bu komutun kabul ettiği yerelleştirilmemiş adı görmek için bir jeton adının üzerine gel.
 
-vendingmachine.command.add.all_currency=Added %s of all coins to %s.
-vendingmachine.command.add.specific_currency=Added %s %s(s) to %s.
-vendingmachine.command.add.remove_all_currency=Removed %s of all coins from %s.
-vendingmachine.command.add.remove_specific_currency=Removed %s %s(s) from %s.
+vendingmachine.command.add.all_currency=Tüm jetonlardan %s adet, %s adlı oyuncuya eklendi.
+vendingmachine.command.add.specific_currency=%s adet %s, %s adlı oyuncuya eklendi.
+vendingmachine.command.add.remove_all_currency=Tüm jetonlardan %s adet, %s adlı oyuncudan kaldırıldı.
+vendingmachine.command.add.remove_specific_currency=%s adet %s, %s adlı oyuncudan kaldırıldı.
 
-vendingmachine.command.set.all_currency=Set all currencies to %s for %s.
-vendingmachine.command.set.specific_currency=Set %s to %s for %s.
+vendingmachine.command.set.all_currency=Tüm para birimleri %s değerine ayarlandı: %s.
+vendingmachine.command.set.specific_currency=%s, %s değerine ayarlandı: %s.
 
-vendingmachine.command.reset.all_coins=Reset all coins for %s.
-vendingmachine.command.reset.specific_coin=Reset %s for %s.
-vendingmachine.command.reset.reloaded_trade_db=Reloaded trade database.
+vendingmachine.command.reset.all_coins=Tüm jetonlar %s için sıfırlandı.
+vendingmachine.command.reset.specific_coin=%s, %s için sıfırlandı.
+vendingmachine.command.reset.reloaded_trade_db=Takas veritabanı yeniden yüklendi.
 
 # Categories
-vendingmachine.category.favourites=Favourites
-vendingmachine.category.unknown=Unknown Category
-vendingmachine.category.all=All Items
-vendingmachine.category.components=Components
-vendingmachine.category.raw=Raw Materials
-vendingmachine.category.farming=Farming
-vendingmachine.category.chemistry=Chemistry
-vendingmachine.category.magic=Magic
-vendingmachine.category.bees=Bees
-vendingmachine.category.misc=Miscellaneous
+vendingmachine.category.favourites=Favoriler
+vendingmachine.category.unknown=Bilinmeyen Kategori
+vendingmachine.category.all=Bütün Eşyalar
+vendingmachine.category.components=Bileşenler
+vendingmachine.category.raw=Ham Maddeler
+vendingmachine.category.farming=Tarım
+vendingmachine.category.chemistry=Kimya
+vendingmachine.category.magic=Sihir
+vendingmachine.category.bees=Arılar
+vendingmachine.category.misc=Diğer
 
 # Coins
-vendingmachine.coin.adventure=Explorer Coin
-vendingmachine.coin.bees=Beekeeper Coin
-vendingmachine.coin.blood=Vampire Coin
-vendingmachine.coin.chemist=Chemist Coin
-vendingmachine.coin.cook=Cook Coin
-vendingmachine.coin.darkWizard=Dark Wizard Coin
-vendingmachine.coin.farmer=Farmer Coin
-vendingmachine.coin.flower=Gardener Coin
-vendingmachine.coin.forestry=Forest Ranger Coin
-vendingmachine.coin.smith=Blacksmith Coin
-vendingmachine.coin.space=Space Invaders Coin
-vendingmachine.coin.survivor=Survivor Coin
-vendingmachine.coin.technician=Technician Coin
-vendingmachine.coin.witch=Spirit Coin
+vendingmachine.coin.adventure=Kâşif Sikkesi
+vendingmachine.coin.bees=Arıcı Sikkesi
+vendingmachine.coin.blood=Vampir Sikkesi
+vendingmachine.coin.chemist=Kimyager Sikkesi
+vendingmachine.coin.cook=Aşçı Sikkesi
+vendingmachine.coin.darkWizard=Kara Büyücü Sikkesi
+vendingmachine.coin.farmer=Çiftçi Sikkesi
+vendingmachine.coin.flower=Bahçıvan Jetonu
+vendingmachine.coin.forestry=Orman Korucusu Jetonu
+vendingmachine.coin.smith=Demirci Jetonu
+vendingmachine.coin.space=Space Invaders Jetonu
+vendingmachine.coin.survivor=Hayatta Kalan Jetonu
+vendingmachine.coin.technician=Teknisyen Jetonu
+vendingmachine.coin.witch=Ruh Jetonu
 
 # Config
-vendingmachine.config.title.main=Vending Machine Settings
-vendingmachine.config.title.main.tooltip=Configuration settings for vending machine.
+vendingmachine.config.title.main=Otomat Ayarları
+vendingmachine.config.title.main.tooltip=Otomatın yapılandırma ayarları.
 
-vendingmachine.config.title.main_settings=Main Settings
-vendingmachine.config.title.main_settings.tooltip=Global settings for the vending machine
-vendingmachine.config.title.gui_settings=GUI Settings
-vendingmachine.config.title.gui_settings.tooltip=Settings for the GUI display
-vendingmachine.config.title.team_settings=Team Settings
-vendingmachine.config.title.team_settings.tooltip=Settings for the teams
-vendingmachine.config.title.music_settings=Music Settings
-vendingmachine.config.title.music_settings.tooltip=Settings for the music
-vendingmachine.config.title.dev_settings=Developer Settings
-vendingmachine.config.title.dev_setting.tooltips=Settings for the developers
+vendingmachine.config.title.main_settings=Ana Ayarlar
+vendingmachine.config.title.main_settings.tooltip=Otomat için genel ayarlar
+vendingmachine.config.title.gui_settings=GUI Ayarları
+vendingmachine.config.title.gui_settings.tooltip=GUI görünümü için ayarlar
+vendingmachine.config.title.team_settings=Takım Ayarları
+vendingmachine.config.title.team_settings.tooltip=Takımlar için ayarlar
+vendingmachine.config.title.music_settings=Müzik Ayarları
+vendingmachine.config.title.music_settings.tooltip=Müzik için ayarlar
+vendingmachine.config.title.dev_settings=Geliştirici Ayarları
+vendingmachine.config.title.dev_setting.tooltips=Geliştiriciler için ayarlar
 
-vendingmachine.config.main.data_refresh=Refresh frequency
-vendingmachine.config.main.data_refresh.tooltip=How often the vending machine refreshes its data, in number of ticks
-vendingmachine.config.main.restock=Restock notifications
-vendingmachine.config.main.restock.tooltip=Enable restock notifications\nDisabling on server will disable notifications for everyone
-vendingmachine.config.main.restock_check=Restock frequency check
-vendingmachine.config.main.restock_check.tooltip=How often the server checks for restocked trades, in number of ticks
-vendingmachine.config.main.eject_frequency=Dispence frequency 
-vendingmachine.config.main.eject_frequency.tooltip=How often items items are ejected, in number of ticks
-vendingmachine.config.main.dispense_frequency=Dispence amount
-vendingmachine.config.main.dispense_frequency.tooltip=How many items are dispensed from the queue at once
+vendingmachine.config.main.data_refresh=Yenileme sıklığı
+vendingmachine.config.main.data_refresh.tooltip=Otomatın verilerini kaç tick'te bir yenilediği
+vendingmachine.config.main.restock=Stok yenileme bildirimleri
+vendingmachine.config.main.restock.tooltip=Stok yenileme bildirimlerini etkinleştir\nSunucuda devre dışı bırakmak, bildirimleri herkes için devre dışı bırakır
+vendingmachine.config.main.restock_check=Stok yenileme sıklığı kontrolü
+vendingmachine.config.main.restock_check.tooltip=Sunucunun stok yenilenen takasları kaç tick'te bir kontrol ettiği
+vendingmachine.config.main.eject_frequency=Dağıtım sıklığı 
+vendingmachine.config.main.eject_frequency.tooltip=Eşyaların kaç tick'te bir dışarı atıldığı
+vendingmachine.config.main.dispense_frequency=Dağıtım miktarı
+vendingmachine.config.main.dispense_frequency.tooltip=Kuyruktan bir seferde kaç eşya dağıtıldığı
 
-vendingmachine.config.gui.trade_display=Trade display format
-vendingmachine.config.gui.trade_display.tooltip=Default trade display format\nCase sensitive
-vendingmachine.config.gui.sort_mode=Sort mode
-vendingmachine.config.gui.sort_mode.tooltip=Default sort mode\nCase sensitive
-vendingmachine.config.gui.show_coins=Show coins
-vendingmachine.config.gui.show_coins.tooltip=Show currently owned coins in vending machine
-vendingmachine.config.gui.wallet_mode=Wallet mode
-vendingmachine.config.gui.wallet_mode.tooltip=Default wallet mode\nCase sensitive
+vendingmachine.config.gui.trade_display=Takas görünüm biçimi
+vendingmachine.config.gui.trade_display.tooltip=Varsayılan takas görünüm biçimi\nBüyük/küçük harfe duyarlı
+vendingmachine.config.gui.sort_mode=Sıralama modu
+vendingmachine.config.gui.sort_mode.tooltip=Varsayılan sıralama modu\nBüyük/küçük harfe duyarlı
+vendingmachine.config.gui.show_coins=Jetonları göster
+vendingmachine.config.gui.show_coins.tooltip=Otomatta şu anda sahip olduğun jetonları göster
+vendingmachine.config.gui.wallet_mode=Cüzdan modu
+vendingmachine.config.gui.wallet_mode.tooltip=Varsayılan cüzdan modu\nBüyük/küçük harfe duyarlı
 
-vendingmachine.config.team.allow_in_teams=Use team wallet
-vendingmachine.config.team.allow_in_teams.tooltip=Allow using the team wallet in solo teams
-vendingmachine.config.team.cooldown_increase=Cooldown trade limit
-vendingmachine.config.team.cooldown_increase.tooltip=Each player on a team increases the cooldown trade limit by 1\nValue of -1 keeps this uncapped
+vendingmachine.config.team.allow_in_teams=Takım cüzdanını kullan
+vendingmachine.config.team.allow_in_teams.tooltip=Tek kişilik takımlarda takım cüzdanının kullanılmasına izin ver
+vendingmachine.config.team.cooldown_increase=Bekleme süreli takas limiti
+vendingmachine.config.team.cooldown_increase.tooltip=Takımdaki her oyuncu bekleme süreli takas limitini 1 artırır\n-1 değeri bu limiti sınırsız tutar
 
-vendingmachine.config.music.track=Music track
-vendingmachine.config.music.track.tooltip=Music track to play in the vending machine\nCase sensitive
-vendingmachine.config.music.volume=Music volume
-vendingmachine.config.music.volume.tooltip=Volume of the vending machine music
+vendingmachine.config.music.track=Müzik parçası
+vendingmachine.config.music.track.tooltip=Otomatta çalınacak müzik parçası\nBüyük/küçük harfe duyarlı
+vendingmachine.config.music.volume=Müzik ses düzeyi
+vendingmachine.config.music.volume.tooltip=Otomat müziğinin ses düzeyi
 
-vendingmachine.config.dev.subdirectory=Subdirectory
-vendingmachine.config.dev.subdirectory.tooltip=Subdirectory for vending machine data in world save
-vendingmachine.config.dev.folder=Database trade folder
-vendingmachine.config.dev.folder.tooltip=Folder where trade database file is located
-vendingmachine.config.dev.database=Database force rewrite
-vendingmachine.config.dev.database.tooltip=Force rewrite database on load, for add/remove trades or change of format
+vendingmachine.config.dev.subdirectory=Alt dizin
+vendingmachine.config.dev.subdirectory.tooltip=Dünya kaydındaki otomat verileri için alt dizin
+vendingmachine.config.dev.folder=Takas veritabanı klasörü
+vendingmachine.config.dev.folder.tooltip=Takas veritabanı dosyasının bulunduğu klasör
+vendingmachine.config.dev.database=Veritabanını zorla yeniden yaz
+vendingmachine.config.dev.database.tooltip=Takas eklemek/kaldırmak veya biçimi değiştirmek için yüklemede veritabanını zorla yeniden yaz

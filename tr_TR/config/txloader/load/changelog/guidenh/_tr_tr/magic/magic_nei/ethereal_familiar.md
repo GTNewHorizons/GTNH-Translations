@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Ethereal Familiar Recipe Consolidation
+  title: Eterik Yoldaş Tariflerinin Birleştirilmesi
   parent: magic_nei.md
   icon: Thaumcraft:ItemWispEssence
 categories:
@@ -9,6 +9,6 @@ author: koolkrafter5
 date: 2026-06-09
 ---
 
-The recipes for Gadomancy's <ItemLink id="gadomancy:ItemEtherealFamiliar:0:{aspect:terra}"/> <ItemImage id="gadomancy:ItemEtherealFamiliar:0:{aspect:terra}"/> have been consolidated in NEI. Each unique recipe is shown <Color id="BLUE">once</Color> rather than being shown for every aspect, removing <Color id="BLUE">1292</Color> recipes from the infusion handler. Yes, that is more recipes than <Color id="RED">__everything else__</Color> that uses infusion.
+Gadomancy'nin <ItemLink id="gadomancy:ItemEtherealFamiliar:0:{aspect:terra}"/> <ItemImage id="gadomancy:ItemEtherealFamiliar:0:{aspect:terra}"/> tarifleri NEI'de birleştirildi. Her benzersiz tarif, her aspekt için gösterilmek yerine <Color id="BLUE">bir kez</Color> gösteriliyor; bu da infüzyon işleyicisinden <Color id="BLUE">1292</Color> tarif kaldırıyor. Evet, bu infüzyonu kullanan <Color id="RED">__diğer her şeyden__</Color> daha fazla tarif.
 
-Recipes for terra-aspected familiars are shown by default.
+Terra aspektli yoldaşların tarifleri varsayılan olarak gösterilir.

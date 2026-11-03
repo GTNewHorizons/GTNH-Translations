@@ -4,73 +4,73 @@ item_ids:
 quest_ids:
   - 3SzKMSj0StOAOzVmInDjZQ==
 navigation:
-  title: Big Barrel Brewery
+  title: Büyük Varil Bira Fabrikası
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:3011
   position: -3001
 ---
-# Big Barrel Brewery
+# Büyük Varil Bira Fabrikası
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:3011" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:3011" showIcon="left">Big Barrel Brewery (BBB)</ItemLink> is an HV tier multiblock for mass brewing. The BBB is a direct upgrade from the singleblock brewery because it runs at 150% speed and offers 4 parallels per voltage tier. The BBB is primarily used for making biomass and bacteria for the [<ItemLink id="gregtech:gt.blockmachines:12712" showIcon="left" />](./bacterial_vat.md).
+<ItemLink id="gregtech:gt.blockmachines:3011" showIcon="left">Büyük Varil Bira Fabrikası (BBB)</ItemLink>, seri bira üretimi için HV kademesi bir multibloktur. BBB, %150 hızda çalıştığı ve gerilim kademesi başına 4 paralel sunduğu için tek bloklu bira fabrikasının doğrudan yükseltmesidir. BBB esas olarak [<ItemLink id="gregtech:gt.blockmachines:12712" showIcon="left" />](./bacterial_vat.md) için biyokütle ve bakteri üretmekte kullanılır.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | HV |
-| Structure Size (LxWxH) | 3x3x5 |
-| Power | Regular |
-| Overclocks | Imperfect |
-| Maintenance | Need Maintenance |
-| Pollution | Produces no pollution |
+| Kilit Açma Kademesi | HV |
+| Yapı Boyutu (BxGxY) | 3x3x5 |
+| Güç | Normal |
+| Overclock | Kusurlu |
+| Bakım | Bakım Gerekli |
+| Kirlilik | Kirlilik üretmez |
 
-## Crafting and Construction
-### Crafting
+## Üretim ve İnşa
+### Üretim
 <RecipesFor id="gregtech:gt.blockmachines:3011" />
 
 <RecipesFor id="gregtech:gt.blockcasings10:15" />
 
 <RecipesFor id="gregtech:gt.blockframes:305" />
 
-### Structure
-The BBB has no tiered components. The glass can be any tier and has no effect on the operation of the machine.
+### Yapı
+BBB'nin kademeli bileşeni yoktur. Cam her kademede olabilir ve makinenin çalışmasına etkisi yoktur.
 
-Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking/parallel.
+Çok amperli ve lazer enerji kapakları desteklenmez, ancak overclock/paralel için birden fazla normal enerji kapağı olabilir.
 
-The BBB can be rotated or flipped.
+BBB döndürülebilir veya ters çevrilebilir.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan; camın kademesini belirtmek için "glass" alt kanalını kullan.
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:3011" showIcon="left" /> | 1, Front center, 3rd layer |
+| <ItemLink id="gregtech:gt.blockmachines:3011" showIcon="left" /> | 1, Ön orta, 3. katman |
 | <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> | 14-22 |
-| <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | 4, Each corner of 1st layer |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 6 |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 0+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Output Hatch | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | 4, 1. katmanın her köşesi |
+| <ItemImage id="bartworks:BW_TieredGlass" />Herhangi Bir Kademeli Cam | 6 |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Yalnızca Normal Kapaklara izin verilir</Tooltip> | 1+, Herhangi bir <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> yerini alabilir |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Bakım Kapağı | 1+, Herhangi bir <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> yerini alabilir |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Giriş Yolu | 1+, Herhangi bir <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> yerini alabilir |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Girdi Kapağı | 1+, Herhangi bir <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> yerini alabilir |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Çıkış Yolu | 0+, Herhangi bir <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> yerini alabilir |
+| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Çıkış Kapağı | 1+, Herhangi bir <ItemLink id="gregtech:gt.blockcasings10:15" showIcon="left" /> yerini alabilir |
 
-### Wallsharing
-BBBs may wallshare each of their sides to save on casings, frame boxes, glass, and buses/hatches.
+### Duvar Paylaşımı
+BBB'ler kasa, çerçeve kutusu, cam ve veriyolu/kapak tasarrufu için her kenarını duvar paylaşımına açabilir.
 
-No recipe uses more than 1A of power so it is possible to share one energy hatch between two machines.
+Hiçbir tarif 1A'dan fazla güç kullanmaz, bu yüzden bir enerji kapağını iki makine arasında paylaşmak mümkündür.
 
-## Usage
-The BBB can process [Brewery](/singleblock/brewery.md) recipes at 150% speed.
+## Kullanım
+BBB, [Bira Fabrikası](/singleblock/brewery.md) tariflerini %150 hızda işleyebilir.
 
-Parallels increase by 4 per voltage tier, as seen in the following table:
+Paraleller aşağıdaki tabloda görüldüğü gibi gerilim kademesi başına 4 artar:
 
 |  | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Parallels | 4 | 8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 | 44 | 48 | 52 | 56 | 60 |
+| Paralel | 4 | 8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 | 44 | 48 | 52 | 56 | 60 |
 {: widths="60"}
 
-Even if a single Energy Hatch can supply 2A to the machine, the machine processes the recipe using 1A per hatch. Therefore, a single Energy Hatch providing 2A cannot process recipes of the same tier in parallel.
+Tek bir Enerji Kapağı makineye 2A sağlayabilse bile makine tarifi kapak başına 1A kullanarak işler. Bu nedenle 2A sağlayan tek bir Enerji Kapağı aynı kademedeki tarifleri paralel olarak işleyemez.
 
-## References
-- [GTNH Wiki : Big Barrel Brewery](https://wiki.gtnewhorizons.com/wiki/Big_Barrel_Brewery)
+## Kaynaklar
+- [GTNH Wiki : Büyük Varil Bira Fabrikası](https://wiki.gtnewhorizons.com/wiki/Big_Barrel_Brewery)

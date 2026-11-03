@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Wrenches
+  title: Somun Anahtarları
   icon: appliedenergistics2:item.ToolNetherQuartzWrench
 categories:
 - tools
@@ -10,16 +10,16 @@ item_ids:
 - appliedenergistics2:item.ToolNetherQuartzWrench
 ---
 
-# Wrenches
+# Somun Anahtarları
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ToolCertusQuartzWrench" scale="4" />
   <ItemImage id="appliedenergistics2:item.ToolNetherQuartzWrench" scale="4" />
 </Row>
 
-Wrenches rotate AE2 devices with right-click and disassemble AE2 blocks with shift-right-click. [Cable subparts](../ae2_mechanics/cables_subparts.md) can be removed without breaking the rest of the cable. Many AE2 blocks can be rotated even when their individual page does not mention it.
+Somun anahtarları sağ tık ile AE2 cihazlarını döndürür ve shift+sağ tık ile AE2 bloklarını söker. [Kabloların alt parçaları](../ae2_mechanics/cables_subparts.md) kablonun geri kalanını bozmadan çıkarılabilir. Birçok AE2 bloğu, kendi sayfasında bundan bahsedilmese bile döndürülebilir.
 
-## Recipes
+## Tarifler
 
 <RecipeFor id="appliedenergistics2:item.ToolCertusQuartzWrench" />
 <RecipeFor id="appliedenergistics2:item.ToolNetherQuartzWrench" />

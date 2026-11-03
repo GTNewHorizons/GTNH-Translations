@@ -1,9 +1,9 @@
-{aqua:{bold:Water Tier: }}{color_tier:{var:tier}}
-Must be linked to a Purification Plant using a {color_name:{item:gregtech:gt.metaitem.01:32708}} to work
+{aqua:{bold:Su Kademesi: }}{color_tier:{var:tier}}
+Çalışması için {color_name:{item:gregtech:gt.metaitem.01:32708}} kullanılarak bir Arıtma Tesisi'ne bağlantılı olması gerekir
 {hr}
-Requires an {color_key:{var:filter}} in the input bus to work
-Every cycle, has a {color_misc:{var:filter_chance}%} chance to destroy the filter
+Çalışması için giriş yolunda bir {color_key:{var:filter}} bulunması gerekir
+Her döngüde filtreyi yok etme {color_misc:{var:filter_chance}%} şansı vardır
 {hr}
-{aqua:{italic:The first step to acquiring purified water is to filter out macroscopic contaminants through the}}
-{aqua:{italic:use of large physical filters. As more contaminants are captured, the efficacy of the filter}}
-{aqua:{italic:decreases so continual replacements must be supplied to maintain full function of the Clarifier.}}
+{aqua:{italic:Temizlenmiş su elde etmenin ilk adımı, makroskobik kirleticileri büyük fiziksel filtreler}}
+{aqua:{italic:kullanarak süzmektir. Daha fazla kirletici tutuldukça filtrenin etkinliği azalır, bu yüzden}}
+{aqua:{italic:Arıtıcı'nın tam işlevini korumak için sürekli yedek filtre sağlanmalıdır.}}

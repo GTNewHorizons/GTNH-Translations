@@ -1,1 +1,1 @@
-Equivalent to the Power Panel option.
+Güç Paneli seçeneğine eşdeğer.

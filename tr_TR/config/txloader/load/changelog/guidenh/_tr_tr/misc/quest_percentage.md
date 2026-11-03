@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Quest Completion Tracker
+  title: Görev Tamamlama Takipçisi
   parent: misc.md
   icon: questbook:ItemQuestBook
 categories:
@@ -9,10 +9,10 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Quest Completion Tracker
-The quest book now shows the total number of completed quests, as well as the percentage of completion! Chapter completion texts also have a similar percentage completion! Specifically, it does not track some "hidden" quests, or generally anything not immediately viewable.
+# Görev Tamamlama Takipçisi
+Görev kitabı artık tamamlanan görevlerin toplam sayısını ve tamamlanma yüzdesini gösteriyor! Bölüm tamamlama metinlerinde de benzer bir tamamlanma yüzdesi var! Özellikle bazı "gizli" görevleri veya genel olarak hemen görüntülenemeyen hiçbir şeyi takip etmez.
 <FloatingImage src="../assets/misc/quest_perc.png" displayWidth="384">
   <ImageAnnotation>
-    An example of the questbook showing the percentage completion
+    Görev kitabının tamamlanma yüzdesini gösterdiği bir örnek
   </ImageAnnotation>
 </FloatingImage>

@@ -6,9 +6,9 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAALpQ==
 navigation:
-  title: Electric Air Filter
-  parent: ./multiblocks_index.md
+  title: Elektrikli Hava Filtresi
+  parent: ./multibloklar_index.md
   icon: gregtech:gt.blockmachines:12020
   position: -1001
 ---
-# Electric Air Filter
+# Elektrikli Hava Filtresi

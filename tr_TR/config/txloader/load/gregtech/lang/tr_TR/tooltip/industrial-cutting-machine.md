@@ -1,5 +1,5 @@
-Requires a {color_key:Sawblade} in the controller slot to run
-Better Sawblades give increased bonuses
-A {color_key:Transcendent Metal Sawblade} allows for a single {color_hatch:Multi-Amp Energy Hatch}
+Çalışmak için kontrolcü yuvasında bir {color_key:Testere Bıçağı} gerekir
+Daha iyi Testere Bıçakları artırılmış bonuslar verir
+Bir {color_key:Aşkın Metal Testere Bıçağı}, tek bir {color_hatch:Çok Amperli Enerji Kapağı} kullanmana izin verir
 {hr}
-Use a {color_name:Screwdriver} to disable animations
+Animasyonları devre dışı bırakmak için bir {color_name:Tornavida} kullan

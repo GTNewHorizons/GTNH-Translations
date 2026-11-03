@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Presses
+  title: Presler
   icon: appliedenergistics2:item.ItemMultiMaterial:13
 categories:
 - misc ingredients blocks

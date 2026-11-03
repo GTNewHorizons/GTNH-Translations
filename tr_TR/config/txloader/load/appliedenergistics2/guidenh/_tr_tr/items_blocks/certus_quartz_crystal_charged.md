@@ -1,23 +1,23 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Charged Certus Quartz Crystal
+  title: Şarj Edilmiş Certus Kuvars Kristali
   icon: appliedenergistics2:item.ItemMultiMaterial:1
 categories:
-- misc ingredients blocks
+- Muhtelif Bileşenler ve Blokları
 item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:1
 ---
 
-# The Charged Certus Quartz Crystal
+# Şarj Edilmiş Certus Kuvars Kristali
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:1" scale="4" />
 
-A <ItemLink id="gregtech:gt.metaitem.01:8516" /> processed in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />. It can also be obtained by mining <ItemLink id="appliedenergistics2:tile.OreQuartzCharged" />; Fortune increases the drop, while Silk Touch drops the ore instead.
+Bir <ItemLink id="appliedenergistics2:tile.BlockCharger" /> içinde işlenmiş <ItemLink id="gregtech:gt.metaitem.01:8516" />. Ayrıca <ItemLink id="appliedenergistics2:tile.OreQuartzCharged" /> kazılarak da elde edilebilir; Servet damlasını artırır, İpek Dokunuş ise bunun yerine cevheri düşürür.
 
-It is used to make <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />.
+<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" /> yapımında kullanılır.
 
-## Recipes
+## Tarifler
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:1" handlerId="gt.recipe.chemicalreactor" />
 

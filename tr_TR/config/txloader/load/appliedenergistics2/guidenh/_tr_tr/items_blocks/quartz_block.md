@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Certus Quartz Block
+  title: Certus Kuvars Bloğu
   icon: appliedenergistics2:tile.BlockQuartz
 categories:
 - misc ingredients blocks
@@ -9,13 +9,13 @@ item_ids:
 - appliedenergistics2:tile.BlockQuartz
 ---
 
-# The Certus Quartz Block
+# Certus Kuvars Bloğu
 
 <BlockImage id="appliedenergistics2:tile.BlockQuartz" scale="8" />
 
-The storage block for <ItemLink id="gregtech:gt.metaitem.01:8516" />. It is used to make [decorative Certus Quartz blocks](decorative_certus.md).
+<ItemLink id="gregtech:gt.metaitem.01:8516" /> için depolama bloğu. [Dekoratif Certus Kuvars blokları](decorative_certus.md) yapmak için kullanılır.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:tile.BlockQuartz" handlerId="gt.recipe.compressor" />
 

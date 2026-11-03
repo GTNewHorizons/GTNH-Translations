@@ -5,9 +5,9 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAH2A==
 navigation:
-  title: Research Station
+  title: Araştırma İstasyonu
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15331
   position: -8001
 ---
-# Research Station
+# Araştırma İstasyonu (Multibloklar)

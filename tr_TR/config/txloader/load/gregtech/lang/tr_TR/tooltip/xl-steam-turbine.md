@@ -1,5 +1,5 @@
-Same throughput as 16 LST with only 12 turbines
-Generates power from regular or dense Steam based on the turbine and fitting
-Outputs 1 {L} of Distilled Water for every 160 {L} of Steam
+16 LST ile aynı verim, yalnızca 12 türbinle
+Türbine ve bağlantı parçasına bağlı olarak normal veya kalın Buhar'dan güç üretir
+Her 160 {L} Buhar için 1 {L} Damıtılmış Su çıkarır
 #include:gregtech:xl-turbine-fitting
 #include:gregtech:xl-turbine-dense-steam

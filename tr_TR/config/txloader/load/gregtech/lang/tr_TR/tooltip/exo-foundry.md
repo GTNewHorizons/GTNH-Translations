@@ -1,8 +1,8 @@
-Will {bold:not} perform {color_mechanic:overclocks} over the Hatch Tier without modules
-Will {bold:not} process {tier-color:min_tier_where_modules_needed:{VN:min_tier_where_modules_needed}+} Voltage Tier recipes without modules
-Has {color_tier:{var:tiers} Tiers}, depending on the {color_name:Magnetic Chassis}
-Has {color_amount:{var:slots}} Module Slots, based on Machine Tier
-Each Module Slot has {color_amount:{var:options}} different options
-{color_key:Modules} are selected inside the Controller
-{color_key:Module} stats are shown in NEI and the Controller
-Toggle Render with {color_name:Screwdriver}
+Modüller olmadan Kapak Kademesinin üzerinde {color_mechanic:overclocks} {bold:not} yapar
+Modüller olmadan {tier-color:min_tier_where_modules_needed:{VN:min_tier_where_modules_needed}+} Gerilim Kademesi tariflerini {bold:not} işler
+{color_name:Manyetik Şasi} değerine bağlı olarak {color_tier:{var:tiers} Kademe} vardır
+Makine Kademesine bağlı olarak {color_amount:{var:slots}} Modül Yuvası vardır
+Her Modül Yuvasında {color_amount:{var:options}} farklı seçenek vardır
+{color_key:Modüller} Kontrolcü içinde seçilir
+{color_key:Modül} istatistikleri NEI'de ve Kontrolcüde gösterilir
+{color_name:Tornavida} ile Görünümü Aç/Kapat

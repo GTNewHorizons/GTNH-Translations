@@ -1,16 +1,16 @@
 ---
 navigation:
-  title: Basic Automation
+  title: Basit Otomasyon
   parent: crops.md
   icon: gregtech:gt.blockmachines:28001
 categories:
-    - Crops
+    - Ekinler
 author: Skorched
 date: 2026-05-24
 ---
 
-# Basic Automation
-This page is less about crop specifics, and more about how crops can be automated for constant outputs!
+# Basit Otomasyon
+Bu sayfa ekin ayrıntılarından çok, ekinlerin sürekli çıktı verecek şekilde nasıl otomatikleştirilebileceğiyle ilgilidir!
 
 
 <GameScene width="420" height="280" zoom={2.5} interactive={true}>
@@ -18,4 +18,4 @@ This page is less about crop specifics, and more about how crops can be automate
   <ImportPonder src="../assets/crops/auto.json" />
 </GameScene>
 
-If you're lost on how to gather infinite water sources, there are many options depending on your progression! Try searching through some of your favourite methods, from <Color id="RED">Thaumcraft</Color> to <Color id="GREEN">GregTech Multis</Color>!
+Sonsuz su kaynaklarını nasıl toplayacağını bilmiyorsan, ilerlemene bağlı olarak birçok seçenek var! <Color id="RED">Thaumcraft</Color>'tan <Color id="GREEN">GregTech Multis</Color>'e kadar en sevdiğin yöntemleri araştırmayı dene!

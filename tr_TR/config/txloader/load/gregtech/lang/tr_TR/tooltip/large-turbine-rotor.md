@@ -1,1 +1,1 @@
-Needs a Turbine, place inside controller
+Türbin gerekir, kontrolcünün içine yerleştir

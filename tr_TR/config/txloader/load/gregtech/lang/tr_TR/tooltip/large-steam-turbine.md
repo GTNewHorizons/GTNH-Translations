@@ -1,4 +1,4 @@
 #include:gregtech:large-turbine-rotor
-Generates power from Steam based on the turbine and fitting
-Outputs 1 {L} of Distilled Water for every 160 {L} of Steam
+Türbin ve bağlantı parçasına göre Buhar'dan güç üretir
+Her 160 {L} Buhar için 1 {L} Damıtılmış Su verir
 #include:gregtech:large-turbine-fitting

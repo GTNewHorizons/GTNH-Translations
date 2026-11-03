@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Fewer Recipes?
+  title: Daha Az Tarif?
   parent: qol.md
   icon: minecraft:crafting_table
 categories:
@@ -9,11 +9,11 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Fewer Recipes?
-Have you ever gone to craft a chest in an assembler, and wondered why there are more recipes than particles in the known Universe? Well today is your lucky day!
+# Daha Az Tarif?
+Hiç bir sandığı montajcıda üretmeye kalkışıp da neden bilinen Evren'deki parçacıklardan daha fazla tarif olduğunu merak ettin mi? İşte bugün şanslı günün!
 
-Thanks to adding OreDictionary support in all GregTech machine inputs, we now have much more condensed recipe lists!
+Tüm GregTech makine girdilerine OreDictionary desteği eklenmesi sayesinde artık çok daha derli toplu tarif listelerine sahibiz!
 
 <RecipesFor id="minecraft:chest" input="minecraft:planks:*&!minecraft:flint"/>
 > [!NOTE]
-> Piston recipes now accept any OreDictionary version of cobblestone, and GregTech Planks also have OreDictionary support!
+> Piston tarifleri artık kırıktaşın herhangi bir OreDictionary sürümünü kabul ediyor ve GregTech Tahtaları da OreDictionary desteğine sahip!

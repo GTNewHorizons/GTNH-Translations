@@ -1,26 +1,26 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Bucket Emptier
+  title: Kova Boşaltıcı
   icon: minecraft:bucket
 ---
 
-# Bucket Emptier
+# Kova Boşaltıcı
 
-Also see [Bucket Filler](bucket_filler.md).
+Ayrıca bkz. [Kova Doldurucu](bucket_filler.md).
 
-Note that since this uses a <ItemLink id="appliedenergistics2:tile.BlockInterface" />, it is meant to integrate into your [autocrafting](../ae2_mechanics/autocrafting.md)
-setup.
+Bunun bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> kullandığını, dolayısıyla [otomatik üretim](../ae2_mechanics/autocrafting.md)
+düzeneğine entegre edilmek üzere tasarlandığını unutma.
 
-Sometimes, life is inconvenient and you need the fluid itself but you can only make the fluid in a bucket. Sometimes a machine might do this for you
-(like the Fluid Transposer from Thermal Expansion), but you might not always have a mod that does it conveniently for you. Luckily
-vanilla Minecraft has a slightly-less-convenient way, the <ItemLink id="minecraft:dispenser" />.
+Bazen hayat zahmetlidir ve sıvının kendisine ihtiyaç duyarsın ama sıvıyı yalnızca kovada üretebilirsin. Bazen bir makine bunu senin için yapabilir
+(Termal Expansion'daki Sıvı Aktarıcı gibi), ancak bunu senin için kolayca yapan bir mod her zaman elinde olmayabilir. Neyse ki
+vanilla Minecraft'ın biraz daha az pratik bir yolu var: <ItemLink id="minecraft:dispenser" />.
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/bucket_emptier.snbt" />
 
   <BoxAnnotation color="#dddddd" min="2 1 3" max="3 2 4">
-  (1) ME Interface: Set to lock crafting "With redstone signal" and blocking mode turned on, with the relevant processing patterns.
+  (1) ME Arayüzü: Üretimi "Kızıltaş sinyaliyle" seçeneğiyle kilitleyecek şekilde ayarla ve engelleme modunu aç; ilgili işleme kalıplarını ekle.
 
   <Row>
     <FloatingImage src="../assets/images/water_empty_pattern.png" displayWidth="150" />
@@ -29,57 +29,57 @@ vanilla Minecraft has a slightly-less-convenient way, the <ItemLink id="minecraf
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.1 2 3.1" max="2.9 2.2 3.9">
-  (2) Interface: In its default configuration.
+  (2) Arayüz: Varsayılan yapılandırmasında.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1.1 2 2.1" max="1.9 2.2 2.9">
-  (3) Storage Bus #1: In its default configuration.
+  (3) Depolama Veriyolu #1: Varsayılan yapılandırmasında.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0.05 1.05 3" max="0.95 1.95 3.2">
-  (4) Annihilation Plane: No GUI to configure.
+  (4) Yok Etme Düzlemi: Yapılandırılacak GUI yok.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1.2 1.2 3" max="1.8 1.8 3.2">
-  (5) Import Bus: Filtered to buckets.
+  (5) İçe Aktarma Veriyolu: Kovalara göre filtrelenmiş.
   <ItemImage id="minecraft:bucket" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1.8 1.1 3.1" max="2 1.9 3.9">
-  (6) Storage Bus #2: In its default configuration.
+  (6) Depolama Veriyolu #2: Varsayılan yapılandırmasında.
   </BoxAnnotation>
 
   <DiamondAnnotation pos="5 1.5 3.5" color="#00ff00">
-  To Main Network
+  Ana Ağa
   </DiamondAnnotation>
 
   <IsometricCamera yaw="225" pitch="45" />
 </GameScene>
 
-## Configurations
+## Yapılandırmalar
 
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) is set to lock crafting "With redstone signal" and blocking mode turned on,
-  with the relevant <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />s.
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1), üretimi "Kızıltaş sinyaliyle" seçeneğiyle kilitleyecek ve engelleme modu açık olacak şekilde,
+  ilgili <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" /> kalıplarıyla ayarlanmıştır.
   
-    ![Charger Pattern](../assets/images/water_empty_pattern.png)
-    ![Charger Pattern](../assets/images/lava_empty_pattern.png)
+    ![Şarj Cihazı Kalıbı](../assets/images/water_empty_pattern.png)
+    ![Şarj Cihazı Kalıbı](../assets/images/lava_empty_pattern.png)
 
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (2) is in its default configuration.
-* The first <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (3) is in its default configuration.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> (4) has no GUI and cannot be configured.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (5) is filtered to buckets.
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (2) varsayılan yapılandırmasındadır.
+* İlk <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (3) varsayılan yapılandırmasındadır.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> (4) GUI'sizdir ve yapılandırılamaz.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (5) kovalara göre filtrelenmiştir.
   <ItemImage id="minecraft:bucket" scale="2" />
-* The second <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (6) is in its default configuration.
+* İkinci <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (6) varsayılan yapılandırmasındadır.
 
-## How It Works
+## Nasıl Çalışır
 
-1. The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> pushes the ingredients into the interface.
-   (Actually, as an optimization, it pushes directly through the storage bus as if it was an extension of the provider's faces. The items never actually enter the interface.)
-2. Through mechanisms described in [pipe subnets](pipe_subnet.md#providing-to-multiple-places),
-   the bucket ends up in the <ItemLink id="minecraft:dispenser" />.
-3. The <ItemLink id="minecraft:comparator" /> detects the bucket in the dispenser and thus simultaneously powers the dispenser and locks
-   the ME interface.
-4. The dispenser dumps out the fluid from the bucket, it now has an empty bucket in itself.
-5. The <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> pulls the empty bucket out of the dispenser and stores it through the
-   <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> into the ME Interface, returning it to the main network.
-6. The comparator sees the dispenser is empty, unlocking the provider.
+1. <ItemLink id="appliedenergistics2:tile.BlockInterface" /> bileşenleri arayüze iter.
+   (Aslında bir optimizasyon olarak, sağlayıcının yüzlerinin uzantısıymış gibi doğrudan depolama veriyolu üzerinden iter. Eşyalar aslında hiçbir zaman arayüze girmez.)
+2. [boru alt ağları](pipe_subnet.md#providing-to-multiple-places) bölümünde açıklanan mekanizmalar sayesinde,
+   kova <ItemLink id="minecraft:dispenser" /> içinde son bulur.
+3. <ItemLink id="minecraft:comparator" /> dağıtıcıdaki kovayı algılar ve böylece aynı anda dağıtıcıya güç verir ve
+   ME arayüzünü kilitler.
+4. Dağıtıcı kovadaki sıvıyı boşaltır ve artık içinde boş bir kova vardır.
+5. <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> boş kovayı dağıtıcıdan çeker ve
+   <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> aracılığıyla ME Arayüzüne depolayarak ana ağa geri döndürür.
+6. Karşılaştırıcı dağıtıcının boş olduğunu görür ve sağlayıcının kilidini açar.

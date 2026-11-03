@@ -1,4 +1,4 @@
-Fills in the area below it with {color_key:Light Concrete} to remove spawning locations
-Extends mining pipe to bedrock and fills bottom to top, going through walls
-Range is {color_range:{var:radius}x{var:radius}} blocks around controller (square)
-Base Cycle Time: {color_time:{var:cycle_time}}
+Doğma noktalarını kaldırmak için altındaki alanı {color_key:Light Concrete} ile doldurur
+Madencilik borusunu ana kayaya kadar uzatır ve duvarların içinden geçerek aşağıdan yukarıya doldurur
+Menzil, kontrolcünün çevresindeki {color_range:{var:radius}x{var:radius}} blokluk alandır (kare)
+Temel Döngü Süresi: {color_time:{var:cycle_time}}

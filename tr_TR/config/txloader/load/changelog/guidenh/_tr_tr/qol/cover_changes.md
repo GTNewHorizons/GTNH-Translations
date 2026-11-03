@@ -1,31 +1,31 @@
 ---
 navigation:
-  title: Cover Changes
+  title: Kaplama Değişiklikleri
   parent: qol.md
   icon: gregtech:gt.metaitem.01:32659
 categories:
-    - Quality Of Life
+    - Yaşam Kalitesi
 author: Skorched
 date: 2026-05-16
 ---
 
-# Cover Changes
-A few changes have been made to the use of <Color id="GREEN">Covers</Color> for both GregTech machines and their pipes and cables. They are outlined below
+# Kaplama Değişiklikleri
+Hem GregTech makinelerinde hem de borularında ve kablolarında <Color id="GREEN">Kaplamalar</Color>ın kullanımına dair birkaç değişiklik yapıldı. Aşağıda özetlenmiştir
 
-# Breaking Covers on Machines
-Sometimes the smallest changes can feel the largest!
+# Makinelerdeki Kaplamaları Kırmak
+Bazen en küçük değişiklikler en büyük etkiyi yaratır!
 
-Breaking a block with a cover on will now drop the cover if holding Shift whilst breaking. Just breaking will keep the same behaviour
+Üzerinde kaplama olan bir bloğu kırarken Shift tuşuna basılı tutarsan artık kaplama düşecek. Sadece kırmak aynı davranışı korur
 
-# Dyed Glass Covers
-Ever wished you could add **dyed glass** (or other translucent covers) onto your pipes and machines? Well now you can!
+# Boyalı Cam Kaplamalar
+Borularına ve makinelerine **boyalı cam** (veya başka yarı saydam kaplamalar) eklemeyi hiç istedin mi? Artık yapabilirsin!
 
-By crafting an AE2 Facade with your favourite colour of dyed glass and placing it on your:
-- Pipes
-- Cables
-- Frames
-- Machines
+En sevdiğin renkte boyalı camla bir AE2 Facade üretip şunlara yerleştirerek:
+- Borular
+- Kablolar
+- Çerçeveler
+- Makineler
 <RecipeFor id="appliedenergistics2:item.ItemFacade:{itemName:stained_glass,x:[95,1,],modid:minecraft}" />
 
-# Renaming
-Though a minor change, the <Color id="RED">Advanced Redstone Receiver/Transmitter (Internal)</Color> has now been renamed to the <Color id="GREEN">Wireless Machine Controller Cover</Color> <ItemImage id="gregtech:gt.metaitem.01:32747" />
+# Yeniden Adlandırma
+Küçük bir değişiklik olsa da, <Color id="RED">Gelişmiş Kızıltaş Alıcı/Verici (Dahili)</Color> artık <Color id="GREEN">Kablosuz Makine Kontrolcü Kaplaması</Color> olarak yeniden adlandırıldı <ItemImage id="gregtech:gt.metaitem.01:32747" />

@@ -1,18 +1,18 @@
-{aqua:{bold:Water Tier: }}{color_tier:{var:tier}}
-Must be linked to a Purification Plant using a {color_name:{item:gregtech:gt.metaitem.01:32708}} to work
+{aqua:{bold:Su Kademesi: }}{color_tier:{var:tier}}
+Çalışmak için {color_name:{item:gregtech:gt.metaitem.01:32708}} kullanılarak bir Temizleme Tesisi'ne bağlanmalıdır
 {hr}
-During operation, swap the lens in the {color_name:{var:housing}}
-The multiblock will output a signal through the {color_name:{var:indicator}}
-when the current lens must be swapped
-Lens swaps will be requested in random intervals of {color_time:{var:min_swap}} to {color_time:{var:max_swap} seconds}
+Çalışma sırasında {color_name:{var:housing}} içindeki lensi değiştir
+Multiblok, {color_name:{var:indicator}} aracılığıyla bir sinyal verecek
+mevcut lensin değiştirilmesi gerektiğinde
+Lens değişimleri {color_time:{var:min_swap}} ile {color_time:{var:max_swap} saniye} arasında rastgele aralıklarla istenecektir
 {hr}
-Success chance is boosted by {color_misc:{var:success}%} for each successful swap performed
-Removing a lens too early will fail the recipe
-Find the order of lenses in the recipe in NEI,
-or use a portable scanner to view the currently requested lens
-The recipe always starts at the {color_key:{var:first_lens}}
+Gerçekleştirilen her başarılı değişim için başarı şansı {color_misc:{var:success}%} artırılır
+Bir lensi çok erken çıkarmak tarifi başarısız kılar
+Tarifteki lens sırasını NEI'de bul
+veya istenen mevcut lensi görmek için taşınabilir bir tarayıcı kullan
+Tarif her zaman {color_key:{var:first_lens}} ile başlar
 {hr}
-{aqua:{italic:The sixth step of water purification involves identifying any remaining negatively charged ions within}}
-{aqua:{italic:the water which may cause electrical faults in future wafer manufacturing. Bombarding the water with varying}}
-{aqua:{italic:wavelengths of photon beams will impart energy into outer-shell electrons, causing them to detach from the}}
-{aqua:{italic:atoms themselves and pass through the walls of the tank, ensuring the water is perfectly electrically polar.}}
+{aqua:{italic:Su temizlemenin altıncı adımı, su içinde kalan negatif yüklü iyonların belirlenmesini içerir;}}
+{aqua:{italic:bunlar gelecekteki yonga plakası üretiminde elektriksel arızalara neden olabilir. Suyu değişen}}
+{aqua:{italic:dalga boylarındaki foton ışınlarıyla bombardıman etmek, dış kabuk elektronlarına enerji yükleyerek}}
+{aqua:{italic:atomlardan kopmalarını ve tank duvarlarından geçmelerini sağlar; böylece su tamamen elektriksel polar olur.}}

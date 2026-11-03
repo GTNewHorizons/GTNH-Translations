@@ -15,55 +15,55 @@ date: 2026-05-25
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15752" />
 </GameScene>
-The <Color id="GREEN">Laminated Application and Thermal Enclosure eXpert (LATEX)</Color>, the mouthful that it is, is an HV tier multiblock for coating cables. The <Color id="GREEN">LATEX</Color> is a direct upgrade from the singleblock assembler for cable coating because it runs at <Color id="GREEN">200%</Color> speed, only uses <Color id="RED">85%</Color> of the EU/t normally required, and offers <Color id="BLUE">8</Color> parallels per voltage tier. There is also an additive 6.25% rubber discount based on the tier of the item pipe casings and the unique opportunity to insert an elastic singularity inside the controller to double the amount of parallels, gain another 25% rubber discount, and unlock the ability to use multi-amp and laser energy hatches. 
+<Color id="GREEN">Laminated Application and Termal Enclosure eXpert (LATEX)</Color>, adı her ne kadar ağza dolgun gelse de, kabloları kaplamaya yarayan HV kademesi bir multibloktur. <Color id="GREEN">LATEX</Color>, kablo kaplama için tek bloklu montajcının doğrudan yükseltmesidir; çünkü <Color id="GREEN">%200</Color> hızda çalışır, normalde gereken EU/t'nin yalnızca <Color id="RED">%85</Color>'ini kullanır ve gerilim kademesi başına <Color id="BLUE">8</Color> paralel sunar. Ayrıca boru muhafazasının kademesine bağlı olarak eklenen %6.25 kauçuk indirimi ile paralel sayısını ikiye katlamak, %25 daha kauçuk indirimi kazanmak ve çok amperli ve lazer enerji kapaklarını kullanabilme imkânı sunan, kontrolcünün içine elastik tekillik yerleştirme fırsatı da vardır. 
 <br clear="all"/>
 
-## Construction:
-The LATEX has one tiered component. The item pipe casings determine the overall rubber discount of the machine. Buses/hatches may replace any casing anywhere on the structure. The glass must be tiered for the structure to form but has no effect on the operation of the machine. Multi-amp and laser energy hatches are not supported unless there is an elastic singularity in the controller, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannels "item_pipe" and "glass" to specify the tier of those components. 
+## İnşaat:
+LATEX'in kademeli tek bir bileşeni vardır. Boru muhafazası blokları makinenin toplam kauçuk indirimini belirler. Veriyolları/kapaklar yapının herhangi bir yerindeki herhangi bir kasanın yerini alabilir. Yapının oluşması için cam kademeli olmalıdır; ancak camın makinenin çalışmasına etkisi yoktur. Kontrolcüde elastik tekillik olmadığı sürece çok amperli ve lazer enerji kapakları desteklenmez; ancak overclock için birden fazla normal enerji kapağı kullanılabilir. Bu bileşenlerin kademesini belirtmek için "item_pipe" ve "glass" alt kanallarıyla yapıyı görselleştirmek/inşa etmek üzere <ItemLink id="structurelib:item.structurelib.constructableTrigger" /><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan. 
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15752" /><ItemImage id="gregtech:gt.blockmachines:15752"/>
 - 14-36 <ItemLink id="gregtech:gt.blockcasings8"/> <ItemImage id="gregtech:gt.blockcasings8"/>
-- 32 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 32 Kademeli Cam (herhangi biri) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 16 <ItemLink id="gregtech:gt.blockframes:649"/><ItemImage id="gregtech:gt.blockframes:649"/>
-- 6 Item Pipe Casing (Tiered)<ItemImage id="gregtech:gt.blockcasings11:5"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90"/>
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80"/>
-### Wallsharing:
-<Color id="GREEN">LATEXs</Color> may wallshare each of their sides to save on casings, glass, frameboxes, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+- 6 Boru Muhafazası (Kademeli)<ItemImage id="gregtech:gt.blockcasings11:5"/>
+- 1+ Enerji Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:40"/>
+- 1 Bakım Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:90"/>
+- 0+ Giriş Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ Girdi Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ Çıkış Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:80"/>
+### Duvar Paylaşımı:
+<Color id="GREEN">LATEX</Color> makineleri kasa, cam, çerçeve bloğu ve veriyolu/kapak tasarrufu sağlamak için her bir kenarını paylaşabilir. Hiçbir tarif 1 A'dan fazla güç kullanmaz; bu yüzden <u>__tek__</u> bir enerji kapağını <u>__iki__</u> makine arasında paylaşmak mümkündür. 
 
-## Usage:
-The <Color id="GREEN">LATEX</Color> is a direct upgrade from the singleblock assembler for cable coating because it runs at 200% speed, only uses 85% of the EU/t normally required, and offers 8 parallels per voltage tier, as seen in the following table. There is also an additive 6.25% rubber polymer discount based on the tier of the Item Pipe Casings. 
+## Kullanım:
+<Color id="GREEN">LATEX</Color>, kablo kaplama için tek bloklu montajcının doğrudan yükseltmesidir; %200 hızda çalışır, normalde gereken EU/t'nin yalnızca %85'ini kullanır ve aşağıdaki tabloda görüldüğü gibi gerilim kademesi başına 8 paralel sunar. Ayrıca Boru Muhafazasının kademesine bağlı olarak eklenen %6.25 kauçuk polimer indirimi vardır. 
 
-### Parallels:
+### Paraleller:
 |  | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 |  | 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 | 80 | 88 | 96 | 104 | 112 | 120 |
 | ES | 16 | 32 | 48 | 64 | 80 | 96 | 112 | 128 | 144 | 160 | 176 | 192 | 208 | 224 | 240 |
 
 > [!NOTE]
-> "ES" here means that an Elastic Singularity is in the controller
+> Burada "ES", kontrolcüde bir Elastik Tekillik bulunduğu anlamına gelir
 
-| Item Pipe Casing   | Rubber Discount    |
+| Boru Muhafazası   | Kauçuk İndirimi    |
 |--------------- | --------------- |
-| Tin   | 6.25%   |
-| Brass   | 12.50%   |
-| Electrum   | 18.75%   |
-| Platinum   | 25.00%   |
-| Osmium   | 31.25%   |
-| Quantium   | 37.50%   |
-| Fluxed Electrum   | 43.75%   |
-| Black Plutonium   | 50.00%   |
+| Kalay   | 6.25%   |
+| Pirinç   | 12.50%   |
+| Elektrum   | 18.75%   |
+| Platin   | 25.00%   |
+| Osmiyum   | 31.25%   |
+| Kuantinyum   | 37.50%   |
+| Fluxlu Elektrum   | 43.75%   |
+| Kara Plütonyum   | 50.00%   |
 
 
-## Elastic Singularity
-Insert an elastic singularity into the <Color id="GREEN">LATEX</Color> controller to double the amount of parallels, gain another 25% rubber discount, and unlock the ability to use multi-amp and laser energy hatches. That is a maximum of 240 parallels and a 75% rubber polymer discount. The elastic singularity itself is crafted in a Dire Crafting Table but the five singularities that it's comprised of are all made in the Neutronium Compressor or Pseudostable Black Hole Containment Field. That means the upgrade cannot be installed until UV and there is no sharing the singularity between machines. The cost of each singularity is listed below (113,771,520L each).
+## Elastik Tekillik
+<Color id="GREEN">LATEX</Color> kontrolcüsüne bir elastik tekillik yerleştirerek paralel sayısını ikiye katla, %25 daha kauçuk indirimi kazan ve çok amperli ve lazer enerji kapaklarını kullanma imkânının kilidini aç. Bu, en fazla 240 paralel ve %75 kauçuk polimer indirimi demektir. Elastik tekilliğin kendisi bir Dire Üretim Masasında üretilir; ancak onu oluşturan beş tekilliğin tamamı Nötronyum Kompresöründe veya Sözde Kararlı Kara Delik Muhafaza Alanında yapılır. Yani bu yükseltme UV'ye kadar takılamaz ve tekillik makineler arasında paylaşılamaz. Her tekilliğin maliyeti aşağıda listelenmiştir (her biri 113,771,520 L).
 
-- Rubber Singularity - 12,345 superdense rubber sheets or 790,080 individual rubber sheets.
-- Silicone Rubber Singularity - 12,345 superdense silicone rubber sheets or 790,080 individual silicone rubber sheets.
-- Polyvinyl Chloride Singularity - 12,345 superdense polyvinyl chloride sheets or 790,080 individual polyvinyl chloride sheets.
-- Styrene Butadiene Rubber Singularity - 12,345 superdense styrene butadiene rubber sheets or 790,080 individual styrene butadiene rubber sheets.
-- Polyphenylene Sulfide Singularity - 12,345 superdense polyphenylene sulfide sheets or 790,080 individual polyphenylene sulfide sheets.
+- Kauçuk Tekilliği - 12,345 süper yoğun kauçuk levha veya 790,080 tek tek kauçuk levha.
+- Silikon Kauçuk Tekilliği - 12,345 süper yoğun silikon kauçuk levha veya 790,080 tek tek silikon kauçuk levha.
+- Polivinil Klorür Tekilliği - 12,345 süper yoğun polivinil klorür levha veya 790,080 tek tek polivinil klorür levha.
+- Stiren Bütadien Kauçuk Tekilliği - 12,345 süper yoğun stiren bütadien kauçuk levha veya 790,080 tek tek stiren bütadien kauçuk levha.
+- Polifenilen Sülfür Tekilliği - 12,345 süper yoğun polifenilen sülfür levha veya 790,080 tek tek polifenilen sülfür levha.

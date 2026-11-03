@@ -1,73 +1,73 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Auto-Regulated Cobblestone Generator
+  title: Otomatik Ayarlı Kırıktaş Jeneratörü
   icon: minecraft:cobblestone
 ---
 
-# Auto-Regulated Cobblestone Generator
+# Otomatik Ayarlı Kırıktaş Jeneratörü
 
-Automation of a cobblestone generator is simple, just face an <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> into a standard vanilla
-manual cobblestone generator. However, doing this will eventually jam your network full of cobblestone, so some regulation
-is desired.
+Bir kırıktaş jeneratörünün otomasyonu basittir; sadece bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> kısmını standart bir vanilya
+manuel kırıktaş jeneratörüne doğrult. Ancak bunu yapmak sonunda ağını kırıktaşla tıkar, bu yüzden biraz düzenleme
+istenir.
 
-Due to how annihilation planes work (they act like <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />s), we cannot simply put a <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />
-facing an <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> with a redstone card (since you cannot go directly import to export
-with no storage in between). We have to be a bit more roundabout.
+Yok etme düzlemleri (<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> gibi davranırlar) bu şekilde çalıştığından, kızıltaş kartlı bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> kısmını
+doğrudan bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> kısmına bakacak şekilde koyamayız (çünkü arada depolama olmadan doğrudan içe aktarmadan dışa aktarmaya
+geçemezsin). Biraz daha dolambaçlı gitmemiz gerekiyor.
 
-<ItemLink id="appliedenergistics2:item.ItemMultiPart:80" />s allow you to connect and disconnect parts of your network with redstone signals, but they cause
-the network to reboot whenever they do this. There is a simple workaround: put the toggle bus on a [subnetwork](../ae2_mechanics/subnetworks.md)
-such that it only reboots the subnet.
+<ItemLink id="appliedenergistics2:item.ItemMultiPart:80" /> kısımları, ağının parçalarını kızıltaş sinyalleriyle bağlamana ve ayırmana izin verir, ancak bunu yaptıklarında
+ağ yeniden başlar. Basit bir çözüm var: anahtar veri yolunu bir [alt ağ](../ae2_mechanics/subnetworks.md)
+üzerine koy, böylece yalnızca alt ağı yeniden başlatsın.
 
-We can have a self-contained <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> and <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> [subnetwork](../ae2_mechanics/subnetworks.md)
-push into an <ItemLink id="appliedenergistics2:tile.BlockInterface" /> on the main network. The toggle bus will connect and disconnect the subnet from a
-quartz fiber, cutting power to the planes.
+Kendi kendine yeten bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> ve <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> [alt ağı](../ae2_mechanics/subnetworks.md)
+ana ağdaki bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> kısmına itebilir. Anahtar veri yolu, alt ağı bir
+kuvars fibere bağlar ve ayırır, düzlemlere giden gücü keser.
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/regulated_cobble_gen.snbt" />
 
   <BoxAnnotation color="#dddddd" min="3 2 2" max="7 2.3 3">
-  (1) Annihilation Planes: No GUI to configure, but can be enchanted with Efficiency and Unbreaking to reduce power draw.
+  (1) Yok Etme Düzlemleri: Yapılandırılacak GUI yok, ancak güç çekişini azaltmak için Verimlilik ve Kırılmazlık ile büyülenebilirler.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 2 2" max="2.3 3 3">
-  (2) Storage Bus: In its default configuration.
+  (2) Depolama Veri Yolu: Varsayılan yapılandırmasında.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 2.3 2" max="2.7 2.7 2.3">
-  (3) Toggle Bus: Very important that the toggle bus is on the
-  subnetwork, and not the main network.
+  (3) Anahtar Veri Yolu: Anahtar veri yolunun ana ağda değil,
+  alt ağda olması çok önemli.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 3 2.3" max="2.7 3.3 2.7">
-  (4) Level Emitter: Configured with cobblestone and the desired quantity, set to "Emit when levels are below limit".
+  (4) Seviye Verici: Kırıktaş ve istenen miktarla yapılandırılmış, "Seviyeler sınırın altına düştüğünde yay" olarak ayarlanmış.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 2 3" max="2 3 2">
-  (5) Interface: In its default configuration.
+  (5) Arayüz: Varsayılan yapılandırmasında.
   </BoxAnnotation>
 
   <DiamondAnnotation pos="0 2.5 1.5" color="#00ff00">
-  To Main Network
+  Ana Ağa
   </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Configurations
+## Yapılandırmalar
 
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />s (1) have no GUI to configure, but can be enchanted with Efficiency and Unbreaking to reduce power draw.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2) is in its default configuration.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:80" /> (3) must be on the subnetwork side of the quartz fiber, not the main network, or the main
-  network will reboot every time it toggles.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> (4) is configured with the desired item and quantity, and set to "Emit when levels are below limit".
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (5) is in its default configuration.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> kısımlarının (1) yapılandırılacak bir GUI'si yoktur, ancak güç çekişini azaltmak için Verimlilik ve Kırılmazlık ile büyülenebilirler.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2) varsayılan yapılandırmasındadır.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:80" /> (3) kuvars fiberin ana ağ tarafında değil, alt ağ tarafında olmalı; yoksa ana
+  ağ her açılıp kapandığında yeniden başlar.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> (4) istenen eşya ve miktarla yapılandırılmış ve "Seviyeler sınırın altına düştüğünde yay" olarak ayarlanmıştır.
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (5) varsayılan yapılandırmasındadır.
 
-## How It Works
+## Nasıl Çalışır
 
-1. The cobblestone generator makes some cobblestone.
-2. The <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />s break the cobblestone. 
-3. The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> stores the cobblestone in the <ItemLink id="appliedenergistics2:tile.BlockInterface" />, sending it into the main network.
-4. When the amount of cobblestone in the main network exceeds the set amount, the <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> stops
-   sending a signal, turning off the <ItemLink id="appliedenergistics2:item.ItemMultiPart:80" />.
-5. This cuts power to the subnetwork, stopping the annihilation planes from working.
+1. Kırıktaş jeneratörü bir miktar kırıktaş üretir.
+2. <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> kısımları kırıktaşı kırar.
+3. <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> kırıktaşı <ItemLink id="appliedenergistics2:tile.BlockInterface" /> içinde depolar ve ana ağa gönderir.
+4. Ana ağdaki kırıktaş miktarı ayarlanan miktarı aştığında, <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> sinyal
+   göndermeyi durdurur ve <ItemLink id="appliedenergistics2:item.ItemMultiPart:80" /> kısmını kapatır.
+5. Bu, alt ağa giden gücü keser ve yok etme düzlemlerinin çalışmasını durdurur.

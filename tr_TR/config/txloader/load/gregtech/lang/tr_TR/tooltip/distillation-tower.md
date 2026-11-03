@@ -1,2 +1,2 @@
-Fluids are output one per layer based on their slot number in {color_name:NEI}
-{color_note:Increase the height to output more fluid types}
+Sıvılar, {color_name:NEI} içindeki yuva numaralarına göre her katmana bir tane olacak şekilde çıktı olarak verilir
+{color_note:Daha fazla sıvı türü çıktısı almak için yüksekliği artır}

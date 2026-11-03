@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Fluix Crystal
+  title: Fluix Kristali
   icon: appliedenergistics2:item.ItemMultiMaterial:7
 categories:
 - misc ingredients blocks
@@ -9,17 +9,17 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:7
 ---
 
-# The Fluix Crystal
+# Fluix Kristali
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:7" scale="4" />
 
-*"Fluix Crystals possess the unique ability to absorb and convert energy from one form to another, and are the foundation of all Matter Energy technology."*
+*"Fluix Kristalleri, enerjiyi bir biçimden diğerine emme ve dönüştürme gibi benzersiz bir yeteneğe sahiptir ve tüm Madde Enerjisi teknolojisinin temelidir."*
 
-Fluix Crystal is a primary ingredient for AE2 blocks, [devices](../ae2_mechanics/devices.md), and items. It is made by throwing nether quartz, redstone, and <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" /> into water.
+Fluix Kristali, AE2 blokları, [cihazlar](../ae2_mechanics/devices.md) ve eşyalar için birincil bileşendir. Nether kuvarsı, Kızıltaş ve <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" /> öğelerini suya atarak üretilir.
 
-It can be [automated](../tricks_example/throw_in_water_automation.md) with an <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" /> and an <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />.
+Bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" /> ve bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> ile [otomatikleştirilebilir](../tricks_example/throw_in_water_automation.md).
 
-## Recipe
+## Tarif
 
 <Recipe id="appliedenergistics2:item.ItemMultiMaterial:7" handlerId="NEIWorldCrafting" />
 

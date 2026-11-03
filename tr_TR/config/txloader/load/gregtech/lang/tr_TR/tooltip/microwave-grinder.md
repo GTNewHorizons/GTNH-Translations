@@ -1,6 +1,6 @@
-Controller block of the Microwave Grinder
-Starts a timer when enabled
-While the timer is running anything inside the machine will take damage
-The machine will also collect any items inside of it
-Can be configured with a {color_name:Parametrizer}
-(Do not insert a Wither)
+Mikrodalga Öğütücünün kontrolcü bloğu
+Etkinleştirildiğinde bir zamanlayıcı başlatır
+Zamanlayıcı çalışırken makinenin içindeki her şey hasar alır
+Makine ayrıca içindeki tüm eşyaları toplar
+{color_name:Parametreleyici} ile yapılandırılabilir
+(Soluk sokma)

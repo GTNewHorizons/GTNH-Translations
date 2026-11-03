@@ -6,9 +6,9 @@ quest_ids:
   - AAAAAAAAAAAAAAAAAAAAGA==
   - XABK1llCToa6KKcF5Z69GA==
 navigation:
-  title: Coke Oven 
+  title: Kok Fırını 
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:236
   position: -1
 ---
-# Coke Oven
+# Kok Fırını

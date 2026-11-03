@@ -1,46 +1,46 @@
 ---
 navigation:
-  title: Beam Line
+  title: Işın Hattı
   parent: ./multiblocks_index.md
   icon: gtnhlanth:particle:5
   position: -7001
 ---
-# Beam Line
+# Işın Hattı
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructure src="/assets/structures/beamline.snbt" />
 </GameScene>
 
-The **Beam Line** is a series of four ZPM tier multiblocks chained together that engraves wafers with a photon beam and ultra precise masks.
+**Işın Hattı**, yonga plakalarını bir foton ışını ve ultra hassas maskelerle kazıyan, birbirine zincirlenmiş dört ZPM kademe multibloktan oluşan bir sistemdir.
 
-The line begins with the [<ItemLink id="gregtech:gt.blockmachines:10506" showIcon="left" />](./source_chamber.md) which generates a particle beam from one of seven different source materials.  
-The [<ItemLink id="gregtech:gt.blockmachines:10505" showIcon="left">Linear Accelerator (LINAC)</ItemLink>](./linear_accelerator.md) then accelerates the particle beam to increase its total energy at the cost of focus.  
-The [<ItemLink id="gregtech:gt.blockmachines:10507" showIcon="left" />](./synchrotron.md) accelerates the particle beam even more until it produces a photon beam from the radiation of the high speed particles.  
-The [<ItemLink id="gregtech:gt.blockmachines:10508" showIcon="left" />](./target_chamber.md) captures the photon beam and carefully focuses it onto wafers to engrave them. 
+Hat, yedi farklı kaynak malzemeden birini kullanarak parçacık ışını üreten [<ItemLink id="gregtech:gt.blockmachines:10506" showIcon="left" />](./source_chamber.md) ile başlar.  
+Ardından [<ItemLink id="gregtech:gt.blockmachines:10505" showIcon="left">Lineer Hızlandırıcı (LINAC)</ItemLink>](./linear_accelerator.md) parçacık ışınını hızlandırarak odak kaybı karşılığında toplam enerjisini artırır.  
+[<ItemLink id="gregtech:gt.blockmachines:10507" showIcon="left" />](./synchrotron.md) parçacık ışınını daha da hızlandırır ve sonunda yüksek hızlı parçacıkların radyasyonundan bir foton ışını üretir.  
+[<ItemLink id="gregtech:gt.blockmachines:10508" showIcon="left" />](./target_chamber.md) foton ışınını yakalar ve yonga plakalarının üzerine dikkatlice odaklayarak onları kazır. 
 
-Each multiblock requires its own power but most of it should be concentrated into the Synchrotron to increase the processing speed of the final recipe. The only other input is coolant for the LINAC and Synchrotron which both perfectly recycle it into hot coolant.
+Her multiblok kendi gücünü gerektirir, ancak bunun çoğu nihai tarifin işleme hızını artırmak için Sinkrotron'da toplanmalıdır. Diğer tek girdi, LINAC ve Sinkrotron için soğutucudur; ikisi de onu tamamen sıcak soğutucuya geri dönüştürür.
 
-Beam Line can be an alternative method for wafer engraving. Compared with [<ItemLink id="gregtech:gt.blockmachines:3004" showIcon="left">Hyper Intensity Laser Engraver (HILE)</ItemLink>](./hyper_intensity_laser_engraver.md), Beam Line offers advantages such as the ability to perform serious overclocking using Multi-Amp/Laser Hatches from the point of construction (while HILE can do this on UEV+) and eliminating the need for intermediate processes like [<ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left">Large Chemical Reactor (LCR)</ItemLink>](./large_chemical_reactor.md), but it requires a large amount of material to build, and to produce all wafers, a total of **5** distinct Beam Line multiblocks must be constructed. In addition, while it can save indium and sunnarium by bypassing the LCR, it uses borax and lanthanum as materials instead.
+Işın Hattı, yonga plakası kazımak için alternatif bir yöntem olabilir. [<ItemLink id="gregtech:gt.blockmachines:3004" showIcon="left">Aşırı Yoğunluklu Lazer Kazıyıcı (HILE)</ItemLink>](./hyper_intensity_laser_engraver.md) ile karşılaştırıldığında Işın Hattı, inşa edildiği andan itibaren Çok Amperli/Lazer Kapakları kullanarak ciddi hız aşırtma yapma (HILE bunu UEV+ üzerinde yapabilir) ve [<ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left">Büyük Kimyasal Reaktör (BKR)</ItemLink>](./large_chemical_reactor.md) gibi ara işlemlere olan ihtiyacı ortadan kaldırma gibi avantajlar sunar; ancak inşa etmek için çok miktarda malzeme gerektirir ve tüm yonga plakalarını üretmek için toplam **5** farklı Işın Hattı multibloku inşa edilmelidir. Ayrıca BKR'yi atlayarak indiyum ve Güneştaşı tasarrufu sağlasa da bunun yerine malzeme olarak boraks ve lantan kullanır.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | ZPM |
-| Structure Size (LxWxH) | Varies |
-| Power | Varies |
-| Overclocks | Varies |
-| Maintenance | Need Maintenance |
-| Pollution | Produces no pollution |
+| Kilit Açma Kademesi | ZPM |
+| Yapı Boyutu (UxGxY) | Değişir |
+| Güç | Değişir |
+| Hız Aşırtma | Değişir |
+| Bakım | Bakım Gerekli |
+| Kirlilik | Kirlilik üretmez |
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-You can check each multiblock's documents to see how to craft and construct the Beam Line multiblocks.
+Işın Hattı multibloklarının nasıl üretileceğini ve inşa edileceğini görmek için her multiblokun belgelerine bakabilirsin.
 - [<ItemLink id="gregtech:gt.blockmachines:10506" showIcon="left" />](./source_chamber.md)
 - [<ItemLink id="gregtech:gt.blockmachines:10505" showIcon="left" />](./linear_accelerator.md)
 - [<ItemLink id="gregtech:gt.blockmachines:10507" showIcon="left" />](./synchrotron.md)
 - [<ItemLink id="gregtech:gt.blockmachines:10508" showIcon="left" />](./target_chamber.md)
 
-### Crafting
+### Üretim
 
-Beam Line requires <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:10504" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:10502" showIcon="left" /> to connect between different Beam Line multiblocks.
+Işın Hattı, farklı Işın Hattı multiblokları arasında bağlantı kurmak için <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:10504" showIcon="left" /> ve <ItemLink id="gregtech:gt.blockmachines:10502" showIcon="left" /> gerektirir.
 
 <RecipesFor id="gregtech:gt.blockmachines:10503" handlerBlacklist="gt.recipe.scanner" />
 
@@ -48,8 +48,8 @@ Beam Line requires <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left
 
 <RecipesFor id="gregtech:gt.blockmachines:10502" handlerBlacklist="bq_quest" />
 
-### Structure
-Connect the 4 multiblocks in order by using <ItemLink id="gregtech:gt.blockmachines:10502" showIcon="left" /> to make the Beam Line work. Pipes do not need to be colored but they cannot cross or bend.
+### Yapı
+Işın Hattı'nın çalışması için 4 multibloku sırayla <ItemLink id="gregtech:gt.blockmachines:10502" showIcon="left" /> kullanarak bağla. Boruların renklendirilmesi gerekmez ancak kesişemez veya bükülemez.
 
 1. [<ItemLink id="gregtech:gt.blockmachines:10506" showIcon="left" />](./source_chamber.md)
 1. [<ItemLink id="gregtech:gt.blockmachines:10505" showIcon="left" />](./linear_accelerator.md)
@@ -57,48 +57,48 @@ Connect the 4 multiblocks in order by using <ItemLink id="gregtech:gt.blockmachi
 1. [<ItemLink id="gregtech:gt.blockmachines:10508" showIcon="left" />](./target_chamber.md)
 
 > [!WARNING]
-> ALL Beam Line multiblocks require <ItemLink id="bartworks:BW_TieredGlass:3" showIcon="left">LuV+ Tier Glass Block</ItemLink> to operate.
+> TÜM Işın Hattı multiblokları çalışmak için <ItemLink id="bartworks:BW_TieredGlass:3" showIcon="left">LuV+ Kademe Cam Blok</ItemLink> gerektirir.
 
-Optionally, you can use the [<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />](./beam_mirror.md), [<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md), and/or [<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md) on UV+ to redirect or optimize the particle beam as necessary. They really only assist with the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) but they are fully compatible with the Beam Line as well.
+İsteğe bağlı olarak, parçacık ışınını gerektiği gibi yönlendirmek veya optimize etmek için UV+ üzerinde [<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />](./beam_mirror.md), [<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md) ve/veya [<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md) kullanabilirsin. Bunlar aslında yalnızca [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) için yardımcı olur ancak Işın Hattı ile de tamamen uyumludurlar.
 
-## Usage
+## Kullanım
 
-### Recipes
+### Tarifler
 
 <RecipeUsage id="gregtech:gt.blockmachines:10508" handlerId="gtnhlanth.recipe.tc" wrap="square" align="right" />
 
-Beam Line (more precisely, the [<ItemLink id="gregtech:gt.blockmachines:10508" showIcon="left" />](./target_chamber.md)) recipes in NEI have only a photon, a mask, and doped wafers as input and engraved wafers as output. However, the photon is symbolic and not an actual item or input for the recipe. It is only there to establish that the final particle beam must specifically be a photon beam, not an electron beam or anything else. 
+NEI'deki Işın Hattı (daha doğrusu [<ItemLink id="gregtech:gt.blockmachines:10508" showIcon="left" />](./target_chamber.md)) tariflerinde girdi olarak yalnızca bir foton, bir maske ve katkılı yonga plakaları, çıktı olarak da kazınmış yonga plakaları bulunur. Ancak foton semboliktir ve tarif için gerçek bir eşya ya da girdi değildir. Yalnızca nihai parçacık ışınının elektron ışını ya da başka bir şey değil, özellikle foton ışını olması gerektiğini belirtmek için oradadır. 
 
-There are also a few extra requirements listed at the bottom of the recipe concerning the characteristics of the particle beam. The energy must be within a particular range, the focus must be greater than or equal to a certain value, and the base amount or rate determines the processing speed of the recipe.
+Ayrıca tarifin altında parçacık ışınının özelliklerine ilişkin birkaç ek gereksinim listelenmiştir. Enerji belirli bir aralıkta olmalı, odak belirli bir değere eşit veya ondan büyük olmalı ve temel miktar ya da oran tarifin işleme hızını belirler.
 
-To process the recipe, you must manage Beam Line multiblocks to meet the requirements that recipe demands.
+Tarifi işlemek için Işın Hattı multibloklarını tarifin gerektirdiği koşulları karşılayacak şekilde yönetmelisin.
 
-#### Workflow
-The general workflow for processing Beam Line recipes is listed below and explained in much more intricate detail in the following subsections about each of the individual multiblocks. 
+#### İş Akışı
+Işın Hattı tariflerini işlemenin genel iş akışı aşağıda listelenmiştir ve izleyen alt bölümlerde her bir multiblok hakkında çok daha ayrıntılı olarak açıklanmıştır. 
 
-1. The [<ItemLink id="gregtech:gt.blockmachines:10506" showIcon="left" />](./source_chamber.md) sets the initial stats of the particle beam based on the input or source material and the voltage of the machine. Check the machine's guide for more details about the particles that each material can create.  
-  &b✓ Energy  &b✓ Focus  &b✓ Rate
-1. The [<ItemLink id="gregtech:gt.blockmachines:10505" showIcon="left">Linear Accelerator (LINAC)</ItemLink>](./linear_accelerator.md) accelerates the particle beam to boost its overall energy at the cost of focus.  
-  Increase the length of the LINAC or give it more power to strengthen the effect and reach higher energy levels.  
-  Supply cooling fluids to preserve the focus as much as possible in the process. The cooling fluid is returned in a heated state and can be recycled after proper treatment.  
-  &a↑ Energy  &c↓ Focus  &7→ Rate
-1. The [<ItemLink id="gregtech:gt.blockmachines:10507" showIcon="left" />](./synchrotron.md) accelerates the particle beam again until it produces a photon beam from the radiation of the high speed particles.  
-  Upgrade the antenna casings to keep the beam energy high and increase the beam rate more efficiently.  
-  Supply cooling fluids to again preserve the focus as much as possible in the process. The cooling fluid is returned in a heated state and can be recycled after proper treatment.  
-  Increasing the power supply increases the rate of the beam without decreasing its energy and focus, which makes the Beam Line easily upgradeable by only increasing the tier and throughput of the Synchrotron's Energy Hatches.  
-  Upgrading the Synchrotron's energy hatches is the only way to increase the beam's rate, which determines recipe processing times.  
-  &c↓ Energy  &c↓ Focus  &a↑ Rate
-1. The [<ItemLink id="gregtech:gt.blockmachines:10508" showIcon="left" />](./target_chamber.md) captures the final photon beam and does the actual laser engraving.  
-  The Target Chamber does not change any of the characteristics of the beam after it leaves the Synchrotron. It only checks that the beam energy and beam focus meet any recipe requirements and uses the beam rate to determine the duration of the recipe. 
+1. [<ItemLink id="gregtech:gt.blockmachines:10506" showIcon="left" />](./source_chamber.md) parçacık ışınının başlangıç değerlerini girdiye ya da kaynak malzemeye ve makinenin gerilimine göre belirler. Her malzemenin oluşturabileceği parçacıklar hakkında daha fazla ayrıntı için makinenin kılavuzuna bak.  
+  &b✓ Enerji  &b✓ Odak  &b✓ Oran
+1. [<ItemLink id="gregtech:gt.blockmachines:10505" showIcon="left">Lineer Hızlandırıcı (LINAC)</ItemLink>](./linear_accelerator.md) parçacık ışınını hızlandırarak odak kaybı karşılığında genel enerjisini artırır.  
+  Etkiyi güçlendirmek ve daha yüksek enerji seviyelerine ulaşmak için LINAC'ın uzunluğunu artır ya da ona daha fazla güç ver.  
+  İşlem sırasında odağı mümkün olduğunca korumak için soğutma sıvıları sağla. Soğutma sıvısı ısınmış halde geri döner ve uygun işlemden sonra geri dönüştürülebilir.  
+  &a↑ Enerji  &c↓ Odak  &7→ Oran
+1. [<ItemLink id="gregtech:gt.blockmachines:10507" showIcon="left" />](./synchrotron.md) parçacık ışınını tekrar hızlandırır ve sonunda yüksek hızlı parçacıkların radyasyonundan bir foton ışını üretir.  
+  Işın enerjisini yüksek tutmak ve ışın oranını daha verimli artırmak için anten kasalarını yükselt.  
+  İşlem sırasında odağı tekrar mümkün olduğunca korumak için soğutma sıvıları sağla. Soğutma sıvısı ısınmış halde geri döner ve uygun işlemden sonra geri dönüştürülebilir.  
+  Güç kaynağını artırmak, ışının enerjisini ve odağını azaltmadan oranını artırır; bu da Işın Hattı'nın yalnızca Sinkrotron'un Enerji Kapaklarının kademesini ve verimini artırarak kolayca yükseltilebilmesini sağlar.  
+  Sinkrotron'un enerji kapaklarını yükseltmek, tarif işleme sürelerini belirleyen ışın oranını artırmanın tek yoludur.  
+  &c↓ Enerji  &c↓ Odak  &a↑ Oran
+1. [<ItemLink id="gregtech:gt.blockmachines:10508" showIcon="left" />](./target_chamber.md) nihai foton ışınını yakalar ve gerçek lazer kazımasını yapar.  
+  Hedef Odası, ışın Sinkrotron'dan ayrıldıktan sonra özelliklerinden hiçbirini değiştirmez. Yalnızca ışın enerjisinin ve ışın odağının tarif gereksinimlerini karşıladığını kontrol eder ve tarifin süresini belirlemek için ışın oranını kullanır.
 
-### Craftable Wafers
-The wide range of beam energy, focus, and rate requirements means that a single Beam Line is not enough for all possible recipes. 
+### Üretilebilir Yonga Plakaları
+Işın enerjisi, odak ve oran gereksinimlerinin geniş aralığı, tek bir Işın Hattı'nın olası tüm tarifler için yeterli olmadığı anlamına gelir. 
 
-At a minimum, there must be five Beam Lines with varying [<ItemLink id="gregtech:gt.blockmachines:10505" showIcon="left">LINAC</ItemLink>](./linear_accelerator.md) lengths, energy hatches, and coolant. The following table lists the recipes that the Beam Line can process, by group.
+En azından, farklı [<ItemLink id="gregtech:gt.blockmachines:10505" showIcon="left">LINAC</ItemLink>](./linear_accelerator.md) uzunluklarına, enerji kapaklarına ve soğutucuya sahip beş Işın Hattı bulunmalıdır. Aşağıdaki tablo, Işın Hattı'nın işleyebileceği tarifleri gruplara göre listeler.
 
-| Output By Group || Min Power | Beam Energy || Min Focus |
+| Gruba Göre Çıktı || Min Güç | Işın Enerjisi || Min Odak |
 | --- | --- | --- | --- | --- | --- |
-| ^^ | ^^ | Min | Max | ^^ |
+| ^^ | ^^ | Min | Maks | ^^ |
 | 1 | <ItemLink id="gregtech:gt.metaitem.03:32036" showIcon="left" /> | 1,920 EU/t (EV) | 0.5 eV | 4 eV | 35 |
 | ^^ | <ItemLink id="gregtech:gt.metaitem.03:32038" showIcon="left" /> | 1,920 EU/t (EV) | 2 eV | 4 eV | 40 |
 | ^^ | <ItemLink id="gregtech:gt.metaitem.03:32060" showIcon="left" /> | 1,920 EU/t (EV) | 2 eV | 4 eV | 25 |
@@ -123,22 +123,22 @@ At a minimum, there must be five Beam Lines with varying [<ItemLink id="gregtech
 | ^^ | <ItemLink id="gregtech:gt.metaitem.03:32266" showIcon="left" /> | 1,920 EU/t (EV) | 6,000 eV | 14,000 eV | 50 |
 | ^^ | <ItemLink id="gregtech:gt.metaitem.03:32068" showIcon="left" /> | 30,720 EU/t (LuV) | 3,000 eV | 9,000 eV | 55 |
 | ^^ | <ItemLink id="gregtech:gt.metaitem.01:32668" showIcon="left" /> | 30,720 EU/t (LuV) | 5,000 eV | 12,000 eV | 60 |
-| ^^ | <ItemLink id="gregtech:gt.metaitem.03:32071" showIcon="left">Crystal SoC (Ce:LuAG)</ItemLink> | 30,720 EU/t (LuV) | 5,000 eV | 12,000 eV | 60 |
-| ^^ | <ItemLink id="gregtech:gt.metaitem.03:32068" showIcon="left">Raw Advanced Crystal Chip (Ce:LuAG)</ItemLink> | 30,720 EU/t (LuV) | 6,000 eV | 14,000 eV | 70 |
+| ^^ | <ItemLink id="gregtech:gt.metaitem.03:32071" showIcon="left">Kristal SoC (Ce:LuAG)</ItemLink> | 30,720 EU/t (LuV) | 5,000 eV | 12,000 eV | 60 |
+| ^^ | <ItemLink id="gregtech:gt.metaitem.03:32068" showIcon="left">Ham Gelişmiş Kristal Çip (Ce:LuAG)</ItemLink> | 30,720 EU/t (LuV) | 6,000 eV | 14,000 eV | 70 |
 {: widths="10, 300, 110, 65, 65, 50"}
 
-As you can see - there are 5 groups for processing, organized by their energy range:
-- Group 1 (2-4 eV)
-- Group 2 (8-10 eV)
-- Group 3 (190-200 eV)
-- Group 4 (2,000-3,000 eV)
-- Group 5 (6,000-9,000 eV)
+Gördüğün gibi - işleme için enerji aralıklarına göre düzenlenmiş 5 grup vardır:
+- Grup 1 (2-4 eV)
+- Grup 2 (8-10 eV)
+- Grup 3 (190-200 eV)
+- Grup 4 (2,000-3,000 eV)
+- Grup 5 (6,000-9,000 eV)
 
-Upgrade only the energy hatches on the Synchrotron to scale the throughput of the Beam Lines. Most of the other variables are designed specifically to stay within a particular energy range or above a minimum focus.  
-The voltage of the Target Chamber is simply a minimum requirement that has no effect on the operation of the machine, since it does not increase the beam's rate, only its energy.
+Işın Hatlarının verimini ölçeklemek için yalnızca Sinkrotron'daki enerji kapaklarını yükselt. Diğer değişkenlerin çoğu özellikle belirli bir enerji aralığında kalmak veya minimum odağın üzerinde olmak üzere tasarlanmıştır.  
+Hedef Odasının gerilimi yalnızca bir minimum gereksinimdir ve makinenin çalışması üzerinde hiçbir etkisi yoktur, çünkü ışının oranını değil yalnızca enerjisini artırır.
 
 > [!TIP]
-> You may have noticed, but <ItemLink id="gregtech:gt.metaitem.03:32046" showIcon="left" /> and <ItemLink id="gregtech:gt.metaitem.03:32056" showIcon="left" /> from Group 2 can also be included in Group 1, if Group 1's energy is larger than 3 eV! Just keep an eye on minimal focus requirements.
+> Fark etmiş olabilirsin, ancak Grup 2'deki <ItemLink id="gregtech:gt.metaitem.03:32046" showIcon="left" /> ve <ItemLink id="gregtech:gt.metaitem.03:32056" showIcon="left" />, Grup 1'in enerjisi 3 eV'den büyükse Grup 1'e de dahil edilebilir! Sadece minimum odak gereksinimlerine dikkat et.
 
-## References
+## Kaynaklar
 - [GTNH Wiki : Beam Line](https://wiki.gtnewhorizons.com/wiki/Beam_Line)

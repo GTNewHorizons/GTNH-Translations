@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15551
 navigation:
-  title: Industrial Chemical Bath
+  title: Endüstriyel Kimyasal Banyo
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15551
 categories:
@@ -11,42 +11,42 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Industrial Chemical Bath
+# Endüstriyel Kimyasal Banyo
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15551"/>
 </GameScene>
-The <Color id="GREEN">Industrial Chemical Bath (ICB)</Color> is an EV tier multiblock for chemical bathing various materials. The <Color id="GREEN">ICB</Color> is a direct upgrade from the singleblock chemical bath because it runs at <Color id="RED">500%</Color> speed and offers <Color id="BLUE">4</Color> parallels per voltage tier. 
+<Color id="GREEN">Endüstriyel Kimyasal Banyo (ICB)</Color>, çeşitli malzemeleri kimyasal banyodan geçirmek için kullanılan EV kademe bir multibloktur. <Color id="GREEN">ICB</Color>, tek blok kimyasal banyonun doğrudan yükseltmesidir; çünkü <Color id="RED">%500</Color> hızda çalışır ve gerilim kademesi başına <Color id="BLUE">4</Color> paralel sunar.
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Separation: The Ore Washing Plant has been separated into individual structures (such as this one!)
+> Multiblokta (yapı dışında) şu değişiklikler yapıldı:
+> - Ayrıştırma: Cevher Yıkama Tesisi ayrı yapılara bölündü (bu yapı gibi!)
 
-## Construction
-The <Color id="GREEN">ICB</Color> has no tiered components. Buses/hatches may replace any wash plant casing anywhere on the structure. <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. The water is a one-time-cost to prime the machine and inserted into the structure via a reservoir hatch or input hatch. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+## İnşa
+<Color id="GREEN">ICB</Color>'nin kademeli bileşeni yoktur. Veriyolları/kapaklar yapının herhangi bir yerindeki yıkama tesisi kasasının yerini alabilir. <Color id="GREEN">Çok Amperli ve Lazer Enerji Kapakları</Color> desteklenmez, ancak overclock için birden fazla normal enerji kapağı olabilir. Su, makineyi ilk kez çalıştırmak için tek seferlik bir maliyettir ve yapıya bir rezervuar kapağı veya girdi kapağı aracılığıyla verilir. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan.
 
-### Requires:
+### Gerekli:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15551"/><ItemImage id="gregtech:gt.blockmachines:15551"/>
 - 30-38 <ItemLink id="miscutils:gtplusplus.blockcasings.2:4"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:4"/>
 - 20 <ItemLink id="miscutils:blockFrameGtWatertightSteel"/><ItemImage id="miscutils:blockFrameGtWatertightSteel"/>
 - 4 <ItemLink id="gregtech:gt.blockcasings8"/><ItemImage id="gregtech:gt.blockcasings8"/>
 - 2 <ItemLink id="gregtech:gt.blockmetal8:6"/><ItemImage id="gregtech:gt.blockmetal8:6"/>
 - 2 <ItemLink id="gregtech:gt.blockmetal2:7"/><ItemImage id="gregtech:gt.blockmetal2:7"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ Enerji Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 Bakım Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ Giriş Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ Girdi Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ Çıkış Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">ICBs</Color> may wallshare each of their sides to save on casings and buses/hatches. That includes the reservoir hatch for supplying water. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### Duvar Paylaşımı
+<Color id="GREEN">ICB</Color>'ler kasa ve veriyolu/kapaktan tasarruf etmek için her bir kenarını duvar paylaşımına açabilir. Buna su sağlamak için kullanılan rezervuar kapağı da dahildir. Hiçbir tarif 1A'dan fazla güç kullanmaz, bu yüzden <u>__bir__</u> enerji kapağını <u>__iki__</u> makine arasında paylaşmak mümkündür.
 
-## Usage
-The <Color id="GREEN">ICB</Color> is a direct upgrade from the singleblock chemical bath because it runs at 500% speed and offers 4 parallels per voltage tier, as seen in the following table. 
+## Kullanım
+<Color id="GREEN">ICB</Color>, tek blok kimyasal banyonun doğrudan yükseltmesidir; çünkü aşağıdaki tabloda görüldüğü gibi %500 hızda çalışır ve gerilim kademesi başına 4 paralel sunar.
 
 
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |

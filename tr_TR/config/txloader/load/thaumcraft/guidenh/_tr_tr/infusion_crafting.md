@@ -3,13 +3,13 @@ item_ids:
   - Thaumcraft:blockStoneDevice:2
   - Thaumcraft:blockStoneDevice:1
 navigation:
-  title: Infusion Crafting
+  title: İnfüzyon Üretimi
   parent: ./index.md
   icon: 'Thaumcraft:blockStoneDevice:2'
   position: 50
 ---
 
-# Infusion Crafting
+# İnfüzyon Üretimi
 
 <Column width="600" align="center" gap="8">
 
@@ -17,151 +17,151 @@ navigation:
   <FloatingImage src="/assets/images/thaumcraft_logo.png" x="50" y="132" width="2078" height="445" displayWidth="300" wrap="inline" title="Thaumcraft" />
 </Column>
 
-**Infusion Crafting** infuses essentia and surrounding ingredients into a central item to create wand components, magical devices, equipment, and materials for mod integration.<br>
-As research progresses, the same altar can also handle equipment upgrades and infusion enchanting.
+**İnfüzyon Üretimi**, asa bileşenleri, sihirli cihazlar, ekipman ve mod entegrasyonu için materyaller oluşturmak üzere esansı ve çevredeki malzemeleri merkezi bir eşyaya infüze eder.<br>
+Araştırma ilerledikçe aynı sunak ekipman yükseltmelerini ve infüzyon büyülemesini de gerçekleştirebilir.
 
-Using an Infusion Altar requires attention to <Color color="#B7A0D6">recipes, stability, and essentia supply</Color>.<br>
-In GTNH, Thaumic Energistics, Infusion Claws, Infusion Intercepters, and other devices can handle supply and activation, allowing the altar to support continuous production.
+Bir İnfüzyon Sunağı kullanmak <Color color="#B7A0D6">tarifler, denge ve esans tedariki</Color> konularına dikkat etmeyi gerektirir.<br>
+GTNH'de Thaumic Energistics, İnfüzyon Pençeleri, İnfüzyon Engelleyicileri ve diğer cihazlar tedarik ve aktivasyonu yönetebilir; böylece sunak sürekli üretimi destekleyebilir.
 
-## The Infusion Altar
+## İnfüzyon Sunağı
 
 <GameScene interactive={true} wrap="square" align="right" width="240" height="220" showBackground={false} allowLayerSlider={false} gridButtonEnabled={false}>
   <ImportStructure src="/assets/structures/infusion_altar.snbt" />
 </GameScene>
 
-The altar's main structure consists of one <ItemLink id="Thaumcraft:blockStoneDevice:2" showIcon="left" />, a central <ItemLink id="Thaumcraft:blockStoneDevice:1" showIcon="left" />, and four pillars. The pillars are built from <ItemLink id="Thaumcraft:blockCosmeticSolid:6" showIcon="left" /> and <ItemLink id="Thaumcraft:blockCosmeticSolid:7" showIcon="left" />, becoming Infusion Pillars when activated with a wand.
+Sunak ana yapısı bir <ItemLink id="Thaumcraft:blockStoneDevice:2" showIcon="left" />, merkezi bir <ItemLink id="Thaumcraft:blockStoneDevice:1" showIcon="left" /> ve dört sütundan oluşur. Sütunlar <ItemLink id="Thaumcraft:blockCosmeticSolid:6" showIcon="left" /> ve <ItemLink id="Thaumcraft:blockCosmeticSolid:7" showIcon="left" /> ile inşa edilir; asa ile etkinleştirildiklerinde İnfüzyon Sütunlarına dönüşürler.
 
-The central pedestal sits two blocks directly below the matrix and holds the item being infused. Additional pedestals around it hold the recipe ingredients. The scene shows an activated altar and a set of outer pedestals, which can be expanded to suit recipes.
+Merkezi kaide, matrisin tam iki blok altında yer alır ve infüze edilen eşyayı tutar. Çevresindeki ek kaideler tarif malzemelerini tutar. Sahne, etkinleştirilmiş bir sunağı ve tariflere uyacak şekilde genişletilebilen bir dizi dış kaideyi gösterir.
 
-- **Structure activation:** Complete Infusion research, build the structure shown in the Thaumonomicon, and right-click the matrix with a wand. Leave the empty spaces within the main structure clear; logistics devices can be connected after activation.
-- **Outer pedestal range:** Pedestals must be below the matrix, within 8 blocks along each horizontal axis, X and Z, and no more than 10 blocks below it.
-- **Pedestal layers:** Only one outer pedestal is recognized per vertical column. Offset their horizontal positions when using multiple layers.
-- **Space allocation:** Leave room below the central pedestal for an essentia connection and below the surrounding pedestals for item logistics. An Infusion Claw can be installed above the matrix.
+- **Yapı aktivasyonu:** İnfüzyon araştırmasını tamamla, Thaumonomicon'da gösterilen yapıyı inşa et ve asa ile matrise sağ tıkla. Ana yapı içindeki boş alanları açık bırak; lojistik cihazlar aktivasyondan sonra bağlanabilir.
+- **Dış kaide menzili:** Kaideler matrisin altında, X ve Z yatay eksenlerinin her biri boyunca 8 blok içinde ve matrisin en fazla 10 blok altında olmalıdır.
+- **Kaide katmanları:** Her dikey sütunda yalnızca bir dış kaide tanınır. Birden fazla katman kullanırken yatay konumlarını kaydır.
+- **Alan ayırma:** Merkezi kaidenin altında esans bağlantısı, çevredeki kaidelerin altında ise eşya lojistiği için yer bırak. Matrisin üstüne bir İnfüzyon Pençesi kurulabilir.
 
-## Recipes and the Crafting Process
+## Tarifler ve Üretim Süreci
 
-An infusion recipe requires a central item, outer ingredients, the specified essentia, and the relevant research completed by the player activating it. The Thaumonomicon and NEI show the current recipe's items, essentia quantities, and instability.
+Bir infüzyon tarifi merkezi bir eşya, dış malzemeler, belirtilen esans ve onu etkinleştiren oyuncu tarafından tamamlanmış ilgili araştırmayı gerektirir. Thaumonomicon ve NEI, mevcut tarifin eşyalarını, esans miktarlarını ve dengesizliğini gösterir.
 
-A standard altar first draws essentia, then absorbs the outer ingredients one by one. The finished item remains on the central pedestal. Outer ingredient positions can be rearranged, provided their types and quantities match the recipe.
-
-> [!WARNING]
-> A standard altar does not check that all required essentia is available before starting. Missing essentia or ingredients knocked off pedestals stall the ritual while risk checks continue, increasing instability or essentia requirements. Prepare the essentia and ingredients and check altar stability before crafting.
-
-Each outer ingredient entry occupies a separate pedestal. When a recipe requires the same ingredient several times, multiple pedestals are needed for matching. Returned containers or reusable ingredients may remain on their pedestals; arrange their collection for batch production.
-
-## Pedestal Layout and Stability
-
-The altar checks <Color color="#B7A0D6">central symmetry</Color>: two positions at the same height correspond when rotated 180° around the matrix's vertical axis. For example, a pedestal three blocks east and one block north of the matrix pairs with one three blocks west and one block south.
-
-- **Pair pedestals:** Each outer pedestal should have a corresponding pedestal on the opposite side. Empty pedestals also count toward symmetry.
-- **Pair occupied positions:** Two opposite pedestals remain balanced when both hold ingredients, which can be different items. Additional stabilizers can compensate for the occupancy imbalance caused by an odd number of ingredients.
-- **Remove unused ingredients:** Items on other pedestals within range participate in recipe matching. Leaving ingredients from another craft may prevent the recipe from being recognized.
-- **Check after adjustments:** Use an Arcane Abacus after adding or removing pedestals, moving stabilizers, or connecting addon devices.
-
-The recipe's instability and the altar's environmental modifier together determine the initial risk of the ritual. Stabilizers should offset the target recipe's risk and leave a margin for shortages and automatic activation devices.
-
-An <ItemLink id="WitchingGadgets:item.WG_Material:7" showIcon="left" /> reads the matrix's stability, identifies unpaired stabilizers, and shows risk and essentia cost information for the current or available recipe.<br>
-Arrange the pedestals and stabilizers first, then place the target recipe's ingredients to check the result.
-
-## Placing Stabilizers
-
-Stabilizers include candles, skulls, crystals, and suitable blocks from addons. Blocks with a tooltip indicating that they can stabilize an Infusion Altar can be found in NEI and used around the altar.
-
-A <ItemLink id="thaumicbases:quicksilverBlock" showIcon="left" /> is a common choice in GTNH and suits a foundation with multiple layers of stabilizers. Candles, skulls, and other valid stabilizers can also be used according to the materials available.
-
-- **Effective range:** Up to 12 blocks along each of the X and Z axes, 5 blocks above, and 10 blocks below the matrix.
-- **Pairing:** Place valid stabilizers at the same height in positions centrally symmetric about the matrix. Unpaired stabilizers increase instability.
-- **Multiple layers:** Each layer needs its own symmetry. Stabilizers can be placed beneath the altar to leave space at ground level for access and logistics.
-- **Central column:** The vertical column directly above and below the matrix is excluded from ordinary stabilizer symmetry checks.
-
-Every 10 ordinary stabilizers placed in pairs provide 1 point of stability in total. For larger foundations, keep each layer's boundary complete and use an Arcane Abacus to locate missing blocks.
-
-Other valid blocks within the stabilizer range also count. Nearby decorations, another altar's stabilizers, and blocks added later can affect the existing altar's stability.
-
-## Essentia Supply
-
-A standard altar draws the required aspects from essentia sources near the matrix. Each <ItemLink id="Thaumcraft:blockJar:0" showIcon="left" /> holds 64 points; prepare several jars of the same type when an aspect's requirement exceeds one jar.
-
-- **Jar supply:** Suitable for a small set of recipes or occasional infusions. Prepare each required aspect separately.
-- <ItemLink id="Thaumcraft:blockMirror:6" showIcon="left" />: Linked pairs supply the altar with essentia from a distant storage area.
-- <ItemLink id="thaumicenergistics:thaumicenergistics.block.infusion.provider" showIcon="left" />: Once connected to an ME network, it lets the altar draw essentia from network stocks. Place it within the altar's draw range to reduce jar transport.
-
-When a required aspect is out of stock, an Infusion Provider can request essentia autocrafting in batches of 32 points.<br>
-This requires an available pattern and crafting CPU. Keeping common aspects in stock reduces waiting during continuous infusion.
-
-A standard matrix still draws essentia in successive steps. More aspect types and larger quantities make this stage take longer. Recipes with high essentia demand can use an Infusion Intercepter or Advanced Infusion Provider.
-
-Refer to the "Alchemy and Essentia" chapter for production, storage, and transport. When several altars share stocks, account for their combined demand during simultaneous operation.
-
-## Infusion Accidents and Losses
-
-Unstable infusions can knock ingredients off pedestals, destroy ingredients, release Flux, or harm nearby entities.<br>
-Missing ingredients delay crafting, increasing the chance of further accidents.
-
-- **Destroyed ingredients:** Replace the missing items. For valuable recipes, prepare spare outer ingredients where possible.
-- **Essentia stops flowing:** Check which aspects the matrix still needs, jar contents, provider stocks, and supply paths.
-- **Essentia demand increases:** Replenish the quantities currently required by the ritual and address the shortage. Further waiting may cause additional losses.
-- **Flux spills:** Place Flux cleanup devices near the altar and leave access for replenishing ingredients and collecting items.
+Standart bir sunak önce esansı çeker, ardından dış malzemeleri tek tek emer. Bitmiş eşya merkezi kaidede kalır. Türleri ve miktarları tarife uyduğu sürece dış malzemelerin konumları yeniden düzenlenebilir.
 
 > [!WARNING]
-> Essentia and ingredients already absorbed are not automatically returned when an infusion is interrupted. Removing or replacing the central item may terminate the ritual. Automatic product collection should also wait until crafting is complete to avoid extracting the input early.
+> Standart bir sunak, başlamadan önce gerekli tüm esansın mevcut olup olmadığını kontrol etmez. Eksik esans veya kaidelerden düşen malzemeler, risk kontrolleri devam ederken ayini durdurur; bu da dengesizliği veya esans gereksinimlerini artırır. Üretimden önce esansı ve malzemeleri hazırla ve sunak dengesini kontrol et.
 
-If accidents recur, improve altar stability and resolve supply problems before consuming more materials. For high-risk recipes, reduce the time spent waiting for essentia or missing ingredients.
+Her dış malzeme girdisi ayrı bir kaide kaplar. Bir tarif aynı malzemeyi birkaç kez gerektirdiğinde, eşleştirme için birden fazla kaide gerekir. Geri dönen kaplar veya yeniden kullanılabilir malzemeler kaidelerinde kalabilir; yığın üretim için toplanmalarını düzenle.
 
-## Infusion Enchanting
+## Kaide Düzeni ve Denge
 
-After completing **Infusion Enchantment** research, the altar can apply supported enchantments to tools, weapons, and armor. These recipes require experience as well as items and essentia, drawing it from players near the altar.
+Sunak <Color color="#B7A0D6">merkezi simetriyi</Color> kontrol eder: aynı yükseklikteki iki konum, matrisin dikey ekseni etrafında 180° döndürüldüğünde birbirine karşılık gelir. Örneğin, matrisin üç blok doğusunda ve bir blok kuzeyindeki bir kaide, üç blok batısında ve bir blok güneyindeki bir kaideyle eşleşir.
 
-- **Higher enchantment levels:** Repeat the same enchantment until its permitted maximum level. Higher levels require more essentia and experience.
-- **Existing enchantments:** Other enchantments on the item increase resource costs and instability. Check the base requirements in the book against the target item's current state.
-- **Applicability and compatibility:** Enchantment rules still determine whether an enchantment applies to an item and can coexist with its existing enchantments.
+- **Kaideleri eşleştir:** Her dış kaidenin karşı tarafta karşılık gelen bir kaidesi olmalıdır. Boş kaideler de simetriye dahil edilir.
+- **Dolu konumları eşleştir:** Karşılıklı iki kaide, ikisi de malzeme tuttuğunda dengede kalır; malzemeler farklı eşyalar olabilir. Ek dengeleyiciler, tek sayıda malzemenin yol açtığı doluluk dengesizliğini telafi edebilir.
+- **Kullanılmayan malzemeleri kaldır:** Menzil içindeki diğer kaidelerdeki eşyalar tarif eşleştirmesine katılır. Başka bir üretimden kalan malzemeleri bırakmak tarifin tanınmasını engelleyebilir.
+- **Ayarlamalardan sonra kontrol et:** Kaide ekledikten veya kaldırdıktan, dengeleyicileri taşıdıktan ya da eklenti cihazlarını bağladıktan sonra Esrarengiz Abaküs kullan.
 
-When preparing a set of equipment, plan the processing order around the desired final enchantments and use an Arcane Abacus to check the costs for the current item. Equipment with several enchantments benefits from an altar with a larger stability margin.
+Tarifin dengesizliği ve sunağın çevresel değiştiricisi birlikte ayinin başlangıç riskini belirler. Dengeleyiciler hedef tarifin riskini dengelemeli ve eksiklikler ile otomatik aktivasyon cihazları için pay bırakmalıdır.
 
-NH's addons also provide devices such as the Osmotic Enchanter and Overchanting Table. Their recipes, resource costs, and level rules are described in their own research entries.
+Bir <ItemLink id="WitchingGadgets:item.WG_Material:7" showIcon="left" /> matrisin dengesini okur, eşleşmemiş dengeleyicileri belirler ve mevcut veya kullanılabilir tarif için risk ve esans maliyeti bilgilerini gösterir.<br>
+Önce kaideleri ve dengeleyicileri düzenle, ardından sonucu kontrol etmek için hedef tarifin malzemelerini yerleştir.
 
-## Automatic Activation and Item Logistics
+## Dengeleyicileri Yerleştirme
 
-An <ItemLink id="gadomancy:BlockInfusionClaw" showIcon="left" /> is installed above the Runic Matrix. With a wand or staff inside, it can trigger infusion through a redstone signal from a side. The device is bound to its owner and uses that player's research for recipe recognition.
+Dengeleyiciler arasında mumlar, kafatasları, kristaller ve eklentilerden uygun bloklar bulunur. Bir İnfüzyon Sunağını dengeleyebileceklerini belirten bir ipucuna sahip bloklar NEI'de bulunabilir ve sunağın çevresinde kullanılabilir.
 
-The Infusion Claw needs Vis replenishment for its wand and can receive power from a Centi-Vis network.<br>
-It adds instability to the rituals it activates. A wand with greater capacity or a suitable staff reduces this effect.
+Bir <ItemLink id="thaumicbases:quicksilverBlock" showIcon="left" /> GTNH'de yaygın bir seçimdir ve birden fazla dengeleyici katmanına sahip bir temel için uygundur. Mevcut materyallere göre mumlar, kafatasları ve diğer geçerli dengeleyiciler de kullanılabilir.
 
-Item automation mainly handles the following tasks:
+- **Etkili menzil:** X ve Z eksenlerinin her biri boyunca 12 bloğa kadar, matrisin 5 blok üstüne ve 10 blok altına kadar.
+- **Eşleştirme:** Geçerli dengeleyicileri matrise göre merkezi simetrik konumlarda aynı yüksekliğe yerleştir. Eşleşmemiş dengeleyiciler dengesizliği artırır.
+- **Birden fazla katman:** Her katmanın kendi simetrisi olmalıdır. Zemin seviyesinde erişim ve lojistik için yer bırakmak üzere dengeleyiciler sunağın altına yerleştirilebilir.
+- **Merkezi sütun:** Matrisin doğrudan üstündeki ve altındaki dikey sütun, olağan dengeleyici simetri kontrollerinden hariç tutulur.
 
-- **Central item allocation:** Send the central item and outer ingredients to their assigned pedestals. Maintain correct allocation rules when several recipes share an altar.
-- **Individual outer inputs:** Each ingredient entry needs a pedestal, including repeated occurrences of the same ingredient.
-- **Activation control:** Trigger the Infusion Claw after the ingredients are in place. For continuous production, wait for the previous craft to finish.
-- **Product collection:** Identify and extract the finished item from the central pedestal. Also handle containers or reusable ingredients left on outer pedestals.
+Çiftler halinde yerleştirilen her 10 sıradan dengeleyici toplamda 1 denge puanı sağlar. Daha büyük temeller için her katmanın sınırını eksiksiz tut ve eksik blokları bulmak için Esrarengiz Abaküs kullan.
 
-An ME network can manage inputs and products, while redstone, OC, or other control devices coordinate activation and collection.<br>
-Handle returned containers or leftover ingredients before the next craft begins to prevent continuous production from stalling.
+Dengeleyici menzili içindeki diğer geçerli bloklar da sayılır. Yakındaki süslemeler, başka bir sunağın dengeleyicileri ve sonradan eklenen bloklar mevcut sunağın dengesini etkileyebilir.
 
-For Centi-Vis sources and connections, see [Wands, Vis and Nodes](./wands_vis_nodes.md).
+## Esans Tedariki
 
-## Increasing Infusion Speed
+Standart bir sunak gerekli aspektleri matrisin yakınındaki esans kaynaklarından çeker. Her <ItemLink id="Thaumcraft:blockJar:0" showIcon="left" /> 64 puan tutar; bir aspektin gereksinimi bir kavanozu aştığında aynı türden birkaç kavanoz hazırla.
 
-An <ItemLink id="thaumicinsurgence:infusionIntercepter" showIcon="left" /> is installed directly below the central pedestal and receives essentia through its bottom face.<br>
-Connect essentia tubes or a Thaumic Energistics Essentia Provider below it to send the required essentia directly into the corresponding Runic Matrix.
+- **Kavanoz tedariki:** Küçük bir tarif grubu veya ara sıra yapılan infüzyonlar için uygundur. Gerekli her aspekti ayrı ayrı hazırla.
+- <ItemLink id="Thaumcraft:blockMirror:6" showIcon="left" />: Bağlantılı çiftler sunağa uzak bir depolama alanından esans sağlar.
+- <ItemLink id="thaumicenergistics:thaumicenergistics.block.infusion.provider" showIcon="left" />: Bir ME Ağına bağlandığında sunağın ağ stoklarından esans çekmesini sağlar. Kavanoz taşımayı azaltmak için onu sunağın çekme menzili içine yerleştir.
 
-With an ME Essentia Provider and sufficient stocks at the input, it can supply large amounts of essentia very quickly. With tubes, actual supply speed limits its performance. It serves only the altar directly above it; activate the main altar structure before installing it.
+Gerekli bir aspekt stokta yoksa, bir İnfüzyon Sağlayıcısı 32 puanlık yığınlar halinde esans otomatik üretimi talep edebilir.<br>
+Bu, kullanılabilir bir desen ve üretim CPU'su gerektirir. Yaygın aspektleri stokta tutmak sürekli infüzyon sırasındaki beklemeyi azaltır.
 
-An <ItemLink id="thaumicenergistics:thaumicenergistics.block.advanced.infusion.provider" showIcon="left" /> supplies all required essentia to an active infusion at once and requests autocrafting for the quantities missing.<br>
-It can bind to multiple matrices within 12 blocks along each of the X and Z axes and 5 blocks vertically.
+Standart bir matris yine de esansı ardışık adımlarla çeker. Daha fazla aspekt türü ve daha büyük miktarlar bu aşamayı uzatır. Yüksek esans talebi olan tarifler bir İnfüzyon Engelleyici veya Gelişmiş İnfüzyon Sağlayıcısı kullanabilir.
 
-- **Infusion Intercepters** provide fast essentia supply for individual altars.
-- **Advanced Infusion Providers** let multiple altars share network stocks and essentia autocrafting.
-- **World Accelerators** can speed up matrix operation further, but first ensure adequate stability and supply. Acceleration during shortages also speeds up risk checks while the ritual is stalled.
+Üretim, depolama ve taşıma için "Simya ve Esans" bölümüne bak. Birkaç sunak stokları paylaştığında, eşzamanlı çalışma sırasında birleşik taleplerini hesaba kat.
 
-Once essentia supply takes less time, absorbing outer ingredients individually still contributes to crafting time. To expand production, arrange multiple altars according to the number of recipes and ingredients, with complete input and collection control for each.
+## İnfüzyon Kazaları ve Kayıplar
 
-## Troubleshooting
+Dengesiz infüzyonlar malzemeleri kaidelerden düşürebilir, malzemeleri yok edebilir, Flux salabilir veya yakındaki varlıklara zarar verebilir.<br>
+Eksik malzemeler üretimi geciktirir ve daha fazla kaza olasılığını artırır.
 
-- **Right-clicking with a wand does not start infusion:** Check structure activation, research completion, the central item and outer ingredients, and any unrelated ingredients left within range.
-- **Some outer ingredients are not recognized:** Check whether their pedestals are below the matrix, within range, and share a vertical column with another pedestal.
-- **Risk remains high after placing stabilizers:** Use an Arcane Abacus to check asymmetric positions, stabilizer range, and occupied outer pedestals. Include the extra instability from an Infusion Claw when using one.
-- **An Infusion Claw does not start the recipe:** Check the owner's research, the inserted wand, power supply, and redstone trigger, then verify the recipe ingredients on the altar.
-- **An Intercepter supplies no essentia:** Check that it is directly below the central pedestal, its bottom face connects to a valid essentia source, and the source contains the required aspects.
-- **Automation completes only the first craft:** Check collection of the central product and outer leftovers, allocation of the next set of ingredients, and whether the activation signal triggers again.
+- **Yok edilen malzemeler:** Eksik eşyaları değiştir. Değerli tarifler için mümkünse yedek dış malzemeler hazırla.
+- **Esans akışı durur:** Matrisin hâlâ hangi aspektlere ihtiyaç duyduğunu, kavanoz içeriklerini, sağlayıcı stoklarını ve tedarik yollarını kontrol et.
+- **Esans talebi artar:** Ayinin şu anda gerektirdiği miktarları yenile ve eksikliği gider. Daha fazla beklemek ek kayıplara yol açabilir.
+- **Flux sızıntıları:** Sunağın yakınına Flux temizleme cihazları yerleştir ve malzemeleri yenilemek ile eşyaları toplamak için erişim bırak.
+
+> [!WARNING]
+> Bir infüzyon kesintiye uğradığında zaten emilmiş esans ve malzemeler otomatik olarak geri verilmez. Merkezi eşyayı kaldırmak veya değiştirmek ayini sonlandırabilir. Otomatik ürün toplama da girdiyi erken çekmemek için üretim tamamlanana kadar beklemelidir.
+
+Kazalar tekrarlanırsa, daha fazla malzeme tüketmeden önce sunak dengesini iyileştir ve tedarik sorunlarını çöz. Yüksek riskli tarifler için esans veya eksik malzemeler için harcanan bekleme süresini azalt.
+
+## İnfüzyon Büyülemesi
+
+**İnfüzyon Büyüsü** araştırmasını tamamladıktan sonra sunak, desteklenen büyüleri aletlere, silahlara ve zırhlara uygulayabilir. Bu tarifler eşya ve esansın yanı sıra tecrübe gerektirir ve bunu sunağın yakınındaki oyunculardan çeker.
+
+- **Daha yüksek büyü seviyeleri:** İzin verilen maksimum seviyesine kadar aynı büyüyü tekrarla. Daha yüksek seviyeler daha fazla esans ve tecrübe gerektirir.
+- **Mevcut büyüler:** Eşyadaki diğer büyüler kaynak maliyetlerini ve dengesizliği artırır. Kitaptaki temel gereksinimleri hedef eşyanın mevcut durumuyla karşılaştır.
+- **Uygulanabilirlik ve uyumluluk:** Büyü kuralları, bir büyünün bir eşyaya uygulanıp uygulanamayacağını ve mevcut büyüleriyle birlikte var olup olamayacağını belirlemeye devam eder.
+
+Bir ekipman seti hazırlarken, işlem sırasını istenen nihai büyülere göre planla ve mevcut eşyanın maliyetlerini kontrol etmek için Esrarengiz Abaküs kullan. Birkaç büyüye sahip ekipman, daha büyük denge payına sahip bir sunaktan yararlanır.
+
+NH'nin eklentileri ayrıca Osmotik Büyüleyici ve Aşırı Büyüleme Masası gibi cihazlar sağlar. Tarifleri, kaynak maliyetleri ve seviye kuralları kendi araştırma girdilerinde açıklanmıştır.
+
+## Otomatik Aktivasyon ve Eşya Lojistiği
+
+Bir <ItemLink id="gadomancy:BlockInfusionClaw" showIcon="left" /> Rünik Matrisin üstüne kurulur. İçine bir asa veya büyük bir asa yerleştirildiğinde, yandan gelen bir kızıltaş sinyaliyle infüzyonu tetikleyebilir. Cihaz sahibine bağlıdır ve tarif tanıma için o oyuncunun araştırmasını kullanır.
+
+İnfüzyon Pençesi, asası için Vis takviyesine ihtiyaç duyar ve bir Centi-Vis ağından güç alabilir.<br>
+Etkinleştirdiği ayinlere dengesizlik ekler. Daha büyük kapasiteli bir asa veya uygun bir büyük asa bu etkiyi azaltır.
+
+Eşya otomasyonu esas olarak aşağıdaki görevleri yönetir:
+
+- **Merkezi eşya tahsisi:** Merkezi eşyayı ve dış malzemeleri atanmış kaidelerine gönder. Birkaç tarif bir sunağı paylaştığında doğru tahsis kurallarını koru.
+- **Bireysel dış girdiler:** Aynı malzemenin tekrarlanan kullanımları dahil her malzeme girdisi bir kaide gerektirir.
+- **Aktivasyon kontrolü:** Malzemeler yerleştikten sonra İnfüzyon Pençesini tetikle. Sürekli üretim için önceki üretimin bitmesini bekle.
+- **Ürün toplama:** Bitmiş eşyayı tanımla ve merkezi kaideden çıkar. Dış kaidelerde kalan kapları veya yeniden kullanılabilir malzemeleri de ele al.
+
+Bir ME Ağı girdileri ve ürünleri yönetebilir; kızıltaş, OC veya diğer kontrol cihazları aktivasyon ve toplamayı koordine eder.<br>
+Sürekli üretimin durmasını önlemek için geri dönen kapları veya artık malzemeleri bir sonraki üretim başlamadan önce ele al.
+
+Centi-Vis kaynakları ve bağlantıları için [Asalar, Vis ve Düğümler](./wands_vis_nodes.md) bölümüne bak.
+
+## İnfüzyon Hızını Artırma
+
+Bir <ItemLink id="thaumicinsurgence:infusionIntercepter" showIcon="left" /> doğrudan merkezi kaidenin altına kurulur ve esansı alt yüzünden alır.<br>
+Gerekli esansı doğrudan ilgili Rünik Matrise göndermek için altına esans tüpleri veya bir Thaumic Energistics Esans Sağlayıcısı bağla.
+
+Bir ME Esans Sağlayıcısı ve girdide yeterli stokla, çok büyük miktarlarda esansı çok hızlı sağlayabilir. Tüplerle gerçek tedarik hızı performansını sınırlar. Yalnızca doğrudan üstündeki sunağa hizmet eder; kurmadan önce ana sunak yapısını etkinleştir.
+
+Bir <ItemLink id="thaumicenergistics:thaumicenergistics.block.advanced.infusion.provider" showIcon="left" /> etkin bir infüzyona gereken tüm esansı bir anda sağlar ve eksik miktarlar için otomatik üretim talep eder.<br>
+X ve Z eksenlerinin her biri boyunca 12 blok ve dikey olarak 5 blok içindeki birden fazla matrise bağlanabilir.
+
+- **İnfüzyon Engelleyicileri** bireysel sunaklar için hızlı esans tedariki sağlar.
+- **Gelişmiş İnfüzyon Sağlayıcıları** birden fazla sunağın ağ stoklarını ve esans otomatik üretimini paylaşmasını sağlar.
+- **Dünya Hızlandırıcıları** matris çalışmasını daha da hızlandırabilir, ancak önce yeterli denge ve tedariki sağla. Eksiklik sırasında hızlandırma, ayin durmuşken risk kontrollerini de hızlandırır.
+
+Esans tedariki daha az zaman aldığında bile, dış malzemelerin tek tek emilmesi üretim süresine katkıda bulunmaya devam eder. Üretimi genişletmek için, her biri için eksiksiz girdi ve toplama kontrolüyle tarif ve malzeme sayısına göre birden fazla sunak düzenle.
+
+## Sorun Giderme
+
+- **Asa ile sağ tıklama infüzyonu başlatmıyor:** Yapı aktivasyonunu, araştırma tamamlanmasını, merkezi eşyayı ve dış malzemeleri ve menzil içinde kalan ilgisiz malzemeleri kontrol et.
+- **Bazı dış malzemeler tanınmıyor:** Kaidelerinin matrisin altında, menzil içinde ve başka bir kaideyle aynı dikey sütunda olup olmadığını kontrol et.
+- **Dengeleyicileri yerleştirdikten sonra risk hâlâ yüksek:** Asimetrik konumları, dengeleyici menzilini ve dolu dış kaideleri kontrol etmek için Esrarengiz Abaküs kullan. Bir İnfüzyon Pençesi kullanırken ondan gelen ek dengesizliği de hesaba kat.
+- **İnfüzyon Pençesi tarifi başlatmıyor:** Sahibinin araştırmasını, yerleştirilen asayı, güç kaynağını ve kızıltaş tetikleyicisini kontrol et, ardından sunaktaki tarif malzemelerini doğrula.
+- **Engelleyici esans sağlamıyor:** Doğrudan merkezi kaidenin altında olup olmadığını, alt yüzünün geçerli bir esans kaynağına bağlanıp bağlanmadığını ve kaynağın gerekli aspektleri içerip içermediğini kontrol et.
+- **Otomasyon yalnızca ilk üretimi tamamlıyor:** Merkezi ürünün ve dış artıkların toplanmasını, bir sonraki malzeme setinin tahsisini ve aktivasyon sinyalinin yeniden tetiklenip tetiklenmediğini kontrol et.
 
 </Column>

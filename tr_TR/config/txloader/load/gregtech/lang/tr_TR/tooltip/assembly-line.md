@@ -1,3 +1,3 @@
-Crafts complex machine parts ({tier-color:complex_parts_tier:{VN:complex_parts_tier}+}) from ordered inputs, consumed slice by slice
-Items & Fluids are inserted in {color_name:NEI} order, one per slice
-{color_note:Does not run Assembler recipes}
+Sıralı girdilerden karmaşık makine parçalarını ({tier-color:complex_parts_tier:{VN:complex_parts_tier}+}) üretir, dilim dilim tüketilir
+Eşyalar ve Sıvılar {color_name:NEI} sırasına göre, her dilimde bir tane olacak şekilde yerleştirilir
+{color_note:Montajcı tariflerini çalıştırmaz}

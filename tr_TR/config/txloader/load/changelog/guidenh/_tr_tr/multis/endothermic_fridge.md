@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15518
 navigation:
-  title: Endothermic Fridge
+  title: Endotermik Buzdolabı
   parent: multis.md
   icon: gregtech:gt.blockmachines:15518
 categories:
@@ -12,19 +12,19 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Endothermic Fridge
+# Endotermik Buzdolabı
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15518" />
 </GameScene>
-The <Color id="GREEN">Endothermic Fridge (EnF)</Color> is a ZPM tier multiblock for mass cooling hot ingots and fluids. The <Color id="GREEN">ENF</Color> is a direct upgrade from the <ItemLink id="gregtech:gt.blockmachines:1002"/><ItemImage id="gregtech:gt.blockmachines:1002"/> because it runs up to <Color id="BLUE">1,200%</Color> speed, offers <Color id="RED">256</Color> parallels, supports <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> for serious overclocking, and has unlimited tier skips. The <Color id="GREEN">EnF</Color> replaces the Mega Vacuum Freezer. That means it can run any recipe regardless of voltage tier as long as there is enough power. The speed slowly increases up to 1.5x during activity and decreases back to   1.0x while idle. Optionally, enable cryotheum cooling in the GUI of the controller to 5x the rate at which the speed modifier increases at the cost of 250-375 L/s of gelid cryotheum. Upgrade the structure with infinity cooled casings to unlock subspace cooling, which further multiplies both the speed of the machine and consumption rate of gelid cryotheum at the cost of exotic coolants. The EnF only outperforms the Cryogenic Freezer <ItemImage id="gregtech:gt.blockmachines:15565"/> if it can take full advantage of its 256 parallels (4+ overclocks) or use subspace cooling. It is also worth noting that the [Cryogenic Freezer](../reworks/cryogenic_freezer.md) has been buffed to accommodate these new changes with double the parallels (8->16), and higher speed (220%->300%) 
+<Color id="GREEN">Endotermik Buzdolabı (EnF)</Color>, sıcak külçeleri ve sıvıları toplu halde soğutmak için ZPM kademesinde bir multibloktur. <Color id="GREEN">ENF</Color>, <ItemLink id="gregtech:gt.blockmachines:1002"/><ItemImage id="gregtech:gt.blockmachines:1002"/> modelinin doğrudan yükseltmesidir çünkü <Color id="BLUE">%1.200</Color> hıza kadar çalışır, <Color id="RED">256</Color> paralel sunar, ciddi overclock için <Color id="GREEN">Çok Amperli ve Lazer Enerji Kapaklarını</Color> destekler ve sınırsız kademe atlamasına sahiptir. <Color id="GREEN">EnF</Color>, Mega Vakum Dondurucunun yerini alır. Yani yeterli güç olduğu sürece gerilim kademesinden bağımsız olarak herhangi bir tarifi çalıştırabilir. Hız, çalışırken yavaşça 1.5x'e kadar artar ve boştayken 1.0x'e geri düşer. İsteğe bağlı olarak, 250-375 L/s dondurucu kriyotheum karşılığında hız çarpanının artış oranını 5 katına çıkarmak için kontrolcünün GUI'sinde kriyotheum soğutmasını etkinleştir. Yapıyı sonsuzluk soğutmalı kasalarla yükselterek alt uzay soğutmasının kilidini açabilirsin; bu, egzotik soğutucular karşılığında hem makinenin hızını hem de dondurucu kriyotheum tüketim oranını daha da çarpar. EnF, Kriyojenik Dondurucuyu <ItemImage id="gregtech:gt.blockmachines:15565"/> yalnızca 256 paralelinin tam avantajını kullanabildiğinde (4+ overclock) veya alt uzay soğutmasını kullanabildiğinde geride bırakır. Ayrıca [Kriyojenik Dondurucunun](../reworks/cryogenic_freezer.md) bu yeni değişikliklere uyum sağlaması için güçlendirildiğini, paralelinin iki katına çıktığını (8->16) ve hızının arttığını (%220->%300) belirtmek gerekir. 
 
 <br clear="all"/>
 
-## Construction:
-The <Color id="GREEN">EnF</Color> is available in two tiers but the only structural difference between them is the infinity cooled casings <ItemImage id="gregtech:gt.blockcasings8:14"/> added to the T2 structure. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any fridge casing anywhere on the structure. <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> are supported for serious overclocking regardless of glass tier. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and the number of projectors held in a single stack to specify the tier of the machine.
+## İnşaat:
+<Color id="GREEN">EnF</Color> iki kademede mevcuttur ancak aralarındaki tek yapısal fark T2 yapısına eklenen sonsuzluk soğutmalı kasalardır <ItemImage id="gregtech:gt.blockcasings8:14"/>. Cam herhangi bir kademede olabilir ve makinenin çalışmasına etkisi yoktur. Veriyolları/kapaklar yapının herhangi bir yerindeki buzdolabı kasalarının yerini alabilir. Cam kademesinden bağımsız olarak ciddi overclock için <Color id="GREEN">Çok Amperli ve Lazer Enerji Kapakları</Color> desteklenir. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan; camın kademesini belirtmek için "glass" alt kanalını, makinenin kademesini belirtmek için tek bir yığında tutulan projektör sayısını kullan.
 
-The 208 infinity cooled casings require 255k (L) infinity, 240k (L) spacetime, and 59.9k (L) hypogen to build. It is recommended to wait until hypogen is craftable in the Dimensionally Transcendent Plasma Forge <ItemImage id="gregtech:gt.blockmachines:1004"/> instead of relying on the Mk-IV Fusion Reactor recipe.
-### T1 Requires:
+208 sonsuzluk soğutmalı kasa inşa etmek için 255k (L) sonsuzluk, 240k (L) uzayzaman ve 59,9k (L) Hipojen gerekir. Hipojen, Mk-IV Füzyon Reaktörü tarifine güvenmek yerine Boyutsal Aşkın Plazma Ocağında <ItemImage id="gregtech:gt.blockmachines:1004"/> üretilebilir hale gelene kadar beklemen önerilir.
+### T1 Gereksinimleri:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15518"/><ItemImage id="gregtech:gt.blockmachines:15518"/>
 - 750-773 <ItemLink id="gregtech:gt.blockcasings14:4"/><ItemImage id="gregtech:gt.blockcasings14:4"/>
 - 351 <ItemLink id="gregtech:gt.blockcasings2:1"/><ItemImage id="gregtech:gt.blockcasings2:1"/>
@@ -34,15 +34,15 @@ The 208 infinity cooled casings require 255k (L) infinity, 240k (L) spacetime, a
 - 135 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
 - 51 <ItemLink id="gregtech:gt.blockcasings10:9"/><ItemImage id="gregtech:gt.blockcasings10:9"/>
 - 40 <ItemLink id="gregtech:gt.sheetmetal:390"/><ItemImage id="gregtech:gt.sheetmetal:390"/>
-- 18 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 1+ Energy Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
-- 1 Maintenance Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:90"/>
-- 0+ Input Bus (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Input Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
-- 0+ Output Bus (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:80"/>
-- 0+ Output Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:60"/>
+- 18 Kademeli Cam (herhangi biri) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 1+ Enerji Kapağı (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:40"/>
+- 1 Bakım Kapağı (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:90"/>
+- 0+ Giriş Yolu (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ Girdi Kapağı (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ Çıkış Yolu (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:80"/>
+- 0+ Çıkış Kapağı (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:60"/>
 
-### T2 Requires:
+### T2 Gereksinimleri:
 
 - 1 <ItemLink id="gregtech:gt.blockmachines:15518"/><ItemImage id="gregtech:gt.blockmachines:15518"/>
 - 750-773 <ItemLink id="gregtech:gt.blockcasings14:4"/><ItemImage id="gregtech:gt.blockcasings14:4"/>
@@ -54,32 +54,32 @@ The 208 infinity cooled casings require 255k (L) infinity, 240k (L) spacetime, a
 - 135 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
 - 51 <ItemLink id="gregtech:gt.blockcasings10:9"/><ItemImage id="gregtech:gt.blockcasings10:9"/>
 - 40 <ItemLink id="gregtech:gt.sheetmetal:390"/><ItemImage id="gregtech:gt.sheetmetal:390"/>
-- 18 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 1+ Energy Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
-- 1 Maintenance Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:90"/>
-- 0+ Input Bus (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Input Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
-- 0+ Output Bus (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:80"/>
-- 0+ Output Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:60"/>
+- 18 Kademeli Cam (herhangi biri) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 1+ Enerji Kapağı (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:40"/>
+- 1 Bakım Kapağı (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:90"/>
+- 0+ Giriş Yolu (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ Girdi Kapağı (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ Çıkış Yolu (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:80"/>
+- 0+ Çıkış Kapağı (herhangi bir buzdolabı kasası) <ItemImage id="gregtech:gt.blockmachines:60"/>
 
-### Wallsharing:
-<Color id="GREEN">EnFs</Color> may wallshare each of their sides to save on casings and buses/hatches. That does NOT include any of the infinity cooled casings. 
+### Duvar Paylaşımı:
+<Color id="GREEN">EnF'ler</Color>, kasa ve veriyolu/kapak tasarrufu için her bir yüzlerini duvar paylaşımına açabilir. Buna sonsuzluk soğutmalı kasaların hiçbiri dahil değildir. 
 
-## Usage:
-The <Color id="GREEN">EnF</Color> is a direct upgrade from the Vacuum Freezer because it runs up to 1,200% speed, offers 256 parallels, supports multi-amp and laser energy hatches for serious overclocking, and has unlimited tier skips. That means it can run any recipe regardless of voltage tier as long as there is enough power. For example, a ZPM 256A laser energy hatch can run UIV recipes.
+## Kullanım:
+<Color id="GREEN">EnF</Color>, Vakum Dondurucunun doğrudan yükseltmesidir çünkü %1.200 hıza kadar çalışır, 256 paralel sunar, ciddi overclock için çok amperli ve lazer enerji kapaklarını destekler ve sınırsız kademe atlamasına sahiptir. Yani yeterli güç olduğu sürece gerilim kademesinden bağımsız olarak herhangi bir tarifi çalıştırabilir. Örneğin, bir ZPM 256A lazer enerji kapağı UIV tariflerini çalıştırabilir.
 
-The speed modifier of the <Color id="GREEN">EnF</Color> increases up to 1.5x during activity and decreases back down to 1.0x while idle, as seen below. It takes 5 minutes of continuous activity to achieve the maximum speed modifier but only 20 seconds to lose it all. Optionally, enable cryotheum cooling in the GUI of the controller to 5x the rate at which the speed modifier increases at the cost of 250-375 L/s gelid cryotheum. The consumption rate scales linearly with the speed modifier, but it allows the <Color id="GREEN">EnF</Color> to achieve the maximum 1.5x speed modifier in just 1 minute instead. Running out of gelid cryotheum while cryotheum cooling is enabled causes the machine to immediately shut down and void the current recipe.
+<Color id="GREEN">EnF</Color> hız çarpanı, aşağıda görüldüğü gibi çalışırken 1.5x'e kadar artar ve boştayken 1.0x'e geri düşer. Maksimum hız çarpanına ulaşmak 5 dakika kesintisiz çalışma gerektirir ancak hepsini kaybetmek yalnızca 20 saniye sürer. İsteğe bağlı olarak, 250-375 L/s dondurucu kriyotheum karşılığında hız çarpanının artış oranını 5 katına çıkarmak için kontrolcünün GUI'sinde kriyotheum soğutmasını etkinleştir. Tüketim oranı hız çarpanıyla doğrusal olarak ölçeklenir ancak bu sayede <Color id="GREEN">EnF</Color> maksimum 1.5x hız çarpanına yalnızca 1 dakikada ulaşabilir. Kriyotheum soğutması etkinken dondurucu kriyotheum biterse makine anında kapanır ve mevcut tarifi yok eder.
 
-- +0.00833 speed modifier per 5 seconds while active (cryotheum cooling disabled), 5 minutes to max
-- +0.04167 speed modifier per 5 seconds while active (cryotheum cooling enabled) 1 minute to max
-- -0.025 speed modifier per second while idle, 20 seconds to min
+- Çalışırken 5 saniyede +0.00833 hız çarpanı (kriyotheum soğutması kapalı), maksimuma 5 dakika
+- Çalışırken 5 saniyede +0.04167 hız çarpanı (kriyotheum soğutması açık), maksimuma 1 dakika
+- Boştayken saniyede -0.025 hız çarpanı, minimuma 20 saniye
 
-## Subspace Cooling
-Upgrade the <Color id="GREEN">EnF</Color> structure with infinity cooled casings to unlock subspace cooling, which instantly multiplies the speed of the machine at the cost of exotic coolants. If cryotheum cooling is enabled, the speed boost also applies to the consumption rate of gelid cryotheum. Note that this stacks multiplicatively with the 1.5x speed modifier from earlier to reach up to 1,200% speed. The time to max is still 5 minutes without cryotheum cooling and 1 minute with cryotheum cooling because these speed boosts are applied immediately. The exotic coolants do not stack and running out after supplying them causes the machine to immediately shut down and void the current recipe. 
+## Alt Uzay Soğutması
+<Color id="GREEN">EnF</Color> yapısını sonsuzluk soğutmalı kasalarla yükselterek alt uzay soğutmasının kilidini aç; bu, egzotik soğutucular karşılığında makinenin hızını anında çarpar. Kriyotheum soğutması etkinse hız artışı dondurucu kriyotheum tüketim oranına da uygulanır. Bunun, daha önceki 1.5x hız çarpanıyla çarpımsal olarak birikerek %1.200 hıza kadar çıktığını unutma. Maksimuma ulaşma süresi, bu hız artışları anında uygulandığı için kriyotheum soğutması olmadan yine 5 dakika, kriyotheum soğutmasıyla 1 dakikadır. Egzotik soğutucular birikmez ve bunlar sağlandıktan sonra tükenirse makine anında kapanır ve mevcut tarifi yok eder. 
 
-| Exotic Coolant | Input Rate | Speed Boost | Max Speed | Gelid Cryotheum |
+| Egzotik Soğutucu | Giriş Oranı | Hız Artışı | Maks. Hız | Dondurucu Kriyotheum |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
-| None | 0 L/s | 1.0x | 150% | 250 - 375 L/s |
-| Molten Infinity | 20 L/s | 2.0x | 300% | 500 - 750 L/s |
-| Molten Spacetime | 20 L/s | 4.0x | 600% | 1,000 - 1,500 L/s |
-| Molten Eternity | 20 L/s | 8.0x | 1,200% | 1,500 - 3,000 L/s |
+| Yok | 0 L/s | 1.0x | %150 | 250 - 375 L/s |
+| Eriyik Sonsuzluk | 20 L/s | 2.0x | %300 | 500 - 750 L/s |
+| Eriyik Uzayzaman | 20 L/s | 4.0x | %600 | 1.000 - 1.500 L/s |
+| Eriyik Ebediyet | 20 L/s | 8.0x | %1.200 | 1.500 - 3.000 L/s |

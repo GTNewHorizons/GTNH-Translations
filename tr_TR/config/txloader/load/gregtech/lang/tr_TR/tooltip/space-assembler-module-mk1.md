@@ -1,4 +1,4 @@
-Module that adds the Space Assembler to the Space Elevator
-{light_purple:{bold:Why do I need to assemble stuff in space again?}}
-Runs at {VNF:voltageTier} with up to {color_parallel:4} parallels
+Uzay Asansörüne Uzay Montajcısını ekleyen modül
+{light_purple:{bold:Uzayda neden tekrar bir şeyler monte etmem gerekiyor?}}
+{VNF:voltageTier} seviyesinde, en fazla {color_parallel:4} paralel ile çalışır
 {lang:gt.blockmachines.multimachine.project.ig.motorT1}

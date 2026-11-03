@@ -1,63 +1,63 @@
 ---
 navigation:
-  title: "Local Power Network (Enet)"
+  title: "Yerel Güç Ağı (Enet)"
   icon: tectech:item.em.EuMeterGT
   parent: power_index.md
   position: -4
 ---
 
-# Local Power Network (GT-Enet)
+# Yerel Güç Ağı (GT-Enet)
 
-The **local power network** (GT-Enet), built around [wires and cables](cable.md), is the main wired power transport system used throughout GTNH.
+[Teller ve kablolar](cable.md) etrafında kurulu **yerel güç ağı** (GT-Enet), GTNH genelinde kullanılan ana kablolu güç taşıma sistemidir.
 
-Within a local power network, energy packets move between the internal EU buffers of singleblock machines and Energy Hatches. This is separate from the rules machines use to spend energy while running recipes. The detailed behavior of the latter is covered in **[Tier Skipping, Overclocking, and Parallels](../tierskipping_overcloking_parallels/T_O_P_index.md)**.
+Bir yerel güç ağı içinde enerji paketleri, tek bloklu makinelerin ve Enerji Kapaklarının dahili EU tamponları arasında hareket eder. Bu, makinelerin tarif çalıştırırken enerji harcama kurallarından ayrıdır. İkincisinin ayrıntılı davranışı **[Kademe Atlama, Overclock ve Paraleller](../tierskipping_overcloking_parallels/T_O_P_index.md)** sayfasında ele alınır.
 
-# Network Structure
+# Ağ Yapısı
 
-A local power network has three parts:
+Yerel bir güç ağının üç parçası vardır:
 
-- **Transmitter blocks**: output energy packets from their EU buffer. Examples include singleblock generators, the output side of [transformers](distribution.md#transformers) or battery buffers, and Dynamo Hatches. The voltage of the packets they output is usually the standard voltage of their tier.
-- **Wires** ([wires and cables](cable.md)): carry energy packets and may reduce their voltage through [cable loss](cable_loss.md). Wires do not store EU.
-- **Consumer blocks**: receive energy packets into their EU buffer. Examples include singleblock machines, the input side of transformers or battery buffers, and Energy Hatches. The maximum packet voltage they accept is usually the standard voltage of their tier.
+- **Verici bloklar**: EU tamponlarından enerji paketleri çıkarır. Örnekler arasında tek bloklu jeneratörler, [trafoların](distribution.md#transformers) veya pil tamponlarının çıkış tarafı ve Dinamo Kapakları bulunur. Çıkardıkları paketlerin gerilimi genellikle kademelerinin standart gerilimidir.
+- **Teller** ([teller ve kablolar](cable.md)): enerji paketlerini taşır ve [kablo kaybı](cable_loss.md) yoluyla gerilimlerini düşürebilir. Teller EU depolamaz.
+- **Tüketici bloklar**: enerji paketlerini EU tamponlarına alır. Örnekler arasında tek bloklu makineler, trafoların veya pil tamponlarının giriş tarafı ve Enerji Kapakları bulunur. Kabul ettikleri maksimum paket gerilimi genellikle kademelerinin standart gerilimidir.
 
-# Request-and-Push Behavior
+# İstek ve İtme Davranışı
 
-In game terms, local power networks use a **request-and-push** system. Assuming the setup is safe:
+Oyun açısından yerel güç ağları bir **istek ve itme** sistemi kullanır. Düzeneğin güvenli olduğunu varsayarsak:
 
-- Power transfer is fundamentally a transfer **from the transmitter block's EU buffer directly into the consumer block's EU buffer**.
-- A transmitter block checks consumers whose buffers are not full, then pushes energy packets from its own buffer into them as needed.
-- Aside from the extra [transmission internal resistance](output_loss.md) paid when a transmitter converts buffered EU into packets, and the [cable loss](cable_loss.md) paid as each packet travels through wires, no power is wasted for no reason.
+- Güç aktarımı temelde **verici bloğun EU tamponundan doğrudan tüketici bloğunun EU tamponuna** bir aktarımdır.
+- Bir verici blok, tamponları dolu olmayan tüketicileri kontrol eder ve gerektiğinde kendi tamponundan onlara enerji paketleri iter.
+- Bir vericinin tamponlanmış EU'yu paketlere dönüştürürken ödediği ek [iletim iç direnci](output_loss.md) ve her paket tellerden geçerken ödenen [kablo kaybı](cable_loss.md) dışında hiçbir güç boşuna harcanmaz.
 
-# Providing Power Safely
+# Gücü Güvenli Sağlama
 
-Unsafe setups have catastrophic consequences:
+Güvenli olmayan düzeneklerin yıkıcı sonuçları vardır:
 
-- If the input voltage of a consumer block exceeds its maximum input voltage, the consumer **explodes immediately**. Do not power an LV Arc Furnace with MV packets; instead, use more LV generators or step the voltage down with a [transformer](distribution.md#transformers).
-- If a wire carries voltage above its maximum voltage or current above its maximum current, the wire **burns up** and is replaced by fire.
+- Bir tüketici bloğun giriş gerilimi maksimum giriş gerilimini aşarsa tüketici **anında patlar**. LV Ark Ocağını MV paketlerle besleme; bunun yerine daha fazla LV jeneratör kullan veya gerilimi bir [trafo](distribution.md#transformers) ile düşür.
+- Bir tel, maksimum geriliminin üzerinde gerilim veya maksimum akımının üzerinde akım taşırsa tel **yanıp yok olur** ve yerine ateş gelir.
 
-Current is additive: the current carried by a wire segment is the sum of all current flowing through it. The maximum current that can appear in a local power network cannot exceed the total maximum output current of all transmitter blocks in that network. Whether a wire burns depends on the highest packet voltage among all packets flowing through it.
+Akım toplanır: bir tel parçasının taşıdığı akım, içinden geçen tüm akımların toplamıdır. Bir yerel güç ağında oluşabilecek maksimum akım, o ağdaki tüm verici blokların toplam maksimum çıkış akımını aşamaz. Bir telin yanıp yanmayacağı, içinden geçen tüm paketler arasındaki en yüksek paket gerilimine bağlıdır.
 
-# Providing Power Reliably
+# Gücü Güvenilir Sağlama
 
-Transmitter blocks and consumer blocks each have their own maximum output current and maximum input current. Each tick, there is a limit to how many energy packets a transmitter can push or a consumer can accept.
+Verici bloklar ve tüketici blokların her birinin kendi maksimum çıkış akımı ve maksimum giriş akımı vardır. Her tick'te bir vericinin itebileceği veya bir tüketicinin kabul edebileceği enerji paketi sayısının bir sınırı vardır.
 
-The purpose of reliable power supply is simple: consumer blocks should always receive enough packets to keep their buffers full and avoid power failures.
+Güvenilir güç beslemesinin amacı basittir: tüketici bloklar tamponlarını dolu tutacak ve güç kesintilerini önleyecek kadar paket her zaman almalıdır.
 
-Assuming the packet voltage received by the consumer is fixed, the average input current it needs is:
+Tüketicinin aldığı paket geriliminin sabit olduğunu varsayarsak ihtiyaç duyduğu ortalama giriş akımı şöyledir:
 
 $$I_{\text{required input}} = \frac{P_{\text{recipe}}}{U_{\text{input}}}$$
 
-The necessary conditions for reliable power are:
+Güvenilir güç için gerekli koşullar şunlardır:
 
-- The sum of the average input current required by all consumer blocks must not exceed the total maximum output current available from the transmitter blocks.
-- The average input current required by each consumer block must not exceed that block's own maximum input current.
+- Tüm tüketici blokların ihtiyaç duyduğu ortalama giriş akımının toplamı, verici bloklardan sağlanabilen toplam maksimum çıkış akımını aşmamalıdır.
+- Her tüketici bloğun ihtiyaç duyduğu ortalama giriş akımı, o bloğun kendi maksimum giriş akımını aşmamalıdır.
 
-If power is insufficient, singleblock machines powerfail and lose progress, while multiblocks powerfail, lose progress, and permanently void their inputs. Make sure the power supply is sufficient.
+Güç yetersizse tek bloklu makineler güç kesintisi yaşar ve ilerlemelerini kaybeder; multibloklar ise güç kesintisi yaşar, ilerlemelerini kaybeder ve girdilerini kalıcı olarak yok eder. Güç beslemesinin yeterli olduğundan emin ol.
 
-# Useful Tools
+# Faydalı Araçlar
 
-Use a GT EU Meter or a portable scanner on any powered block or wire to display its electrical information.
+Herhangi bir güç verilen blok veya tel üzerinde GT EU Meter ya da taşınabilir tarayıcı kullanarak elektriksel bilgilerini görüntüle.
 
-Pay special attention to these two values:
-- **Stored Energy**, which shows the internal EU buffer.
-- **Max Input/Output**, which shows maximum input/output voltage and current.
+Özellikle şu iki değere dikkat et:
+- Dahili EU tamponunu gösteren **Depolanan Enerji**.
+- Maksimum giriş/çıkış gerilimini ve akımını gösteren **Maks. Giriş/Çıkış**.

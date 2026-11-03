@@ -1,35 +1,35 @@
-Creates a pocket of spacetime that is bigger on the inside using transdimensional engineering.
-Certified Time Lord regulation compliant.
+Boyutlararası mühendislik kullanarak içi dışından daha büyük bir uzay-zaman cebi oluşturur.
+Sertifikalı Zaman Lordu yönetmeliklerine uygundur.
 {gold:{hr}}
-Comprised of three different Field Generators with {green:9} tiers each:
-{blue:Spacetime Compression}: Determines max Recipe Tier, {green:-3%} processing time per tier above recipe (multiplicative)
-{blue:Time Dilation}: {green:-50%} recipe duration per tier (multiplicative), {green:-9.25%} recipe success chance per tier (additive)
-{blue:Stabilisation}: {green:+5%} recipe success chance per tier (additive), {green:-5%} yield per tier (additive)
-Lower tier stabilisation generators also reduce the total output {EU},
-starting at {green:-40%} with T1 Crude and increases by {green:+5%} per tier (additive)
+Her biri {green:9} kademeli üç farklı Alan Jeneratöründen oluşur:
+{blue:Uzay-Zaman Sıkıştırması}: Maksimum Tarif Kademesini belirler, tarifin üzerindeki her kademe için {green:-3%} işlem süresi (çarpımsal)
+{blue:Zaman Genleşmesi}: her kademe için {green:-50%} tarif süresi (çarpımsal), her kademe için {green:-9.25%} tarif başarı şansı (toplamsal)
+{blue:Stabilizasyon}: her kademe için {green:+5%} tarif başarı şansı (toplamsal), her kademe için {green:-5%} verim (toplamsal)
+Daha düşük kademeli stabilizasyon jeneratörleri ayrıca toplam {EU} çıktısını azaltır,
+T1 Ham ile {green:-40%} ile başlar ve her kademe için {green:+5%} artar (toplamsal)
 {gold:{hr}}
-Right-click the controller with a {blue:Planet Block} to insert it and set the recipe
-Base recipe success chance {green:(S)} depends on the Planet Tier
-On success, outputs everything listed in NEI. The base yield for fluids starts at {green:100%} before any penalties
-On failure, outputs {green:Spacetime}{color_formula: = S * 14,400 * 2^(Planet Tier)} and any output {EU}
-Pity guarantees a success after several consecutive failures but resets on success or recipe change
+Yerleştirmek ve tarifi ayarlamak için {blue:Gezegen Bloğu} ile kontrolcüye sağ tıkla
+Temel tarif başarı şansı {green:(S)} Gezegen Kademesine bağlıdır
+Başarı durumunda NEI'de listelenen her şeyi çıktı olarak verir. Sıvılar için temel verim, herhangi bir cezadan önce {green:100%} ile başlar
+Başarısızlık durumunda {green:Spacetime}{color_formula: = S * 14,400 * 2^(Gezegen Kademesi)} ve varsa {EU} çıktısını verir
+Pity, birkaç ardışık başarısızlıktan sonra başarıyı garanti eder ancak başarı veya tarif değişikliğinde sıfırlanır
 {gold:{hr}}
-Constantly inputs {blue:Hydrogen} and {blue:Helium} into its own internal buffer while idle, and consumes everything on recipe start
-Exceeding the minimum required amount for a recipe heavily reduces the recipe success chance and yield
-{green:Overflow Ratio}{color_formula: = (Stored Fluid / Min Fluid) - 1}
-{green:Penalty%}{color_formula: = 1 - exp(-(30 * Overflow Ratio)^2)}
+Boştayken kendi iç tamponuna sürekli {blue:Hidrojen} ve {blue:Helyum} alır ve tarif başladığında hepsini tüketir
+Bir tarif için gereken minimum miktarı aşmak, tarif başarı şansını ve verimi büyük ölçüde azaltır
+{green:Taşma Oranı}{color_formula: = (Depolanan Sıvı / Min Sıvı) - 1}
+{green:Ceza%}{color_formula: = 1 - exp(-(30 * Taşma Oranı)^2)}
 {gold:{hr}}
-{yellow:Consumes {EU} directly from the owner's wireless network}
-Set the desired number of overclocks with a {color_name:Programmed Circuit} in the input bus
-Output {EU} is constant and does not scale with the number of overclocks
+{yellow:Sahibinin kablosuz ağından doğrudan {EU} tüketir}
+Giriş yolundaki {color_name:Programlanmış Devre} ile istediğin aşırı hızlandırma sayısını ayarla
+{EU} çıktısı sabittir ve aşırı hızlandırma sayısıyla ölçeklenmez
 {gold:{hr}}
-Insert {blue:Astral Array Fabricators (AA)} through an input bus to add parallels (max {blue:8,637})
-Each one is rolled independently to determine whether it succeeds or not
-{green:Parallel Exponent (PE)}{color_formula: = floor(log(8 * AA) / log(1.7))}
-{green:Parallels}{color_formula: = 2^(PE)}
+Paralel eklemek için bir giriş yolundan {blue:Astral Dizi Üreticileri (AA)} yerleştir (maks {blue:8,637})
+Her biri başarılı olup olmayacağını belirlemek için bağımsız olarak değerlendirilir
+{green:Paralel Üs (PE)}{color_formula: = floor(log(8 * AA) / log(1.7))}
+{green:Paraleller}{color_formula: = 2^(PE)}
 {gold:{hr}}
-When running parallels, there is no more pity and the power changes:
-{green:{EU} Input}{color_formula: = Base {EU} Input * 4^OC * 2.3^PE * 1.63 / 20.7}
-{green:{EU} Output}{color_formula: = Base {EU} Output * 2.3^(PE-1) / 9}
-Also consumes {blue:Condensed Raw Stellar Plasma Mixture} instead of {blue:Hydrogen} and {blue:Helium}:
-{green:Raw Stellar Plasma}{color_formula: = 12.4 / 10^6 * Helium Amount * Parallels}
+Paralel çalıştırırken artık pity yoktur ve güç değişir:
+{green:{EU} Girdisi}{color_formula: = Temel {EU} Girdisi * 4^OC * 2.3^PE * 1.63 / 20.7}
+{green:{EU} Çıktısı}{color_formula: = Temel {EU} Çıktısı * 2.3^(PE-1) / 9}
+Ayrıca {blue:Hidrojen} ve {blue:Helyum} yerine {blue:Yoğunlaştırılmış Ham Yıldız Plazma Karışımı} tüketir:
+{green:Ham Yıldız Plazması}{color_formula: = 12.4 / 10^6 * Helyum Miktarı * Paraleller}

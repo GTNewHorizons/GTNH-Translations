@@ -5,66 +5,66 @@ quest_ids:
   - AAAAAAAAAAAAAAAAAAAKqw==
   - AAAAAAAAAAAAAAAAAAAKqg==
 navigation:
-  title: Active Transformer
+  title: Aktif Trafo
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15300
   position: -7001
 ---
 
-# Active Transformer
+# Aktif Trafo
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15300" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" /> (AT) is a ZPM-tier multiblock for transforming power from any voltage tier to any other voltage tier with virtually unlimited amperage throughput. 
+Multibloklar arasında ZPM kademesinde yer alan <ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" /> (AT), gücü herhangi bir gerilim kademesinden herhangi bir başka gerilim kademesine neredeyse sınırsız amperaj akışıyla dönüştürür. 
 
-The AT is a direct upgrade from singleblock transformers and buck converters because it supports multi-amp and laser energy/dynamo hatches, can change input/output voltage without building a new machine, and supports multiple input/outputs with different voltages. 
+AT, tek bloklu trafoların ve düşürücü konvertörlerin doğrudan yükseltmesidir; çünkü çok amperli ve lazer enerji/dinamo kapaklarını destekler, yeni bir makine inşa etmeden girdi/çıktı gerilimini değiştirebilir ve farklı gerilimlerde birden fazla girdi/çıktı destekler. 
 
-The only downside is that there is a 0.004% power loss for all EU that passes through the machine. 
+Tek dezavantajı, makineden geçen tüm EU için %0,004 güç kaybı olmasıdır. 
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | ZPM |
-| Structure Size | 3×3×3 |
-| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| Kilit Açma Kademesi | ZPM |
+| Yapı Boyutu | 3×3×3 |
+| Güç | Herhangi bir Kapak kullanılabilir, Çok Amperli ve Lazer Kapakları dahil |
+| Hız Aşırtma | Yok |
+| Bakım | Bakım gerekmez |
+| Kirlilik | Kirlilik üretmez |
 
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-### Crafting
+### Üretim
 <RecipesFor id="gregtech:gt.blockmachines:15300" handlerId="gt.recipe.assembler"/>
 
 <RecipesFor id="tectech:gt.blockcasingsTT" handlerId="gt.recipe.assembler" />
 
-The AT requires 1 <ItemLink id="gregtech:gt.blockcasings:15" showIcon="left" />(You can press <KeyBind id="nei.options.keys.recipe.recipe" /> while hovering over the Item link to see the recipes for this). You can craft this with recipes that match your current superconductor tier.
+AT, 1 adet <ItemLink id="gregtech:gt.blockcasings:15" showIcon="left" /> gerektirir (Montajcı tariflerini görmek için eşya bağlantısının üzerine gelirken <KeyBind id="nei.options.keys.recipe.recipe" /> tuşuna basabilirsin). Bunu mevcut süperiletken kademene uyan Montajcı tarifleriyle üretebilirsin.
 
-### Structure
-AT can rotate in any direction, include up and down.
+### Yapı
+AT her yönde döndürülebilir, yukarı ve aşağı dahil.
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" /> | 1, Front center, 2nd layer. |
+| <ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" /> | 1, Ön orta, 2. katman (Kontrolcü). |
 | <ItemLink id="tectech:gt.blockcasingsTT" showIcon="left" /> | 5-24 |
-| <ItemLink id="gregtech:gt.blockcasings:15" showIcon="left" /> | 1, Center of the structure |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Any casing. |
-| <ItemImage id="gregtech:gt.blockmachines:31" noTooltip /><Tooltip label="Dynamo Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 0+, Any casing. |
+| <ItemLink id="gregtech:gt.blockcasings:15" showIcon="left" /> | 1, Yapının merkezi |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Etiketi: Normal, Çok Amperli, Lazer kullanılabilir</Tooltip> | 1+, Herhangi bir kasa. |
+| <ItemImage id="gregtech:gt.blockmachines:31" noTooltip /><Tooltip label="Dynamo Hatch">Etiketi: Normal, Çok Amperli, Lazer kullanılabilir</Tooltip> | 0+, Herhangi bir kasa. |
 
-### Wallsharing
+### Duvar Paylaşımı
 
-ATs may wallshare each of their sides to save on casings and even split power. At full throughput, the input EU/t is divided evenly between ATs sharing the same energy hatch or laser target hatch. If one is full or no longer consumes power then the difference is split amongst the remaining ATs.
+AT'ler kasa tasarrufu yapmak ve hatta gücü bölüşmek için her bir yüzünü duvar paylaşımıyla kullanabilir. Tam kapasitede, girdi EU/t aynı enerji kapağını veya lazer hedef kapağını paylaşan AT'ler arasında eşit olarak bölünür. Biri doluysa veya artık güç tüketmiyorsa fark kalan AT'ler arasında paylaştırılır.
 
-## Usage
-The AT receives power from Energy Hatches and outputs power via Dynamo Hatches, similar to the [<ItemLink id="gregtech:gt.blockmachines:13106" showIcon="left" />](./lapotronic_supercapacitor.md). The voltage and amperage do NOT matter. 
+## Kullanım
+AT, Enerji Kapaklarından güç alır ve gücü Dinamo Kapakları aracılığıyla çıkarır; tıpkı [<ItemLink id="gregtech:gt.blockmachines:13106" showIcon="left" />](./lapotronic_supercapacitor.md) (Lapotronik Süperkapasitör) gibi. Gerilim ve amperaj ÖNEMLİ DEĞİLDİR; burada madde değil, güç dönüştürülür. 
 
-This means that your input/output voltage and amperage are entirely influenced only by the Energy/Dynamo Hatches' voltage and maximum amperage, and that no excess power is voided or new power is generated.
+Bu, girdi/çıktı gerilimin ve amperajının tamamen yalnızca Enerji/Dinamo Kapaklarının gerilimine ve maksimum amperajına bağlı olduğu ve fazla gücün yok edilmediği veya yeni güç üretilmediği anlamına gelir.
 
-Since ATs can have multiple inputs and outputs, they can integrate multiple power supplies into a single unit or distribute integrated power across multiple machines through several Dynamo Hatches or Laser Source Hatches.
+AT'ler birden fazla girdi ve çıktıya sahip olabildiğinden, birden fazla güç kaynağını tek bir birimde birleştirebilir veya birleştirilmiş gücü birkaç Dinamo Kapağı ya da Lazer Kaynağı Kapağı aracılığıyla birden fazla makineye dağıtabilir.
 
-Until <ItemLink id="gregtech:gt.blockmachines:15466" showIcon="left" /> becomes available at UHV+, AT is mainly used to redirect the laser power lines.
+<ItemLink id="gregtech:gt.blockmachines:15466" showIcon="left" /> UHV+ seviyesinde kullanılabilir hale gelene kadar AT çoğunlukla lazer güç hatlarını yönlendirmek için kullanılır.
 
-## References
+## Kaynaklar
 - [GTNH Wiki: Active Transformer](https://wiki.gtnewhorizons.com/wiki/Active_Transformer)
