@@ -779,8 +779,14 @@ item.itemCoordSelector.tooltip.detailed.line5=select that specific block.
 item.itemCoordSelector.tooltip.detailed.line6=Can select from a distance.
 enderio.itemCoordSelector.chat.newCoords=New Coords: %s
 enderio.itemCoordSelector.chat.setCoords=Set Coords: %s
-enderio.itemCoordSelector.chat.newDimension=New Dimension: %s%s
-enderio.itemCoordSelector.chat.setDimension=Set Dimension: %s%s
+enderio.itemCoordSelector.chat.newDimension=New Dimension: %s
+enderio.itemCoordSelector.chat.setDimension=Set Dimension: %s
+enderio.itemConduitProbe.chat.copied=Copied conduit settings
+enderio.itemOCConduit.chat.channel=Channel %s at %s
+enderio.itemOCConduit.chat.connectedTo=Connected to: %s
+enderio.itemOCConduit.chat.nodeAt=%s at %s
+enderio.itemOCConduit.chat.noConnections=No connections at %s
+enderio.itemOCConduit.chat.noNetwork=No network at %s
 
 #Painter
 tile.blockPainter.name=Painting Machine
@@ -1146,8 +1152,8 @@ enderio.gui.mjReader.insertedInto=will be inserted into:
 enderio.gui.mjReader.noItems=Receives no items.
 enderio.gui.mjReader.noItem=Can not receive
 enderio.gui.mjReader.receiveItems=Can receive items from:
-enderio.gui.mjReader.receiveItem1=Can receive
-enderio.gui.mjReader.receiveItem2=from:
+enderio.gui.mjReader.receiveItem=Can receive %s from:
+enderio.gui.mjReader.distance=Distance [%s]
 
 #CapactorBank
 enderio.gui.capBank.inputRs=Input Redstone Mode
@@ -1208,8 +1214,7 @@ enderio.gui.blockBuffer.omni.name=Omni Buffer
 enderio.gui.blockBuffer.creative.name=Creative Buffer
 
 #Travel Blocks
-enderio.gui.travelAccessable.privateBlock1=Only
-enderio.gui.travelAccessable.privateBlock2=may change this blocks settings.
+enderio.gui.travelAccessable.privateBlock=Only %s may change this blocks settings.
 enderio.gui.travelAccessable.public=Public
 enderio.gui.travelAccessable.private=Private
 enderio.gui.travelAccessable.protected=Protected
