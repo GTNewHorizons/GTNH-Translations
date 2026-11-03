@@ -12,9 +12,7 @@ chat.warptheory.minorwarp=Es gibt keine Reaktion.
 chat.warptheory.averagewarp=Das Papier nimmt eine kränkliche Farbe an.
 chat.warptheory.majorwarp=Das Papier zerfällt zu Staub.
 chat.warptheory.deadlywarp=Das Papier fängt Feuer.
-chat.warptheory.permanentwarp=Permanenter Warp
-chat.warptheory.normalwarp=Normaler Warp
-chat.warptheory.tempwarp=Temporärer Warp
+chat.warptheory.warpcounts=(%s Permanent Warp, %s Normal Warp, %s Temporary Warp)
 chat.warptheory.potionwarning.1=§c§l§nWARNING§r§c: drinking this potion will reset §lALL warp, research, scanned items, and discovered aspects§r§c!
 chat.warptheory.potionwarning.2=§cContinue drinking for §l10 seconds§r§c if you are absolutely certain you want to reset everything.
 
@@ -141,6 +139,15 @@ chat.warptheory.pumpkin=Du fühlst dich unheimlich...
 chat.warptheory.biomeSnow=Dein Atem kondensiert in der eisigen Luft...
 chat.warptheory.wanddrain=Dein Zauberstab fühlt sich warm an...
 chat.warptheory.witherpotion=Du fühlst dich absolut schrecklich...
+
+# << /warptheory command >>
+commands.warptheory.usage=/warptheory <event> [player]
+commands.warptheory.events=Invalid Syntax, available events are: %s
+commands.warptheory.additional=Additional commands: print purge
+commands.warptheory.noeffects=No active warp effects!
+commands.warptheory.purged=Purged %s!
+commands.warptheory.notfound=Could not find warp event: %s
+commands.warptheory.triggered=Triggered warp event: %s
 
 # << Research stuff >>
 tc.research_category.WT_Category=Warp-Theorie

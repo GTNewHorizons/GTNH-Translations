@@ -781,6 +781,12 @@ enderio.itemCoordSelector.chat.newCoords=Neue Koordinaten: %s
 enderio.itemCoordSelector.chat.setCoords=Festgelegte Koordinaten: %s
 enderio.itemCoordSelector.chat.newDimension=Neue Dimension: %s%s
 enderio.itemCoordSelector.chat.setDimension=Festgelegte Dimension: %s%s
+enderio.itemConduitProbe.chat.copied=Copied conduit settings
+enderio.itemOCConduit.chat.channel=Channel %s at %s
+enderio.itemOCConduit.chat.connectedTo=Connected to: %s
+enderio.itemOCConduit.chat.nodeAt=%s at %s
+enderio.itemOCConduit.chat.noConnections=No connections at %s
+enderio.itemOCConduit.chat.noNetwork=No network at %s
 
 #Painter
 tile.blockPainter.name=Färbemaschine
@@ -1146,8 +1152,8 @@ enderio.gui.mjReader.insertedInto=wird insertiert nach:
 enderio.gui.mjReader.noItems=Empfängt keine Items.
 enderio.gui.mjReader.noItem=Kann nicht empfangen
 enderio.gui.mjReader.receiveItems=Kann Items empfangen von:
-enderio.gui.mjReader.receiveItem1=Kann
-enderio.gui.mjReader.receiveItem2=empfangen von:
+enderio.gui.mjReader.receiveItem=Can receive %s from:
+enderio.gui.mjReader.distance=Distance [%s]
 
 #CapactorBank
 enderio.gui.capBank.inputRs=Input-Redstone-Modus
@@ -1208,8 +1214,7 @@ enderio.gui.blockBuffer.omni.name=Omni Buffer
 enderio.gui.blockBuffer.creative.name=Creative Buffer
 
 #Travel Blocks
-enderio.gui.travelAccessable.privateBlock1=Nur
-enderio.gui.travelAccessable.privateBlock2=darf die Einstellungen dieses Blocks ändern.
+enderio.gui.travelAccessable.privateBlock=Only %s may change this blocks settings.
 enderio.gui.travelAccessable.public=Öffentlich
 enderio.gui.travelAccessable.private=Privat
 enderio.gui.travelAccessable.protected=Geschützt
