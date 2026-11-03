@@ -24,9 +24,9 @@ date: 2026-05-27
 > 并行：每个电压等级从 4 -> 6
 
 ## 建造
-<Color id="GREEN">IEM</Color>没有分级部件。总线/仓可以替换结构上任意位置的机械方块。不支持<Color id="RED">多A能源仓和激光能源仓</Color>，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
+<Color id="GREEN">IEM</Color>没有任意等级部件。总线/仓可以替换结构上任意位置的机械方块。不支持<Color id="RED">多A能源仓和激光能源仓</Color>，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
 
-<Color id="GREEN">IEM</Color>的独特之处在于压模总线：它实际上就是一个带有可配置幽灵槽位（用于放置模头）的输入总线。按住 Shift 点击模头槽位，即可打开包含所有可用选项的菜单。无论输入隔离设置如何，模头都只对其所在总线内的物品生效。压模总线共有四个等级，可提升其内部容量，并最终被样板输入缓冲取代。
+<Color id="GREEN">IEM</Color>的独特之处在于压模总线：它实际上就是一个带有可配置幽灵槽位（用于放置模头）的输入总线。按住 Shift 点击模头槽位，即可打开包含所有可用选项的菜单。无论输入隔离设置如何，模头都只对其所在总线内的物品生效。压模总线共有四个等级，可提升其内部容量，并最终被样板输入总成取代。
 
 ### 需求：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15549"/><ItemImage id="gregtech:gt.blockmachines:15549"/>
@@ -41,8 +41,8 @@ date: 2026-05-27
 - 0+ 输入总线（任意压力抑制机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
 - 0+ 输出总线（任意压力抑制机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 共墙
-<Color id="GREEN">IEM</Color>的每个侧面都可以与其他机器共墙，以节省机械方块和总线/仓。没有配方消耗超过 1A 的电力，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
+### 共用墙壁
+<Color id="GREEN">IEM</Color>的每个侧面都可以与其他机器共用墙壁，以节省机械方块和总线/仓。没有配方消耗超过 1A 的电力，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
 ## 用法
 <Color id="GREEN">IEM</Color>是单方块压模机的直接升级版，它以 350% 的速度运行，并且每个电压等级提供 6 并行，如下表所示。

@@ -26,7 +26,7 @@ date: 2026-05-27
 > - 耗电：同样取决于锯片（最低60%，之前为75%）
 
 ## 建造
-<Color id="GREEN">ICF</Color>没有任何分级部件。玻璃可以是任意等级，且对机器的运行没有影响。总线/仓可以替换结构中任意位置的机械方块。<Color id="RED">激光能源仓</Color>不受支持，但可以放置多个普通能源仓用于超频。若使用超时空金属锯片，则允许放置一个<Color id="GREEN">多A能源仓</Color>。对控制器使用螺丝刀可以关闭动画。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构，并用子频道"glass"指定玻璃的等级。
+<Color id="GREEN">ICF</Color>没有任何任意等级部件。玻璃可以是任意等级，且对机器的运行没有影响。总线/仓可以替换结构中任意位置的机械方块。<Color id="RED">激光能源仓</Color>不受支持，但可以放置多个普通能源仓用于超频。若使用超时空金属锯片，则允许放置一个<Color id="GREEN">多A能源仓</Color>。对控制器使用螺丝刀可以关闭动画。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构，并用子信道"glass"指定玻璃的等级。
 
 ### 所需材料：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15540"/><ItemImage id="gregtech:gt.blockmachines:15540"/>
@@ -40,8 +40,8 @@ date: 2026-05-27
 - 0+ 输入仓（任意框架）<ItemImage id="gregtech:gt.blockmachines:50" />
 - 0+ 输出总线（任意框架）<ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 共墙
-<Color id="GREEN">ICF</Color>的每一面均可与其他机器共墙，以节省机械方块、框架箱、玻璃和总线/仓。没有任何配方的耗电超过1A，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
+### 共用墙壁
+<Color id="GREEN">ICF</Color>的每一面均可与其他机器共用墙壁，以节省机械方块、框架箱、玻璃和总线/仓。没有任何配方的耗电超过1A，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
 ## 用途
 <Color id="GREEN">ICF</Color>是单体切割机的直接升级，因为它的运行速度最高可达450%，EU/t消耗最低只需正常所需的60%，且每级电压最多提供 6 条并行（随电压等级线性增加）。具体加成和能源仓的最高等级取决于控制器中锯片的等级。

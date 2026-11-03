@@ -16,11 +16,11 @@ navigation:
   <ImportStructureLib controller="gregtech:gt.blockmachines:810" />
 </GameScene>
 
-<ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />（ABS）是 IV 等级的多方块机器，用于将粉末熔炼成熔融合金。与[<ItemLink id="gregtech:gt.blockmachines:15566" showIcon="left" />](./industrial_mixing_machine.md)和[<ItemLink id="gregtech:gt.blockmachines:31023" showIcon="left" />](./zyngen.md)相比，直接将粉末处理成熔融合金使 ABS 处理基础合金配方更快、更高效。但 ABS 无法跳级，因此更适合大规模生产，而非等级发展。
+<ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />（ABS）是 IV 等级的多方块机器，用于将粉熔炼成熔融合金。与[<ItemLink id="gregtech:gt.blockmachines:15566" showIcon="left" />](./industrial_mixing_machine.md)和[<ItemLink id="gregtech:gt.blockmachines:31023" showIcon="left" />](./zyngen.md)相比，直接将粉处理成熔融合金使 ABS 处理基础合金配方更快、更高效。但 ABS 无法升压，因此更适合大规模生产，而非等级发展。
 
 ABS 甚至可用于熔炼一些较难处理的合金，例如其他机器都没有配方的铋铅合金140。
 
-没有分级部件或任何加成，也无法跳级，即使使用多个能源仓超频也是如此。
+没有任意等级部件或任何加成，也无法升压，即使使用多个能源仓超频也是如此。
 
 最低机械方块需求很低，因此可以安装许多总线/仓；ABS 有 12 种独特的编程电路来处理所有配方。UV 阶段解锁[<ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" />](./mega_alloy_blast_smelter.md)后，ABS 会被其取代。
 
@@ -45,11 +45,11 @@ ABS 甚至可用于熔炼一些较难处理的合金，例如其他机器都没�
 
 ### 结构
 
-ABS 没有分级部件。
+ABS 没有任意等级部件。
 
 ABS 可以旋转或翻转。
 
-不支持多A能源仓和激光能源仓，但可以安装多个普通能源仓来超频。唯一需要注意的是无法跳级（例如，2 个 IV 能源仓可让 ABS 以 LuV 电压运行，但不能处理 LuV 配方）。
+不支持多A能源仓和激光能源仓，但可以安装多个普通能源仓来超频。唯一需要注意的是无法升压（例如，2 个 IV 能源仓可让 ABS 以 LuV 电压运行，但不能处理 LuV 配方）。
 
 使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 可预览/建造结构。
 
@@ -70,15 +70,15 @@ ABS 可以旋转或翻转。
 
 也可以额外安装一些 <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线以节省机械方块 - 只需确保满足最低要求。
 
-### 共面
+### 共用墙壁
 
-ABS 的每一侧都可以与其他机器共面，以节省机械方块、线圈和总线/仓。不过，考虑到配方所需的编程电路数量众多，减少独立输入总线的数量可能并无太大帮助。
+ABS 的每一侧都可以与其他机器共用墙壁，以节省机械方块、线圈和总线/仓。不过，考虑到配方所需的编程电路数量众多，减少独立输入总线的数量可能并无太大帮助。
 
 ## 用途
 
 下表按电压等级和编程电路（PC）列出全部 71 种配方。总共有 12 种不同的编程电路，需要分配至 8 个输入总线（如果将最后几种合并）。其中一些配方要等解锁[<ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" />](./mega_alloy_blast_smelter.md)后才比较实用。
 
-应在 ABS 上启用输入分离<FloatingImage src="gregtech:textures/gui/overlay_button/input_separation_on.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} />，以防不同输入总线中的固体原料（包括编程电路）被用于同一配方。这样一来，带有许多输入总线的单台 ABS 就能同时支持多种不同编程电路。只要记得机械方块数量不能低于最低要求。无论是否启用输入分离，流体原料**始终共用**，除非给输入仓染色。
+应在 ABS 上启用输入隔离<FloatingImage src="gregtech:textures/gui/overlay_button/input_separation_on.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} />，以防不同输入总线中的固体原料（包括编程电路）被用于同一配方。这样一来，带有许多输入总线的单台 ABS 就能同时支持多种不同编程电路。只要记得机械方块数量不能低于最低要求。无论是否启用输入隔离，流体原料**始终共用**，除非给输入仓染色。
 
 <ContentTabs
   title="Organized ABS Recipes"

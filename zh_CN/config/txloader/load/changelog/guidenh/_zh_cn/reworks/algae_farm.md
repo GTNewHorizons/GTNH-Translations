@@ -22,15 +22,15 @@ date: 2026-05-27
 
 > [!NOTE]
 > 该多方块结构做出了以下改动（结构本身除外）：
-> - 等级玻璃：现已成为结构的必需方块 - UMV 玻璃可解锁其上所有等级
+> - 任意等级玻璃：现已成为结构的必需方块 - UMV 玻璃可解锁其上所有等级
 > - 电力：该结构现在__需要供电__
 > - 速度：每次迭代的速度与产出数量现在取决于电力，而非结构中的机械方块
 
 ## 结构建造
-<Color id="GREEN">藻类农场</Color>有一个分级部件。玻璃决定了能源仓的最高等级，UMV 等级玻璃可解除所有限制。总线/仓可替换结构中任意位置的藻类机械方块。<Color id="RED">多A能源仓和激光能源仓</Color>不受支持，且只能有 1 个常规能源仓。水是启动机器所需的一次性消耗，通过蓄水仓或输入仓注入结构。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/> <ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 配合子通道 "glass" 指定玻璃等级，即可预览/建造该结构。
+<Color id="GREEN">藻类农场</Color>有一个任意等级部件。玻璃决定了能源仓的最高等级，UMV 等级玻璃可解除所有限制。总线/仓可替换结构中任意位置的藻类机械方块。<Color id="RED">多A能源仓和激光能源仓</Color>不受支持，且只能有 1 个常规能源仓。水是启动机器所需的一次性消耗，通过蓄水仓或输入仓注入结构。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/> <ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 配合子信道 "glass" 指定玻璃等级，即可预览/建造该结构。
 
-### 共墙
-<Color id="GREEN">藻类农场</Color>可在各自侧面共墙，以节省机械方块、玻璃以及总线/仓。没有配方会消耗超过 1A 的电力，因此可以在 <u>__两__</u> 台机器之间共享 <u>__一__</u> 个能源仓。
+### 共用墙壁
+<Color id="GREEN">藻类农场</Color>可在各自侧面共用墙壁，以节省机械方块、玻璃以及总线/仓。没有配方会消耗超过 1A 的电力，因此可以在 <u>__两__</u> 台机器之间共享 <u>__一__</u> 个能源仓。
 
 ## 用法
 <Color id="GREEN">藻类农场</Color>除了电力之外不需要任何输入即可运行，且不产生污染。每次迭代的时长以及产出的藻类种类/数量取决于能源仓的等级。许多产出并无保证，而是有 90% 的概率生成。例如，一台 HV 藻类农场总是产出 1 个褐藻，并有 90% 的概率额外产出 4 个，即每次迭代总计 5 个，平均每秒 0.066 个。

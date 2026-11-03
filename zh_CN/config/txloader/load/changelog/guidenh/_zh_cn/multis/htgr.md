@@ -48,7 +48,7 @@ date: 2026-05-31
 - 1 个输出总线（用于燃尽的 TRISO 球）<ItemImage id="gregtech:gt.blockmachines:80" />
 - 2 个输出仓（一个用于热冷却液，一个用于蒸汽）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### 共墙：
+### 共用墙壁：
 由于总线/仓的位置限制以及控制器无法旋转或翻转，<Color id="GREEN">HTGR</Color> 无法与其他结构共用任何主要部分。连反应堆部分也无法共用，因为它并非完全对称。 
 
 ## 用法：
@@ -62,7 +62,7 @@ date: 2026-05-31
 ## 燃料：
 <Color id="GREEN">HTGR</Color> 使用 TRISO 球（不是燃料芯块）作为燃料。总共有 9 种不同类型，如有必要，它们可以同时用于同一台机器。开始处理所需的最低燃料量为 100 个 TRISO 球，但只要少于最大值 10,000 个 TRISO 球，就会降低机器效率，如下方公式和图表所示。
 
-TRISO 球根据其制作材料拥有各自的材料属性。在 NEI 提示信息中，它显示为“Properties: [x], [y], [z]”，将鼠标悬停在这里即可看到：<ItemImage id="kubatech:htgr_item_burnerd_triso_fuel:3"/>。这些属性分别是基数（$$b$$）、倍率（$$m$$）和指数（$$e$$），与发电量以及处理时间直接相关，本章后文将详细介绍：
+TRISO 球根据其制作材料拥有各自的材料属性。在 NEI tooltip 中，它显示为“Properties: [x], [y], [z]”，将鼠标悬停在这里即可看到：<ItemImage id="kubatech:htgr_item_burnerd_triso_fuel:3"/>。这些属性分别是基数（$$b$$）、倍率（$$m$$）和指数（$$e$$），与发电量以及处理时间直接相关，本章后文将详细介绍：
 
 机器运行时效率无法提升，且效率不能超过 100%。每个维护问题会使最大效率降低 20%。 
 

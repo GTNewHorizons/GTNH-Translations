@@ -30,7 +30,7 @@ date: 2026-05-23
 
 
 ## 建造
-<Color id="GREEN">无人机控制中心</Color>没有任何分级部件，也不需要维护仓、能源仓或消声仓。它唯一需要的是一个用于放入无人机的输入总线。汉麻混凝土可以是任意颜色，对机器的运行没有影响。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来预览/搭建结构。
+<Color id="GREEN">无人机控制中心</Color>没有任何任意等级部件，也不需要维护仓、能源仓或消声仓。它唯一需要的是一个用于放入无人机的输入总线。汉麻混凝土可以是任意颜色，对机器的运行没有影响。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来预览/搭建结构。
 
 <Color id="GREEN">无人机控制中心</Color>的独特之处在于<Color id="BLUE">无人机下行模块</Color>：它安装在其他机器上、取代其维护仓，将这些机器接入网络，从而实现自动维护修理、电源控制和监控。无人机下行模块每10秒搜索一次在线的无人机控制中心，直到找到为止，因此请尽量不要放置太多没有有效连接的模块，以免造成卡顿尖峰。右键点击无人机下行模块可以为宿主机器重命名，便于识别。
 
@@ -43,8 +43,8 @@ date: 2026-05-23
 - 20-26 <ItemLink id="gregtech:gt.blockcasings2" /> <ItemImage id="gregtech:gt.blockcasings2" />
 - 1+ 输入总线（任意钢机械方块处） <ItemImage id="gregtech:gt.blockmachines:70" />
 
-### 共墙
-多台机器可以共墙共用同一个<Color id="BLUE">无人机下行模块</Color>，完全没有任何问题；各控制器会在电源控制和监控中分别显示。
+### 共用墙壁
+多台机器可以共用墙壁共用同一个<Color id="BLUE">无人机下行模块</Color>，完全没有任何问题；各控制器会在电源控制和监控中分别显示。
 
 ## 用途
 <Color id="RED">无人机</Color>通过结构上的输入总线放入。机器启动时，控制器会消耗一台可用的最高等级无人机，为范围内所有安装了<Color id="BLUE">无人机下行模块</Color>的机器提供服务。当前无人机会一直运行，直到按每秒随机概率“坠毁”。发生这种情况时，当前无人机会被清除，可用的次高等级无人机会接替其职责。如有需要，可在控制器的WAILA中查看当前无人机的等级，并通过拆除控制器将其取回。
@@ -64,4 +64,4 @@ date: 2026-05-23
 <Latex formula="\text{Distance} = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2 + (z_1 - z_2)^2}" />
 
 ### 电源控制
-所有安装了<Color id="BLUE">无人机下行模块</Color>的机器都会出现在控制器GUI的机器列表中。可以对这些机器进行重命名、在世界中标亮以及远程启用/禁用。控制器GUI中还有按钮可以启用/禁用同一维度内的所有机器，无论距离多远。在断电后想要重新启用所有设备时，或者在准备升级/搬运 <ItemLink id="gregtech:gt.blockmachines:13106" /> 时，电源控制极为有用。
+所有安装了<Color id="BLUE">无人机下行模块</Color>的机器都会出现在控制器GUI的机器列表中。可以对这些机器进行重命名、在世界中标亮以及远程启用/禁用。控制器GUI中还有按钮可以启用/禁用同一维度内的所有机器，无论距离多远。在电力故障后想要重新启用所有设备时，或者在准备升级/搬运 <ItemLink id="gregtech:gt.blockmachines:13106" /> 时，电源控制极为有用。

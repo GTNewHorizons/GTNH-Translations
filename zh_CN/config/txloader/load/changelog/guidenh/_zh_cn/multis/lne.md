@@ -19,7 +19,7 @@ date: 2026-05-25
 <br clear="all"/>
 
 ## 建造：
-<Color id="GREEN">LNE</Color>有一种分级组件。所使用的“主机械方块”决定了机器的等级，进而决定了机器的基础衰减值与容量。输入仓、输入总线、动力仓以及毒性残留物感应仓（下文说明）可以替换任意“主”机械方块。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/> <ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
+<Color id="GREEN">LNE</Color>有一种任意等级组件。所使用的“主机械方块”决定了机器的等级，进而决定了机器的基础衰减值与容量。输入仓、输入总线、动力仓以及毒性残留物感应仓（下文说明）可以替换任意“主”机械方块。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/> <ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
 | 等级 | 机械方块 |
 | -------------- | --------------- |
 | 1 | 强化无机机械方块 <ItemImage id="gregtech:gt.blockcasings12:5"/> |
@@ -29,15 +29,15 @@ date: 2026-05-25
 ### 需求：
 - 1 <ItemLink id="gregtech:gt.blockmachines:31088"/> <ItemImage id="gregtech:gt.blockmachines:31088"/>
 - 34 <ItemLink id="gregtech:gt.blockframes:473"/><ItemImage id="gregtech:gt.blockframes:473"/>
-- 30-46 个分级“主”机械方块 <ItemImage id="gregtech:gt.blockcasings12:5"/>
+- 30-46 个任意等级“主”机械方块 <ItemImage id="gregtech:gt.blockcasings12:5"/>
 - 15 <ItemLink id="gregtech:gt.blockcasings8:1"/><ItemImage id="gregtech:gt.blockcasings8:1"/>
-- 1+ 动力仓（任意分级机械方块）<ItemImage id="gregtech:gt.blockmachines:15230"/>
-- 1+ 输入仓（任意分级机械方块）<ItemImage id="gregtech:gt.blockmachines:50"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:3019"/>（任意分级机械方块）<ItemImage id="gregtech:gt.blockmachines:3019"/>
-- 0+ 输入总线（任意分级机械方块）<ItemImage id="gregtech:gt.blockmachines:70"/>
+- 1+ 动力仓（任意等级机械方块）<ItemImage id="gregtech:gt.blockmachines:15230"/>
+- 1+ 输入仓（任意等级机械方块）<ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:3019"/>（任意等级机械方块）<ItemImage id="gregtech:gt.blockmachines:3019"/>
+- 0+ 输入总线（任意等级机械方块）<ItemImage id="gregtech:gt.blockmachines:70"/>
 
-### 共墙：
-<Color id="GREEN">LNE</Color>的各个侧面都可以与其他 LNE 共墙，以节省机械方块、铅青铜框架以及总线/仓的用量。
+### 共用墙壁：
+<Color id="GREEN">LNE</Color>的各个侧面都可以与其他 LNE 共用墙壁，以节省机械方块、铅青铜框架以及总线/仓的用量。
 
 ## 用法：
 <Color id="GREEN">LNE</Color>可以使用酸类发电。可用的酸类种类繁多，而且其中许多的 EU 价值都经过调整，因此很有必要回头核对一下你以前爱用的那几种。除此之外，还新增了几条酸类产品线，包括全新的<ItemLink id="gregtech:gt.metaitem.01:2177"/><ItemImage id="gregtech:gt.metaitem.01:2177"/>。
@@ -64,4 +64,4 @@ date: 2026-05-25
 当<Color id="GREEN">LNE</Color>处于停用状态时，残留物的衰减速度会慢 10 倍，因此上述公式并非在任何时候都能直接套用。
 
 ## 毒性残留物感应仓 <ItemImage id="gregtech:gt.blockmachines:3019"/>
-<Color id="GREEN">毒性残留物感应仓</Color>可以替换任意分级机械方块，让这台发电机（尤其是危险系统方面）的自动化更加容易。它会读取发电机的<Color id="RED">毒性残留物</Color>，并自带 GUI，可配置基于特定阈值输出红石信号的设置。
+<Color id="GREEN">毒性残留物感应仓</Color>可以替换任意等级机械方块，让这台发电机（尤其是危险系统方面）的自动化更加容易。它会读取发电机的<Color id="RED">毒性残留物</Color>，并自带 GUI，可配置基于特定阈值输出红石信号的设置。

@@ -36,21 +36,21 @@ date: 2026-05-27
 ## 建造
 <Color id="GREEN">大型锅炉</Color>共有四个等级，但它们之间唯一的结构差异在于机械方块的类型和控制器本身。输入仓和输出仓只能放在结构中任意位置的管道方块上，其余总线/仓则只能放在结构中任意位置的普通机械方块上。它没有能源仓，因为不消耗电力。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可视化/搭建结构。
 
-假设板材用弯板机制作、杆用锉刀制作，建造一台大型青铜锅炉 <ItemImage id="gregtech:gt.blockmachines:15529"/> 需要 382 个青铜锭和 33 个砖块；若把最后两个管道方块替换为 ULV 输入仓，总量可降至 342 个青铜锭。若杆用压模机制作，且最后两个管道方块替换为 ULV 输入仓，则建造一台大型钢锅炉 <ItemImage id="gregtech:gt.blockmachines:15530"/> 需要 362 个钢锭。
+假设板材用卷板机制作、杆用锉刀制作，建造一台大型青铜锅炉 <ItemImage id="gregtech:gt.blockmachines:15529"/> 需要 382 个青铜锭和 33 个砖块；若把最后两个管道方块替换为 ULV 输入仓，总量可降至 342 个青铜锭。若杆用压模机制作，且最后两个管道方块替换为 ULV 输入仓，则建造一台大型钢锅炉 <ItemImage id="gregtech:gt.blockmachines:15530"/> 需要 362 个钢锭。
 
 ### 所需：
-- 1 大型锅炉（分级控制器） <ItemImage id="gregtech:gt.blockmachines:15529"/>
-- 24-36 机械方块（分级） <ItemImage id="gregtech:gt.blockcasings:10"/>
-- 3-11 燃烧室方块（分级） <ItemImage id="gregtech:gt.blockcasings3:13"/>
-- 0-2 管道方块（分级） <ItemImage id="gregtech:gt.blockcasings2:12"/>
+- 1 大型锅炉（任意等级控制器） <ItemImage id="gregtech:gt.blockmachines:15529"/>
+- 24-36 机械方块（任意等级） <ItemImage id="gregtech:gt.blockcasings:10"/>
+- 3-11 燃烧室方块（任意等级） <ItemImage id="gregtech:gt.blockcasings3:13"/>
+- 0-2 管道方块（任意等级） <ItemImage id="gregtech:gt.blockcasings2:12"/>
 - 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
 - 1+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
 - 0+ 输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
 - 0+ 输出仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### 共墙
-<Color id="GREEN">大型锅炉</Color>的每一面都可与其他机器共墙，以节省机械方块和总线/仓。这包括用于燃料和水的输入总线/仓，以及用于蒸汽的输出仓——前提是后者足够大，能容纳所有共用机器的合计输出。
+### 共用墙壁
+<Color id="GREEN">大型锅炉</Color>的每一面都可与其他机器共用墙壁，以节省机械方块和总线/仓。这包括用于燃料和水的输入总线/仓，以及用于蒸汽的输出仓——前提是后者足够大，能容纳所有共用机器的合计输出。
 
 ## 用法
 <Color id="GREEN">大型锅炉</Color>燃烧可燃燃料，将水蒸发为蒸汽或过热（SH）蒸汽。密度更高的燃料燃烧时间自然更长，还会获得与总燃烧时间成正比的奖励刻。燃烧时间低于 400 的固体燃料不允许投入大型青铜锅炉，燃烧时间低于 1,000 的固体燃料不允许投入大型钢锅炉。大型钛锅炉和大型钨钢锅炉只允许使用固体超级燃料与魔法超级燃料。

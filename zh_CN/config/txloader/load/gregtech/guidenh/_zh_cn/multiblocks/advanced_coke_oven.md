@@ -51,9 +51,9 @@ ACO 完全无法旋转。
 | --- | --- |
 | <ItemLink id="Railcraft:machine.alpha:12" showIcon="left" /> | 34 个，3x3x4，中间挖空 1x1x2 |
 
-### 共墙
+### 共用墙壁
 
-作为 Railcraft 多方块机器，**ACO 的结构任何部分都<Color id="red">不能共面</Color>**，且必须与其他 ACO 至少间隔一个方块才能成型。
+作为 Railcraft 多方块机器，**ACO 的结构任何部分都<Color id="red">不能共用墙壁</Color>**，且必须与其他 ACO 至少间隔一个方块才能成型。
 
 ## 用途
 
@@ -65,7 +65,7 @@ ACO 可将原木制成木炭，每秒产出 1 个。速度是基础[<ItemLink id
 
 可从结构任意一侧的任意方块输入物品，也可从任意一侧的任意方块提取产物。ACO 不会自动从相邻容器拉取物品，但会自动推送物品。
 
-侧边示意图展示了使用末影接口管道实现自动供料循环的示例。
+侧边示意图展示了使用Ender IO管道实现自动供料循环的示例。
 
 ### 木炭产速对比
 
@@ -75,7 +75,7 @@ ACO 可将原木制成木炭，每秒产出 1 个。速度是基础[<ItemLink id
 
 | 超频 | 热解炉（普通） ||| 热解炉（使用氮气） ||| ACO |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ^^ | 白铜 | 坎塔尔合金 | 镍铬合金 | 白铜 | 坎塔尔合金 | 镍铬合金 | ^^ |
+| ^^ | 白铜 | 坎塔尔 | 镍铬合金 | 白铜 | 坎塔尔 | 镍铬合金 | ^^ |
 | 0(MV) | <Color id="red">0.313/s</Color> | <Color id="red">0.625/s</Color> | <Color id="green">0.939/s</Color> | <Color id="red">0.625/s</Color> | <Color id="green">1.250/s</Color> | <Color id="green">1.887/s</Color> | 0.938/s |
 | 1(HV) | <Color id="red">0.625/s</Color> | <Color id="green">1.250/s</Color> | <Color id="green">1.887/s</Color> | <Color id="green">1.250/s</Color> | <Color id="green">2.500/s</Color> | <Color id="green">3.774/s</Color> | ^^ |
 | 2(EV) | <Color id="green">1.250/s</Color> | <Color id="green">2.500/s</Color> | <Color id="green">3.774/s</Color> | <Color id="green">2.500/s</Color> | <Color id="green">5.000/s</Color> | <Color id="green">7.692/s</Color> | ^^ |

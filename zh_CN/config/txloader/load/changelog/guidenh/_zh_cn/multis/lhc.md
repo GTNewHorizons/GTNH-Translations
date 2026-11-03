@@ -72,8 +72,8 @@ date: 2026-05-25
 - 16 <ItemLink id="gtnhlanth:casing.shielded_accelerator"/><ItemImage id="gtnhlanth:casing.shielded_accelerator"/>
 - 8 <ItemLink id="gregtech:gt.blockmachines:3014"/><ItemImage id="gregtech:gt.blockmachines:3014"/>
 
-### 共墙：
-虽然<Color id="GREEN">LHC</Color>在*技术上*可以共墙建造，但出于多种原因并不建议这样做，最主要的一条是：你实际上几乎永远用不到第二台！
+### 共用墙壁：
+虽然<Color id="GREEN">LHC</Color>在*技术上*可以共用墙壁建造，但出于多种原因并不建议这样做，最主要的一条是：你实际上几乎永远用不到第二台！
 
 ## 用法：
 <Color id="GREEN">LHC</Color>有两种使用模式：<Color id="BLUE">加速器模式</Color>与<Color id="RED">对撞机模式</Color>。控制器自带一个 GUI，可配置目标束流能量（eV）与最大加速循环数。机器运行过程中这些参数不可更改，否则机器会停机。
@@ -85,18 +85,18 @@ date: 2026-05-25
 
 <Latex formula="\text{Beam Energy Increase}  \text{EU Consumed in cycle} \times 0.1\text{eV}"/>
 
-如果达到了目标束流能量，后续循环中束流速率就会反复乘以 1.3。机器的功率起步为每单位束流速率 1A 的 UV 电流，并随已完成循环数的增加呈二次增长，如下式所示。当达到目标束流循环数时，该模式会自动切换为<Color id="RED">对撞机模式</Color>。由于功率随循环数增长，运行的循环数越多，机器就越接近无损的 4/4 超频。
+如果达到了目标束流能量，后续循环中束流通量就会反复乘以 1.3。机器的功率起步为每单位束流通量 1A 的 UV 电流，并随已完成循环数的增加呈二次增长，如下式所示。当达到目标束流循环数时，该模式会自动切换为<Color id="RED">对撞机模式</Color>。由于功率随循环数增长，运行的循环数越多，机器就越接近无损的 4/4 超频。
 
 <Latex formula="\text{Power} = R_0 \times a^N \times N^2">
   其中：
-  - $$R_0 = $$ 初始速率
+  - $$R_0 = $$ 初始通量
   - $$a = $$ 乘数因子
   - $$N = $$ 循环次数
 </Latex>
-将鼠标悬停在上述公式上，可查看显示各项含义的提示框
+将鼠标悬停在上述公式上，可查看显示各项含义的 tooltip
 
 ### 束流：
-如果你以前用过回旋加速器，可能会注意到 LHC 不再以简单“物品”的形式输出粒子。相反，粒子现在以“粒子包”的形式内部储存在束流中，类似于研究站中数据包所用的概念。这些粒子包有四种属性：类型、能量、速率与焦点。焦点不会被 LHC 或束流合成器直接使用。
+如果你以前用过回旋加速器，可能会注意到 LHC 不再以简单“物品”的形式输出粒子。相反，粒子现在以“粒子包”的形式内部储存在束流中，类似于研究站中数据包所用的概念。这些粒子包有四种属性：类型、能量、通量与聚焦度。聚焦度不会被 LHC 或束流合成器直接使用。
 
 束流通过<ItemLink id="gregtech:gt.blockmachines:10502"/><ItemImage id="gregtech:gt.blockmachines:10502"/>从输出仓传输至目的地。
 
@@ -105,7 +105,7 @@ date: 2026-05-25
 1. 多方块结构上安装的模块
 2. 束流的碰撞能量
 
-只要为某个粒子安装了正确的模块，所有静止质量_低于_碰撞能量的粒子都有机会出现在输出束流中。粒子的静止质量可以在 NEI 中通过粒子提示框查看。NEI 也会显示获得该特定输出所需的模块。多个模块可能都能产出同一种粒子。<ItemLink id="gregtech:gt.blockmachines:3014"/><ItemImage id="gregtech:gt.blockmachines:3014"/>可用于将某些粒子加入黑名单，使其不出现在输出束流中。
+只要为某个粒子安装了正确的模块，所有静止质量_低于_碰撞能量的粒子都有机会出现在输出束流中。粒子的静止质量可以在 NEI 中通过粒子的 tooltips 查看。NEI 也会显示获得该特定输出所需的模块。多个模块可能都能产出同一种粒子。<ItemLink id="gregtech:gt.blockmachines:3014"/><ItemImage id="gregtech:gt.blockmachines:3014"/>可用于将某些粒子加入黑名单，使其不出现在输出束流中。
 
 束流生成后，可以使用束流管道将其输送到目的地，通常是一台[束流合成器](beamcrafter.md) <ItemImage id="gregtech:gt.blockmachines:3015"/>
 

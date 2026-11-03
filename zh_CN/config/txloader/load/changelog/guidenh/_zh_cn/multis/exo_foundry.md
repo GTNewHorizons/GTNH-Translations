@@ -19,7 +19,7 @@ date: 2026-05-25
 <br clear="all"/>
 
 ## 建造：
-<Color id="GREEN">异星铸造塔</Color> 有三个等级。三者之间唯一的结构差异是磁力塔架方块，唯一的功能差异是模块槽位数量（2/3/4）。总线/仓可以替换结构中任意位置的 <Color id="GREEN">异星铸造塔</Color> 基础机械方块。最低机械方块数量要求最多可支持 25 个输入位，对应总共 35 个模具。支持 <Color id="RED">多A能源仓与激光能源仓</Color>，但若没有极冷机械方块 <ItemImage id="gregtech:gt.foundrycasings:9"/> 或日耀投射强化机械方块 <ItemImage id="gregtech:gt.foundrycasings:7" /> 模块，<Color id="GREEN">异星铸造塔</Color> 无法超频到超出能源仓的电压等级。本机器没有维护仓和消声仓。用螺丝刀右键点击控制器可关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来可视化/搭建结构，并用子通道 "chassis" 指定磁力塔架方块的等级。
+<Color id="GREEN">异星铸造塔</Color> 有三个等级。三者之间唯一的结构差异是磁力塔架方块，唯一的功能差异是模块槽位数量（2/3/4）。总线/仓可以替换结构中任意位置的 <Color id="GREEN">异星铸造塔</Color> 基础机械方块。最低机械方块数量要求最多可支持 25 个输入位，对应总共 35 个模具。支持 <Color id="RED">多A能源仓与激光能源仓</Color>，但若没有极冷机械方块 <ItemImage id="gregtech:gt.foundrycasings:9"/> 或日耀投射强化机械方块 <ItemImage id="gregtech:gt.foundrycasings:7" /> 模块，<Color id="GREEN">异星铸造塔</Color> 无法超频到超出能源仓的电压等级。本机器没有维护仓和消声仓。用螺丝刀右键点击控制器可关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来可视化/搭建结构，并用子信道 "chassis" 指定磁力塔架方块的等级。
 
 在控制器的 GUI 中选择要使用的模块，然后用多方块机器全息投影仪将其搭建出来。模块会以环绕中央立柱的圆环形式出现，其数据汇总在控制器 GUI 的“显示机器信息”下方。模块的顺序不影响机器的运行。移除模块的方法是：先在选择菜单中按住 Shift 左键点击该模块，再用 <ItemLink id="gregtech:gt.Tool_Vajra" /> <ItemImage id="gregtech:gt.Tool_Vajra" /> 或其他工具将其物理摧毁。
 ### 所需方块：
@@ -27,7 +27,7 @@ date: 2026-05-25
 - 548 <ItemLink id="gregtech:gt.blockglass1:7" /> <ItemImage id="gregtech:gt.blockglass1:7" />
 - 462-486 <ItemLink id="gregtech:gt.foundrycasings" /> <ItemImage id="gregtech:gt.foundrycasings" />
 - 281 <ItemLink id="gregtech:gt.foundrycasings:11" /> <ItemImage id="gregtech:gt.foundrycasings:11" />
-- 260 _磁力塔架（分级）_ <ItemImage id="gregtech:gt.foundrycasings:1" />
+- 260 _磁力塔架（任意等级）_ <ItemImage id="gregtech:gt.foundrycasings:1" />
 - 224 <ItemLink id="gregtech:gt.blockframes:132" /> <ItemImage id="gregtech:gt.blockframes:132" />
 - 196 <ItemLink id="gregtech:gt.foundrycasings:12" /> <ItemImage id="gregtech:gt.foundrycasings:12" />
 - 173 <ItemLink id="gregtech:gt.blockcasings11:7" /><ItemImage id="gregtech:gt.blockcasings11:7" />
@@ -36,8 +36,8 @@ date: 2026-05-25
 - 0+ _输入仓（任意 异星铸造塔基础机械方块）_ <ItemImage id="gregtech:gt.blockmachines:50" />
 - 0+ _输出总线（任意 异星铸造塔基础机械方块）_ <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 共墙：
-各个 <Color id="GREEN">异星铸造塔</Color> 的每一侧都可以与其他多方块共墙，以节省机械方块、模块部件和总线/仓。但不要共用能源仓，因为只要还有可用的并行或超频空间，机器就会尽可能多地拉取电流。
+### 共用墙壁：
+各个 <Color id="GREEN">异星铸造塔</Color> 的每一侧都可以与其他多方块共用墙壁，以节省机械方块、模块部件和总线/仓。但不要共用能源仓，因为只要还有可用的并行或超频空间，机器就会尽可能多地拉取电流。
 
 # 模块：
 在没有任何模块时，<Color id="GREEN">异星铸造塔</Color> 以 <Color id="RED">150%</Color> 的速度运行，且每电压等级提供 <Color id="BLUE">16</Color> 并行，如下表所示。没有日耀投射强化机械方块 <ItemImage id="gregtech:gt.foundrycasings:7" /> 模块时，它也无法运行 UIV+ 配方。与最大速度下的 <Color id="RED">大规模固化器</Color> 相比，这更慢、效率更低、限制也更多，但这些只是机器的基础数据，每安装一个模块都会显著改善。决定并行数的有效电压不像超频那样受能源仓等级上限约束，但无论安培数是多少，都必须安装多个能源仓。
@@ -55,7 +55,7 @@ date: 2026-05-25
 
 总共有七种模块，根据结构等级有 2/3/4 个模块槽位。在控制器的 GUI 中选择要使用的模块。各模块可以互不相同，也可以相同以叠加加成。唯一的例外是极冷机械方块 <ItemImage id="gregtech:gt.foundrycasings:9" />、感知超频机械方块 <ItemImage id="gregtech:gt.foundrycasings:5" /> 和宇宙坍缩者机械方块 <ItemImage id="gregtech:gt.foundrycasings:4" /> 模块，它们在每个 <Color id="GREEN">异星铸造塔</Color> 中的数量上限均为 1。
 
-日耀投射强化机械方块 <ItemImage id="gregtech:gt.foundrycasings:7" /> 和感知超频机械方块 <ItemImage id="gregtech:gt.foundrycasings:5" /> 模块都会提高机器的超频系数；这是一项独特机制，会让每次超频的速度加成更高。例如，一次非完美超频消耗 4 倍电力换取 2 倍速度，而将超频系数提高 0.35 后，异星铸造塔 则会消耗 4 倍电力换取 2.35 倍速度。
+日耀投射强化机械方块 <ItemImage id="gregtech:gt.foundrycasings:7" /> 和感知超频机械方块 <ItemImage id="gregtech:gt.foundrycasings:5" /> 模块都会提高机器的超频系数；这是一项独特机制，会让每次超频的速度加成更高。例如，一次有损超频消耗 4 倍电力换取 2 倍速度，而将超频系数提高 0.35 后，异星铸造塔 则会消耗 4 倍电力换取 2.35 倍速度。
 
 ## 超致密铸造盆机械方块 <ItemImage id="gregtech:gt.foundrycasings:8"/>
 SCB 模块（UEV）在基础每电压等级 16 并行之上再增加每电压等级 12 并行，并将机械方块的最低数量要求减少 36。即每电压等级总共 28 并行，且有足够空间容纳 61 个输入位来对应总共 35 个模具。每个 异星铸造塔 中 SCB 模块的数量没有限制。将 SCB 与流线型铸造机械方块模块组合可解锁“最优生产”，这是一次性加成：每电压等级 +6 并行以及 +75% 速度。
@@ -150,7 +150,7 @@ HR 模块（UIV）为 异星铸造塔 解锁 UIV+ 配方。这包括所有以海
 - 12 <ItemLink id="gregtech:gt.blockframes:588"/><ItemImage id="gregtech:gt.blockframes:588"/>
 
 ## 感知超频机械方块 <ItemImage id="gregtech:gt.foundrycasings:5"/>
-SO 模块（UMV）将机器的超频系数提高 0.35。这意味着每次非完美超频都会额外提供 35% 速度，如下表所示。每个 异星铸造塔 的 SO 模块上限为 1 个。将 SO 与原型电压稳定机械方块模块组合可解锁“谐和效率”，这是一次性加成：-50% EU/t 和 +0.1 超频系数。
+SO 模块（UMV）将机器的超频系数提高 0.35。这意味着每次有损超频都会额外提供 35% 速度，如下表所示。每个 异星铸造塔 的 SO 模块上限为 1 个。将 SO 与原型电压稳定机械方块模块组合可解锁“谐和效率”，这是一次性加成：-50% EU/t 和 +0.1 超频系数。
 | 速度 | 1 次超频 | 2 次超频 | 3 次超频 | 4 次超频 | 5 次超频 |
 | --------------- | --------------- | --------------- | --------------- | --------------- |--------------- |
 | 基础 | 200% | 400% | 800% | 1,600% | 3,200% |
@@ -167,7 +167,7 @@ SO 模块（UMV）将机器的超频系数提高 0.35。这意味着每次非完
 - 16 <ItemLink id="gregtech:gt.blockframes:327"/> <ItemImage id="gregtech:gt.blockframes:327"/>
 
 ## 宇宙坍缩者机械方块 <ItemImage id="gregtech:gt.foundrycasings:4"/>
-UC 模块（UXV）使能耗乘以 4 倍、速度乘以 2 倍，并将机械方块的最低数量要求增加 20。这实际上相当于一次强制的非完美超频，并且在总共 35 个模具之外只留下容纳 5 个输入位的空间。每个 异星铸造塔 的 UC 模块上限为 1 个。将 UC 与极冷机械方块模块组合可解锁“实现潜能”，这是一次性加成：允许将永恒用作冷却液以获得最多 3 次额外超频，同时使能耗乘以 2 倍、速度乘以 2 倍。
+UC 模块（UXV）使能耗乘以 4 倍、速度乘以 2 倍，并将机械方块的最低数量要求增加 20。这实际上相当于一次强制的有损超频，并且在总共 35 个模具之外只留下容纳 5 个输入位的空间。每个 异星铸造塔 的 UC 模块上限为 1 个。将 UC 与极冷机械方块模块组合可解锁“实现潜能”，这是一次性加成：允许将永恒用作冷却液以获得最多 3 次额外超频，同时使能耗乘以 2 倍、速度乘以 2 倍。
 
 ### 所需方块：
 - 72 <ItemLink id="tectech:gt.blockcasingsBA0:11"/> <ItemImage id="tectech:gt.blockcasingsBA0:11"/>

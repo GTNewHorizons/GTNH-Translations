@@ -115,7 +115,7 @@ item_ids:
 
 （可选）合成协处理器单元可提升CPU的运行速率，使系统能够更频繁地从<ItemLink id="appliedenergistics2:tile.BlockInterface" />发送原料批次，从而跟上高速机器的处理速度。例如，当被多个<ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />环绕的接口发送批次的速度快于单个装配室的处理速度时，它会把批次分配给多个装配室。
 
-有些复杂配方包含可以并行执行的多个步骤，例如为书架同时制作木板和书本。在合成状态界面（右键点击CPU，或在[终端](terminals.md)中点击锤子图标打开）中，这些步骤显示为“scheduled”。每个协处理器单元可以让一个额外的此类步骤并行运行，此时它显示为“crafting”。实际上，添加协处理器单元通常是为了提高批次插入速度，而不是为了增加并行配方步骤的数量。
+有些复杂配方包含可以并行执行的多个步骤，例如为书架同时制作木板和书本。在合成状态界面（右键点击CPU，或在[终端](terminals.md)中点击锻造锤图标打开）中，这些步骤显示为“scheduled”。每个协处理器单元可以让一个额外的此类步骤并行运行，此时它显示为“crafting”。实际上，添加协处理器单元通常是为了提高批次插入速度，而不是为了增加并行配方步骤的数量。
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingUnit:1" />
 

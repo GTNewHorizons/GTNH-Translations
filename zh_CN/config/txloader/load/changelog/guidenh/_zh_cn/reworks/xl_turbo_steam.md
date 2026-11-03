@@ -28,13 +28,13 @@ date: 2026-05-27
 
 ## 建造
 
-<Color id="GREEN">XLST</Color>没有分等级的组件。玻璃可以是任意等级，对机器的运行没有影响。螺线管线圈必须为 MV 等级，同样对机器的运行没有影响。总线/仓可以替换结构中任意位置的涡轮机械方块。支持<Color id="GREEN">多A动力仓与激光动力仓</Color>以进行大规模发电，且可以放置多个。该机器没有消声仓，因此不要放入消声仓。通过输入总线或控制器的 GUI 插入涡轮。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构，并通过子通道 "glass" 指定玻璃的等级。
+<Color id="GREEN">XLST</Color>没有任意等级的组件。玻璃可以是任意等级，对机器的运行没有影响。螺线管线圈必须为 MV 等级，同样对机器的运行没有影响。总线/仓可以替换结构中任意位置的涡轮机械方块。支持<Color id="GREEN">多A动力仓与激光动力仓</Color>以进行大规模发电，且可以放置多个。该机器没有消声仓，因此不要放入消声仓。通过输入总线或控制器的 GUI 插入涡轮。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构，并通过子信道 "glass" 指定玻璃的等级。
 
 ### 所需：
 - 1 个特大蒸汽涡轮控制器（取决于类型）<ItemImage id="gregtech:gt.blockmachines:15519"/>
 - 372-439 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:1"/>
 - 100 个管道方块（取决于类型）<ItemImage id="gregtech:gt.blockcasings2:13"/>
-- 36 个等级玻璃（任意）
+- 36 个任意等级玻璃
 - 34 个铅青铜框架（取决于类型）<ItemImage id="gregtech:gt.blockframes:305"/>
 - 20 <ItemLink id="gregtech:gt.blockcasings.cyclotron_coils"/><ItemImage id="gregtech:gt.blockcasings.cyclotron_coils"/>
 - 16 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>
@@ -44,14 +44,14 @@ date: 2026-05-27
 - 1+ 个输入仓（任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:50" />
 - 1+ 个输出仓（任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### 共墙
-<Color id="GREEN">XLST</Color>的每一面都可以与其他机器共墙，以节省机械方块、铅青铜框架和总线/仓。但是，请勿共享输入仓，因为燃料不会在<Color id="GREEN">XLST</Color>之间平均分配——一台会消耗全部燃料，另一台则什么都得不到。
+### 共用墙壁
+<Color id="GREEN">XLST</Color>的每一面都可以与其他机器共用墙壁，以节省机械方块、铅青铜框架和总线/仓。但是，请勿共享输入仓，因为燃料不会在<Color id="GREEN">XLST</Color>之间平均分配——一台会消耗全部燃料，另一台则什么都得不到。
 
 ## 使用
 <Color id="GREEN">XLST</Color>有两种运行模式，如下所列；两者在数值上的具体差异请参见页面顶部链接的规划表。前者更适合蒸汽产量较低的游戏前期至中期，后者更适合游戏后期——此时功率输出比效率更重要。在控制器上使用螺丝刀即可切换模式。
 
-- 紧凑模式 - 高效率，低最佳流量（功率）。
-- 宽松模式 - 低效率，高最佳流量（功率）。
+- 紧模式 - 高效率，低最佳流量（功率）。
+- 松模式 - 低效率，高最佳流量（功率）。
 
 运行时，<Color id="GREEN">XLST</Color>的转速会线性上升至 100%，停机时则会降回 0%。转速与机器的功率输出成正比，并且无论涡轮的尺寸/材料如何，都需要 50 秒才能达到最大值。当<Color id="GREEN">XLST</Color>被关闭、涡轮被取出、结构被破坏或燃料耗尽时，转速会极速衰减。将便携式扫描仪<ItemImage id="gregtech:gt.metaitem.01:32762"/>对控制器使用，或查看 WAILA 中的 "efficiency" 数值，即可查看涡轮当前的转速。
 
@@ -70,7 +70,7 @@ date: 2026-05-27
   - $$\eta_0$$：涡轮的基础效率
 </Latex>
 
-某些涡轮的最佳流量高得惊人，因为蒸汽的燃料密度非常低，只有 0.5 EU/L，尤其是当<Color id="GREEN">XLST</Color>处于宽松模式时。如果不使用致密蒸汽，那就几乎必须使用 AE2 流体 P2P 通道——它实际上没有传输上限，也无需考虑温度或热容。
+某些涡轮的最佳流量高得惊人，因为蒸汽的燃料密度非常低，只有 0.5 EU/L，尤其是当<Color id="GREEN">XLST</Color>处于松模式时。如果不使用致密蒸汽，那就几乎必须使用 AE2 流体 P2P 通道——它实际上没有传输上限，也无需考虑温度或热容。
 | 燃料   | EU/L    |
 |--------------- | --------------- |
 | 蒸汽   | 0.5   |
@@ -83,7 +83,7 @@ date: 2026-05-27
 ## 功率
 <Color id="GREEN">XLST</Color>产生的功率取决于当前流量（$$\dot{m}$$）、最佳流量（$$\dot{m}^*$$）以及涡轮的效率（$$\eta$$）。超过最佳流量不仅效率更低，还会减少产生的总功率。溢出（overflow）等级对机器的运行没有影响。注视控制器时通过 WAILA 即可查看机器当前的功率输出，也可以使用工业信息屏查看。
 
-功率从结构上任意位置的激光或多A动力仓提取。即使超过动力仓缓冲中的最大 EU/t 或总 EU 也完全安全；如果连接的电池箱或兰波顿超级电容库（LSC）已满且 EU 无处可去，<Color id="GREEN">XLST</Color>也不会爆炸。多余的 EU 会直接消失。强烈建议使用红石 RS 锁存器自动启停<Color id="GREEN">XLST</Color>，以避免浪费燃料。
+功率从结构上任意位置的激光或多A动力仓提取。即使超过动力仓缓存中的最大 EU/t 或总 EU 也完全安全；如果连接的电池箱或兰波顿超级电容库（LSC）已满且 EU 无处可去，<Color id="GREEN">XLST</Color>也不会爆炸。多余的 EU 会直接消失。强烈建议使用红石 RS 锁存器自动启停<Color id="GREEN">XLST</Color>，以避免浪费燃料。
 
 # 涡轮
 12 台涡轮必须完全相同，机器才能运行。涡轮有四种不同的尺寸和许多不同的材料，每种都有自己的效率加成和最佳流量。组合方式太多，无法在此一一列出，但页面顶部链接的规划表包含所有相关信息，甚至还附带一个计算器，可用于确定任意涡轮搭配任意燃料时的功率输出和使用寿命。
@@ -96,8 +96,8 @@ date: 2026-05-27
 ## 耐久
 涡轮会随发电量按比例缓慢损失耐久。涡轮的总耐久取决于其材料，一旦降到 0% 便会立即消失。涡轮可以通过输入总线自动插入控制器，但无法自动取出。
 
-下列公式可根据<Color id="GREEN">XLST</Color>当前的功率输出计算涡轮的使用寿命（单位：小时）。注意，宽松模式会提供 25% 的耐久加成，以补偿更高功率输出带来的寿命缩短；而且涡轮在这里的使用寿命远长于在大型蒸汽涡轮中。涡轮的使用寿命一般为数百小时（或更多），因此无需频繁更换。
+下列公式可根据<Color id="GREEN">XLST</Color>当前的功率输出计算涡轮的使用寿命（单位：小时）。注意，松模式会提供 25% 的耐久加成，以补偿更高功率输出带来的寿命缩短；而且涡轮在这里的使用寿命远长于在大型蒸汽涡轮中。涡轮的使用寿命一般为数百小时（或更多），因此无需频繁更换。
 
 <Latex formula="\text{Lifespan } (h) = \frac{50\times \text{Durability}}{36 \times \text{min}(0.04 \times EU/t,(0.2 \times EU/t)^{0.6})}"/>
 
-- 在宽松模式下，将寿命计算结果乘以 1.25。
+- 在松模式下，将寿命计算结果乘以 1.25。

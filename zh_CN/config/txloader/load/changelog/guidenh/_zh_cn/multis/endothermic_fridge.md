@@ -21,7 +21,7 @@ date: 2026-05-27
 <br clear="all"/>
 
 ## 建造：
-<Color id="GREEN">吸热冰箱</Color>分为两个等级，但二者在结构上的唯一区别是 T2 结构中新增的无尽冷却机械方块<ItemImage id="gregtech:gt.blockcasings8:14"/>。玻璃可以是任意等级，对机器运行没有任何影响。总线/仓可替换结构中任意位置的冰箱机械方块。<Color id="GREEN">多A能源仓与激光能源仓</Color>不受玻璃等级限制，均可用于深度超频。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来可视化/搭建结构：通过子频道 "glass" 指定玻璃等级，通过单组堆叠中投影仪的数量指定机器等级。
+<Color id="GREEN">吸热冰箱</Color>分为两个等级，但二者在结构上的唯一区别是 T2 结构中新增的无尽冷却机械方块<ItemImage id="gregtech:gt.blockcasings8:14"/>。玻璃可以是任意等级，对机器运行没有任何影响。总线/仓可替换结构中任意位置的冰箱机械方块。<Color id="GREEN">多A能源仓与激光能源仓</Color>不受玻璃等级限制，均可用于深度超频。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来可视化/搭建结构：通过子信道 "glass" 指定玻璃等级，通过单组堆叠中投影仪的数量指定机器等级。
 
 208 个无尽冷却机械方块需要255kL无尽、240kL时空以及 59.9kL海珀珍才能制造。建议等到海珀珍可以在超维度等离子锻炉<ItemImage id="gregtech:gt.blockmachines:1004"/>中合成后再动手，而不是依赖 Mk-IV 聚变反应堆配方。
 ### T1 需求：
@@ -62,11 +62,11 @@ date: 2026-05-27
 - 0+ 输出总线（任意冰箱机械方块）<ItemImage id="gregtech:gt.blockmachines:80"/>
 - 0+ 输出仓（任意冰箱机械方块）<ItemImage id="gregtech:gt.blockmachines:60"/>
 
-### 共面：
-<Color id="GREEN">多台吸热冰箱</Color>可以互相共面（共享彼此侧面）以节省机械方块与总线/仓。但这并不包括任何无尽冷却机械方块。
+### 共用墙壁：
+<Color id="GREEN">多台吸热冰箱</Color>可以互相共用墙壁（共享彼此侧面）以节省机械方块与总线/仓。但这并不包括任何无尽冷却机械方块。
 
 ## 用法：
-<Color id="GREEN">吸热冰箱</Color>是真空冷冻机的直接升级：它最高能以 1,200% 速度运行，提供 256 并行，支持多A能源仓与激光能源仓以实现深度超频，且可无限跨级。这意味着只要电力充足，它就能无视电压等级运行任何配方。例如，一台 ZPM 256A 激光能源仓就能运行 UIV 配方。
+<Color id="GREEN">吸热冰箱</Color>是真空冷冻机的直接升级：它最高能以 1,200% 速度运行，提供 256 并行，支持多A能源仓与激光能源仓以实现深度超频，且可无限升压。这意味着只要电力充足，它就能无视电压等级运行任何配方。例如，一台 ZPM 256A 激光能源仓就能运行 UIV 配方。
 
 如下方所示，<Color id="GREEN">吸热冰箱</Color>的速度修正在运行期间最高提升至 1.5 倍，闲置时则回落至 1.0 倍。达到最大速度修正需要连续运行 5 分钟，但失去全部修正只需 20 秒。可选择在控制器 GUI 中启用极寒之凛冰冷却，使速度修正的提升速率变为 5 倍，代价是每秒消耗 250-375 L 极寒之凛冰。消耗速率与速度修正成线性关系，但这能让 <Color id="GREEN">吸热冰箱</Color> 仅用 1 分钟就达到 1.5 倍的最大速度修正。若在启用极寒之凛冰冷却时耗尽极寒之凛冰，机器会立即停机并作废当前配方。
 

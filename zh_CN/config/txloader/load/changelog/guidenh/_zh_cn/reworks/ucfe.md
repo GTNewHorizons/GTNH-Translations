@@ -24,7 +24,7 @@ date: 2026-05-27
 > 只有结构本身发生了变化，多方块结构的核心功能与之前相同
 
 ## 建造
-<Color id="GREEN">UCFE</Color> 没有等级化部件。动力仓只能放在结构背面的中央机械方块上。其余的总线/仓可以替换结构上任意位置的加强钛机械方块。支持<Color id="BLUE">多A能源仓与激光能源仓</Color>，可满足大功率发电需求。如有需要，燃料和助燃剂可以通过同一个输入仓供给。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
+<Color id="GREEN">UCFE</Color> 没有任意等级部件。动力仓只能放在结构背面的中央机械方块上。其余的总线/仓可以替换结构上任意位置的加强钛机械方块。支持<Color id="BLUE">多A能源仓与激光能源仓</Color>，可满足大功率发电需求。如有需要，燃料和助燃剂可以通过同一个输入仓供给。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
 
 ### 所需材料：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15535"/><ItemImage id="gregtech:gt.blockmachines:15535"/>
@@ -39,16 +39,16 @@ date: 2026-05-27
 - 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
 - 1+ 输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
 
-### 墙体共享
-<Color id="GREEN">UCFE</Color> 的每一面都可以与其他机器贴墙共享，以节省机械方块、框架方块和总线/仓。但由于输入仓的位置受限，输入仓不能参与共享。建议纵向贴墙共享以最大程度节省资源，不过这需要把控制器翻转放置。
+### 共用墙壁
+<Color id="GREEN">UCFE</Color> 的每一面都可以与其他机器共用墙壁，以节省机械方块、框架方块和总线/仓。但由于输入仓的位置受限，输入仓不能参与共享。建议纵向共用墙壁以最大程度节省资源，不过这需要把控制器翻转放置。
 
 ## 使用
-<Color id="GREEN">UCFE</Color> 每秒会耗尽输入仓中的全部燃料与助燃剂，产生的能量会在随后的一秒内传输给动力仓。只要动力仓的缓冲被填满，机器就会立即停止。如果生成的总 EU/t 大于动力仓的吞吐量，多余的电力就会被直接清空。
+<Color id="GREEN">UCFE</Color> 每秒会耗尽输入仓中的全部燃料与助燃剂，产生的能量会在随后的一秒内传输给动力仓。只要动力仓的缓存被填满，机器就会立即停止。如果生成的总 EU/t 大于动力仓的吞吐量，多余的电力就会被直接清空。
 
-尽管tooltips所言并非如此，<Color id="GREEN">UCFE</Color> 实际上没有任何预热过程，会立即输出它所能产生的最大功率。这意味着它不需要为了节省燃料而把 RS 锁存器接到兰波顿超级电容库上。只需改用能量探测覆盖板和机器控制覆盖板，在电力低于 95% 时启用 <Color id="GREEN">UCFE</Color> 即可。
+尽管tooltip 所言并非如此，<Color id="GREEN">UCFE</Color> 实际上没有任何预热过程，会立即输出它所能产生的最大功率。这意味着它不需要为了节省燃料而把 RS 锁存器接到兰波顿超级电容库上。只需改用能量探测覆盖板和机器控制覆盖板，在电力低于 95% 时启用 <Color id="GREEN">UCFE</Color> 即可。
 
 ## 燃料
-<Color id="GREEN">UCFE</Color> 可利用气体燃料、柴油燃料和火箭燃料发电。最常用的选择是硝基苯、高十六烷值柴油、高辛烷值汽油、致密肼燃料混合物和绿色火箭燃料。注意，重燃油、原油、邪恶原油等半流质燃料不在其列，因为它们只能在大型半流质发电机 <ItemImage id="gregtech:gt.blockmachines:31026"/> 中燃烧。
+<Color id="GREEN">UCFE</Color> 可利用气体燃料、柴油燃料和火箭燃料发电。最常用的选择是硝基苯、高十六烷值柴油、高辛烷值汽油、浓缩肼火箭燃料和绿色火箭燃料。注意，重燃油、原油、邪恶原油等半流质燃料不在其列，因为它们只能在大型半流质发电机 <ItemImage id="gregtech:gt.blockmachines:31026"/> 中燃烧。
 
 ## 助燃剂
 除燃料外，<Color id="GREEN">UCFE</Color> 唯一的另一种输入就是助燃剂——一种为燃烧反应提供必要条件的流体物质。助燃剂还会依照下列公式提升燃料的效率，其中 $$C$$ 是与所燃烧燃料类型相关的常数，$$R$$ 是助燃剂与燃料之比。最大效率为 150%，总 EU/t 没有任何软上限或硬上限。
