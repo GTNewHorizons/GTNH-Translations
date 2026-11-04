@@ -13,9 +13,9 @@ item_ids:
   - gregtech:gt.blockmachines:11125
   - gregtech:gt.blockmachines:11126
 navigation:
-  title: Brewery
+  title: Варочная машина
   icon: gregtech:gt.blockmachines:491
   parent: ./singleblock_index.md
   position: 10
 ---
-# Brewery
+# Варочная машина

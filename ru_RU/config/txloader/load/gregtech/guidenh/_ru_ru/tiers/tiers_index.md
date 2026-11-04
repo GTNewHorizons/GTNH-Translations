@@ -1,10 +1,10 @@
 ---
 navigation:
-  title: Tiers
+  title: Тиры
   icon: minecraft:grass
   parent: /index.md
   position: -1
 ---
 
 > [!WARNING]
-> This page is under construction. Check again later, or [help contribute](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
+> Эта страница находится в разработке. Загляните позже или [помогите с наполнением](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
