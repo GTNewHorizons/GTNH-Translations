@@ -779,9 +779,9 @@ item.itemCoordSelector.tooltip.detailed.line5=ブロック自体の座標を記�
 item.itemCoordSelector.tooltip.detailed.line6=遠くの座標も記録できる
 enderio.itemCoordSelector.chat.newCoords=座標を記録: %s
 enderio.itemCoordSelector.chat.setCoords=座標を設定: %s
-enderio.itemCoordSelector.chat.newDimension=ディメンションを記録: %s%s
-enderio.itemCoordSelector.chat.setDimension=ディメンションを設定: %s%s
-enderio.itemConduitProbe.chat.copied=Copied conduit settings
+enderio.itemCoordSelector.chat.newDimension=ディメンションを記録: %s
+enderio.itemCoordSelector.chat.setDimension=ディメンションを設定: %s
+enderio.itemConduitProbe.chat.copied=導管の設定をコピーしました
 enderio.itemOCConduit.chat.channel=Channel %s at %s
 enderio.itemOCConduit.chat.connectedTo=Connected to: %s
 enderio.itemOCConduit.chat.nodeAt=%s at %s
@@ -1153,7 +1153,7 @@ enderio.gui.mjReader.noItems=アイテムの搬入先がありません
 enderio.gui.mjReader.noItem=搬入できません
 enderio.gui.mjReader.receiveItems=アイテムの搬入先は以下の通りです :
 enderio.gui.mjReader.receiveItem=Can receive %s from:
-enderio.gui.mjReader.distance=Distance [%s]
+enderio.gui.mjReader.distance=距離 [%s]
 
 #CapactorBank
 enderio.gui.capBank.inputRs=入力レッドストーンモード
@@ -1214,7 +1214,7 @@ enderio.gui.blockBuffer.omni.name=総合バッファ
 enderio.gui.blockBuffer.creative.name=クリエイティブバッファ
 
 #Travel Blocks
-enderio.gui.travelAccessable.privateBlock=Only %s may change this blocks settings.
+enderio.gui.travelAccessable.privateBlock=このブロックの設定を変更できるのは%sだけです。
 enderio.gui.travelAccessable.public=公開
 enderio.gui.travelAccessable.private=非公開
 enderio.gui.travelAccessable.protected=ロック
