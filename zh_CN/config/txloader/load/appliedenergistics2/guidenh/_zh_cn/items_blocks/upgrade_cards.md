@@ -206,7 +206,7 @@ item_ids:
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:54" />
 
-## 矿物辞典过滤卡
+## 矿典过滤卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:55" scale="2" />
 

@@ -23,7 +23,7 @@ date: 2026-05-27
 > 该多方块只有结构发生了变化，机制保持不变
 
 ## 建造
-<Color id="GREEN">进阶聚爆压缩机</Color>没有分级部件。总线/仓可以替换结构中任意位置的钨钢机械方块。不支持<Color id="RED">多A能源仓与激光能源仓</Color>，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
+<Color id="GREEN">进阶聚爆压缩机</Color>没有任意等级部件。总线/仓可以替换结构中任意位置的钨钢机械方块。不支持<Color id="RED">多A能源仓与激光能源仓</Color>，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
 
 ### 需要：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15547"/><ItemImage id="gregtech:gt.blockmachines:15547"/>
@@ -38,8 +38,8 @@ date: 2026-05-27
 - 0+ 输入总线（任意机械方块处） <ItemImage id="gregtech:gt.blockmachines:70" />
 - 0+ 输出总线（任意机械方块处） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 共墙
-<Color id="GREEN">进阶聚爆压缩机</Color>的每个侧面都可以与其他机器共墙，以节省机械方块、框架方块、精炼石墨块和总线/仓。但这不包括整个石墨球。没有任何配方消耗超过1A的电力，因此可以在<u>__两__</u>台机器之间共享<u>__一__</u>个能源仓。
+### 共用墙壁
+<Color id="GREEN">进阶聚爆压缩机</Color>的每个侧面都可以与其他机器共用墙壁，以节省机械方块、框架方块、精炼石墨块和总线/仓。但这不包括整个石墨球。没有任何配方消耗超过1A的电力，因此可以在<u>__两__</u>台机器之间共享<u>__一__</u>个能源仓。
 
 ## 用途
 <Color id="GREEN">进阶聚爆压缩机</Color>是聚爆压缩机 <ItemImage id="gregtech:gt.blockmachines:1001"/> 的直接升级，因为它产生的污染减半，运行速度快一倍，并且每两级电压提供1次并行，如下表所示。

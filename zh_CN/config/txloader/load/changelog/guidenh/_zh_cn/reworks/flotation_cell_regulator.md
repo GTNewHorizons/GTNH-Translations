@@ -23,7 +23,7 @@ date: 2026-05-27
 > 该多方块只有结构发生了变化，机制保持不变
 
 ## 建造
-<Color id="GREEN">FCR</Color>没有分级部件。总线/仓可以替换结构底层的任意强化镍铬基合金机械方块。多A能源仓和激光能源仓不受支持，但可以放置多个普通能源仓用于超频。结构成型后会免费自动生成水，因此不需要手动放置。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
+<Color id="GREEN">FCR</Color>没有任意等级部件。总线/仓可以替换结构底层的任意强化镍铬基合金机械方块。多A能源仓和激光能源仓不受支持，但可以放置多个普通能源仓用于超频。结构成型后会免费自动生成水，因此不需要手动放置。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
 
 ### 需求：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15560"/><ItemImage id="gregtech:gt.blockmachines:15560"/>
@@ -37,10 +37,10 @@ date: 2026-05-27
 - 0+ 输入仓（任意底层机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
 - 0+ 输出仓（任意底层机械方块） <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### 共墙
-<Color id="GREEN">FCR</Color>的每个侧面都可以与其他机器共墙，以节省机械方块、框架方块和总线/仓。没有配方消耗超过 1A 的电力，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
+### 共用墙壁
+<Color id="GREEN">FCR</Color>的每个侧面都可以与其他机器共用墙壁，以节省机械方块、框架方块和总线/仓。没有配方消耗超过 1A 的电力，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
 ## 用法
-<Color id="GREEN">FCR</Color>仅用于从磨碎的矿石、松油和乙基黄原酸盐粉中生产金属泡沫。金属泡沫随后会被送入真空炉或 真空干燥炉 来获取其中的稀有金属复合物。松油和乙基黄原酸盐粉都在埃克森美孚化工厂 <ItemImage id="gregtech:gt.blockmachines:998"/> 中生产。它们的配方互不冲突，因此可以在同一台机器中生产。闪锌矿泡沫对获取铟粉非常有价值，独居石泡沫对获取镧/镥粉非常有价值，而地狱岩泡沫则是下界合金生产线中必不可少的。
+<Color id="GREEN">FCR</Color>仅用于从磨碎的矿石、松油和乙基黄原酸盐粉中生产金属泡沫。金属泡沫随后会被送入真空炉或 真空干燥炉 来获取其中的稀有金属复合物。松油和乙基黄原酸盐粉都在埃克森美孚化工厂 <ItemImage id="gregtech:gt.blockmachines:998"/> 中生产。它们的配方互不冲突，因此可以在同一台机器中生产。闪锌泡沫对获取铟粉非常有价值，独居石泡沫对获取镧/镥粉非常有价值，而地狱岩泡沫则是下界合金生产线中必不可少的。
 
 <Color id="GREEN">FCR</Color>只能处理一种材料，因为机器会永久锁定在它运行的第一个配方上。即使拆除控制器也无法重置。这一行为与电路装配线 <ItemImage id="gregtech:gt.blockmachines:12735"/> 类似，只是它不需要任何印记。

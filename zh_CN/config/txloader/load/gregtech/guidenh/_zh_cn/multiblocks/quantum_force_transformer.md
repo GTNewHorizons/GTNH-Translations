@@ -19,4 +19,4 @@ navigation:
   icon: gregtech:gt.blockmachines:31151
   position: -10001
 ---
-# Quantum Force Transformer
+# 量子操纵者

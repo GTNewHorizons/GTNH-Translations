@@ -9,4 +9,4 @@ navigation:
   icon: gregtech:gt.blockmachines:15566
   position: -5001
 ---
-# Industrial Mixing Machine
+# 工业搅拌机

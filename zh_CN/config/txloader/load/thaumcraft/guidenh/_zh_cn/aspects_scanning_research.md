@@ -10,7 +10,7 @@ navigation:
   position: 80
 ---
 
-# Aspects, Scanning and Research
+# 要素、扫描与研究
 
 <Column width="600" align="center" gap="8">
 
@@ -18,156 +18,150 @@ navigation:
   <FloatingImage src="/assets/images/thaumcraft_logo.png" x="50" y="132" width="2078" height="445" displayWidth="300" wrap="inline" title="Thaumcraft" />
 </Column>
 
-Research in Thaumcraft begins with understanding the world. Scanning reveals the <Color color="#B7A0D6">Aspects</Color> contained in items, creatures, and nodes, granting Research Points and clues;<br>the Research Table then uses these discoveries to combine Aspects and work on Research Notes, ultimately turning them into knowledge in the Thaumonomicon.
+神秘时代的研究始于理解世界。扫描可以揭示物品、生物和节点所含的<Color color="#B7A0D6">要素</Color>，并给予研究点数和线索；<br>研究台随后利用这些发现组合要素、处理研究笔记，最终将其转化为魔导手册中的知识。
 
-The most easily confused parts of research are **discovering Aspects, gaining Research Points, and completing research**. This page explains these requirements and the scanning and research conveniences provided by NH.
+研究中最容易混淆的是**发现要素、获得研究点数和完成研究**。本页将说明这些要求，以及 NH 提供的扫描和研究便利功能。
 
-## The Aspect System and Composition
+## 要素系统与构成
 
-**Aspects** describe both the magical properties of objects and the categories used in research. The six Primal Aspects form the foundation of the entire system, while each Compound Aspect consists of two Aspects;<br>these component Aspects can themselves be Compound Aspects, creating a network of relationships that unfolds in layers.
+**要素**既描述物体的魔法属性，也是研究中使用的分类。六种元始要素构成整个系统的基础，而每种复合要素由两种要素组成；<br>这些组成要素本身也可能是复合要素，从而形成层层展开的关系网络。
 
-The six Primal Aspects are <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Air (Aer), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />Earth (Terra), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />Fire (Ignis), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />Water (Aqua), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />Order (Ordo), and <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />Entropy (Perditio).
+六种元始要素是<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风（Aer）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />地（Terra）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />火（Ignis）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />水（Aqua）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />秩序（Ordo）和<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />混沌（Perditio）。
 
-| Compound Aspect | Component Aspects |
+| 复合要素 | 组成要素 |
 | --- | --- |
-| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"lux"}' scale="0.75" />Light (Lux) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Air + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />Fire |
-| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"motus"}' scale="0.75" />Motion (Motus) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Air + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />Order |
-| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"victus"}' scale="0.75" />Life (Victus) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />Earth + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />Water |
+| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"lux"}' scale="0.75" />光明（Lux） | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风 + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />火 |
+| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"motus"}' scale="0.75" />运动（Motus） | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风 + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />秩序 |
+| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"victus"}' scale="0.75" />生命（Victus） | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />地 + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />水 |
 
-**An Aspect's composition and an item's Aspect content are two different kinds of information.** "Life consists of Earth and Water" describes a relationship used in research; "an item contains Life" describes that item's properties. The latter affects scanning rewards and the choice of materials for Essentia production, but does not mean that the Research Table directly consumes the item to produce Research Points.
+**要素的构成和物品所含的要素是两类不同信息。**“生命由地和水组成”描述的是研究中使用的关系；“某物品含有生命要素”描述的是该物品的属性。后者会影响扫描奖励和源质生产材料的选择，但并不表示研究台会直接消耗该物品来产生研究点数。
 
-Likewise, combining Earth and Water at the Research Table produces Life Research Points, while processing an item containing Life in an Alchemical Furnace produces Life Essentia. Both use the same Aspect icon, but the resources are stored in different places and serve different purposes.
+同样，在研究台组合地和水会产生生命研究点数，而在炼金炉中处理含有生命要素的物品会产生生命源质。两者使用相同的要素图标，但储存在不同位置，作用也不同。
 
-NH's addons also introduce Aspects. When discovering a new Aspect, consider its name, composition, and actual sources; the Aspect count listed on the original mod's wiki should not be treated as the total for the current modpack.
+NH 的附属模组也会引入要素。发现新要素时，请留意其名称、构成和实际来源；原模组维基列出的要素数量不能视为当前整合包的总数。
 
-## What Scanning Provides
+## 扫描能提供什么
 
-<ItemLink id="Thaumcraft:ItemThaumometer" showIcon="left" /> is used to observe the magical properties of items, blocks, creatures, and Aura Nodes. Scanning provides three main types of rewards:
+<ItemLink id="Thaumcraft:ItemThaumometer" showIcon="left" />用于观察物品、方块、生物和灵气节点的魔法属性。扫描主要提供三类奖励：
 
 |  |  |
 | --- | --- |
-| Discovering an object's Aspects | Reveals the Aspects and quantities contained in the object, and may uncover previously unknown Aspects |
-| Research Points | Recorded for the player by Aspect, ready to be spent at the Research Table |
-| Research clues | Certain specific objects can reveal hidden research, expanding the research available in the Thaumonomicon |
+| 发现物体的要素 | 揭示物体所含要素及其数量，也可能发现此前未知的要素 |
+| 研究点数 | 按要素记录在玩家名下，可在研究台消耗 |
+| 研究线索 | 某些特定物体会揭示隐藏研究，扩充魔导手册中可进行的研究 |
 
-These three rewards are not identical. Scanning a new item whose Aspects you already know can still replenish Research Points; scanning a specific object for hidden research focuses on research clues.
+这三类奖励并不相同。扫描要素已知的新物品仍可补充研究点数；扫描用于揭示隐藏研究的特定物体时，重点则是研究线索。
 
-**Scanning does not consume the observed item or break it down into Essentia.** Scanning ordinary items and processing materials in an Alchemical Furnace are ways of acquiring knowledge and producing magical resources, respectively.
+**扫描不会消耗被观察的物品，也不会将其分解成源质。**扫描普通物品和在炼金炉中处理材料，分别用于获取知识和生产魔法资源。
 
-Scan records and Research Points are part of the player's research data. Once a type of object has been scanned, repeatedly scanning it cannot provide an unlimited supply of points.
+扫描记录和研究点数都属于玩家的研究数据。扫描过某类物体后，反复扫描不会让点数无限增加。
 
-## World, Inventory, and Container Scanning
+## 世界、物品栏与容器扫描
 
-Blocks, dropped items, and creatures in the world can be observed while holding a Thaumometer. NH also provides inventory and container scanning to make acquiring Research Points more convenient.
+手持魔导透镜时，可以观察世界中的方块、掉落物和生物。NH 还提供物品栏扫描与容器扫描，让获取研究点数更方便。
 
- - World scanning | Aim the Thaumometer at a valid object in the world and keep observing it
- - Inventory scanning | Hold the Thaumometer on the cursor and hover over an item slot in an inventory or container
- - Container scanning | Use the Thaumometer on a container after completing the container scanning research
+ - 世界扫描 | 将魔导透镜对准世界中的有效目标并持续观察
+ - 物品栏扫描 | 将魔导透镜拿在光标上，悬停于物品栏或容器中的物品槽上
+ - 容器扫描 | 完成容器扫描研究后，对容器使用魔导透镜
 
-The container scanning research is in the Basic Information category of the Thaumonomicon and requires the Deconstruction Table research; the container scanning research itself must also be completed.<br>
-The NH quest "Scanning Made Easy" introduces these two conveniences. Container scanning uses sneak and right-click; scanning the chest block itself and scanning the items inside it should also be understood separately.<br>
+容器扫描研究位于魔导手册的基本信息分类中，并要求先完成解构工作台研究；容器扫描研究本身也必须完成。<br>NH 任务“轻松扫描”会介绍这两项便利功能。容器扫描需要潜行并右键；扫描箱子方块本身和扫描箱内物品也应分别理解。<br>
 
-Inventory scanning does not work with every slot in every interface. For example, in AE2, scanning storage cells requires another item: <ItemLink id="thaumicenergistics:cell.microscope" showIcon="left" />
+物品栏扫描并不适用于每个界面中的所有槽位。例如，在 AE2 中扫描存储元件需要另一种物品：<ItemLink id="thaumicenergistics:cell.microscope" showIcon="left" />
 
-## Unknown Aspects and Scanning Requirements
+## 未知要素与扫描条件
 
-When the Thaumometer says that you cannot understand something, a common reason is that the object contains a Compound Aspect you have not yet discovered.<br>You need to know that Aspect, or both of its component Aspects, to understand the relevant object.<br>Complex objects may involve several Compound Aspects at once, so whether a scan succeeds depends on which Aspects have been discovered.
+魔导透镜提示无法理解某物时，常见原因是该物体含有尚未发现的复合要素。<br>你需要认识该要素，或认识组成它的两种要素，才能理解相关物体。<br>复杂物体可能同时涉及多种复合要素，因此扫描能否成功取决于你已发现哪些要素。
 
-Combining Aspects at the Research Table is another way to discover new Compound Aspects. A correct combination lets the player discover the new Aspect and gain some Research Points; this also expands the range of objects they can understand and scan.
+在研究台组合要素也是发现新复合要素的一种方式。组合正确时，玩家会发现新要素并获得一些研究点数；这也会扩大玩家能够理解和扫描的物体范围。
 
 > [!NOTE]
-> Not every pair of Aspects forms a valid combination. Attempting an invalid combination also consumes Research Points, so consult known information about Aspect relationships first to avoid wasting research resources on repeated guesses.
+> 并非任意两种要素都能有效组合。尝试无效组合也会消耗研究点数，因此请先查阅已知的要素关系信息，避免反复猜测而浪费研究资源。
 
-The order in which you scan objects therefore affects your progress. The quest "Just Tell Me What to Scan Already!" provides a set of objects to scan as a reference.
+因此，扫描物体的顺序会影响进度。任务“告诉我要扫描什么！”提供了一组物品作为扫描参考。
 
-## Item Aspects and NEI Lookups
+## 物品要素与 NEI 查询
 
-The Aspects and quantities of scanned items can be viewed in their tooltips. By default, hold the sneak key (usually Shift) to display this information.<br>Unknown icons, discovered Aspects, and specific quantities indicate different discovery states and Aspect amounts.
+扫描过的物品，其要素和数量会显示在tooltips 中。默认情况下，按住潜行键（通常是 Shift）即可查看这些信息。<br>未知图标、已发现要素和具体数量分别代表不同的发现状态和要素数量。
 
-In GTNH, NEI can display the Aspects of scanned items, Aspect combinations, items containing a particular Aspect, and Arcane, Alchemy, and Infusion recipe lookups. This is useful for finding sources for mass Essentia production.
+在 GTNH 中，NEI 可以显示已扫描物品的要素、要素组合、含有特定要素的物品，以及奥术、炼金和注魔配方查询。这有助于寻找大量生产源质的来源。
 
-## Sources and Uses of Research Points
+## 研究点数的来源与用途
 
-<Color color="#B7A0D6">Research Points</Color> are recorded separately for each Aspect. The numbers at the Research Table show the research resources available to the player.<br>Even if a Compound Aspect has already been discovered, it cannot be placed to form connections once its Research Points have run out.
+<Color color="#B7A0D6">研究点数</Color>按要素分别记录。研究台上的数字显示玩家可用的研究资源。<br>即使已经发现某种复合要素，若其研究点数耗尽，也无法将其放入网格来建立连接。
 
-| Source | What It Provides | Limits and Characteristics |
+| 来源 | 提供内容 | 限制与特点 |
 | --- | --- | --- |
-| Scanning a new valid object | Research Points for the Aspects contained in the object; discovering an Aspect for the first time grants additional rewards | A type of object that has already been scanned cannot repeatedly provide points |
-| Combining Aspects at the Research Table | Research Points for the corresponding Compound Aspect | Consumes Research Points from both component Aspects; it does not generate resources for free |
-| Knowledge Fragments | Adds 1–2 points to each Primal Aspect when used | Difficult to obtain and consumed on use |
-| Deconstruction Table | Consumes items in an attempt to obtain Primal Aspect Research Points | Compound Aspects are broken down; output is slow and has a low chance of success |
-| Environmental bonuses at the Research Table | Small amounts of bonus Research Points generated by the surroundings | Acquired slowly and cannot replace a steady source of Research Points |
+| 扫描新的有效目标 | 获得该物体所含要素的研究点数；首次发现要素还会提供额外奖励 | 已扫描过的同类物体无法反复提供点数 |
+| 在研究台组合要素 | 获得对应复合要素的研究点数 | 会消耗两种组成要素的研究点数，并非凭空产生资源 |
+| 知识碎片 | 使用后为每种元始要素增加 1–2 点 | 难以获得，且使用后会被消耗 |
+| 解构工作台 | 消耗物品，尝试获得元始要素研究点数 | 复合要素会被拆解；产出速度慢，成功率也低 |
+| 研究台的环境加成 | 由周围环境产生少量额外研究点数 | 获取速度慢，无法替代稳定的研究点数来源 |
 
-**Knowledge Fragments** can both replenish basic research resources and help discover lost knowledge. These two uses should be understood separately; when seeking special research, consult the Knowledge Fragments entry in the Thaumonomicon.
+**知识碎片**既能补充基础研究资源，也能帮助发现失落知识。这两种用途应分别理解；若要寻找特殊研究，请查阅魔导手册中的知识碎片条目。
 
-By default, NH applies a soft cap to Research Points gained from scanning: once the player has 500 Research Points in an Aspect, further scanning yields fewer points for that Aspect.
+默认情况下，NH 对扫描获得的研究点数设有软上限：玩家拥有某种要素的研究点数达到 500 后，继续扫描获得的该要素点数会减少。
 
-Research Points are mainly used to place Aspects in notes, combine Compound Aspects, and duplicate research. When using many Compound Aspects, also watch the reserves of their component Aspects to avoid ending up with only one type of Research Point while being unable to replenish the others you need.
+研究点数主要用于在笔记中放置要素、组合复合要素和复制研究。大量使用复合要素时，也要留意组成要素的储备，避免最后只剩一种研究点数，却无法补充其他所需要素。
 
-## The Research Table, Research Notes, and Scribing Tools
+## 研究台、研究笔记与书写工具
 
-<ItemLink id="Thaumcraft:ItemThaumonomicon" showIcon="left" /> shows the available research paths, the Research Table handles notes and Aspects, and <ItemLink id="Thaumcraft:ItemInkwell" showIcon="left" /> supplies the pen and ink needed for writing.
+<ItemLink id="Thaumcraft:ItemThaumonomicon" showIcon="left" />显示可用的研究路线，研究台负责处理笔记与要素，而<ItemLink id="Thaumcraft:ItemInkwell" showIcon="left" />提供书写所需的笔和墨水。
 
-| Content | Purpose |
+| 内容 | 用途 |
 | --- | --- |
-| Research entries in the Thaumonomicon | View prerequisites, obtain notes for available research, and read unlocked knowledge |
-| Unfinished Research Notes | Record the subject of a research project and the Aspects that must be connected |
-| Research Table | Combine Aspects, work on notes, and use unlocked research assistance features |
-| Scribing Tools | Used to obtain notes and write at the Research Table; ink is consumed |
-| Completed research | Reading it adds the corresponding research to the player's knowledge progress |
+| 魔导手册中的研究条目 | 查看前置条件、获取可用研究的笔记，并阅读已解锁的知识 |
+| 未完成的研究笔记 | 记录研究主题以及必须连接的要素 |
+| 研究台 | 组合要素、处理笔记，并使用已解锁的研究辅助功能 |
+| 笔与墨 | 用于获取笔记以及在研究台上书写；墨水会被消耗 |
+| 已完成的研究 | 阅读后会将相应研究加入玩家的知识进度 |
 
-Both obtaining Research Notes and writing at the Research Table require Scribing Tools. Making two sets is recommended, one for obtaining notes and one for connecting Aspects.<br>
-**GTNH locks research to the Hard setting, so ordinary research entries also require notes to complete.**
+获取研究笔记和在研究台上书写都需要笔与墨。建议制作两套，一套用于获取笔记，另一套用于连接要素。<br>**GTNH 将研究锁定在困难模式，因此普通研究条目也必须通过笔记完成。**
 
-Thaumcraft Research Tweaks changes the Research Table interface. Aspects can be combined by dragging and dropping, or by using right-click while dragging; the corresponding methods are also used to write Aspects into slots on the notes.<br>
-The research instructions in the Thaumonomicon have been updated to cover these interface features. Refer to the current interface when reading them.
+神秘学研究调整模组改变了研究台界面。可以拖放来组合要素，也可以按住拖动时右键；将要素写入笔记槽位时也使用相应操作。<br>魔导手册中的研究说明已更新，涵盖这些界面功能。阅读说明时请以当前界面为准。
 
-## Connection Rules for Research Notes
+## 研究笔记的连接规则
 
-Notes use a hexagonal grid to represent relationships between Aspects. To complete them, connect all the given Aspects into a single connected whole using valid connections.
+笔记使用六边形网格表示要素之间的关系。要完成笔记，须通过有效连接将所有给定要素连成一个整体。
 
-A Compound Aspect can connect to its component Aspects, and a component Aspect can also connect to Compound Aspects that contain it. Similar names, similar icon colors, or both tracing back to a Primal Aspect do not automatically create a direct connection.
+复合要素可以连接到其组成要素，而组成要素也能连接到包含它的复合要素。名称相似、图标颜色接近，或都能追溯到同一种元始源质，并不代表它们能直接连接。
 
-For example, Earth and Water have no direct relationship simply because they are both basic Aspects, but Life consists of Earth and Water, so "Earth—Life—Water" represents two valid relationships.<br>Another example is Light and Motion, both of which include Air in their composition; "Light—Air—Motion" connects them through their shared component Aspect.
+例如，地和水仅仅因为都是基础要素，并无直接关系；但生命由地和水组成，因此“地—生命—水”表示两种有效关系。<br>另一个例子是光明和运动，它们的构成都包含风；“光明—风—运动”通过共同的组成要素将二者连接起来。
 
-Both composition and position requirements must be met: only adjacent Aspects with a valid relationship can connect to each other.
+必须同时满足构成关系与位置要求：只有相邻且关系有效的要素才能彼此连接。
 
-Placing an Aspect consumes its corresponding Research Points, while writing and making changes also consume ink. Normally, removing a misplaced Aspect does not refund Research Points; Research Expertise and Research Mastery provide a chance to recover them.
+放置要素会消耗对应的研究点数，书写和修改也会消耗墨水。通常移除放错的要素不会返还研究点数；研究专长和研究精通有机会返还点数。
 
-Once all parts of the notes are connected, they become completed research. **After completing the connections, you must read the result to unlock the corresponding research.**
+笔记的所有部分连接后，就会成为已完成的研究。**连接完成后，还必须阅读结果，才能解锁相应研究。**
 
-## Research Prerequisites and Hidden Knowledge
+## 研究前置条件与隐藏知识
 
-Connections in the Thaumonomicon show prerequisite relationships between research entries, but a single connection does not necessarily display every requirement.<br>
-Some content also requires specific scans, earlier discoveries, Warp-related events, or research progress in other mods.
+魔导手册中的连接线显示研究条目之间的前置关系，但单条连接未必会展示全部要求。<br>部分内容还要求进行特定扫描、完成先前发现、触发扭曲相关事件，或取得其他模组的研究进度。
 
 > [!WARNING]
-> Reading research marked as <Color color="#D5B77A">Forbidden Knowledge</Color> adds Warp. The danger level indicates the type and amount of Warp added.
+> 阅读标记为<Color color="#D5B77A">禁忌知识</Color>的研究会增加扭曲。危险等级表示增加的扭曲类型和数量。
 
 ## <ItemLink id="gregtech:gt.blockmachines:13001" showIcon="left" />
 
-**<ItemLink id="gregtech:gt.blockmachines:13001" showIcon="left" />** provides another way to complete Research Notes, allowing a machine to handle the manual work of connecting Aspects.<br>
-It is a facility that brings technology and magic together, requiring the corresponding research and materials.<br>
-The machine consumes EU and uses the nodes in its structure to complete the Research Notes supplied to it.
+**<ItemLink id="gregtech:gt.blockmachines:13001" showIcon="left" />**提供了另一种完成研究笔记的方式，让机器代替手动连接要素。<br>这是一种结合科技与魔法的设施，需要相应研究和材料。<br>该机器会消耗 EU，并利用其结构中的节点完成放入的研究笔记。
 
 > [!WARNING]
-> The Research Completer consumes the nodes used for processing.
+> 奥法研究阐释者会消耗用于处理的节点。
 
-Research assistance facilities reduce repetitive work, but each has its own costs and requirements.
+研究辅助设施可以减少重复操作，但各自有不同的成本和要求。
 
-## Common Questions
+## 常见问题
 
-| Symptom | What to Check |
+| 现象 | 检查要点 |
 | --- | --- |
-| The Thaumometer cannot understand an object | Check which of its Aspects have been discovered, especially unknown Compound Aspects and their components |
-| Repeatedly scanning the same type of item provides no new points | That type of object may already have been scanned; increasing the number of identical items does not create a new discovery |
-| A new scan yields fewer points than the item's Aspect quantities | A high reserve of Research Points in an Aspect triggers the soft cap on scanning rewards |
-| Inventory scanning does not respond | Make sure the Thaumometer is held on the cursor, that you hover long enough, and that the target is an ordinary valid inventory slot |
-| Individual items can be scanned, but an entire chest cannot | Check that the container scanning research is complete, and distinguish the chest block from the items inside it |
-| An Aspect is known but cannot be placed in the notes | Check the remaining Research Points for that Aspect, the Scribing Tools, and the state of the target slot |
-| Combining Aspects reduces Primal Research Points | Combining consumes the component Aspects; invalid combinations may also waste points |
-| Adjacent icons do not connect | A direct composition relationship is required; names or icons alone are not enough to judge this |
-| Research Notes are complete, but the Thaumonomicon entry remains locked | Check whether the completed research has been read |
-| NEI does not show a source for an Aspect | Lookups are affected by scanning and discovery progress; the list does not represent every possible source |
+| 魔导透镜无法理解某物 | 检查其要素中哪些尚未发现，尤其是未知复合要素及其组成要素 |
+| 反复扫描同类物品却没有新点数 | 该类物体可能已经扫描过；增加相同物品的数量不会带来新的发现 |
+| 新扫描获得的点数少于物品的要素数量 | 某种要素的研究点数储备过高，会触发扫描奖励软上限 |
+| 物品栏扫描没有反应 | 确认魔导透镜拿在光标上、悬停时间足够长，并且目标是普通的有效物品栏槽位 |
+| 可以扫描单件物品，却无法扫描整只箱子 | 检查容器扫描研究是否完成，并区分箱子方块和箱子里的物品 |
+| 已知某要素却无法将其放入笔记 | 检查该要素剩余的研究点数、笔与墨以及目标槽位状态 |
+| 组合要素后元始要素研究点数减少 | 组合会消耗组成要素；无效组合也可能浪费点数 |
+| 相邻图标无法连接 | 必须存在直接的构成关系；仅凭名称或图标不足以判断 |
+| 研究笔记已经完成，但魔导手册条目仍锁定 | 检查是否已阅读完成的研究 |
+| NEI 没有显示某要素的来源 | 查询结果会受扫描和发现进度影响，列表不代表所有可能来源 |
 
 </Column>

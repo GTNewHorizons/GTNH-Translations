@@ -9,4 +9,4 @@ navigation:
   icon: gregtech:gt.blockmachines:15410
   position: -12001
 ---
-# Eye of Harmony
+# 鸿蒙之眼

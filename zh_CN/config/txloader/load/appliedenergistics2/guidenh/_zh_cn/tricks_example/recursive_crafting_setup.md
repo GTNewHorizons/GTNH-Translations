@@ -24,7 +24,7 @@ navigation:
     通往主网络
   </DiamondAnnotation>
   <BlockAnnotation pos="2 0 1">
-    (1) 接口：将其配置为存储所需的额外材料：岩浆膏、烈焰粉和小撮下界之星粉。
+    (1) 接口：将其配置为存储所需的额外材料：岩浆膏、烈焰粉和小堆下界之星粉。
     <Row>
       <ItemImage id="minecraft:magma_cream" scale="2" />
       <ItemImage id="minecraft:blaze_powder" scale="2" />
@@ -66,7 +66,7 @@ navigation:
 
 ## 配置
 
-* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) 将其配置为存储所需的额外材料：岩浆膏、烈焰粉和小撮下界之星粉。
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) 将其配置为存储所需的额外材料：岩浆膏、烈焰粉和小堆下界之星粉。
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> (2) 将其配置为“<ItemLink id="witchery:ingredient:130" />”，并设置为“发出红石信号以合成该物品”。
 * 第一条<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (3) 设置为过滤接口中存储的物品。安装一张红石卡，并将红石模式设置为“有信号时激活”。
 * 第一条<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (4) 的优先级必须*高于*第二条存储总线。参见[优先级](../ae2_mechanics/import_export_storage.md#storage-priority)。

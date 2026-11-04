@@ -16,4 +16,4 @@ navigation:
   parent: ./singleblock_index.md
   position: 30
 ---
-# Bio Lab
+# 生物实验室

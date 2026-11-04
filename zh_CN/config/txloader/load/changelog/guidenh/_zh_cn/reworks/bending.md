@@ -26,7 +26,7 @@ date: 2026-05-27
 > - 更多并行：每个电压等级 4 -> 6
 
 ## 结构建造
-<Color id="GREEN">IBM</Color>没有分级部件。总线/仓可替换结构中任意位置的金属加工机械方块。<Color id="GREEN">多A能源仓和激光能源仓</Color>不受支持，但可以有多个常规能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/建造该结构。
+<Color id="GREEN">IBM</Color>没有任意等级部件。总线/仓可替换结构中任意位置的金属加工机械方块。<Color id="GREEN">多A能源仓和激光能源仓</Color>不受支持，但可以有多个常规能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/建造该结构。
 
 ### 需要：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15553"/>
@@ -40,8 +40,8 @@ date: 2026-05-27
 - 0+ 输入总线（任意外壳） <ItemImage id="gregtech:gt.blockmachines:70" />
 - 0+ 输出总线（任意外壳） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 共墙
-<Color id="GREEN">工业卷板机</Color>可在各自侧面共墙，以节省机械方块、框架方块、冲压核心以及总线/仓。没有配方会消耗超过 1A 的电力，因此可以在 <u>__两__</u> 台机器之间共享 <u>__一__</u> 个能源仓。
+### 共用墙壁
+<Color id="GREEN">工业卷板机</Color>可在各自侧面共用墙壁，以节省机械方块、框架方块、冲压核心以及总线/仓。没有配方会消耗超过 1A 的电力，因此可以在 <u>__两__</u> 台机器之间共享 <u>__一__</u> 个能源仓。
 
 ## 用法
 <Color id="GREEN">IBM</Color>是单方块卷板机的直接升级，因为它以 600% 的速度运行，并在每个电压等级提供 6 并行，如下表所示。

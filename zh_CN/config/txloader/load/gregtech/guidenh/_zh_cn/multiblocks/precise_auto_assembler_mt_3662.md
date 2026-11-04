@@ -15,4 +15,4 @@ navigation:
   icon: gregtech:gt.blockmachines:32018
   position: -5001
 ---
-# Precise Auto-Assembler MT-3662
+# 精密自动组装机MT-3662

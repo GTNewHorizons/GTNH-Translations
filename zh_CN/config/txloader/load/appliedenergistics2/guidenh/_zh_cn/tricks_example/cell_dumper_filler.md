@@ -49,10 +49,10 @@ navigation:
 
 1. <ItemLink id="appliedenergistics2:tile.BlockIOPort" />尝试将已插入的[存储元件](../items_blocks/storage_cells.md)内容倒入[网络存储](../ae2_mechanics/import_export_storage.md)。
 2. 子网中唯一的存储端是<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，它会把物品、流体等存入你放在它面前的容器中。
-* <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />提供了充足[能源缓冲](../ae2_mechanics/energy.md)，使网络不会因每游戏刻传输大量物品的耗电而断电。
+* <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />提供了充足[能源缓存](../ae2_mechanics/energy.md)，使网络不会因每游戏刻传输大量物品的耗电而电力故障。
 
 ### "导出元件"模式
 
 1. <ItemLink id="appliedenergistics2:tile.BlockIOPort" />尝试将[网络存储](../ae2_mechanics/import_export_storage.md)的内容倒入已插入的[存储元件](../items_blocks/storage_cells.md)。
 2. 子网中唯一的存储端是<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，它会从你放在它面前的容器中提取物品、流体等。
-* <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />提供了充足[能源缓冲](../ae2_mechanics/energy.md)，使网络不会因每游戏刻传输大量物品的耗电而断电。
+* <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />提供了充足[能源缓存](../ae2_mechanics/energy.md)，使网络不会因每游戏刻传输大量物品的耗电而电力故障。

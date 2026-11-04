@@ -9,31 +9,31 @@ navigation:
   icon: gregtech:gt.blockmachines:31082
   position: -501
 ---
-# Steam Purifier
+# 大型蒸汽洗矿厂
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31082" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" /> is a multiblock ore washing machine available in the Steam age. It uses steam and water to process minerals in batches and can process up to eight copies of the same recipe at once. Its **Ore Washer** and **Simple Washer** modes let you choose between collecting byproducts and washing quickly.
+<ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" /> 是蒸汽时代可用的多方块洗矿机。它使用蒸汽和水批量加工矿物，最多可同时处理八份相同配方。其**洗矿机**和**简易洗矿池**模式可让你选择收集副产物或快速洗涤。
 
-The machine has basic bronze and high pressure steel structures that share the same controller. It makes washing Crushed Ores available in the Steam age, while Simple Washer mode can also quickly wash eligible Impure Dusts and Purified Dusts. Upgrading to the high pressure structure increases throughput, but does not raise the maximum recipe tier.
+该机器有基础青铜结构和高压钢结构，两者共用同一控制器。它让玩家能在蒸汽时代洗涤粉碎矿石，简易洗矿池模式还可快速洗涤符合条件的含杂粉和洁净粉。升级为高压结构可提高吞吐量，但不会提升配方最高等级。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires Cast Iron Plates, Tin Rotors, a Tumbaga Frame Box, and other materials |
-| Dimensions | Nine blocks wide, five blocks deep, and six blocks tall; controller at the front center of the small cube's second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Recipe range | Ore Washer or Simple Dust Washer recipes at LV or below, requiring no more than 32 EU/t |
-| Inputs and outputs | Steam Input Buses accept items, Input Hatches accept recipe water, and steam Output Buses output items |
-| Operating modes | Defaults to Ore Washer mode; switch to Simple Washer mode with a screwdriver or the GUI |
-| Parallels | Up to eight copies of the same recipe; the high pressure structure does not raise this limit |
-| Processing duration | Approximately 1.6× the duration shown in NEI for the basic structure, or 0.8× for the high pressure structure |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| 解锁阶段 | 蒸汽时代；控制器配方需要铸铁板、锡转子、铜金合金框架及其他材料 |
+| 尺寸 | 宽九格、深五格、高六格；控制器位于小型立方体第二层前方中央 |
+| 电力 | 恰好一个蒸汽仓；不需要能源仓 |
+| 配方范围 | LV 或以下、耗电不超过 32 EU/t 的洗矿机或简易洗矿池配方 |
+| 输入与输出 | 蒸汽输入总线接收物品，输入仓接收配方用水，蒸汽输出总线输出物品 |
+| 运行模式 | 默认为洗矿机模式；使用螺丝刀或 GUI 切换到简易洗矿池模式 |
+| 并行数 | 最多同时处理八份相同配方；高压结构不会提高此上限 |
+| 加工时间 | 基础结构约为 NEI 所示时间的 1.6 倍，高压结构约为 0.8 倍 |
+| 升级与超频 | 高压结构将速度和蒸汽消耗速率加倍；不进行电压超频 |
+| 维护与污染 | 无需维护，不产生污染，也不需要消声仓 |
 
-## Crafting and Construction
+## 合成与建造
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+下方展示了控制器、基础外壳和蒸汽仓的当前配方。点击表格中的物品可查看其他部件的配方。
 
 <RecipesFor id="gregtech:gt.blockmachines:31082" />
 
@@ -41,161 +41,161 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### 结构材料
 
-The following setup uses one Steam Hatch, one Input Bus, one Output Bus, and one Input Hatch. The basic structure uses bronze components, while the high pressure structure uses their steel counterparts. **The casings, Gear Box Casings, and Pipe Casings in one machine must all be of the same tier.**
+以下配置使用一个蒸汽仓、一个输入总线、一个输出总线和一个输入仓。基础结构使用青铜部件，高压结构使用对应钢制部件。**同一台机器的外壳、齿轮箱机械方块和管道方块必须全部为同一等级。**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| 部件 | 基础结构 | 高压结构 | 数量与位置 |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 59 in the setup described above; may be replaced with the hatches or buses below, but at least 55 actual casings must remain |
-| Gear Box Casing | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | Eight, in the tank's base around the central casing |
-| Pipe Casing | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | 12, forming the pipes inside the tank and the connecting pipes above |
-| Glass | For example, <ItemLink id="minecraft:glass" showIcon="left" /> | Existing glass can be reused | 24, forming two layers of tank walls; use glass blocks accepted by the hologram |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" /> | Same controller | One, at the front center of the small cube's second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Input Hatch | For example, <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Same hatch | At least one, replacing a casing, to supply water |
+| 外壳 | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 上述配置中为 59 个；可由下方仓或总线替换，但实际外壳至少保留 55 个 |
+| 齿轮箱机械方块 | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | 八个，位于水箱底部中央外壳周围 |
+| 管道方块 | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | 十二个，构成水箱内的管道和上方连接管道 |
+| 玻璃 | 例如 <ItemLink id="minecraft:glass" showIcon="left" /> | 可沿用现有玻璃 | 24 块，构成两层水箱墙壁；使用全息投影接受的玻璃方块 |
+| 控制器 | <ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" /> | 同一控制器 | 一个，位于小型立方体第二层前方中央 |
+| 蒸汽仓 | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | 同一仓 | 恰好一个，替换一个外壳 |
+| 输入总线 | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | 同一总线 | 至少一个，替换外壳 |
+| 输出总线 | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | 同一总线 | 至少一个，替换外壳 |
+| 输入仓 | 例如 <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | 同一仓 | 至少一个，替换外壳以供应水 |
 
-The structure has 63 positions for casings or hatches. Installing the four interfaces listed above leaves 59 casings. Adding Input Hatches or buses reduces the casing count accordingly, but at least 55 actual casings must remain. Hatches and buses cannot replace Gear Box Casings, Pipe Casings, or glass.
+结构中有 63 个可放外壳或仓的位置。安装上述四个接口后还剩 59 个外壳。增加输入仓或总线会相应减少外壳数量，但实际外壳至少要保留 55 个。仓和总线不能替代齿轮箱机械方块、管道方块或玻璃。
 
-Count layers upward from the base. The structure consists of a small cube, a glass tank beside it, and pipes above. The controller is not at the center of the entire structure, which is nine blocks wide. Follow the interactive structure or hologram. The controller can only face horizontally, and the structure cannot be rotated around its front face; empty positions in the hologram do not need to be filled.
+从底座开始向上数层。结构由一个小型立方体、旁边的玻璃水箱和上方管道组成。控制器并不位于整个九格宽结构的中央。请按交互式结构或全息投影建造。控制器只能水平朝向，结构不能绕其正面旋转；全息投影中的空位无需填满。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 预览结构并辅助建造。主信道等级 1 选择基础结构，等级 2 选择高压结构。辅助建造完成后安装仓，并检查结构。
 
-### Tank Water and Recipe Water
+### 水箱用水与配方用水
 
-Steam, water in the structure's tank, and recipe water serve different purposes:
+蒸汽、结构水箱中的水和配方用水用途各不相同：
 
-| Location | Purpose |
+| 位置 | 用途 |
 | --- | --- |
-| Steam Hatch | Receives steam produced by an external boiler to power the machine |
-| Input Hatch | Receives ordinary Water or the Distilled Water required by the recipe; each recipe consumes its water from here |
-| Structure's tank | Eight water positions around the central Pipe Casing on the second layer; place water sources manually or let the machine fill them |
+| 蒸汽仓 | 接收外部锅炉产生的蒸汽，为机器供能 |
+| 输入仓 | 接收普通水或配方所需的蒸馏水；每份配方都会从这里消耗用水 |
+| 结构水箱 | 第二层中央管道方块周围的八个水位；可手动放置水源，或由机器自动填充 |
 
-Keep the Pipe Casing in the center of the tank. The eight surrounding water positions can initially be left empty. When checking the tank, the machine takes **1,000 L of ordinary Water** at a time from Input Hatches to place one water source block. If all eight positions are empty, the initial fill consumes up to **8,000 L of additional ordinary Water**. This is separate from the current cycle's recipe water, so provide enough buffer before starting.
+水箱中央要保留管道方块。周围八个水位初始可以留空。机器检查水箱时，会从输入仓一次取用 **1,000 L 普通水**，放置一个水源方块。如果八个位置都为空，初始填充最多会额外消耗 **8,000 L 普通水**。这部分水与当前加工周期的配方用水分开，因此启动前要留足缓冲。
 
-You can also use water buckets to fill all eight positions manually. **Water placed in the tank does not replace recipe water in Input Hatches.** Keep supplying the Input Hatches after the tank is filled. Tank water is not consumed by each recipe, but if a source is removed, the machine will attempt to refill it during a later check. The structure check accepts water sources or air; flowing water cannot replace source blocks.
+也可以用水桶手动填满八个位置。**放入水箱的水不能替代输入仓中的配方用水。**水箱填满后仍需向输入仓持续供水。每条配方不会消耗水箱中的水，但水源被移走后，机器会在之后的检查中尝试补充。结构检查接受水源方块或空气；流动水不能替代水源方块。
 
-Ore Washer mode includes Distilled Water recipes, but automatic filling of an empty tank only uses **ordinary Water**. Before washing with Distilled Water, fill the tank with buckets or install an extra Input Hatch containing ordinary Water for automatic filling.
+洗矿机模式包含蒸馏水配方，但自动填充空水箱时只使用**普通水**。使用蒸馏水洗涤前，请用水桶填满水箱，或额外安装一个装有普通水的输入仓供自动填充。
 
-## Machine Uses
+## 机器用途
 
-### Two Washing Modes
+### 两种洗涤模式
 
-<kbd>Right-click</kbd> the controller with a <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" />, or click the mode button in the GUI, to switch between Ore Washer and Simple Washer modes.
+<kbd>右键点击</kbd>控制器<ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" />，或点击 GUI 中的模式按钮，即可在洗矿机和简易洗矿池模式之间切换。
 
-| Property | Ore Washer mode | Simple Washer mode |
+| 属性 | 洗矿机模式 | 简易洗矿池模式 |
 | --- | --- | --- |
-| Recipe map | Ore Washer recipes in NEI | Simple Dust Washer recipes in NEI |
-| Common inputs | Crushed Ores and other eligible mineral intermediates | Eligible Crushed Ores, Impure Dusts, and Purified Dusts |
-| Common main outputs | Crushed Ores become Purified Crushed Ores | Crushed Ores become Purified Crushed Ores; Impure Dusts and Purified Dusts become ordinary dusts |
-| Byproducts | Collects Stone Dust and mineral byproducts listed in the recipe; some outputs are chance-based | Only produces the cleaned main product, without ore washing or centrifuging byproducts |
-| Typical water per recipe | 1,000 L of ordinary Water or 200 L of Distilled Water; check the corresponding NEI recipe | 100 L of ordinary Water |
-| Typical duration shown in NEI | 25 seconds with ordinary Water or 15 seconds with Distilled Water; individual recipes may differ | Five ticks, or 0.25 seconds at the normal 20 TPS |
+| 配方类型 | NEI 中的洗矿机配方 | NEI 中的简易洗矿池配方 |
+| 常见输入 | 粉碎矿石及其他符合条件的矿物中间产物 | 符合条件的粉碎矿石、含杂粉和洁净粉 |
+| 常见主要产物 | 粉碎矿石变为洗净的矿石 | 粉碎矿石变为洗净的矿石；含杂粉和洁净粉变为普通粉 |
+| 副产物 | 收集配方所列的石粉和矿物副产物；部分产物为概率产出 | 只产出洗净的主要产物，不会产生洗矿或离心副产物 |
+| 每份配方的常见用水量 | 1,000 L 普通水或 200 L 蒸馏水；请查看对应 NEI 配方 | 100 L 普通水 |
+| NEI 显示的典型时长 | 普通水配方为 25 秒，蒸馏水配方为 15 秒；具体配方可能不同 | 五个游戏刻，在正常 20 TPS 下为 0.25 秒 |
 
-Choose Ore Washer mode when you need mineral byproducts, and leave output space for every product. Choose Simple Washer mode when you only need the main product quickly. Simple washing is fast and uses little water, making it suitable for bulk processing materials whose byproducts you have decided to skip.
+需要矿物副产物时选择洗矿机模式，并为每种产物留出输出空间。只需要快速获取主要产物时选择简易洗矿池模式。简易洗矿池速度快、用水少，适合批量加工已决定跳过副产物的材料。
 
-For Impure Dusts and Purified Dusts, also check [Steam Separator](./steam_seperator.md) recipes. Centrifuging can often recover corresponding byproducts while producing ordinary dust, whereas simple washing skips those byproducts. Choose the processing route using the specific mineral's NEI recipes.
+对于含杂粉和洁净粉，也请查看[大型蒸汽离心机](./steam_seperator.md)配方。离心通常能在产出普通粉的同时回收对应副产物，而简易洗矿池会跳过副产物。请根据具体矿物的 NEI 配方选择加工路线。
 
 > [!WARNING]
-> Simple Washer mode does not produce the byproducts from normal ore washing or centrifuging. Switching back to Ore Washer mode cannot recover those byproducts from items already processed in Simple Washer mode. Check the current mode before processing minerals whose byproducts you need.
+> 简易洗矿池模式不会产出普通洗矿或离心的副产物。切回洗矿机模式也无法从已用简易洗矿池模式加工的物品中找回副产物。加工需要副产物的矿物前，请检查当前模式。
 
-### Mineral Processing Routes
+### 矿物加工路线
 
-Washing Crushed Ore usually produces **Purified Crushed Ore**, rather than ordinary dust ready for every crafting recipe. Choose subsequent grinding, centrifuging, or other processing steps in NEI, and route items by their name and form.
+洗涤粉碎矿石通常会产出**洗净的矿石**，并非适用于所有合成配方的普通粉。请在 NEI 中选择后续研磨、离心或其他步骤，并根据物品名称和形态安排路由。
 
-- **Keep byproducts:** Send Crushed Ore into Ore Washer mode, collect Purified Crushed Ore, Stone Dust, and mineral byproducts separately, then arrange subsequent processing.
-- **Wash quickly:** Send eligible Crushed Ore into Simple Washer mode and collect only Purified Crushed Ore.
-- **Quickly purify ore dusts:** Send eligible Impure Dust or Purified Dust into Simple Washer mode to obtain ordinary dust. Use centrifuging instead if you need its corresponding byproducts.
+- **保留副产物：**将粉碎矿石送入洗矿机模式，分别收集洗净的矿石、石粉和矿物副产物，再安排后续加工。
+- **快速洗矿：**将符合条件的粉碎矿石送入简易洗矿池模式，只收集洗净的矿石。
+- **快速提纯矿石粉：**将符合条件的含杂粉或洁净粉送入简易洗矿池模式，获得普通粉。如需相应副产物，则改用离心。
 
-Not every material or mineral form has a Simple Dust Washer recipe. Purified Crushed Ore and Purified Dust are different items. An item having "Purified" in its name does not mean it can be processed again in Simple Washer mode.
+并非所有材料或矿物形态都有简易洗矿池配方。洗净的矿石和洁净粉是不同物品。名称中含有“Purified（洗净／洁净）”并不代表该物品还能在简易洗矿池模式中再次加工。
 
-### First Startup
+### 首次启动
 
-1. Check the structure and confirm that the Steam Hatch, steam Input Bus, steam Output Bus, and Input Hatch are installed.
-2. Use separate lines to supply steam to the Steam Hatch and water to the Input Hatch. If the tank is empty, first buffer enough ordinary Water for automatic filling.
-3. Select the desired mode and check the corresponding recipe map, input form, water type, and all outputs in NEI.
-4. Leave space for every output, then start with a small amount of material and observe the tank, outputs, steam buffer, and Input Hatch contents.
-5. Increase input quantities and parallels after confirming continuous steam and water supplies and output collection.
+1. 检查结构，并确认已安装蒸汽仓、蒸汽输入总线、蒸汽输出总线和输入仓。
+2. 使用独立管线分别向蒸汽仓供应蒸汽、向输入仓供应水。若水箱为空，请先准备足量普通水以供自动填充。
+3. 选择所需模式，并在 NEI 中检查对应配方类型、输入形态、水的种类和全部产物。
+4. 为每种产物留出空间，然后少量投入材料启动，并观察水箱、产物、蒸汽缓冲和输入仓内容。
+5. 确认蒸汽和水持续供应且产物能够收集后，再增加输入量和并行数。
 
 > [!NOTE]
-> In the current version, the machine may briefly show "No Water" during its first startup or a periodic tank check. After the check, it will try again at the next recipe check. Confirm water in the Input Hatch and source blocks in the tank, then wait and observe. If it still cannot run, use the troubleshooting section below.
+> 当前版本中，机器首次启动或定期检查水箱时可能短暂显示“无水”。检查结束后，它会在下一次配方检查时重试。确认输入仓有水、水箱中有水源方块，然后等待并观察。若仍无法运行，请查看下方故障排查。
 
-## Steam Supply, Water Supply, and Throughput
+## 蒸汽供应、供水与吞吐量
 
-The Steam Purifier can process up to eight copies of **the same recipe** at once. This does not mean it can process eight different minerals in one cycle. Actual parallels also depend on input quantities, recipe water, output space, and the parallel limit set in the GUI.
+大型蒸汽洗矿厂最多可同时处理八份**相同配方**。这不代表它能在一轮中处理八种不同矿物。实际并行数还取决于输入数量、配方用水、输出空间以及 GUI 中设置的并行上限。
 
-The basic structure takes approximately 1.6× the recipe duration shown in NEI, while the high pressure structure takes approximately 0.8×. A typical ordinary Water washing recipe shown as 25 seconds takes roughly 40 seconds in the basic structure or 20 seconds in the high pressure structure. A Simple Dust Washer recipe shown as five ticks takes roughly eight ticks in the basic structure or four ticks in the high pressure structure. Actual continuous throughput also depends on recipe checks, input supply, and output handling.
+基础结构的加工时间约为 NEI 所示配方时间的 1.6 倍，高压结构约为 0.8 倍。NEI 显示 25 秒的典型普通水洗矿配方，在基础结构中约需 40 秒，在高压结构中约需 20 秒。NEI 显示五个游戏刻的简易洗矿池配方，在基础结构中约需八刻，在高压结构中约需四刻。实际持续吞吐量还取决于配方检查、输入供应和输出处理。
 
-| Property | Basic structure | High pressure structure |
+| 属性 | 基础结构 | 高压结构 |
 | --- | --- | --- |
-| Accepted recipe tiers | LV and below | LV and below |
-| Maximum parallels | 8 | 8 |
-| Processing duration relative to NEI | Approximately 1.6× | Approximately 0.8× |
-| Steam consumption rate for the same recipe and parallel count | 1× | 2× |
-| Total steam consumption per recipe | Baseline | Approximately the same as the basic structure |
-| Water per recipe | As specified by the NEI recipe | Same as the basic structure |
+| 可运行配方等级 | LV 及以下 | LV 及以下 |
+| 最大并行数 | 8 | 8 |
+| 相对于 NEI 的加工时间 | 约 1.6 倍 | 约 0.8 倍 |
+| 相同配方及并行数下的蒸汽消耗速率 | 1 倍 | 2 倍 |
+| 每份配方的总蒸汽消耗量 | 基准 | 与基础结构大致相同 |
+| 每份配方用水量 | 按 NEI 配方指定 | 与基础结构相同 |
 
-Parallels increase the number of recipes processed in a cycle without dividing the cycle's duration by the parallel count. At eight parallels, a typical ordinary Water washing cycle requires **8,000 L of Water**, a Distilled Water cycle requires **1,600 L of Distilled Water**, and a simple washing cycle requires **800 L of Water**. If the tank still needs automatic filling at startup, provide additional ordinary Water for that separately.
+并行数会增加每轮处理的配方数量，但不会按并行数缩短每轮时间。典型普通水洗涤配方在八并行时每轮需要 **8,000 L 水**；蒸馏水配方需要 **1,600 L 蒸馏水**；简易洗涤需要 **800 L 水**。若启动时水箱仍需自动填充，还要额外提供普通水。
 
-Simple Washer mode uses little water per recipe, but processes quickly, so the Input Hatch buffer and water pipes can still become bottlenecks. The high pressure upgrade does not reduce water per recipe. With processing speed doubled, continuous production also requires a higher water supply rate.
+简易洗矿池模式每份配方用水很少，但处理速度快，因此输入仓缓冲和水管仍可能成为瓶颈。高压升级不会降低每份配方的用水量。加工速度加倍后，持续生产也需要提高供水速率。
 
-The Steam Hatch buffers 64,000 L of steam, but this only covers temporary shortfalls and cannot replace continuous boiler production. Size boilers and pipes for the **steam consumption rate while processing**, and also watch whether the Input Hatch's water supply keeps up.
+蒸汽仓可储存 64,000 L 蒸汽，但这只能应对暂时短缺，无法替代锅炉持续产汽。锅炉和管道应按**加工期间的蒸汽消耗速率**配置，并观察输入仓的供水是否跟得上。
 
-Use Waila to check the operating steam consumption rate and watch whether the buffer keeps falling during continuous processing. If a value is shown in L/t, multiply by 20 to get L/s at the normal 20 TPS. Use matching units when comparing pipe throughput. If steam or water supply is insufficient, lower the parallel limit in the GUI, then increase boiler production or improve the piping.
+使用 Waila 查看运行时蒸汽消耗速率，并观察持续加工时缓冲量是否不断下降。如果显示单位为 L/t，在正常 20 TPS 下乘以 20 即为 L/s。比较管道吞吐量时请使用相同单位。蒸汽或供水不足时，先在 GUI 中降低并行上限，再增加锅炉产量或改进管道。
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation, and materials already consumed are not returned. Check steam production and pipe throughput before upgrading to high pressure or increasing the parallel limit.
+> 加工期间蒸汽耗尽会中止当前操作，已消耗的材料不会返还。升级高压结构或提高并行上限前，请检查蒸汽产量和管道吞吐量。
 
-## Upgrading to High Pressure
+## 升级为高压结构
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31082" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. Replace **all** Bronze Plated Bricks, Bronze Gear Box Casings, and Bronze Pipe Casings with the Solid Steel Machine Casings, Steel Gear Box Casings, and Steel Pipe Casings listed in the table. Glass does not participate in the bronze versus steel tier check, so the existing ordinary glass can be reused.
+高压结构保持相同尺寸、仓位和控制器。将**所有**镀铜砖块、青铜齿轮箱机械方块和青铜管道方块替换为表中所列的脱氧钢机械方块、钢齿轮箱机械方块和钢管道方块。玻璃不参与青铜与钢的等级检查，因此可保留现有普通玻璃。
 
-Stop processing and material input before upgrading. After replacing the components, check the structure again and confirm the machine displays the high pressure tier before restoring steam, water, and production.
+升级前请停止加工和材料输入。替换部件后重新检查结构，并确认机器显示为高压等级，再恢复蒸汽、供水和生产。
 
-High pressure is the machine's structure tier. It still uses ordinary steam, and the existing Steam Hatch, steam buses, and Input Hatches can be reused. The upgrade doubles speed and steam consumption rate, but the maximum remains eight parallels, and MV or higher-tier recipes remain unavailable.
+高压是机器的结构等级。它仍使用普通蒸汽，现有蒸汽仓、蒸汽总线和输入仓均可保留。升级会使速度和蒸汽消耗速率加倍，但最大并行数仍为八，也无法运行 MV 或更高等级配方。
 
-## Automation and Output Routing
+## 自动化与产物路由
 
-Steam Input and Output Buses each have four item slots. They do not automatically pull from adjacent chests or push products into them; placing a chest next to a bus is not enough for automation.
+蒸汽输入总线和输出总线各有四个物品槽。它们不会自动从相邻箱子抽取物品，也不会将产物推入箱子；仅将箱子放在总线旁不足以实现自动化。
 
-- **Input:** Use hoppers, GT item pipes, conveyors, or item conduits to send minerals into the front face of the Input Bus. Filter by forms such as Crushed Ore, Impure Dust, and Purified Dust.
-- **Output:** Actively extract from the front face of the Output Bus with pipes, conduits, or conveyors, then route products to main output storage, byproduct storage, or the next machine.
-- **Steam and water:** Use separate lines, connecting steam to the Steam Hatch and water to Input Hatches. Arrange separate buffers and interfaces for washing with Distilled Water and filling the tank with ordinary Water.
-- **Byproducts:** In Ore Washer mode, handle Stone Dust and mineral byproducts as well as the main output. Filtering only the main output will leave other items accumulating in the bus.
-- **Mode changes:** Stop material input and wait for the current operation to finish. Check the mode and remaining inputs before resuming transfer, so subsequent materials are not processed through the other route unintentionally.
+- **输入：**使用漏斗、GT 物品管道、传送带或物品导管，将矿物送入输入总线正面。按粉碎矿石、含杂粉和洁净粉等形态设置过滤。
+- **输出：**用管道、导管或传送带从输出总线正面主动提取，再将产物送往主要产物存储处、副产物存储处或下一台机器。
+- **蒸汽与水：**使用独立管线，将蒸汽接至蒸汽仓、水接至输入仓。蒸馏水洗涤和普通水箱填充应分别配置缓冲和接口。
+- **副产物：**洗矿机模式下，除了主要产物，还要处理石粉和矿物副产物。若只过滤主要产物，其他物品会在总线中不断堆积。
+- **切换模式：**停止物品输入并等待当前操作结束。恢复传输前检查模式和剩余输入，避免后续材料被意外送入另一条加工路线。
 
-Ore washing recipes can produce several different items at once. A single Output Bus with four slots may not hold all products during continuous processing. Additional Output Buses expand output space, but do not raise the parallel limit. Keep at least 55 actual casings when adding hatches or buses, and do not install a second Steam Hatch.
+矿石洗涤配方可能同时产出多种物品。连续加工时，只有四个槽位的单个输出总线可能无法容纳全部产物。增加输出总线可以扩展空间，但不会提高并行上限。增加仓或总线时至少保留 55 个实际外壳，且不能安装第二个蒸汽仓。
 
 > [!WARNING]
-> To collect all byproducts, set the GUI's voiding mode to "Do Not Void" and provide space for every output. If item voiding is enabled, main products or byproducts may be discarded when the output is blocked.
+> 如需收集全部副产物，请将 GUI 的销毁模式设为“不销毁”，并为所有产物留出空间。若启用了物品销毁，输出堵塞时主要产物或副产物都可能被丢弃。
 
-## Troubleshooting
+## 故障排除
 
-| Symptom | What to check |
+| 症状 | 检查事项 |
 | --- | --- |
-| Incomplete structure | Is the structure nine blocks wide, five deep, and six tall? Is the controller at the front center of the small cube's second layer? Are pipes, Gear Box Casings, glass, and water positions arranged as shown in the hologram? |
-| Structure tier mismatch | Are the casings, Gear Box Casings, and Pipe Casings all of the same tier? Were only some bronze components replaced? |
-| Missing hatch or bus | Is there exactly one Steam Hatch and at least one steam Input Bus, steam Output Bus, and Input Hatch? Were ordinary electric machine item buses used by mistake? |
-| Structure fails after adding hatches | Are at least 55 actual casings left? Were glass, Gear Box Casings, or Pipe Casings replaced with hatches? |
-| Tank does not fill automatically | Is there ordinary Water in the Input Hatch? Each empty water position requires 1,000 L. Distilled Water alone cannot fill the tank automatically; you can also place source blocks with buckets. |
-| Tank has water but processing does not start | Does the Input Hatch still contain the water required by the recipe? Tank water cannot replace recipe water. Are there only flowing water blocks instead of sources? |
-| Brief "No Water" message | The machine may be performing its first or periodic tank check. Confirm water quantities and wait for the next recipe check. If it still cannot run, check the mode, recipe, and structure. |
-| Minerals present but no recipe found | Is the correct Ore Washer or Simple Washer mode selected? Does a corresponding recipe exist? Were Purified Crushed Ore and Purified Dust confused? Is the input water type correct? |
-| Recipe tier too high | Does the recipe shown in NEI exceed LV? The high pressure structure also cannot process MV or higher-tier recipes. |
-| No Stone Dust or mineral byproducts | Is Simple Washer mode selected? Are the byproducts chance-based? Is item voiding enabled? Have pipes already extracted them? |
-| Insufficient output space | Is there room for every output? Is one four-slot Output Bus insufficient? Are Stone Dust or byproducts left in the bus? |
-| Only low parallels or frequent waiting | Are input quantities, Input Hatch water, and output space sufficient? Can water supply keep up with Simple Washer mode? Is the GUI parallel limit set too low? |
-| Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
-| Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
+| 结构不完整 | 结构是否宽九格、深五格、高六格？控制器是否位于小型立方体第二层前方中央？管道、齿轮箱机械方块、玻璃和水位是否按全息投影布置？ |
+| 结构等级不一致 | 外壳、齿轮箱机械方块和管道方块是否全部同等级？是否只替换了部分青铜部件？ |
+| 缺少仓或总线 | 是否恰好有一个蒸汽仓，且至少有一个蒸汽输入总线、蒸汽输出总线和输入仓？是否误用了普通电力机器物品总线？ |
+| 添加仓后结构无法成型 | 是否还剩至少 55 个实际外壳？是否有玻璃、齿轮箱机械方块或管道方块被仓替换？ |
+| 水箱没有自动填充 | 输入仓中是否有普通水？每个空水位需要 1,000 L。蒸馏水不能单独用于自动填充；也可用水桶放置水源方块。 |
+| 水箱有水但加工无法启动 | 输入仓中是否仍有配方所需的水？水箱中的水不能替代配方用水。是否只有流动水而没有水源方块？ |
+| 短暂显示“无水” | 机器可能正在首次或定期检查水箱。确认水量后等待下一次配方检查。若仍无法运行，请检查模式、配方和结构。 |
+| 有矿物但找不到配方 | 是否选择了正确的洗矿机或简易洗矿池模式？是否存在对应配方？是否混淆了洗净的矿石和洁净粉？输入水类型是否正确？ |
+| 配方等级过高 | NEI 显示的配方是否高于 LV？高压结构同样不能加工 MV 或更高等级的配方。 |
+| 没有石粉或矿物副产物 | 是否选择了简易洗矿池模式？副产物是否为概率产出？是否启用了物品销毁？管道是否已经提取？ |
+| 输出空间不足 | 是否为所有产物留出空间？单个四槽输出总线是否不够？总线中是否堆积着石粉或副产物？ |
+| 并行数偏低或频繁等待 | 输入数量、输入仓用水和输出空间是否充足？供水能否跟上简易洗矿池模式？GUI 并行上限是否过低？ |
+| 蒸汽仓中有蒸汽但机器仍停止 | 持续供应能否跟上消耗？管道是否受限或与其他机器共用蒸汽？当前并行数和高压等级是否超出锅炉产能？ |
+| 总线旁的箱子无法传输物品 | 蒸汽总线不会自动提取或推送物品。请检查主动传输设备、连接面、方向和过滤器。 |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+一般结构检查和工具使用请参见[多方块机器](./multiblocks_index.md)。
 
-## Related Pages
+## 相关页面
 
-- [GTNH Wiki: Steam Purifier](https://wiki.gtnewhorizons.com/wiki/Steam_Purifier)
+- [GTNH Wiki：大型蒸汽洗矿厂](https://wiki.gtnewhorizons.com/wiki/Steam_Purifier)

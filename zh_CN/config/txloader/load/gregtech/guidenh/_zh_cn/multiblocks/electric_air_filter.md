@@ -11,4 +11,4 @@ navigation:
   icon: gregtech:gt.blockmachines:12020
   position: -1001
 ---
-# Electric Air Filter
+# 大型空气过滤机

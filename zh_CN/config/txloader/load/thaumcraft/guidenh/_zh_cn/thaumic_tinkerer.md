@@ -13,7 +13,7 @@ navigation:
   position: 20
 ---
 
-# Thaumic Tinkerer
+# 神秘工匠
 
 <Column width="600" align="center" gap="8">
 
@@ -21,287 +21,269 @@ navigation:
   <FloatingImage src="/assets/images/thaumcraft_logo.png" x="50" y="132" width="2078" height="445" displayWidth="300" wrap="inline" title="Thaumcraft" />
 </Column>
 
-**Thaumic Tinkerer (TT)** adds customizable enchanting, durability repair, block transport, infused crops, and a wide range of functional devices to Thaumcraft.<br>
-Later, <Color color="#B7A0D6">KAMI</Color> research builds on Ichor to provide Ichorcloth armor, Ichorium tools, teleportation devices, and more.
+**神秘工匠（TT）**为神秘时代添加可自定义附魔、耐久修复、方块运输、注魔作物和大量实用设备。<br>之后，<Color color="#B7A0D6">KAMI</Color>研究会基于灵液提供灵布盔甲、灵宝工具、传送设备等内容。
 
-Its content supports equipment upgrades, material production, and base construction. The Osmotic Enchanter and Thaumic Restorer fit into existing equipment and essentia systems;<br>
-infused crops are bred through aspect combinations, while KAMI makes further use of void materials, Osmiridium, and higher wand Vis capacity.
+其内容支持装备升级、材料生产和基地建造。渗透附魔台和奥法修复台可融入现有装备及源质系统；<br>注魔作物通过要素组合进行培育，而 KAMI 会进一步利用虚空材料、铱锇合金和更高法杖魔力容量。
 
-NH rewrites many research prerequisites and recipes, so check current materials in NEI. This page focuses on device mechanics, uses, and NH-specific changes.
+NH 重写了许多研究前置条件和配方，因此请通过 NEI 核对当前材料需求。本页重点介绍设备机制、用途和 NH 特有改动。
 
-## Osmotic Enchanter
+## 渗透附魔台
 
 <GameScene interactive={true} wrap="square" align="right" width="240" height="220" showBackground={false} allowLayerSlider={false} gridButtonEnabled={false}>
   <ImportStructure src="/assets/structures/osmotic_enchanter.snbt" />
   <IsometricCamera yaw="225" pitch="30" />
 </GameScene>
 
-The <ItemLink id="ThaumicTinkerer:enchanter" showIcon="left" /> is a powerful enchanting table added by TT.<br>
-It lets you choose the enchantments and levels to apply to equipment, using Vis from a wand.<br>
-Different enchantments require different primal aspects, and the costs rise quickly at higher levels.
+<ItemLink id="ThaumicTinkerer:enchanter" showIcon="left" />是 TT 添加的强力附魔台。<br>它可使用法杖中的魔力，让你选择施加于装备的附魔和等级。<br>不同附魔需要不同的元始要素，且等级越高，消耗增长越快。
 
-**Surrounding pillars**
+**周围柱子**
 
-The enchanter requires **6 nearby pillars**. Their bases must be at the same height as the enchanter and within **4 blocks** along both the X and Z axes.<br>
-Each pillar consists of **2–12 <ItemLink id="Thaumcraft:blockCosmeticSolid:0" showIcon="left" />** stacked vertically, topped with <ItemLink id="Thaumcraft:ItemResource:1" showIcon="left" />.
+附魔台需要**附近 6 根柱子**。柱子的底部必须与附魔台等高，且在 X、Z 轴方向各 4 格范围内。<br>每根柱子由竖直堆叠的 **2–12 个<ItemLink id="Thaumcraft:blockCosmeticSolid:0" showIcon="left" />**组成，顶部放置<ItemLink id="Thaumcraft:ItemResource:1" showIcon="left" />。
 
-The scene shows a layout with two totems per pillar.<br>
-Other positions meeting the range and height requirements also work; the pillars do not require a fixed hexagonal layout.
+图中展示了每根柱子使用两个图腾的布局。<br>其他符合范围和高度要求的位置也有效；柱子不要求采用固定的六边形布局。
 
-**Items and power supply**
+**物品与能量供应**
 
-- The item must be **unenchanted** and have the item type and enchantability required by the chosen enchantment.
-- The interface only offers registered enchantments that apply to the item and whose research requirements are met. Restrictions such as the incompatibility between Silk Touch and Fortune still apply.
-- The wand's caps must have a base Vis consumption modifier of **100% or less**. Iron and copper caps do not qualify; staves are also not accepted.
-- Vis is absorbed gradually during processing, so the total requirement can exceed the wand's current reserves. If it runs short, remove the wand, recharge it, and return it to continue supplying Vis.
-- The item is locked while the enchanter is working, preventing removal or changes to the selected enchantments. Invalid pillars interrupt the process.
+- 物品必须**没有附魔**，且物品类型和可附魔性符合所选附魔的要求。
+- 界面只会提供已登记、适用于该物品且满足研究条件的附魔。精准采集与时运互斥等限制仍然有效。
+- 法杖杖端的基础魔力消耗修正值必须为 **100% 或更低**。铁和铜杖端不符合要求；也不接受法杖。
+- 处理期间会逐渐吸收魔力，因此总需求可能超过法杖当前储量。若魔力不足，取下法杖、为其充能后再放回，即可继续供应魔力。
+- 附魔台工作期间会锁定物品，无法取出或更改所选附魔。柱子无效会中断流程。
 
-The Osmotic Enchanter is made through infusion, with an ordinary Enchanting Table as the central ingredient and Obsidian Totems, Thaumium Plates, and Spellbinding Cloth around it.<br>
-The recipe has an instability of **12**, and the research adds **3 Warp**.
+渗透附魔台通过注魔合成，中央原料为普通附魔台，周围放置黑曜石图腾、神秘板和祛魔之布。<br>该配方的不稳定度为 **12**，研究会增加 **3 点扭曲**。
 
-**Spellbinding Cloth**
+**祛魔之布**
 
-Combining <ItemLink id="ThaumicTinkerer:spellCloth" showIcon="left" /> with an item in a crafting recipe removes its enchantments, allowing you to redesign the combination.
+在合成配方中将<ItemLink id="ThaumicTinkerer:spellCloth" showIcon="left" />与物品组合，可以移除其附魔，让你重新设计附魔组合。
 
 > [!WARNING]
-> Spellbinding Cloth removes the item's existing enchantments. Before using it on equipment with rare enchantments or effects that are difficult to obtain again, check which ones you intend to keep.
+> 祛魔之布会移除物品现有的附魔。若要用于带有稀有附魔或难以再次获得效果的装备，请先确认哪些附魔需要保留。
 
-## Useful Enchantments
+## 实用附魔
 
-Thaumic Tinkerer's enchantment research appears in its research tab. Complete the corresponding research to select these enchantments in the Osmotic Enchanter.<br>
-They affect mining, combat, or movement, so choose them according to the equipment's intended use.
+神秘工匠的附魔研究位于其研究标签页中。完成相应研究后，即可在渗透附魔台中选择这些附魔。<br>它们会影响采矿、战斗或移动，请根据装备的预期用途选择。
 
-**Mining and harvesting**
+**采矿与收割**
 
-- **Tunnel**: Increases mining speed when repeatedly digging in a straight line, making it useful for tunnels.
-- **Shatter**: Increases mining speed against blocks with high hardness.
-- **Disintegrate**: Provides very high mining speed against ordinary blocks suited to the tool, such as stone, dirt, and netherrack. It reduces effectiveness against other targets and doubles durability consumption.
-- **Flaming Touch**: Specializes in fast mining of wooden blocks, reducing effectiveness against other targets and also doubling durability consumption.
+- **隧道：** 连续沿直线挖掘时提高采矿速度，适合挖掘隧道。
+- **碎裂：** 挖掘硬度较高的方块时提高采矿速度。
+- **解离：** 挖掘适合该工具的普通方块（如石头、泥土和地狱岩）时提供极高采矿速度。对其他目标的效率会降低，耐久消耗则加倍。
+- **燃烧之触：** 专精于快速挖掘木质方块，对其他目标的效率会降低，耐久消耗也加倍。
 
-**Combat and movement**
+**战斗与移动**
 
-- **Vampirism**: Converts part of the damage dealt by an attack into healing for the wielder.
-- **Quick Draw**: Speeds up drawing a bow.
-- **Ascent Boost**: Applied to leggings to increase jump height.
-- **Slow Fall**: Applied to boots to reduce falling speed and fall damage; sneaking temporarily disables the effect.
+- **吸血：** 将攻击造成的部分伤害转化为持有者的治疗效果。
+- **即时备战：** 加快拉弓速度。
+- **腾迅：** 施加于护腿，提高跳跃高度。
+- **落雪：** 施加于靴子，降低下落速度和摔落伤害；潜行时会暂时禁用效果。
 
-Other combat enchantments include Dispersed Strikes, Focused Strikes, Final Strike, Valiance, Pounce, and Shockwave. Their research entries describe their effects and applicable equipment.<br>
-Mining enchantments with high durability consumption pair well with repair facilities or unbreakable Ichorium tools.
+其他战斗附魔包括群战、单杀、致命一击、英勇、猫爪和震荡波。其研究条目会说明效果和适用装备。<br>耐久消耗很高的采矿附魔适合搭配修复设施或不会损坏的灵宝工具。
 
-## Durability Repair and Status Protection
+## 耐久修复与状态保护
 
-**Thaumic Restorer**
+**奥法修复台**
 
-The <ItemLink id="ThaumicTinkerer:repairer" showIcon="left" /> repairs inserted items using <Color color="#B7A0D6">Instrumentum essentia</Color>. Each point of Instrumentum restores **8 durability**.
+<ItemLink id="ThaumicTinkerer:repairer" showIcon="left" />使用<Color color="#B7A0D6">工具源质</Color>修复放入的物品。每点 Instrumentum 可修复 **8 点耐久**。
 
-Supply essentia through the restorer's connection face, using tubes connected to your Instrumentum stock. Goggles of Revealing show the remaining damage, and the restorer emits a redstone signal while repairing.
+通过修复台的连接面供应源质，并连接装有 Instrumentum 的储存设施。揭示护目镜可以显示剩余损伤，修复时修复台会发出红石信号。
 
-Automation can insert damaged items and extract them once repairs are complete, supporting a cycle of equipment collection, repair, and resupply.<br>
-It accepts items according to their repairability; **Tinkers' Construct tools cannot be repaired**.
+自动化可以放入受损物品，并在修复完成后取出，从而实现装备收集、修理和补充的循环。<br>它会根据物品是否可修复来决定是否接收；**无法修复匠魂工具**。
 
-See [Alchemy and Essentia](./alchemy_essentia.md) for essentia storage and distribution.
+源质储存与分配请参阅[炼金与源质](./alchemy_essentia.md)。
 
-**Talisman of Remedium**
+**防身护身符**
 
-When worn and enabled, the <ItemLink id="ThaumicTinkerer:cleansingTalisman" showIcon="left" /> absorbs several negative status effects, consuming its durability to remove them. It can also handle some Warp-related effects, at a high durability cost.
+佩戴并启用后，<ItemLink id="ThaumicTinkerer:cleansingTalisman" showIcon="left" />会吸收多种负面状态效果，并消耗自身耐久将其移除。它也能处理部分扭曲相关效果，但耐久消耗较高。
 
-**Wand Focus: Mending**
+**法杖核心：愈合**
 
-The <ItemLink id="ThaumicTinkerer:focusHeal" showIcon="left" /> consumes wand Vis during continuous use to slowly heal the caster. It is useful for recovering between fights and requires reserves of the relevant Vis.
+<ItemLink id="ThaumicTinkerer:focusHeal" showIcon="left" />在持续使用时会消耗法杖魔力，缓慢治疗施法者。适合在战斗间隙恢复，需要储备相应要素的魔力。
 
-## Transport, Collection, and Device Interfaces
+## 运输、收集与设备接口
 
-**Wand Focus: Dislocation**
+**法杖核心：转移**
 
-The <ItemLink id="ThaumicTinkerer:focusDislocation" showIcon="left" /> picks up a block, stores it, and places it elsewhere. Containers, furnaces, and some mob spawners can also be moved. Vis is charged when picking up the block; placing it back costs no additional Vis.
+<ItemLink id="ThaumicTinkerer:focusDislocation" showIcon="left" />可以拾起方块、将其储存并放置到其他位置。容器、熔炉以及部分刷怪笼也可移动。拾取方块时会消耗魔力，重新放置则不再额外消耗魔力。
 
-Blocks with tile entities cost **5 times** as much Vis as ordinary blocks, while mob spawners cost **20 times** as much.<br>
-The focus cannot move certain blocks, including aura nodes, some AE blocks, bundled conduits, reinforced essentia jars, and other special devices.
+含方块实体的方块消耗的魔力是普通方块的 **5 倍**，而刷怪笼则是 **20 倍**。<br>该核心无法移动某些方块，包括灵气节点、部分 AE 方块、捆绑导管、强化源质罐及其他特殊设备。
 
-**Transvector Interface and Dislocator**
+**矢量变换接口与矢量转位仪**
 
-- A <ItemLink id="ThaumicTinkerer:interface" showIcon="left" /> bound to a target block extends its item, fluid, and other interfaces.<br>
-Bind it with a <ItemLink id="ThaumicTinkerer:connector" showIcon="left" />, within a range of **4 blocks**. It shares the target's corresponding capabilities, providing additional connection points around a device.
+- 与目标方块绑定的<ItemLink id="ThaumicTinkerer:interface" showIcon="left" />可以扩展其物品、流体和其他接口。<br>
+使用<ItemLink id="ThaumicTinkerer:connector" showIcon="left" />在 **4 格**范围内进行绑定。它会共享目标的对应功能，为设备周围提供额外的连接点。
 <br>
-- A <ItemLink id="ThaumicTinkerer:dislocator" showIcon="left" /> swaps the block in front of it with the bound location when triggered by redstone, also moving entities at those positions.<br>
-Its binding range is **16 blocks**, and its facing can be adjusted with a wand.
+- <ItemLink id="ThaumicTinkerer:dislocator" showIcon="left" />在红石触发时，会将前方方块与绑定位置的方块互换，同时移动这两个位置上的实体。<br>
+其绑定范围为 **16 格**，可使用法杖调整朝向。
 
-**Attractors and automated tool use**
+**吸引器与自动工具操作**
 
-- The <ItemLink id="ThaumicTinkerer:magnet" showIcon="left" /> affects dropped items, while the Corporeal Attractor affects living creatures. Blue mode attracts and red mode repels;<br>
-the range is half the redstone signal strength, up to **7.5 blocks**. The Corporeal Attractor also uses Soul Molds to filter creature types and distinguish adults from babies.
+- <ItemLink id="ThaumicTinkerer:magnet" showIcon="left" />作用于掉落物，而奥术生物磁铁作用于活体生物。蓝色模式用于吸引，红色模式用于排斥；<br>
+范围为红石信号强度的一半，最多 **7.5 格**。奥术生物磁铁还可以使用灵魂模具过滤生物类型，并区分成年和幼年个体。
 <br>
-- The <ItemLink id="ThaumicTinkerer:animationTablet" showIcon="left" /> performs left-click or right-click actions with the inserted tool or item, either continuously or under redstone control.<br>
-Tool type and durability also affect its work when harvesting, placing blocks, or performing other automated actions.
+- <ItemLink id="ThaumicTinkerer:animationTablet" showIcon="left" />可使用插入的工具或物品执行左键或右键操作，并可持续工作或受红石控制。<br>
+工具类型和耐久度也会影响其收割、放置方块或执行其他自动操作的效果。
 
-These devices supplement existing logistics and redstone controls. See [Magic Automation](./magic_automation.md) for more on collection, inventory monitoring, and production support.
+这些设备可补充现有物流和红石控制。关于收集、库存监控和生产辅助，请参阅[魔法自动化](./magic_automation.md)。
 
-## Lighting, Movement, and Portable Devices
+## 照明、移动与便携设备
 
-**Lighting and darkening**
+**照明与暗化**
 
-<ItemLink id="ThaumicTinkerer:brightNitor" showIcon="left" /> illuminates the area around its carrier even while stored in the inventory, making it useful in caves and areas without fixed lighting.
+<ItemLink id="ThaumicTinkerer:brightNitor" showIcon="left" />即使存放在物品栏中，也会照亮携带者周围区域，适用于洞穴和缺少固定照明的地方。
 
-<ItemLink id="ThaumicTinkerer:gaseousLightItem" showIcon="left" /> and <ItemLink id="ThaumicTinkerer:gaseousShadowItem" showIcon="left" /> release spreading gases that respectively light up or darken the surrounding area.
+<ItemLink id="ThaumicTinkerer:gaseousLightItem" showIcon="left" />和<ItemLink id="ThaumicTinkerer:gaseousShadowItem" showIcon="left" />会释放扩散气体，分别照亮或暗化周围区域。
 
-The <ItemLink id="ThaumicTinkerer:gasRemover" showIcon="left" /> dissipates both types of nearby gas, allowing you to change an area that has already been prepared.
+<ItemLink id="ThaumicTinkerer:gasRemover" showIcon="left" />会消散附近这两种气体，让你改变已处理过的区域。
 
-**Movement and storage**
+**移动与储存**
 
-- The <ItemLink id="ThaumicTinkerer:focusFlight" showIcon="left" /> consumes Vis to lift the caster into the air, providing short-distance movement and a way over obstacles.
-- The <ItemLink id="ThaumicTinkerer:focusEnderChest" showIcon="left" /> provides remote access to Ender storage. With EnderStorage integration, it can also be bound to an Ender Chest's color combination.
-- When worn and enabled, the <ItemLink id="ThaumicTinkerer:xpTalisman" showIcon="left" /> collects nearby experience orbs. Glass bottles in the inventory can be used to convert stored experience into Bottles o' Enchanting for storage and transfer.
-- The <ItemLink id="ThaumicTinkerer:revealingHelm" showIcon="left" /> combines Thaumium helmet protection with the observation abilities of Goggles of Revealing, retaining head protection while using those abilities.
+- <ItemLink id="ThaumicTinkerer:focusFlight" showIcon="left" />会消耗魔力将施法者托至空中，提供短距离移动能力并帮助越过障碍。
+- <ItemLink id="ThaumicTinkerer:focusEnderChest" showIcon="left" />可远程访问末影储存。接入末影储物模组后，还能绑定到末影箱的颜色组合。
+- 佩戴并启用后，<ItemLink id="ThaumicTinkerer:xpTalisman" showIcon="left" />会收集附近的经验球。可使用物品栏中的玻璃瓶，将储存的经验转化为附魔之瓶以便储存和运输。
+- <ItemLink id="ThaumicTinkerer:revealingHelm" showIcon="left" />结合神秘锭头盔的防护能力和揭示护目镜的观察能力，让你使用这些能力时仍能获得头部防护。
 
-## Elemental Fire
+## 元素之火
 
-Thaumic Tinkerer's six elemental fires are involved in environmental transformation and later Infused Seeds research.
+神秘工匠的六种元素之火会影响环境转化，也是后续蕴魔种子研究的前置内容。
 
-- <ItemLink id="ThaumicTinkerer:fireFire" showIcon="left" />: Converts some ordinary blocks into their Nether counterparts, such as stone into netherrack.
-- <ItemLink id="ThaumicTinkerer:fireWater" showIcon="left" />: Transforms terrain toward water, ice, and snow, including some Nether terrain.
-- <ItemLink id="ThaumicTinkerer:fireAir" showIcon="left" />: Converts some blocks into desert counterparts.
-- <ItemLink id="ThaumicTinkerer:fireEarth" showIcon="left" />: Turns stone, cobblestone, and other blocks into dirt, with additional transformations such as gravel into clay.
-- <ItemLink id="ThaumicTinkerer:fireOrder" showIcon="left" />: Has no usable block transformation results in the current version, but its research remains a prerequisite for Infused Seeds.
-- <ItemLink id="ThaumicTinkerer:fireChaos" showIcon="left" />: Removes the magic from other elemental fires, turning them back into ordinary fire.
+- <ItemLink id="ThaumicTinkerer:fireFire" showIcon="left" />：将部分普通方块转化为下界对应方块，例如将石头变为地狱岩。
+- <ItemLink id="ThaumicTinkerer:fireWater" showIcon="left" />：使地形向水、冰和雪的方向转化，也包括部分下界地形。
+- <ItemLink id="ThaumicTinkerer:fireAir" showIcon="left" />：将部分方块转化为沙漠对应方块。
+- <ItemLink id="ThaumicTinkerer:fireEarth" showIcon="left" />：将石头、圆石等方块转化为泥土，也会进行沙砾变黏土等额外转化。
+- <ItemLink id="ThaumicTinkerer:fireOrder" showIcon="left" />：当前版本中没有可用的方块转化结果，但其研究仍是蕴魔种子的前置条件。
+- <ItemLink id="ThaumicTinkerer:fireChaos" showIcon="left" />：移除其他元素之火的魔力，使其恢复为普通火焰。
 
 > [!WARNING]
-> NH allows elemental fire to spread and transform blocks by default. Control its area of effect and avoid releasing it near bases, farms, wooden buildings, or important facilities. Ordinary fire left by Perditio Imbued Fire can also continue burning.
+> NH 默认允许元素之火蔓延并转化方块。请控制其影响范围，避免在基地、农场、木质建筑或重要设施附近释放。混沌之焰留下的普通火焰也会继续燃烧。
 
-## Infused Crops
+## 注魔作物
 
-<ItemLink id='ThaumicTinkerer:infusedSeeds:0:{mainAspect:{Aspects:[{key:"aer",amount:1}]},aspectTendencies:{Aspects:[]}}' showIcon="left" /> carry a main aspect and primal aspect tendencies. Each main aspect has a different loot pool; aspect combinations allow you to breed crops that produce particular materials.
+<ItemLink id='ThaumicTinkerer:infusedSeeds:0:{mainAspect:{Aspects:[{key:"aer",amount:1}]},aspectTendencies:{Aspects:[]}}' showIcon="left" />具有一种主导要素和元始要素倾向。每种主导要素都有不同的战利品池；通过要素组合培育作物，可以获得特定材料。
 
-Infused Seeds research requires all six elemental fire research entries. The six primal seeds are made through infusion, using Wheat Seeds as the central ingredient and **4 crystal clusters of the corresponding aspect**.<br>
-Each recipe requires **32 Messis, 32 Meto, and 16 essentia of the corresponding primal aspect**, with an instability of **4**. Compound aspect seeds are obtained through further breeding.
+蕴魔种子研究要求完成六种元素之火研究条目。六种原始种子通过注魔合成，以小麦种子为中央原料，并使用**对应要素的 4 个水晶簇**。<br>每个配方需要**32 Messis、32 Meto 和 16 点对应元始要素的源质**，不稳定度为 **4**。复合要素种子则通过进一步培育获得。
 
-Seeds can be planted on ordinary farmland, converting it into Infused Farmland. Growth requires at least **light level 9**. Harvesting mature crops produces seeds and the corresponding loot, and leaves aspect residue in the soil.
+种子可种在普通耕地上，并将其转化为蕴魔耕地。生长至少需要**光照等级 9**。成熟作物收割后会掉落种子和相应战利品，并在土壤中留下要素残留。
 
-A mature crop leaves its main aspect in the farmland below when harvested. Farmland holds up to **20 points** of residue in total; excess residue causes some aspects to be reduced at random.
+收割成熟作物时，其主导要素会留在下方耕地中。耕地最多可累计**20 点**残留；超过上限后，部分要素会随机减少。
 
-When a mature crop is harvested, its main aspect may combine with an aspect in the soil, turning the dropped seed into a new compound aspect seed.<br>
-For example, <Color color="#B7A0D6">Aer + Ignis = Lux</Color>. Growing Ignis crops in soil with accumulated Aer residue can yield Lux seeds when harvested. Following further aspect combinations leads to more complex main aspects.
+收割成熟作物时，其主导要素可能与土壤中的一种要素组合，使掉落的种子变为新的复合要素种子。<br>例如，<Color color="#B7A0D6">Aer + Ignis = Lux</Color>。在积累了 Aer 残留的土壤中种植 Ignis 作物，收割后可能获得 Lux 种子。继续进行更多要素组合，就能培育出主导要素更复杂的作物。
 
-**Primal aspect tendencies**
+**元始要素倾向**
 
-Tendencies affect growth, yield, and mutation. A crop can have at most **50 tendency points** in total; excess points cause some tendencies to be reduced at random.
+倾向会影响生长、产量和变异。作物最多可有 **50 点倾向值**；超出部分会导致部分倾向随机降低。
 
-| Tendency | Main Effect |
+| 倾向 | 主要效果 |
 | --- | --- |
-| Aqua | Speeds up growth |
-| Terra | Increases soil residue left after harvesting a mature crop |
-| Ignis | Improves the chance of producing compound aspect seeds |
-| Ordo | Increases the number of loot rolls |
-| Perditio | Increases seed drops |
-| Aer | Speeds up the acquisition of tendencies from adjacent crops |
+| 水 | 加快生长 |
+| 地 | 增加成熟作物收割后留下的土壤残留 |
+| 火 | 提高产出复合要素种子的几率 |
+| 秩序 | 增加战利品抽取次数 |
+| 混沌 | 增加种子掉落量 |
+| 风 | 加快从相邻作物获得倾向值 |
 
-Compound aspect crops can acquire the corresponding tendency from adjacent primal crops, up to **5 points** per tendency through this method. Adjacent compound crops also transfer tendencies between themselves; higher values require further breeding through this exchange.
+复合要素作物可以从相邻的元始要素作物获得对应倾向，通过此方法每种倾向最多 **5 点**。相邻的复合要素作物之间也会相互传递倾向；若要获得更高数值，需通过这种交换继续培育。
 
-**Loot and NEI**
+**战利品与 NEI**
 
-Thaumic Tinkerer provides NEI loot lookup for Infused Seeds, showing the possible outputs and their probabilities for a given aspect crop. These probabilities come from its loot pool, while Ordo tendency also affects the number of loot rolls per harvest.
+神秘工匠为蕴魔种子提供 NEI 战利品查询，会显示特定要素作物可能的产物及其概率。这些概率来自对应战利品池，而 秩序 倾向也会影响每次收割的战利品抽取次数。
 
-- Crops of the **four natural elements** produce the corresponding Imbued Grain, which can be used in alchemy to make Aer, Ignis, Aqua, and Terra potions.
-- **Ordo and Perditio** crops produce glass and sand, respectively.
-- The **Cognitio** loot pool includes paper, books, bookshelves, and Knowledge Fragments.
-- The **Alienis** loot pool includes Ender Pearls, Eyes of Ender, and Void Seeds.
-- Other compound aspects have their own loot pools. Look up a target item's recipes in NEI to find a suitable main aspect to breed.
+- **四种自然元素**的作物会产出对应的蕴魔谷物，可用于炼金，制作 Aer、Ignis、Aqua 和 Terra 药水。
+- **秩序 和 混沌**作物分别产出玻璃和沙子。
+- **认知**战利品池包括纸、书、书架和知识碎片。
+- **异域**战利品池包括末影珍珠、末影之眼和虚空种子。
+- 其他复合要素都有各自的战利品池。可在 NEI 中查询目标物品的配方，以寻找适合培育的主导要素。
 
-For long-term harvesting, preserve the seeds and their tendencies, soil residue, and growing locations, assigning suitable planting areas to breeding and production.
+长期收割时，应保留种子及其倾向、土壤残留和种植位置，并为培育和生产规划合适的种植区。
 
-## Unlocking KAMI Research
+## 解锁 KAMI 研究
 
-The main entry point to <Color color="#B7A0D6">KAMI</Color> is **Ichor** research. Its prerequisites cover the main Thaumcraft categories and relevant Thaumic Tinkerer research. Completing them opens the way to Ichorcloth, Ichorium, and their advanced devices.
+<Color color="#B7A0D6">KAMI</Color>的主要入口是**灵液**研究。其前置条件涵盖神秘时代的主要分类和相关神秘工匠研究。完成这些研究后，即可进一步制作灵布、灵宝及其高级设备。
 
-Unlocking Ichor research is demanding and often leaves the researcher with 300+ Warp, so prepare suitable Warp protection.
+解锁灵液研究要求很高，研究者通常会因此积累 300 点以上的扭曲，请准备合适的扭曲防护。
 
-Check the prerequisites of the Ichor recipe in `NEI` to see what remains locked and identify hidden prerequisites. The quest book also highlights easily missed research such as the Thaumium Crowbar and Cursed Spirit's Blade.
+查看`NEI`中的灵液配方前置条件，了解哪些内容仍被锁定并找出隐藏前置研究。任务书也会标出容易漏掉的研究，例如奥法撬棍和咒灵之剑。
 
-## Ichor, Ichorcloth, and Ichorium
+## 灵液、灵布与灵宝
 
-**Dimensional shards**
+**次元裂片**
 
-<ItemLink id="ThaumicTinkerer:kamiResource:6" showIcon="left" /> and <ItemLink id="ThaumicTinkerer:kamiResource:7" showIcon="left" /> are important ingredients for Ichor.
+<ItemLink id="ThaumicTinkerer:kamiResource:6" showIcon="left" />和<ItemLink id="ThaumicTinkerer:kamiResource:7" showIcon="left" />是制作灵液的重要原料。
 
-- Zombie Pigmen killed by a player in the **Nether** have a **1/16** chance to drop a Nether Shard.
-- Endermen killed by a player in the **End** have a **1/32** chance to drop an Ender Shard.
-- NH also provides infusion recipes for dimensional shards, using various Forbidden Magic shards, infused shards, and the corresponding central ingredients. Beekeeping offers another route for a continuous supply.
+玩家在**下界**击杀僵尸猪灵，有 **1/16** 几率掉落下界碎片。
+玩家在**末地**击杀末影人，有 **1/32** 几率掉落末影碎片。
+NH 还提供次元裂片的注魔配方，使用各种禁忌魔法碎片、注魔碎片和对应的中央原料。养蜂也可提供另一种持续供应途径。
 
-The drops require the corresponding dimension and a player kill; account for these conditions when designing a mob supply.<br>
-An `EEC` processing the corresponding mobs in their required dimension also produces shards.
+掉落需要在对应维度由玩家完成击杀；设计生物供应系统时应考虑这些条件。<br>在相应维度处理对应生物的`EEC`也能产出碎片。
 
-**Ichor**
+**灵液**
 
-<ItemLink id="ThaumicTinkerer:kamiResource:0" showIcon="left" /> is made by infusing a Nether Star.
+<ItemLink id="ThaumicTinkerer:kamiResource:0" showIcon="left" />通过注魔下界之星制成。
 
-The recipe uses one Nether Star as the central ingredient, surrounded by a Flawless Diamond, Nether Shard, Eye of Ender, and Ender Shard, producing **2 Ichor**.<br>
-Its essentia requirements are **32 Humanus, 32 Lux, 64 Spiritus, 16 Alienis, and 16 Ordo**, with an instability of **10**. Ichor research itself adds **5 Warp**.
+配方以一个下界之星为中央原料，周围放置无瑕的钻石、下界碎片、末影之眼和末影碎片，产出 **2 个灵液**。<br>其源质需求为 **32 Humanus、32 Lux、64 Spiritus、16 Alienis 和 16 Ordo**，不稳定度为 **10**。灵液研究本身会增加 **5 点扭曲**。
 
-**Ichorcloth and Ichorium**
+**灵布与灵宝**
 
-- <ItemLink id="ThaumicTinkerer:kamiResource:1" showIcon="left" /> combines Ichor, Enchanted Fabric, Void Metal Foil, Osmiridium Foil, and Flawless Diamonds. It is a main material for Ichorcloth Robes and their awakened upgrades.
-- **Ichorium** combines Ichor, void metal, Osmiridium, and Flawless Diamonds. GT's Ichorium ingots and material forms are used to make plates, screws, rings, and various tool components.
+- <ItemLink id="ThaumicTinkerer:kamiResource:1" showIcon="left" />由灵液、魔力布匹、虚空金属箔、铱锇合金箔和无瑕的钻石合成，是灵布法袍及其觉醒升级的主要材料。
+- **灵宝**由灵液、虚空金属、铱锇合金和无瑕的钻石合成。GT 的灵宝锭及其他材料形态用于制作板、螺丝、环和各种工具组件。
 
-Both arcane crafting recipes require **125 Vis of each of the six primal aspects**. Wand capacity and Vis discounts affect which recipes you can actually craft. See [Wands, Vis and Nodes](./wands_vis_nodes.md) for the relevant equipment and discount sources.
+两种奥术合成配方都需要六种元始要素各 **125 点魔力**。法杖容量和魔力减免会影响你实际能制作哪些配方。关于相关装备和减免来源，请参阅[法杖、魔力与节点](./wands_vis_nodes.md)。
 
-**Ichorium wand components**
+**灵宝法杖组件**
 
-The <ItemLink id="ThaumicTinkerer:kamiResource:4" showIcon="left" /> provides a **30%** Vis discount for all primal aspects. The <ItemLink id="ThaumicTinkerer:kamiResource:5" showIcon="left" /> gives a wand a capacity of **1000 Vis per primal aspect**.
+<ItemLink id="ThaumicTinkerer:kamiResource:4" showIcon="left" />为所有元始要素提供 **30%** 魔力减免。<ItemLink id="ThaumicTinkerer:kamiResource:5" showIcon="left" />可使法杖对每种元始要素的容量达到 **1000 点魔力**。
 
-This path supports large arcane recipes and sustained focus use. The caps, core, and finished wand each require their corresponding research and crafting.
+这条路线适用于大型奥术配方和持续使用法杖核心。杖端、核心和成品法杖各自都需要完成相应研究并进行合成。
 
-## Ichorcloth Armor and Awakening
+## 灵布盔甲与觉醒
 
-Ordinary Ichorcloth armor consists of the <ItemLink id="ThaumicTinkerer:ichorclothHelm" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorclothChest" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorclothLegs" showIcon="left" />, and <ItemLink id="ThaumicTinkerer:ichorclothBoots" showIcon="left" />.<br>
-These pieces do not lose durability. Infusion can awaken them to grant additional movement, protection, and observation abilities.
+普通灵布盔甲包括<ItemLink id="ThaumicTinkerer:ichorclothHelm" showIcon="left" />、<ItemLink id="ThaumicTinkerer:ichorclothChest" showIcon="left" />、<ItemLink id="ThaumicTinkerer:ichorclothLegs" showIcon="left" />和<ItemLink id="ThaumicTinkerer:ichorclothBoots" showIcon="left" />。<br>这些部件不会损失耐久。通过注魔可以觉醒盔甲，获得额外的移动、防护和观察能力。
 
-- <ItemLink id="ThaumicTinkerer:ichorclothHelmGem" showIcon="left" />: Provides revealing abilities, underwater breathing, clear underwater vision, and continued health regeneration while hungry.
-- <ItemLink id="ThaumicTinkerer:ichorclothChestGem" showIcon="left" />: Provides sustained flight, fall protection, and protection against ordinary projectiles.
-- <ItemLink id="ThaumicTinkerer:ichorclothLegsGem" showIcon="left" />: Provides fire protection and converts incoming fire damage into healing.
-- <ItemLink id="ThaumicTinkerer:ichorclothBootsGem" showIcon="left" />: Improves movement, jumping, and reach across gaps, allows automatic stepping up one-block rises, and provides Haste and fall protection.
+- <ItemLink id="ThaumicTinkerer:ichorclothHelmGem" showIcon="left" />：提供揭示能力、水下呼吸、清晰的水下视野，并能在饥饿时持续恢复生命值。
+- <ItemLink id="ThaumicTinkerer:ichorclothChestGem" showIcon="left" />：提供持续飞行、摔落保护和普通弹射物防护。
+- <ItemLink id="ThaumicTinkerer:ichorclothLegsGem" showIcon="left" />：提供火焰防护，并将受到的火焰伤害转化为治疗。
+- <ItemLink id="ThaumicTinkerer:ichorclothBootsGem" showIcon="left" />：改善移动、跳跃和跨越间隙的能力，可自动踏上高一格的地面，并提供急迫和摔落保护。
 
-Awakened armor effects are controlled by the **Toggle Awakened Armor** keybinding, which defaults to `U`.<br>
-NH disables the awakened leggings' automatic light placement by default, while retaining the awakened boots' ability to turn dirt beneath the wearer into grass.
+觉醒盔甲效果由**切换激活护甲**按键控制，默认键为`U`。<br>NH 默认禁用了觉醒护腿自动放置光源的功能，但保留觉醒靴将穿戴者脚下泥土转为草方块的能力。
 
-Awakening recipes use advanced gems, Ichorium components, and other magical devices, with high instability.<br>
-Once material production is established, a stable Infusion Altar and sufficient essentia reserves are needed. See [Infusion Crafting](./infusion_crafting.md) for altar supply and stability.
+觉醒配方需要高级宝石、灵宝组件和其他魔法设备，且不稳定度很高。<br>材料生产稳定后，还需要稳定的注魔祭坛和充足的源质储备。关于祭坛供应和稳定性，请参阅[注魔合成](./infusion_crafting.md)。
 
-## Ichorium Tools and the Bedrock Dimension
+## 灵宝工具与基岩维度
 
-The <ItemLink id="ThaumicTinkerer:ichorPick" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorShovel" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorAxe" showIcon="left" />, and <ItemLink id="ThaumicTinkerer:ichorSword" showIcon="left" /> do not lose durability and can be awakened further.
+<ItemLink id="ThaumicTinkerer:ichorPick" showIcon="left" />、<ItemLink id="ThaumicTinkerer:ichorShovel" showIcon="left" />、<ItemLink id="ThaumicTinkerer:ichorAxe" showIcon="left" />和<ItemLink id="ThaumicTinkerer:ichorSword" showIcon="left" />不会损失耐久，还可以进一步觉醒。
 
-Sneak-right-click to switch an awakened tool's working mode:
+潜行并右键可切换觉醒工具的工作模式：
 
-- <ItemLink id="ThaumicTinkerer:ichorPickGem" showIcon="left" />: Single-block, **5×5 area**, and **10-block line** mining, with the ability to break bedrock.
-- <ItemLink id="ThaumicTinkerer:ichorShovelGem" showIcon="left" />: Single-block, **5×5 area**, and vertical column mining of the same block type.
-- <ItemLink id="ThaumicTinkerer:ichorAxeGem" showIcon="left" />: Single-block, **5×5 area**, and whole-tree chopping.
-- <ItemLink id="ThaumicTinkerer:ichorSwordGem" showIcon="left" />: Single-target attacks, area attacks against nearby creatures of the same type, and a mode that grants Soul Hearts.
+- <ItemLink id="ThaumicTinkerer:ichorPickGem" showIcon="left" />：单方块、**5×5 范围**和**10 格直线**挖掘，并能破坏基岩。
+- <ItemLink id="ThaumicTinkerer:ichorShovelGem" showIcon="left" />：单方块、**5×5 范围**和同类方块竖直列挖掘。
+- <ItemLink id="ThaumicTinkerer:ichorAxeGem" showIcon="left" />：单方块、**5×5 范围**和整棵树砍伐。
+- <ItemLink id="ThaumicTinkerer:ichorSwordGem" showIcon="left" />：单体攻击、对附近同类型生物的范围攻击，以及可获得灵魂之心的模式。
 
 > [!WARNING]
-> Area and line mining affect several blocks at once. Before using awakened tools near your base or devices, check the current mode and direction to avoid breaking blocks you intend to keep.
+> 范围和直线挖掘会同时影响多个方块。在基地或设备附近使用觉醒工具前，请确认当前模式和方向，避免破坏需要保留的方块。
 
-**Bedrock Dimension**
+**基岩维度**
 
-The Awakened Ichorium Pickaxe's bedrock-breaking ability also provides access to the **Bedrock Dimension**. Mining bedrock at **Y=0–4** in the Overworld while sneaking creates an entrance. Inside, you can continue mining bedrock and the vertical ore veins within it.
+觉醒灵宝镐的破坏基岩能力也可用于进入**基岩维度**。在主世界 **Y=0–4** 潜行挖掘基岩会生成入口。进入后可继续挖掘基岩及其中的竖直矿脉。
 
-This dimension provides a special mining space. GTNH adjusts its ore content; conventional miners first need room to work, so plan a suitable means of clearing bedrock.
+该维度提供特殊的采矿空间。GTNH 调整了其中的矿石分布；传统采矿设备需要先有作业空间，因此请规划合适的基岩清理方式。
 
-The quest book warns that leaving may place you on the nearby surface or inside blocks. Prepare return methods, mining tools, and location records before entering to reduce problems caused by changing entry and exit points.
+任务书警告，离开时可能会将你送到附近地表或方块内部。进入前请准备返回手段、采矿工具和位置记录，以减少出入口变化带来的问题。
 
-## KAMI Building and Teleportation Devices
+## KAMI 建造与传送设备
 
-**Storing and placing large quantities of blocks**
+**储存和放置大量方块**
 
-- Once bound to a block type, the <ItemLink id="ThaumicTinkerer:blockTalisman" showIcon="left" /> absorbs matching blocks from the inventory beyond one stack, leaving a stack available for use. It stores over 2 billion blocks of one type and can deposit them into containers or place them in the world.
-- The <ItemLink id="ThaumicTinkerer:placementMirror" showIcon="left" /> previews and places blocks in a selected area. Materials can come from the inventory or Black Hole Rings holding the required block.
-- <ItemLink id="ThaumicTinkerer:protoclay" showIcon="left" /> switches between the holder's Awakened Ichorium tools to use a suitable tool for the current target.
-- The <ItemLink id="ThaumicTinkerer:ichorPouch" showIcon="left" /> provides a large portable inventory while retaining the functions of a Focus Pouch. NH prevents its use in Witchery's dream dimension.
+- 将<ItemLink id="ThaumicTinkerer:blockTalisman" showIcon="left" />绑定到一种方块后，它会从物品栏中吸收超过一组的匹配方块，同时留下一组供使用。它能储存超过 20 亿个同类方块，并可将其放入容器或放置到世界中。
+- <ItemLink id="ThaumicTinkerer:placementMirror" showIcon="left" />可以预览并放置选定区域中的方块。材料可来自物品栏或装有所需方块的黑洞指环。
+- <ItemLink id="ThaumicTinkerer:protoclay" showIcon="left" />会在持有者的觉醒灵宝工具之间切换，为当前目标选用合适工具。
+- <ItemLink id="ThaumicTinkerer:ichorPouch" showIcon="left" />提供大型便携物品栏，同时保留法杖核心手袋的功能。NH 禁止在巫术模组的梦境维度中使用它。
 
-**Celestial Gateways and Recall**
+**仙域之门与召回**
 
-A <ItemLink id="ThaumicTinkerer:warpGate" showIcon="left" /> uses a <ItemLink id="ThaumicTinkerer:skyPearl" showIcon="left" /> to record another gateway's position. Each gateway holds **10 destinations**, connecting bases, mining sites, and other frequently used locations.
+<ItemLink id="ThaumicTinkerer:warpGate" showIcon="left" />使用<ItemLink id="ThaumicTinkerer:skyPearl" showIcon="left" />记录另一个传送门的位置。每个传送门可储存 **10 个目的地**，用于连接基地、采矿点和其他常用地点。
 
-Bind a Celestial Pearl to a destination gateway and insert it into the departure gateway to create a one-way connection. A return route requires a pearl configured at each end. The gateway's interface can also restrict connections from other gateways.
+将仙域珍珠绑定到目的地传送门，再插入出发传送门，即可创建单向连接。若要建立返程路线，两端都需配置珍珠。传送门界面还可限制其他传送门发起连接。
 
-The <ItemLink id="ThaumicTinkerer:focusRecall" showIcon="left" /> uses a bound Celestial Pearl in the hotbar and consumes Vis to teleport the caster to its destination, extending a fixed teleportation network into a portable way home.
+<ItemLink id="ThaumicTinkerer:focusRecall" showIcon="left" />会使用快捷栏中绑定了仙域珍珠的物品并消耗魔力，将施法者传送到目的地；它让你可以随身携带固定传送网络中的回家方式。
 
 </Column>

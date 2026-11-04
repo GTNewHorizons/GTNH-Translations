@@ -11,4 +11,4 @@ navigation:
   icon: gregtech:gt.blockmachines:236
   position: -1
 ---
-# Coke Oven
+# 焦炉

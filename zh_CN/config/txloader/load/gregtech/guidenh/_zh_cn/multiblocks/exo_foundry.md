@@ -9,5 +9,5 @@ navigation:
   icon: gregtech:gt.blockmachines:14050
   position: -10001
 ---
-# Exo-Foundry
+# 异星铸造塔
 <!--Need to update quest and itemids-->

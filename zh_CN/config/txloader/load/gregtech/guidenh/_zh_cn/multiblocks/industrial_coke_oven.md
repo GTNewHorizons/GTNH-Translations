@@ -9,4 +9,4 @@ navigation:
   icon: gregtech:gt.blockmachines:15543
   position: -4001
 ---
-# Industrial Coke Oven
+# 工业焦炉

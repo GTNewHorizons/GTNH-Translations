@@ -22,16 +22,16 @@ date: 2026-05-26
 
 > [!NOTE]
 > 该多方块结构作出了以下更改（结构本身除外）：
-> - 等级化物品管道：速度增益为 50-400%（此前上限为 300%），取决于物品管道方块的等级
+> - 任意等级物品管道：速度增益为 50-400%（此前上限为 300%），取决于物品管道方块的等级
 > - 结构：机械方块的可用空间更大，可容纳更多总线与仓
 
 ## 建造
-<Color id="GREEN">IWF </Color>有一个等级化部件。物品管道方块决定机器的速度增益。玻璃可为任意等级，对机器运行没有影响。总线/仓可以替换结构上任意位置的机械方块。不支持多A能源仓与激光能源仓，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 预览/搭建结构，并通过子通道 "item_pipe" 和 "glass" 指定这些部件的等级。
+<Color id="GREEN">IWF </Color>有一个任意等级部件。物品管道方块决定机器的速度增益。玻璃可为任意等级，对机器运行没有影响。总线/仓可以替换结构上任意位置的机械方块。不支持多A能源仓与激光能源仓，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 预览/搭建结构，并通过子信道 "item_pipe" 和 "glass" 指定这些部件的等级。
 ### 所需材料：
 
 - 1 <ItemLink id="gregtech:gt.blockmachines:15511" /> <ItemImage id="gregtech:gt.blockmachines:15511" />
 - 14-35 <ItemLink id="miscutils:miscutils.blockcasings:6" /> <ItemImage id="miscutils:miscutils.blockcasings:6" />
-- 15 等级玻璃（任意）
+- 15 任意等级玻璃
 - 3 物品管道方块 <ItemImage id="gregtech:gt.blockcasings11:5" />
 - 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
@@ -39,8 +39,8 @@ date: 2026-05-26
 - 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
 - 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 墙体共享：
-<Color id="GREEN">IWF</Color> 的每一面都可以与其他机器贴墙共享，以节省机械方块、玻璃和总线/仓。没有任何配方会消耗超过 1A 的电力，因此可以在<u>__两__</u>台机器之间共享<u>__一__</u>个能源仓。
+### 共用墙壁：
+<Color id="GREEN">IWF</Color> 的每一面都可以与其他机器共用墙壁，以节省机械方块、玻璃和总线/仓。没有任何配方会消耗超过 1A 的电力，因此可以在<u>__两__</u>台机器之间共享<u>__一__</u>个能源仓。
 ## 使用
 
 | 等级 | 物品管道方块 | 速度增益 |

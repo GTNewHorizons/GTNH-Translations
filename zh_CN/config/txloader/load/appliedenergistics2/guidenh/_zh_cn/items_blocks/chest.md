@@ -21,7 +21,7 @@ ME箱子就像一个微型网络，其中包含一个<ItemLink id="appliedenergi
 
 可以使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转它。
 
-它只有很小的AE能量缓冲器，因此在没有[能源元件](energy_cells.md)的情况下，尝试同时输入输出过多物品可能会导致其能量耗尽。
+它只有很小的AE能量缓存器，因此在没有[能源元件](energy_cells.md)的情况下，尝试同时输入输出过多物品可能会导致其能量耗尽。
 
 可以使用<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />为终端染色。
 

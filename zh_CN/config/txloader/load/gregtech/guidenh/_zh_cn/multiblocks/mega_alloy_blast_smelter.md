@@ -9,4 +9,4 @@ navigation:
   icon: gregtech:gt.blockmachines:31150
   position: -8001
 ---
-# Mega Alloy Blast Smelter
+# 巨型合金冶炼炉

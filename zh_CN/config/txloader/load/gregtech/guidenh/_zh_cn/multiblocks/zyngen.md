@@ -9,4 +9,4 @@ navigation:
   icon: gregtech:gt.blockmachines:31023
   position: -5001
 ---
-# Zyngen
+# 工业合金炉

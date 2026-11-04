@@ -24,7 +24,7 @@ date: 2026-05-27
 > 仅结构本身有变化，该多方块结构的核心功能与之前相同
 
 ## 建造
-<Color id="GREEN">LCE</Color> 没有分级组件。维护仓和消声仓可替换任意未接触齿轮箱方块的加强钛机械方块；输入仓则可替换任意正接触齿轮箱方块的加强钛机械方块。四重输入仓或许有助于输入全部所需流体。动力仓只能放在结构右侧（控制器对面）的中央机械方块处，且不能超过 4A。引擎进气方块前方还必须是空气。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可视化/搭建结构。
+<Color id="GREEN">LCE</Color> 没有任意等级组件。维护仓和消声仓可替换任意未接触齿轮箱机械方块的加强钛机械方块；输入仓则可替换任意正接触齿轮箱机械方块的加强钛机械方块。四重输入仓或许有助于输入全部所需流体。动力仓只能放在结构右侧（控制器对面）的中央机械方块处，且不能超过 4A。引擎进气机械方块前方还必须是空气。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可视化/搭建结构。
 
 ### 所需：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15533"/><ItemImage id="gregtech:gt.blockmachines:15533"/>
@@ -38,8 +38,8 @@ date: 2026-05-27
 - 1 消声仓（任意不与齿轮箱相邻的钛机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
 - 1+ 输入仓（任意不与齿轮箱相邻的钛机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
 
-### 共墙
-<Color id="GREEN">LCE</Color> 的每一面都可与其他机器共墙，以节省机械方块、框架和总线/仓。但输入仓不在此列，因为其位置受到限制。
+### 共用墙壁
+<Color id="GREEN">LCE</Color> 的每一面都可与其他机器共用墙壁，以节省机械方块、框架和总线/仓。但输入仓不在此列，因为其位置受到限制。
 
 ## 用法
 <Color id="GREEN">LCE</Color> 通过燃烧可燃的柴油类燃料发电。最常用的选择是轻燃油、柴油和高十六烷值柴油。航空煤油A 与高辛烷值汽油也相当常见，但它们通常用于极限内燃引擎或通用化学燃料引擎。后两种燃料的能量值太高，无法在默认模式下使用。

@@ -10,7 +10,7 @@ navigation:
   position: 40
 ---
 
-# Magic Automation
+# 魔法自动化
 
 <Column width="600" align="center" gap="8">
 
@@ -18,164 +18,155 @@ navigation:
   <FloatingImage src="/assets/images/thaumcraft_logo.png" x="50" y="132" width="2078" height="445" displayWidth="300" wrap="inline" title="Thaumcraft" />
 </Column>
 
-Thaumcraft and **Automagy** provide facilities for item collection, inventory monitoring, transport over long distances, and fluid supply.<br>
-They can connect to existing pipes, ME networks, and redstone controls to handle particular parts of a production system.
+神秘时代和**自动化魔法**提供物品收集、库存监控、远距离运输和流体供应设施。<br>它们可以连接现有管道、ME 网络和红石控制，承担生产系统中的特定环节。
 
-Their main uses involve <Color color="#B7A0D6">collection and distribution, inventory conditions, spatial transport, and production support</Color>.
+它们主要用于<Color color="#B7A0D6">收集与分配、库存条件控制、空间运输和生产辅助</Color>。
 
-## Item Collection and Distribution
+## 物品收集与分配
 
-**Collecting dropped items**
+**收集掉落物**
 
-A <ItemLink id="Thaumcraft:blockChestHungry" showIcon="left" /> absorbs dropped items that touch it. Placed where a device ejects items, it collects products into an inventory for existing logistics to extract.
+<ItemLink id="Thaumcraft:blockChestHungry" showIcon="left" />会吸收接触到它的掉落物。将其放在设备排出物品的位置，即可把产物收进容器，供现有物流系统取出。
 
-**Taking items from adjacent inventories**
+**从相邻容器取出物品**
 
-A <ItemLink id="Automagy:blockGreedyChest" showIcon="left" /> watches for items added to neighboring inventories and transfers a portion into itself according to its settings.<br>
-Its default share is 50%. Open its settings with a wand to select extraction directions and operating modes.
+<ItemLink id="Automagy:blockGreedyChest" showIcon="left" />会监视相邻容器中新增的物品，并根据设置将其中一部分转移到自身。<br>默认分配比例为 50%。使用法杖打开设置，可选择抽取方向和工作模式。
 
-- **Proportional distribution:** Take a chosen share of inputs to an adjacent inventory, dividing one source between different uses.
-- **Maintaining stock:** Take items according to a target quantity, keeping a fixed supply for a branch of the production line.
-- **Taking surplus:** Leave the required stock in an adjacent inventory and take the amount above the threshold.
-- **Item filtering:** Use a <ItemLink id="Automagy:enchantedPaper:1" showIcon="left" /> or <ItemLink id="Automagy:enchantedPaper:2" showIcon="left" /> to select which items participate in distribution.
+- **按比例分配：** 按所选比例将输入物品送入相邻容器，把同一来源分配给不同用途。
+- **维持库存：** 根据目标数量抽取物品，为生产线的某个支路维持固定供应量。
+- **抽取多余物品：** 保留相邻容器中的所需库存，抽取超过阈值的部分。
+- **物品过滤：** 使用<ItemLink id="Automagy:enchantedPaper:1" showIcon="left" />或<ItemLink id="Automagy:enchantedPaper:2" showIcon="left" />选择参与分配的物品。
 
-A Greedy Chest will not take items from a hopper directly beneath it. Transfers between two Greedy Chests also depend on their direction settings.<br>
-When using one beside a machine's recipe buffer, configure directions and filters first to avoid diverting required ingredients.
+贪婪箱子不会从正下方的漏斗中取出物品。两个贪婪箱子之间的转移也取决于方向设置。<br>若将其放在机器的配方缓冲区旁，请先配置方向和过滤器，以免分走必需原料。
 
-**Preserving item samples**
+**保留物品样本**
 
-A <ItemLink id="Automagy:blockTenaciousChest" showIcon="left" /> preserves samples of each item type, preventing automation that follows its extraction rules from removing them all.<br>
-It attempts to split one item into a separate stack so the remaining stock can continue to be extracted. Players can still remove the reserved items manually.
+<ItemLink id="Automagy:blockTenaciousChest" showIcon="left" />会为每种物品保留样本，避免后续遵循其抽取规则的自动化将物品全部取走。<br>它会尝试将一个物品分离成独立的一叠，以便继续抽取其余库存。玩家仍然可以手动取出保留物品。
 
-This container suits seeds, saplings, and sorting samples. Once configured, logistics can continuously extract surplus stock while preserving samples needed to restart production or identify items.
+这种容器适用于种子、树苗和分类样本。配置后，物流系统可以持续抽取多余库存，同时保留重启生产或辨认物品所需的样本。
 
-## Mirrors and Transport over Long Distances
+## 镜子与远距离运输
 
-Linked pairs of <ItemLink id="Thaumcraft:blockMirror:0" showIcon="left" /> blocks transfer items over long distances and even between dimensions. Items can be thrown into a mirror or inserted through logistics. The receiving end needs an inventory or item collection device to handle the output.
+成对连接的<ItemLink id="Thaumcraft:blockMirror:0" showIcon="left" />方块可以远距离传送物品，甚至跨维度传送。物品可以扔进镜子，也可以通过物流插入。接收端需要容器或物品收集设备来处理输出。
 
-Standard Magic Mirrors link in pairs. When removed, they retain their previous pairing information and can also be linked to a new target. After moving a mirror, check its receiving location and collection facilities.
+普通魔镜必须成对连接。拆除后会保留之前的配对信息，也可以重新绑定到另一个目标。移动镜子后，请检查其接收位置和收集设施。
 
-Large amounts of continuous traffic build up strain on the mirrors, reducing output speed. This strain fades over time, and Ordo essentia can also help remove it.<br>
-When multiple production lines share a collection point, account for both mirror throughput and the receiving end's processing capacity.
+大量连续运输会使镜子产生负荷，降低输出速度。负荷会随时间消退，也可使用 秩序（Ordo）源质帮助消除。<br>多条生产线共用一个收集点时，要同时考虑镜子的吞吐量和接收端的处理能力。
 
-**Sending items home while traveling**
+**旅行时将物品送回家**
 
-A <ItemLink id="Thaumcraft:HandMirror" showIcon="left" /> can be carried with you. Once bound to a fixed Magic Mirror, its interface sends items back to that location.<br>
-It is useful for sending items to the base while exploring, gathering resources, or moving supplies. Existing collection and sorting systems can receive them at the base.
+<ItemLink id="Thaumcraft:HandMirror" showIcon="left" />可以随身携带。绑定到固定魔镜后，它的界面便能将物品送回该地点。<br>探索、采集资源或搬运补给时，可用它将物品送回基地。基地现有的收集与分类系统可以接收这些物品。
 
-**Combining multiple sources**
+**合并多个来源**
 
-A <ItemLink id="Automagy:blockMirrorAlt:0" showIcon="left" /> only accepts inputs. Use a <ItemLink id="Automagy:crystalEye" showIcon="left" /> to select a Magic Mirror that is already paired, connecting the device to that mirror transport channel.
+<ItemLink id="Automagy:blockMirrorAlt:0" showIcon="left" />只接受输入。使用<ItemLink id="Automagy:crystalEye" showIcon="left" />选择已经配对的魔镜，即可将该设备接入魔镜运输通道。
 
-Multiple Melding Mirrors can send items from different locations to a shared collection point, serving scattered farms, processing devices, and distant gathering sites. The target Magic Mirror must retain a valid pairing, and the output end needs continuous item collection.
+聚合魔镜可以将不同地点的物品送往同一收集点，为分散的农场、加工设备和远处采集点服务。目标魔镜必须保持有效配对，输出端也需要持续收集物品。
 
 > [!WARNING]
-> Mirror outputs may produce dropped items. The receiving end's collection facilities, storage capacity, and output speed should handle the actual throughput to prevent items from remaining on the ground and despawning. Confirm the receiving location before sending valuable materials through mirrors.
+> 镜子输出可能会生成掉落物。接收端的收集设施、储存容量和输出速度应能应付实际吞吐量，避免物品留在地面上消失。通过镜子发送贵重材料前，请确认接收地点。
 
-## Inventory Monitoring and Automatic Control
+## 库存监控与自动控制
 
-**Signals based on item quantities**
+**根据物品数量发出信号**
 
-A <ItemLink id="Automagy:blockTally" showIcon="left" /> reads items in a target inventory and outputs a redstone signal according to conditions set by a Runic Whitelist or Blacklist. It faces the inventory being checked and outputs the signal in the opposite direction.
+<ItemLink id="Automagy:blockTally" showIcon="left" />会读取目标容器中的物品，并根据符文白名单或黑名单设定的条件输出红石信号。它朝向被检查的容器，信号则从相反方向输出。
 
-Connect the result to a production device's redstone control to replenish low stocks, stop at a target quantity, or trigger another device once a set of materials is ready.
+将输出连接到生产设备的红石控制，即可补充低库存、在达到目标数量时停止，或在一组材料备齐后触发另一台设备。
 
-Tally Boxes can also use lenses to change what they detect:
+计数盒还可以使用透镜改变检测内容：
 
-- <ItemLink id="Automagy:tallyLens:1" showIcon="left" />: Detects loose items at the target location, allowing checks for a backlog at a collection point.
-- <ItemLink id="Automagy:tallyLens:2" showIcon="left" />: Checks the target block's possible drops, including ordinary and Silk Touch results, allowing the presence of a particular block to become a trigger condition.
+- <ItemLink id="Automagy:tallyLens:1" showIcon="left" />：检测目标位置的掉落物，可用于检查收集点是否有物品积压。
+- <ItemLink id="Automagy:tallyLens:2" showIcon="left" />：检查目标方块可能掉落的物品，包括普通掉落和精准采集结果，可将特定方块的存在用作触发条件。
 
-**Reading inventories remotely**
+**远程读取容器**
 
-A <ItemLink id="Automagy:blockRemoteComparator" showIcon="left" /> uses a Crystalline Eye to bind to a target and reads the comparator state of an inventory or compatible block within 20 blocks. This lets detection devices sit near the control wiring, leaving the inventory's sides available for logistics connections.
+<ItemLink id="Automagy:blockRemoteComparator" showIcon="left" />使用水晶之眼绑定目标，并读取 20 格范围内容器或兼容方块的比较器状态。这样检测设备便可放在控制线路附近，让容器各侧留给物流连接。
 
-Placed above a Tally Box, a Remote Comparator passes information about items in a distant inventory to the box for evaluation. Tally Boxes and Remote Comparators can also relay target information through a chain, carrying inventory conditions to more distant control points.
+放在计数盒上方时，远程比较器会将远处容器中的物品信息传给计数盒进行判断。计数盒和远程比较器还可以串联转发目标信息，将库存条件传至更远的控制点。
 
-**Detecting entity counts**
+**检测实体数量**
 
-A <ItemLink id="Automagy:blockEntitySignal" showIcon="left" /> detects entities of a selected type within range, with their number affecting signal strength.<br>
-Use an <ItemLink id="Automagy:crystalEntityEye" showIcon="left" /> to select the target type. Adult or baby animals can be selected separately, making the device useful for breeding, slaughter, and other facilities controlled by entity counts.
+<ItemLink id="Automagy:blockEntitySignal" showIcon="left" />可检测范围内指定类型的实体，数量会影响信号强度。<br>使用<ItemLink id="Automagy:crystalEntityEye" showIcon="left" />选择目标类型。成年和幼年动物可以分别选择，因此该设备适用于繁殖、屠宰及其他根据实体数量控制的设施。
 
-The maximum detection area is 11×11×11. Solid blocks around the device change the detection directions and area: blocking one face limits detection in that direction and extends it toward the opposite side. Glass, water, and similar blocks do not obstruct detection in the same way.<br>
-When placing it near animal pens, check its coverage against the walls.
+最大检测区域为 11×11×11。设备周围的实心方块会改变检测方向和区域：遮挡一面会限制该方向的检测，并将范围延伸至相反一侧。玻璃、水等方块不会以同样方式阻挡检测。<br>将其放在动物围栏附近时，请核对检测范围是否覆盖围墙内区域。
 
-**Timed activation**
+**定时启动**
 
-A <ItemLink id="Automagy:blockHourglassMagic" showIcon="left" /> provides repeatable timing and redstone output.<br>
-It can produce pulses when timing ends, continuous signals while timing, alternating output, and brief interruptions. Input signals can also start, reset, or stop the timer.
+<ItemLink id="Automagy:blockHourglassMagic" showIcon="left" />可提供可重复的定时和红石输出。<br>它可以在计时结束时发出脉冲、计时期间持续输出、交替输出，或短暂中断信号。输入信号也可以启动、重置或停止计时器。
 
-A Magic Hourglass provides timing for intermittent supply, periodic collection, or device activation. After adjusting its timing and modes with a wand, combine it with inventory conditions to decide when a device may operate.
+魔法沙漏可用于间歇供给、定期收集或启动设备。用法杖调整计时和模式后，可将其与库存条件组合，决定设备何时可以运行。
 
-**Redcrystal wiring**
+**红晶线路**
 
-<ItemLink id="Automagy:blockRedcrystal" showIcon="left" /> can be attached to different block faces and connect around corners. A wand adjusts connections to neighboring redcrystal, helping route controls around compact installations.
+<ItemLink id="Automagy:blockRedcrystal" showIcon="left" />可以附着在不同方块面上，并绕过拐角连接。使用法杖调整与相邻红晶的连接，即可在紧凑的设施周围布置控制线路。
 
-- <ItemLink id="Automagy:blockRedcrystalAmp" showIcon="left" />: Amplifies an incoming signal and outputs it in a selected direction.
-- <ItemLink id="Automagy:blockRedcrystalDim" showIcon="left" />: Limits the maximum output signal strength.
-- <ItemLink id="Automagy:blockRedcrystalDense" showIcon="left" />: Passes only signals that meet the chosen minimum strength.
-- <ItemLink id="Automagy:blockRedcrystalRes" showIcon="left" />: When two crystals face each other, they transmit signals through space along a straight line, up to 15 blocks apart.
-- <ItemLink id="Automagy:blockRedcrystalMerc" showIcon="left" />: Transmits redstone signals through paired Magic Mirrors. Bind each end to its corresponding mirror and place it within 8 blocks of that mirror.
+- <ItemLink id="Automagy:blockRedcrystalAmp" showIcon="left" />：放大输入信号，并朝选定方向输出。
+- <ItemLink id="Automagy:blockRedcrystalDim" showIcon="left" />：限制最大输出信号强度。
+- <ItemLink id="Automagy:blockRedcrystalDense" showIcon="left" />：仅传递达到所选最低强度的信号。
+- <ItemLink id="Automagy:blockRedcrystalRes" showIcon="left" />：两个水晶相对放置时，会沿直线隔空传递信号，间距最多 15 格。
+- <ItemLink id="Automagy:blockRedcrystalMerc" showIcon="left" />：通过成对魔镜传递红石信号。将两端分别绑定到对应魔镜，并放在距离魔镜 8 格以内的位置。
 
-Mercurial Redcrystal can send inventory conditions from the receiving end back to distant production lines, coordinating supply and collection through mirror logistics.
+镜像红晶可以将接收端的库存条件传回远处的生产线，通过镜子物流协调供料和收集。
 
-## Fluid Collection and Supply
+## 流体收集与供应
 
-A <ItemLink id="Automagy:blockThirstyTank" showIcon="left" /> has a default capacity of 16,000 mB. It collects and stores one fluid type and can connect to fluid pipes. It absorbs connected liquids that can be collected with a bucket, finding sources through connected regions of the same liquid.
+<ItemLink id="Automagy:blockThirstyTank" showIcon="left" />的默认容量为 16,000 mB。它会收集并储存一种流体，也可连接流体管道。它能吸收可用桶收集的相连液体，并沿相连的同类液体区域寻找来源。
 
-GTNH's default configuration preserves adjacent water sources, allowing a tank beside a source to draw water continuously. The current configuration also lets exposed tanks collect rainwater. For other fluids, position the tank according to the pool's connectivity.
+GTNH 的默认配置会保留相邻的水源，使水源旁的水箱可以持续取水。当前配置也允许暴露在外的水箱收集雨水。对于其他流体，请根据池塘连通情况放置水箱。
 
-**Adding functions with glyphs**
+**使用符文添加功能**
 
-Each of a Thirsty Tank's six faces can hold one glyph. The chosen face matters for directional functions. Capacity, speed, and disposal effects can be configured as needed.
+渴饮储罐的六个面各可安装一个符文。方向性功能取决于所选的方块面。容量、速度和排放效果均可按需配置。
 
-- <ItemLink id="Automagy:glyph:3" showIcon="left" />: Outputs fluid to the container in that face's direction.
-- <ItemLink id="Automagy:glyph:4" showIcon="left" />: Takes fluid from the container in that face's direction.
-- <ItemLink id="Automagy:glyph:5" showIcon="left" />: Performs active collection only while receiving a redstone signal.
-- <ItemLink id="Automagy:glyph:6" showIcon="left" />: Retains some fluid to prevent the tank from being completely emptied.
-- <ItemLink id="Automagy:glyph:7" showIcon="left" />: Increases collection frequency. Multiple glyphs of this type increase it further.
-- <ItemLink id="Automagy:glyph:8" showIcon="left" />: Adds 16,000 mB of capacity per glyph.
+- <ItemLink id="Automagy:glyph:3" showIcon="left" />：向该面所朝方向的容器输出流体。
+- <ItemLink id="Automagy:glyph:4" showIcon="left" />：从该面所朝方向的容器抽取流体。
+- <ItemLink id="Automagy:glyph:5" showIcon="left" />：仅在接收到红石信号时主动收集。
+- <ItemLink id="Automagy:glyph:6" showIcon="left" />：保留部分流体，避免水箱被完全抽空。
+- <ItemLink id="Automagy:glyph:7" showIcon="left" />：提高收集频率。安装多个此类符文会进一步提高频率。
+- <ItemLink id="Automagy:glyph:8" showIcon="left" />：每个符文增加 16,000 mB 容量。
 
-Glyphs of Siphoning and Envy supply fluid between adjacent containers. A Glyph of Temperance can connect to inventory monitoring or production controls. To maintain a fixed fluid type, a Glyph of Preservation leaves a reserve that keeps the tank bound to that type.
+符石：虹吸和符石：嫉妒可在相邻容器之间供应流体。符石：节制可以连接库存监控或生产控制。若要维持固定流体类型，符石：贮存会留下储备，使水箱继续绑定该类型。
 
 > [!WARNING]
-> A <ItemLink id="Automagy:glyph:1" showIcon="left" /> accepts and destroys fluid beyond the tank's capacity, while a <ItemLink id="Automagy:glyph:2" showIcon="left" /> continuously destroys fluid inside it. When arranging fluid recovery or byproduct handling, ensure fluids you need to preserve do not enter tanks configured for disposal.
+> <ItemLink id="Automagy:glyph:1" showIcon="left" />会接收并摧毁超出水箱容量的流体，而<ItemLink id="Automagy:glyph:2" showIcon="left" />会持续摧毁水箱中的流体。安排流体回收或处理副产物时，请确保需要保留的流体不会进入设置为排放的水箱。
 
-**Automatic milking**
+**自动挤奶**
 
-With a <ItemLink id="Automagy:glyph:9" showIcon="left" /> installed, the tank searches for cows in the glyph's direction and collects milk, stopping its usual collection of surrounding liquids. Cows must be inside the relevant detection area, and the tank needs space for the output and a way to extract it.
+安装<ItemLink id="Automagy:glyph:9" showIcon="left" />后，水箱会沿符文指向的方向搜寻奶牛并收集牛奶，同时停止通常的周边液体收集。奶牛必须位于相应检测范围内，水箱也需要为产物留出空间并配置抽取方式。
 
-In NH, each cow has a milking cooldown of 2000 game ticks, or about 100 seconds at normal speed. The cooldown is stored on the cow, so multiple tanks sharing one cow are subject to the same limit. Glyphs of the Guzzler increase search frequency; sustained output also depends on the number of cows available to milk in rotation.
+在 NH 中，每头奶牛的挤奶冷却时间为 2000 游戏刻，即正常速度下约 100 秒。冷却时间记录在奶牛身上，因此多台水箱共用一头奶牛时也受同一限制。符石：狂饮会提高搜寻频率；持续产出还取决于轮流挤奶的奶牛数量。
 
-## Production Support
+## 生产辅助
 
-**Accelerating crop growth**
+**加速作物生长**
 
-A <ItemLink id="Thaumcraft:blockMetalDevice:8" showIcon="left" /> uses Plant (Herba) essentia to accelerate plants within its effective light coverage. It supports farms of ordinary crops such as wheat, carrots, and potatoes, with harvesting and collection handled by existing devices.
+<ItemLink id="Thaumcraft:blockMetalDevice:8" showIcon="left" />使用植物（Herba）源质，加速其有效光照范围内的植物生长。它适用于小麦、胡萝卜和马铃薯等普通作物农场，收割与收集仍由现有设备负责。
 
-Position it so the light covers the planted area and maintain a supply of Herba.
+调整其位置，使光照覆盖种植区域，并确保 植物 供应充足。
 
-**Animal breeding**
+**动物繁殖**
 
-A <ItemLink id="Thaumcraft:blockMetalDevice:13" showIcon="left" /> consumes Life (Victus) essentia to put eligible animals within range into breeding mode. Once eight or more animals of a species are present, the lamp stops encouraging that species to breed.
+<ItemLink id="Thaumcraft:blockMetalDevice:13" showIcon="left" />消耗生命（Victus）源质，使范围内符合条件的动物进入繁殖状态。当某个物种达到八只或更多时，灯会停止促进该物种繁殖。
 
-Combine it with a Signum Entia and existing animal harvesting devices so breeding, population control, and product processing each handle one part of the system. Baby animals within range also count toward the limit, so pen layout and downstream processing speed affect continuous production.
+将其与生物感应器和现有动物收割设备配合使用，让繁殖、数量控制和产物处理分别承担系统中的一个环节。范围内的幼年动物也计入上限，因此围栏布局和下游处理速度会影响连续生产。
 
-**Directional mining**
+**定向采矿**
 
-An <ItemLink id="Thaumcraft:blockWoodenDevice:5" showIcon="left" /> is installed above or below an <ItemLink id="Thaumcraft:blockWoodenDevice:4" showIcon="left" />. With a <ItemLink id="Thaumcraft:FocusExcavation" showIcon="left" /> and pickaxe inserted, redstone controls mining in the selected direction.
+<ItemLink id="Thaumcraft:blockWoodenDevice:5" showIcon="left" />安装在<ItemLink id="Thaumcraft:blockWoodenDevice:4" showIcon="left" />上方或下方。插入<ItemLink id="Thaumcraft:FocusExcavation" showIcon="left" />和镐后，可用红石控制所选方向的采掘。
 
-Enchantments on the focus and pickaxe affect performance, while pickaxe durability affects how long operation can continue. Products leave through the base's output port or enter an inventory placed there. After changing direction, check the mining path and output position.
+法杖核心和镐上的附魔会影响性能，而镐的耐久度决定作业能持续多久。产物从基座的输出口排出，或进入放在输出口处的容器。改变方向后，请检查采掘路径和输出位置。
 
-Entropy (Perditio) essentia or the corresponding Centi-Vis increases drilling speed. Arrange the direction, tools, and collection facilities around the area to be mined, with Centi-Vis supplied by an existing node network.
+混沌（Perditio）源质或对应的厘魔（Centi-Vis，CV）可以提高钻掘速度。围绕待采区域布置方向、工具和收集设施，并通过现有节点网络供应厘魔。
 
-### Additional Golem Uses
+### 傀儡的其他用途
 
-Golems can supplement transport, harvesting, and item interactions between devices. Their installed core determines their work. Use a <ItemLink id="Thaumcraft:GolemBell" showIcon="left" /> to bind inventories, locations, and work targets.
+傀儡可以补充设备间的运输、收割和物品交互。安装的核心决定其工作内容。使用<ItemLink id="Thaumcraft:GolemBell" showIcon="left" />绑定容器、地点和工作目标。
 
-- **Alchemy cores** transport essentia between alembics, jars, and compatible devices.
-- **Harvest cores** handle compatible mature crops, using suitable upgrades to replant. Collection devices can gather the drops.
-- **Use cores** simulate clicks with an item or an empty hand, serving targets that support these interactions.
+- **炼金核心**可在蒸馏器、罐子和兼容设备之间搬运源质。
+- **收割核心**可处理兼容的成熟作物，并通过合适的升级重新种植。收集设备可以收取掉落物。
+- **使用核心**可模拟手持物品或空手点击，适用于支持这些交互的目标。
 
-When using a golem, choose its core, material, and upgrades for the task and leave a path to its targets. Once devices handle collection, distribution, and inventory control, golems can handle the remaining interactions.
+使用傀儡时，应根据任务选择核心、材料和升级，并为其通往目标留出路径。设备处理好收集、分配和库存控制后，傀儡便可负责其余交互。
 
 </Column>

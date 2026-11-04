@@ -13,4 +13,4 @@ navigation:
   icon: gregtech:gt.blockmachines:15313
   position: -7001
 ---
-# Data Bank
+# 数据库
