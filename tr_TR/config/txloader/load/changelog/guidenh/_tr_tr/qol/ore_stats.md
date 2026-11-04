@@ -17,16 +17,16 @@ Cevherlerin nasıl oluştuğu ve oyuncuların onlarla nasıl etkileşime girdiğ
     Yeni "Damar İstatistikleri" sayfası
   </ImageAnnotation>
 </FloatingImage>
-NEI'deki <Color id="GREEN">Yeşil renkli "Damar İstatistikleri"</Color> sayfası güzel bir yenilemeden geçti! Bu; "Damar İstatistikleri", "Küçük Cevher İstatistikleri" ve "Yeraltı Sıvı İstatistikleri" sayfalarını kapsıyor.
+NEI'deki <Color id="GREEN">Damar İstatistikleri</Color> sayfası güzel bir yenilemeden geçti! Bu; "Damar İstatistikleri", "Küçük Cevher İstatistikleri" ve "Yeraltı Sıvı İstatistikleri" sayfalarını kapsıyor.
 
-Yepyeni bir görünümün yanı sıra, cevher içeren bir dünyanın üzerine geldiğinde o dünyada cevher yığını başına damarın oluşma şansını gösterecek!
+Yepyeni bir görünümün yanı sıra, cevher içeren bir dünyanın üzerine geldiğinde o dünyadaki her cevher chunk'ı başına damarın oluşma şansını gösterecek!
 
-Yeni sayfa, önceki tasarımdaki aynı bilgileri hâlâ koruyor, ancak artık GUI ölçeğin izin veriyorsa tek bir normal sayfada birden fazla damar tipini gösterebiliyor.
+Yeni sayfa, önceki tasarımdaki aynı bilgileri hâlâ koruyor, ancak artık GUI ölçeğin izin veriyorsa tek bir normal sayfada birden fazla damar türünü gösterebiliyor.
 
 __BartWorks__ gibi kaynaklardan gelen cevherler de aynı sistemi kullanacak şekilde yeniden düzenlendi. Artık hangi cevheri aradığına bağlı olarak tuhaf davranışlar yok.
 
 # Cevher Oluşumu Değişiklikleri
-- <Color id="GREEN">Bartworks</Color> (Yeşil) ve <Color id="RED">GT++</Color> (Kırmızı) tarafından oluşturulan cevherler artık GregTech cevher damarlarının oluşma şeklini taklit edecek biçimde yeniden düzenlendi
+- Hem <Color id="GREEN">Bartworks</Color> hem de <Color id="RED">GT++</Color> tarafından oluşturulan cevherler artık GregTech cevher damarlarının oluşma şeklini taklit edecek biçimde yeniden düzenlendi
 - Asteroitler artık daha yaygın, ancak bunu dengelemek için daha küçükler
 - Asteroit kuşaklarına yeni <Color color="#DBF1FD">Buz Asteroitleri</Color> eklendi
 - Damarların hava tarafından silinme olasılığı artık daha düşük

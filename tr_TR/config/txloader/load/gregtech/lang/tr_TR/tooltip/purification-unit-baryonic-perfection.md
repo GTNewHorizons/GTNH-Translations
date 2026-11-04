@@ -1,9 +1,9 @@
-{aqua:{bold:Water Tier: }}{color_tier:{var:tier}}
+{aqua:{bold:Su Kademesi: }}{color_tier:{var:tier}}
 Çalışması için {color_name:{item:gregtech:gt.metaitem.01:32708}} kullanılarak bir Arıtma Tesisi'ne bağlanmalı
 {hr}
-Çalışırken giriş yoluna {color_key:Quark Releasing Catalysts} yerleştir
-Her tarif döngüsünde, {color_amount:2} farklı {color_key:Quark Releasing Catalysts} katalizörünün farklı bir kombinasyonu tek kuarkı doğru şekilde tanımlar ve tarifi başarıyla tamamlar
-Kombinasyondaki katalizörlerin sırası önemli değildir, bu yüzden {blue:Up}/{light_purple:Down}, {light_purple:Down}/{blue:Up} yerleştirilerek tanımlanabilir
+Çalışırken giriş yoluna {color_key:Kuark Serbest Bırakan Katalizörler} yerleştir
+Her tarif döngüsünde, {color_amount:2} farklı {color_key:Kuark Serbest Bırakan} katalizörünün farklı bir kombinasyonu tek kuarkı doğru şekilde tanımlar ve tarifi başarıyla tamamlar
+Kombinasyondaki katalizörlerin sırası önemli değildir, bu yüzden {blue:Üst}/{light_purple:Alt}, {light_purple:Alt}/{blue:Üst} yerleştirilerek tanımlanabilir
 {hr}
 Her {color_time:{var:interval}} tick'te, giriş yolundaki TÜM katalizörleri tüketir
 Bir katalizör yerleştirmenin temel maliyeti {color_name:{var:catalyst_cost} {L}} {color_name:{var:catalyst_fluid}}
@@ -17,4 +17,4 @@ Tarifin sonunda, yanlış yerleştirilen tüm katalizörleri çıkış yoluna ge
 {aqua:{italic:Su arıtımının son aşaması atom altı parçacıkların ötesine geçer ve barionların kendi içindeki mümkün olan en küçük}}
 {aqua:{italic:kusurları tanımlar. Hangi kuark tatlarının çiftlerinin gerektiğini doğru şekilde belirleyerek ünite}}
 {aqua:{italic:katalizörleri etkinleştirir ve sapmış parçacıkları stabilize eder.}}
-{aqua:{italic:Bu nihayetinde hem Stabilize Barionik Madde hem de en önemlisi kesinlikle kusursuz temizlenmiş su üretir.}}
+{aqua:{italic:Bu nihayetinde hem Stabilize Edilmiş Barionik Madde hem de en önemlisi kesinlikle kusursuz temizlenmiş su üretir.}}

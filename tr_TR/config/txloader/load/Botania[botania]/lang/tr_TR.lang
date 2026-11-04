@@ -160,7 +160,7 @@ botaniamisc.keyCategory=Botania
 #LOKI
 botaniamisc.toggleLoki=Loki'nin Yüzüğü Mod Değiştirme Tuşu
 botaniamisc.ringOfLokiClear=Loki'nin Yüzüğü Seçimini Sıfırla
-botaniamisc.ringOfLokiMirror=Toggle Ring of Loki Mirroring
+botaniamisc.ringOfLokiMirror=Loki Yüzüğü Yansımasını Aç/Kapat
 botaniamisc.lokiOn=Açık
 botaniamisc.lokiOff=Kapalı
 botaniamisc.breaking=Kırılıyor
@@ -440,7 +440,7 @@ botania.versioning.flavour63=Güncelleme gece yarısı pastırma yapar.
 botania.versioning.flavour64=Yeni bir Botania Güncellemesi çıktı. Ve adı JOHN CENA! DÜ DÜ DÜ DÜ
 botania.versioning.outdated=Botania'nın %s derlemesini çalıştırıyorsun, en son derleme %s.
 botania.versioning.updateMessage=["İndirmek için tıkla... [",{"text":"İndir","color":"green","hoverEvent":{"action":"show_text","value":{"text":"En son sürümü otomatik indirmek için tıkla","color":"green"}},"clickEvent":{"action":"run_command","value":"/botania-download-latest %version%"}},"] [",{"text":"Web Sitesi","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Modun web sitesine gitmek için tıkla","color":"green"}},"clickEvent":{"action":"open_url","value":"http://botaniamod.net/downloads.php"}},"] [",{"text":"Değişiklik Günlüğü","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Sürümün değişiklik günlüğüne gitmek için tıkla","color":"green"}},"clickEvent":{"action":"open_url","value":"http://botaniamod.net/changelog.php#%version%"}},"]"]
-botania.versioning.startingDownload=[{"text":"%s indirmesi başlıyor. Lütfen sabit diskinizi çıkarmayın. Keyif alın: ","color":"aqua"},{"text":"Botania","color":"green"},{"text":"? Destek olmayı düşünün: ","color":"aqua"},{"text":"Vazkii","color":"light_purple"},{"text":" aracılığıyla [","color":"aqua"},{"text":"Patreon","color":"gold","hoverEvent":{"action":"show_text","value":{"text":"Vazkii'nin Patreon sayfasına gitmek için tıkla","color":"light_purple"}},"clickEvent":{"action":"open_url","value":"http://www.patreon.com/Vazkii"}},{"text":"]!","color":"aqua"}]
+botania.versioning.startingDownload=[{"text":"%s indirmesi başlıyor. Lütfen sabit diskinizi çıkarmayın. ","color":"aqua"},{"text":"Botania","color":"green"},{"text":" hoşunuza gidiyor mu? Destek olmayı düşünün: ","color":"aqua"},{"text":"Vazkii'ye","color":"light_purple"},{"text":" [","color":"aqua"},{"text":"Patreon","color":"gold","hoverEvent":{"action":"show_text","value":{"text":"Vazkii'nin Patreon sayfasına gitmek için buraya tıkla","color":"light_purple"}},"clickEvent":{"action":"open_url","value":"http://www.patreon.com/Vazkii"}},{"text":"] üzerinden!","color":"aqua"}]
 botania.versioning.doneDownloading=%s indirildi. Eski Botania .jar dosyanı sil ve güncellemek için oyununu yeniden yükle.
 botania.versioning.downloadedAlready=En son sürümü zaten indirdin. Oyununu kapat, mod klasöründen eski sürümü sil ve güncellemek için tekrar yükle!
 botania.versioning.downloadingAlready=Güncelleme zaten indiriliyor, biraz zaman ver, olur mu?
@@ -621,7 +621,7 @@ botania.challenge.orechid=Otomatik Orechid
 botania.challenge.orechid.desc=Orechid çiçeğinin tamamen otomatikleştirilmesini sağlayan bir sistem kur. Çıktı eritilip sınıflandırılırsa bonus puan kazanırsın.
 
 botania.challenge.mobTower=Yaratık Kulesi
-botania.challenge.mobTower.desc=Kule tarzı bir yaratık çiftliği kur. Yaratıklar sınıflandırılıp sonunda belirli odalara konmalı. Yaratıcılar kullanılabilir. Çiftlik, oyuncu etkileşimi olmadan %100 verimle çalışırsa bonus puan kazanırsın.
+botania.challenge.mobTower.desc=Kule tarzı bir yaratık çiftliği kur. Canavarların sıralanması ve sonunda belirli odalara yerleştirilmesi gerekir. Yaratık üreticileri kullanılabilir. Çiftlik, oyuncu etkileşimi olmadan %100 verimle çalışırsa bonus puan kazanırsın.
 botania.challenge.entropinnyumSetup=Entropinnyum Düzeneği
 botania.challenge.entropinnyumSetup.desc=Otomatik olarak TNT üretip güvenli bir şekilde bir Entropinnyum çiçeğine besleyerek efsun oluşturan bir sistem kur. TNT için gereken kum ve barut elle konmak zorunda değilse bonus puan kazanırsın.
 botania.challenge.spectrolusSetup=Spectrolus Düzeneği
@@ -2883,7 +2883,7 @@ botania.entry.hopperhock=Hopperhock
 botania.tagline.hopperhock=Eşyaları toplar
 botania.page.hopperhock0=&1Hopperhock&0 çevresindeki eşyaları toplar. Ona &4Efsun&0 vermek isteğe bağlıdır, ancak menzilini artırır.<br>Toplanan eşyalar bitişikteki envanterlere (örn. &1Sandıklar&0) konur. Envanterlerden herhangi birine &1Eşya Çerçeveleri&0 yerleştirmek, hangi eşyaların içeri girip giremeyeceğini belirler.
 botania.page.hopperhock1=Yanında &1Eşya Çerçevesi&0 olmayan her envanter tüm eşyaları kabul edebilir, ancak etiketlenmiş envanterler önceliklidir.<br>Eşyaları sıralamak için kullanılan kural, çiçeğe bir &1Orman Asası&0 ile shift-sağ tıklanarak değiştirilebilir.
-botania.page.hopperhock2=&oSanırım lolimi alıp gideceğim&r.
+botania.page.hopperhock2=&oSanırım lolimle konuşacağım ve gideceğim&r.
 
 # -- TANGLEBERRIE
 botania.entry.tangleberrie=Tangleberrie
@@ -2980,7 +2980,7 @@ botania.entry.gIntro=Üretime Giriş
 botania.tagline.gIntro=Efsun üretmek için kaynak tüketen çiçekler
 botania.page.gIntro0=&4Efsun Üretimi&0 her botanikçinin öncelikleri arasında en üstte olmalıdır. Neyse ki bu işi yapmaya gönüllü bir dizi &4Üretici Çiçek&0 var.<br>Bu çiçekler, adlarından da anlaşılacağı gibi, hem pasif hem de aktif olarak &4Efsun&0 üretir. Aksi belirtilmedikçe, tüm &4Üretici Çiçekler&0 belirli koşullar altında pasif olarak &4Efsun&0 üretir.
 botania.page.gIntro1=Tüm &4Üretici Çiçekler&0, &4İşlevsel Çiçekler&0 gibi küçük bir &4Efsun&0 tamponu içerir.<br>&4Efsun&0 okumaları için standart kurallar geçerlidir; &1Orman Asası&0 ile sağ tıklamak efsun okumalarını günceller.<br>Bu efsun çevredeki en yakın &1Efsun Dağıtıcı&0 içinde depolanır.
-botania.page.gIntro2=Bu çiçeklerin &1Efsun Dağıtıcı&0'ya hangi &4Efsun&0'u aktaracaklarını ezberlediğini unutmamak önemlidir. Yalnızca çiçek yerleştirildiği anda orada bulunan en yakın dağıtıcıya (hiç yoksa sonradan yerleştirilen en yakın olana) depolar, başkasına değil. &4Bağlama Modu&0'ndaki bir asayla başka bir dağıtıcıya bağlanabilir.
+botania.page.gIntro2=Bu çiçeklerin, içine &4Efsun&0 koymaları gereken &1Efsun Dağıtıcı&0'yı ezberlediklerini unutmamak önemlidir. Yalnızca çiçek yerleştirildiği anda mevcut olan en yakın dağıtıcıya (hiçbiri yoksa sonradan yerleştirilen en yakın olana) depolarlar, başka hiçbirine değil. &4Bağlama Modu&0'ndaki bir asayla başka bir dağıtıcıya bağlanabilir.
 
 # -- CAVEATS OF PASSIVE GENERATION
 botania.entry.passiveGen=Pasif Üretimin İncelikleri
@@ -3060,7 +3060,7 @@ botania.entry.gourmaryllis=Gourmaryllis
 botania.tagline.gourmaryllis=Yemekten gelen efsun
 botania.page.gourmaryllis0=&1Gourmaryllis&0 çok aç bir çiçektir. Çevresindeki küçük bir alandaki tüm yiyecekleri yiyip &4Efsun&0'a dönüştürür.<br>Ama bir incelik var: aynı anda yalnızca tek bir yiyeceği sindirebilir ve &4Efsun&0 sindirim bitince oluşur. Bulduğu diğer yiyecekleri de yutar, ancak onlardan efsun üretmez.
 botania.page.gourmaryllis1=Bir lezzeti sindirmek için gereken süre, besin değerine; daha anlaşılır bir deyişle geri kazandırdığı açlık puanı miktarına bağlıdır.<br>Yani bir &1Biftek&0 dört saniyede sindirilir, bir &1Havut&0 iki saniyede, bir somun &1Ekmek&0 iki buçuk saniyede; bu böyle gider. 
-botania.page.gourmaryllis2=Üretilen &4Efsun&0 miktarı da bu değerden yararlanır; ancak yiyecek ne kadar besleyiciyse o kadar verimli olacak şekilde. Örneğin tek bir &1Biftek&0, hem toplamda hem de saniye başına iki &1Havut&0'tan daha fazla &1Efsun&0 üretir.
+botania.page.gourmaryllis2=Üretilen &4Efsun&0 miktarı da bu değeri kullanır; ancak yiyecek ne kadar besleyiciyse o kadar verimli olacak şekildedir. Örneğin tek bir &1Biftek&0, hem toplamda hem de saniye başına iki &1Havuç&0'tan daha fazla &1Efsun&0 üretir.
 botania.page.gourmaryllis3=&oYeni sakinlerimiz için sıcak bir tencere&r.
 
 # -- NARSLIMMUS
@@ -3163,7 +3163,7 @@ botania.page.brewery0=&4Efsun&0un çok yönlülüğü göz önüne alındığın
 botania.page.brewery1=&4Demlemeler&0 oluşturmak için bir &1Botanik Demleme Kazanı&0, &1Küçük Şişeler&0 ve elbette tarifte tanımlanan reaktifler gerekir.<br>&4Efsun&0 hem çözücü hem de enerji kaynağı olarak işlev görür ve &4Efsun Patlamaları&0 aracılığıyla verilir; bir &1Efsun Dağıtıcı&0yı &1Demleme Kazanı&0na doğrultman yeterlidir.
 botania.page.brewery2=&1Botanik Demleme Kazanı&0 Üretimi
 botania.page.brewery3=&1Küçük Şişeler&0 Üretimi
-botania.page.brewery4=&1Botanik Demleme Kazanı&0nı kullanmak oldukça basittir. Önce bir eşya eklemek için onunla bloğa sağ tıkla ya da eşyayı fırlat.<br>Kazanın üstüne konulacak olan &1Küçük Şişe&0yi ekleyerek başla. Ardından gereken tüm malzemeleri ekle. Kazandaki malzemelerle bir &4Demleme&0 oluşturulabildiğinde &4Efsun&0 akmaya başlar; ardından biraz bekle.
+botania.page.brewery4=&1Botanik Demleme Kazanı&0nı kullanmak oldukça basittir. Öncelikle bir eşya eklemek için onunla bloğa sağ tıkla ya da eşyayı fırlat.<br>Kazanın üstüne yerleşecek olan &1Şişeciği&0 ekleyerek başla. Ardından gereken tüm malzemeleri ekle. Kazandaki malzemelerle bir &4Demleme&0 oluşturulabildiğinde &4Mana&0 akmaya başlar; bundan sonra biraz bekle.
 botania.page.brewery5a=Basit bir demleme; &1Çeviklik İksiri&0ni taklit eder ve alındığında kişiye &4Hız II&0 etkisi vererek benzer bir etki yaratır.
 botania.page.brewery5b=Hızlı gitmeliyim
 botania.page.brewery6a=Basit bir demleme; &1Güç İksiri&0ni taklit eder ve alındığında kişiye &4Güç II&0 etkisi vererek benzer bir etki yaratır.
@@ -3435,13 +3435,13 @@ botania.page.terraPick5=VERİ TABANINDA KAZI YAPIYORUZ VAY VAY
 # -- ROD OF THE SEAS
 botania.entry.waterRod=Denizlerin Asası
 botania.tagline.waterRod=Su oluşturan bir değnek
-botania.page.waterRod0=Kara muadili gibi, &1Denizlerin Değneği&0 de bir miktar &4Efsun&0 bedeli karşılığında kullanıldığı yere bir &1Su&0 bloğu yerleştirir. Ayrıca bir &1Yaprak Eczacısı&0'nı yeniden doldurmak için de kullanılabilir.
+botania.page.waterRod0=Karadaki muadiline benzer şekilde, &1Denizlerin Çubuk&0 bir miktar &4Efsun&0 Maliyeti karşılığında kullanıldığı her yere bir &1Su&0 Blok yerleştirecektir. Ayrıca, bu Çubuk bir &1Yaprak Eczacısı&0'nı yeniden doldurmak için de kullanılabilir.
 botania.page.waterRod1=Dünyayı temiz tut, burası Uranüs değil
 
 # -- ELEMENTIUM EQUIPMENT
 botania.entry.elfGear=Elementyum Ekipmanı
 botania.tagline.elfGear=Özel özelliklere sahip Efsun Çeliği muadili teçhizat
-botania.page.elfGear0=Beklendiği gibi, diğer metaller gibi &1Elementyum&0 da alet ve zırh olarak şekillendirilebilir.<br>Bu ekipman parçaları, elmasınkinin yaklaşık yarısı kadar makul bir hasar direncine ve hasarı önlemek için &4Efsun&0 çekme yeteneğine sahiptir.
+botania.page.elfGear0=Diğer metaller gibi, beklendiği üzere &1Elementyum&0 da alet ve zırha dönüştürülebilir.<br>Bu ekipman parçaları, elmasınkinin yaklaşık yarısı kadar makul bir hasar direncine ve hasarı önlemek için &4Mana&0 çekme yeteneğine de sahiptir.
 botania.page.elfGear1=Aletlerin her biri, kendilerini benzersiz kılan bir tür yetenek veya güçle gelir. Zırh ise giyen kişinin vurulduğunda, saldırganın peşine düşen ve makul hasar veren bir &1Peri&0 doğurma şansına sahip olmasını sağlar.<br>Kuşanılan &1Elementyum Zırhı&0 parçası sayısı arttıkça şans da artar.
 botania.page.elfGear2=Başlangıç olarak, &1Elementyum Kazma&0 her türlü &1Kırıktaş&0nı, &1Toprak&0ı, &1Cehennem Taşı&0nı ve diğer sıradan malzemeleri yok eder, geride yalnızca cevherleri ve değerli kaynakları bırakır.<br>&1Elementyum Kazma&0yı bir üretim karesinde &1Toprak Parçalayıcı&0 ile birleştirmek, ikincisinin de bu gücü kazanmasını sağlar. Bu işlem geri alınamaz.
 botania.page.elfGear3=Cebime duş sığdırabiliyorum, boş ver molozu
@@ -3529,7 +3529,7 @@ botania.page.glassPick1=İçeride yemekle kapana kısılmış
 # -- ROD OF DIVINING
 botania.entry.diviningRod=Bereketli Manto Asası
 botania.tagline.diviningRod=Cevher bulmaya yarayan bir asa
-botania.page.diviningRod0=&1Bereketli Manto Asası&0, kullanıcının çevresinde oldukça geniş bir yarıçapta kehanet yaparak her türlü cevheri bulma yeteneğine sahiptir. Bulunan cevherler bir süre parlayarak yerlerini belli eder.<br>Bu işlem, elbette, kullanıcının envanterinden hatırı sayılır miktarda &4Efsun&0 gerektirir.
+botania.page.diviningRod0=&1Bereketli Manto Asası&0, kullanıcının çevresinde oldukça geniş bir yarıçapta kehanet yaparak her türlü cevheri bulma yeteneğine sahiptir. Bulunan cevherler kısa bir süre parlayarak yerlerini belli eder.<br>Bu işlem, elbette, kullanıcının envanterinden hatırı sayılır miktarda &4Mana&0 gerektirir.
 botania.page.diviningRod2=Bu asa bir &1Yaşayanodun Avatarı&0'na verilebilir. Verildiğinde, sanki bir oyuncu kullanmış gibi yakındaki tüm cevherleri gösterir. Bu durumda avatar hareket ettirilmediği sürece renkler aynı kalır.<br>Bu işlem avatarın &4Efsun&0unu kullanır ve avatara kızıltaş sinyali uygulanarak devre dışı bırakılabilir.
 botania.page.diviningRod1=ee3 diyenler gelmeden 
 
@@ -3589,7 +3589,7 @@ botania.page.worldSeed1=Kalbin olduğu yerde
 # -- SPELLBINDING CLOTH
 botania.entry.spellCloth=Büyüleyici Bez
 botania.tagline.spellCloth=Eşyalarla birleştirilerek büyüleri kaldırabilen bir bez
-botania.page.spellCloth0=&1Yün&0ü bir miktar &4Efsun&0la, yani &1Efsun İncisi&0 biçiminde birleştirmek, temas ettiği tüm &4Büyüleri&0 emen bir tür bez yapmanı sağlar.<br>&1Büyüleyici Bez&0i bir çalışma masasında büyülü herhangi bir eşyayla birleştirmek, bezin dayanıklılığından bir miktar harcayarak eşyadaki tüm büyüleri kaldırır.
+botania.page.spellCloth0=&1Yün&0ü, &1Mana İncisi&0 biçimindeki bir miktar &4Mana&0 ile birleştirmek, temas ettiği her türlü &4Büyüyü&0 emecek bir tür bez oluşturmanı sağlar.<br>&1Büyü Bağlayan Bez&0i bir çalışma masasında büyülü herhangi bir eşyayla birleştirmek, bezin dayanıklılığından bir miktar harcayarak o eşyadaki tüm büyüleri kaldırır.
 botania.page.spellCloth1=Kitaptaki en eski eşya
 
 # -- THORN CHAKRAM
@@ -3612,7 +3612,7 @@ botania.page.overgrowthSeed1=Ancak bir sorun var.<br>Bunları oluşturmanın bil
 
 # -- LIVINGWOOD BOW
 botania.entry.livingwoodBow=Yaşayanodun Yay
-botania.tagline.livingwoodBow=Efsun kullanarak kendini yenileyen daha güçlü bir yay
+botania.tagline.livingwoodBow=Mana kullanarak kendini yenileyen daha güçlü bir yay
 botania.page.livingwoodBow0=&1Yaşayanodun Yay&0, adından da anlaşılacağı gibi &1Yaşayanodun&0dan yapılmış ve &1Efsun İşlenmiş İp&0 ile gerilmiş bir yaydır. Bileşenleri sayesinde normal bir &1Yay&0dan daha uzun süre dayanır. Ayrıca &4Efsun&0 kullanarak tıpkı &1Efsun Çeliği Aletleri&0 gibi kendini onarır.
 botania.page.livingwoodBow1=Uçak mı fırlatıyor?
 
@@ -3631,7 +3631,7 @@ botania.page.temperanceStone1=Kaybetme
 # -- TERRA TRUNCATOR
 botania.entry.terraAxe=Dünyevi Baltazor
 botania.tagline.terraAxe=Bütün ağaçları deviren bir balta. Ne ilham verici
-botania.page.terraAxe0=&1Toprak Budayıcı&0, yalnızca &1Dünyevi Çelik&0 ile elde edilebilen birinci sınıf bir baltadır. Bir ağaca vurduğunda tüm kütükleri ve yapraklarıyla birlikte ağacın tamamını hızla devirir. Elbette bunun bedeli bir hayli &4Efsun&0dur.<br>Bu etki eğilirken ya da kullanıcıda &1İtidal Taşı&0 varken gerçekleşmez.
+botania.page.terraAxe0=&1Terra Truncator&0, yalnızca &1Dünyevi Çelik&0 ile elde edilebilen üstün kaliteli bir büyük baltadır. Bir ağaca vurduğunda, tüm kütükleri ve yaprakları beraberinde getirerek ağacın tamamını hızla devirir. Elbette bunun bedeli ağır bir &4Mana&0 maliyetidir.<br>Bu etki eğilirken ya da kullanıcıda &1Stone of Temperance&0 varken gerçekleşmez.
 botania.page.terraAxe1=Bu bir Ölü END değil
 
 # -- FLORAL OBEDIENCE STICK
@@ -3650,7 +3650,7 @@ botania.page.slimeBottle1=JUMPYDOLL
 botania.entry.exchangeRod=Kayan Yerkabuğunun Asası
 botania.tagline.exchangeRod=Blokları değiştirmeye yarayan bir asa
 botania.page.exchangeRod0=&1Kayan Kabuk Asası&0, dünyadaki blokları çok yüksek hızlarda takas edebilen büyülü bir cihazdır. Bunu yapabilmek için önce takas edilecek bir blok seçmen gerekir; bu, dünyadaki o bloğa shift-sağ tıklayarak yapılır.<br>Bu blok seçildikten sonra, dünyadaki herhangi bir başka bloğa sol tıklamak, kullanıcının envanterinde bulunması kaydıyla onu o blokla değiştirir.
-botania.page.exchangeRod1=Dünyadaki bir bloğa sağ tıklamak daha büyük bir dönüşümü başlatır ve vurgulanan tüm blokları seçili olanla değiştirir. Doğal olarak bu bloklar da kullanıcının envanterinden gelir. Bu takas için yalnızca normal, tam boyutlu bloklar kullanılabilir; yani çiçekler, meşaleler ya da benzeri şeyler olmaz. Bu gücü kullanmak, doğası gereği kullanıcının envanterinden &4Efsun&0 gerektirir.
+botania.page.exchangeRod1=Dünyadaki bir bloğa sağ tıklamak daha büyük bir dönüşümü başlatır ve vurgulanan tüm blokları seçili olanla değiştirir. Elbette bu bloklar da kullanıcının envanterinden gelir. Bu takas için yalnızca düzgün, tam boyutlu bloklar kullanılabilir; yani çiçekler, meşaleler ya da benzeri şeyler olmaz. Bu gücü kullanmak, doğal olarak kullanıcının envanterinden &4Mana&0 gerektirir.
 botania.page.exchangeRod2=Diğer asalar veya cihazlar &1Kayan Kabuk Asası&0nın gücünü artırmak için kullanılabilir.<br>Örneğin envanterinde bir &1Topraklar Asası&0 bulundurmak, &1Kayan Kabuk Asası&0na sonsuz &1Toprak&0 kaynağı sağlar; yeter ki &4Efsun&0 bedeli &1Topraklar Asası&0nın toprak çağırma işlemi için karşılansın.
 botania.page.exchangeRod3=Kaçak eşit takas
 
@@ -3701,8 +3701,8 @@ botania.page.pistonRelay2=Bir &1Piston&0u &4Efsun&0la aşılama.
 botania.entry.enderHand=Ender'ın Eli
 botania.tagline.enderHand=Her yerden Ender Sandığı erişimi
 botania.page.enderHand0=&1Ender Eli&0, kullanıcının boyutlar arası ender alanına, diğer bir deyişle &1Ender Sandığı&0 envanterine erişmesini sağlar. Bu, bir miktar &4Efsun&0 bedeliyle el ile sağ tıklanarak her yerde yapılabilir.<br>Eli başka bir oyuncu üzerinde kullanmak, &odiğerinin&r envanterini çok daha yüksek bir &4Efsun&0 bedeli karşılığında açar.
-botania.page.enderHand0a=&1Ender Eli&0, kullanıcının boyutlar arası ender alanına, diğer bir deyişle &1Ender Sandığı&0 envanterine erişmesini sağlar. Bu, bir miktar &4Efsun&0 bedeliyle el ile sağ tıklanarak her yerde yapılabilir.
-botania.page.enderHand2=Ayrıca, envanterinde yalnızca bir &1Ender Eli&0 bulundurmak, &1Kayan Kabuk Asası&0na o oyuncunun &1Ender Sandığı&0ndan eşya sağlanmasına olanak tanır; bunun &4Efsun&0 maliyeti, asanın normal kullanımına kıyasla daha yüksektir.
+botania.page.enderHand0a=&1Ender Eli&0, kullanıcının boyutlar arası ender alanına, başka bir deyişle &1Ender Sandığı&0 envanterine erişmesini sağlar. Bu, bir miktar &4Mana&0 maliyeti karşılığında Ender Eli ile sağ tıklanarak her yerde yapılabilir.
+botania.page.enderHand2=Ayrıca, envanterinde bir &1Ender Eli&0 bulunması tek başına, &1Kayan Kabuk Asası&0'na o oyuncunun &1Ender Sandığı&0'ndan eşyalar sağlanmasına olanak tanır; bunun &4Mana&0 maliyeti, asanın normal kullanımına kıyasla daha yüksektir.
 botania.page.enderHand1=Zezima ondan nefret ediyor!
 botania.page.enderHand1a=Ender Sandıklarının 4G'si gibi
 
@@ -3742,7 +3742,7 @@ botania.page.redString14=&1Kırmızı İpli Yakalayıcı&0.
 # -- FLUGEL TIARA
 botania.entry.flightTiara=Flügel Taçı
 botania.tagline.flightTiara=Uçma yeteneği... bir süreliğine
-botania.page.flightTiara0=&4Flügel&0 bir zamanlar bu topraklarda baskın bir türdü; şimdi ise soyları çoktan tükenmiş bir ırktan ibaretler. Bir zamanlar uçma yeteneğine sahip tanrı katilleri olarak yaratılmışlardı.<br>&1Gaia Ruhları&0nın kullanımı, güçlerinin küçük bir kopyasını &1Flügel Taç&0 biçiminde mümkün kılar; bu taç, &4Efsun&0 bedeli karşılığında uçmaya olanak tanır.
+botania.page.flightTiara0=&4Flügel&0 bir zamanlar bu topraklarda baskın bir türdü; şimdi ise çoktan soyu tükenmiş bir ırktan başka bir şey değiller. Bir zamanlar uçma yeteneğine sahip tanrı katilleri olarak yaratılmışlardı.<br>&1Gaia Ruhları&0'nın kullanımı, güçlerinin &1Flügel Taç&0 biçimindeki küçük bir kopyasına olanak tanır; bu taç, &4Mana&0 maliyeti karşılığında uçmaya olanak tanır.
 botania.page.flightTiara4=Ancak eski teknolojiyi yeniden üretmekte her şey kusursuz değil; tacın kusurları var, yani uçma gücünü sürekli sağlayamıyor. Otuz saniyeden fazla, şarj olmasına izin vermeden kullanılırsa uçma gücünü sağlayamaz hale gelir.<br>Bunu takip etmene yardımcı olmak için HUD'da bir "uçuş çubuğu" gösterilir.
 botania.page.flightTiara5=Basit uçuşun yanı sıra taç, giyen kişiye &4atılma&0 ve &4süzülme&0 yeteneği kazandırır. Uçarken koşma tuşuna (varsayılan olarak CTRL) basmak, kişi zaten koşmuyorsa bir atılım başlatır; bu, giyen kişinin baktığı yönde hızlı bir hız artışıdır.<br>Atılımlar yalnızca 2 saniyede bir yapılabilir.
 botania.page.flightTiara6=Süzülme, yere nazikçe inerken makul bir yatay mesafe kat etmeni sağlar. Ayrıca düşme hasarını önler. Süzülmek için düşerken eğilmen yeterlidir.<br>Süzülme, uçuş çubuğu boşken bile yapılabilir, ancak süzülürken uçuş çubuğu normalden daha yavaş dolar.
@@ -3929,7 +3929,7 @@ botania.page.auraRing2=Yüzüğü yükseltme
 # -- SOUJOURNER'S SASH
 botania.entry.travelBelt=Gezgin Kuşağı
 botania.tagline.travelBelt=Daha hızlı git, daha yükseğe zıpla, daha iyi adımla
-botania.page.travelBelt0=Engebeli arazide ilerlemek bazen zahmetli olabilir. &1Gezgin Kuşağı&0, &4Kemer&0 yuvasına takılabilir ve takıldığında taşıyıcının hareket hızını, zıplama yüksekliğini ve düşme hasarına karşı direncini artırır. Bu güç, küçük bir &4Efsun&0 maliyetiyle gelir.<br>Son olarak, eğilmiyorken taşıyıcının 1 blok yüksekliğindeki boşlukların üzerinden zıplamadan kolayca yürümesini de sağlar.
+botania.page.travelBelt0=Arazide ilerlemek bazen zahmetli olabilir. &1Gezgin Kuşağı&0, &4Kemer&0 yuvasına takılabilir ve takıldığında taşıyıcının hareket hızını, zıplama yüksekliğini ve düşme hasarına karşı direncini artırır. Bu güç, küçük bir &4Mana&0 maliyetiyle gelir.<br>Son olarak, eğilmiyorken taşıyıcının 1 blok yüksekliğindeki boşlukların üzerinden zıplamadan kolayca yürümesini de sağlar.
 botania.page.travelBelt1=...everell
 
 # -- TECTONIC GIRDLE
@@ -4015,7 +4015,7 @@ botania.page.superLavaPendant1=Monolith Code'da ikinci
 # -- TAINTED BLOOD PENDANT
 botania.entry.bloodPendant=Lekeli Kan Kolyesi
 botania.tagline.bloodPendant=Kolye formunda kristalleşmiş demlemeler
-botania.page.bloodPendant0=&4İksir&0 tasarımının asıl kaynağı olan Nether ile uğraşmak, o gücü kullanmada oldukça iyi işe yarıyor gibi görünüyor.<br>&1Lekeli Kan Kolyesi&0, bir &4Demleme&0yi yoğunlaştırılmış, takılabilir bir halde depolamayı sağlar. Bu kolyeye bir demleme aşılayıp taktığında, &4Demleme&0nin gücüne bağlı olarak &4Efsun&0 maliyeti karşılığında etkisi takılı olduğu sürece uygulanır.
+botania.page.bloodPendant0=&4İksir&0 tasarımının asıl kaynağı olan Nether ile uğraşmak, tam da o gücü kullanmada oldukça iyi işe yarıyor gibi görünüyor.<br>&1Lekeli Kan Kolyesi&0, bir &4Demleme&0yi yoğunlaştırılmış, takılabilir bir halde depolamayı sağlar. Bu kolyeye bir demleme aşılayıp taktığında, &4Demleme&0nin gücüne bağlı olarak &4Mana&0 maliyeti karşılığında etkisi takılı olduğu sürece uygulanır.
 botania.page.bloodPendant1=Kolyeye bir &4Demleme&0 aşılamak için normalde bir &1Flakon&0a demleme aşılama prosedürünü uygulaman gerekir. Ancak maliyet on kat artar.<br>Ne var ki kolye her etkiyi kabul etmez; &4Anında İyileşme&0 veya &4Emilim&0 gibi birkaçı pek iyi davranmıyor gibi görünüyor. Son olarak, birden fazla etkisi olan &4Demlemeler&0 de başarısız olur.
 botania.page.bloodPendant2=Saber'ı kesinlikle alacağım
 

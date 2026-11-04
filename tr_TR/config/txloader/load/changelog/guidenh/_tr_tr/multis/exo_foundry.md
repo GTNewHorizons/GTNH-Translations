@@ -129,7 +129,7 @@ HC modülü (UIV), makine çalışırken soğutucu tüketerek azami hız aşırt
 - 1 Girdi Kapağı (herhangi bir kriyojenik kasa) <ItemImage id="gregtech:gt.blockmachines:70" />
 
 ## Helyo Döküm Takviyesi <ItemImage id="gregtech:gt.foundrycasings:7" />
-HR modülü (UIV), Exo-Foundry için UIV+ tariflerinin kilidini açar. Buna hipojen, eternity, universium veya magmatter içeren tüm sıvı katılaştırıcı tarifleri ile aşkın düzeyde güçlendirilmiş borosilikat cam ve Hawking radyasyonu yeniden hizalama odak camı dahildir. Exo-Foundry başına HR modülü sayısında bir sınır yoktur. HR'yi kendisiyle eşleştirmek, aşağıdaki tabloda görüldüğü gibi toplam HR modülü sayısına bağlı olarak ölçeklenen bir bonus olan Süper Kararlı Çekirdek'i açar. 
+HR modülü (UIV), Exo-Foundry için UIV+ tariflerinin kilidini açar. Buna hipojen, eternity, universium veya Magmadde içeren tüm sıvı katılaştırıcı tarifleri ile aşkın düzeyde güçlendirilmiş borosilikat cam ve Hawking radyasyonu yeniden hizalama odak camı dahildir. Exo-Foundry başına HR modülü sayısında bir sınır yoktur. HR'yi kendisiyle eşleştirmek, aşağıdaki tabloda görüldüğü gibi toplam HR modülü sayısına bağlı olarak ölçeklenen bir bonus olan Süper Kararlı Çekirdek'i açar. 
 
 | Modüller   | Bonuslar    |
 |--------------- | --------------- |

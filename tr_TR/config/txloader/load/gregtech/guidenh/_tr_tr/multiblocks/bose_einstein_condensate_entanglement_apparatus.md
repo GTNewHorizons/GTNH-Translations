@@ -113,7 +113,7 @@ Süreler, pasif yoğuşma üretimini teşvik etmek ve daha sonra bir [<ItemLink 
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:954" showIcon="left">Uzamsal Olarak Genişletilmiş Sıvı</ItemLink> | 144 L | 120 sn | 503.316.480 EU/t | 1A UXV | 25.165.824 EU/t |
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:955" showIcon="left">Sınırsız Kozmik Lehim</ItemLink> | 1.000 L | 120 sn | 503.316.480 EU/t | 1A UXV | 25.165.824 EU/t |
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:956" showIcon="left">MHDCSM</ItemLink> | 144 L | 180 sn | 2.013.265.920 EU/t | 1A MAX | 100.663.296 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:957" showIcon="left">Magmatter</ItemLink> | 144 L | 180 sn | 2.013.265.920 EU/t | 1A MAX | 100.663.296 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:957" showIcon="left">Magmadde</ItemLink> | 144 L | 180 sn | 2.013.265.920 EU/t | 1A MAX | 100.663.296 EU/t |
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:958" showIcon="left">Universium</ItemLink> | 144 L | 180 sn | 2.013.265.920 EU/t | 1A MAX | 100.663.296 EU/t |
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:959" showIcon="left">Ebediyet</ItemLink> | 144 L | 180 sn | 2.013.265.920 EU/t | 1A MAX | 100.663.296 EU/t |
 {: widths="220,60,60, 120, 40, 120"}

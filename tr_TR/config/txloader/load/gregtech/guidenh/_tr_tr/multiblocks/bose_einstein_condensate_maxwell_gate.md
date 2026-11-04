@@ -144,7 +144,7 @@ Aşağıdaki tablo, OpenComputers'ın kullandığı sıvı adını ve hangi yoğ
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:954" showIcon="left" /> | entangled_space |
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:955" showIcon="left" /> | entangled_cosmicsolder |
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:956" showIcon="left" /> | entangled_mhdcsm |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:957" showIcon="left" /> | entangled_magmatter |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:957" showIcon="left" /> | entangled_Magmadde |
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:958" showIcon="left" /> | entangled_universium |
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:959" showIcon="left" /> | entangled_eternity |
 

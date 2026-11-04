@@ -770,7 +770,7 @@ entity.witchery.imp.name=Alev İmpi
 entity.witchery.imp.goodbye=<%s> Sözleşme yerine getirildi!
 entity.witchery.imp.contract.notowners=<%s> Bu sözleşme kanınla imzalanmamış!
 entity.witchery.imp.contract.unsigned=<%s> Sözleşmeyi kanınla imzala!
-entity.witchery.imp.contract.noxp=<%s> Beni beslemem için çok az deneyimin var!
+entity.witchery.imp.contract.noxp=<%s> Benim beslenmem için tecrüben çok ufak!
 entity.witchery.imp.contract.deal=<%s> Anlaştık!
 entity.witchery.imp.gift.like=<%s> Pırıltılar!
 entity.witchery.imp.gift.hate=<%s> Ben sevmem! Sadece yeni parlak şeyler!
@@ -850,7 +850,7 @@ tile.witchery:stockade.big_oak.name=Koyu Meşe Palankası
 item.witchery:dupstaff.name=Çoğaltma Asası
 tile.witchery:statueofworship.name=Hobgoblin Patronu Heykeli
 item.witchery:ingredient.kobolditedust.name=Koboldit Tozu
-item.witchery:ingredient.kobolditenugget.name=Koboldit Külçesi
+item.witchery:ingredient.kobolditenugget.name=Koboldit Parçası
 item.witchery:ingredient.kobolditeingot.name=Koboldit Külçe
 item.witchery:kobolditepickaxe.name=Koboldit Kazma
 item.witchery:ingredient.pentacle.name=Pentagram
@@ -930,7 +930,7 @@ witchery:potion.colorful.cyan=Camgöbeği Boyama
 witchery:potion.colorful.lightgray=Açık Gri Renklendirme
 witchery:potion.colorful.gray=Gri Renklendirme
 witchery:potion.colorful.pink=Pembe Tonlama
-witchery:potion.colorful.lime=Renk Veren Kireç
+witchery:potion.colorful.lime=Renk Veren Açık Yeşil
 witchery:potion.colorful.yellow=Sarı Boyama
 witchery:potion.colorful.lightblue=Açık Mavi Renklendirme
 witchery:potion.colorful.magenta=Eflatun Boyama
@@ -1185,7 +1185,7 @@ witchery:cauldronbook.compass=[h1 Üretim: Oyuncu Pusulası]O kişiye giden yolu
 
 witchery:cauldronbook.brewing=[next=brewing2][h1 Demlemeler]Kazan tısladığında iksirini almak için cam şişe kullan. Bazı malzemeler bir sunaktan güç çekmek isteyebilir. [url=bottling expertise] arttıkça daha fazla demleme elde edebilirsin.[br][br][stack=glass_bottle Cam Şişe]
 witchery:cauldronbook.brewing2=[next=brewing3][h1 Demlemeler: Etkiler ve Değiştiriciler]Bir demleme, değiştiricileri olan bir veya daha fazla [url=toc/effects etkiden] ve yine değiştiricileri olan bir [url dağıtım] yönteminden oluşur. Bir etkiye veya dağıtım yöntemine yapılan değiştiriciler, etki eklenmeden önce sırasıyla eklenmelidir.
-witchery:cauldronbook.brewing3=[next=brewing4][h1 Demlemeler: Kapasite]Bir demlemeye eklenen her etki belirli bir depolama alanı gerektirir. Bir demlemeye bu kapasiteyi eklemek için özel [url=capacity ingredients] kullanılır ve kümülatif bir etki elde etmek için sırayla eklenmeleri gerekir.
+witchery:cauldronbook.brewing3=[next=brewing4][h1 Demlemeler: Kapasite]Bir demlemeye eklenen her etki belirli bir miktarda depolama alanı gerektirir. Bir demlemeye bu tür kapasiteyi eklemek için özel [url=capacity ingredients] kullanılır ve kümülatif bir etki elde etmek için bunların eklenmesi gerekir.
 witchery:cauldronbook.brewing4=[next=brewing5][h1 Demlemeler: Kapasite]Bir demlemeye birden fazla etki eklenebilir, ancak hepsinin toplamı için yeterli kapasite bulunmalıdır.
 witchery:cauldronbook.brewing5=[next=brewing6][h1 Demlemeler: Adım adım]1. [url Kapasiteyi] artır[br]2. [url Değiştiriciler] ekle[br]3. [url Gücü] artır[br]4. [url Süreyi] artır[br]5. [url=toc/effects Etki] ekle[br]6. 3'ten tekrarla[br]> Şişele veya devam et[br]7. [url Kapsamı] artır[br]8. [url=linger Kalıcılığı] artır[br]9. [url Yayılımı] ayarla[br]> Şişele veya [url=rituals ayin] yap
 witchery:cauldronbook.brewing6=[h1 Demlemeler: Sıçratma Ateş Söndürme Demlemesi]Aşağıdaki eşyaları ağzına kadar dolu, kaynayan kazana at. Ardından kazanın üzerinde cam şişe kullan.[stack=glass_bottle][br][stack=witchery:ingredient|22][stack=coal][stack=gunpowder][br][img=witchery:textures/gui/cauldron.png|center|top|30|29]
@@ -1239,7 +1239,7 @@ witchery:cauldronbook.level2_4=[next=level2_5][h1 Etki: Seviye 2][stack=leather]
 witchery:cauldronbook.level2_5=[next=level2_6][h1 Etki: Seviye 2][stack=witchery:ingredient|108][url=batburst|middle Yarasa Patlaması][br][stack=witchery:ingredient|32][url=airhike|middle Hava Yürüyüşü][br][stack=slime_ball][url=pull|middle Çekme][br][stack=witchery:ingredient|30][url=erosion|middle Aşınma][br][stack=netherrack][url=levelland|middle Düzleştirme][br][stack=witchery:ingredient|56][url=webs|middle Ağlar]
 witchery:cauldronbook.level2_6=[next=level2_7][h1 Etki: Seviye 2][stack=vine][url=vines|middle Sarmaşık ve Yanıcı][br][stack=cactus][url=thorns|middle Kaktüs ve Dikenli][br][stack=witchery:ingredient|82][url=sprouting|middle Filizlenme][br][stack=witchery:ingredient|78][url=freeze|middle Donma][br][stack=stick][url=knockback|middle Geri Tepme][br][stack=pumpkin][url=undeadbane|middle Ölümsüz Belası]
 witchery:cauldronbook.level2_7=[next=level2_8][h1 Etki: Seviye 2][stack=red_flower|1][url=insectbane|middle Böcek Belası][br][stack=witchery:witchsapling|0][url=growtree|middle Üvez yetiştir][br][stack=witchery:witchsapling|1][url=growtree|middle Kızılağaç yetiştir][br][stack=witchery:witchsapling|2][url=growtree|middle Alıç yetiştir][br][stack=sapling|5][url=growtree|middle Kara meşe yetiştir]
-witchery:cauldronbook.level2_8=[next=level2_9][h1 Etki: Seviye 2][stack=sapling|0][url=growtree|middle Meşe yetiştir][br][stack=sapling|1][url=growtree|middle Ladin yetiştir][br][stack=sapling|2][url=growtree|middle Huş yetiştir][br][stack=sapling|3][url=growtree|middle Cengel ağacı yetiştir][br][stack=sapling|4][url=growtree|middle Akasya yetiştir][br][stack=witchery:ingredient|35][url=removebuffs|middle Etkileri Kaldır]
+witchery:cauldronbook.level2_8=[next=level2_9][h1 Etki: Seviye 2][stack=sapling|0][url=growtree|middle Meşe yetiştir][br][stack=sapling|1][url=growtree|middle Ladin yetiştir][br][stack=sapling|2][url=growtree|middle Huş yetiştir][br][stack=sapling|3][url=growtree|middle Orman ağacı yetiştir][br][stack=sapling|4][url=growtree|middle Akasya yetiştir][br][stack=witchery:ingredient|35][url=removebuffs|middle Buff'ları Kaldır]
 witchery:cauldronbook.level2_9=[h1 Etki: Seviye 2][stack=witchery:ingredient|105][url=removedebuffs|middle Zayıflıkları kaldır][br][stack=snow][url=endlesswater|middle Sonsuz Su *][br][br][i * diğer etkilerle birleştirilemez.]
 
 witchery:cauldronbook.level4=[next=level4_2][h1 Etki: Seviye 4][stack=witchery:glintweed][url=flames|middle Alevler][br][stack=witchery:ingredient|80][url=fear|middle Korku][br][stack=dye|0][url=blindness|middle Körlük][br][stack=red_flower|0][url=love|middle Aşk][br][stack=witchery:ingredient|23][url=paralysis|middle Felç][br][stack=rotten_flesh][url=disease|middle Hastalık]
@@ -1343,7 +1343,7 @@ witchery:cauldronbook.felling=[h1 Etki: Ağaç devirme]Yakındaki tüm kütük b
 witchery:cauldronbook.growlily=[h1 Etki: Nilüfer Büyüt]Suda tetiklenirse bir nilüferin hızla büyümesini sağlar. Nilüfer, demlemenin güç seviyesine göre genişleyebilir.
 witchery:cauldronbook.tinting=[h1 Etki: Ten rengi]Yaratığın veya oyuncunun teninin tonunu seçilen boyanın rengine değiştirir.
 
-witchery:cauldronbook.transpose=[next=transpose2][h1 Etki: Yer Değiştirme]Bir demlemede bu etki, hedefi rastgele kısa bir mesafeye ışınlar.[br][br]İki ayin uygulaması mümkündür. Ya bir yol taşıyla varış noktasını hedefle, ya da son olarak hedefi tanımlamak için bir taglock ekle.
+witchery:cauldronbook.transpose=[next=transpose2][h1 Etki: Yer Değiştirme]Bir demlemede bu etki, hedefi rastgele kısa bir mesafeye ışınlar.[br][br]İki tür ayin uygulaması mümkündür. Bir Yol Taşı kullanarak bir varış noktasını hedefleyin ve son olarak hedefi tanımlamak için bir Taglock ekleyin.
 witchery:cauldronbook.transpose2=[next=transpose3][h1 Etki: Yer Değiştirme]İkinci ayin uygulaması, kaynak konumun ender incisi eklenmeden [i önce] bir yol taşı olarak eklenmesini gerektirir.[br][br]Hedef konum ise ender incisinden [i sonra] bir yol taşıyla eklenmelidir.
 witchery:cauldronbook.transpose3=[h1 Etki: Yer Değiştirme]Kaynak [i mutlaka] orta seviye bir öte yer dairesiyle çevrili olmalı.[br][br][img=witchery:textures/gui/circles_mpurple.png|center|top|32|32]
 
@@ -1361,7 +1361,7 @@ witchery:cauldronbook.leonard=[h1 Leonard]Orta Çağ'dan gelen ve bir ayine baş
 witchery:cauldronbook.durationboost=[h1 Etki: Süre artışı]Etkin olan tüm iksir etkilerinin süresini artırır. Miden bulanmışken kullanılamaz.
 witchery:cauldronbook.absorbmagic=[h1 Etki: Büyü Emme]Büyü hasarını infüzyon gücüne dönüştürür.
 witchery:cauldronbook.reincarnate=[h1 Etki: Yeniden Bedenlenme]Yaratık öldüğünde, gücü iksirin gücüne göre belirlenen başka bir yaratık olarak yeniden bedenlenir.
-witchery:cauldronbook.moonshine=[h1 Etki: Ay Işığı]Alkol acını daha az hissetmeni sağlar ama bunun yerine acıktırır ve ara sıra başını döndürür.
+witchery:cauldronbook.moonshine=[h1 Etki: Moonshine]Alkol acıyı daha az hissetmeni sağlar, ama bunun yerine acıkırsın ve ara sıra başın döner.
 witchery:cauldronbook.stoutbelly=[h1 Etki: Sağlam karın][url Moonshine]'in baş döndürücü etkilerini kaldırır.
 witchery:cauldronbook.brewgasimmunity=[h1 Etki: Demleme gazı bağışıklığı]Seni demleme kaynaklı gaz bulutlarının olumsuz etkilerine karşı bağışık yapar
 witchery:cauldronbook.drainmagic=[h1 Etki: Büyü emme]Kurbanın büyü gücünü emer.
@@ -1439,7 +1439,7 @@ witchery.werewolf.level2begin=Bir ses yankılanır: "%s KÜLÇE ALTIN, ONLARI BA
 witchery.werewolf.level2progress=Derin bir ses gürler, "%s ALTIN KÜLÇESİ ARANIYOR, SENDE %s EKSİK!"
 witchery.werewolf.level2complete=Ses gürleyerek konuşur: "ALTIN VERİLİR, BİR TILSIM YAPILIR, İÇİNDEKİ YARATIK SERBEST KALSIN VE AYIN ARTIK HÜKMÜ OLMASIN!"
 
-witchery.werewolf.level3begin=Ses tonlamayla der: "PENÇELERİNİ GÜÇLENDİR, EN ZAYIF AVCILARDAN %s ETİNİ SIYIR, ETİNİ ÖNÜME KOY!"
+witchery.werewolf.level3begin=Ses tonlayarak şöyle der: "PENÇELERİNİ GÜÇLENDİR, AVLARIN EN ZAYIFININ %s'İNDEN ETİNİ SIYIR, KOYUN ETLERİNİ ÖNÜME KOY!"
 witchery.werewolf.level3progress=Ses yankılanıyor: "%s ÖLDÜR VE ETİNİ GETİR, %s DAHA GEREKİYOR!"
 witchery.werewolf.level3complete=Ses gürlüyor: "EN ZAYIFTAN KOPARILMIŞ ET, ÇELİK GİBİ BİLENMİŞ PENÇELER, TOPRAĞI VE ETİ PARÇALAMAK İÇİN, CANAVARLARIN AÇLIĞI HİÇ DOYMAZ!" 
 
@@ -1452,11 +1452,11 @@ witchery.werewolf.level5progress=Ses yankılanıyor: "AVCI HÂLÂ YENİLMEDEN DU
 witchery.werewolf.level5complete=Ses gürlüyor: "GÜÇLÜ BİR ŞAMPİYON YENİLDİ, MUZAFFER OLARAK DİMDİK AYAKTA DURUYOR, CANAVAR TAMAMEN UYANDI, ARTIK İKİ YA DA DÖRT BACAK ÜZERİNDE AVCILIK YAP!" 
 
 witchery.werewolf.level6begin=Ses hırlar: "AVINI PARÇALAMAK İÇİN GÜÇLÜ KASLAR YAP, %s CANAVARA ATLA VE HAVADAN ÖLDÜR!"
-witchery.werewolf.level6progress=Ses gürüldüyor, "%s'İ ÖLDÜR, HAVADAN GELMEK YASAKTI, %s KALDI!"
+witchery.werewolf.level6progress=Ses gürüldüyor, "HAVADAN %s'İ ÖLDÜRMEK EMREDİLDİ, %s KALDI!"
 witchery.werewolf.level6complete=Ses ilan eder: "GÖKLERDEN ÖLÜM, ŞİMŞEK GİBİ VURURSUN, İSABET ETTİĞİNDE KOŞ, KAVGAYI HIZLA BİTİR!"
 
 witchery.werewolf.level7begin=Ses gürlüyor: "DİĞERLERİ SENDEN KORKMAYI ÖĞRENMELİ, GECE TOPRAKLARI GEZ, %s YERLERDE GÖKYÜZÜNE BAK VE KURTLARININ SESİNİ DUYUR!"
-witchery.werewolf.level7progress=Ses tonla der ki, "GECE GÖĞÜNE %s YERDE ULUDU, %s KALDI!"
+witchery.werewolf.level7progress=Ses tonlayarak söylüyor, "%s YERDE GECE GÖĞÜNE ULU, %s KALDI!"
 witchery.werewolf.level7complete=Ses hırlıyor, "SESİN DUYULDU, GELİŞİN SEVİNÇLE KARŞILANMADI, KURT ADAM HAYKIRIRKEN, DÜŞMANLARIN KORKUDAN DONUP KALSIN!"
 
 witchery.werewolf.level8begin=Ses yankılanır: "SÜRÜYE HÜKMET! BİR KURT OLARAK %s KURT BUL VE ONLARI İRADENE BOYUN EĞDİR!"
@@ -1467,7 +1467,7 @@ witchery.werewolf.level9begin=Ses gürlüyor: "PENÇELER BIÇAK GİBİ, KURT ADA
 witchery.werewolf.level9progress=Ses şöyle seslenir: "KURT ADAM OLARAK %s CEHENNEM DOMUZU AVLA, %s BULUNMALI!"
 witchery.werewolf.level9complete=Ses ilan eder: "CEHENNEMİ DÜŞMANLAR YENİLDİ, PENÇELER BİLENDİ, ZIRHLAR KÂĞIT GİBİ, ŞİMDİ PARAMPARÇA EDİLECEKSİNİZ!"
 
-witchery.werewolf.level10begin=Ses gürlüyor: "KÖYDEN YA DA BİR DOSTTAN BAŞKA BİRİNİN CANINI AL, SONRA SANA LÜTUF, YAYMAM İÇİN KUTSAM VERİLECEK!"
+witchery.werewolf.level10begin=Ses gürlüyor: "KÖYDEN YA DA BİR DOSTTAN BAŞKA BİRİNİN HAYATINI AL, SONRA SANA LÜTUF OLARAK, YAYMAN İÇİN KUTSAM VERİLECEK!"
 witchery.werewolf.level10progress=Ses yankılanıyor: "KÖYDEN BİRİNİ ÖLDÜR, YA DA SENİN GİBİ BİRİNİ!"
 witchery.werewolf.level10complete=Ses haykırıyor: "YOLUMDA USTALAŞTIN, ŞİMDİ KUTSAMAMI YAY!"
 

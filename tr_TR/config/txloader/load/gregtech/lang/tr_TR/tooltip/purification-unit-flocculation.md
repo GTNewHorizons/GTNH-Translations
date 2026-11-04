@@ -10,6 +10,6 @@ başarıya ek {color_misc:{var:success}%} artış kazan. Verilen toplam sıvı {
 başarıya şu formülle ceza uygulanır:
 {color_misc:Başarı}{color_formula: = Başarı * 2^(-10 * Taşma oranı)}
 {hr}
-{aqua:{italic:Suyu arıtmadaki üçüncü adım, toz, mikroplastik ve benzeri mikroskobik}}
-{aqua:{italic:kirleticileri bir berraklaştırıcı ajanla (bu durumda polialüminyum klorür) kullanarak yumaklaşma - yani}}
-{aqua:{italic:çözeltide dağılmış asılı parçacıkların daha ileri filtrasyon için daha büyük yumaklar halinde toplanması süreci.}}
+{aqua:{italic:Suyu arıtmadaki üçüncü adım, tozlar, mikroplastikler ve diğer kirleticiler gibi mikroskobik}}
+{aqua:{italic:kirleticileri, yumaklaşmaya yol açmak üzere bir berraklaştırıcı ajan (bu durumda polialüminyum klorür) kullanarak uzaklaştırmaktır - bu süreç}}
+{aqua:{italic:çözeltide dağılmış asılı parçacıkların daha ileri filtrasyon için daha büyük yumaklar halinde toplanmasıdır.}}

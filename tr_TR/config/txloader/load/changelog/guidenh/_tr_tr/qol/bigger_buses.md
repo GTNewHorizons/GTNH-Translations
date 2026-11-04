@@ -18,11 +18,11 @@ Daha büyük boyutlu giriş/çıktı yollarında yapılan iki ana değişiklik a
     Bir UHV Giriş Yolunun arayüzü
   </ImageAnnotation>
 </FloatingImage>
-Süper Yolları feda etmen karşılığında, artık UHV'ye kadar <Color id="GREEN">Yeşil Giriş</Color> ve <Color id="RED">Kırmızı Çıktı</Color> Yolları üretebilirsin!
+Süper Yollardan feragat etme karşılığında, artık UHV'ye kadar <Color id="GREEN">Giriş</Color> ve <Color id="RED">Çıktı</Color> Yolları üretebilirsin!
 
-Önceki yolları takip eden yenileri <Color color="#00ffff">n<sup>2</sup></Color> yuvaya sahip olacak; burada __n__ gerilim kademesidir (ULV=1)
+Önceki yollardan devamla, yenileri <Color color="#00ffff">n<sup>2</sup></Color> yuvaya sahip olacak; burada __n__ gerilim kademesidir (ULV=1)
 
-Hâlihazırda üretilmiş/yerleştirilmiş süper yollar kalacak, ancak üretilemeyecek.
+Hâlihazırda üretilmiş/yerleştirilmiş Süper Yollar kalacak, ancak üretilemeyecek.
 <br clear="all"/>
 # Kuantum/Sıkıştırılmış Yollar
-AE2 dışı lojistik için yapılan genel bir yenilemenin parçası olarak yeni bir giriş/çıktı yolu seti eklendi! <Color id="GREEN">Yeşil Kuantum Yolu</Color> <ItemImage id="gregtech:gt.blockmachines:2757" /> ve <Color id="BLUE">Mavi Sıkıştırılmış Yol</Color> <ItemImage id="gregtech:gt.blockmachines:2751" />, artık yuva başına bir kümeden fazlasını tutabildikleri için "normal" G/Ç yollarının daha gelişmiş eşdeğerleridir!
+AE2 dışı lojistik için yapılan genel bir yenilemenin parçası olarak yeni bir giriş/çıktı yolu seti eklendi! <Color id="GREEN">Kuantum Yolu</Color> <ItemImage id="gregtech:gt.blockmachines:2757" /> ve <Color id="BLUE">Sıkıştırılmış Yol</Color> <ItemImage id="gregtech:gt.blockmachines:2751" />, artık yuva başına bir yığından fazlasını tutabildikleri için "normal" G/Ç yollarının daha gelişmiş eşdeğerleridir!

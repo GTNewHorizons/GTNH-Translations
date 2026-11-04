@@ -23,7 +23,7 @@ salisarcana:command.forget-research.usage=§7/salisarcana-forget-research §7<--
 salisarcana:command.forget-research.args.all=§7<--all>§r Oyuncunun bildiği tüm araştırmaları kaldırır. §7research-key§r verilmezse zorunludur. §7research-key§r ve §7scalpel§r ile birlikte kullanılamaz.
 salisarcana:command.forget-research.args.research=§7<--research-key>§r Kaldırılacak araştırmanın kimliğini belirtir. Birden çok kez verilebilir. §7all§r ayarlanmamışsa zorunludur. §7all§r ile birlikte kullanılamaz.
 salisarcana:command.forget-research.args.player=§7[--player <username>]§r Araştırması değiştirilecek oyuncuyu belirtir. Verilmezse bu komutu yürüten oyuncu varsayılır.
-salisarcana:command.forget-research.args.scalpel=§7[--scalpel]§r Ayarlanırsa yalnızca belirtilen araştırma kaldırılır, alt veya üst araştırmaları kaldırılmaz. Bu beklenmeyen yan etkilere yol açabilir. §7all§r ile birlikte kullanılamaz.
+salisarcana:command.forget-research.args.scalpel=§7[--scalpel]§r Ayarlanırsa belirtilen araştırma kaldırılır; ancak kardeşlerinden veya alt dallarından hiçbiri kaldırılmaz. Bu beklenmeyen yan etkilere yol açabilir. §7all§r ile aynı anda kullanılamaz.
 salisarcana:command.forget-research.args.retain-warp=§7[--retain-warp]§r Ayarlandığında, kaldırılan araştırmayla ilişkili kalıcı ve/veya yapışkan Delilik korunur.
 
 salisarcana:command.forget-research.remove=§9Başarılı:§r %d araştırma öğesi ve ilişkili Delilik kaldırıldı; toplamda %d kalıcı Delilik ve %d yapışkan Delilik silindi.
@@ -208,7 +208,7 @@ salisarcana:wand_cap.vis_discount.aspect=%s §5İndirim: %s
 salisarcana:wand_cap.price_mult=§3Üretim Maliyeti Çarpanı: §e%sx
 salisarcana:wand_rod.vis_capacity=§5Kapasite: §d%s Vis
 salisarcana:wand_rod.base_price=§3Temel Üretim Maliyeti: §d%s Vis
-salisarcana:wand_rod.gtnh_wands_price=§3Üretim Maliyeti: §d%s + (%d * uç çarpanı) Vis
+salisarcana:wand_rod.gtnh_wands_price=§3Üretim Maliyeti: §d%s + (%d * üst sınır çarpanı) Vis
 salisarcana:wand_rod.gtnh_scepter_mult=§3Scepter Çarpanı: §d%sx
 salisarcana:wand_rod.gtnh_staffter_mult=§3Staffter Çarpanı: §d%sx
 salisarcana:wand_rod.runes=§5Takılı her odak için +1 Potens§2

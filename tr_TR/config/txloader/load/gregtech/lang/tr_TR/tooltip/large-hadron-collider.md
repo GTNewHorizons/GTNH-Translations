@@ -17,7 +17,7 @@ Her döngü, {color_electron_volt:Işın Enerjisini} {color_eu_usage:döngüde t
 Işını, daha büyük LHC halkasında zıt yönlere giden ve yeni parçacıklar oluşturmak için çarpışan {color_formula:iki} ışına böler
 {color_electron_volt:Çarpışma Enerjisi}, {color_electron_volt:Işın Enerjisinin} {color_formula:{var:collision_multiplier}} katıdır
 {color_electron_volt:Çarpışma Enerjisi} durgun kütlesini aştığında çıktılarda bir parçacık belirir
-{color_name:Süzülmüş Işın Çıktı Kapakları} ve Olasılık Masası, olası çıktıların listesini gösterir ve bunları filtrelemene izin verir
+{color_name:Süzülmüş Işın Çıkış Kapakları} ve Olasılık Masası, olası çıktıların listesini gösterir ve bunları filtrelemene izin verir
 {hr}
 {color_mode:Yükseltici Sıvılar}
 {color_name:Yükseltici Sıvılar}, {color_formula:{var:nerf_cutoff}} değerinin üzerindeki {gold:Işın Oranları} için {dark_red:ölçekleme üssünü} yükseltir

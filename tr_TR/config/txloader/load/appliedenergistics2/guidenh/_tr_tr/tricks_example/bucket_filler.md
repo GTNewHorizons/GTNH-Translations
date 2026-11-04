@@ -12,7 +12,7 @@ Ayrıca bkz. [Kova Boşaltıcı](bucket_emptier.md).
 Not: Bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> kullandığı için bunun [otomatik üretim](../ae2_mechanics/autocrafting.md) kurulumuna entegre olmak üzere tasarlandığını unutma.
 
 Bazen hayat elverişsizdir ve sıvının kendisi yerine kovalarca sıvıya ihtiyaç duyarsın. Bazen bunu senin için bir makine yapabilir
-(Termal Expansion'daki Fluid Transposer gibi), ama bunu her zaman senin için kolayca yapan bir modun olmayabilir. Neyse ki
+(Thermal Expansion'daki Sıvı Aktarıcı gibi), ama bunu her zaman senin için kolayca yapan bir modun olmayabilir. Neyse ki
 vanilla Minecraft'ın biraz daha az elverişli bir yolu var: <ItemLink id="minecraft:dispenser" />.
 
 **Not: Çoğu zaman bunu yapmak zorunda değilsin, çünkü bir

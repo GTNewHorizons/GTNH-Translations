@@ -10,11 +10,10 @@ Her döngüde, 16 antimadde kapağındaki en düşük antimadde miktarı kaydedi
 En düşük miktardan fazlasına sahip tüm kapaklar {red:farkın yarısını kaybeder!}
 {red:Antimaddenin %10'unu yok eder}, döngü sırasında enerjisi/protomaddesi biterse
 Kapak başına temel üretim, her döngüde (1/16) * ({dark_aqua:Antimadde}^(0.5 + {gold:{bold:{underline:C}}})) antimaddedir
-Her kapak, kapak başına temel üretimi şuradan çekilen rastgele bir sayıyla çarpar:
-ortalaması 0.2 + {aqua:{bold:{underline:A}}} ve varyansı 1 olan normal dağılım
+Her kapak, kapak başına temel üretimi, ortalaması 0.2 + {aqua:{bold:{underline:A}}} ve varyansı 1 olan normal dağılımdan çekilen rastgele bir sayıyla çarpar
 Toplam antimadde kazancı negatif olabilir!
 {hr}
-Antimadde üretimini iyileştirmek için stabilizasyon sıvıları ile beslenebilir
+Antimadde üretimini iyileştirmek için stabilizasyon sıvılarıyla beslenebilir
 Her stabilizasyon aynı anda sıvılardan yalnızca birini kullanabilir
 {green:{bold:{underline:M}}}{green:anyetik Stabilizasyon} (Döngü başına {dark_aqua:Antimadde}^0.5 {L} sıvı tüketir)
 1. {fluid:molten.tengampurified} = {green:0.1}
@@ -24,7 +23,7 @@ Her stabilizasyon aynı anda sıvılardan yalnızca birini kullanabilir
 1. {fluid:molten.spacetime} = {dark_purple:0.05}
 2. {fluid:spatialfluid} = {dark_purple:0.10}
 3. {fluid:molten.eternity} = {dark_purple:0.15}
-{gold:{bold:{underline:C}}}{gold:ontainment Stabilizasyonu} (Döngü başına {dark_aqua:Antimadde}^(2/7) {L} sıvı tüketir)
+{gold:{bold:{underline:M}}}{gold:uhafaza Stabilizasyonu} (Döngü başına {dark_aqua:Antimadde}^(2/7) {L} sıvı tüketir)
 1. {fluid:molten.shirabon} = {gold:0.05}
 2. {fluid:molten.magnetohydrodynamicallyconstrainedstarmatter} = {gold:0.10}
 {aqua:{bold:{underline:A}}}{aqua:ktivasyon Stabilizasyonu} (Döngü başına {dark_aqua:Antimadde}^(1/3) {L} sıvı tüketir)

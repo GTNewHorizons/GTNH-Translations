@@ -10,4 +10,4 @@ navigation:
   icon: gregtech:gt.blockmachines:15331
   position: -8001
 ---
-# Araştırma İstasyonu (Multibloklar)
+# Araştırma İstasyonu

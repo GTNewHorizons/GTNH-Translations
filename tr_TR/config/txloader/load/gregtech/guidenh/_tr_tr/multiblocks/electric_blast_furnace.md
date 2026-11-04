@@ -95,7 +95,7 @@ Aşağıdaki animasyon, gaz kullanan tarifler için bir <ItemLink id="gregtech:g
 Yapıyı önizlemek ve inşa etmeye yardımcı olmak için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan. `coil` alt kanalı bobin kademesini seçer. İnşadan sonra yapıyı kontrolcüde denetle ve bakım sorunlarını Bakım Kapağında onar.
 
 > [!WARNING]
-> Enerji Kapaklarını, jeneratörleri ve Batarya Tamponlarını yağmurdan koru. Egzoz Çıkışının menfezinin önünde en az bir hava bloğu bırak ve çatıyı daha yukarıya inşa et. Yukarı bakan bir Egzoz Çıkışının doğrudan üzerine çatı koyma veya menfezini kablolar ya da borularla kapatma.
+> Enerji Kapaklarını, jeneratörleri ve Pil Tamponlarını yağmurdan koru. Egzoz Çıkışının menfezinin önünde en az bir hava bloğu bırak ve çatıyı daha yukarıya inşa et. Yukarı bakan bir Egzoz Çıkışının doğrudan üzerine çatı koyma veya menfezini kablolar ya da borularla kapatma.
 
 Eski rehberler, egzoz gazlarını geri kazanmak için üst halkada gaz Çıkış Kapakları gerektirebilir. Bu özel egzoz geri kazanım sistemi güncel sürümde kaldırıldı. Bir tarif sıvı üretiyorsa NEI'de gösterilen çıktılar için Çıkış Kapakları sağla; alt katmandaki Çıkış Kapakları da gaz alabilir. Üst halka, Çıkış Kapakları için geçerli bir konum olmaya devam eder.
 
@@ -184,7 +184,7 @@ Dört <ItemLink id="gregtech:gt.blockmachines:1120" showIcon="left" />, her biri
 
 Türbinlerin ve Enerji Kapaklarının üzerine çatı eklerken Egzoz Çıkışı menfezini açık tut. Animasyondaki oklar bağlantı yönlerini gösterir; gerçek güç yine de kablolara, jeneratörlere ve istikrarlı bir yakıt ve buhar beslemesine bağlıdır.
 
-### Seçenek 2: EYF'in Yanında Bir Batarya Tamponu
+### Seçenek 2: EYF'in Yanında Bir Pil Tamponu
 
 EYF'in yanına bir <ItemLink id="gregtech:gt.blockmachines:171" showIcon="left" /> koyabilir, dört kullanılabilir LV pil takabilir ve iki Enerji Kapağını kısa kablolarla bağlayabilirsin. Tamponun maksimum çıkış amperajı kullanılabilir pil sayısına bağlıdır: **yalnızca tek pili olan dört yuvalı bir tampon 4 A çıkış veremez**.
 
@@ -193,7 +193,7 @@ EYF'in yanına bir <ItemLink id="gregtech:gt.blockmachines:171" showIcon="left" 
   <ImportPonder src="/assets/ponders/ebf_power_buffer.json" />
 </GameScene>
 
-Bu örnek sekiz LV Buhar Türbini kullanır ve başka LV makinelerini de besler. Jeneratör sayısını gerçek yüküne göre ayarla. EYF'in 120 EU/t'sinin yanında kablo kayıplarını, Batarya Tamponuyla ilgili kayıpları ve diğer makineleri de hesaba kat.
+Bu örnek sekiz LV Buhar Türbini kullanır ve başka LV makinelerini de besler. Jeneratör sayısını gerçek yüküne göre ayarla. EYF'in 120 EU/t'sinin yanında kablo kayıplarını, Pil Tamponuyla ilgili kayıpları ve diğer makineleri de hesaba kat.
 
 Tamponun çıkış yüzünü EYF dalına yönelt ve jeneratörleri diğer geçerli giriş yüzlerine bağla. Çıkış gövdesi en az 4 A LV kapasite, her Enerji Kapağı dalı da en az 2 A gerektirir. Jeneratör tarafındaki kabloları da üzerlerinden geçebilecek birleşik akıma göre boyutlandır.
 
@@ -271,7 +271,7 @@ Bir Vakum Dondurucu edinmeden önce normal külçe üreten ve sonraki işlemesi 
 | Yetersiz gerilim veya güç | Erken bir yapıda iki LV Enerji Kapağı veya yükseltilmiş tarifler için uygun kapaklar olup olmadığını kontrol et; Giriş Yolu kademesi makine gerilimini belirlemez |
 | Makine başladıktan hemen sonra duruyor | Üretimi, kablo kapasitesini ve kaybını ve kapaklara sürekli güç gidip gitmediğini kontrol et; test etmek için pahalı malzemeleri tekrar tekrar koyma |
 | Makine kısa süre çalışıp sonra güç kaybediyor | Pil ve kapak tamponlarının sürekli düşüp düşmediğini izle; kazan buhar çıkışını, boru dağıtımını, diğer yükleri ve bakımı kontrol et |
-| Dört yuvalı bir Batarya Tamponu yetersiz güç veriyor | Dört kullanılabilir ve şarjlı LV pil, doğru çıkış yüzü ve yeterli ortalama üretim olup olmadığını kontrol et |
+| Dört yuvalı bir Pil Tamponu yetersiz güç veriyor | Dört kullanılabilir ve şarjlı LV pil, doğru çıkış yüzü ve yeterli ortalama üretim olup olmadığını kontrol et |
 | Yetersiz çıkış alanı | Uygun Çıkış Yollarının ve Çıkış Kapaklarının var olduğunu, dolu olmadığını ve tarif çıktısının tamamını alabildiğini kontrol et |
 | Kirlilik dışarı atılamıyor | Egzoz Çıkışının havaya menfez açtığını ve gelişmiş bir Egzoz Çıkışının gereken Hava Filtresine sahip olduğunu kontrol et |
 | Kablolar yanıyor veya Enerji Kapakları patlıyor | Kablo gerilim ve amperaj sınırlarını, Enerji Kapaklarındaki aşırı gerilimi ve yağmura maruz kalmayı kontrol et |

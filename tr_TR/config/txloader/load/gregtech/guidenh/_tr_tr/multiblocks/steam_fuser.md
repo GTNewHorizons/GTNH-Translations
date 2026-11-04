@@ -83,7 +83,7 @@ Alaşım tarifleri doğrudan alaşım külçeleri üretir; önce alaşım tozu k
 
 ### Girdi Oranları ve Bronz Üretimi
 
-Yaygın bir Bronz tarifi **üç Bakır Külçesi ve bir Kalay Külçesi kullanarak dört Bronz Külçesi üretir**. İlgili tozları veya külçe ve toz karışımını kullanan tarifler de vardır. Girdi biçimlerini NEI'ye göre seç; külçe miktarlarıyla Minik Toz Yığınlarını, Küçük Toz Yığınlarını veya metal kırıntılarını ikame etme.
+Yaygın bir Bronz tarifi **üç Bakır Parçası ve bir Kalay Parçası kullanarak dört Bronz Parçası üretir**. İlgili tozları veya külçe ve toz karışımını kullanan tarifler de vardır. Girdi biçimlerini NEI'ye göre seç; külçe miktarlarıyla Minik Toz Yığınlarını, Küçük Toz Yığınlarını veya metal kırıntılarını ikame etme.
 
 Tüm alaşımlar aynı girdi oranını kullanmaz. Örneğin Kırmızı Alaşım Bakır ve Kızıltaş kullanırken Lehim Alaşımı Kalay ve Antimon kullanır. Materyal değiştirdiğinde Bronz oranını yeniden kullanmak yerine NEI'ye tekrar bak.
 
@@ -107,7 +107,7 @@ Tek bir parçanın sürekli üretimi için kalıba bir girdi yuvası ayır ve ak
 
 Buhar Kaynaştırıcı aynı anda **aynı tarifin** en fazla sekiz kopyasını işleyebilir. Bu, tek döngüde sekiz farklı alaşım tarifi çalıştırabileceği ya da bir döngünün yalnızca sekiz eşya tükettiği anlamına gelmez. Gerçek paralel sayısı ayrıca her girdinin miktarına, çıktı alanına ve arayüzde ayarlanan paralel sınırına bağlıdır.
 
-Temel yapı NEI'de gösterilen tarif süresinin yaklaşık 1,6 katını, yüksek basınç yapısı ise yaklaşık 0,8 katını alır. Örneğin on saniye gösterilen bir Bronz tarifi temel yapıda yaklaşık 16 saniye, yüksek basınçta sekiz saniye sürer. Sekiz paralelle bu döngü 32 Bronz Külçesi üretir; süresi tekrar sekize bölünmez.
+Temel yapı NEI'de gösterilen tarif süresinin yaklaşık 1,6 katını, yüksek basınç yapısı ise yaklaşık 0,8 katını alır. Örneğin on saniye gösterilen bir Bronz tarifi temel yapıda yaklaşık 16 saniye, yüksek basınçta sekiz saniye sürer. Sekiz paralelle bu döngü 32 Bronz Parçası üretir; süresi tekrar sekize bölünmez.
 
 | Özellik | Temel yapı | Yüksek basınç yapısı |
 | --- | --- | --- |

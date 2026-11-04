@@ -12,7 +12,7 @@ date: 2026-05-27
 ---
 
 # Renk Uygulayıcı Arayüzü
-P2P tünellerini renk kodlamaya çalışırken hedef rengini üst üste üç kez shift-scroll ile geçmekten bıktın mı? Ya da güç hattında kullandığın yeşil ya da gri tonunu mu unuttun?
+P2P tünellerini renk kodlamaya çalışırken hedef rengini üst üste üç kez shift-scroll ile geçmekten bıktın mı? Ya da güç hattında kullandığın gri tonunu mu unuttun?
 
 <Color id="GREEN">AE2 Renk Uygulayıcı</Color><ItemImage id="appliedenergistics2:item.ToolColorApplicator"/> artık yeni bir arayüz yükseltmesine sahip!
 
