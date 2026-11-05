@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Basic Automation
+  title: Базовая автоматизация
   parent: crops.md
   icon: gregtech:gt.blockmachines:28001
 categories:
@@ -9,8 +9,8 @@ author: Skorched
 date: 2026-05-24
 ---
 
-# Basic Automation
-This page is less about crop specifics, and more about how crops can be automated for constant outputs!
+# Базовая автоматизация
+Эта страница посвящена не столько особенностям культур, сколько тому, как культуры можно автоматизировать для постоянного получения урожая!
 
 
 <GameScene width="420" height="280" zoom={2.5} interactive={true}>
@@ -18,4 +18,4 @@ This page is less about crop specifics, and more about how crops can be automate
   <ImportPonder src="../assets/crops/auto.json" />
 </GameScene>
 
-If you're lost on how to gather infinite water sources, there are many options depending on your progression! Try searching through some of your favourite methods, from <Color id="RED">Thaumcraft</Color> to <Color id="GREEN">GregTech Multis</Color>!
+Если вы не знаете, как получать бесконечные источники воды, существует много вариантов в зависимости от вашего прогресса! Попробуйте поискать среди ваших любимых способов: от <Color id="RED">Thaumcraft</Color> до <Color id="GREEN">мультиблоков GregTech</Color>!
