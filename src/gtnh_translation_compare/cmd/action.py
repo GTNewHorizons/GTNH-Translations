@@ -8,7 +8,7 @@ import re
 import subprocess
 from typing import Sequence, TypeAlias, Callable, Optional, Dict
 
-from gtnh_translation_compare.utils.github_action import set_output
+from gtnh_translation_compare.utils.github_action import set_output, write_summary
 import httpx
 from dulwich import porcelain
 from loguru import logger
@@ -63,6 +63,29 @@ def _paratranz_name_key(name: str) -> str:
     """Name reduced to what a rename usually keeps: case, dashes, underscores and the duplicate
     suffix ParaTranz once appended (Angelica(+3) became Angelica) all drop out."""
     return DUPLICATE_NAME_SUFFIX_RE.sub("", name).lower().replace("-", "").replace("_", "")
+
+
+ORPHAN_GROUPS = (
+    "Successor exists, no translations: safe to delete",
+    "Successor exists, has translations: move them to the successor first",
+    "No successor, no translations: safe to delete",
+    "No successor, has translations: delete only on purpose",
+)
+
+
+def _orphan_summary(orphans: list[tuple[str, int, Optional[str]]]) -> str:
+    """Markdown tables of (name, translated strings, successor) rows, one per ORPHAN_GROUPS entry."""
+    groups: Dict[str, list[tuple[str, int, Optional[str]]]] = {title: [] for title in ORPHAN_GROUPS}
+    for name, translated, successor in sorted(orphans, key=lambda row: row[0]):
+        groups[ORPHAN_GROUPS[(0 if successor else 2) + (1 if translated else 0)]].append((name, translated, successor))
+    lines = [f"## Orphaned ParaTranz files: {len(orphans)}", ""]
+    for title, rows in groups.items():
+        if not rows:
+            continue
+        lines += [f"### {title} ({len(rows)})", "", "| File | Translated | Successor |", "|---|---|---|"]
+        lines += [f"| `{name}` | {translated} | {f'`{successor}`' if successor else ''} |" for name, translated, successor in rows]
+        lines.append("")
+    return "\n".join(lines) + "\n"
 
 
 def _github_actions_escape(message: str) -> str:
@@ -573,9 +596,11 @@ class Action:
         orphans = [f for f in await self.client.get_all_files() if f.name not in expected]
         if not orphans:
             logger.info("No orphaned files: every ParaTranz file matches the current daily history")
+            write_summary("## Orphaned ParaTranz files: 0\n")
             return
 
         logger.info("Orphaned ParaTranz files: {}", len(orphans))
+        rows = []
         for orphan in sorted(orphans, key=lambda f: f.name):
             successor = expected_by_key.get(_paratranz_name_key(orphan.name))
             translated = [s for s in await self.client.get_strings(orphan.id) if s.translation]
@@ -585,6 +610,8 @@ class Action:
                 len(translated),
                 successor or "<none>",
             )
+            rows.append((orphan.name, len(translated), successor))
+        write_summary(_orphan_summary(rows))
 
     def reconcile_case_variants(
             self,

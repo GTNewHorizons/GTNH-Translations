@@ -3,6 +3,7 @@ from pathlib import Path
 from gtnh_translation_compare.cmd.action import (
     _guidenh_page_to_txloader_path,
     _make_lang_or_markdown_filetype,
+    _orphan_summary,
     _paratranz_name_key,
 )
 from gtnh_translation_compare.filetypes import FiletypeGuideNhPage, FiletypeLang, FiletypeMarkdownTooltip
@@ -48,3 +49,27 @@ def test_paratranz_name_key_ignores_renames_that_kept_the_file() -> None:
     assert _paratranz_name_key("resources/Angelica[angelica]/lang/ru_RU.lang.json") != _paratranz_name_key(
         "resources/Avaritia[avaritia]/lang/ru_RU.lang.json"
     )
+
+
+def test_orphan_summary_groups_by_successor_and_translations() -> None:
+    # The groups decide what a maintainer may delete, so an orphan with translations must never
+    # land in a "safe to delete" table.
+    summary = _orphan_summary([
+        ("b.md.json", 0, "b_new.md.json"),
+        ("a.md.json", 2, "a_new.md.json"),
+        ("c.md.json", 0, None),
+        ("d.md.json", 1, None),
+    ])
+    sections = summary.split("### ")[1:]
+    assert summary.startswith("## Orphaned ParaTranz files: 4")
+    assert [s.split(" (")[0] for s in sections] == [
+        "Successor exists, no translations: safe to delete",
+        "Successor exists, has translations: move them to the successor first",
+        "No successor, no translations: safe to delete",
+        "No successor, has translations: delete only on purpose",
+    ]
+    assert "`b.md.json` | 0 | `b_new.md.json`" in sections[0]
+    assert "`a.md.json` | 2 | `a_new.md.json`" in sections[1]
+    assert "`c.md.json` | 0 |  |" in sections[2]
+    assert "`d.md.json` | 1 |  |" in sections[3]
+    assert "### " not in _orphan_summary([("c.md.json", 0, None)]).split("safe to delete")[1]
