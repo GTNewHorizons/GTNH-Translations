@@ -9,29 +9,29 @@ navigation:
   icon: gregtech:gt.blockmachines:31083
   position: -501
 ---
-# Steam Presser
+# 大型蒸汽锻造锤
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31083" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" /> is a multiblock Forge Hammer available in the Steam age. It uses steam to process ores and materials in batches, replacing a singleblock Steam Forge Hammer for tasks such as making plates and Long Rods. It can process up to eight copies of the same recipe at once.
+<ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" /> 是蒸汽时代可用的多方块锻造锤。它使用蒸汽批量加工矿石和材料，可替代单方块蒸汽锻造锤来制作板材、长杆等物品。它最多可同时处理八份相同配方。
 
-The machine has basic bronze and high pressure steel structures that share the same controller. Upgrading to the high pressure structure increases throughput, but does not raise the maximum recipe tier.
+该机器有基础青铜结构和高压钢结构，两者共用同一控制器。升级为高压结构可提高吞吐量，但不会提升配方最高等级。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires Cast Iron Plates, an Anvil, a Tumbaga Frame Box, and other materials |
-| Dimensions | 5×5 footprint, seven blocks tall; controller at the front center of the second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Recipe range | Forge Hammer recipes at LV or below, requiring no more than 32 EU/t |
-| Parallels | Up to eight copies of the same recipe; the high pressure structure does not raise this limit |
-| Processing bonuses | The basic structure runs at 125% of a singleblock bronze Steam Forge Hammer's speed and 62.5% of its steam consumption rate per parallel |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| 解锁阶段 | 蒸汽时代；控制器配方需要铸铁板、铁砧、铜金合金框架及其他材料 |
+| 尺寸 | 占地 5×5，高七格；控制器位于第二层前方中央 |
+| 电力 | 恰好一个蒸汽仓；不需要能源仓 |
+| 配方范围 | LV 或以下、耗电不超过 32 EU/t 的锻造锤配方 |
+| 并行数 | 最多同时处理八份相同配方；高压结构不会提高此上限 |
+| 加工加成 | 基础结构的速度是单方块青铜蒸汽锻造锤的 125%，每个并行的蒸汽消耗速率为其 62.5% |
+| 升级与超频 | 高压结构将速度和蒸汽消耗速率加倍；不进行电压超频 |
+| 维护与污染 | 无需维护，不产生污染，也不需要消声仓 |
 
-## Crafting and Construction
+## 合成与建造
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+下方展示了控制器、基础外壳和蒸汽仓的当前配方。点击表格中的物品可查看其他部件的配方。
 
 <RecipesFor id="gregtech:gt.blockmachines:31083" />
 
@@ -39,139 +39,139 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### 结构材料
 
-The following quantities assume one Steam Hatch, one Input Bus, and one Output Bus. The basic structure uses Bronze Plated Bricks, Bronze Pipe Casings, and Iron Blocks, while the high pressure structure uses their steel counterparts. **All three types of structure component must be of the same tier.**
+以下数量按一个蒸汽仓、一个输入总线和一个输出总线计算。基础结构使用镀铜砖块、青铜管道方块和铁块；高压结构则使用对应钢制部件。**三类结构部件都必须为同一等级。**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| 部件 | 基础结构 | 高压结构 | 数量与位置 |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 39 in the basic setup; may be replaced with hatches or buses, but at least 35 actual casings must remain |
-| Pipe Casing | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | Two, at the center of the sixth and seventh layers |
-| Metal block | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmetal6:13" showIcon="left" /> | Two, at the center of the fourth and fifth layers |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" /> | Same controller | One, at the front center of the second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Fluid Input Hatch | For example, <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Same hatch | Optional, replacing a casing; supplies recipe fluids, such as acids used to process mineral crop products |
+| 外壳 | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 基础配置为 39 个；可由仓或总线替换，但实际外壳至少保留 35 个 |
+| 管道方块 | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | 两个，分别位于第六层和第七层中央 |
+| 金属方块 | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmetal6:13" showIcon="left" /> | 两个，分别位于第四层和第五层中央 |
+| 控制器 | <ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" /> | 同一控制器 | 一个，位于第二层前方中央 |
+| 蒸汽仓 | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | 同一仓 | 恰好一个，替换一个外壳 |
+| 输入总线 | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | 同一总线 | 至少一个，替换外壳 |
+| 输出总线 | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | 同一总线 | 至少一个，替换外壳 |
+| 流体输入仓 | 例如 <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | 同一仓 | 可选，替换一个外壳；供应配方流体，例如用于加工矿物作物产物的酸 |
 
-There are 42 positions for casings or hatches. Installing the three required interfaces leaves 39 casings; adding one Fluid Input Hatch leaves 38. At least 35 actual casings must remain when adding hatches or buses. Hatches and buses cannot replace Pipe Casings or metal blocks.
+共有 42 个可放外壳或仓的位置。安装三个必需接口后还剩 39 个外壳；增加一个流体输入仓后剩 38 个。添加仓或总线时，实际外壳至少要保留 35 个。仓和总线不能替代管道方块或金属方块。
 
-### Building by Layer
+### 逐层建造
 
-Count layers upward from the base. Choose the controller facing first, then follow the interactive structure or hologram layer by layer. **The front of the base extends one block ahead of the controller**, so do not place the controller on the frontmost edge of the base.
+从底座开始向上数层。先选择控制器朝向，再按交互式结构或全息投影逐层建造。**底座正面比控制器向前多延伸一格**，因此不要把控制器放在底座最前沿。
 
-| Layer | What to place |
+| 层 | 放置内容 |
 | --- | --- |
-| First | A 5×5 base with the four corners omitted, giving 21 casing positions |
-| Second | The controller and the nine surrounding casing positions shown in the hologram |
-| Third | One casing position on each side to start the left and right pillars |
-| Fourth and fifth | Continue both pillars and place one Iron Block at the center of each layer; use Steel Blocks for the high pressure structure |
-| Sixth | Six casing positions as shown in the hologram, with the first Pipe Casing at the center |
-| Seventh | The second Pipe Casing directly above the first |
+| 第一层 | 5×5 底座，省略四角，共 21 个外壳位置 |
+| 第二层 | 按全息投影所示放置控制器及周围九个外壳位置 |
+| 第三层 | 每侧各有一个外壳位置，用于开始搭建左右立柱 |
+| 第四和第五层 | 继续搭建两根立柱，并在每层中央放置一个铁块；高压结构使用钢块 |
+| 第六层 | 按全息投影放置六个外壳位置，并在中央放置第一个管道方块 |
+| 第七层 | 在第一个管道方块正上方放置第二个 |
 
-Empty positions in the preview do not need to be filled with casings. Place the Steam Hatch and steam Input and Output Buses in lower casing positions for convenient pipe connections. Ordinary electric machine item buses cannot replace the steam versions.
+预览中的空位无需填入机械方块。将蒸汽仓、蒸汽输入总线和蒸汽输出总线放在下部便于连接管道的机械方块位置。普通电力机器的物品总线不能替代蒸汽版本。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 预览结构并辅助建造。主信道等级 1 选择基础结构，等级 2 选择高压结构。辅助建造完成后安装仓，并检查结构。
 
-## Machine Uses
+## 机器用途
 
-The Steam Presser uses the Forge Hammer recipe map. When checking NEI, first confirm that the item has a Forge Hammer recipe, then check its tier, input quantity, and outputs.
+大型蒸汽锻造锤使用锻造锤配方类型。查看 NEI 时，先确认物品有锻造锤配方，再检查等级、输入数量和产物。
 
-| Use | Common recipes and considerations |
+| 用途 | 常见配方与注意事项 |
 | --- | --- |
-| Making metal plates | Many early metals use three ingots to make two plates; parallels increase the number of recipes processed at once without changing the material ratio |
-| Making Long Rods | Eligible materials use two Rods to make one Long Rod; check NEI for the material and recipe tier |
-| Crushing ores | Processes ores with matching recipes into Crushed Ore or gems; outputs vary by ore rather than always producing the same kind of intermediate item |
-| Finishing ore processing | Processes eligible Centrifuged Ore into dust; the macerator route may provide additional byproducts, so compare the complete output lists in NEI first |
-| Processing mineral crops | Uses a Fluid Input Hatch to process CropsNH harvest products with Forge Hammer recipes at LV or below, producing Purified Crushed Ore or Impure Dust |
+| 制作金属板 | 许多早期金属配方用三枚锭制作两块板；并行数只增加同时处理的配方数，不会改变材料比例 |
+| 制作长杆 | 符合条件的材料可用两根杆制作一根长杆；材料和配方等级请查看 NEI |
+| 粉碎矿石 | 通过对应配方将矿石加工为粉碎矿石或宝石；不同矿石产物各异，不一定总是同一种中间产物 |
+| 完成矿石加工 | 将符合条件的离心矿石加工成粉；磨粉机路线可能提供额外副产物，因此请先在 NEI 中比较完整产物列表 |
+| 加工矿物作物 | 使用流体输入仓，以 LV 或以下的锻造锤配方加工 CropsNH 收获物，产出洗净的矿石或含杂粉 |
 
-The machine only performs the Forge Hammer step. It does not automatically wash, centrifuge, or smelt the outputs. Route items according to their actual products when building an ore processing line, so intermediates that need further processing are not sent straight to a furnace.
+该机器只执行锻造锤步骤，不会自动洗矿、离心或熔炼产物。规划矿石加工生产线时，应根据实际产物安排物品路由，避免将需要进一步加工的中间产物直接送入熔炉。
 
 > [!NOTE]
-> The machine's unlock tier and its maximum recipe tier are separate limits. It always runs on steam. Upgrading to the high pressure steel structure does not enable MV or higher-tier Forge Hammer recipes.
+> 机器解锁阶段和配方最高等级是两个不同限制。它始终使用蒸汽运行。升级为高压钢结构不会启用 MV 或更高等级的锻造锤配方。
 
-### Mineral Crop Products
+### 矿物作物产物
 
-Installing a Fluid Input Hatch allows the machine to process CropsNH mineral crop harvests. For example, Coppon Fiber, Tine Twig, and Ferrofern Leaf have LV Forge Hammer recipes that require Sulfuric Acid, providing a continuous source of their corresponding minerals. Other crops may require different fluids or recipe tiers; check each recipe in NEI.
+安装流体输入仓后，机器可加工 CropsNH 矿物作物收获物。例如，铜纤维、锡芽和铁齿叶都有需要硫酸的 LV 锻造锤配方，可持续生产对应矿物。其他作物可能需要不同流体或配方等级；请在 NEI 中逐项检查。
 
-These common recipes use a Programmed Circuit to select the output: configuration 1 produces Purified Crushed Ore, while configuration 2 produces Impure Dust. Send the harvest products to a steam Input Bus, set the circuit as shown in NEI, and supply enough recipe fluid through an ordinary Fluid Input Hatch.
+这些常见配方使用编程电路选择产物：配置 1 产出洗净的矿石，配置 2 产出含杂粉。将收获物送入蒸汽输入总线，按 NEI 设置电路，并通过普通流体输入仓供应足量配方流体。
 
-Steam still enters through the Steam Hatch to power the machine. Acids and other recipe fluids enter through a separate Fluid Input Hatch. Both hatches are needed; an Input Hatch cannot replace the Steam Hatch. Crop and recipe fluid requirements increase with the number of parallels.
+蒸汽仍通过蒸汽仓进入，为机器供能。酸及其他配方流体通过单独的流体输入仓进入。两个仓都需要；输入仓不能替代蒸汽仓。作物和配方流体的需求量会随并行数增加。
 
-### First Startup
+### 首次启动
 
-1. Check the structure and confirm that the Steam Hatch, steam Input Bus, and steam Output Bus are installed.
-2. Connect the steam pipe to the Steam Hatch and confirm that steam actually enters it.
-3. Leave space in the Output Bus and insert a small amount of material, enough for at least one recipe. Also supply any required fluids and circuit configuration.
-4. Start the machine and observe the output route and steam buffer.
-5. Increase input quantities and parallels after confirming a continuous steam supply.
+1. 检查结构，并确认已安装蒸汽仓、蒸汽输入总线和蒸汽输出总线。
+2. 将蒸汽管道接到蒸汽仓，并确认蒸汽确实进入其中。
+3. 为输出总线留出空间，并投入少量材料，至少足以运行一份配方。还要提供所需流体和电路配置。
+4. 启动机器并观察产物路由和蒸汽缓冲。
+5. 确认蒸汽持续供应后，再增加输入量和并行数。
 
-## Steam Supply and Throughput
+## 蒸汽供应与吞吐量
 
-The Steam Presser can process up to eight copies of **the same recipe** at once. This does not mean it can process eight different items in one cycle. Actual parallels also depend on input quantities, output space, and the parallel limit set in the GUI.
+大型蒸汽锻造锤最多可同时处理八份**相同配方**。这不代表它能在一轮中处理八种不同物品。实际并行数还取决于输入数量、输出空间以及 GUI 中设置的并行上限。
 
-For example, if one plate recipe uses three ingots to make two plates, eight parallels require 24 ingots and produce 16 plates in one cycle. Inserting only eight ingots is not enough for eight parallels.
+例如，某板材配方用三枚锭制作两块板，八并行需要 24 枚锭，并在一轮中产出 16 块板。只放入八枚锭无法达到八并行。
 
-The basic structure runs at 125% of a singleblock bronze Steam Forge Hammer's speed, taking roughly 80% as long. Its steam consumption rate per parallel is 62.5% of the singleblock machine's rate. Combining both bonuses gives roughly 50% of the total steam consumption for the same amount of material. However, running more parallels still increases the whole machine's instantaneous steam demand.
+基础结构的速度是单方块青铜蒸汽锻造锤的 125%，耗时约为其 80%。每个并行的蒸汽消耗速率为单方块机器的 62.5%。两种加成合并后，同一数量材料的蒸汽总消耗约为 50%。但增加并行数仍会提高整台机器的即时蒸汽需求。
 
-| Property | Basic structure | High pressure structure |
+| 属性 | 基础结构 | 高压结构 |
 | --- | --- | --- |
-| Accepted recipe tiers | LV and below | LV and below |
-| Maximum parallels | 8 | 8 |
-| Speed relative to the basic structure | 1× | 2× |
-| Steam consumption rate for the same recipe and parallel count | 1× | 2× |
-| Total steam consumption per recipe | Baseline | Approximately the same as the basic structure |
+| 可运行配方等级 | LV 及以下 | LV 及以下 |
+| 最大并行数 | 8 | 8 |
+| 相对于基础结构的速度 | 1 倍 | 2 倍 |
+| 相同配方及并行数下的蒸汽消耗速率 | 1 倍 | 2 倍 |
+| 每份配方的总蒸汽消耗量 | 基准 | 与基础结构大致相同 |
 
-The high pressure upgrade increases speed and steam consumption rate together. It mainly improves throughput, without halving the total steam cost per item again. Actual duration and steam consumption are also affected by tick and integer rounding.
+高压升级会同时提高速度和蒸汽消耗速率，主要改善吞吐量，不会再将每件物品的蒸汽总成本减半。实际时间和蒸汽消耗还会受到游戏刻和整数取整影响。
 
-The Steam Hatch buffers 64,000 L of steam, but this only covers temporary shortfalls and cannot replace continuous boiler production. Size boilers and pipes for the **steam consumption rate while processing**.
+蒸汽仓可储存 64,000 L 蒸汽，但这只能应对暂时短缺，无法替代锅炉持续产汽。锅炉和管道应按**加工期间的蒸汽消耗速率**配置。
 
-Use Waila to check the operating steam consumption rate and watch whether the buffer keeps falling during continuous processing. If a value is shown in L/t, multiply by 20 to get L/s at the normal 20 TPS. Use matching units when comparing pipe throughput. If steam supply is insufficient, lower the parallel limit in the GUI, then increase boiler production or improve the piping.
+使用 Waila 查看运行时的蒸汽消耗速率，并观察持续加工时缓冲量是否不断下降。如果显示单位为 L/t，在正常 20 TPS 下乘以 20 即为 L/s。比较管道吞吐量时请使用相同单位。蒸汽供应不足时，先在 GUI 中降低并行上限，再提高锅炉产量或改进管道。
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation, and materials already consumed are not returned. Check steam production and pipe throughput before upgrading to high pressure or increasing the parallel limit.
+> 加工期间蒸汽耗尽会中止当前操作，已消耗的材料不会返还。升级高压结构或提高并行上限前，请检查蒸汽产量和管道吞吐量。
 
-## Upgrading to High Pressure
+## 升级为高压结构
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31083" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. Replace **all** Bronze Plated Bricks, Bronze Pipe Casings, and Iron Blocks with the Solid Steel Machine Casings, Steel Pipe Casings, and Steel Blocks listed in the table. Replacing only the casings, or leaving even one Iron Block, fails the tier check.
+高压结构保持相同尺寸、仓位和控制器。将**所有**镀铜砖块、青铜管道方块和铁块替换为表中所列的脱氧钢机械方块、钢管道方块和钢块。只替换外壳或留下一块铁块，都会导致等级检查失败。
 
-Stop processing and material input before upgrading. After replacing the components, check the structure again and confirm the machine displays the high pressure tier before restoring steam and production.
+升级前请停止加工和材料输入。替换部件后重新检查结构，并确认机器显示为高压等级，再恢复蒸汽和生产。
 
-High pressure is a structure tier, not a separate steam fluid. The machine still uses ordinary steam, and the existing Steam Hatch and steam buses can be reused. No Energy Hatch is needed. The upgrade doubles speed and steam consumption rate, but the maximum remains eight parallels and the recipe tier limit remains LV.
+高压是结构等级，不是另一种蒸汽流体。机器仍使用普通蒸汽，现有蒸汽仓和蒸汽总线均可保留。无需能源仓。升级会使速度和蒸汽消耗速率加倍，但最大并行数仍为八，配方等级上限仍为 LV。
 
-## Automation and Item Routing
+## 自动化与物品路由
 
-Steam Input and Output Buses each have four item slots. They do not automatically pull from adjacent chests or push products into them; placing a chest next to a bus is not enough for automation.
+蒸汽输入总线和输出总线各有四个物品槽。它们不会自动从相邻箱子抽取物品，也不会将产物推入箱子；仅将箱子放在总线旁不足以实现自动化。
 
-- **Input:** Use hoppers, GT item pipes, conveyors, or item conduits to send items into the front face of the Input Bus.
-- **Output:** Actively extract from the front face of the Output Bus with pipes, conduits, or conveyors, then route products to storage or the next machine.
-- **Steam:** Connect fluid pipes from the boiler to the Steam Hatch. Item buses cannot receive steam.
-- **Recipe fluids:** When processing mineral crops or other recipes with fluid inputs, connect a separate fluid pipe to an ordinary Input Hatch to supply the acids or other fluids required by NEI.
-- **Routing:** Set input filters for plate production, Long Rod production, and ore processing as needed, so different materials do not fill all four input slots. Route mineral products to later machines according to their actual item types.
+- **输入：**使用漏斗、GT 物品管道、传送带或物品导管，将物品送入输入总线正面。
+- **输出：**用管道、导管或传送带从输出总线正面主动提取，再将产物送往存储处或下一台机器。
+- **蒸汽：**用流体管道将锅炉接至蒸汽仓。物品总线无法接收蒸汽。
+- **配方流体：**加工矿物作物或其他需要流体输入的配方时，将单独的流体管道接到普通输入仓，供应 NEI 要求的酸或其他流体。
+- **路由：**按需为板材、长杆和矿石加工设置输入过滤器，避免不同材料占满四个输入槽。按实际物品类型将矿物产物送往后续机器。
 
-Additional Input Buses expand item buffering, while additional Output Buses help prevent output congestion. Neither raises the eight-parallel limit. Keep at least 35 actual casings when adding Fluid Input Hatches or buses, and do not install a second Steam Hatch.
+增加输入总线可扩大物品缓冲，增加输出总线有助于避免产物拥堵，但都不会提高八并行上限。添加流体输入仓或总线时，实际外壳至少保留 35 个，且不能安装第二个蒸汽仓。
 
-## Troubleshooting
+## 故障排除
 
-| Symptom | What to check |
+| 症状 | 检查事项 |
 | --- | --- |
-| Incomplete structure | Is the footprint 5×5 and the height seven blocks? Is the controller on the second layer, one block behind the frontmost edge of the base? Are the two upper Pipe Casings and two central metal blocks correctly positioned? |
-| Structure tier mismatch | Are the casings, Pipe Casings, and metal blocks all of the same tier? Are any Iron Blocks or bronze components left after upgrading? |
-| Missing Steam Hatch or buses | Is there exactly one Steam Hatch and at least one steam Input Bus and Output Bus? Were ordinary electric machine item buses used by mistake? |
-| Structure fails after adding buses | Are at least 35 actual casings left? Were any Pipe Casings or metal blocks replaced with buses? |
-| Inputs present but no recipe found | Does the item have a Forge Hammer recipe? Are there enough inputs for one recipe? Are the required fluids and circuit configuration supplied? Is there enough output space? |
-| Mineral crop products do not process | Is an ordinary Fluid Input Hatch installed and supplied with the required acid or other fluid? Is the circuit configuration correct? Is the recipe at LV or below? |
-| Recipe tier too high | Does the recipe shown in NEI exceed LV? The high pressure structure also cannot process MV or higher-tier recipes. |
-| Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
-| Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
-| Fewer than eight recipes processed at once | Are there enough materials for copies of the same recipe? Is the parallel limit set lower? Can the output slots hold all products? |
+| 结构不完整 | 占地是否为 5×5、高七格？控制器是否位于第二层，且在底座最前沿后方一格？上方两个管道方块和两个中央金属方块是否放置正确？ |
+| 结构等级不一致 | 外壳、管道方块和金属方块是否全部同等级？升级后是否仍有铁块或青铜部件？ |
+| 缺少蒸汽仓或总线 | 是否恰好有一个蒸汽仓，以及至少一个蒸汽输入总线和输出总线？是否误用了普通电力机器物品总线？ |
+| 添加总线后结构无法成型 | 是否还剩至少 35 个实际外壳？是否有管道方块或金属方块被总线替换？ |
+| 有输入但找不到配方 | 物品是否有锻造锤配方？输入是否足以运行一份配方？是否供应所需流体和电路配置？输出空间是否充足？ |
+| 矿物作物产物无法加工 | 是否安装普通流体输入仓并供应所需酸或其他流体？电路配置是否正确？配方是否为 LV 或以下？ |
+| 配方等级过高 | NEI 显示的配方是否高于 LV？高压结构同样不能加工 MV 或更高等级的配方。 |
+| 蒸汽仓中有蒸汽但机器仍停止 | 持续供应能否跟上消耗？管道是否受限或与其他机器共用蒸汽？当前并行数和高压等级是否超出锅炉产能？ |
+| 总线旁的箱子无法传输物品 | 蒸汽总线不会自动提取或推送物品。请检查主动传输设备、连接面、方向和过滤器。 |
+| 每次处理不足八份配方 | 是否有足够材料运行多份相同配方？并行上限是否设置得更低？输出槽能否容纳全部产物？ |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+一般结构检查和工具使用请参见[多方块机器](./multiblocks_index.md)。
 
-## References
+## 参考资料
 
-- [GTNH Wiki: Steam Presser](https://wiki.gtnewhorizons.com/wiki/Steam_Presser)
+- [GTNH Wiki：大型蒸汽锻造锤](https://wiki.gtnewhorizons.com/wiki/Steam_Presser)

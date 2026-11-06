@@ -25,7 +25,7 @@ navigation:
   </BoxAnnotation>
     
   <BoxAnnotation color="#33dd33" min="4 1 2" max="7 4 4">
-  你可能更想使用其他模组的发电设备，比如反应堆、太阳能板、发电机等等。振动腔勉强可用，但 AE2 的设计初衷是在整合包中使用，由你基地的主发电机供电。
+  你可能更想使用其他模组的发电设备，比如反应堆、太阳能板、发电机等等。谐振仓勉强可用，但 AE2 的设计初衷是在整合包中使用，由你基地的主发电机供电。
   </BoxAnnotation>
 
   <BoxAnnotation color="#33dd33" min="3 1 15" max="8 3 16">

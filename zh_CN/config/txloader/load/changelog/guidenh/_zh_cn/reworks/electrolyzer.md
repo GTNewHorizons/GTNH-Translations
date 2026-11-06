@@ -24,7 +24,7 @@ date: 2026-05-27
 > 与上一版本相比（结构本身除外），唯一的改动是现在每级电压提供4次并行。就这些！
 
 ## 建造
-<Color id="GREEN">工业电解机</Color>没有分级部件。总线/仓可以替换结构中任意位置的电解机机械方块。不支持多A能源仓和激光能源仓，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来预览/搭建结构。
+<Color id="GREEN">工业电解机</Color>没有任意等级部件。总线/仓可以替换结构中任意位置的电解机机械方块。不支持多A能源仓和激光能源仓，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来预览/搭建结构。
 
 ### 需要：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15514" /> <ItemImage id="gregtech:gt.blockmachines:15514" />
@@ -40,8 +40,8 @@ date: 2026-05-27
 - 0+ 输出总线（任意机械方块处） <ItemImage id="gregtech:gt.blockmachines:80" />
 - 0+ 输出仓（任意机械方块处） <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### 共墙
-<Color id="GREEN">工业电解机</Color>的每个侧面都可以与其他机器共墙，以节省机械方块、框架方块和总线/仓。这包括两侧的物品管道方块，但如果不先用扳手潜行右键将其中一台控制器水平翻转，就无法将它们互换。没有任何配方消耗超过1A的电力，因此可以在<u>__两__</u>台机器之间共享<u>__一__</u>个能源仓。
+### 共用墙壁
+<Color id="GREEN">工业电解机</Color>的每个侧面都可以与其他机器共用墙壁，以节省机械方块、框架方块和总线/仓。这包括两侧的物品管道方块，但如果不先用扳手潜行右键将其中一台控制器水平翻转，就无法将它们互换。没有任何配方消耗超过1A的电力，因此可以在<u>__两__</u>台机器之间共享<u>__一__</u>个能源仓。
 
 ## 用途
 <Color id="GREEN">工业电解机</Color>是单方块电解机的直接升级，因为它以<Color id="GREEN">280%</Color>速度运行，只消耗正常所需<Color id="BLUE">90%</Color>的EU/t，并且每级电压提供<Color color="#ed6401">4</Color>次并行，如下表所示。

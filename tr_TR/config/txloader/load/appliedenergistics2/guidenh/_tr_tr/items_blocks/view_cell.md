@@ -13,9 +13,8 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemViewCell" scale="2" />
 
-Görüntüleme Hücreleri, [terminallerde](terminals.md) gösterilen Eşyaları ve Blokları filtreler. Birini bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> içinde biçimlendir ve bir terminale yerleştir; yalnızca eşleşen eşyalar gösterilir. Birden fazla Görüntüleme Hücresi birbirine eklenir.
+Görüntüleme Hücreleri, [terminallerde](terminals.md) gösterilenleri filtreler. Birini bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> içinde biçimlendir ve bir terminale yerleştir; yalnızca eşleşen eşyalar gösterilir. Birden fazla Görüntüleme Hücresi birbirine eklenir.
 
 ## Tarifler
 
 <RecipeFor id="appliedenergistics2:item.ItemViewCell" />
-

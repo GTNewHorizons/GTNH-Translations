@@ -9,28 +9,28 @@ navigation:
   icon: gregtech:gt.blockmachines:3015
   position: -8001
 ---
-# Beam Crafter
+# 束流合成器
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:3015" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" /> is a UV tier multiblock that captures particle beams for crafting recipes.
+<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />是 UV 等级的多方块机器，可捕获粒子束用于合成配方。
 
-If necessary, use the [<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />](./beam_mirror.md), [<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md), and/or the [<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md) to control the flow of particle beams following the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md).
+如有需要，可使用[<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />](./beam_mirror.md)、[<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md)和/或[<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md)，按照[<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md)控制粒子束流动。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | UV |
-| Structure Size (LxWxH) | 11x17x5 |
-| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| 解锁等级 | UV |
+| 结构尺寸（长×宽×高） | 11x17x5 |
+| 电力 | 允许使用任意仓，包括多A仓和激光仓 |
+| 超频 | 无 |
+| 维护 | 无需维护 |
+| 污染 | 不产生污染 |
 
-## Crafting and Construction
+## 合成与建造
 
-### Crafting
+### 合成
 
 <RecipesFor id="gregtech:gt.blockmachines:3015" handlerBlacklist="gt.recipe.scanner" />
 
@@ -40,47 +40,47 @@ If necessary, use the [<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="l
 
 <RecipesFor id="gregtech:gt.blockmachines:10503" handlerBlacklist="gt.recipe.scanner" />
 
-### Structure
+### 结构
 
-The Beam Crafter has no tiered components. The glass can be any tier and has no effect on the operation of the machine.
+束流合成器没有任意等级部件。玻璃可使用任意等级，不会影响机器运行。
 
-The Beam Crafter can be rotated or flipped.
+束流合成器可以旋转或翻转。
 
-<ItemLink id="gregtech:gt.blockmachines:2715" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:2714" showIcon="left" /> are incompatible with the Beam Crafter, so use regular or stocking input buses/hatches.
+<ItemLink id="gregtech:gt.blockmachines:2715" showIcon="left" />和<ItemLink id="gregtech:gt.blockmachines:2714" showIcon="left" />与束流合成器不兼容，因此请使用普通或储备型输入总线/仓。
 
-Multi-Amp and Laser Energy Hatches are supported, but they **do not overclock** the machine.
+支持多A能源仓和激光能源仓，但它们**不会使机器超频**。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 可预览/建造结构，并通过子信道“glass”指定玻璃等级。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" /> | 1, Front center, 1st layer |
+| <ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" /> | 1 个，正面中央，第 1 层 |
 | <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> | 0-225 |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 26 |
+| <ItemImage id="bartworks:BW_TieredGlass" />任意等级玻璃 | 26 个 |
 | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 16 |
-| <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 2, Center of both ends of the structure |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Can replace any <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+, Can replace any <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 0+, Can replace any <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1+, Can replace any <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Output Hatch | 0+, Can replace any <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 2 个，结构两端的中央 |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">可使用普通、多A或激光型</Tooltip> | 1 个以上，可替换任意 <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 1 个以上，可替换任意 <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓 | 0 个以上，可替换任意 <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线 | 1 个以上，可替换任意 <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />输出仓 | 0 个以上，可替换任意 <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> |
 
-### Wallsharing
+### 共用墙壁
 
-Beam Crafters may wallshare each of their sides to save on casings and glass. However, it is not possible to share the beam input hatches due to the restrictions on their locations.
+束流合成器的每一侧都可以与其他机器共用墙壁，以节省机械方块和玻璃。但由于位置限制，束流输入仓无法共用。
 
-## Usage
-The Beam Crafter is the final step in the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) and captures one or more of the output particle beams for recipes. More specifically, it permanently buffers up to 2B of each particle type and only ever consumes them when a recipe requires them.
+## 用途
+束流合成器是[<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md)的最后一步，可捕获一个或多个输出粒子束用于配方。更具体地说，它会永久缓存每种粒子，容量最高为 2B，只有配方需要时才会消耗。
 
-There is no passive decay and it does not matter which beam input hatch the particles enter through. **However, particles are only added to the buffer while the Beam Crafter is actively processing a recipe.**
+粒子不会被动衰减，也不受粒子进入哪个束流输入仓的影响。**但是，只有束流合成器正在处理配方时，粒子才会加入缓存。**
 
-Beam Crafter recipes start immediately upon receiving any valid inputs and only finish when the machine receives enough of the required particles, similar to how the [<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />](./research_station.md) consumes computation. Therefore, the duration of recipes is strictly determined by the rate at which particles are consumed. It could be instantaneous if there are enough particles stored in the buffer, or last forever if the collision energy of the LHC is not high enough to produce the required particles.
+束流合成器接收到任意有效输入后便会立即开始配方，只有在机器接收到足够的所需粒子后才会完成，类似[<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />](./research_station.md)消耗运算资源的方式。因此，配方时长完全取决于粒子消耗速率。如果缓存粒子足够，配方可以瞬间完成；如果 LHC 碰撞能量不足以产生所需粒子，配方则可能永远无法完成。
 
-All available recipes are listed in the following table along with their requirements and the module(s) that can produce both particles on their own. The "None" column refers to using only a [<ItemLink id="gregtech:gt.blockmachines:10506" showIcon="left" />](./source_chamber.md) to produce the required particles - no LHC necessary.
+下表列出所有可用配方、所需物品，以及可独立产生两种粒子的模块。“无”列表示仅使用[<ItemLink id="gregtech:gt.blockmachines:10506" showIcon="left" />](./source_chamber.md)来产生所需粒子，无需 LHC。
 
-| Recipe | Tier | Particle 1 || Particle 2 || Modules |||||
+| 配方 | 等级 | 粒子 1 || 粒子 2 || 模块 |||||
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ^^ | ^^ | Type | Amount | Type | Amount | None | CMS | ATLAS | ALICE | LHCb |
+| ^^ | ^^ | 类型 | 数量 | 类型 | 数量 | 无 | CMS | ATLAS | ALICE | LHCb |
 | <ItemLink id="miscutils:dustNeptunium238" showIcon="left" /> | EV | <ItemLink id="gtnhlanth:particle:12" showIcon="left" /> | 250 | <ItemLink id="gtnhlanth:particle:12" showIcon="left" /> | 250 | &a✓ | &c✗ | &a✓ | &a✓ | &c✗ |
 | <ItemLink id="miscutils:particleBase:24" showIcon="left" />(1) | LuV | <ItemLink id="gtnhlanth:particle:11" showIcon="left" /> | 120 | <ItemLink id="gtnhlanth:particle:5" showIcon="left" /> | 720 | &a✓ | &a✓ | &a✓ | &c✗ | &c✗ |
 | <ItemLink id="miscutils:particleBase:24" showIcon="left" />(64) | ^^ | <ItemLink id="gtnhlanth:particle:11" showIcon="left" /> | 5 | <ItemLink id="gtnhlanth:particle:6" showIcon="left" /> | 3 | &c✗ | &a✓ | &a✓ | &c✗ | &c✗ |
@@ -92,10 +92,10 @@ All available recipes are listed in the following table along with their require
 | <ItemLink id="miscutils:MU-metaitem.01:32105" showIcon="left" /> | UV | <ItemLink id="gtnhlanth:particle:12" showIcon="left" /> | 250 | <ItemLink id="gtnhlanth:particle:12" showIcon="left" /> | 250 | &a✓ | &c✗ | &a✓ | &a✓ | &c✗ |
 | <ItemLink id="gregtech:gt.blockcasings13:11" showIcon="left" /> | ^^ | <ItemLink id="gtnhlanth:particle:5" showIcon="left" /> | 3000 | <ItemLink id="gtnhlanth:particle:5" showIcon="left" /> | 3000 | &a✓ | &a✓ | &a✓ | &c✗ | &c✗ |
 | <ItemLink id="gregtech:gt.metaitem.03:32302" showIcon="left" /> | ^^ | <ItemLink id="gtnhlanth:particle:15" showIcon="left" /> | 20 | <ItemLink id="gtnhlanth:particle:16" showIcon="left" /> | 20 | &c✗ | &c✗ | &a✓ | &a✓ | &c✗ |
-| <ItemLink id="gregtech:gt.blockcasings13:12" showIcon="left">ATLAS Casing</ItemLink> | UHV | <ItemLink id="gtnhlanth:particle:7" showIcon="left" /> | 900 | <ItemLink id="gtnhlanth:particle:7" showIcon="left" /> | 900 | &c✗ | &a✓ | &a✓ | &c✗ | &c✗ |
-| <ItemImage id="bartworks:BioLabParts" nbt='tag:{Name:"Xenoxene Xenoxsis"}' label="right" format='&7Xenoxene Petri Dish' /> | ^^ | <ItemLink id="gtnhlanth:particle:4" showIcon="left" /> | 20 | <ItemLink id="gtnhlanth:particle:4" showIcon="left" /> | 20 | &c✗ | &c✗ | &a✓ | &c✗ | &c✗ |
-| <ItemLink id="gregtech:gt.blockcasings13:13" showIcon="left">ALICE Casing</ItemLink> | UEV | <ItemLink id="gtnhlanth:particle:9" showIcon="left" /> | 450 | <ItemLink id="gtnhlanth:particle:9" showIcon="left" /> | 450 | &c✗ | &c✗ | &a✓ | &c✗ | &c✗ |
-| <ItemLink id="gregtech:gt.blockcasings13:14" showIcon="left">LHCb Casing</ItemLink> | UIV | <ItemLink id="gtnhlanth:particle:17" showIcon="left" /> | 750 | <ItemLink id="gtnhlanth:particle:14" showIcon="left" /> | 750 | &c✗ | &c✗ | &a✓ | &a✓ | &c✗ |
+| <ItemLink id="gregtech:gt.blockcasings13:12" showIcon="left">ATLAS 外壳</ItemLink> | UHV | <ItemLink id="gtnhlanth:particle:7" showIcon="left" /> | 900 | <ItemLink id="gtnhlanth:particle:7" showIcon="left" /> | 900 | &c✗ | &a✓ | &a✓ | &c✗ | &c✗ |
+| <ItemImage id="bartworks:BioLabParts" nbt='tag:{Name:"Xenoxene Xenoxsis"}' label="right" format='&7异氙培养皿' /> | ^^ | <ItemLink id="gtnhlanth:particle:4" showIcon="left" /> | 20 | <ItemLink id="gtnhlanth:particle:4" showIcon="left" /> | 20 | &c✗ | &c✗ | &a✓ | &c✗ | &c✗ |
+| <ItemLink id="gregtech:gt.blockcasings13:13" showIcon="left">ALICE 外壳</ItemLink> | UEV | <ItemLink id="gtnhlanth:particle:9" showIcon="left" /> | 450 | <ItemLink id="gtnhlanth:particle:9" showIcon="left" /> | 450 | &c✗ | &c✗ | &a✓ | &c✗ | &c✗ |
+| <ItemLink id="gregtech:gt.blockcasings13:14" showIcon="left">LHCb 外壳</ItemLink> | UIV | <ItemLink id="gtnhlanth:particle:17" showIcon="left" /> | 750 | <ItemLink id="gtnhlanth:particle:14" showIcon="left" /> | 750 | &c✗ | &c✗ | &a✓ | &a✓ | &c✗ |
 | <ItemLink id="gregtech:gt.metaitem.01:32417" showIcon="left" /> | ^^ | <ItemLink id="gtnhlanth:particle:8" showIcon="left" /> | 50 | <ItemLink id="gtnhlanth:particle:10" showIcon="left" /> | 30 | &c✗ | &c✗ | &a✓ | &c✗ | &c✗ |
 | <ItemLink id="gregtech:gt.metaitem.03:32270" showIcon="left" /> | ^^ | <ItemLink id="gtnhlanth:particle:4" showIcon="left" /> | 20 | <ItemLink id="gtnhlanth:particle:4" showIcon="left" /> | 20 | &c✗ | &c✗ | &c✗ | &c✗ | &a✓ |
 | <ItemLink id="gregtech:gt.metaitem.03:32235" showIcon="left" /> | UMV | <ItemLink id="gtnhlanth:particle:11" showIcon="left" /> | 1000 | <ItemLink id="gtnhlanth:particle:13" showIcon="left" /> | 1000 | &c✗ | &c✗ | &a✓ | &a✓ | &c✗ |
@@ -107,8 +107,8 @@ All available recipes are listed in the following table along with their require
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:183" showIcon="left" /> | ^^ | <ItemLink id="gtnhlanth:particle:4" showIcon="left" /> | 50 | <ItemLink id="gtnhlanth:particle:3" showIcon="left" /> | 5 | &c✗ | &c✗ | &c✗ | &c✗ | &a✓ |
 {: widths="200, 30, 90, 40, 90, 40, 32, 32, 32, 32, 32"}
 
-The CMS module only supports a few basic recipes such as the two for unknown particles. The ATLAS module supports nearly every recipe because it has such a large pool of particles, but that also makes it difficult to obtain any one in particular. The ALICE module is also quite flexible, but its pool is much smaller for more concentrated crafts. The LHCb module supports the most advanced recipes like the ZPIC wafer and stable boson containment unit, and has a higher yield of the two rarest particles.
+CMS 模块仅支持少数基础配方，例如未知粒子的两种配方。ATLAS 模块拥有庞大的粒子池，因此几乎支持所有配方，但也因此难以获得某种特定粒子。ALICE 模块也相当灵活，但粒子池小得多，更适合专门化合成。LHCb 模块支持最先进的配方，例如 仄米功率IC晶圆和稳定玻色子约束单元，并且两种最稀有粒子的产量更高。
 
-## References
+## 参考资料
 
-- [GTNH Wiki : Beam Crafter](https://wiki.gtnewhorizons.com/wiki/Beam_Crafter)
+- [GTNH Wiki：束流合成器](https://wiki.gtnewhorizons.com/wiki/Beam_Crafter)

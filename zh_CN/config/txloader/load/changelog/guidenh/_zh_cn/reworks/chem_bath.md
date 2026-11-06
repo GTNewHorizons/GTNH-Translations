@@ -25,7 +25,7 @@ date: 2026-05-27
 > - 拆分：工业洗矿厂已被拆分为多个独立结构（例如本页这台！）
 
 ## 建造
-<Color id="GREEN">ICB</Color>没有任何分级部件。总线/仓可以替换结构中任意位置的洗矿厂机械方块。<Color id="GREEN">多A能源仓与激光能源仓</Color>不受支持，但可以放置多个普通能源仓用于超频。水是启动机器的一次性投入，需通过蓄水仓（reservoir hatch）或输入仓注入结构。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
+<Color id="GREEN">ICB</Color>没有任何任意等级部件。总线/仓可以替换结构中任意位置的洗矿厂机械方块。<Color id="GREEN">多A能源仓与激光能源仓</Color>不受支持，但可以放置多个普通能源仓用于超频。水是启动机器的一次性投入，需通过蓄水仓（reservoir hatch）或输入仓注入结构。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
 
 ### 所需材料：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15551"/><ItemImage id="gregtech:gt.blockmachines:15551"/>
@@ -42,8 +42,8 @@ date: 2026-05-27
 - 0+ 输出总线（任意外壳）<ItemImage id="gregtech:gt.blockmachines:80" />
 - 0+ 输出仓（任意外壳）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### 共墙
-<Color id="GREEN">ICB</Color>的每一面均可与其他机器共墙，以节省机械方块和总线/仓，其中包括用于供水的蓄水仓。没有任何配方的耗电超过1A，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
+### 共用墙壁
+<Color id="GREEN">ICB</Color>的每一面均可与其他机器共用墙壁，以节省机械方块和总线/仓，其中包括用于供水的蓄水仓。没有任何配方的耗电超过1A，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
 ## 用途
 <Color id="GREEN">ICB</Color>是单体化学浸洗机的直接升级，因为它的运行速度为500%，并每级电压提供 4 条并行（随电压等级线性增加，见下表）。

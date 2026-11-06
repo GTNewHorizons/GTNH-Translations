@@ -6,131 +6,131 @@ navigation:
   position: 10
 ---
 
-# Singleblock Machines
+# 单方块机器
 
-Singleblock machines consist of only one block. Their uses are narrow, and they are always slower or less efficient than the equivalent [multiblock machine](../multiblocks/multiblocks_index.md), if one exists. They cannot be upgraded, except for high-pressure steam machines, so replacing them always means crafting a new machine. Even so, they are essential for early progression, and some remain useful through the entire game. By EV through IV, once most [multiblock machines](../multiblocks/multiblocks_index.md) become available, players gradually transition away from singleblocks.
+单方块机器仅由一个方块组成。它们用途单一；如果存在对应的[多方块机器](../multiblocks/multiblocks_index.md)，单方块机器总是更慢或效率更低。除了高压蒸汽机器外，它们都无法升级，因此替换时总是需要重新制作一台。尽管如此，它们对早期进度至关重要，其中一些在整个游戏过程中仍有用。从 EV 到 IV 阶段，随着大多数[多方块机器](../multiblocks/multiblocks_index.md)逐渐解锁，玩家会逐步转向多方块机器。
 
-# Machine Facing
+# 机器朝向
 
-Every singleblock machine, whether steam or electric, has two special faces and four ordinary faces. You can change its facing with <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" />, using the GregTech 3x3 wrench rules.
+每台单方块机器，无论是蒸汽还是电力机器，都有两个特殊面和四个普通面。你可以使用 <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> 按照 GregTech 的 3×3 扳手规则改变机器朝向。
 
-- **Front face**: the most visually distinctive face, and it can only point horizontally. It cannot input or output items, fluids, steam, or power at all.
-  - Hold a wrench, then <kbd>Shift</kbd> + <kbd>Right-click</kbd> a side face to change the front face direction.
-- **Output face**: the face with a small white-framed port on a black background.
-  - For steam machines, this is the exhaust vent that releases spent steam pressure.
-  - For electric machines, this is the item output face used to eject products.
-  - Hold a wrench, then <kbd>Right-click</kbd> a side face to change the output face.
-- **All other faces**: the remaining four faces are equivalent and can input or output items, fluids, steam, or power.
+- **正面**：外观最醒目的面，只能水平朝向。它完全不能输入或输出物品、流体、蒸汽或电力。
+  - 手持扳手，然后对一个侧面执行 <kbd>Shift</kbd> + <kbd>右键点击</kbd>，即可改变正面朝向。
+- **输出面**：黑色背景上有一个小型白框端口的那一面。
+  - 蒸汽机器的输出面是排出废蒸汽压力的排气口。
+  - 电力机器的输出面是用于弹出产物的物品输出面。
+  - 手持扳手，然后对一个侧面执行 <kbd>右键点击</kbd>，即可改变输出面。
+- **其他所有面**：剩下四个面功能相同，可输入或输出物品、流体、蒸汽或电力。
 
-# Steam Machines
+# 蒸汽机器
 
-Singleblock steam machines run on steam and are used heavily during the steam age. Steam is produced by boilers. Every standard version has a corresponding high-pressure version made with steel.
+单方块蒸汽机器使用蒸汽运行，在蒸汽时代用途广泛。蒸汽由锅炉产生。每种标准机器都有使用钢制造的对应高压版本。
 
-Steam machines do not explode, are resistant to rain and snow, and can be placed outdoors safely.
+蒸汽机器不会爆炸，也能抵抗雨雪，可安全放置在室外。
 
-## Categories
+## 类型
 
-There are only six singleblock steam machines, each with a standard and a high-pressure version:
+单方块蒸汽机器只有六种，每种都有标准版和高压版：
 
-| Function | Standard | High Pressure |
+| 功能 | 标准版 | 高压版 |
 |----------|----------|---------------|
-| Furnace | <ItemLink id="gregtech:gt.blockmachines:103" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:104" showIcon="left" /> |
-| Alloy Smelter | <ItemLink id="gregtech:gt.blockmachines:118" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:119" showIcon="left" /> |
-| Compressor | <ItemLink id="gregtech:gt.blockmachines:115" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:116" showIcon="left" /> |
-| Macerator | <ItemLink id="gregtech:gt.blockmachines:106" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:107" showIcon="left" /> |
-| Extractor | <ItemLink id="gregtech:gt.blockmachines:109" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:110" showIcon="left" /> |
-| Forge Hammer | <ItemLink id="gregtech:gt.blockmachines:112" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:113" showIcon="left" /> |
+| 熔炉 | <ItemLink id="gregtech:gt.blockmachines:103" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:104" showIcon="left" /> |
+| 合金炉 | <ItemLink id="gregtech:gt.blockmachines:118" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:119" showIcon="left" /> |
+| 压缩机 | <ItemLink id="gregtech:gt.blockmachines:115" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:116" showIcon="left" /> |
+| 研磨机 | <ItemLink id="gregtech:gt.blockmachines:106" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:107" showIcon="left" /> |
+| 提取机 | <ItemLink id="gregtech:gt.blockmachines:109" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:110" showIcon="left" /> |
+| 锻造锤 | <ItemLink id="gregtech:gt.blockmachines:112" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:113" showIcon="left" /> |
 
-## Graphical User Interface
+## 图形用户界面
 
-- **Steam gauge**: top left, showing the internal steam buffer. All steam machines have a 16,000 L internal buffer.
-- **Storage slots**: the two bottom slots, with no special behavior.
-- **Mute button**: top right. You can also toggle it by <kbd>Right-clicking</kbd> the machine with <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" />.
+- **蒸汽表**：左上方，显示内部蒸汽缓冲。所有蒸汽机器的内部缓冲容量均为 16,000 L。
+- **存储槽**：底部两个槽位，没有特殊用途。
+- **静音按钮**：右上方。也可通过 <kbd>右键点击</kbd>机器并手持<ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" />来切换。
 
-Steam machines do not support auto-output.
+蒸汽机器不支持自动输出。
 
-## Power
+## 电力
 
-The machine accepts steam from the four faces that are neither the front face nor the exhaust face, filling its internal buffer. It runs LV-tier recipes at a ratio of 4 L steam = 1 EU, which is 50% efficiency. Bronze machines take twice the normal duration of an LV recipe.
+机器可从除正面和排气面以外的四个面接收蒸汽，以填充内部缓冲。它运行 LV 配方时的转换比例为 4 L 蒸汽 = 1 EU，效率为 50%。青铜机器的运行时间是 LV 配方标准时长的两倍。
 
-| Machine Type | Steam Cost (L/t) | Duration |
+| 机器类型 | 蒸汽消耗量（L/t） | 持续时间 |
 |--------------|------------|----------|
-| Steam machine | 2x | 2x |
-| High-pressure steam machine | 4x | 1x |
+| 蒸汽机器 | 2 倍 | 2 倍 |
+| 高压蒸汽机器 | 4 倍 | 1 倍 |
 
-The high-pressure version consumes steam at twice the rate and halves recipe duration, effectively performing one 2/2 lossless [overclock](../tierskipping_overcloking_parallels/overclocking.md).
+高压版本的蒸汽消耗速率加倍，配方时间减半，相当于进行一次 2/2 的无损[超频](../tierskipping_overcloking_parallels/overclocking.md)。
 
-You can pause or resume the machine by <kbd>Right-clicking</kbd> it with <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />.
+你可以手持<ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />对机器执行<kbd>右键点击</kbd>，以暂停或恢复运行。
 
-## Item Transport and Exhaust
+## 物品运输与排气
 
-The four faces other than the front and exhaust faces can input or output. Steam machines cannot eject items on their own, so you need hoppers or another transport system to extract products.
+除正面和排气面外的四个面都可以输入或输出。蒸汽机器不会自行弹出物品，因此需要漏斗或其他运输系统提取产物。
 
-The exhaust vent is the output face of a steam machine. After each recipe completes, the machine must vent its exhaust through that face. If the vent is blocked, the machine cannot finish the recipe. Standing next to the vent when a recipe completes deals 3.5 hearts of damage to the player.
+排气口是蒸汽机器的输出面。每条配方完成后，机器必须从该面排出废气。如果排气口被堵住，配方就无法完成。配方完成时站在排气口旁边会受到 3.5 颗心的伤害。
 
-## Failures
+## 故障
 
-- Exhaust vent blocked -> a failure icon appears, and the machine does not continue until the exhaust is released.
-- Steam buffer empty -> a failure icon appears. If the steam buffer refills shortly afterward, the machine retries the recipe. If your steam supply is fundamentally insufficient, the machine may repeatedly fail, lose all progress, and waste steam.
+- 排气口堵塞 → 出现故障图标，释放排气前机器不会继续运行。
+- 蒸汽缓冲为空 → 出现故障图标。如果缓冲很快重新充满，机器会重试配方。如果蒸汽供应本身不足，机器可能反复故障、丢失全部进度并浪费蒸汽。
 
-# Electric Machines
+# 电力机器
 
 > [!WARNING]
-> Singleblock electric machines can explode. Read the [explosions](#explosions) section carefully.
+> 单方块电力机器可能会爆炸。请仔细阅读[爆炸](#explosions)章节。
 
-Singleblock electric machines are the first must-craft machines at LV. They have specific uses, fixed voltage tiers, and must be fully replaced when upgraded.
+单方块电力机器是 LV 阶段首先必须制作的机器。它们用途特定、电压等级固定，升级时必须整台替换。
 
-## Graphical User Interface
+## 图形用户界面
 
-The electric machine GUI is more complex than the steam one:
+电力机器 GUI 比蒸汽机器复杂：
 
-- **Item input/output slots**: the light-colored slots to the left and right of the progress bar.
-- **Fluid input/output slots**: the dark slots beneath the item slots. You can interact with them directly while holding containers: <kbd>Left-click</kbd> fills or drains all matching fluid containers, while <kbd>Right-click</kbd> processes only one container.
-- **Power slot**: accepts same-voltage tools or batteries. When the internal buffer is full enough it charges them; when the buffer is low it can draw from them. It can also be used as a normal storage slot.
-- **Data slot**: only appears on special machines like scanners, printers, and copiers.
-- **Integrated circuit slot**: bottom right. Scroll the <kbd>mouse wheel</kbd> or click to raise or lower the circuit number; <kbd>Shift</kbd> + <kbd>Left-click</kbd> opens the selector GUI; <kbd>Shift</kbd> + <kbd>Right-click</kbd> clears it.
-- **Auto-output toggles**: the two buttons in the bottom left. Once enabled, the machine can eject items or fluids. Steam machines do not have this feature.
-- **Mute button**: top right. You can also toggle it by <kbd>Right-clicking</kbd> the machine with <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" />.
+- **物品输入/输出槽：**位于进度条左右两侧的浅色槽位。
+- **流体输入/输出槽：**位于物品槽下方的深色槽位。手持容器时可直接操作：<kbd>左键点击</kbd>可为所有相同流体容器注入或抽取流体，<kbd>右键点击</kbd>则只处理一个容器。
+- **电力槽：**可放入同电压的工具或电池。内部缓存足够充裕时会为其充电；缓存较低时则可从中取电。也可将其作为普通储物槽使用。
+- **数据槽：**只会出现在扫描仪、打印机和复印机等特殊机器中。
+- **虚拟电路板槽（集成电路槽）：**位于右下角。滚动<kbd>鼠标滚轮</kbd>或点击可提高或降低电路编号；<kbd>Shift</kbd> + <kbd>左键点击</kbd>可打开选择器 GUI；<kbd>Shift</kbd> + <kbd>右键点击</kbd>可清除设置。
+- **自动输出切换按钮：**位于左下角的两个按钮。启用后，机器可弹出物品或流体。蒸汽机器没有此功能。
+- **静音按钮**：右上方。也可通过 <kbd>右键点击</kbd>机器并手持<ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" />来切换。
 
-## Power
+## 电力
 
-Electric machines run on EU. They have a small internal EU buffer equal to 64 times the machine voltage in EU, which is the amount consumed by 1A at standard voltage over 3.2 seconds. For example, an LV machine stores 2,048 EU, while an HV machine stores 32,768 EU.
+电力机器使用 EU。它们有一个较小的内部 EU 缓存，容量等于机器电压的 64 倍，约为标准电压下 1A 消耗 3.2 秒的电量。例如，LV 机器可储存 2,048 EU，HV 机器可储存 32,768 EU。
 
-Machines continuously request energy packets from the local power network to fill their buffer. Their maximum input current is:
+机器会持续向本地电网请求能量包以填充缓存。其最大输入电流为：
 
 $$\text{Maximum Input Current} = \left\lfloor\frac{\text{Recipe Rated Power} \times 2}{\text{Machine Operating Voltage}}\right\rfloor + 1 \text{ A}$$
 
-- Most singleblock machines: 2A maximum.
-- Thermal Centrifuge: 4A maximum.
-- Arc Furnace: 6A maximum.
+- 大多数单方块机器：最大 2A。
+- 热力离心机：最大 4A。
+- 电弧炉：最大 6A。
 
-You can pause or resume the machine by <kbd>Right-clicking</kbd> it with <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />.
+你可以手持<ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />对机器执行<kbd>右键点击</kbd>，以暂停或恢复运行。
 
-## Overclocking
+## 超频
 
-Singleblock electric machines use 4/2 imperfect overclocks: each overclock multiplies power draw by 4 and halves recipe time, so total energy doubles. The singleblock Mass Fabricator is the only exception, using 2/2 lossless overclocks.
+单方块电力机器使用 2/4 有损超频（速度 ×2、功率 ×4）：每次超频使耗电量乘以四、配方时间减半，因此总耗能加倍。单方块质量发生器是唯一例外，使用 2/2 无损超频。
 
-See **[Overclocking](../tierskipping_overcloking_parallels/overclocking.md)** for the full system.
+完整机制请见**[超频](../tierskipping_overcloking_parallels/overclocking.md)**。
 
-## Logistics
+## 物流
 
-All five faces other than the front face can output. The four faces that are neither the front nor the output face can input.
+除正面外的五个面都可输出。除正面和输出面外的四个面可输入。
 
-- **Auto-output**: enable the auto-output toggle in the GUI, and the output face can eject items or fluids.
-- **Allow input from output face**: hold <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> and <kbd>Right-click</kbd> the front face or output face to toggle it.
-- **Input filtering**: hold a screwdriver and <kbd>Shift</kbd> + <kbd>Right-click</kbd> the front face or output face to enable it. When enabled, input items are filtered by the recipe map.
-- **Input stacking**: hold <ItemLink id="Forestry:solderingIron" showIcon="left" /> and <kbd>Shift</kbd> + <kbd>Right-click</kbd> the front face to enable it, allowing multiple item types in the same slot.
+- **自动输出：**在 GUI 中启用自动输出切换，输出面即可弹出物品或流体。
+- **允许从输出面输入：**手持 <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> 并对正面或输出面执行 <kbd>右键点击</kbd>，即可切换。
+- **输入过滤：**手持螺丝刀并对正面或输出面执行 <kbd>Shift</kbd> + <kbd>右键点击</kbd>，即可启用。启用后，输入物品会按配方类型（recipe map）过滤。
+- **输入堆叠：**手持 <ItemLink id="Forestry:solderingIron" showIcon="left" /> 并对正面执行 <kbd>Shift</kbd> + <kbd>右键点击</kbd>，即可启用，让同一槽位容纳多种物品。
 
-## Failures
+## 故障
 
-When the internal EU buffer runs dry, the machine fails. Recipe progress is lost, but the input state is preserved. If the buffer refills shortly afterward, the machine retries the recipe. If the power supply itself is insufficient, the machine may repeatedly fail, lose progress, and waste EU.
+内部 EU 缓存耗尽时机器会故障。配方进度会丢失，但输入状态会保留。如果缓存很快重新充满，机器会重试配方。如果电源本身不足，机器可能反复故障、丢失进度并浪费 EU。
 
-## Explosions
+## 爆炸
 
-Singleblock electric machines can explode in the following situations:
+单方块电力机器在以下情况下可能爆炸：
 
-- **Overvoltage**: if they receive an energy packet above their own voltage, they explode immediately. For example, feeding MV packets into an LV machine.
-- **Fire**: if the machine stores EU greater than 20% of capacity, it checks once every tick with a 1/1000 chance. If any side is on fire, the machine explodes.
-- **Rain or snow**: if the machine stores EU, it also checks once every tick with a 1/1000 chance. During rain, it has a 1/10 chance to explode immediately and a 9/10 chance to catch fire; during thunderstorms, it has a 1/3 chance to explode immediately.
-- An explosion releases all stored EU to every connected wire or adjacent machine as IV-tier power, which can cause chain explosions or overload nearby wires.
-- Powered hatches on [multiblock machines](../multiblocks/multiblocks_index.md) can also catch fire or explode for the same reasons.
+- **过压：**如果收到高于自身电压的能量包，会立即爆炸。例如，将 MV 电包输入 LV 机器。
+- **火焰：**机器储存的 EU 超过容量的 20% 时，每个游戏刻都会以 1/1000 的概率检查一次。如果任一侧着火，机器就会爆炸。
+- **雨或雪：**机器储存 EU 时，也会每个游戏刻以 1/1000 的概率检查一次。下雨时有 1/10 概率立即爆炸、9/10 概率起火；雷暴时有 1/3 概率立即爆炸。
+- 爆炸会将所有储存的 EU 以 IV 等级电力释放至所有相连线缆或相邻机器，可能引发连锁爆炸或使附近线缆过载。
+- [多方块机器](../multiblocks/multiblocks_index.md)中的带电仓也可能因相同原因起火或爆炸。

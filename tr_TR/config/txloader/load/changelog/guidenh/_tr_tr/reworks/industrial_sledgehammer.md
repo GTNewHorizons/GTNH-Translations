@@ -15,7 +15,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15555"/>
 </GameScene>
-<Color id="GREEN">Endüstriyel Balyoz</Color>, örs üzerinde metal dövmek için IV kademe bir multibloktur. <Color id="GREEN">Endüstriyel Balyoz</Color>, tek bloklu dövme çekicinin ve Buhar Presinin <ItemImage id="gregtech:gt.blockmachines:31083"/> doğrudan yükseltmesidir çünkü %200 hızda çalışır ve $$\text{Voltage Tier} \times \text{Solenoid Tier} \times 6$$ paralel sunar (en fazla 1.080). 
+<Color id="GREEN">Endüstriyel Balyoz</Color>, örs üzerinde metal dövmek için IV kademe bir multibloktur. <Color id="GREEN">Endüstriyel Balyoz</Color>, tek bloklu dövme çekicinin ve Buhar Presinin <ItemImage id="gregtech:gt.blockmachines:31083"/> doğrudan yükseltmesidir çünkü %200 hızda çalışır ve $$\text{Gerilim Kademesi} \times \text{Solenoid Kademesi} \times 6$$ paralel sunar (en fazla 1.080). 
 
 <br clear="all"/>
 
@@ -43,4 +43,4 @@ date: 2026-05-27
 <Color id="GREEN">Endüstriyel Balyozlar</Color>, kasa ile yol/kapaktan tasarruf etmek için her bir yüzünü duvar paylaşabilir. Hiçbir tarif 1A'dan fazla güç kullanmaz, bu yüzden <u>__bir__</u> enerji kapağını <u>__iki__</u> makine arasında paylaşmak mümkündür. 
 
 ## Kullanım
-Endüstriyel Balyoz, tek bloklu dövme çekiciye ve Buhar Presine göre doğrudan bir yükseltmedir çünkü %200 hızda çalışır ve $$\text{Voltage Tier} \times \text{Solenoid Tier} \times 6$$ paralel sunar.
+Endüstriyel Balyoz, tek bloklu dövme çekiciye ve Buhar Presine göre doğrudan bir yükseltmedir çünkü %200 hızda çalışır ve $$\text{Gerilim Kademesi} \times \text{Solenoid Kademesi} \times 6$$ paralel sunar.

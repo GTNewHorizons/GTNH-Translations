@@ -138,7 +138,7 @@ Aşağıdaki tablo her nanitin kademesini gösterir.
 | 7 | <ItemLink id="gregtech:gt.metaitem.03:4586" showIcon="left" >Kara Cüce Maddesi</ItemLink> |
 | 8 | <ItemLink id="gregtech:gt.metaitem.03:4139" showIcon="left" >Universium</ItemLink> |
 | 9 | <ItemLink id="gregtech:gt.metaitem.03:4141" showIcon="left" >Eternity</ItemLink> |
-| 10 | <ItemLink id="gregtech:gt.metaitem.03:4143" showIcon="left" >Magmatter</ItemLink> |
+| 10 | <ItemLink id="gregtech:gt.metaitem.03:4143" showIcon="left" >Magmadde</ItemLink> |
 {: widths="30" width="220"}
 
 ### Tarifler

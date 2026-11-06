@@ -26,11 +26,11 @@ date: 2026-05-16
 
 
 ## 建造
-<Color id="GREEN">EIG</Color> 只有一个分等级的部件。玻璃决定了能源仓的最高等级。总线/仓可以替换结构中任意位置的无菌农场机械方块。不支持<Color id="RED">多A能源仓和激光仓</Color>，但可以放置多个普通能源仓来超频。<Color id="GREEN">EIG</Color> 内部的泥土必须是 RandomThings 模组的沃土，灯必须是 ProjectRed Illumination 模组的紫色灯。灯不能是其他颜色，但可以通电和/或反相。结构成型后，泥土会自动犁好、水会自动生成，因此无需手动放置。建议使用 <ItemLink id="gregtech:gt.blockmachines:12972" /> <ItemImage id="gregtech:gt.blockmachines:12972" /> 而不是输入仓来供水。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来预览/搭建结构，并用子通道 "glass" 指定玻璃的等级。
+<Color id="GREEN">EIG</Color> 只有一个任意等级的部件。玻璃决定了能源仓的最高等级。总线/仓可以替换结构中任意位置的无菌农场机械方块。不支持<Color id="RED">多A能源仓和激光仓</Color>，但可以放置多个普通能源仓来超频。<Color id="GREEN">EIG</Color> 内部的泥土必须是 RandomThings 模组的沃土，灯必须是 ProjectRed Illumination 模组的紫色灯。灯不能是其他颜色，但可以通电和/或反相。结构成型后，泥土会自动犁好、水会自动生成，因此无需手动放置。建议使用 <ItemLink id="gregtech:gt.blockmachines:12972" /> <ItemImage id="gregtech:gt.blockmachines:12972" /> 而不是输入仓来供水。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来预览/搭建结构，并用子信道 "glass" 指定玻璃的等级。
 
 ### 需求：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:12792" /> <ItemImage id="gregtech:gt.blockmachines:12792"/>
-- 102 个等级玻璃（与电压等级匹配）<ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 102 个任意等级玻璃（与电压等级匹配）<ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 70-85 个 <ItemLink id="miscutils:gtplusplus.blockcasings.2:15" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2:15" />
 - 33 个 <ItemLink id="gregtech:gt.blockframes:316" /> <ItemImage id="gregtech:gt.blockframes:316" />
 - 21 个 <ItemLink id="RandomThings:fertilizedDirt" /> <ItemImage id="RandomThings:fertilizedDirt" />
@@ -43,8 +43,8 @@ date: 2026-05-16
 - 0+ 个输入仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:50" />
 - 0+ 个输出总线（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 贴墙共享
-<Color id="GREEN">EIG</Color> 的每一面都可以与其他结构贴墙共享，以节省机械方块、玻璃、铅青铜框架和总线/仓。供水用的蓄水仓也包括在内。
+### 共用墙壁
+<Color id="GREEN">EIG</Color> 的每一面都可以与其他结构共用墙壁，以节省机械方块、玻璃、铅青铜框架和总线/仓。供水用的蓄水仓也包括在内。
 
 ## 用法
 <Color id="GREEN">EIG</Color> 有三种运行模式，如下所列。可以在控制器内的配置菜单中切换模式，也可以用螺丝刀右键点击控制器来切换。无论当前处于哪种模式，只要机器处于停用状态，就可以通过控制器的 GUI 存入或取出种子。运行模式不会产生额外的种子，只产出作物。

@@ -13,7 +13,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockMolecularAssembler" scale="8" />
 
-Moleküler montajcı eşya girdilerini alır ve yanındaki bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> tarafından ya da içine yerleştirilen bir <ItemLink id="appliedenergistics2:item.ItemEncodedPattern" />, <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" /> veya <ItemLink id="appliedenergistics2:item.ItemTunnelPattern" /> tarafından tanımlanan işlemi gerçekleştirir. Sonuçları bitişik envanter bloklarına iter.
+Moleküler montajcı eşya girdilerini alır ve yanındaki bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> tarafından ya da içine yerleştirilen bir <ItemLink id="appliedenergistics2:item.ItemEncodedPattern" />, <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" /> veya <ItemLink id="appliedenergistics2:item.ItemTunnelPattern" /> tarafından tanımlanan işlemi gerçekleştirir. Sonuçları bitişik envanterlere iter.
 
 Aşağıdaki montajcı “1 meşe kütüğü = 4 meşe tahtası” şablonunu içerir. Üstteki huniye meşe kütükleri ver; üretimi yapacak ve ardından meşe tahtalarını alttaki huniye bırakacaktır.
 
@@ -24,7 +24,7 @@ Aşağıdaki montajcı “1 meşe kütüğü = 4 meşe tahtası” şablonunu i�
 
 ## Ana Kullanım
 
-Moleküler montajcının ana kullanım alanı bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> yanıdır. Arayüz, ilgili şablonu ve malzemeleri yanındaki montajcılara gönderir. Montajcılar sonuçları otomatik olarak yanlarındaki envanter bloklarına (arayüzün dönüş yuvasına) bıraktığından, üretim şablonlarını otomatikleştirmek için arayüzün yanındaki bir montajcı yeterlidir.
+Moleküler montajcının ana kullanım alanı bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> yanıdır. Arayüz, ilgili şablonu ve malzemeleri yanındaki montajcılara gönderir. Montajcılar sonuçları otomatik olarak yanlarındaki envanterlere (arayüzün dönüş yuvasına) bıraktığından, üretim şablonlarını otomatikleştirmek için arayüzün yanındaki bir montajcı yeterlidir.
 
 <GameScene zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/assembler_tower.snbt" />
@@ -33,9 +33,8 @@ Moleküler montajcının ana kullanım alanı bir <ItemLink id="appliedenergisti
 
 ## Yükseltmeler
 
-Diğer AE2 makineleri gibi moleküler montajcı da <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> (Hızlandırma Kartı) destekler.
+Moleküler montajcı <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> (hızlandırma kartı) destekler.
 
 ## Tarif
 
 <RecipeFor id="appliedenergistics2:tile.BlockMolecularAssembler" />
-

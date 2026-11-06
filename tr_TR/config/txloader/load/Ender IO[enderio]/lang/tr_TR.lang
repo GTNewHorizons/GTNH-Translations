@@ -10,32 +10,32 @@ enderio.power.generation_rate=de
 
 #Ender IO / Enderface
 tile.blockEnderIo.name=Ender IO
-tile.blockEnderIo.tooltip.detailed.line1=Allow remote access to nearby
-tile.blockEnderIo.tooltip.detailed.line2=blocks
-tile.blockEnderIo.tooltip.detailed.line3=Used with Travel Anchors or
-tile.blockEnderIo.tooltip.detailed.line4=the Staff of Travel
+tile.blockEnderIo.tooltip.detailed.line1=Yakındakilere uzaktan erişime izin ver
+tile.blockEnderIo.tooltip.detailed.line2=bloklar
+tile.blockEnderIo.tooltip.detailed.line3=Seyahat Çapaları veya
+tile.blockEnderIo.tooltip.detailed.line4=Seyahat Asası
 
 item.enderio.itemEnderface.name=Enderface
 
 #Conduits
 enderio.blockConduitBundle=Kanal Demeti
-tile.blockConduitFacade.name=Conduit Facade
-enderio.blockConduitFacade=Conduit Facade
-item.enderio.itemConduitFacade.name=Conduit Facade
-item.enderio.itemConduitFacade.hardened.name=Hardened Conduit Facade
+tile.blockConduitFacade.name=Kanal Cephesi
+enderio.blockConduitFacade=Kanal Cephesi
+item.enderio.itemConduitFacade.name=Kanal Cephesi
+item.enderio.itemConduitFacade.hardened.name=Sertleşmiş Kanal Cephesi
 enderio.item.itemConduitFacade.tooltip.notpainted=Boyanmamış
 item.enderio.itemConduitFacade.tooltip.detailed.line1=Boyama Makinesinde Boyandı
-item.enderio.itemConduitFacade.tooltip.detailed.line2=R-Click on a conduit to place
-item.enderio.itemConduitFacade.tooltip.detailed.line3=Hidden when a wrench or conduit
-item.enderio.itemConduitFacade.tooltip.detailed.line4=is equipped
-item.enderio.itemConduitFacade.hardened.tooltip=Hardened: Resists breaking and explosions
+item.enderio.itemConduitFacade.tooltip.detailed.line2=Yerleştirmek için bir kanala sağ tıkla
+item.enderio.itemConduitFacade.tooltip.detailed.line3=Bir İngiliz anahtarı veya kanal tutulurken gizlenir
+item.enderio.itemConduitFacade.tooltip.detailed.line4=kuşanıldı
+item.enderio.itemConduitFacade.hardened.tooltip=Sertleşmiş: Kırılmaya ve patlamalara dayanır
 
-item.itemPowerConduit.name=Energy Conduit
+item.itemPowerConduit.name=Enerji Kanalı
 enderio.itemPowerConduit.name=Enerji Kanalı
 enderio.itemPowerConduitEnhanced.name=Gelişmiş Enerji Kanalı
 enderio.itemPowerConduitEnder.name=Ender Enerji Kanalı
 
-item.itemPowerConduitEndergy.name=Energy Conduit
+item.itemPowerConduitEndergy.name=Enerji Kanalı
 enderio.itemPowerConduitEndergyCrude.name=Kil Bileşimi Enerji Kanalı
 enderio.itemPowerConduitEndergyIron.name=Demir Enerji Kanalı
 enderio.itemPowerConduitEndergyAluminum.name=Alüminyum Enerji Kanalı
@@ -46,110 +46,110 @@ enderio.itemPowerConduitEndergyElectrum.name=Elektrum Enerji Kanalı
 enderio.itemPowerConduitEndergyEnergeticSilver.name=Enerjik Gümüş Enerji Kanalı
 enderio.itemPowerConduitEndergyCrystalline.name=Kristalize Enerji Kanalı
 enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=Kristalize Pembe Balçık Enerji Kanalı
-enderio.itemPowerConduitEndergyMelodic.name=Melodic Energy Conduit
-enderio.itemPowerConduitEndergyStellar.name=Stellar Energy Conduit
+enderio.itemPowerConduitEndergyMelodic.name=Melodik Enerji Kanalı
+enderio.itemPowerConduitEndergyStellar.name=Stellar Enerji Kanalı
 
-item.itemRedstoneConduit.name=Redstone Conduit
+item.itemRedstoneConduit.name=Kızıltaş Kanalı
 enderio.itemRedstoneConduit.name=Kızıltaş Kanalı
 enderio.itemRedstoneConduitSwitch.name=Kanal Anahtarı
-enderio.itemRedstoneConduitInsulated.name=Insulated Redstone Conduit
+enderio.itemRedstoneConduitInsulated.name=Yalıtımlı Kızıltaş Kanalı
 
-item.itemLiquidConduit.name=Fluid Conduit
+item.itemLiquidConduit.name=Sıvı Kanalı
 enderio.itemLiquidConduit.name=Sıvı Kanalı
 enderio.itemLiquidConduitAdvanced.name=Basınçlı Sıvı Kanalı
 enderio.itemLiquidConduitEnder.name=Ender Sıvı Kanalı
-enderio.itemLiquidConduitCrystallineEnder.name=Crystalline Ender Fluid Conduit
-enderio.itemLiquidConduitCrystallinePinkSlimeEnder.name=Crystalline Pink Slime Ender Fluid Conduit
-enderio.itemLiquidConduitMelodicEnder.name=Melodic Ender Fluid Conduit
-enderio.itemLiquidConduitStellarEnder.name=Stellar Ender Fluid Conduit
-enderio.itemLiquidConduit.lockedType=Fluid type locked to
-enderio.itemLiquidConduit.unlockedType=Fluid type unlocked
-enderio.itemLiquidConduit.lockedWaila=Locked to 
+enderio.itemLiquidConduitCrystallineEnder.name=Kristal Ender Sıvı Kanalı
+enderio.itemLiquidConduitCrystallinePinkSlimeEnder.name=Kristal Pembe Slime Ender Sıvı Kanalı
+enderio.itemLiquidConduitMelodicEnder.name=Melodik Ender Sıvı Kanalı
+enderio.itemLiquidConduitStellarEnder.name=Stellar Ender Sıvı Kanalı
+enderio.itemLiquidConduit.lockedType=Sıvı tipi şuna kilitli
+enderio.itemLiquidConduit.unlockedType=Sıvı türü açıldı
+enderio.itemLiquidConduit.lockedWaila=Şuna kilitli 
 
-enderio.itemLiquidConduit.tooltip.maxExtract=Max Extract:
-enderio.itemLiquidConduit.tooltip.maxIo=Max IO:
-enderio.itemLiquidConduit.tooltip.detailed.line1=Fluid flow respects gravity
-enderio.itemLiquidConduit.tooltip.detailed.line2=Flow rate dependent on fluid
-enderio.itemLiquidConduit.tooltip.detailed.line3=viscosity
+enderio.itemLiquidConduit.tooltip.maxExtract=Maks. Çekim:
+enderio.itemLiquidConduit.tooltip.maxIo=Maks IO:
+enderio.itemLiquidConduit.tooltip.detailed.line1=Sıvı akışı kütle çekimine uyar
+enderio.itemLiquidConduit.tooltip.detailed.line2=Akış hızı sıvıya bağlı
+enderio.itemLiquidConduit.tooltip.detailed.line3=viskozite
 
-enderio.itemLiquidConduitEnder.tooltip.detailed.line1=Instant fluid teleportation
-enderio.itemLiquidConduitEnder.tooltip.detailed.line2=allows multiple fluids to be
-enderio.itemLiquidConduitEnder.tooltip.detailed.line3=transported on the same line
+enderio.itemLiquidConduitEnder.tooltip.detailed.line1=Anında sıvı ışınlanması
+enderio.itemLiquidConduitEnder.tooltip.detailed.line2=birden fazla sıvının bulunmasını sağlar
+enderio.itemLiquidConduitEnder.tooltip.detailed.line3=aynı hat üzerinde taşınır
 
-item.itemItemConduit.name=Item Conduit
-enderio.itemItemConduit.name=Item Conduit
+item.itemItemConduit.name=Eşya Kanalı
+enderio.itemItemConduit.name=Eşya Kanalı
 
 item.itemBasicFilterUpgrade.name=Eşya Filtresi
-enderio.filterUpgradeBasic.name=Basic Item Filter
-enderio.filterUpgradeAdvanced.name=Advanced Item Filter
-item.itemBigFilterUpgrade.name=Big Item Filter
-enderio.filterUpgradeBig.name=Big Item Filter
-enderio.filterUpgradeBigAdvanced.name=Big Advanced Item Filter
-enderio.itemConduitFilterUpgrade=Upgrade for item conduits
-enderio.itemConduitFilterUpgrade.configured=Configured
-enderio.itemConduitFilterUpgrade.clearConfigMethod=Place in crafting grid to clear
-enderio.itemConduitFilterUpgrade.clearConfigWarning=This will clear all stored filter settings!
+enderio.filterUpgradeBasic.name=Basit Eşya Filtresi
+enderio.filterUpgradeAdvanced.name=Gelişmiş Eşya Filtresi
+item.itemBigFilterUpgrade.name=Büyük Eşya Filtresi
+enderio.filterUpgradeBig.name=Büyük Eşya Filtresi
+enderio.filterUpgradeBigAdvanced.name=Büyük Gelişmiş Eşya Filtresi
+enderio.itemConduitFilterUpgrade=Eşya kanalları için yükseltme
+enderio.itemConduitFilterUpgrade.configured=Yapılandırıldı
+enderio.itemConduitFilterUpgrade.clearConfigMethod=Temizlemek için üretim ızgarasına koy
+enderio.itemConduitFilterUpgrade.clearConfigWarning=Bu, kayıtlı tüm filtre ayarlarını temizler!
 
-item.itemExistingItemFilter.name=Existing Item Filter
-item.itemExistingItemFilter.tooltip.basic.line1=Upgrade for item conduits
-item.itemExistingItemFilter.tooltip.detailed.line1=Selects only items already
-item.itemExistingItemFilter.tooltip.detailed.line2=in the inventory
-item.itemExistingItemFilter.tooltip.detailed.line3=Right click while sneaking
-item.itemExistingItemFilter.tooltip.detailed.line4=on an inventory to add the
-item.itemExistingItemFilter.tooltip.detailed.line5=content to the snapshot
+item.itemExistingItemFilter.name=Mevcut Eşya Filtresi
+item.itemExistingItemFilter.tooltip.basic.line1=Eşya kanalları için yükseltme
+item.itemExistingItemFilter.tooltip.detailed.line1=Yalnızca zaten mevcut olan eşyaları seçer
+item.itemExistingItemFilter.tooltip.detailed.line2=envanterde
+item.itemExistingItemFilter.tooltip.detailed.line3=Eğilirken sağ tıkla
+item.itemExistingItemFilter.tooltip.detailed.line4=envantere eklemek için
+item.itemExistingItemFilter.tooltip.detailed.line5=içeriği anlık görüntüye
 
-enderio.item.itemExistingItemFilter.filterUpdated=New items have been added to the snapshot
-enderio.item.itemExistingItemFilter.filterNotUpdated=The snapshot already covers all items in the inventory
+enderio.item.itemExistingItemFilter.filterUpdated=Anlık görüntüye yeni eşyalar eklendi
+enderio.item.itemExistingItemFilter.filterNotUpdated=Anlık görüntü zaten envanterdeki tüm eşyaları kapsıyor
 
-item.itemLimitedItemFilter.name=Limited Item Filter
-item.itemLimitedItemFilter.tooltip.basic.line1=Upgrade for item conduits
-item.itemLimitedItemFilter.tooltip.detailed.line1=Filters items based on
-item.itemLimitedItemFilter.tooltip.detailed.line2=their stack size
+item.itemLimitedItemFilter.name=Sınırlı Eşya Filtresi
+item.itemLimitedItemFilter.tooltip.basic.line1=Eşya kanalları için yükseltme
+item.itemLimitedItemFilter.tooltip.detailed.line1=Eşyaları şuna göre filtreler
+item.itemLimitedItemFilter.tooltip.detailed.line2=küme boyutları
 
-item.itemModItemFilter.name=Mod Item Filter
-item.itemModItemFilter.tooltip.basic.line1=Upgrade for item conduits
-item.itemModItemFilter.tooltip.detailed.line1=Selects only items for a specified
+item.itemModItemFilter.name=Mod Eşya Filtresi
+item.itemModItemFilter.tooltip.basic.line1=Eşya kanalları için yükseltme
+item.itemModItemFilter.tooltip.detailed.line1=Yalnızca belirtilen bir mod için eşyaları seçer
 item.itemModItemFilter.tooltip.detailed.line2=mod/s
 
 item.itemPowerItemFilter.name=Şarj Edilebilir Eşya Filtresi
-item.itemPowerItemFilter.tooltip.basic.line1=Upgrade for item conduits
-item.itemPowerItemFilter.tooltip.detailed.line1=Filters chargeable items based on
-item.itemPowerItemFilter.tooltip.detailed.line2=how much RF they have stored
+item.itemPowerItemFilter.tooltip.basic.line1=Eşya kanalları için yükseltme
+item.itemPowerItemFilter.tooltip.detailed.line1=Şarj edilebilir eşyaları şuna göre filtreler:
+item.itemPowerItemFilter.tooltip.detailed.line2=ne kadar RF depoladıkları
 
-item.itemExtractSpeedUpgrade.name=Item Conduit Speed Upgrade
-item.itemExtractSpeedUpgrade.tooltip.basic.line1=Upgrade for item conduits
-item.itemExtractSpeedUpgrade.tooltip.detailed.line1=Increases speed by 4
-item.itemExtractSpeedUpgrade.tooltip.detailed.line2=items per extraction
-item.itemExtractSpeedUpgrade.tooltip.detailed.line3=Max upgrades is 15
+item.itemExtractSpeedUpgrade.name=Eşya Kanalı Hız Yükseltmesi
+item.itemExtractSpeedUpgrade.tooltip.basic.line1=Eşya kanalları için yükseltme
+item.itemExtractSpeedUpgrade.tooltip.detailed.line1=Hızı 4 artırır
+item.itemExtractSpeedUpgrade.tooltip.detailed.line2=her çekim başına eşya
+item.itemExtractSpeedUpgrade.tooltip.detailed.line3=Maksimum yükseltme 15
 
-item.itemExtractSpeedDowngrade.name=Item Conduit Speed Downgrade
-item.itemExtractSpeedDowngrade.tooltip.basic.line1=Downgrade for item conduits
-item.itemExtractSpeedDowngrade.tooltip.detailed.line1=Reduces speed to 1
-item.itemExtractSpeedDowngrade.tooltip.detailed.line2=item per extraction
+item.itemExtractSpeedDowngrade.name=Eşya Kanalı Hız Düşürmesi
+item.itemExtractSpeedDowngrade.tooltip.basic.line1=Eşya kanalları için düşürme
+item.itemExtractSpeedDowngrade.tooltip.detailed.line1=Hızı 1'e düşürür
+item.itemExtractSpeedDowngrade.tooltip.detailed.line2=çıkarma başına eşya
 
-item.itemFunctionUpgrade.name=Remote Awareness Upgrade
-item.itemInventoryPanelUpgrade.name=Remote Awareness Upgrade
-item.itemInventoryPanelUpgrade.tooltip.basic.line1=Inventory Panel Remote Awareness
-item.itemInventoryPanelUpgrade.tooltip.detailed.line1=Function upgrade for item conduits
-item.itemInventoryPanelUpgrade.tooltip.detailed.line2=Allows Inventory Panels attached
-item.itemInventoryPanelUpgrade.tooltip.detailed.line3=to this network to see and extract
-item.itemInventoryPanelUpgrade.tooltip.detailed.line4=items from this inventory independent
-item.itemInventoryPanelUpgrade.tooltip.detailed.line5=of the conduit mode.
-item.itemInventoryPanelUpgrade.tooltip.detailed.line6=(No need to set the conduit to extract)
+item.itemFunctionUpgrade.name=Uzak Farkındalık Yükseltmesi
+item.itemInventoryPanelUpgrade.name=Uzak Farkındalık Yükseltmesi
+item.itemInventoryPanelUpgrade.tooltip.basic.line1=Envanter Paneli Uzaktan Algılama
+item.itemInventoryPanelUpgrade.tooltip.detailed.line1=Eşya kanalları için işlev yükseltmesi
+item.itemInventoryPanelUpgrade.tooltip.detailed.line2=Bağlı Envanter Panellerinin şunlara izin verir
+item.itemInventoryPanelUpgrade.tooltip.detailed.line3=görmek ve çıkarmak için bu ağa
+item.itemInventoryPanelUpgrade.tooltip.detailed.line4=eşyaları bu envanterden bağımsız
+item.itemInventoryPanelUpgrade.tooltip.detailed.line5=kanal modunun.
+item.itemInventoryPanelUpgrade.tooltip.detailed.line6=(Kanalı özü çıkartmaya ayarlamana gerek yok)
 
 enderio.itemGasConduit.name=Gaz Kanalı
 
-enderio.itemGasConduit.tooltip.maxExtract=Max Extract:
-enderio.itemGasConduit.tooltip.maxIo=Max IO:
-enderio.itemGasConduit.tooltip.detailed.line1=Transfers Mekanism-compatible gases
+enderio.itemGasConduit.tooltip.maxExtract=Maks. Çekim:
+enderio.itemGasConduit.tooltip.maxIo=Maks IO:
+enderio.itemGasConduit.tooltip.detailed.line1=Mekanism uyumlu gazları taşır
 
-item.itemMEConduit.name=ME Conduit
-enderio.itemMEConduit.name=ME Conduit
-enderio.itemMEConduitDense.name=Dense ME Conduit
-enderio.itemMEConduit.channelsUsed={0,number} of {1,number} Channels
+item.itemMEConduit.name=ME Kanalı
+enderio.itemMEConduit.name=ME Kanalı
+enderio.itemMEConduitDense.name=Kalın ME Kanalı
+enderio.itemMEConduit.channelsUsed={0,number} / {1,number} Kanal
 
-item.itemOCConduit.name=Network Conduit (OC)
-enderio.itemOCConduit.name=Network Conduit (OC)
+item.itemOCConduit.name=Ağ Kanalı (OC)
+enderio.itemOCConduit.name=Ağ Kanalı (OC)
 
 #Entity
 entity.witherSkeleton.name=Wither İskeleti
@@ -158,65 +158,65 @@ entity.witherSkeleton.name=Wither İskeleti
 enderio.itemMaterial.name=Malzemeler
 item.itemMaterial.name=Malzemeler
 enderio.silicon.name=Silisyum
-enderio.conduitBinder.name=Conduit Binder
-enderio.binderComposite.name=Binder Composite
-enderio.phasedIronNugget.name=Pulsating Iron Nugget
+enderio.conduitBinder.name=Kanal Bağlayıcı
+enderio.binderComposite.name=Bağlayıcı Kompozit
+enderio.phasedIronNugget.name=Titreşen Demir Parçası
 tile.blockDarkIronBars.name=Koyu Çelik Parmaklıklar
-tile.blockSoulariumBars.name=Soularium Bars
+tile.blockSoulariumBars.name=Ruhanyum Çubukları
 tile.blockEndSteelBars.name=End Çelik Parmaklıklar
-tile.blockEndermanSkull.name=Enderman Skull
+tile.blockEndermanSkull.name=Enderman Kafatası
 tile.blockEndermanSkull.base.name=Enderman Kafası
-tile.blockEndermanSkull.reanimated.name=Reanimated Enderman Head
-tile.blockEndermanSkull.tormented.name=Tormented Enderman Head
-enderio.blastResistant=Blast Resistant
-enderio.lightEmitter=Emits Light
-enderio.lightBlocker=Blocks Light
-enderio.tooltip.isBeaconBase=Can be used as beacon base
+tile.blockEndermanSkull.reanimated.name=Canlandırılmış Enderman Başı
+tile.blockEndermanSkull.tormented.name=İşkence Görmüş Enderman Başı
+enderio.blastResistant=Patlamaya Dayanıklı
+enderio.lightEmitter=Işık Yayar
+enderio.lightBlocker=Işığı Engeller
+enderio.tooltip.isBeaconBase=Fener tabanı olarak kullanılabilir
 enderio.dustWheat.name=Un
 
 enderio.itemEnderios.name="Enderios"
-enderio.itemEnderios.tooltip.common.line1=Part of a balanced breakfast!
-enderio.itemEnderios.tooltip.detailed.line1=Not actually healthy. Contains 253g of sugar, 53g of fat,
-enderio.itemEnderios.tooltip.detailed.line2=and 394g of ender dust.
-enderio.itemEnderios.tooltip.detailed.line3=Side effects of ender dust include: nausea, dizziness, confusion, 
-enderio.itemEnderios.tooltip.detailed.line4=and random teleporting.
+enderio.itemEnderios.tooltip.common.line1=Dengeli bir kahvaltının parçası!
+enderio.itemEnderios.tooltip.detailed.line1=Aslında sağlıklı değil. 253g şeker, 53g yağ içerir,
+enderio.itemEnderios.tooltip.detailed.line2=ve 394g ender tozu.
+enderio.itemEnderios.tooltip.detailed.line3=Ender tozunun yan etkileri şunlardır: mide bulantısı, baş dönmesi, kafa karışıklığı, 
+enderio.itemEnderios.tooltip.detailed.line4=ve rastgele ışınlanma.
 
 #Fluids
-fluid.nutrient_distillation=Nutrient Distillation
-tile.fluid.nutrient_distillation.name=Nutrient Distillation
-item.bucketNutrient_distillation.name=Nutrient Distillation Bucket
+fluid.nutrient_distillation=Besin Damıtma
+tile.fluid.nutrient_distillation.name=Besin Damıtma
+item.bucketNutrient_distillation.name=Besin Damıtma Kovası
 
 fluid.hootch=Hootch
 tile.fluid.hootch.name=Hootch
-item.bucketHootch.name=Hootch Bucket
+item.bucketHootch.name=Hootch Kovası
 
-fluid.fire_water=Fire Water
-tile.fluid.fire_water.name=Fire Water
-item.bucketFire_water.name=Fire Water Bucket
+fluid.fire_water=Ateş Suyu
+tile.fluid.fire_water.name=Ateş Suyu
+item.bucketFire_water.name=Ateş Suyu Kovası
 
 fluid.rocket_fuel=Roket Yakıtı
 tile.fluid.rocket_fuel.name=Roket Yakıtı
 item.bucketRocket_fuel.name=Roket Yakıt Kovası
 
-fluid.liquid_sunshine=Liquid Sunshine
-tile.fluid.liquid_sunshine.name=Liquid Sunshine
-item.bucketLiquid_sunshine.name=Liquid Sunshine Bucket
+fluid.liquid_sunshine=Sıvı Güneş Işığı
+tile.fluid.liquid_sunshine.name=Sıvı Güneş Işığı
+item.bucketLiquid_sunshine.name=Sıvı Güneş Işığı Kovası
 
-fluid.cloud_seed=Cloud Seed
-tile.fluid.cloud_seed.name=Cloud Seed
-item.bucketCloud_seed.name=Cloud Seed Bucket
+fluid.cloud_seed=Bulut Tohumu
+tile.fluid.cloud_seed.name=Bulut Tohumu
+item.bucketCloud_seed.name=Bulut Tohumu Kovası
 
-fluid.cloud_seed_concentrated=Concentrated Cloud Seed
-tile.fluid.cloud_seed_concentrated.name=Concentrated Cloud Seed
-item.bucketCloud_seed_concentrated.name=Concentrated Cloud Seed Bucket
+fluid.cloud_seed_concentrated=Yoğunlaştırılmış Bulut Tohumu
+tile.fluid.cloud_seed_concentrated.name=Yoğunlaştırılmış Bulut Tohumu
+item.bucketCloud_seed_concentrated.name=Yoğun Bulut Tohumu Kovası
 
-fluid.ender_distillation=Dew of the Void
-tile.fluid.ender_distillation.name=Dew of the Void
-item.bucketEnder_distillation.name=Dew of the Void Bucket
+fluid.ender_distillation=Boşluğun Çiyi
+tile.fluid.ender_distillation.name=Boşluğun Çiyi
+item.bucketEnder_distillation.name=Boşluğun Çiyi Kovası
 
-fluid.vapor_of_levity=Vapor of Levity
-tile.fluid.vapor_of_levity.name=Vapor of Levity
-item.bucketVapor_of_levity.name=Vapor of Levity Bucket
+fluid.vapor_of_levity=Hafiflik Buharı
+tile.fluid.vapor_of_levity.name=Hafiflik Buharı
+item.bucketVapor_of_levity.name=Hafiflik Buharı Kovası
 
 fluid.eio.xpjuice=Sıvı TP
 tile.fluid.eio.xpjuice.name=Sıvı TP
@@ -225,60 +225,60 @@ item.bucketXpjuice.name=TP Kovası
 enderio.fluid.millibucket.abr=L
 
 enderio.fuel.tooltip.heading=Yakıt Detayları
-enderio.fuel.tooltip.burnTime=burn time {0,number}
+enderio.fuel.tooltip.burnTime=yanma süresi {0,number}
 enderio.fluid.millibucketsTick=L/t
 enderio.coolant.tooltip.heading=Soğutma sıvısı
-enderio.coolant.tooltip.degreesPerBucket=Deg per bucket
-enderio.gas.gasTick=Gas/t
+enderio.coolant.tooltip.degreesPerBucket=Kova başına derece
+enderio.gas.gasTick=Gaz/t
 
 #Materials
-enderio.itemMachinePart.name=Machine Parts
-item.itemMachinePart.name=Machine Parts
-enderio.machineChassi.name=Machine Chassis
-enderio.basicGear.name=Basic Gear
-enderio.soulMachineChassi.name=Soul Machine Chassis
-enderio.endSteelMachineChassi.name=End Steel Chassis
-enderio.pulsatingCrystal.name=Pulsating Crystal
-enderio.vibrantCrystal.name=Vibrant Crystal
-enderio.enderCrystal.name=Ender Crystal
-enderio.attractorCrystal.name=Enticing Crystal
-enderio.weatherCrystal.name=Weather Crystal
+enderio.itemMachinePart.name=Makine Parçaları
+item.itemMachinePart.name=Makine Parçaları
+enderio.machineChassi.name=Makine Şasisi
+enderio.basicGear.name=Temel Dişli
+enderio.soulMachineChassi.name=Ruh Makine Şasisi
+enderio.endSteelMachineChassi.name=End Çelik Şasisi
+enderio.pulsatingCrystal.name=Titreşen Kristal
+enderio.vibrantCrystal.name=Vibrant Kristal
+enderio.enderCrystal.name=Ender Kristali
+enderio.attractorCrystal.name=Cazip Kristal
+enderio.weatherCrystal.name=Hava Kristali
 
-item.itemGrindingBall.name=Grinding Ball
-enderio.darkGrindingBall.name=Dark Steel Ball
-enderio.electricalGrindingBall.name=Electrical Steel Ball
-enderio.energeticGrindingBall.name=Energetic Alloy Ball
-enderio.vibrantGrindingBall.name=Vibrant Alloy Ball
-enderio.redstoneGrindingBall.name=Redstone Alloy Ball
-enderio.conductiveGrindingBall.name=Conductive Iron Ball
-enderio.pulsatingGrindingBall.name=Pulsating Iron Ball
-enderio.soulariumGrindingBall.name=Soularium Ball
-enderio.endSteelGrindingBall.name=End Steel Ball
+item.itemGrindingBall.name=Öğütme Bilyesi
+enderio.darkGrindingBall.name=Kara Çelik Bilyesi
+enderio.electricalGrindingBall.name=Elektriksel Çelik Bilye
+enderio.energeticGrindingBall.name=Enerjik Alaşım Bilyesi
+enderio.vibrantGrindingBall.name=Vibrant Alaşım Bilye
+enderio.redstoneGrindingBall.name=Kızıltaş Alaşımı Bilyesi
+enderio.conductiveGrindingBall.name=İletken Demir Bilyesi
+enderio.pulsatingGrindingBall.name=Titreşen Demir Bilyesi
+enderio.soulariumGrindingBall.name=Ruhanyum Bilyesi
+enderio.endSteelGrindingBall.name=End Çelik Bilyesi
 
-enderio.darkGrindingBall.tooltip.detailed.line1=SAG Mill Grinding Ball
-enderio.darkGrindingBall.tooltip.detailed.line2=Main Output
-enderio.darkGrindingBall.tooltip.detailed.line3=Bonus Output
-enderio.darkGrindingBall.tooltip.detailed.line4=Power Reduction
-enderio.darkSteelRod.name=Dark Steel Rod
+enderio.darkGrindingBall.tooltip.detailed.line1=SAG Değirmeni Öğütme Bilyesi
+enderio.darkGrindingBall.tooltip.detailed.line2=Ana Çıktı
+enderio.darkGrindingBall.tooltip.detailed.line3=Bonus Çıktı
+enderio.darkGrindingBall.tooltip.detailed.line4=Güç Azaltımı
+enderio.darkSteelRod.name=Kara Çelik Çubuk
 
-tile.blockReinforcedObsidian.name=Reinforced Obsidian
-tile.blockReinforcedObsidian.tooltip.common.line1=Wither Proof
+tile.blockReinforcedObsidian.name=Güçlendirilmiş Obsidyen
+tile.blockReinforcedObsidian.tooltip.common.line1=Soluk Geçirmez
 
 #Quartz / Glass
-tile.blockFusedQuartz.name=Fused Quartz
-enderio.blockFusedQuartz.fusedQuartz.name=Fused Quartz
-enderio.blockFusedQuartz.fusedGlass.name=Quite Clear Glass
-enderio.blockFusedQuartz.enlightenedFusedQuartz.name=Enlightened Fused Quartz
-enderio.blockFusedQuartz.enlightenedFusedGlass.name=Enlightened Clear Glass
-enderio.blockFusedQuartz.darkFusedQuartz.name=Dark Fused Quartz
-enderio.blockFusedQuartz.darkFusedGlass.name=Dark Clear Glass
+tile.blockFusedQuartz.name=Eritilmiş Kuvars
+enderio.blockFusedQuartz.fusedQuartz.name=Eritilmiş Kuvars
+enderio.blockFusedQuartz.fusedGlass.name=Epey Berrak Cam
+enderio.blockFusedQuartz.enlightenedFusedQuartz.name=Aydınlanmış Kaynaşmış Kuvars
+enderio.blockFusedQuartz.enlightenedFusedGlass.name=Aydınlanmış Berrak Cam
+enderio.blockFusedQuartz.darkFusedQuartz.name=Kara Eritilmiş Kuvars
+enderio.blockFusedQuartz.darkFusedGlass.name=Kara Şeffaf Cam
 
-item.enderio.itemFusedQuartzFrame.name=Fused Quartz Frame
-enderio.itemPowderIngot=Powders & Ingots
+item.enderio.itemFusedQuartzFrame.name=Füzyonlanmış Kuvars Çerçevesi
+enderio.itemPowderIngot=Tozlar ve Külçeler
 
 #Alloys
 enderio.itemAlloy.name=Alaşım
-item.itemAlloy.name=Alloy
+item.itemAlloy.name=Alaşım
 enderio.electricalSteel.name=Elektriksel Çelik
 enderio.energeticAlloy.name=Enerjik Alaşım
 enderio.phasedGold.name=Vibrant Alaşım
@@ -291,179 +291,179 @@ enderio.soularium.name=Ruhanyum
 enderio.endSteel.name=End Çeliği
 enderio.endSteelNugget.name=End Çelik Parçası
 
-item.itemAlloyEndergy.name=Alloy
-enderio.crudeSteel.name=Clay Compound
-enderio.crystallineAlloy.name=Crystalline Alloy
-enderio.melodicAlloy.name=Melodic Alloy
-enderio.stellarAlloy.name=Stellar Alloy
-enderio.crystallinePinkSlime.name=Crystalline Pink Slime
-enderio.energeticSilver.name=Energetic Silver
-enderio.vividAlloy.name=Vivid Alloy
+item.itemAlloyEndergy.name=Alaşım
+enderio.crudeSteel.name=Kil Bileşiği
+enderio.crystallineAlloy.name=Kristal Alaşım
+enderio.melodicAlloy.name=Melodik Alaşım
+enderio.stellarAlloy.name=Stellar Alaşım
+enderio.crystallinePinkSlime.name=Kristal Pembe Balçık
+enderio.energeticSilver.name=Enerjik Gümüş
+enderio.vividAlloy.name=Vivid Alaşım
 
-item.itemGrindingBallEndergy.name=Grinding Ball
-enderio.crudeSteelGrindingBall.name=Clay Compound Grinding Ball
-enderio.crystallineAlloyGrindingBall.name=Crystalline Alloy Grinding Ball
-enderio.melodicAlloyGrindingBall.name=Melodic Alloy Grinding Ball
-enderio.stellarAlloyGrindingBall.name=Stellar Alloy Grinding Ball
-enderio.crystallinePinkSlimeGrindingBall.name=Crystalline Pink Slime Grinding Ball
-enderio.energeticSilverGrindingBall.name=Energetic Silver Grinding Ball
-enderio.vividAlloyGrindingBall.name=Vivid Alloy Grinding Ball
+item.itemGrindingBallEndergy.name=Öğütme Bilyesi
+enderio.crudeSteelGrindingBall.name=Kil Bileşimi Öğütme Bilyesi
+enderio.crystallineAlloyGrindingBall.name=Kristal Alaşım Öğütme Bilyesi
+enderio.melodicAlloyGrindingBall.name=Melodik Alaşım Öğütme Bilyesi
+enderio.stellarAlloyGrindingBall.name=Stellar Alaşım Öğütme Bilyesi
+enderio.crystallinePinkSlimeGrindingBall.name=Kristal Pembe Slime Öğütme Bilyesi
+enderio.energeticSilverGrindingBall.name=Enerjik Gümüş Öğütme Bilyesi
+enderio.vividAlloyGrindingBall.name=Vivid Alaşım Öğütme Bilyesi
 
-enderio.precientCrystal.name=Precient Crystal
-enderio.pulsatingPowder.name=Grains of Piezallity
-enderio.vibrantPowder.name=Grains of Vibrancy
-enderio.enderCrystalPowder.name=Grains of the End
-enderio.precientPowder.name=Grains of Prescience
+enderio.precientCrystal.name=Önsezi Kristali
+enderio.pulsatingPowder.name=Piezallity Tahılları
+enderio.vibrantPowder.name=Canlılık Tahılları
+enderio.enderCrystalPowder.name=End'in Tahılları
+enderio.precientPowder.name=Önsezi Tahılları
 
 #Balls
-enderio.electricalSteel_ball.name=Electrical Steel Ball
-enderio.energeticAlloy_ball.name=Energetic Alloy Ball
-enderio.phasedGold_ball.name=Vibrant Alloy Ball
-enderio.redstoneAlloy_ball.name=Redstone Alloy Ball
-enderio.conductiveIron_ball.name=Conductive Iron Ball
-enderio.phasedIron_ball.name=Pulsating Iron Ball
-enderio.vibrantNugget_ball.name=Vibrant Alloy Nugget Ball
-enderio.darkSteel_ball.name=Dark Steel Ball
-enderio.soularium_ball.name=Soularium Ball
-enderio.endSteel_ball.name=End Steel Ball
+enderio.electricalSteel_ball.name=Elektriksel Çelik Bilye
+enderio.energeticAlloy_ball.name=Enerjik Alaşım Bilyesi
+enderio.phasedGold_ball.name=Vibrant Alaşım Bilye
+enderio.redstoneAlloy_ball.name=Kızıltaş Alaşımı Bilyesi
+enderio.conductiveIron_ball.name=İletken Demir Bilyesi
+enderio.phasedIron_ball.name=Titreşen Demir Bilyesi
+enderio.vibrantNugget_ball.name=Vibrant Alaşım Parçası Topu
+enderio.darkSteel_ball.name=Kara Çelik Bilyesi
+enderio.soularium_ball.name=Ruhanyum Bilyesi
+enderio.endSteel_ball.name=End Çelik Bilyesi
 
-tile.blockIngotStorage.name=Ingot Storage
-tile.enderio.electricalSteel.name=Electrical Steel Block
-tile.enderio.energeticAlloy.name=Energetic Alloy Block
-tile.enderio.phasedGold.name=Vibrant Alloy Block
-tile.enderio.redstoneAlloy.name=Redstone Alloy Block
-tile.enderio.conductiveIron.name=Conductive Iron Block
-tile.enderio.phasedIron.name=Pulsating Iron Block
+tile.blockIngotStorage.name=Külçe Depolama
+tile.enderio.electricalSteel.name=Elektriksel Çelik Bloğu
+tile.enderio.energeticAlloy.name=Enerjik Alaşım Bloğu
+tile.enderio.phasedGold.name=Vibrant Alaşım Bloğu
+tile.enderio.redstoneAlloy.name=Kızıltaş Alaşımı Bloğu
+tile.enderio.conductiveIron.name=İletken Demir Bloğu
+tile.enderio.phasedIron.name=Titreşen Demir Bloğu
 tile.enderio.vibrantNugget.name=Vibrant Parçası Blok
 tile.enderio.darkSteel.name=Kara çelik Bloğu
-tile.enderio.soularium.name=Soularium Block
-tile.enderio.endSteel.name=End Steel Block
+tile.enderio.soularium.name=Ruhanyum Bloğu
+tile.enderio.endSteel.name=End Çelik Bloğu
 
-tile.blockIngotStorageEndergy.name=Alloy Block
-tile.enderio.crudeSteel.name=Clay Compound Block
-tile.enderio.crystallineAlloy.name=Crystalline Alloy Block
-tile.enderio.melodicAlloy.name=Melodic Alloy Block
-tile.enderio.stellarAlloy.name=Stellar Alloy Block
-tile.enderio.crystallinePinkSlime.name=Crystalline Pink Slime Block
-tile.enderio.energeticSilver.name=Energetic Silver Block
-tile.enderio.vividAlloy.name=Vivid Alloy Block
+tile.blockIngotStorageEndergy.name=Alaşım Bloğu
+tile.enderio.crudeSteel.name=Kil Bileşik Bloğu
+tile.enderio.crystallineAlloy.name=Kristalin Alaşım Bloğu
+tile.enderio.melodicAlloy.name=Melodik Alaşım Bloğu
+tile.enderio.stellarAlloy.name=Stellar Alaşım Bloğu
+tile.enderio.crystallinePinkSlime.name=Kristal Pembe Balçık Bloğu
+tile.enderio.energeticSilver.name=Enerjik Gümüş Bloğu
+tile.enderio.vividAlloy.name=Canlı Alaşım Bloğu
 
 #Powder / Ingot
 item.itemPowderIngot.name=Toz
-enderio.powderCoal.name=Coal Powder
-enderio.powderIron.name=Iron Powder
-enderio.powderGold.name=Gold Powder
-enderio.powderCopper.name=Copper Powder
-enderio.powderTin.name=Tin Powder
-enderio.powderEnder.name=Ender Pearl Powder
-enderio.powderObsidian.name=Obsidian Powder
-enderio.ingotEnderiumBase.name=Enderium Base
+enderio.powderCoal.name=Kömür Tozu
+enderio.powderIron.name=Demir Tozu
+enderio.powderGold.name=Altın Tozu
+enderio.powderCopper.name=Bakır Tozu
+enderio.powderTin.name=Kalay Tozu
+enderio.powderEnder.name=Ender İncisi Tozu
+enderio.powderObsidian.name=Obsidyen Tozu
+enderio.ingotEnderiumBase.name=Enderyum Tabanı
 
 #Capacitors
 enderio.itemBasicCapacitor.name=Kapasitör
 item.itemBasicCapacitor.name=Kapasitör
 enderio.basicCapacitor.name=Basit Kapasitör
 enderio.activatedCapacitor.name=İki-Katmanlı Kapasitör
-enderio.enderCapacitor.name=Octadic Capacitor
-enderio.crystallineCapacitor.name=Crystalline Capacitor
-enderio.melodicCapacitor.name=Melodic Capacitor
-enderio.stellarCapacitor.name=Stellar Capacitor
-enderio.silverCapacitor.name=Silver Capacitor
-enderio.endergeticCapacitor.name=Endergetic Capacitor
-enderio.endergisedCapacitor.name=Endergised Capacitor
-enderio.totemicCapacitor.name=Totemic Capacitor
+enderio.enderCapacitor.name=Oktadik Kapasitör
+enderio.crystallineCapacitor.name=Kristal Kapasitör
+enderio.melodicCapacitor.name=Melodik Kapasitör
+enderio.stellarCapacitor.name=Stellar Kapasitör
+enderio.silverCapacitor.name=Gümüş Kapasitör
+enderio.endergeticCapacitor.name=Endergetic Kapasitör
+enderio.endergisedCapacitor.name=Enderleştirilmiş Kapasitör
+enderio.totemicCapacitor.name=Totemik Kapasitör
 
-enderio.machine.tooltip.upgrade.name=Machine Upgrade
+enderio.machine.tooltip.upgrade.name=Makine Yükseltmesi
 enderio.machine.tooltip.upgrade=Yükseltmeler:
-enderio.machine.tooltip.upgrade.tier=Tier: 
-enderio.machine.tooltip.upgrade.energyreceived=Max Energy Received: 
-enderio.machine.tooltip.upgrade.energyextracted=Max Energy Extracted: 
-enderio.machine.tooltip.upgrade.farmstation=Farming station radius: 
-enderio.machine.tooltip.upgrade.energystorage=Max energy storage: 
-enderio.machine.tooltip.upgrade.range=Range upgrade:
-enderio.machine.tooltip.clearConfig=This will clear all stored info!
+enderio.machine.tooltip.upgrade.tier=Kademe: 
+enderio.machine.tooltip.upgrade.energyreceived=Maks. Alınan Enerji: 
+enderio.machine.tooltip.upgrade.energyextracted=Maksimum Çekilen Enerji: 
+enderio.machine.tooltip.upgrade.farmstation=Çiftlik istasyonu yarıçapı: 
+enderio.machine.tooltip.upgrade.energystorage=Maks. enerji depolama: 
+enderio.machine.tooltip.upgrade.range=Menzil yükseltmesi:
+enderio.machine.tooltip.clearConfig=Bu, depolanan tüm bilgileri siler!
 
 #Machines
-tile.blockStirlingGenerator.name=Stirling Generator
-tile.blockStirlingGenerator.tooltip.detailed.line1=Burns solid fuel to generate power
-tile.blockStirlingGenerator.tooltip.detailed.line2=Can be upgraded to increase output
-tile.blockStirlingGenerator.tooltip.detailed.line3=and efficiency with capacitors
+tile.blockStirlingGenerator.name=Stirling Jeneratörü
+tile.blockStirlingGenerator.tooltip.detailed.line1=Güç üretmek için katı yakıt yakar
+tile.blockStirlingGenerator.tooltip.detailed.line2=Çıktıyı artırmak için yükseltilebilir
+tile.blockStirlingGenerator.tooltip.detailed.line3=ve kapasitörlerle verimlilik
 
 tile.blockReservoir.name=Rezervuar
-tile.blockReservoir.tooltip.detailed.line1=Formed when placed 2x2x1
-tile.blockReservoir.tooltip.detailed.line2=Add two buckets of water for
-tile.blockReservoir.tooltip.detailed.line3=an infinite water source
-tile.blockReservoir.tooltip.detailed.line4=Produces one bucket per second
-tile.blockReservoir.tooltip.detailed.line5=R-Click with a wrench to
-tile.blockReservoir.tooltip.detailed.line6=enable auto-output
+tile.blockReservoir.tooltip.detailed.line1=2x2x1 yerleştirildiğinde oluşur
+tile.blockReservoir.tooltip.detailed.line2=Şunun için iki kova su ekle
+tile.blockReservoir.tooltip.detailed.line3=sonsuz bir su kaynağı
+tile.blockReservoir.tooltip.detailed.line4=Saniyede bir kova üretir
+tile.blockReservoir.tooltip.detailed.line5=İngiliz anahtarıyla sağ tıklayarak
+tile.blockReservoir.tooltip.detailed.line6=otomatik çıktıyı aktifleştir
 
 tile.blockAlloySmelter.name=Alaşım İzabesi
-tile.blockAlloySmelter.tooltip.detailed.line1=Used to create EnderIO alloys
-tile.blockAlloySmelter.tooltip.detailed.line2=Can also be used as a powered
-tile.blockAlloySmelter.tooltip.detailed.line3=furnace
-tile.blockAlloySmelter.tooltip.detailed.line4=Upgrade with capacitors to increase
-tile.blockAlloySmelter.tooltip.detailed.line5=speed and energy storage
+tile.blockAlloySmelter.tooltip.detailed.line1=EnderIO alaşımları oluşturmak için kullanılır
+tile.blockAlloySmelter.tooltip.detailed.line2=Ayrıca güç verilmiş olarak da kullanılabilir
+tile.blockAlloySmelter.tooltip.detailed.line3=fırın
+tile.blockAlloySmelter.tooltip.detailed.line4=Artırmak için kapasitörlerle yükselt
+tile.blockAlloySmelter.tooltip.detailed.line5=hız ve enerji depolama
 
-tile.blockSolarPanel.name=Photovoltaic Cell
-tile.blockSolarPanel.advanced.name=Advanced Photovoltaic Cell
-tile.blockSolarPanel.vibrant.name=Vibrant Photovoltaic Cell
+tile.blockSolarPanel.name=Fotovoltaik Hücre
+tile.blockSolarPanel.advanced.name=Gelişmiş Fotovoltaik Hücre
+tile.blockSolarPanel.vibrant.name=Vibrant Fotovoltaik Hücre
 tile.blockSolarPanel.tooltip.common.line1=Güneş Enerjisi!
-tile.blockSolarPanel.tooltip.detailed.line1=Produces power during daylight hours
-tile.blockSolarPanel.tooltip.detailed.line2=Must have a clear line of sight to
-tile.blockSolarPanel.tooltip.detailed.line3=the sky
+tile.blockSolarPanel.tooltip.detailed.line1=Gün ışığı saatlerinde güç üretir
+tile.blockSolarPanel.tooltip.detailed.line2=Açık bir görüş hattı olmalı:
+tile.blockSolarPanel.tooltip.detailed.line3=gökyüzü
 enderio.maxSolorProduction=Max Çıkış
 enderio.tooltip.efficiency=Verimlilik
-enderio.tooltip.sunlightBlocked=Sky Blocked!
+enderio.tooltip.sunlightBlocked=Gökyüzü Kapalı!
 
-tile.blockElectricLight.name=Powered Light
-item.itemElectricLight.name=Powered Light
-item.itemElectricLight.tooltip.detailed.line1=Lights a large area when supplied with
-item.itemElectricLight.tooltip.detailed.line2=power and a redstone signal.
+tile.blockElectricLight.name=Elektrikli Işık
+item.itemElectricLight.name=Elektrikli Işık
+item.itemElectricLight.tooltip.detailed.line1=Güç sağlandığında geniş bir alanı aydınlatır
+item.itemElectricLight.tooltip.detailed.line2=güç ve kızıltaş sinyali.
 
-item.itemElectricLightInverted.name=Powered Light (Inverted)
-item.itemElectricLightInverted.tooltip.detailed.line1=Lights a large area when supplied with
-item.itemElectricLightInverted.tooltip.detailed.line2=power.
-item.itemElectricLightInverted.tooltip.detailed.line3=Turn off with a redstone signal.
+item.itemElectricLightInverted.name=Enerjili Işık (Ters)
+item.itemElectricLightInverted.tooltip.detailed.line1=Güç sağlandığında geniş bir alanı aydınlatır
+item.itemElectricLightInverted.tooltip.detailed.line2=güç.
+item.itemElectricLightInverted.tooltip.detailed.line3=Kızıltaş sinyaliyle kapat.
 
 item.itemLight.name=Işık
-item.itemLight.tooltip.detailed.line1=Emits light with a
-item.itemLight.tooltip.detailed.line2=redstone signal.
+item.itemLight.tooltip.detailed.line1=Bir kızıltaş sinyaliyle
+item.itemLight.tooltip.detailed.line2=kızıltaş sinyali.
 
-item.itemLightInverted.name=Light (Inverted)
-item.itemLightInverted.tooltip.detailed.line1=Emits light, disable with
-item.itemLightInverted.tooltip.detailed.line2=a redstone signal.
+item.itemLightInverted.name=Işık (Ters)
+item.itemLightInverted.tooltip.detailed.line1=Işık yayar, şununla kapat
+item.itemLightInverted.tooltip.detailed.line2=bir kızıltaş sinyali.
 
-tile.blockLightNode.name=Light Node
+tile.blockLightNode.name=Işık Düğümü
 
-item.itemWirelessLight.name=Wireless Powered Light
-item.itemWirelessLight.tooltip.detailed.line1=Lights a large area when supplied with
-item.itemWirelessLight.tooltip.detailed.line2=power and a redstone signal.
-item.itemWirelessLight.tooltip.detailed.line3=Can receive power from wireless chargers.
+item.itemWirelessLight.name=Kablosuz Enerjili Işık
+item.itemWirelessLight.tooltip.detailed.line1=Güç sağlandığında geniş bir alanı aydınlatır
+item.itemWirelessLight.tooltip.detailed.line2=güç ve kızıltaş sinyali.
+item.itemWirelessLight.tooltip.detailed.line3=Kablosuz şarj cihazlarından güç alabilir.
 
-item.itemWirelessLightInverted.name=Wireless Powered Light (Inverted)
-item.itemWirelessLightInverted.tooltip.detailed.line1=Lights a large area when supplied with
-item.itemWirelessLightInverted.tooltip.detailed.line2=power.
-item.itemWirelessLightInverted.tooltip.detailed.line3=Turn off with a redstone signal.
-item.itemWirelessLightInverted.tooltip.detailed.line4=Can receive power from wireless chargers.
+item.itemWirelessLightInverted.name=Kablosuz Güç Işığı (Ters)
+item.itemWirelessLightInverted.tooltip.detailed.line1=Güç sağlandığında geniş bir alanı aydınlatır
+item.itemWirelessLightInverted.tooltip.detailed.line2=güç.
+item.itemWirelessLightInverted.tooltip.detailed.line3=Kızıltaş sinyaliyle kapat.
+item.itemWirelessLightInverted.tooltip.detailed.line4=Kablosuz şarj cihazlarından güç alabilir.
 
 
-tile.blockCapBank.name=Capacitor Bank
-tile.blockCapBank.creative.name=Creative Capacitor Bank
-tile.blockCapBank.simple.name=Basic Capacitor Bank
-tile.blockCapBank.activated.name=Capacitor Bank
-tile.blockCapBank.vibrant.name=Vibrant Capacitor Bank
-tile.blockCapBank.tooltip.detailed.line1=Multi-block energy storage.
-tile.blockCapBank.tooltip.detailed.line2=Can charge RF powered items.
-tile.blockCapBank.tooltip.detailed.line3=Shift-R-Click on a face with an empty hand
-tile.blockCapBank.tooltip.detailed.line4=to change information display
-tile.blockCapBank.tooltip.hasItems={0,number,integer} {0,choice,1#item|1<items} in inventory
+tile.blockCapBank.name=Kapasitör Bankası
+tile.blockCapBank.creative.name=Yaratıcı Kapasitör Bankası
+tile.blockCapBank.simple.name=Basit Kapasitör Bankası
+tile.blockCapBank.activated.name=Kapasitör Bankası
+tile.blockCapBank.vibrant.name=Vibrant Kapasitör Bankası
+tile.blockCapBank.tooltip.detailed.line1=Çok bloklu enerji depolama.
+tile.blockCapBank.tooltip.detailed.line2=RF ile çalışan eşyaları şarj edebilir.
+tile.blockCapBank.tooltip.detailed.line3=Boş elle bir yüze Shift+sağ tıkla
+tile.blockCapBank.tooltip.detailed.line4=bilgi görünümünü değiştirmek için
+tile.blockCapBank.tooltip.hasItems={0,number,integer} {0,choice,1#item|1<items} envanterde
 tile.blockCapBank.tooltipPrefix=İçerir:
 
-enderio.capbank.maxIO=Max I/O
-enderio.capbank.maxIn=Max Input
+enderio.capbank.maxIO=Maks. G/Ç
+enderio.capbank.maxIn=Maksimum Girdi
 enderio.capbank.maxOut=Max Çıkış
-enderio.capbank.change=I/O
-enderio.capbank.iodisplay.stable=I/O
+enderio.capbank.change=G/Ç
+enderio.capbank.iodisplay.stable=G/Ç
 enderio.capbank.iodisplay.gain=Giriş
 enderio.capbank.iodisplay.loss=Çıkış
 enderio.capbank.iodisplay.input=Girdi
@@ -473,640 +473,640 @@ tile.blockWirelessCharger.name=Kablosuz Şarj Cihazı
 tile.blockWirelessCharger.tooltip.detailed.line1=Yakındaki eşyaları şarj eder
 tile.blockWirelessCharger.tooltip.detailed.line2=oyuncu envanterleri
 
-tile.blockSagMill.name=SAG Mill
-tile.blockSagMill.tooltip.detailed.line1=Grinds ore and other items
-tile.blockSagMill.tooltip.detailed.line2=Add grinding balls to increase output
-tile.blockSagMill.tooltip.detailed.line3=and efficiency
-tile.blockSagMill.tooltip.detailed.line4=Upgrade with capacitors to increase
-tile.blockSagMill.tooltip.detailed.line5=speed and energy storage
+tile.blockSagMill.name=SAG Değirmeni
+tile.blockSagMill.tooltip.detailed.line1=Cevheri ve diğer eşyaları öğütür
+tile.blockSagMill.tooltip.detailed.line2=Çıktıyı artırmak için öğütme bilyeleri ekle
+tile.blockSagMill.tooltip.detailed.line3=ve verimlilik
+tile.blockSagMill.tooltip.detailed.line4=Artırmak için kapasitörlerle yükselt
+tile.blockSagMill.tooltip.detailed.line5=hız ve enerji depolama
 tile.blockSagMill.tooltipPrefix=İçerir:
 
-tile.blockHyperCube.name=Dimensional Transceiver (Deprecated)
-tile.blockHyperCube.tooltip.detailed.line1=Convert to new model by placing
-tile.blockHyperCube.tooltip.detailed.line2=in the crafting grid
+tile.blockHyperCube.name=Boyutsal Alıcı (Kullanımdan Kaldırıldı)
+tile.blockHyperCube.tooltip.detailed.line1=Yerleştirerek yeni modele dönüştür
+tile.blockHyperCube.tooltip.detailed.line2=üretim ızgarasında
 
-tile.blockTransceiver.name=Dimensional Transceiver
-tile.blockTransceiver.tooltip.detailed.line1=Transports items, fluids and power
-tile.blockTransceiver.tooltip.detailed.line2=wirelessly across any distance and
-tile.blockTransceiver.tooltip.detailed.line3=between dimensions
+tile.blockTransceiver.name=Boyutsal Alıcı
+tile.blockTransceiver.tooltip.detailed.line1=Eşya, sıvı ve güç taşır
+tile.blockTransceiver.tooltip.detailed.line2=her mesafede kablosuz olarak ve
+tile.blockTransceiver.tooltip.detailed.line3=boyutlar arasında
 
-tile.blockEnderRail.name=Ender Rail
-tile.blockEnderRail.tooltip.detailed.line1=Teleports minecarts when placed
-tile.blockEnderRail.tooltip.detailed.line2=on a Dimensional Transceiver
-tile.blockEnderRail.tooltip.detailed.line3=Set destinations using the
-tile.blockEnderRail.tooltip.detailed.line4=Transceiver's rail tab
-tile.blockEnderRail.tooltip.detailed.line5=Set direction with a Shift-R-Click
-tile.blockEnderRail.tooltip.detailed.line6=of a wrench
+tile.blockEnderRail.name=Ender Rayı
+tile.blockEnderRail.tooltip.detailed.line1=Yerleştirildiğinde vagonları ışınlar
+tile.blockEnderRail.tooltip.detailed.line2=Boyutsal Alıcı üzerinde
+tile.blockEnderRail.tooltip.detailed.line3=Hedefleri şunu kullanarak belirle:
+tile.blockEnderRail.tooltip.detailed.line4=Alıcının ray sekmesi
+tile.blockEnderRail.tooltip.detailed.line5=Yönü Shift+sağ tık ile ayarla
+tile.blockEnderRail.tooltip.detailed.line6=bir İngiliz anahtarının
 
-enderio.trans.showChannels=<Shift to show channels>
+enderio.trans.showChannels=<Kanalları göstermek için Shift>
 
 enderio.trans.power=Güç
 enderio.trans.item=Eşya
 enderio.trans.fluid=Sıvı
-enderio.trans.rail=Rail
+enderio.trans.rail=Ray
 
-enderio.trans.receiving=Receiving
-enderio.trans.sending=Sending
+enderio.trans.receiving=Alıyor
+enderio.trans.sending=Gönderiliyor
 
-tile.blockPowerMonitor.name=Power Monitor
-tile.blockPowerMonitor.tooltip.detailed.line1=Displays details of power use and
-tile.blockPowerMonitor.tooltip.detailed.line2=storage
-tile.blockPowerMonitor.tooltip.detailed.line3=Can be used to emit redstone
-tile.blockPowerMonitor.tooltip.detailed.line4=based on stored power levels
-tile.blockPowerMonitor.tooltip.detailed.line5=Must be attached to an EnderIO
+tile.blockPowerMonitor.name=Güç Monitörü
+tile.blockPowerMonitor.tooltip.detailed.line1=Güç kullanımı ve
+tile.blockPowerMonitor.tooltip.detailed.line2=depolama
+tile.blockPowerMonitor.tooltip.detailed.line3=Kızıltaş sinyali yaymak için kullanılabilir
+tile.blockPowerMonitor.tooltip.detailed.line4=depolanan güç seviyelerine göre
+tile.blockPowerMonitor.tooltip.detailed.line5=Bir EnderIO'ya bağlanmalıdır
 tile.blockPowerMonitor.tooltip.detailed.line6=Kanal
 
-tile.blockVat.name=The Vat
-tile.blockVat.tooltip.detailed.line1=Used to brew EnderIO fluids
+tile.blockVat.name=Tekne
+tile.blockVat.tooltip.detailed.line1=EnderIO sıvılarını demlemek için kullanılır
 
 tile.blockEnchanter.name=Büyüleyici
-tile.blockEnchanter.tooltip.detailed.line1=Uses XP to combine items
-tile.blockEnchanter.tooltip.detailed.line2=and a book and quill to
-tile.blockEnchanter.tooltip.detailed.line3=created enchanted books
-tile.blockEnchanter.tooltip.detailed.line4=Outputs a comparator signal
-tile.blockEnchanter.tooltip.detailed.line5=based on the second slot's
-tile.blockEnchanter.tooltip.detailed.line6=count, and works with hoppers
+tile.blockEnchanter.tooltip.detailed.line1=Eşyaları birleştirmek için XP kullanır
+tile.blockEnchanter.tooltip.detailed.line2=ve bir kitap ve tüy kalem
+tile.blockEnchanter.tooltip.detailed.line3=oluşturulan büyülü kitaplar
+tile.blockEnchanter.tooltip.detailed.line4=Karşılaştırıcı sinyali verir
+tile.blockEnchanter.tooltip.detailed.line5=ikinci yuvanınkine göre
+tile.blockEnchanter.tooltip.detailed.line6=adet ve hunilerle çalışır
 
-tile.blockCombustionGenerator.name=Combustion Generator
-tile.blockCombustionGenerator.tooltip.detailed.line1=Burns liquid fuel to generate power
-tile.blockCombustionGenerator.tooltip.detailed.line2=Requires a coolant (e.g. water)
-tile.blockCombustionGenerator.tooltip.detailed.line3=Output dependent on fuel
+tile.blockCombustionGenerator.name=Yanma Jeneratörü
+tile.blockCombustionGenerator.tooltip.detailed.line1=Güç üretmek için sıvı yakıt yakar
+tile.blockCombustionGenerator.tooltip.detailed.line2=Soğutma sıvısı gerektirir (örn. su)
+tile.blockCombustionGenerator.tooltip.detailed.line3=Çıktı yakıta bağlı
 
-tile.blockZombieGenerator.name=Zombie Generator
-tile.blockZombieGenerator.tooltip.detailed.line1=Consumes Nutrient Distillation
-tile.blockZombieGenerator.tooltip.detailed.line2=to generate power
-enderio.zombieGenerator.fuelTank=Nutrient Tank
-enderio.gui.fluid.minReq=%s Required for activation
+tile.blockZombieGenerator.name=Zombi Jeneratörü
+tile.blockZombieGenerator.tooltip.detailed.line1=Besin Damıtma tüketir
+tile.blockZombieGenerator.tooltip.detailed.line2=güç üretmek için
+enderio.zombieGenerator.fuelTank=Besin Tankı
+enderio.gui.fluid.minReq=Aktivasyon için %s gerekli
 
-tile.blockFrankenzombieGenerator.name=Frank'N'Zombie Generator
-tile.blockFrankenzombieGenerator.tooltip.detailed.line1=Consumes Nutrient Distillation
-tile.blockFrankenzombieGenerator.tooltip.detailed.line2=to generate even more power
-enderio.frankenzombieGenerator.fuelTank=Nutrient Tank
+tile.blockFrankenzombieGenerator.name=Frank'N'Zombie Jeneratörü
+tile.blockFrankenzombieGenerator.tooltip.detailed.line1=Besin Damıtma tüketir
+tile.blockFrankenzombieGenerator.tooltip.detailed.line2=daha da fazla güç üretmek için
+enderio.frankenzombieGenerator.fuelTank=Besin Tankı
 
-tile.blockEnderGenerator.name=Ender Generator
-tile.blockEnderGenerator.tooltip.detailed.line1=Consumes Dew of the Void
-tile.blockEnderGenerator.tooltip.detailed.line2=to generate power
-enderio.enderGenerator.fuelTank=Void Tank
+tile.blockEnderGenerator.name=Ender Jeneratörü
+tile.blockEnderGenerator.tooltip.detailed.line1=Hiçlik Çiyi tüketir
+tile.blockEnderGenerator.tooltip.detailed.line2=güç üretmek için
+enderio.enderGenerator.fuelTank=Hiçlik Tankı
 
 tile.blockKillerJoe.name=Killer Joe
-tile.blockKillerJoe.tooltip.detailed.line1=Attacks nearby creatures when
-tile.blockKillerJoe.tooltip.detailed.line2=supplied with a sword and
-tile.blockKillerJoe.tooltip.detailed.line3=Nutrient Distillation
-tile.blockKillerJoe.tooltip.detailed.line4=Experience can be drained as
-tile.blockKillerJoe.tooltip.detailed.line5=Liquid XP using fluid conduits
+tile.blockKillerJoe.tooltip.detailed.line1=Şu durumda yakındaki yaratıklara saldırır
+tile.blockKillerJoe.tooltip.detailed.line2=bir kılıç ve
+tile.blockKillerJoe.tooltip.detailed.line3=Besin Damıtma
+tile.blockKillerJoe.tooltip.detailed.line4=Tecrübe şu şekilde çekilebilir
+tile.blockKillerJoe.tooltip.detailed.line5=Sıvı kanallarını kullanarak sıvı TP
 
-enderio.killerJoe.fuelTank=Nutrient Tank
-enderio.killerJoe.giveXp.tooltip=Take XP
-enderio.killerJoe.giveXp10.tooltip=Take 10 Levels of XP
+enderio.killerJoe.fuelTank=Besin Tankı
+enderio.killerJoe.giveXp.tooltip=TP Al
+enderio.killerJoe.giveXp10.tooltip=10 Seviye XP Al
 
 tile.blockSliceAndSplice.name=Slice'N'Splice
-tile.blockSliceAndSplice.tooltip.detailed.line1=Slices heads and splices in
-tile.blockSliceAndSplice.tooltip.detailed.line2=all sorts of useful things
+tile.blockSliceAndSplice.tooltip.detailed.line1=Kafaları dilimler ve içine ekler
+tile.blockSliceAndSplice.tooltip.detailed.line2=her türlü faydalı şeyi
 
-tile.blockFarmStation.name=Farming Station
-tile.blockFarmStation.tooltip.detailed.line1=Plants and harvests crops
-tile.blockFarmStation.tooltip.detailed.line2=Requires power and
-tile.blockFarmStation.tooltip.detailed.line3=appropriate tools (hoe, axe)
-tile.blockFarmStation.tooltip.detailed.line4=Looting / fortune on tools
-tile.blockFarmStation.tooltip.detailed.line5=applied when harvesting
-tile.blockFarmStation.tooltip.detailed.line6=Upgrade with capacitors to increase
-tile.blockFarmStation.tooltip.detailed.line7=range, upgrade also increases power use
+tile.blockFarmStation.name=Tarım İstasyonu
+tile.blockFarmStation.tooltip.detailed.line1=Ekinleri eker ve hasat eder
+tile.blockFarmStation.tooltip.detailed.line2=Güç ve
+tile.blockFarmStation.tooltip.detailed.line3=uygun aletler (çapa, balta) gerektirir
+tile.blockFarmStation.tooltip.detailed.line4=Aletlerde Yağma / Servet
+tile.blockFarmStation.tooltip.detailed.line5=hasat sırasında uygulanır
+tile.blockFarmStation.tooltip.detailed.line6=Artırmak için kapasitörlerle yükselt
+tile.blockFarmStation.tooltip.detailed.line7=menzil, yükseltme ayrıca güç kullanımını artırır
 
-enderio.farm.note.outputFull=Output Full
-enderio.farm.note.noSeeds=No Seeds
-enderio.farm.note.noAxe=No Axe
-enderio.farm.note.noHoe=No Hoe
-enderio.farm.note.noPower=No Power
-enderio.farm.gui.baseUse=Base Use:
+enderio.farm.note.outputFull=Çıktı Dolu
+enderio.farm.note.noSeeds=Tohum Yok
+enderio.farm.note.noAxe=Balta Yok
+enderio.farm.note.noHoe=Çapa Yok
+enderio.farm.note.noPower=Güç yok
+enderio.farm.gui.baseUse=Temel Kullanım:
 
 tile.blockTank.name=Sıvı Tankı
-tile.blockTank.advanced.name=Pressurized Fluid Tank
+tile.blockTank.advanced.name=Basınçlı Sıvı Tankı
 tile.blockTank.tooltip.detailed.line1=Taşınabilir Sıvı Tankı
-tile.blockTank.tooltip.detailed.line2=Can be used to empty and
-tile.blockTank.tooltip.detailed.line3=fill fluid containers
+tile.blockTank.tooltip.detailed.line2=Boşaltmak ve doldurmak için kullanılabilir
+tile.blockTank.tooltip.detailed.line3=sıvı kaplarını doldur
 enderio.tank.tank=Tank
 enderio.tooltip.none=Hiç
-enderio.tooltip.fluidStored=Fluid Stored
+enderio.tooltip.fluidStored=Depolanan Sıvı
 
-enderio.gui.tooltip.voidslot=Void Slot
-enderio.gui.void.mode=Void Mode
+enderio.gui.tooltip.voidslot=Hiçlik Yuvası
+enderio.gui.void.mode=Boşluk Modu
 
 enderio.gui.void.mode.always=Her zaman
-enderio.gui.void.mode.always.desc=Void slot accepts all items
+enderio.gui.void.mode.always.desc=Hiçlik yuvası tüm eşyaları kabul eder
 
-enderio.gui.void.mode.if_not_container=If Not Container
-enderio.gui.void.mode.if_not_container.desc=Void slot accepts all items that are not fluid containers
+enderio.gui.void.mode.if_not_container=Konteyner Değilse
+enderio.gui.void.mode.if_not_container.desc=Hiçlik yuvası sıvı konteyneri olmayan tüm eşyaları kabul eder
 
 enderio.gui.void.mode.never=Asla
-enderio.gui.void.mode.never.desc=Void slot does not accept items
+enderio.gui.void.mode.never.desc=Hiçlik yuvası eşya kabul etmez
 
 tile.blockCrafter.name=Üretici
-tile.blockCrafter.tooltip.detailed.line1=A powered auto-crafter
-tile.blockCrafter.tooltip.detailed.line2=Consumes power per operation
-tile.blockCrafter.tooltip.detailed.line3=Can be upgraded to increase speed
-tile.blockCrafter.tooltip.detailed.line4=and energy storage with capacitors
+tile.blockCrafter.tooltip.detailed.line1=Güçle çalışan otomatik üretici
+tile.blockCrafter.tooltip.detailed.line2=İşlem başına güç tüketir
+tile.blockCrafter.tooltip.detailed.line3=Hızı artırmak için yükseltilebilir
+tile.blockCrafter.tooltip.detailed.line4=ve kapasitörlerle enerji depolama
 
-tile.blockVacuumChest.name=Vacuum Chest
-tile.blockVacuumChest.tooltip.detailed.line1=Pulls nearby items
-tile.blockVacuumChest.tooltip.detailed.line2=into its inventory
+tile.blockVacuumChest.name=Vakum Sandığı
+tile.blockVacuumChest.tooltip.detailed.line1=Yakındaki eşyaları çeker
+tile.blockVacuumChest.tooltip.detailed.line2=kendi envanterine
 
-tile.blockPoweredSpawner.name=Powered Spawner
+tile.blockPoweredSpawner.name=Güçlendirilmiş Doğurucu
 tile.blockPoweredSpawner.tooltip.empty=Boş
 enderio.tile.blockPoweredSpawner.tooltip.none=Hiç
-tile.blockPoweredSpawner.empty.tooltip.detailed.line1=Combine with a broken
-tile.blockPoweredSpawner.empty.tooltip.detailed.line2=spawner in an anvil
-tile.blockPoweredSpawner.tooltip.detailed.line1=Supply with power to
-tile.blockPoweredSpawner.tooltip.detailed.line2=activate
-tile.blockPoweredSpawner.tooltip.detailed.line3=Upgrade with capacitors to increase
-tile.blockPoweredSpawner.tooltip.detailed.line4=speed and energy storage
+tile.blockPoweredSpawner.empty.tooltip.detailed.line1=Kırık bir tanesiyle birleştir
+tile.blockPoweredSpawner.empty.tooltip.detailed.line2=örsteki doğurucu
+tile.blockPoweredSpawner.tooltip.detailed.line1=Şunun için güç sağla:
+tile.blockPoweredSpawner.tooltip.detailed.line2=etkinleştir
+tile.blockPoweredSpawner.tooltip.detailed.line3=Artırmak için kapasitörlerle yükselt
+tile.blockPoweredSpawner.tooltip.detailed.line4=hız ve enerji depolama
 
-item.itemBrokenSpawner.name=Broken Spawner
-item.itemBrokenSpawner.tooltip.detailed.line1=Combine with a Powered Spawner
-item.itemBrokenSpawner.tooltip.detailed.line2=in an Anvil to set spawn type
+item.itemBrokenSpawner.name=Kırık Doğurucu
+item.itemBrokenSpawner.tooltip.detailed.line1=Güç Verilmiş Doğurucu ile birleştir
+item.itemBrokenSpawner.tooltip.detailed.line2=Doğma tipini ayarlamak için bir örste
 
-tile.blockSoulBinder.name=Soul Binder
-tile.blockSoulBinder.tooltip.detailed.line1=Used to convert the type of
-tile.blockSoulBinder.tooltip.detailed.line2=a broken spawner
+tile.blockSoulBinder.name=Ruh Bağlayıcı
+tile.blockSoulBinder.tooltip.detailed.line1=tipini dönüştürmek için kullanılır
+tile.blockSoulBinder.tooltip.detailed.line2=bozuk bir doğurucu
 
-tile.blockAttractor.name=Attractor Obelisk
-tile.blockAttractor.tooltip.detailed.line1=Draws mobs towards it
-tile.blockAttractor.tooltip.detailed.line2=Specify the mobs to effect
-tile.blockAttractor.tooltip.detailed.line3=by placing their souls
-tile.blockAttractor.tooltip.detailed.line4=within the device
+tile.blockAttractor.name=Çekici Dikilitaş
+tile.blockAttractor.tooltip.detailed.line1=Yaratıkları kendine çeker
+tile.blockAttractor.tooltip.detailed.line2=Etkilenecek canavarları belirt
+tile.blockAttractor.tooltip.detailed.line3=ruhlarını yerleştirerek
+tile.blockAttractor.tooltip.detailed.line4=cihazın içinde
 
-tile.blockSpawnGuard.name=Aversion Obelisk
-tile.blockSpawnGuard.tooltip.detailed.line1=Prevents mobs from spawning
-tile.blockSpawnGuard.tooltip.detailed.line2=within its area of effect
+tile.blockSpawnGuard.name=İtici Dikilitaş
+tile.blockSpawnGuard.tooltip.detailed.line1=Canavarların doğmasını engeller
+tile.blockSpawnGuard.tooltip.detailed.line2=etki alanı içinde
 
-tile.blockExperienceObelisk.name=Experience Obelisk
-tile.blockExperienceObelisk.tooltip.detailed.line1=Stores Experience
-tile.blockExperienceObelisk.tooltip.detailed.line2=Can output liquid XP to
+tile.blockExperienceObelisk.name=Tecrübe Dikilitaşı
+tile.blockExperienceObelisk.tooltip.detailed.line1=Tecrübe depolar
+tile.blockExperienceObelisk.tooltip.detailed.line2=Sıvı XP'yi şuraya çıkarabilir:
 tile.blockExperienceObelisk.tooltip.detailed.line3=Bitişik Tanklar
 
-tile.blockWeatherObelisk.name=Weather Obelisk
-tile.blockWeatherObelisk.tooltip.detailed.line1=Changes the current weather
-tile.blockWeatherObelisk.tooltip.detailed.line2=Requires a firework rocket and 1000 L
-tile.blockWeatherObelisk.tooltip.detailed.line3=of one of the following liquids:
-tile.blockWeatherObelisk.tooltip.detailed.line4=Liquid Sunshine: Sun
-tile.blockWeatherObelisk.tooltip.detailed.line5=Cloud Seed: Rain
-tile.blockWeatherObelisk.tooltip.detailed.line6=Concentrated Cloud Seed: Thunder
+tile.blockWeatherObelisk.name=Hava Dikilitaşı
+tile.blockWeatherObelisk.tooltip.detailed.line1=Mevcut hava durumunu değiştirir
+tile.blockWeatherObelisk.tooltip.detailed.line2=Bir Havai Fişek Roketi ve 1000 L gerektirir
+tile.blockWeatherObelisk.tooltip.detailed.line3=şu sıvılardan birinden:
+tile.blockWeatherObelisk.tooltip.detailed.line4=Sıvı Güneş Işığı: Güneş
+tile.blockWeatherObelisk.tooltip.detailed.line5=Bulut Tohumu: Yağmur
+tile.blockWeatherObelisk.tooltip.detailed.line6=Yoğunlaştırılmış Bulut Tohumu: Gök Gürültüsü
 
-tile.blockBuffer.name=Buffer 
-tile.blockBuffer.item.name=Item Buffer
-tile.blockBuffer.power.name=Power Buffer
-tile.blockBuffer.omni.name=Omni Buffer
-tile.blockBuffer.creative.name=Creative Buffer
+tile.blockBuffer.name=Tampon 
+tile.blockBuffer.item.name=Eşya Tamponu
+tile.blockBuffer.power.name=Güç Tamponu
+tile.blockBuffer.omni.name=Omni Tampon
+tile.blockBuffer.creative.name=Yaratıcı Tampon
 
-tile.blockInventoryPanel.name=Inventory Panel
-tile.blockInventoryPanel.tooltip.basic.line1=Remote access and crafting
-tile.blockInventoryPanel.tooltip.detailed.line1=Allows remote access to inventories via
-tile.blockInventoryPanel.tooltip.detailed.line2=Remote Awareness Upgrades in item conduits.
-tile.blockInventoryPanel.tooltip.detailed.line3=Uses Nutrient Distillation for power.
-tile.blockInventoryPanel.tooltip.detailed.line4=Offers a persistent crafting grid.
-enderio.gui.inventorypanel.header.crafting=Crafting grid
-enderio.gui.inventorypanel.header.return=Return area
-enderio.gui.inventorypanel.header.storage=Storage area
-enderio.gui.inventorypanel.info.filter=<filter by name>
+tile.blockInventoryPanel.name=Envanter Paneli
+tile.blockInventoryPanel.tooltip.basic.line1=Uzaktan erişim ve üretim
+tile.blockInventoryPanel.tooltip.detailed.line1=Envanterlere şununla uzaktan erişim sağlar:
+tile.blockInventoryPanel.tooltip.detailed.line2=Eşya kanallarında Uzaktan Farkındalık Yükseltmeleri.
+tile.blockInventoryPanel.tooltip.detailed.line3=Güç için Besin Damıtma kullanır.
+tile.blockInventoryPanel.tooltip.detailed.line4=Kalıcı bir üretim ızgarası sunar.
+enderio.gui.inventorypanel.header.crafting=Üretim Izgarası
+enderio.gui.inventorypanel.header.return=İade alanı
+enderio.gui.inventorypanel.header.storage=Depolama alanı
+enderio.gui.inventorypanel.info.filter=<isme göre filtrele>
 enderio.gui.inventorypanel.info.offline=<OFFLINE>
-enderio.gui.inventorypanel.tooltip.return.line1=Item return area
-enderio.gui.inventorypanel.tooltip.return.line2=Items placed here can be extracted
-enderio.gui.inventorypanel.tooltip.return.line3=by an item conduit, but will not be
-enderio.gui.inventorypanel.tooltip.return.line4=used for crafting.
-enderio.gui.inventorypanel.tooltip.return.line5=Click to change into storage area.
-enderio.gui.inventorypanel.tooltip.storage.line1=Item storage area
-enderio.gui.inventorypanel.tooltip.storage.line2=Small temporary item storage area.
-enderio.gui.inventorypanel.tooltip.storage.line3=Click to change into return area
-enderio.gui.inventorypanel.tooltip.filterslot.line1=Filter card slot
-enderio.gui.inventorypanel.tooltip.filterslot.line2=Place configured item filters in
-enderio.gui.inventorypanel.tooltip.filterslot.line3=here to select which items to show.
-enderio.gui.inventorypanel.tooltip.sort.name_down.line1=Sort items by name
-enderio.gui.inventorypanel.tooltip.sort.name_up.line1=Sort items by name
-enderio.gui.inventorypanel.tooltip.sort.name_up.line2=Starting at the end of the alphabet
-enderio.gui.inventorypanel.tooltip.sort.mod_down.line1=Sort items by mod ID
-enderio.gui.inventorypanel.tooltip.sort.mod_down.line2=Items from the same mod are sorted by name
-enderio.gui.inventorypanel.tooltip.sort.mod_up.line1=Sort items by mod ID
-enderio.gui.inventorypanel.tooltip.sort.mod_up.line2=Items from the same mod are sorted by name
-enderio.gui.inventorypanel.tooltip.sort.mod_up.line3=Starting at the end of the alphabet
-enderio.gui.inventorypanel.tooltip.sort.count_down.line1=Sort items by their quantity
-enderio.gui.inventorypanel.tooltip.sort.count_down.line2=Starting with the highest quantity
-enderio.gui.inventorypanel.tooltip.sort.count_up.line1=Sort items by their quantity
-enderio.gui.inventorypanel.tooltip.sort.count_up.line2=Starting with the lonely ones
-enderio.gui.inventorypanel.tooltip.refill.line1=Refills the crafting grid
-enderio.gui.inventorypanel.tooltip.refill.line2=A normal click puts items
-enderio.gui.inventorypanel.tooltip.refill.line3=for one crafting opperations,
-enderio.gui.inventorypanel.tooltip.refill.line4=while a shift click tries to
-enderio.gui.inventorypanel.tooltip.refill.line5=fill the crafting grid.
-enderio.gui.inventorypanel.tooltip.setrecipe.line1=Learn the current crafting recipe
-enderio.gui.inventorypanel.tooltip.setrecipe.line2=Allows the refilling for the
-enderio.gui.inventorypanel.tooltip.setrecipe.line3=current recipe from the network.
-enderio.gui.inventorypanel.tooltip.clear.line1=Clear crafting grid
-enderio.gui.inventorypanel.tooltip.clear.line2=Moves all items to the return area
-enderio.gui.inventorypanel.tooltip.fuelTank=Nutrient Tank
-enderio.gui.inventorypanel.tooltip.itemsstored=Items Stored: %s
-enderio.gui.inventorypanel.tooltip.addrecipe.line1=Store the current crafting recipe
-enderio.gui.inventorypanel.tooltip.addrecipe.line2=A maximum of 6 recipes can be stored.
-enderio.gui.inventorypanel.tooltip.addrecipe.line3=Left clicking a stored recipe will try to put
-enderio.gui.inventorypanel.tooltip.addrecipe.line4=items for one crafting operation into the grid.
-enderio.gui.inventorypanel.tooltip.addrecipe.line5=Shift left clicking tries to fill the crafting
-enderio.gui.inventorypanel.tooltip.addrecipe.line6=grid to the maximum.
-enderio.gui.inventorypanel.tooltip.addrecipe.line7=Right click a stored recipe to delete it.
-enderio.gui.inventorypanel.tooltip.sync=NEI Sync
+enderio.gui.inventorypanel.tooltip.return.line1=Eşya iade alanı
+enderio.gui.inventorypanel.tooltip.return.line2=Buraya konulan eşyalar çıkarılabilir
+enderio.gui.inventorypanel.tooltip.return.line3=bir eşya kanalı tarafından çekilir, ancak
+enderio.gui.inventorypanel.tooltip.return.line4=üretim için kullanılır.
+enderio.gui.inventorypanel.tooltip.return.line5=Depolama alanına geçmek için tıkla.
+enderio.gui.inventorypanel.tooltip.storage.line1=Eşya depolama alanı
+enderio.gui.inventorypanel.tooltip.storage.line2=Küçük geçici eşya depolama alanı.
+enderio.gui.inventorypanel.tooltip.storage.line3=Dönüş alanına dönüştürmek için tıkla
+enderio.gui.inventorypanel.tooltip.filterslot.line1=Filtre kartı yuvası
+enderio.gui.inventorypanel.tooltip.filterslot.line2=Yapılandırılmış eşya filtrelerini buraya yerleştir
+enderio.gui.inventorypanel.tooltip.filterslot.line3=hangi eşyaların gösterileceğini seçmek için buraya.
+enderio.gui.inventorypanel.tooltip.sort.name_down.line1=Eşyaları ada göre sırala
+enderio.gui.inventorypanel.tooltip.sort.name_up.line1=Eşyaları ada göre sırala
+enderio.gui.inventorypanel.tooltip.sort.name_up.line2=Alfabenin sonundan başlayarak
+enderio.gui.inventorypanel.tooltip.sort.mod_down.line1=Eşyaları mod kimliğine göre sırala
+enderio.gui.inventorypanel.tooltip.sort.mod_down.line2=Aynı moddaki eşyalar ada göre sıralanır
+enderio.gui.inventorypanel.tooltip.sort.mod_up.line1=Eşyaları mod kimliğine göre sırala
+enderio.gui.inventorypanel.tooltip.sort.mod_up.line2=Aynı moddaki eşyalar ada göre sıralanır
+enderio.gui.inventorypanel.tooltip.sort.mod_up.line3=Alfabenin sonundan başlayarak
+enderio.gui.inventorypanel.tooltip.sort.count_down.line1=Eşyaları miktarlarına göre sırala
+enderio.gui.inventorypanel.tooltip.sort.count_down.line2=En yüksek miktardan başlayarak
+enderio.gui.inventorypanel.tooltip.sort.count_up.line1=Eşyaları miktarlarına göre sırala
+enderio.gui.inventorypanel.tooltip.sort.count_up.line2=Yalnız olanlardan başlayarak
+enderio.gui.inventorypanel.tooltip.refill.line1=Üretim ızgarasını doldurur
+enderio.gui.inventorypanel.tooltip.refill.line2=Normal bir tıklama eşyaları
+enderio.gui.inventorypanel.tooltip.refill.line3=tek üretim işlemi için,
+enderio.gui.inventorypanel.tooltip.refill.line4=Shift+tık ise şunu dener
+enderio.gui.inventorypanel.tooltip.refill.line5=üretim ızgarasını doldur.
+enderio.gui.inventorypanel.tooltip.setrecipe.line1=Mevcut üretim tarifini öğren
+enderio.gui.inventorypanel.tooltip.setrecipe.line2=Şunun yeniden doldurulmasına izin verir:
+enderio.gui.inventorypanel.tooltip.setrecipe.line3=ağdaki mevcut tarifi.
+enderio.gui.inventorypanel.tooltip.clear.line1=Üretim ızgarasını temizle
+enderio.gui.inventorypanel.tooltip.clear.line2=Tüm eşyaları iade alanına taşır
+enderio.gui.inventorypanel.tooltip.fuelTank=Besin Tankı
+enderio.gui.inventorypanel.tooltip.itemsstored=Depolanan Eşya: %s
+enderio.gui.inventorypanel.tooltip.addrecipe.line1=Mevcut üretim tarifini kaydet
+enderio.gui.inventorypanel.tooltip.addrecipe.line2=En fazla 6 tarif depolanabilir.
+enderio.gui.inventorypanel.tooltip.addrecipe.line3=Kayıtlı bir tarife sol tıklamak, yerleştirmeyi dener
+enderio.gui.inventorypanel.tooltip.addrecipe.line4=bir üretim işlemi için eşyaları ızgaraya koyar.
+enderio.gui.inventorypanel.tooltip.addrecipe.line5=Shift+sol tık üretimi doldurmayı dener
+enderio.gui.inventorypanel.tooltip.addrecipe.line6=ızgarayı maksimuma çıkar.
+enderio.gui.inventorypanel.tooltip.addrecipe.line7=Kayıtlı bir tarifi silmek için sağ tıklayın.
+enderio.gui.inventorypanel.tooltip.sync=NEI Senkronizasyonu
 
-enderio.machine.tooltip.configured=(Configured)
+enderio.machine.tooltip.configured=(Yapılandırıldı)
 
 #Blocks
-tile.blockDarkSteelPressurePlate.name=Dark Pressure Plate
-tile.blockDarkSteelPressurePlate.tooltip.detailed.line1=Only activated by players
-tile.blockDarkSteelPressurePlate.tooltip.detailed.line2=Can be painted in painting machine,
-tile.blockDarkSteelPressurePlate.tooltip.detailed.line3=invisible when painted with Quite
+tile.blockDarkSteelPressurePlate.name=Koyu Basınç Plakası
+tile.blockDarkSteelPressurePlate.tooltip.detailed.line1=Yalnızca oyuncular tarafından etkinleştirilir
+tile.blockDarkSteelPressurePlate.tooltip.detailed.line2=Boyama makinesinde boyanabilir,
+tile.blockDarkSteelPressurePlate.tooltip.detailed.line3=Quite ile boyandığında görünmez
 tile.blockDarkSteelPressurePlate.tooltip.detailed.line4=Berrak Cam
-tile.blockDarkSteelPressurePlate.silent.tooltip.common.line1=Silent
-tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line1=Only activated by players
-tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line2=Can be painted in painting machine,
-tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line3=invisible when painted with Quite
+tile.blockDarkSteelPressurePlate.silent.tooltip.common.line1=Sessiz
+tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line1=Yalnızca oyuncular tarafından etkinleştirilir
+tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line2=Boyama makinesinde boyanabilir,
+tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line3=Quite ile boyandığında görünmez
 tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line4=Berrak Cam
 
-tile.blockDarkSteelAnvil.name=Dark Steel Anvil
-tile.blockDarkSteelAnvil.intact.name=Dark Steel Anvil
-tile.blockDarkSteelAnvil.slightlyDamaged.name=Slightly Damaged Dark Steel Anvil
-tile.blockDarkSteelAnvil.veryDamaged.name=Very Damaged Dark Steel Anvil
-tile.blockDarkSteelAnvil.tooltip.common.line1=Damage Resistant
-tile.blockDarkSteelAnvil.tooltip.detailed.line1=Lasts much longer than
-tile.blockDarkSteelAnvil.tooltip.detailed.line2=the vanilla anvil
+tile.blockDarkSteelAnvil.name=Kara Çelik Örs
+tile.blockDarkSteelAnvil.intact.name=Kara Çelik Örs
+tile.blockDarkSteelAnvil.slightlyDamaged.name=Az Hasarlı Kara çelik Örs
+tile.blockDarkSteelAnvil.veryDamaged.name=Çok Hasarlı Kara Çelik Örs
+tile.blockDarkSteelAnvil.tooltip.common.line1=Hasara Dayanıklı
+tile.blockDarkSteelAnvil.tooltip.detailed.line1=Çok daha uzun dayanır:
+tile.blockDarkSteelAnvil.tooltip.detailed.line2=vanilya örsü
 
-tile.blockDarkSteelLadder.name=Dark Steel Ladder
-tile.blockDarkSteelLadder.tooltip.common.line1=Faster than regular ladders
+tile.blockDarkSteelLadder.name=Kara Çelik Merdiven
+tile.blockDarkSteelLadder.tooltip.common.line1=Normal merdivenlerden daha hızlı
 
 #Travel
-tile.blockTravelAnchor.name=Travel Anchor
-tile.blockTravelAnchor.tooltip.detailed.line1=Allows teleportation between anchors
-tile.blockTravelAnchor.tooltip.detailed.line2=Stand on one Anchor, look at
-tile.blockTravelAnchor.tooltip.detailed.line3=another and jump to travel
-tile.blockTravelAnchor.tooltip.detailed.line4=Can also be used with the Staff
-tile.blockTravelAnchor.tooltip.detailed.line5=of Travel
-tile.blockTravelAnchor.tooltip.detailed.line6=Can be painted in the Painting Machine
+tile.blockTravelAnchor.name=Seyahat Çapası
+tile.blockTravelAnchor.tooltip.detailed.line1=Çapalar arasında ışınlanmaya izin verir
+tile.blockTravelAnchor.tooltip.detailed.line2=Bir Çapanın üstünde dur, şuna bak
+tile.blockTravelAnchor.tooltip.detailed.line3=diğerine ve seyahat etmek için zıpla
+tile.blockTravelAnchor.tooltip.detailed.line4=Seyahat Asası ile de
+tile.blockTravelAnchor.tooltip.detailed.line5=Yolculuk
+tile.blockTravelAnchor.tooltip.detailed.line6=Boyama Makinesinde boyanabilir
 
-enderio.blockTravelPlatform.invalidTarget=Destination is Obstructed
-enderio.blockTravelPlatform.outOfRange=Destination out of range
+enderio.blockTravelPlatform.invalidTarget=Hedef Tıkalı
+enderio.blockTravelPlatform.outOfRange=Hedef menzil dışında
 
-tile.blockTelePad.name=Telepad Block
-tile.blockTelePad.tooltip.detailed.line1=Uses power to teleport entities
-tile.blockTelePad.tooltip.detailed.line2=to a specific position and dimension.
-tile.blockTelePad.tooltip.detailed.line3=Must be placed in a 3x1x3 multiblock.
-enderio.gui.telepad.teleport=Teleport!
+tile.blockTelePad.name=Işınlama Pedi Bloğu
+tile.blockTelePad.tooltip.detailed.line1=Varlıkları ışınlamak için güç kullanır
+tile.blockTelePad.tooltip.detailed.line2=belirli bir konuma ve boyuta.
+tile.blockTelePad.tooltip.detailed.line3=3x1x3'lük bir multiblok içine yerleştirilmelidir.
+enderio.gui.telepad.teleport=Işınlan!
 
-item.itemTravelStaff.name=Staff of Traveling
-item.itemTravelStaff.tooltip.detailed.line1=When held Travel Anchors and EnderIO
-item.itemTravelStaff.tooltip.detailed.line2=blocks become visible and can be
-item.itemTravelStaff.tooltip.detailed.line3=activated by R-Click
-item.itemTravelStaff.tooltip.detailed.line4=Shift-R-Click will teleport the
-item.itemTravelStaff.tooltip.detailed.line5=player a short distance
-enderio.itemTravelStaff.notEnoughPower=Not enough power
-enderio.travelStaffKeybind.isDisabled=Travel Staff Blink Keybind Disabled!
+item.itemTravelStaff.name=Seyahat Asası
+item.itemTravelStaff.tooltip.detailed.line1=Tutulduğunda Seyahat Çapaları ve EnderIO
+item.itemTravelStaff.tooltip.detailed.line2=bloklar görünür olur ve
+item.itemTravelStaff.tooltip.detailed.line3=sağ tıkla etkinleştirilir
+item.itemTravelStaff.tooltip.detailed.line4=Shift+sağ tık ile şunu ışınlar
+item.itemTravelStaff.tooltip.detailed.line5=oyuncuyu kısa bir mesafe
+enderio.itemTravelStaff.notEnoughPower=Yetersiz güç
+enderio.travelStaffKeybind.isDisabled=Seyahat Asası Işınlanma Tuş Ataması Devre Dışı!
 
-item.itemTeleportStaff.name=Staff of Teleportation
-item.itemTeleportStaff.tooltip.detailed.line1=R-Click to teleport wherever you are looking
-item.itemTeleportStaff.tooltip.detailed.line2=Shift-R-Click to teleport to Travel Anchors
-item.itemTeleportStaff.tooltip.detailed.line3=R-Click on a nearby block to try to teleport
-item.itemTeleportStaff.tooltip.detailed.line4=to the other side
+item.itemTeleportStaff.name=Işınlanma Asası
+item.itemTeleportStaff.tooltip.detailed.line1=Baktığın yere ışınlanmak için sağ tıkla
+item.itemTeleportStaff.tooltip.detailed.line2=Seyahat Çapalarına ışınlanmak için Shift+sağ tık
+item.itemTeleportStaff.tooltip.detailed.line3=Işınlanmayı denemek için yakındaki bir bloğa sağ tıkla
+item.itemTeleportStaff.tooltip.detailed.line4=diğer tarafa
 
-item.itemCoordSelector.name=Coordinate Selector
-item.itemCoordSelector.tooltip.detailed.line1=Stores coordinates of a block.
-item.itemCoordSelector.tooltip.detailed.line2=Right click at block to select
-item.itemCoordSelector.tooltip.detailed.line3=the block adjacent on that side.
-item.itemCoordSelector.tooltip.detailed.line4=Shift right click at a block to
-item.itemCoordSelector.tooltip.detailed.line5=select that specific block.
-item.itemCoordSelector.tooltip.detailed.line6=Can select from a distance.
-enderio.itemCoordSelector.chat.newCoords=New Coords: %s
-enderio.itemCoordSelector.chat.setCoords=Set Coords: %s
-enderio.itemCoordSelector.chat.newDimension=New Dimension: %s
-enderio.itemCoordSelector.chat.setDimension=Set Dimension: %s
-enderio.itemConduitProbe.chat.copied=Copied conduit settings
-enderio.itemOCConduit.chat.channel=Channel %s at %s
-enderio.itemOCConduit.chat.connectedTo=Connected to: %s
-enderio.itemOCConduit.chat.nodeAt=%s at %s
-enderio.itemOCConduit.chat.noConnections=No connections at %s
-enderio.itemOCConduit.chat.noNetwork=No network at %s
+item.itemCoordSelector.name=Koordinat Seçici
+item.itemCoordSelector.tooltip.detailed.line1=Bir bloğun koordinatlarını saklar.
+item.itemCoordSelector.tooltip.detailed.line2=Seçmek için bloğa sağ tıkla
+item.itemCoordSelector.tooltip.detailed.line3=o taraftaki bitişik blok.
+item.itemCoordSelector.tooltip.detailed.line4=Bir bloğa Shift+sağ tıklayarak
+item.itemCoordSelector.tooltip.detailed.line5=o belirli bloğu seç.
+item.itemCoordSelector.tooltip.detailed.line6=Uzaktan seçim yapabilir.
+enderio.itemCoordSelector.chat.newCoords=Yeni Koordinatlar: %s
+enderio.itemCoordSelector.chat.setCoords=Koordinatları Ayarla: %s
+enderio.itemCoordSelector.chat.newDimension=Yeni Boyut: %s
+enderio.itemCoordSelector.chat.setDimension=Boyut Ayarla: %s
+enderio.itemConduitProbe.chat.copied=Kanal ayarları kopyalandı
+enderio.itemOCConduit.chat.channel=Kanal %s, %s konumunda
+enderio.itemOCConduit.chat.connectedTo=Bağlı: %s
+enderio.itemOCConduit.chat.nodeAt=%s, %s konumunda
+enderio.itemOCConduit.chat.noConnections=%s konumunda bağlantı yok
+enderio.itemOCConduit.chat.noNetwork=%s konumunda ağ yok
 
 #Painter
-tile.blockPainter.name=Painting Machine
-enderio.blockPainter.paintedWith=Painted with:
-enderio.blockPainter.paintedWith.none=§onothing§r
-tile.blockPaintedFence.name=Painted Fence
-tile.blockPaintedFenceGate.name=Painted Gate
-tile.blockPaintedWall.name=Painted Wall
-tile.blockPaintedStair.name=Painted Stairs
-tile.blockPaintedSlab.name=Painted Slab
-tile.blockPaintedSlabDouble.name=Painted Slab
-tile.blockPaintedDoubleSlab.name=Painted Slab
-tile.blockPaintedGlowstone.name=Painted Glowstone
-tile.blockPaintedCarpet.name=Painted Carpet
-enderio.painter.tooltip.wasPainted=§oWhat did you think that would do?
+tile.blockPainter.name=Boyama Makinesi
+enderio.blockPainter.paintedWith=Şununla boyandı:
+enderio.blockPainter.paintedWith.none=§ohiçbir şey§r
+tile.blockPaintedFence.name=Boyalı Çit
+tile.blockPaintedFenceGate.name=Boyalı Çit Kapısı
+tile.blockPaintedWall.name=Boyalı Duvar
+tile.blockPaintedStair.name=Boyalı Merdivenler
+tile.blockPaintedSlab.name=Boyalı Basamak
+tile.blockPaintedSlabDouble.name=Boyalı Basamak
+tile.blockPaintedDoubleSlab.name=Boyalı Basamak
+tile.blockPaintedGlowstone.name=Boyalı Parlak Taş
+tile.blockPaintedCarpet.name=Boyalı Halı
+enderio.painter.tooltip.wasPainted=§oBunun ne işe yarayacağını mı sandın?
 
-tile.blockPainter.tooltip.detailed.line1=Used to paint:
-tile.blockPainter.tooltip.detailed.line2=Conduit Facades, Stairs, Fences,
-tile.blockPainter.tooltip.detailed.line3=Gates, Slabs, Cobblestone Walls,
-tile.blockPainter.tooltip.detailed.line4=Glass Frames, Glowstone, Carpet,
-tile.blockPainter.tooltip.detailed.line5=Dark Steel Pressure Plates,
-tile.blockPainter.tooltip.detailed.line6=Travel Anchors
+tile.blockPainter.tooltip.detailed.line1=Boyamak için kullanılır:
+tile.blockPainter.tooltip.detailed.line2=Kanal Cepheleri, Merdivenler, Çitler,
+tile.blockPainter.tooltip.detailed.line3=Kapılar, Basamaklar, Kırıktaş Duvarlar,
+tile.blockPainter.tooltip.detailed.line4=Cam Çerçeveler, Parlak Taş, Halı,
+tile.blockPainter.tooltip.detailed.line5=Kara Çelik Basınç Plakaları,
+tile.blockPainter.tooltip.detailed.line6=Seyahat Çapaları
 
 #Items
-item.itemYetaWrench.name=Yeta Wrench
-item.itemYetaWrench.tooltip.detailed.line1=Hides conduit facades when held
-item.itemYetaWrench.tooltip.detailed.line2=Shift-R-Click to break machines
-item.itemYetaWrench.tooltip.detailed.line3=and conduits instantly
-item.itemYetaWrench.tooltip.detailed.line4=Shift-L-Click on a conduit to 
-item.itemYetaWrench.tooltip.detailed.line5=open conduit settings GUI
-item.itemYetaWrench.tooltip.detailed.line6=Use Shift-Mouse Wheel or '%s' to
-item.itemYetaWrench.tooltip.detailed.line7=render a single conduit type
+item.itemYetaWrench.name=Yeta İngiliz Anahtarı
+item.itemYetaWrench.tooltip.detailed.line1=Elde tutulduğunda kanal cephelerini gizler
+item.itemYetaWrench.tooltip.detailed.line2=Makineleri kırmak için Shift+sağ tık
+item.itemYetaWrench.tooltip.detailed.line3=ve kanalları anında
+item.itemYetaWrench.tooltip.detailed.line4=Bir kanala Shift+sol tıkla 
+item.itemYetaWrench.tooltip.detailed.line5=kanal ayarları arayüzünü aç
+item.itemYetaWrench.tooltip.detailed.line6=Shift+fare tekerleğini veya '%s' tuşunu kullanarak
+item.itemYetaWrench.tooltip.detailed.line7=tek bir kanal tipi görüntüle
 
-item.itemMagnet.name=Electromagnet
-item.itemMagnet.tooltip.detailed.line1=Pulls nearby item towards you
-item.itemMagnet.tooltip.detailed.line2=Shift-R-Click to enable / disable
-item.itemMagnet.tooltip.detailed.line3=Must be powered, active and in the
-item.itemMagnet.tooltip.detailed.line4=hot bar (or a Baubles slot) to function
+item.itemMagnet.name=Elektromıknatıs
+item.itemMagnet.tooltip.detailed.line1=Yakındaki eşyayı sana doğru çeker
+item.itemMagnet.tooltip.detailed.line2=Aktifleştirmek / devre dışı bırakmak için Shift+sağ tık
+item.itemMagnet.tooltip.detailed.line3=Güç almış, aktif ve içinde olmalı
+item.itemMagnet.tooltip.detailed.line4=çalışması için kısayol çubuğunda (veya bir Aksesuar yuvasında) olmalı
 
-item.enderio.itemConduitProbe.name=Conduit Probe
-item.enderio.itemConduitProbe.tooltip.detailed.line1=In probe mode R-Click on a conduit
-item.enderio.itemConduitProbe.tooltip.detailed.line2=to display details about its network
-item.enderio.itemConduitProbe.tooltip.detailed.line3=In copy/paste mode Shift-R-Click to
-item.enderio.itemConduitProbe.tooltip.detailed.line4=copy a conduit bundles connection settings 
-item.enderio.itemConduitProbe.tooltip.detailed.line5=R-Click to paste them
-item.enderio.itemConduitProbe.tooltip.detailed.line6=Use Shift-Mouse Wheel or 'Y' to change mode
+item.enderio.itemConduitProbe.name=Kanal Sondası
+item.enderio.itemConduitProbe.tooltip.detailed.line1=Sonda modunda bir kanala sağ tıkla
+item.enderio.itemConduitProbe.tooltip.detailed.line2=ağı hakkındaki ayrıntıları göstermek için
+item.enderio.itemConduitProbe.tooltip.detailed.line3=Kopyala/yapıştır modunda Shift+sağ tık ile
+item.enderio.itemConduitProbe.tooltip.detailed.line4=bir kanal demetinin bağlantı ayarlarını kopyalar 
+item.enderio.itemConduitProbe.tooltip.detailed.line5=Yapıştırmak için sağ tıkla
+item.enderio.itemConduitProbe.tooltip.detailed.line6=Modu değiştirmek için Shift+Fare Tekerleği veya 'Y' kullan
 
-item.itemSoulVessel.name=Soul Vial
-enderio.item.itemSoulVessel.tooltip.health=Health:
+item.itemSoulVessel.name=Ruh Şişesi
+enderio.item.itemSoulVessel.tooltip.health=Can:
 enderio.item.itemSoulVessel.tooltip.fluidname=Sıvı Adı:
 enderio.item.itemSoulVessel.tooltip.color=Renk:
 enderio.item.itemSoulVessel.tooltip.empty=Boş
-item.itemSoulVessel.tooltip.detailed.line1=R-Click on a mob to
-item.itemSoulVessel.tooltip.detailed.line2=capture its soul
-item.itemSoulVessel.tooltip.detailed.line3=R-Click again to release it
+item.itemSoulVessel.tooltip.detailed.line1=Bir yaratığa sağ tıkla
+item.itemSoulVessel.tooltip.detailed.line2=ruhunu yakala
+item.itemSoulVessel.tooltip.detailed.line3=Serbest bırakmak için tekrar sağ tıkla
 
-item.itemXpTransfer.name=Experience Rod
+item.itemXpTransfer.name=Tecrübe Asası
 item.itemXpTransfer.tooltip.detailed.line1=İçi dolu olan bir sıvı tankına sağ-tıkla
-item.itemXpTransfer.tooltip.detailed.line2=liquid XP to gain levels
-item.itemXpTransfer.tooltip.detailed.line3=Shift-R-Click to transfer levels to
+item.itemXpTransfer.tooltip.detailed.line2=seviye kazanmak için sıvı XP
+item.itemXpTransfer.tooltip.detailed.line3=Seviyeleri şuraya aktarmak için Shift+sağ tık
 item.itemXpTransfer.tooltip.detailed.line4=Tank
 
-item.itemFrankenSkull.name=Zombie Electrode
-skullZombieElectrode.name=Zombie Electrode
-skullZombieController.name=Z-Logic Controller
-skullZombieFrankenstien.name=Frank'N'Zombie
-skullEnderResonator.name=Ender Resonator 
-skullSentientEnder.name=Sentient Ender
-skullSkeletalContractor.name=Skeletal Contractor
-skullGuardianDiode.name=Guardian Diode
+item.itemFrankenSkull.name=Zombi Elektrodu
+skullZombieElectrode.name=Zombi Elektrodu
+skullZombieController.name=Z-Logic Kontrolcüsü
+skullZombieFrankenstien.name=Frank'N'Zombi
+skullEnderResonator.name=Ender Rezonatör 
+skullSentientEnder.name=Bilinçli Ender
+skullSkeletalContractor.name=İskelet Yüklenici
+skullGuardianDiode.name=Muhafız Diyot
 
 item.itemSpawnEggEnderIO.name=Çağırma
 
 #Dark Steel
-item.darkSteel_helmet.name=Dark Helm
-item.darkSteel_chestplate.name=Dark Plate
-item.darkSteel_leggings.name=Dark Leggings
-item.darkSteel_boots.name=Dark Boots
+item.darkSteel_helmet.name=Koyu Kask
+item.darkSteel_chestplate.name=Kara Plaka
+item.darkSteel_leggings.name=Kara Pantolon
+item.darkSteel_boots.name=Kara Botlar
 item.darkSteel_sword.name=The Ender
-item.darkSteel_pickaxe.name=Dark Pick
-item.darkSteel_axe.name=Dark Axe
-item.darkSteel_shears.name=Dark Shears
+item.darkSteel_pickaxe.name=Kara Kazma
+item.darkSteel_axe.name=Kara Balta
+item.darkSteel_shears.name=Kara Makas
 
 #End Steel
-item.endSteel_helmet.name=End Steel Helm
-item.endSteel_chestplate.name=End Steel Plate
-item.endSteel_leggings.name=End Steel Leggings
-item.endSteel_boots.name=End Steel Boots
+item.endSteel_helmet.name=End Çeliği Miğferi
+item.endSteel_chestplate.name=End Çelik Plaka
+item.endSteel_leggings.name=End Çelik Pantolon
+item.endSteel_boots.name=End Çeliği Botları
 item.endSteel_sword.name=The Ender MKII
-item.endSteel_pickaxe.name=End Steel Pick
-item.endSteel_axe.name=End Steel Axe
+item.endSteel_pickaxe.name=End Çeliği Kazması
+item.endSteel_axe.name=End Çelik Baltası
 
 #Stellar
-item.stellar_helmet.name=Stellar Helm
-item.stellar_chestplate.name=Stellar Plate
-item.stellar_leggings.name=Stellar Leggings
-item.stellar_boots.name=Stellar Boots
-item.stellar_sword.name=The Ender MKIV
-item.stellar_pickaxe.name=Stellar Pick
-item.stellar_axe.name=Stellar Axe
+item.stellar_helmet.name=Stellar Miğfer
+item.stellar_chestplate.name=Stellar Plaka
+item.stellar_leggings.name=Stellar Pantolon
+item.stellar_boots.name=Stellar Botlar
+item.stellar_sword.name=Ender MKIV
+item.stellar_pickaxe.name=Stellar Kazma
+item.stellar_axe.name=Stellar Balta
 
 enderio.item.darkSteel.tooltip.lvs=lvs
 
-enderio.item.darkSteel_pickaxe.tooltip.effPowered=Efficiency when powered
-enderio.item.darkSteel_pickaxe.tooltip.effObs=Efficiency breaking obsidian
-enderio.item.darkSteel_pickaxe.tooltip.cost=cost
+enderio.item.darkSteel_pickaxe.tooltip.effPowered=Güç verildiğinde verimlilik
+enderio.item.darkSteel_pickaxe.tooltip.effObs=Obsidyen kırma verimliliği
+enderio.item.darkSteel_pickaxe.tooltip.cost=maliyet
 
-enderio.item.endSteel_pickaxe.tooltip.effPowered=Efficiency when powered
-enderio.item.endSteel_pickaxe.tooltip.effObs=Efficiency breaking obsidian
-enderio.item.endSteel_pickaxe.tooltip.cost=cost
+enderio.item.endSteel_pickaxe.tooltip.effPowered=Güç verildiğinde verimlilik
+enderio.item.endSteel_pickaxe.tooltip.effObs=Obsidyen kırma verimliliği
+enderio.item.endSteel_pickaxe.tooltip.cost=maliyet
 
-enderio.item.stellar_pickaxe.tooltip.effPowered=Efficiency when powered
-enderio.item.stellar_pickaxe.tooltip.effObs=Efficiency breaking obsidian
-enderio.item.stellar_pickaxe.tooltip.cost=cost
+enderio.item.stellar_pickaxe.tooltip.effPowered=Güç verildiğinde verimlilik
+enderio.item.stellar_pickaxe.tooltip.effObs=Obsidyen kırma verimliliği
+enderio.item.stellar_pickaxe.tooltip.cost=maliyet
 
-enderio.item.darkSteel_axe.tooltip.multiHarvest=Sneak to harvest multiple logs
-enderio.item.endSteel_axe.tooltip.multiHarvest=Sneak to harvest multiple logs
-enderio.item.stellar_axe.tooltip.multiHarvest=Sneak to harvest multiple logs
+enderio.item.darkSteel_axe.tooltip.multiHarvest=Birden fazla kütük hasat etmek için çömel
+enderio.item.endSteel_axe.tooltip.multiHarvest=Birden fazla kütük hasat etmek için çömel
+enderio.item.stellar_axe.tooltip.multiHarvest=Birden fazla kütük hasat etmek için çömel
 
-enderio.item.darkSteel_shears.tooltip.multiHarvest=Shears multiple blocks/sheep when empowered
+enderio.item.darkSteel_shears.tooltip.multiHarvest=Güçlendirildiğinde birden fazla blok/koyun makaslar
 
-enderio.item.darkSteel_sword.tooltip.line1=Increased skull and ender pearl drops
-enderio.item.darkSteel_sword.tooltip.line2=Endermen can't teleport once hit
-enderio.item.darkSteel_sword.tooltip.line3=+2 Damage when Powered
+enderio.item.darkSteel_sword.tooltip.line1=Kafatası ve Ender İncisi düşüşü artar
+enderio.item.darkSteel_sword.tooltip.line2=Endermanlar vurulduktan sonra ışınlanamaz
+enderio.item.darkSteel_sword.tooltip.line3=Güç verildiğinde +2 Hasar
 
-enderio.item.endSteel_sword.tooltip.line1=Increased skull and ender pearl drops
-enderio.item.endSteel_sword.tooltip.line2=Endermen can't teleport once hit
-enderio.item.endSteel_sword.tooltip.line3=+2 Damage when Powered
+enderio.item.endSteel_sword.tooltip.line1=Kafatası ve Ender İncisi düşüşü artar
+enderio.item.endSteel_sword.tooltip.line2=Endermanlar vurulduktan sonra ışınlanamaz
+enderio.item.endSteel_sword.tooltip.line3=Güç verildiğinde +2 Hasar
 
-enderio.item.stellar_sword.tooltip.line1=Increased skull and ender pearl drops
-enderio.item.stellar_sword.tooltip.line2=Endermen can't teleport once hit
-enderio.item.stellar_sword.tooltip.line3=+2 Damage when Powered
+enderio.item.stellar_sword.tooltip.line1=Kafatası ve Ender İncisi düşüşü artar
+enderio.item.stellar_sword.tooltip.line2=Endermanlar vurulduktan sonra ışınlanamaz
+enderio.item.stellar_sword.tooltip.line3=Güç verildiğinde +2 Hasar
 
-enderio.item.darkSteel_armor.tooltip.line1=Diamond level protection
-enderio.item.darkSteel_armor.tooltip.line2=when powered
+enderio.item.darkSteel_armor.tooltip.line1=Elmas seviyesi koruma
+enderio.item.darkSteel_armor.tooltip.line2=güç verildiğinde
 
-enderio.item.endSteel_armor.tooltip.line1=Diamond+ level protection
-enderio.item.endSteel_armor.tooltip.line2=when powered
+enderio.item.endSteel_armor.tooltip.line1=Elmas+ seviyesi koruma
+enderio.item.endSteel_armor.tooltip.line2=güç verildiğinde
 
-enderio.item.stellar_armor.tooltip.line1=Diamond+ level protection
-enderio.item.stellar_armor.tooltip.line2=when powered
+enderio.item.stellar_armor.tooltip.line1=Elmas+ seviyesi koruma
+enderio.item.stellar_armor.tooltip.line2=güç verildiğinde
 
-enderio.item.darkSteel_boots.tooltip.line1=Fall damage negated
-enderio.item.darkSteel_boots.tooltip.line2=when powered
+enderio.item.darkSteel_boots.tooltip.line1=Düşme hasarı engellendi
+enderio.item.darkSteel_boots.tooltip.line2=güç verildiğinde
 
-enderio.item.endSteel_boots.tooltip.line1=Fall damage negated
-enderio.item.endSteel_boots.tooltip.line2=when powered
+enderio.item.endSteel_boots.tooltip.line1=Düşme hasarı engellendi
+enderio.item.endSteel_boots.tooltip.line2=güç verildiğinde
 
-enderio.item.stellar_boots.tooltip.line1=Fall damage negated
-enderio.item.stellar_boots.tooltip.line2=when powered
+enderio.item.stellar_boots.tooltip.line1=Düşme hasarı engellendi
+enderio.item.stellar_boots.tooltip.line2=güç verildiğinde
 
-enderio.darksteel.upgrade.empowered_one.name=Empowered
-enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line1=Power: $P
-enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line2=$D% damage absorbed
-enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line3=by power
+enderio.darksteel.upgrade.empowered_one.name=Güçlendirilmiş
+enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line1=Güç: $P
+enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line2=$D% hasar emildi
+enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line3=güce göre
 
-enderio.darksteel.upgrade.empowered_two.name=Empowered II
-enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line1=Power: $P
-enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line2=$D% damage absorbed
-enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line3=by power
+enderio.darksteel.upgrade.empowered_two.name=Güçlendirilmiş II
+enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line1=Güç: $P
+enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line2=$D% hasar emildi
+enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line3=güce göre
 
-enderio.darksteel.upgrade.empowered_three.name=Empowered III
-enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line1=Power: $P
-enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line2=$D% damage absorbed
-enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line3=by power
+enderio.darksteel.upgrade.empowered_three.name=Güçlendirilmiş III
+enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line1=Güç: $P
+enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line2=$D% hasar emildi
+enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line3=güce göre
 
-enderio.darksteel.upgrade.empowered_four.name=Empowered IV
-enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line1=Power: $P
-enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line2=$D% damage absorbed
-enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line3=by power
+enderio.darksteel.upgrade.empowered_four.name=Güçlendirilmiş IV
+enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line1=Güç: $P
+enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line2=$D% hasar emildi
+enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line3=güce göre
 
-enderio.darksteel.upgrade.empowered_five.name=Empowered V
-enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line1=Power: $P
-enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line2=$D% damage absorbed
-enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line3=by power
+enderio.darksteel.upgrade.empowered_five.name=Güçlendirilmiş V
+enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line1=Güç: $P
+enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line2=$D% hasar emildi
+enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line3=güce göre
 
 enderio.darksteel.upgrade.travel.name=Git
-enderio.darksteel.upgrade.travel.tooltip.detailed.line1=Hold shift and R-Click to teleport or
-enderio.darksteel.upgrade.travel.tooltip.detailed.line2=activate a travel anchor or Ender IO
+enderio.darksteel.upgrade.travel.tooltip.detailed.line1=Işınlanmak için Shift'e bas ve sağ tıkla veya
+enderio.darksteel.upgrade.travel.tooltip.detailed.line2=bir seyahat çapasını veya Ender IO'yu etkinleştir
 
-enderio.darksteel.upgrade.spoon.name=Spoon
-enderio.darksteel.upgrade.spoon.tooltip.detailed.line1=Who needs a shovel when 
-enderio.darksteel.upgrade.spoon.tooltip.detailed.line2=you have a spoon
+enderio.darksteel.upgrade.spoon.name=Kaşık
+enderio.darksteel.upgrade.spoon.tooltip.detailed.line1=Küreğe kimin ihtiyacı var ki 
+enderio.darksteel.upgrade.spoon.tooltip.detailed.line2=bir kaşığın var
 
-enderio.darksteel.upgrade.glider.name=Glider
-enderio.darksteel.upgrade.glider.tooltip.detailed.line1=Enables gliding
-enderio.darksteel.upgrade.glider.enabled=Glider Active
-enderio.darksteel.upgrade.glider.disabled=Glider Disabled
+enderio.darksteel.upgrade.glider.name=Planör
+enderio.darksteel.upgrade.glider.tooltip.detailed.line1=Süzülmeyi etkinleştirir
+enderio.darksteel.upgrade.glider.enabled=Planör Etkin
+enderio.darksteel.upgrade.glider.disabled=Planör Devre Dışı
 
-enderio.darksteel.upgrade.sound.name=Sound Locator
-enderio.darksteel.upgrade.sound.tooltip.detailed.line1=Displays the location of
-enderio.darksteel.upgrade.sound.tooltip.detailed.line2=nearby sounds
-enderio.darksteel.upgrade.sound.enabled=Sound Locator Active
-enderio.darksteel.upgrade.sound.disabled=Sound Locator Disabled
+enderio.darksteel.upgrade.sound.name=Ses Bulucu
+enderio.darksteel.upgrade.sound.tooltip.detailed.line1=Konumunu gösterir:
+enderio.darksteel.upgrade.sound.tooltip.detailed.line2=yakındaki sesler
+enderio.darksteel.upgrade.sound.enabled=Ses Bulucu Etkin
+enderio.darksteel.upgrade.sound.disabled=Ses Bulucu Devre Dışı
 
 enderio.darksteel.upgrade.gogglesOfRevealing.name=Açığa Çıkarma
-enderio.darksteel.upgrade.gogglesOfRevealing.tooltip.detailed.line1=Vis Discount: 5%
-enderio.darksteel.upgrade.gogglesOfRevealing.enabled=Magic is being revealed
-enderio.darksteel.upgrade.gogglesOfRevealing.disabled=Magic is hidden from plain sight
+enderio.darksteel.upgrade.gogglesOfRevealing.tooltip.detailed.line1=Vis İndirimi: %5
+enderio.darksteel.upgrade.gogglesOfRevealing.enabled=Büyü ortaya çıkıyor
+enderio.darksteel.upgrade.gogglesOfRevealing.disabled=Büyü, gözlerden gizlenmiştir
 
-enderio.darksteel.upgrade.trackmansGoggles.name=Trackman's Goggles
-enderio.darksteel.upgrade.trackmansGoggles.tooltip.detailed.line1=Show infrastructure and anchor auras
+enderio.darksteel.upgrade.trackmansGoggles.name=Raycı'nın Gözlükleri
+enderio.darksteel.upgrade.trackmansGoggles.tooltip.detailed.line1=Altyapı ve çapa auralarını göster
 
-enderio.darksteel.upgrade.naturalistEye.name=Naturalist's Eye
-enderio.darksteel.upgrade.naturalistEye.tooltip.detailed.line1=Shows pollinated tree leaves
+enderio.darksteel.upgrade.naturalistEye.name=Natüralistin Gözü
+enderio.darksteel.upgrade.naturalistEye.tooltip.detailed.line1=Tozlaşmış ağaç yapraklarını gösterir
 
-enderio.darksteel.upgrade.apiaristArmor.helmet.name=Apiarist's Hat
-enderio.darksteel.upgrade.apiaristArmor.helmet.tooltip.detailed.line1=Protection against bees
+enderio.darksteel.upgrade.apiaristArmor.helmet.name=Arıcı Şapkası
+enderio.darksteel.upgrade.apiaristArmor.helmet.tooltip.detailed.line1=Arılara karşı koruma
 
-enderio.darksteel.upgrade.apiaristArmor.chestplate.name=Apiarist's Shirt
-enderio.darksteel.upgrade.apiaristArmor.chestplate.tooltip.detailed.line1=Protection against bees
+enderio.darksteel.upgrade.apiaristArmor.chestplate.name=Arıcının Gömleği
+enderio.darksteel.upgrade.apiaristArmor.chestplate.tooltip.detailed.line1=Arılara karşı koruma
 
-enderio.darksteel.upgrade.apiaristArmor.leggings.name=Apiarist's Pants
-enderio.darksteel.upgrade.apiaristArmor.leggings.tooltip.detailed.line1=Protection against bees
+enderio.darksteel.upgrade.apiaristArmor.leggings.name=Arıcı Pantolonu
+enderio.darksteel.upgrade.apiaristArmor.leggings.tooltip.detailed.line1=Arılara karşı koruma
 
-enderio.darksteel.upgrade.apiaristArmor.boots.name=Apiarist's Shoes
-enderio.darksteel.upgrade.apiaristArmor.boots.tooltip.detailed.line1=Protection against bees
+enderio.darksteel.upgrade.apiaristArmor.boots.name=Arıcının Ayakkabıları
+enderio.darksteel.upgrade.apiaristArmor.boots.tooltip.detailed.line1=Arılara karşı koruma
 
 item.itemGliderWing.name=Planör Kanadı
-item.itemGliderWings.name=Glider Wings
-item.itemGliderWings.tooltip.detailed.line1=Upgrade for Dark Steel
-item.itemGliderWings.tooltip.detailed.line2=chestplate
+item.itemGliderWings.name=Planör Kanatları
+item.itemGliderWings.tooltip.detailed.line1=Kara çelik için yükseltme
+item.itemGliderWings.tooltip.detailed.line2=göğüslük
 
-enderio.darksteel.upgrade.jump.enabled=Jump Enabled
+enderio.darksteel.upgrade.jump.enabled=Zıplama Etkin
 enderio.darksteel.upgrade.jump.disabled=Zıplama Devre Dışı
 
-enderio.darksteel.upgrade.jump_one.name=Jump
-enderio.darksteel.upgrade.jump_one.tooltip.detailed.line1=Increases step and jump height
-enderio.darksteel.upgrade.stepAssist.enabled=Step Assist Active
-enderio.darksteel.upgrade.stepAssist.disabled=Step Assist Disabled
+enderio.darksteel.upgrade.jump_one.name=Zıplama
+enderio.darksteel.upgrade.jump_one.tooltip.detailed.line1=Adım ve zıplama yüksekliğini artırır
+enderio.darksteel.upgrade.stepAssist.enabled=Adım Desteği Etkin
+enderio.darksteel.upgrade.stepAssist.disabled=Adım Desteği Devre Dışı
 
-enderio.darksteel.upgrade.jump_two.name=Jump II
-enderio.darksteel.upgrade.jump_two.tooltip.detailed.line1=Increases step and jump height
-enderio.darksteel.upgrade.jump_two.tooltip.detailed.line2=Allows double jumps
+enderio.darksteel.upgrade.jump_two.name=Zıplama II
+enderio.darksteel.upgrade.jump_two.tooltip.detailed.line1=Adım ve zıplama yüksekliğini artırır
+enderio.darksteel.upgrade.jump_two.tooltip.detailed.line2=Çift zıplamaya izin verir
 
-enderio.darksteel.upgrade.jump_three.name=Jump III
-enderio.darksteel.upgrade.jump_three.tooltip.detailed.line1=Increases step and jump height
-enderio.darksteel.upgrade.jump_three.tooltip.detailed.line2=Allows triple jumps
+enderio.darksteel.upgrade.jump_three.name=Zıplama III
+enderio.darksteel.upgrade.jump_three.tooltip.detailed.line1=Adım ve zıplama yüksekliğini artırır
+enderio.darksteel.upgrade.jump_three.tooltip.detailed.line2=Üçlü zıplamaya izin verir
 
 enderio.darksteel.upgrade.speed_one.name=Hız
-enderio.darksteel.upgrade.speed_one.tooltip.detailed.line1=Increases movement speed
-enderio.darksteel.upgrade.speed.enabled=Speed Active
+enderio.darksteel.upgrade.speed_one.tooltip.detailed.line1=Hareket hızını artırır
+enderio.darksteel.upgrade.speed.enabled=Hız Etkin
 enderio.darksteel.upgrade.speed.disabled=Hız Devre Dışı
 
-enderio.darksteel.upgrade.speed_two.name=Speed II
-enderio.darksteel.upgrade.speed_two.tooltip.detailed.line1=Increases movement speed
+enderio.darksteel.upgrade.speed_two.name=Hız II
+enderio.darksteel.upgrade.speed_two.tooltip.detailed.line1=Hareket hızını artırır
 
-enderio.darksteel.upgrade.speed_three.name=Speed III
-enderio.darksteel.upgrade.speed_three.tooltip.detailed.line1=Increases movement speed
+enderio.darksteel.upgrade.speed_three.name=Hız III
+enderio.darksteel.upgrade.speed_three.tooltip.detailed.line1=Hareket hızını artırır
 
-enderio.darksteel.upgrade.swim.name=Flippers
+enderio.darksteel.upgrade.swim.name=Paletler
 
 enderio.darksteel.upgrade.nightVision.name=Gece Görüşü
-enderio.darksteel.upgrade.nightVision.enabled=Night Vision Enabled
-enderio.darksteel.upgrade.nightVision.disabled=Night Vision Disabled
+enderio.darksteel.upgrade.nightVision.enabled=Gece Görüşü Etkin
+enderio.darksteel.upgrade.nightVision.disabled=Gece Görüşü Devre Dışı
 
-enderio.darksteel.upgrade.solar_one.name=Solar I
-enderio.darksteel.upgrade.solar_one.tooltip.detailed.line1=Generates power from the sun.
+enderio.darksteel.upgrade.solar_one.name=Güneş I
+enderio.darksteel.upgrade.solar_one.tooltip.detailed.line1=Güneşten güç üretir.
 
-enderio.darksteel.upgrade.solar_two.name=Solar II
-enderio.darksteel.upgrade.solar_two.tooltip.detailed.line1=Generates power from the sun.
+enderio.darksteel.upgrade.solar_two.name=Güneş II
+enderio.darksteel.upgrade.solar_two.tooltip.detailed.line1=Güneşten güç üretir.
 
 enderio.darksteel.upgrade.solar_three.name=Solar III
-enderio.darksteel.upgrade.solar_three.tooltip.detailed.line1=Generates power from the sun.
+enderio.darksteel.upgrade.solar_three.tooltip.detailed.line1=Güneşten güç üretir.
 
 #------GUI
 
-enderio.gui.simple.in=Max In:
-enderio.gui.simple.out=Max Out:
+enderio.gui.simple.in=Maks. Giriş:
+enderio.gui.simple.out=Maks Çıkış:
 
 enderio.gui.available=Mevcut 
 enderio.gui.disabled=Devre Dışı
 enderio.gui.enabled=Etkin
-enderio.gui.max=Max:
-enderio.gui.progress=Progress {0,number}%
-enderio.gui.receive=Receive
-enderio.gui.send=Send
-enderio.gui.sendReceive=Send & Receive 
+enderio.gui.max=Maks.:
+enderio.gui.progress=İlerleme {0,number}%
+enderio.gui.receive=Al
+enderio.gui.send=Gönder
+enderio.gui.sendReceive=Gönder & Al 
 
 #Redstone controls
 enderio.gui.tooltip.redstoneControlMode=Kızıltaş Modu
-enderio.gui.tooltip.redstoneControlMode.ignore=Always active
-enderio.gui.tooltip.redstoneControlMode.on=Active with signal
-enderio.gui.tooltip.redstoneControlMode.off=Active without signal
-enderio.gui.tooltip.redstoneControlMode.never=Never active
+enderio.gui.tooltip.redstoneControlMode.ignore=Her zaman etkin
+enderio.gui.tooltip.redstoneControlMode.on=Sinyalle etkin
+enderio.gui.tooltip.redstoneControlMode.off=Sinyal olmadan etkin
+enderio.gui.tooltip.redstoneControlMode.never=Asla etkin değil
 
-enderio.gui.machine.button.storelevel=Store 1
-enderio.gui.machine.tooltip.storelevel=level of player XP
-enderio.gui.machine.button.storelevels=Store 10
-enderio.gui.machine.tooltip.storelevels=levels of player XP
-enderio.gui.machine.button.storeall=Store all
-enderio.gui.machine.tooltip.storeall=player XP
+enderio.gui.machine.button.storelevel=1 Depola
+enderio.gui.machine.tooltip.storelevel=oyuncu XP seviyesi
+enderio.gui.machine.button.storelevels=10 Depola
+enderio.gui.machine.tooltip.storelevels=oyuncu XP seviyeleri
+enderio.gui.machine.button.storeall=Tümünü depola
+enderio.gui.machine.tooltip.storeall=oyuncu XP
 
-enderio.gui.machine.button.retrievelevel=Retrieve 1
-enderio.gui.machine.tooltip.retrievelevel=player XP level
-enderio.gui.machine.button.retrievelevels=Retrieve 10
-enderio.gui.machine.tooltip.retrievelevels=player XP levels
-enderio.gui.machine.button.retrieveall=Retrieve all
-enderio.gui.machine.tooltip.retrieveall=player XP levels
+enderio.gui.machine.button.retrievelevel=1 Geri Al
+enderio.gui.machine.tooltip.retrievelevel=oyuncu XP seviyesi
+enderio.gui.machine.button.retrievelevels=10 Geri Al
+enderio.gui.machine.tooltip.retrievelevels=oyuncu XP seviyesi
+enderio.gui.machine.button.retrieveall=Tümünü al
+enderio.gui.machine.tooltip.retrieveall=oyuncu XP seviyesi
 
-enderio.gui.machine.ioMode.overlay.tooltip=Configure IO
-enderio.gui.machine.ioMode.overlay.tooltip.visible.line1=Shift click to reset all sides
-enderio.gui.machine.ioMode.overlay.tooltip.visible.line2=to their default setting
+enderio.gui.machine.ioMode.overlay.tooltip=IO'yu Yapılandır
+enderio.gui.machine.ioMode.overlay.tooltip.visible.line1=Tüm tarafları sıfırlamak için Shift+tıkla
+enderio.gui.machine.ioMode.overlay.tooltip.visible.line2=varsayılan ayarlarına
 enderio.gui.machine.ioMode.none=Hiç
-enderio.gui.machine.ioMode.pull=Pull
-enderio.gui.machine.ioMode.push=Push
+enderio.gui.machine.ioMode.pull=Çek
+enderio.gui.machine.ioMode.push=İt
 enderio.gui.machine.ioMode.disabled=Devre Dışı
-enderio.gui.machine.ioMode.pullPush=Push / Pull
-enderio.gui.machine.ioMode.pullPush.colored=%sPush %s/ %sPull
+enderio.gui.machine.ioMode.pullPush=İt / Çek
+enderio.gui.machine.ioMode.pullPush.colored=%sİt %s/ %sÇek
 enderio.gui.machine.ioMode=Mod: %s
 enderio.gui.machine.poweredspawner.capture=Yakala
 enderio.gui.machine.poweredspawner.spawn=Çağırma
-enderio.gui.machine.receivefilter=Receive Filter
-enderio.gui.machine.sendfilter=Send Filter
-enderio.gui.machine.sendReceivebuffer=Send/Receive Buffer
-enderio.gui.machine.localbuffer=Local Buffer
-enderio.gui.machine.upkeep=Upkeep:
-enderio.gui.machine.bufferingstacks=Buffering item stacks
-enderio.gui.machine.bufferingsingle=Buffering single items
-enderio.gui.machine.percraft=Per Craft
+enderio.gui.machine.receivefilter=Alma Filtresi
+enderio.gui.machine.sendfilter=Gönderme Filtresi
+enderio.gui.machine.sendReceivebuffer=Gönder/Al Tamponu
+enderio.gui.machine.localbuffer=Yerel Tampon
+enderio.gui.machine.upkeep=Bakım:
+enderio.gui.machine.bufferingstacks=Eşya kümeleri arabelleğe alınıyor
+enderio.gui.machine.bufferingsingle=Tek eşyaları tamponluyor
+enderio.gui.machine.percraft=Üretim Başına
 enderio.gui.machine.side=Yüz: %s
 enderio.gui.machine.side.north=Kuzey
 enderio.gui.machine.side.south=Güney
@@ -1114,349 +1114,349 @@ enderio.gui.machine.side.west=Batı
 enderio.gui.machine.side.east=Doğu
 enderio.gui.machine.side.up=Yukarı
 enderio.gui.machine.side.down=Aşağı
-enderio.gui.machine.weather.control=Control Mode
-enderio.gui.machine.weather.redstone=Launch on Redstone Signal
-enderio.gui.machine.weather.manual=Launch Manually
+enderio.gui.machine.weather.control=Kontrol Modu
+enderio.gui.machine.weather.redstone=Kızıltaş Sinyalinde Fırlat
+enderio.gui.machine.weather.manual=Manuel Fırlat
 enderio.gui.machine.weather.run=Fırlatma
 
 
 #Power Monitor
-enderio.gui.powerMonitor.engineControl=Engine Control
-enderio.gui.powerMonitor.emit=Emit
-enderio.gui.powerMonitor.engineSection1=Emit signal when storage less
-enderio.gui.powerMonitor.engineSection2=than
-enderio.gui.powerMonitor.engineSection3=% full.
-enderio.gui.powerMonitor.engineSection4= Stop when storage greater than
-enderio.gui.powerMonitor.engineSection5=or equal to
+enderio.gui.powerMonitor.engineControl=Motor Kontrolü
+enderio.gui.powerMonitor.emit=Yay
+enderio.gui.powerMonitor.engineSection1=Depolama azaldığında sinyal yay
+enderio.gui.powerMonitor.engineSection2=daha
+enderio.gui.powerMonitor.engineSection3=% dolu.
+enderio.gui.powerMonitor.engineSection4= Depolama şundan büyükse dur
+enderio.gui.powerMonitor.engineSection5=veya eşit
 enderio.gui.powerMonitor.of='nın
-enderio.gui.powerMonitor.monHeading1=Conduit Storage
-enderio.gui.powerMonitor.monHeading2=Capacitor Bank Storage
-enderio.gui.powerMonitor.monHeading3=Machine Buffers
-enderio.gui.powerMonitor.monHeading4=Average output over 5 seconds
-enderio.gui.powerMonitor.monHeading5=Average input over 5 seconds
-enderio.gui.powerMonitor.noNetworkError=No conduit network attached. The Power Monitor needs to be attached to a conduit network to read data from.
+enderio.gui.powerMonitor.monHeading1=Kanal Depolama
+enderio.gui.powerMonitor.monHeading2=Kapasitör Bankası Depolaması
+enderio.gui.powerMonitor.monHeading3=Makine Tamponları
+enderio.gui.powerMonitor.monHeading4=5 saniye üzerinden ortalama çıktı
+enderio.gui.powerMonitor.monHeading5=Son 5 saniyedeki ortalama girdi
+enderio.gui.powerMonitor.noNetworkError=Bağlı kanal ağı yok. Güç Monitörünün veri okuması için bir kanal ağına bağlanması gerekir.
 
 #MJ Reader
-enderio.gui.mjReader.networkHeading=Power Network
-enderio.gui.mjReader.conduitBuffer=Internal Buffer
-enderio.gui.mjReader.requestRange=Per tick request range
-enderio.gui.mjReader.currentRequest=Current request
-enderio.gui.mjReader.itemHeading=Item Conduit
-enderio.gui.mjReader.itemNoConnections=has no external connections
-enderio.gui.mjReader.noPowerFromSide=cannot receive power from this side
-enderio.gui.mjReader.connectionDir=connection to the
-enderio.gui.mjReader.extractedItems=Extracted items
+enderio.gui.mjReader.networkHeading=Güç Ağı
+enderio.gui.mjReader.conduitBuffer=Dahili Tampon
+enderio.gui.mjReader.requestRange=Tick başına istek aralığı
+enderio.gui.mjReader.currentRequest=Mevcut istek
+enderio.gui.mjReader.itemHeading=Eşya Kanalı
+enderio.gui.mjReader.itemNoConnections=harici bağlantısı yok
+enderio.gui.mjReader.noPowerFromSide=bu taraftan güç alamaz
+enderio.gui.mjReader.connectionDir=bağlantısı
+enderio.gui.mjReader.extractedItems=Çekilen eşyalar
 enderio.gui.mjReader.extractedItem=Eşya
-enderio.gui.mjReader.noOutputs=has no valid outputs
-enderio.gui.mjReader.insertedInto=will be inserted into:
-enderio.gui.mjReader.noItems=Receives no items.
-enderio.gui.mjReader.noItem=Can not receive
-enderio.gui.mjReader.receiveItems=Can receive items from:
-enderio.gui.mjReader.receiveItem=Can receive %s from:
-enderio.gui.mjReader.distance=Distance [%s]
+enderio.gui.mjReader.noOutputs=geçerli çıktısı yok
+enderio.gui.mjReader.insertedInto=şuraya aktarılacak:
+enderio.gui.mjReader.noItems=Hiç eşya almıyor.
+enderio.gui.mjReader.noItem=Alınamıyor
+enderio.gui.mjReader.receiveItems=Şunlardan eşya alabilir:
+enderio.gui.mjReader.receiveItem=%s şuradan alabilir:
+enderio.gui.mjReader.distance=Mesafe [%s]
 
 #CapactorBank
-enderio.gui.capBank.inputRs=Input Redstone Mode
-enderio.gui.capBank.outputRs=Output Redstone Mode
-enderio.gui.capBank.maxIo=Max I/O
-enderio.gui.capBank.maxInput=Max Input
+enderio.gui.capBank.inputRs=Girdi Kızıltaş Modu
+enderio.gui.capBank.outputRs=Çıktı Kızıltaş Modu
+enderio.gui.capBank.maxIo=Maks. G/Ç
+enderio.gui.capBank.maxInput=Maksimum Girdi
 enderio.gui.capBank.maxOutput=Max Çıkış
 enderio.gui.capBank.inputMode=Girdi
 enderio.gui.capBank.outputMode=Çıkış
 
 #Transceiver
-enderio.gui.trans.publicChannel=Public Channel
-enderio.gui.trans.privateChannel=Private Channel
-enderio.gui.trans.addChannel=Add Channel
-enderio.gui.trans.deleteChannel=Delete Channel
-enderio.gui.trans.activateChannel=Activate Channel
-enderio.gui.trans.powerMode=Power Mode
-enderio.gui.trans.fluidMode=Fluid Mode
-enderio.gui.trans.itemMode=Item Mode
+enderio.gui.trans.publicChannel=Genel Kanal
+enderio.gui.trans.privateChannel=Özel Kanal
+enderio.gui.trans.addChannel=Kanal Ekle
+enderio.gui.trans.deleteChannel=Kanalı Sil
+enderio.gui.trans.activateChannel=Kanalı Etkinleştir
+enderio.gui.trans.powerMode=Güç Modu
+enderio.gui.trans.fluidMode=Sıvı Modu
+enderio.gui.trans.itemMode=Eşya Modu
 enderio.gui.trans.publicHeading=Halka açık
 enderio.gui.trans.privateHeading=Özel
 
 #Alloy Smelter
 enderio.gui.alloy.mode.heading=Fırın Modu
-enderio.gui.alloy.mode.all=All Smelting
-enderio.gui.alloy.mode.alloy=Alloys Only
-enderio.gui.alloy.mode.furnace=Furnace Only
+enderio.gui.alloy.mode.all=Tümü Eritme
+enderio.gui.alloy.mode.alloy=Sadece Alaşımlar
+enderio.gui.alloy.mode.furnace=Sadece Fırın
 
 #Vacuum chest
-enderio.gui.vacuum.range=Suction Strength
-enderio.gui.vacuum.header.chest=Vacuum Chest
+enderio.gui.vacuum.range=Emiş Gücü
+enderio.gui.vacuum.header.chest=Vakum Sandığı
 enderio.gui.vacuum.header.filter=Eşya Filtresi
 enderio.gui.vacuum.header.range=Mesafe
 
 #Vat
 enderio.vat.outputTank=Çıktı Tankı
 enderio.vat.inputTank=Giriş Tankı
-enderio.gui.machine.vat.dump.1=Dump Input Tank
-enderio.gui.machine.vat.dump.2=Dump Output Tank
+enderio.gui.machine.vat.dump.1=Girdi Tankını Boşalt
+enderio.gui.machine.vat.dump.2=Çıktı Tankını Boşalt
 
 #Combustion Gen
 enderio.combustionGenerator.coolantTank=Soğutma sıvısı
 enderio.combustionGenerator.fuelTank=Yakıt
-enderio.combustionGenerator.output=Generating:
+enderio.combustionGenerator.output=Üretiliyor:
 
 #Stirling Gen
-enderio.stirlingGenerator.output=Generating:
-enderio.stirlingGenerator.burnRate=Burn Rate:
+enderio.stirlingGenerator.output=Üretiliyor:
+enderio.stirlingGenerator.burnRate=Yanma Oranı:
 enderio.stirlingGenerator.upgradeslot=Yükseltme yuvası
-enderio.stirlingGenerator.upgrades={0} gives {2}{1,number,#.#}x{3} efficiency
-enderio.stirlingGenerator.remaining=Remaining {0,number,percent}|{1,choice,0#|0<{1}m }{2,number}s|{3,number,#,###} RF
+enderio.stirlingGenerator.upgrades={0}, {2}{1,number,#.#}x{3} verimlilik verir
+enderio.stirlingGenerator.remaining=Kalan {0,number,percent}|{1,choice,0#|0<{1}m }{2,number}s|{3,number,#,###} RF
 
 # Block buffers
-enderio.gui.blockBuffer.name=Buffer 
-enderio.gui.blockBuffer.item.name=Item Buffer
-enderio.gui.blockBuffer.power.name=Power Buffer
-enderio.gui.blockBuffer.omni.name=Omni Buffer
-enderio.gui.blockBuffer.creative.name=Creative Buffer
+enderio.gui.blockBuffer.name=Tampon 
+enderio.gui.blockBuffer.item.name=Eşya Tamponu
+enderio.gui.blockBuffer.power.name=Güç Tamponu
+enderio.gui.blockBuffer.omni.name=Omni Tampon
+enderio.gui.blockBuffer.creative.name=Yaratıcı Tampon
 
 #Travel Blocks
-enderio.gui.travelAccessable.privateBlock=Only %s may change this blocks settings.
+enderio.gui.travelAccessable.privateBlock=Bu bloğun ayarlarını yalnızca %s değiştirebilir.
 enderio.gui.travelAccessable.public=Halka açık
 enderio.gui.travelAccessable.private=Özel
 enderio.gui.travelAccessable.protected=Korumalı
-enderio.gui.travelAccessable.unauthorised=You are not allowed to access this block.
-enderio.gui.travelAccessable.enterCode=Access Code Required
-enderio.gui.travelAccessable.ok=Authorise
-enderio.gui.travelAccessable.skipLocked=Skipped locked anchor, use targeted teleport.
-enderio.gui.travelAccessable.skipObstructed=Skipped obstructed anchor.
-enderio.gui.travelAccessable.skipPrivate=Skipped private anchor.
-enderio.gui.travelAccessable.tooltip.visible=Visibility
-enderio.gui.travelAccessable.tooltip.visible.desc1=When off, you cannot see this block through other blocks.
-enderio.gui.travelAccessable.tooltip.visible.desc2=Handy for use as elevators.
+enderio.gui.travelAccessable.unauthorised=Bu bloğa erişim iznin yok.
+enderio.gui.travelAccessable.enterCode=Erişim Kodu Gerekli
+enderio.gui.travelAccessable.ok=Yetkilendir
+enderio.gui.travelAccessable.skipLocked=Kilitli çapa atlandı, hedefli ışınlamayı kullan.
+enderio.gui.travelAccessable.skipObstructed=Engellenen çapa atlandı.
+enderio.gui.travelAccessable.skipPrivate=Özel çapa atlandı.
+enderio.gui.travelAccessable.tooltip.visible=Görünürlük
+enderio.gui.travelAccessable.tooltip.visible.desc1=Kapalıyken bu bloğu diğer blokların arasından göremezsin.
+enderio.gui.travelAccessable.tooltip.visible.desc2=Asansör olarak kullanmak için pratiktir.
 
-enderio.gui.telepad.configure.travel=Travel Settings
-enderio.gui.telepad.configure.telepad=Telepad Settings
-enderio.gui.telepad.blocked=Teleport Blocked!
+enderio.gui.telepad.configure.travel=Seyahat Ayarları
+enderio.gui.telepad.configure.telepad=Telepad Ayarları
+enderio.gui.telepad.blocked=Işınlama Engellendi!
 
 #Spawn Gurad [sic]
-enderio.gui.spawnGurad.showRange=Show Range
-enderio.gui.spawnGurad.hideRange=Hide Range
-enderio.gui.spawnGurad.range=Range:
+enderio.gui.spawnGurad.showRange=Menzili Göster
+enderio.gui.spawnGurad.hideRange=Aralığı Gizle
+enderio.gui.spawnGurad.range=Menzil:
 
 # Filters
-enderio.gui.item_filter.damage.disabled=Ignore Damage
-enderio.gui.item_filter.damage.damage_00_25=Up to 25% Damaged
-enderio.gui.item_filter.damage.damage_25_00=More than 25% Damaged
-enderio.gui.item_filter.damage.damage_00_50=Up to 50% Damaged
-enderio.gui.item_filter.damage.damage_50_00=More than 50% Damaged
-enderio.gui.item_filter.damage.damage_00_75=Up to 75% Damaged
-enderio.gui.item_filter.damage.damage_75_00=More than 75% Damaged
-enderio.gui.item_filter.damage.damage_00_00=Not Damaged
-enderio.gui.item_filter.damage.damage_01_00=Damaged
-enderio.gui.item_filter.damage.damage_yes=Can be Damaged
-enderio.gui.item_filter.damage.damage_not=Cannot be Damaged
+enderio.gui.item_filter.damage.disabled=Hasarı Yoksay
+enderio.gui.item_filter.damage.damage_00_25=En Fazla %25 Hasarlı
+enderio.gui.item_filter.damage.damage_25_00=25%'ten fazla Hasarlı
+enderio.gui.item_filter.damage.damage_00_50=En Fazla %50 Hasarlı
+enderio.gui.item_filter.damage.damage_50_00=50%'den Fazla Hasarlı
+enderio.gui.item_filter.damage.damage_00_75=En fazla %75 hasarlı
+enderio.gui.item_filter.damage.damage_75_00=%75'ten fazla hasarlı
+enderio.gui.item_filter.damage.damage_00_00=Hasarsız
+enderio.gui.item_filter.damage.damage_01_00=Hasarlı
+enderio.gui.item_filter.damage.damage_yes=Hasarlanabilir
+enderio.gui.item_filter.damage.damage_not=Hasarlanamaz
 
-enderio.gui.edit_item_filter=Edit Filter Settings
-enderio.gui.item_filter.close=Close Filter
-enderio.gui.item_filter.close2=Go back to previous inventory
+enderio.gui.edit_item_filter=Filtre Ayarlarını Düzenle
+enderio.gui.item_filter.close=Filtreyi Kapat
+enderio.gui.item_filter.close2=Önceki envantere geri dön
 
 enderio.gui.item_filter.whitelist=Beyaz Liste
 enderio.gui.item_filter.blacklist=Kara Liste
-enderio.gui.item_filter.match_meta=Match Metadata
-enderio.gui.item_filter.ignore_meta=Ignore Metadata
-enderio.gui.item_filter.sticky_enabled=Sticky Mode Enabled
-enderio.gui.item_filter.sticky_enabled2=Selected items will only be sent to this or other sticky outputs
-enderio.gui.item_filter.sticky_disabled=Sticky Mode Disabled
-enderio.gui.item_filter.ore_dic_enabled=Ore Dictionary Enabled
-enderio.gui.item_filter.ore_dic_disabled=Ore Dictionary Disabled
-enderio.gui.item_filter.match_nbt=Match NBT
+enderio.gui.item_filter.match_meta=Meta Verileri Eşleştir
+enderio.gui.item_filter.ignore_meta=Metaveriyi Yok Say
+enderio.gui.item_filter.sticky_enabled=Yapışkan Mod Etkin
+enderio.gui.item_filter.sticky_enabled2=Seçili eşyalar yalnızca bu veya diğer yapışkan çıktılara gönderilir
+enderio.gui.item_filter.sticky_disabled=Yapışkan Mod Devre Dışı
+enderio.gui.item_filter.ore_dic_enabled=Cevher Sözlüğü Etkin
+enderio.gui.item_filter.ore_dic_disabled=Cevher Sözlüğü Devre Dışı
+enderio.gui.item_filter.match_nbt=NBT Eşleştir
 enderio.gui.item_filter.ignore_nbt=NBT'yi Yoksay
 
-enderio.gui.existing.item_filter.snapshot=Snapshot
-enderio.gui.existing.item_filter.merge=Merge
+enderio.gui.existing.item_filter.snapshot=Anlık Görüntü
+enderio.gui.existing.item_filter.merge=Birleştir
 enderio.gui.existing.item_filter.clear=Temizle
 enderio.gui.existing.item_filter.show=Göster
-enderio.gui.existing.item_filter.snapshot2=Optional: If no snapshot is set, the inventory content will be used as filter
-enderio.gui.existing.item_filter.merge2=Merge the current snapshot with a new one
-enderio.gui.existing.item_filter.clear2=Clear the snapshot
-enderio.gui.existing.item_filter.show2=Show the current snapshot
-enderio.item.item_existing_item_filter.filter_not_updated=Filter not updated
-enderio.item.item_existing_item_filter.filter_updated=Filter updated
+enderio.gui.existing.item_filter.snapshot2=İsteğe bağlı: Anlık görüntü ayarlanmamışsa envanter içeriği filtre olarak kullanılır
+enderio.gui.existing.item_filter.merge2=Mevcut anlık görüntüyü yenisiyle birleştir
+enderio.gui.existing.item_filter.clear2=Anlık görüntüyü temizle
+enderio.gui.existing.item_filter.show2=Mevcut anlık görüntüyü göster
+enderio.item.item_existing_item_filter.filter_not_updated=Filtre güncellenmedi
+enderio.item.item_existing_item_filter.filter_updated=Filtre güncellendi
 
-enderio.gui.basic_item_filter=Basic Item Filter
-enderio.gui.advanced_item_filter=Advanced Item Filter
-enderio.gui.limited_item_filter=Limited Item Filter
-enderio.gui.big_item_filter=Big Item Filter
+enderio.gui.basic_item_filter=Basit Eşya Filtresi
+enderio.gui.advanced_item_filter=Gelişmiş Eşya Filtresi
+enderio.gui.limited_item_filter=Sınırlı Eşya Filtresi
+enderio.gui.big_item_filter=Büyük Eşya Filtresi
 # Note big_advanced_item_filter doesn't have enough space for the full name
 enderio.gui.big_advanced_item_filter=Filtre
-enderio.gui.existing_item_filter=Existing Item Filter
-enderio.gui.mod_item_filter=Mod Item Filter
-enderio.gui.power_item_filter=Power Item Filter
-enderio.gui.species_item_filter=Species Item Filter
-enderio.gui.soul_filter_normal=Soul Item Filter
-enderio.gui.soul_filter_big=Big Soul Item Filter
-enderio.gui.enchantment_filter_normal=Enchantment Item Filter
-enderio.gui.enchantment_filter_big=Big Enchantment Item Filter
+enderio.gui.existing_item_filter=Mevcut Eşya Filtresi
+enderio.gui.mod_item_filter=Mod Eşya Filtresi
+enderio.gui.power_item_filter=Güç Eşya Filtresi
+enderio.gui.species_item_filter=Tür Eşya Filtresi
+enderio.gui.soul_filter_normal=Ruh Eşya Filtresi
+enderio.gui.soul_filter_big=Büyük Ruh Eşya Filtresi
+enderio.gui.enchantment_filter_normal=Büyü Eşya Filtresi
+enderio.gui.enchantment_filter_big=Büyük Büyü Eşya Filtresi
 
-enderio.gui.fluid_filter=Basic Fluid Filter
+enderio.gui.fluid_filter=Basit Sıvı Filtresi
 
-enderio.gui.redstone_filter.and=Redstone AND Filter
-enderio.gui.redstone_filter.or=Redstone OR Filter
-enderio.gui.redstone_filter.nor=Redstone NOR Filter
-enderio.gui.redstone_filter.nand=Redstone NAND Filter
-enderio.gui.redstone_filter.xor=Redstone XOR Filter
-enderio.gui.redstone_filter.xnor=Redstone XNOR Filter
-enderio.gui.redstone_filter.counting=Redstone Counting Filter
-enderio.gui.redstone_filter.timer=Redstone Timer Filter
+enderio.gui.redstone_filter.and=Kızıltaş AND Filtresi
+enderio.gui.redstone_filter.or=Kızıltaş VEYA Filtresi
+enderio.gui.redstone_filter.nor=Kızıltaş NOR Filtresi
+enderio.gui.redstone_filter.nand=Kızıltaş NAND Filtresi
+enderio.gui.redstone_filter.xor=Kızıltaş XOR Filtresi
+enderio.gui.redstone_filter.xnor=Kızıltaş XNOR Filtresi
+enderio.gui.redstone_filter.counting=Kızıltaş Sayma Filtresi
+enderio.gui.redstone_filter.timer=Kızıltaş Zamanlayıcı Filtresi
 
 enderio.gui.mod.item_filter.delete=Sil
 enderio.gui.mod.item_filter.slot=Girdi Yuvası
 
-enderio.gui.power.item_filter.compare=Comparison Mode
-enderio.gui.power.item_filter.percent=Power Percentage
+enderio.gui.power.item_filter.compare=Karşılaştırma Modu
+enderio.gui.power.item_filter.percent=Güç Yüzdesi
 
-enderio.gui.redstone_filter.signal_color=Redstone Signal Color
-enderio.gui.redstone_filter.input_signal=Input Signal
+enderio.gui.redstone_filter.signal_color=Kızıltaş Sinyal Rengi
+enderio.gui.redstone_filter.input_signal=Girdi Sinyali
 enderio.gui.redstone_filter.count=Adet
 enderio.gui.redstone_filter.time=Zaman
 
 #conduits
 enderio.gui.conduit.ioMode=Mod
-enderio.gui.conduit.ioMode.inOut=In / Out
+enderio.gui.conduit.ioMode.inOut=Giriş / Çıkış
 enderio.gui.conduit.ioMode.input=Özü çıkartmak
 enderio.gui.conduit.ioMode.output=Yerleştir
 enderio.gui.conduit.ioMode.disabled=Devre Dışı
 enderio.gui.conduit.ioMode.notSet=Varsayılan
-tile.blockConduitBundle.name=Conduit Connector
+tile.blockConduitBundle.name=Kanal Bağlayıcı
 
 enderio.gui.conduit.button.clear=Temizle
-enderio.gui.conduit.button.merge=Merge
+enderio.gui.conduit.button.merge=Birleştir
 enderio.gui.conduit.button.show=Göster
-enderio.gui.conduit.button.snap=Snapshot
+enderio.gui.conduit.button.snap=Anlık Görüntü
 enderio.gui.conduit.item.insertionFilter=Yerleştir
 enderio.gui.conduit.item.extractionFilter=Özü çıkartmak
-enderio.gui.conduit.item.sigCol=Signal Color
+enderio.gui.conduit.item.sigCol=Sinyal Rengi
 enderio.gui.conduit.item.channel=Kanal
-enderio.gui.conduit.item.ignoreMetaData=Ignore Meta Data
-enderio.gui.conduit.item.matchMetaData=Match Meta Data
+enderio.gui.conduit.item.ignoreMetaData=Meta Veriyi Yok Say
+enderio.gui.conduit.item.matchMetaData=Meta Verileri Eşleştir
 enderio.gui.conduit.item.whitelist=Beyaz Liste
-enderio.gui.conduit.item.whitelist.tooltip.0=If item list is empty, no item
-enderio.gui.conduit.item.whitelist.tooltip.1=will be allowed to pass
+enderio.gui.conduit.item.whitelist.tooltip.0=Eşya listesi boşsa, eşya yok
+enderio.gui.conduit.item.whitelist.tooltip.1=geçmesine izin verilir
 enderio.gui.conduit.item.blacklist=Kara Liste
-enderio.gui.conduit.item.blacklist.tooltip.0=If item list is empty, all items
-enderio.gui.conduit.item.blacklist.tooltip.1=will be allowed to pass
-enderio.gui.conduit.item.stickyEnabled=Sticky Mode Enabled|Selected items will only|be sent to this or other|Sticky outputs.
-enderio.gui.conduit.item.stickyDisbaled=Sticky Mode Disabled
-enderio.gui.conduit.item.ignoreNBT=Ignore NBT Data
-enderio.gui.conduit.item.matchNBT=Match NBT Data
-enderio.gui.conduit.item.oreDicEnabled=Ore Dictionary Enabled
-enderio.gui.conduit.item.oreDicDisabled=Ore Dictionary Disabled
-enderio.gui.conduit.item.selfFeedEnabled=Self Feed Enabled
-enderio.gui.conduit.item.selfFeedDisabled=Self Feed Disabled
-enderio.gui.conduit.item.roundRobinEnabled=Round Robin Enabled
-enderio.gui.conduit.item.roundRobinDisabled=Round Robin Disabled
+enderio.gui.conduit.item.blacklist.tooltip.0=Eşya listesi boşsa tüm eşyalar
+enderio.gui.conduit.item.blacklist.tooltip.1=geçmesine izin verilir
+enderio.gui.conduit.item.stickyEnabled=Yapışkan Mod Etkinleştirildi|Seçilen eşyalar yalnızca|bu veya diğer|Yapışkan çıkışlara gönderilir.
+enderio.gui.conduit.item.stickyDisbaled=Yapışkan Mod Devre Dışı
+enderio.gui.conduit.item.ignoreNBT=NBT Verisini Yok Say
+enderio.gui.conduit.item.matchNBT=NBT Verisiyle Eşleştir
+enderio.gui.conduit.item.oreDicEnabled=Cevher Sözlüğü Etkin
+enderio.gui.conduit.item.oreDicDisabled=Cevher Sözlüğü Devre Dışı
+enderio.gui.conduit.item.selfFeedEnabled=Kendini Besleme Etkin
+enderio.gui.conduit.item.selfFeedDisabled=Kendi kendini besleme devre dışı
+enderio.gui.conduit.item.roundRobinEnabled=Seri Döngü Etkin
+enderio.gui.conduit.item.roundRobinDisabled=Seri Döngü Devre Dışı
 enderio.gui.conduit.item.priority=Öncelik
 
-enderio.gui.conduit.item.fuzzy.disabled=Damage Mode: Disabled
-enderio.gui.conduit.item.fuzzy.fuzzy_25=Damage Mode: Damaged by 25% or more
-enderio.gui.conduit.item.fuzzy.fuzzy_50=Damage Mode: Damaged by 50% or more
-enderio.gui.conduit.item.fuzzy.fuzzy_75=Damage Mode: Damaged by 75% or more
-enderio.gui.conduit.item.fuzzy.fuzzy_99=Damage Mode: Damaged at least once
-enderio.gui.conduit.item.fuzzy.tooltip.0=Can work without items in the filter
-enderio.gui.conduit.item.fuzzy.tooltip.1=In this case its logic can be
-enderio.gui.conduit.item.fuzzy.tooltip.2=controlled by %s button
+enderio.gui.conduit.item.fuzzy.disabled=Hasar Modu: Devre dışı
+enderio.gui.conduit.item.fuzzy.fuzzy_25=Hasar Modu: %25 veya daha fazla hasarlı
+enderio.gui.conduit.item.fuzzy.fuzzy_50=Hasar Modu: %50 veya daha fazla hasar görmüş
+enderio.gui.conduit.item.fuzzy.fuzzy_75=Hasar Modu: %75 veya daha fazla hasarlı
+enderio.gui.conduit.item.fuzzy.fuzzy_99=Hasar Modu: En az bir kez hasar görmüş
+enderio.gui.conduit.item.fuzzy.tooltip.0=Filtrede eşya olmadan da çalışabilir
+enderio.gui.conduit.item.fuzzy.tooltip.1=Bu durumda mantığı
+enderio.gui.conduit.item.fuzzy.tooltip.2=%s düğmesiyle kontrol edilir
 
-enderio.gui.conduit.item.filterupgrade=Insert Item Filter
-enderio.gui.conduit.item.speedupgrade=Insert Item Conduit Speed Upgrades/Downgrade
-enderio.gui.conduit.item.speedupgrade2=Max upgrades is 15; Max downgrades is 1
-enderio.gui.conduit.item.functionupgrade.line1=Possible function upgrades:
+enderio.gui.conduit.item.filterupgrade=Eşya Filtresi Tak
+enderio.gui.conduit.item.speedupgrade=Eşya Kanalı Hız Yükseltmesi/Düşürmesi Ekle
+enderio.gui.conduit.item.speedupgrade2=Maksimum yükseltme 15; maksimum düşürme 1
+enderio.gui.conduit.item.functionupgrade.line1=Olası işlev yükseltmeleri:
 
-enderio.gui.conduit.redstone.signalColor=Signal Color
+enderio.gui.conduit.redstone.signalColor=Sinyal Rengi
 enderio.gui.conduit.redstone.color=Renk
-enderio.gui.conduit.redstone.signalStrengh=Strong Signal
-enderio.gui.conduit.redstone.signalStrengh.tooltip=Output a strong redstone signal 
+enderio.gui.conduit.redstone.signalStrengh=Güçlü Sinyal
+enderio.gui.conduit.redstone.signalStrengh.tooltip=Güçlü bir kızıltaş sinyali ver 
 
-enderio.gui.conduit.fluid.autoExtract=Auto Extract
+enderio.gui.conduit.fluid.autoExtract=Otomatik Çek
 enderio.gui.conduit.fluid.filter=Filtre
 enderio.gui.conduit.fluid.whitelist=Beyaz Liste
 enderio.gui.conduit.fluid.blacklist=Kara Liste
 
-enderio.gui.conduit.gas.autoExtract=Auto Extract
+enderio.gui.conduit.gas.autoExtract=Otomatik Çek
 
 #Weather
-enderio.gui.weather.task.clear=Clear Weather
-enderio.gui.weather.task.rain=Rainy Weather
-enderio.gui.weather.task.storm=Thunderstorm
-enderio.gui.weather.requiredfluid=Required Fluid: %s L
-enderio.weatherObelisk.fuelTank=Barometric Flux Tank
+enderio.gui.weather.task.clear=Açık Hava
+enderio.gui.weather.task.rain=Yağmurlu Hava
+enderio.gui.weather.task.storm=Gök Gürültülü Fırtına
+enderio.gui.weather.requiredfluid=Gerekli Sıvı: %s L
+enderio.weatherObelisk.fuelTank=Barometrik Akı Tankı
 
 #Enchants
 enchantment.enderio.soulBound=Ruh Bağı
-description.enchantment.enderio.soulBound=When the player dies the item/tool/armor will be kept in the inventory and not drop on the ground.
+description.enchantment.enderio.soulBound=Oyuncu öldüğünde eşya/alet/zırh envanterde tutulacak ve yere düşmeyecektir.
 
 #Configuration
-enderio.config.title=Ender IO Configuration
+enderio.config.title=Ender IO Yapılandırması
 
-enderio.config.power=Power Settings
-enderio.config.power.tooltip=So many numbers to change...
+enderio.config.power=Güç Ayarları
+enderio.config.power.tooltip=Değiştirilecek çok fazla sayı var...
 
-enderio.config.recipe=Recipe Settings
-enderio.config.recipe.tooltip=Config ALL the things!
+enderio.config.recipe=Tarif Ayarları
+enderio.config.recipe.tooltip=HER ŞEYİ yapılandır!
 
-enderio.config.item=Item Enabling
-enderio.config.item.tooltip=If you don't like some of my amazing items :(
+enderio.config.item=Eşya Etkinleştirme
+enderio.config.item.tooltip=Muhteşem eşyalarımdan bazılarını sevmiyorsan :(
 
-enderio.config.efficiency=Efficiency Settings
-enderio.config.efficiency.tooltip=Where do the numbers end?
+enderio.config.efficiency=Verimlilik Ayarları
+enderio.config.efficiency.tooltip=Sayılar nerede bitiyor?
 
-enderio.config.personal=Personal Settings
-enderio.config.personal.tooltip=I won't tell anyone, I promise.
+enderio.config.personal=Kişisel Ayarlar
+enderio.config.personal.tooltip=Kimseye söylemem, söz veriyorum.
 
-enderio.config.anchor=Anchor Settings
-enderio.config.anchor.tooltip=Anchors away!
+enderio.config.anchor=Çapa Ayarları
+enderio.config.anchor.tooltip=Demir al!
 
-enderio.config.staff=Staff Settings
-enderio.config.staff.tooltip=Be careful with that thing, you'll teleport your face off.
+enderio.config.staff=Asa Ayarları
+enderio.config.staff.tooltip=O şeyle dikkatli ol, yoksa yüzünü ışınlayıp durursun.
 
 enderio.config.darksteel=Kara çelik
-enderio.config.darksteel.tooltip=It's not just regular steel, it's §odark§r§e steel.
+enderio.config.darksteel.tooltip=Bu sadece normal çelik değil, §okara§r§e çelik.
 
-enderio.config.farm=Farm Settings
-enderio.config.farm.tooltip="The commune is for life!"
+enderio.config.farm=Çiftlik Ayarları
+enderio.config.farm.tooltip="Komün hayat içindir!"
 
-enderio.config.aesthetic=Aesthetic Settings
-enderio.config.aesthetic.tooltip=Oooh, ahhh, pretty.
+enderio.config.aesthetic=Estetik Ayarları
+enderio.config.aesthetic.tooltip=Oooh, ahhh, ne güzel.
 
 enderio.config.advanced=Gelişmiş Ayarlar
-enderio.config.advanced.tooltip=For those who can't have enough configs.
+enderio.config.advanced.tooltip=Yapılandırmaya doymayanlar için.
 
-enderio.config.magnet=Magnet Settings
+enderio.config.magnet=Mıknatıs Ayarları
 enderio.config.magnet.tooltip=Nasıl çalışıyorlar?
 
-enderio.config.fluid=Fluid Settings
-enderio.config.fluid.tooltip=Pure liquid energy!
+enderio.config.fluid=Sıvı Ayarları
+enderio.config.fluid.tooltip=Saf sıvı enerji!
 
-enderio.config.spawner=PoweredSpawner Settings
-enderio.config.spawner.tooltip=I ran out of witty tooltips.
+enderio.config.spawner=PoweredSpawner Ayarları
+enderio.config.spawner.tooltip=Zekice ipuçlarım bitti.
 
 #Keybinds/Waila/NEI/Tooltips
-enderio.category.darksteelarmor=Dark Steel Armor
-enderio.category.tools=EnderIO - Tools
-enderio.keybind.glidertoggle=Glider Toggle
+enderio.category.darksteelarmor=Kara Çelik Zırh
+enderio.category.tools=EnderIO - Araçlar
+enderio.keybind.glidertoggle=Planör Aç/Kapat
 enderio.keybind.gogglesofrevealing=Hakikat Gözlüğü
-enderio.keybind.trackmansgoggles=Trackman's Goggles
+enderio.keybind.trackmansgoggles=Raycı'nın Gözlükleri
 enderio.keybind.nightvision=Gece Görüşü
-enderio.keybind.soundlocator=Sound Locator
+enderio.keybind.soundlocator=Ses Bulucu
 enderio.keybind.speed=Hız
-enderio.keybind.jump=Jump
+enderio.keybind.jump=Zıplama
 enderio.keybind.stepassist=Basamak Desteği
-enderio.keybind.yetawrenchmode=Yeta Wrench Mode
-enderio.keybind.magnet=Toggle Electromagnet
-enderio.keybind.staffoftravelingtp=Travel Staff Blink
+enderio.keybind.yetawrenchmode=Yeta Anahtarı Modu
+enderio.keybind.magnet=Elektromıknatısı Aç/Kapat
+enderio.keybind.staffoftravelingtp=Seyahat Asası Işınlanma
 enderio.nei.alloysmelter=Alaşım İzabesi
 enderio.nei.enchanter=Büyüleyici
-enderio.nei.sagmill=SAG Mill
-enderio.nei.sagmill.outputchance=Chance: {0,choice,0#'<1'|0<{0,number}}%
+enderio.nei.sagmill=SAG Değirmeni
+enderio.nei.sagmill.outputchance=Şans: {0,choice,0#'<1'|0<{0,number}}%
 enderio.nei.slicensplice=Slice'N'Splice
-enderio.nei.soulbinder=Soul Binder
-enderio.nei.vat=Vat
+enderio.nei.soulbinder=Ruh Bağlayıcı
+enderio.nei.vat=Tekne
 enderio.tooltip.burntime=Yanma Süresi:
-enderio.tooltip.oredict=Ore Dictionary:
+enderio.tooltip.oredict=Cevher Sözlüğü:
 enderio.tooltip.meta=Meta:
 enderio.tooltip.uid=UID:
-enderio.tooltip.anvilupgrades=Anvil Upgrades:
-enderio.waila.config.hiddenfacades=Sneaky Facades
+enderio.tooltip.anvilupgrades=Örs Yükseltmeleri:
+enderio.waila.config.hiddenfacades=Sinsi Cepheler

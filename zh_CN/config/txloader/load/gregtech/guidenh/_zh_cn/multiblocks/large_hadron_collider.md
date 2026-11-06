@@ -9,4 +9,4 @@ navigation:
   icon: gregtech:gt.blockmachines:3013
   position: -8001
 ---
-# Large Hadron Collider
+# 大型强子对撞机

@@ -1,10 +1,10 @@
 ---
 navigation:
-  title: Bee with You
+  title: Пчёлы с тобой
   icon: 'Forestry:beeQueenGE:0:{Genome:{Chromosomes:[0:{UID0:"gregtech.bee.speciesInfinity",UID1:"gregtech.bee.speciesInfinity"}]}}'
   position: 20
 ---
 
-# Bee with You
+# Пчёлы с тобой
 
-Guides for Forestry beekeeping.
+Руководства по пчеловодству Forestry.

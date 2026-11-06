@@ -9,4 +9,4 @@ navigation:
   icon: gregtech:gt.blockmachines:1169
   position: -3001
 ---
-# Large Chemical Reactor
+# 大型化学反应釜

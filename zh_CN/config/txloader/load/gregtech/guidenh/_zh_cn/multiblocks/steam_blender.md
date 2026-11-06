@@ -9,31 +9,31 @@ navigation:
   icon: gregtech:gt.blockmachines:31084
   position: -501
 ---
-# Steam Blender
+# 大型蒸汽搅拌机
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31084" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" /> is a multiblock Mixer available in the Steam age. It uses steam to mix materials in batches and can process up to eight copies of the same recipe at once. It can make Bronze Dust, Brass Dust, Fireclay Dust, and other materials, and can directly accept and output fluids to make eligible products such as Salt Water.
+<ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" /> 是蒸汽时代可用的多方块搅拌机。它使用蒸汽批量混合材料，并可同时处理最多八份相同配方。它可制作青铜粉、黄铜粉、耐火黏土粉等材料，也能直接输入和输出流体以制作盐水等符合条件的产物。
 
-The machine has basic bronze and high pressure steel structures that share the same controller. It makes eligible Mixer recipes available in the Steam age. Upgrading to the high pressure structure increases throughput, but does not raise the maximum recipe tier.
+该机器有基础青铜结构和高压钢结构，两者共用同一控制器。它可在蒸汽时代运行符合条件的搅拌机配方。升级到高压钢结构可提高吞吐量，但不会提升配方最高等级。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires Tumbaga Rings, Tumbaga Rotors, a Tumbaga Frame Box, and other materials |
-| Dimensions | 5×5 footprint, four blocks tall; controller at the front center of the second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Recipe range | Mixer recipes without fluid cells at LV or below, requiring no more than 32 EU/t |
-| Item interfaces | Steam Input and Output Buses; ordinary electric machine item buses cannot replace them |
-| Fluid interfaces | Ordinary Input Hatches supply recipe fluids, and ordinary Output Hatches collect fluid products; separate from the Steam Hatch used for power |
-| Parallels | Up to eight copies of the same recipe; the high pressure structure does not raise this limit |
-| Processing duration | Approximately 1.6× the duration shown in NEI for the basic structure, or 0.8× for the high pressure structure |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| 解锁阶段 | 蒸汽时代；控制器配方需要铜金合金环、铜金合金转子、铜金合金框架以及其他材料 |
+| 尺寸 | 占地 5×5，高四格；控制器位于第二层前方中央 |
+| 电力 | 恰好一个蒸汽仓；不需要能源仓 |
+| 配方范围 | LV 或以下、不含流体单元且耗电不超过 32 EU/t 的搅拌机配方 |
+| 物品接口 | 蒸汽输入总线和输出总线；普通电力机器物品总线不能替代 |
+| 流体接口 | 普通输入仓供应配方流体，普通输出仓收集流体产物；与用于供能的蒸汽仓分开 |
+| 并行数 | 最多同时处理八份相同配方；高压结构不会提高此上限 |
+| 加工时间 | 基础结构约为 NEI 所示时间的 1.6 倍，高压结构约为 0.8 倍 |
+| 升级与超频 | 高压结构将速度和蒸汽消耗速率加倍；不进行电压超频 |
+| 维护与污染 | 无需维护，不产生污染，也不需要消声仓 |
 
-## Crafting and Construction
+## 合成与建造
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+下方展示了控制器、基础外壳和蒸汽仓的当前配方。点击表格中的物品可查看其他部件的配方。
 
 <RecipesFor id="gregtech:gt.blockmachines:31084" />
 
@@ -41,137 +41,137 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### 结构材料
 
-The following setup uses one Steam Hatch, one Input Bus, one Output Bus, one Input Hatch, and one Output Hatch to handle item and fluid recipes. The basic structure uses bronze components, while the high pressure structure uses their steel counterparts. **The casings, Frame Boxes, Gear Box Casings, and Pipe Casings in one machine must all be of the same tier.**
+以下配置使用一个蒸汽仓、一个输入总线、一个输出总线、一个输入仓和一个输出仓来处理物品与流体配方。基础结构使用青铜部件，高压结构则使用对应的钢制部件。**同一台机器的外壳、框架、齿轮箱机械方块和管道方块必须全部为同一等级。**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| 部件 | 基础结构 | 高压结构 | 数量与位置 |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 35 in the setup described above; may be replaced with the hatches or buses below, but at least 25 actual casings must remain |
-| Frame Box | <ItemLink id="gregtech:gt.blockframes:300" showIcon="left" /> | <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | Four: one in front of, behind, to the left of, and to the right of the central Gear Box Casing on the second layer |
-| Gear Box Casing | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | Two: one at the center of each of the second and fourth layers |
-| Pipe Casing | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | One, at the center of the third layer |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" /> | Same controller | One, at the front center of the second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | Install as needed for item inputs, replacing a casing; can also provide the Programmed Circuit setting |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | Install as needed for item outputs, replacing a casing |
-| Input Hatch | For example, <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Same hatch | Install as needed for fluid inputs, replacing a casing |
-| Output Hatch | For example, <ItemLink id="gregtech:gt.blockmachines:60" showIcon="left" /> | Same hatch | Install as needed for fluid outputs, replacing a casing |
+| 外壳 | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 上述配置中为 35 个；可由下方仓或总线替换，但实际外壳至少保留 25 个 |
+| 框架 | <ItemLink id="gregtech:gt.blockframes:300" showIcon="left" /> | <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | 四个：位于第二层中央齿轮箱机械方块的前、后、左、右 |
+| 齿轮箱机械方块 | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | 两个：分别位于第二层和第四层中央 |
+| 管道方块 | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | 一个，位于第三层中央 |
+| 控制器 | <ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" /> | 同一控制器 | 一个，位于第二层前方中央 |
+| 蒸汽仓 | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | 同一仓 | 恰好一个，替换一个外壳 |
+| 输入总线 | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | 同一总线 | 按物品输入需要安装并替换外壳；也可提供编程电路设置 |
+| 输出总线 | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | 同一总线 | 按物品输出需要安装并替换外壳 |
+| 输入仓 | 例如 <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | 同一仓 | 按流体输入需要安装并替换外壳 |
+| 输出仓 | 例如 <ItemLink id="gregtech:gt.blockmachines:60" showIcon="left" /> | 同一仓 | 按流体输出需要安装并替换外壳 |
 
-The new structure has 40 positions for casings or hatches. Installing the five interfaces listed above leaves 35 casings. For mixing only dusts, a Steam Hatch, steam Input Bus, and steam Output Bus are sufficient, leaving 37 casings. Adding buses or hatches reduces the casing count accordingly, but at least 25 actual casings must remain. Hatches and buses cannot replace Frame Boxes, Gear Box Casings, or Pipe Casings.
+新结构有 40 个可放置外壳或仓的位置。安装上述五个接口后，还剩 35 个外壳。若仅混合粉，一个蒸汽仓、蒸汽输入总线和蒸汽输出总线就足够，剩下 37 个外壳。增加总线或仓会相应减少外壳数量，但实际外壳至少要保留 25 个。仓和总线不能替代框架、齿轮箱机械方块或管道方块。
 
-The structure check requires at least one type of recipe input interface and at least one type of output interface; it does not require every item and fluid interface to be installed. For actual processing, provide interfaces for all recipe inputs and outputs. When several input fluids are required, a single ordinary Input Hatch cannot hold them all at once, so provide the corresponding number of Input Hatches.
+结构检查只要求至少一种配方输入接口和至少一种输出接口；并不要求安装每一种物品和流体接口。实际加工时，则要为所有配方输入和输出提供对应接口。如果配方需要多种输入流体，一个普通输入仓无法同时容纳它们，因此请按需安装多个输入仓。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 预览结构并辅助建造。主信道等级 1 选择基础结构，等级 2 选择高压结构。辅助建造完成后安装仓，并检查结构。
 
-## Machine Uses
+## 机器用途
 
-### Recipe Map and Fluid Cells
+### 配方类型与流体单元
 
-The Steam Blender uses the **Multiblock Mixer recipe map**, shown as **Multiblock Mixer** in English NEI. Singleblock Mixer recipes involving fluid cells usually become recipes that directly accept and output the corresponding fluids in this map. Item requirements, including Programmed Circuits, must still be met.
+大型蒸汽搅拌机使用**工业搅拌机配方类型**，英文 NEI 中显示为 **Multiblock Mixer**。涉及流体单元的单方块搅拌机配方通常会转换为此配方类型中可直接输入和输出相应流体的配方。仍须满足物品要求，包括编程电路。
 
-When checking NEI, confirm that the recipe belongs to this map, then check item quantities, fluid types and quantities, Programmed Circuit configuration, recipe tier, and all outputs.
+查看 NEI 时，请先确认配方属于此类型，再检查物品数量、流体种类与数量、编程电路设置、配方等级和全部产物。
 
-| Use | Common recipes and considerations |
+| 用途 | 常见配方与注意事项 |
 | --- | --- |
-| Mixing alloy dusts | Copper Dust and Tin Dust become Bronze Dust; Copper Dust and Zinc Dust become Brass Dust. Check input ratios and circuit configuration; the product is dust, not ingots. |
-| Fireclay Dust | Mixes Brick Dust and Clay Dust for subsequent refractory material recipes |
+| 混合合金粉 | 铜粉和锡粉制成青铜粉；铜粉和锌粉制成黄铜粉。检查输入比例和电路配置；产物是粉而不是锭。 |
+| 耐火黏土粉 | 混合砖粉和黏土粉，为后续耐火材料配方做准备 |
 
 > [!NOTE]
-> The machine is available in the Steam age, but only accepts recipes up to LV. Check the recipe's EU/t to determine whether an alloy dust, chemical mixture, or other material can be processed. The high pressure steel structure does not enable MV or higher-tier recipes.
+> 该机器在蒸汽时代即可使用，但只接受 LV 及以下的配方。查看配方的 EU/t，以确认某种合金粉、化学混合物或其他材料是否可加工。高压钢结构无法运行 MV 或更高等级的配方。
 
-### Programmed Circuits and Bronze Dust
+### 编程电路与青铜粉
 
-Many Mixer recipes require a <ItemLink id="gregtech:gt.integrated_circuit:1" showIcon="left" />. Set the configuration required by NEI in the circuit slot of the steam Input Bus GUI.
+许多搅拌机配方需要 <ItemLink id="gregtech:gt.integrated_circuit:1" showIcon="left" />。请在蒸汽输入总线 GUI 的电路槽中设置 NEI 所要求的配置。
 
-The current common Bronze Dust recipe requires **three Copper Dust, one Tin Dust, and a Programmed Circuit configured to 1** per recipe, producing **four Bronze Dust**. Send Copper Dust and Tin Dust into the steam Input Bus, set the circuit configuration to 1, and collect Bronze Dust through the steam Output Bus.
+当前常见的青铜粉配方每次需要**三份铜粉、一份锡粉和一张配置为 1 的编程电路**，产出**四份青铜粉**。将铜粉和锡粉送入蒸汽输入总线，设置电路配置为 1，并通过蒸汽输出总线收集青铜粉。
 
-At eight parallels, one cycle consumes 24 Copper Dust and eight Tin Dust and produces 32 Bronze Dust. Keep a 3:1 input ratio during continuous operation so Copper Dust does not fill every slot and prevent Tin Dust from entering.
+并行数为八时，一轮会消耗 24 份铜粉和八份锡粉，并产出 32 份青铜粉。持续运行时保持 3:1 的输入比例，避免铜粉塞满所有槽位，导致锡粉无法进入。
 
-Arrange subsequent smelting for Bronze Dust using NEI. Other alloy dusts may require an Electric Blast Furnace or other machines.
+后续如何熔炼青铜粉，请按 NEI 操作。其他合金粉可能需要工业高炉或其他机器。
 
-### First Startup
+### 首次启动
 
-1. Check the structure and confirm that the Steam Hatch and required item and fluid interfaces are installed.
-2. Connect the steam pipe to the Steam Hatch, and supply each recipe fluid to its ordinary Input Hatch.
-3. Check the recipe without fluid cells, all input quantities, Programmed Circuit configuration, and recipe tier in NEI.
-4. Set the circuit, leave space for all item and fluid outputs, then start with a small amount of material.
-5. Observe the steam buffer, input ratios, and outputs. Increase parallels after confirming continuous input supply and output collection.
+1. 检查结构，并确认已安装蒸汽仓以及所需的物品和流体接口。
+2. 将蒸汽管道接到蒸汽仓，并通过普通输入仓供应各配方所需流体。
+3. 在 NEI 中检查不使用流体单元的配方、所有输入数量、编程电路配置和配方等级。
+4. 设置电路，为全部物品和流体产物留出空间，然后少量投入材料启动。
+5. 观察蒸汽缓冲、输入比例和产物。确认输入供应连续、产物能被收集后，再增加并行数。
 
-## Steam Supply and Throughput
+## 蒸汽供应与吞吐量
 
-The Steam Blender can process up to eight copies of **the same recipe** at once. This does not mean it can run eight different recipes in one cycle, or that a cycle only consumes eight items. Actual parallels also depend on input ratios, item and fluid quantities, output space, and the parallel limit set in the GUI.
+大型蒸汽搅拌机最多可同时处理八份**相同配方**。这不代表它能在一轮中运行八种不同配方，也不代表一轮只消耗八件物品。实际并行数还取决于输入比例、物品与流体数量、输出空间，以及 GUI 中设置的并行上限。
 
-The basic structure takes approximately 1.6× the recipe duration shown in NEI, while the high pressure structure takes approximately 0.8×. For example, the Bronze Dust recipe shown as two seconds takes roughly 3.2 seconds in the basic structure or 1.6 seconds in the high pressure structure. Parallels increase the number of recipes processed in a cycle without dividing the cycle's duration by the parallel count.
+基础结构的加工时间约为 NEI 所示配方时间的 1.6 倍，高压结构约为 0.8 倍。例如，NEI 显示两秒的青铜粉配方，在基础结构中约需 3.2 秒，在高压结构中约需 1.6 秒。并行数会增加每轮处理的配方数量，但不会按并行数缩短每轮时间。
 
-| Property | Basic structure | High pressure structure |
+| 属性 | 基础结构 | 高压结构 |
 | --- | --- | --- |
-| Accepted recipe tiers | LV and below | LV and below |
-| Maximum parallels | 8 | 8 |
-| Processing duration relative to NEI | Approximately 1.6× | Approximately 0.8× |
-| Steam consumption rate for the same recipe and parallel count | 1× | 2× |
-| Total steam consumption per recipe | Baseline | Approximately the same as the basic structure |
-| Inputs and outputs per recipe | As specified by the NEI recipe | Same as the basic structure |
+| 可运行配方等级 | LV 及以下 | LV 及以下 |
+| 最大并行数 | 8 | 8 |
+| 相对于 NEI 的加工时间 | 约 1.6 倍 | 约 0.8 倍 |
+| 相同配方及并行数下的蒸汽消耗速率 | 1 倍 | 2 倍 |
+| 每份配方的总蒸汽消耗量 | 基准 | 与基础结构大致相同 |
+| 每份配方的输入与输出 | 按 NEI 配方所列 | 与基础结构相同 |
 
-The high pressure upgrade increases speed and steam consumption rate together. It mainly improves throughput, with approximately the same total steam cost per recipe as the basic structure. Actual duration and steam consumption are also affected by tick and integer rounding. During continuous production, item and recipe fluid transfer rates must increase along with processing speed.
+高压升级会同时提高速度和蒸汽消耗速率，主要改善吞吐量；每份配方的蒸汽总消耗量与基础结构大致相同。实际时间和蒸汽消耗还会受到游戏刻和整数取整影响。持续生产时，物品和配方流体的传输速率也必须随加工速度提升。
 
-The Steam Hatch buffers 64,000 L of steam, but this only covers temporary shortfalls and cannot replace continuous boiler production. Size boilers and pipes for the **steam consumption rate while processing**, and use separate lines for recipe fluids.
+蒸汽仓可储存 64,000 L 蒸汽，但这只能应对暂时短缺，无法替代锅炉持续产汽。锅炉和管道应按**加工期间的蒸汽消耗速率**配置，配方流体则使用独立管线。
 
-Use Waila to check the operating steam consumption rate and watch whether the buffer keeps falling during continuous processing. If a value is shown in L/t, multiply by 20 to get L/s at the normal 20 TPS. Use matching units when comparing pipe throughput. If steam supply is insufficient, lower the parallel limit in the GUI, then increase boiler production or improve the piping.
+使用 Waila 查看运行时的蒸汽消耗速率，并观察持续加工时缓冲量是否不断下降。如果显示单位为 L/t，在正常 20 TPS 下乘以 20 即为 L/s。比较管道吞吐量时请使用相同单位。蒸汽供应不足时，先在 GUI 中降低并行上限，再提高锅炉产量或改进管道。
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation, and items and recipe fluids already consumed are not returned. Check steam production and pipe throughput before upgrading to high pressure or increasing the parallel limit.
+> 加工期间蒸汽耗尽会中止当前操作，已经消耗的物品和配方流体不会返还。升级至高压结构或提高并行上限前，请检查蒸汽产量和管道吞吐量。
 
-## Upgrading to High Pressure
+## 升级为高压结构
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31084" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. Replace **all** Bronze Plated Bricks, Bronze Frame Boxes, Bronze Gear Box Casings, and Bronze Pipe Casings with the Solid Steel Machine Casings, Steel Frame Boxes, Steel Gear Box Casings, and Steel Pipe Casings listed in the table.
+高压结构保持相同尺寸、仓位和控制器。将**所有**镀铜砖块、青铜框架、青铜齿轮箱机械方块和青铜管道方块替换为表中所列的脱氧钢机械方块、钢框架、钢齿轮箱机械方块和钢管道方块。
 
-Stop processing and material input before upgrading. After replacing the components, check the structure again and confirm the machine displays the high pressure tier before restoring steam, inputs, and production.
+升级前请停止加工和材料输入。替换部件后重新检查结构，并确认机器显示为高压等级，再恢复蒸汽、输入和生产。
 
-High pressure is the machine's structure tier. It still uses ordinary steam, and the existing Steam Hatch, steam buses, and ordinary Input and Output Hatches can be reused. The upgrade doubles speed and steam consumption rate, but the maximum remains eight parallels, and MV or higher-tier recipes remain unavailable.
+高压是机器的结构等级。它仍使用普通蒸汽，现有蒸汽仓、蒸汽总线和普通输入/输出仓均可继续使用。升级会使速度和蒸汽消耗速率加倍，但最大并行数仍为八，且仍无法运行 MV 或更高等级配方。
 
-## Automation and Output Routing
+## 自动化与产物路由
 
-Steam Input and Output Buses each have four item slots, and the Input Bus has an additional circuit slot. They do not automatically pull from adjacent chests or push products into them; placing a chest next to a bus is not enough for automation.
+蒸汽输入总线和输出总线各有四个物品槽，输入总线另有一个电路槽。它们不会自动从相邻箱子抽取物品，也不会将产物推入箱子；仅将箱子放在总线旁不足以实现自动化。
 
-- **Item input:** Use hoppers, GT item pipes, conveyors, or item conduits to send materials into the front face of the Input Bus. Supply the correct recipe ratios and reserve slots for each dust type.
-- **Item output:** Actively extract from the front face of the Output Bus with pipes, conduits, or conveyors, then route products to material storage or the next processing machine.
-- **Fluid input:** Use separate lines and Input Hatches for each fluid type, checking filters, fluid locks, and quantities. Connect the steam supply line to the Steam Hatch.
-- **Fluid output:** Extract products from the Output Hatch, or place a tank against its front face for automatic output.
-- **Programmed Circuit:** Keep the required configuration when producing one material. Before changing recipes, stop input and wait for the current operation to finish, then handle remaining items and fluids and adjust the circuit.
-- **Hatch colors:** Leave hatches unpainted during initial construction if desired. After painting them, make sure the items, fluids, and circuit required by one recipe can still be read as part of the same input group.
+- **物品输入：**使用漏斗、GT 物品管道、传送带或物品导管，将材料送入输入总线正面。按正确比例供应原料，并为每种粉预留槽位。
+- **物品输出：**用管道、导管或传送带从输出总线正面主动提取，再将产物送往材料存储处或下一台加工机器。
+- **流体输入：**为每种流体使用独立管线和输入仓，并检查过滤器、流体锁和数量。将蒸汽供应管线接至蒸汽仓。
+- **流体输出：**从输出仓提取产物，或将储罐贴在其正面以实现自动输出。
+- **编程电路：**生产一种材料时保持所需配置。切换配方前，停止输入并等待当前操作完成，再处理剩余物品和流体并调整电路。
+- **仓的颜色：**初次建造时可让仓保持未染色。染色后，需确保某配方所需物品、流体和电路仍会被识别为同一输入组。
 
-If a recipe requires more item types than one bus can hold, add steam Input Buses. Multiple fluids or large quantities per cycle may also require additional hatches. Keep at least 25 actual casings when adding interfaces, and do not install a second Steam Hatch.
+如果配方所需物品类型超过单个总线的容量，请增加蒸汽输入总线。多种流体或每轮需要大量流体时也可能需要额外仓位。添加接口后仍要保留至少 25 个实际外壳，且不能安装第二个蒸汽仓。
 
 > [!WARNING]
-> To collect all products, set the GUI's voiding mode to "Do Not Void" and provide space for every item and fluid output. If fluid voiding is enabled, Salt Water, Aqua Regia, and other products may be discarded when an Output Hatch is missing or blocked.
+> 如需收集全部产物，请将 GUI 的销毁模式设为“不销毁”，并为每种物品和流体产物预留空间。如果启用了流体销毁，缺少输出仓或输出仓堵塞时，盐水、王水等产物可能会被丢弃。
 
-## Troubleshooting
+## 故障排除
 
-| Symptom | What to check |
+| 症状 | 检查事项 |
 | --- | --- |
-| Incomplete structure | Is the footprint 5×5 and the height four blocks? Is the controller at the front center of the second layer? Are Frame Boxes, Gear Box Casings, and Pipe Casings positioned as shown in the hologram? |
-| Structure tier mismatch | Are the casings, Frame Boxes, Gear Box Casings, and Pipe Casings all of the same tier? Were only some bronze components replaced? |
-| Missing input or output interface | Is at least one type of recipe input and one type of output installed? Are both the item buses and fluid hatches required by the recipe present? |
-| Missing Steam Hatch or unable to install steam buses | Is there exactly one Steam Hatch? Were ordinary electric machine item buses used by mistake? |
-| Structure fails after adding hatches | Are at least 25 actual casings left? Were any Frame Boxes, Gear Box Casings, or Pipe Casings replaced with hatches? |
-| Dusts present but no recipe found | Do input forms, types, and ratios match NEI? Are quantities sufficient and the circuit configuration correct? Was a mixing recipe for another machine checked by mistake? |
-| Filled fluid cells do not process | Was a singleblock recipe checked? Confirm direct fluid inputs in the recipe map without cells, then supply ordinary Input Hatches. |
-| Both acids present but Aqua Regia does not process | Is the required circuit configuration set? Are the two fluids in separate ordinary Input Hatches? Is output space available? Have hatch colors separated the inputs? |
-| Alloy dust appears instead of ingots | This is the normal output of a dust mixing recipe. Arrange subsequent smelting using NEI. |
-| Recipe tier too high | Does the recipe shown in NEI exceed LV? The high pressure structure also cannot process MV or higher-tier recipes. |
-| Only low parallels | Is there enough of every item and fluid input? Do hatch capacity or output space limit the amount per cycle? Is the GUI parallel limit set too low? |
-| Item outputs appear but fluids are missing | Is an ordinary Output Hatch installed? Is it locked to the wrong fluid? Is fluid voiding enabled? Have pipes already extracted the product? |
-| Insufficient output space | Is there room for all item and fluid outputs? Are Output Buses or Output Hatches blocked? Are extraction and filter settings correct? |
-| Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
-| Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
+| 结构不完整 | 占地是否为 5×5、高四格？控制器是否位于第二层前方中央？框架、齿轮箱机械方块和管道方块是否按全息投影所示放置？ |
+| 结构等级不一致 | 外壳、框架、齿轮箱机械方块和管道方块是否全部同等级？是否只替换了部分青铜部件？ |
+| 缺少输入或输出接口 | 是否安装了至少一种配方输入接口和一种输出接口？配方所需的物品总线与流体仓是否齐全？ |
+| 缺少蒸汽仓或无法安装蒸汽总线 | 是否恰好只有一个蒸汽仓？是否误用了普通电力机器物品总线？ |
+| 添加仓后结构无法成型 | 是否还剩至少 25 个实际外壳？是否有框架、齿轮箱机械方块或管道方块被仓替换？ |
+| 有粉但找不到配方 | 输入形态、种类和比例是否符合 NEI？数量和电路配置是否正确？是否误查了其他机器的混合配方？ |
+| 装满的流体单元无法加工 | 是否查看了单方块配方？请确认配方类型中有不使用流体单元的直接流体输入配方，再提供普通输入仓。 |
+| 两种酸都有但无法加工王水 | 是否设置了所需电路？两种流体是否分别放在普通输入仓中？是否有输出空间？仓颜色是否分隔了输入？ |
+| 产出合金粉而非锭 | 这是混粉配方的正常产物。请按 NEI 安排后续熔炼。 |
+| 配方等级过高 | NEI 显示的配方是否高于 LV？高压结构同样不能加工 MV 或更高等级的配方。 |
+| 并行数偏低 | 每种物品和流体输入是否充足？仓容量或输出空间是否限制了每轮数量？GUI 中的并行上限是否过低？ |
+| 有物品产物但缺少流体 | 是否安装普通输出仓？是否锁定了错误流体？是否启用了流体销毁？管道是否已提取产物？ |
+| 输出空间不足 | 是否为所有物品和流体产物留出空间？输出总线或输出仓是否堵塞？提取与过滤设置是否正确？ |
+| 蒸汽仓中有蒸汽但机器仍停止 | 持续供应能否跟上消耗？管道是否受限或与其他机器共用蒸汽？当前并行数和高压等级是否超出锅炉产能？ |
+| 总线旁的箱子无法传输物品 | 蒸汽总线不会自动提取或推送物品。请检查主动传输设备、连接面、方向和过滤器。 |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+一般结构检查和工具使用请参见[多方块机器](./multiblocks_index.md)。
 
-## Related Pages
+## 相关页面
 
-- [GTNH Wiki: Steam Blender](https://wiki.gtnewhorizons.com/wiki/Steam_Blender)
+- [GTNH Wiki：大型蒸汽搅拌机](https://wiki.gtnewhorizons.com/wiki/Steam_Blender)

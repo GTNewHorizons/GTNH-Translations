@@ -9,30 +9,30 @@ navigation:
   icon: gregtech:gt.blockmachines:31078
   position: -501
 ---
-# Steam Squasher
+# 大型蒸汽压缩机
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31078" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" /> is a multiblock Compressor available in the Steam age. It uses steam to compress materials in batches. As an upgrade to the singleblock Steam Compressor, it can process up to eight copies of the same recipe at once, making material blocks, Compressed Fireclay, and Compressed Air Cells.
+<ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" /> 是蒸汽时代可用的多方块压缩机。它使用蒸汽批量压缩材料。作为单方块蒸汽压缩机的升级版，它最多可同时处理八份相同配方，制作材料方块、压缩耐火黏土和压缩空气单元。
 
-The machine has basic bronze and high pressure steel structures that share the same controller. Upgrading to the high pressure structure increases throughput, but does not raise the maximum recipe tier or replace machines with special compression tiers.
+该机器有基础青铜结构和高压钢结构，两者共用同一控制器。升级为高压结构可提高吞吐量，但不会提高配方最高等级，也不能替代具有特殊压缩等级的机器。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires Pistons, Tumbaga Gears, a Tumbaga Frame Box, and other materials |
-| Dimensions | Three blocks wide, seven blocks deep, and three blocks tall; controller at the front center of the second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Recipe range | Ordinary Compressor recipes at LV or below, requiring no more than 32 EU/t |
-| Special limit | Cannot process recipes requiring a special compression tier; the high pressure steel structure does not unlock them |
-| Parallels | Up to eight copies of the same recipe; the high pressure structure does not raise this limit |
-| Processing bonuses | The basic structure runs at 125% of a singleblock bronze Steam Compressor's speed and 62.5% of its steam consumption rate per parallel |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| 解锁阶段 | 蒸汽时代；控制器配方需要活塞、铜金合金齿轮、铜金合金框架及其他材料 |
+| 尺寸 | 宽三格、深七格、高三格；控制器位于第二层前方中央 |
+| 电力 | 恰好一个蒸汽仓；不需要能源仓 |
+| 配方范围 | LV 或以下、耗电不超过 32 EU/t 的普通压缩机配方 |
+| 特殊限制 | 无法加工需要特殊压缩等级的配方；高压钢结构不会解锁这些配方 |
+| 并行数 | 最多同时处理八份相同配方；高压结构不会提高此上限 |
+| 加工加成 | 基础结构的速度是单方块青铜蒸汽压缩机的 125%，每个并行的蒸汽消耗速率为其 62.5% |
+| 升级与超频 | 高压结构将速度和蒸汽消耗速率加倍；不进行电压超频 |
+| 维护与污染 | 无需维护，不产生污染，也不需要消声仓 |
 
-## Crafting and Construction
+## 合成与建造
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+下方展示了控制器、基础外壳和蒸汽仓的当前配方。点击表格中的物品可查看其他部件的配方。
 
 <RecipesFor id="gregtech:gt.blockmachines:31078" />
 
@@ -40,124 +40,124 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### 结构材料
 
-The following quantities assume one Steam Hatch, one Input Bus, and one Output Bus. The basic structure uses Bronze Plated Bricks, Bronze Pipe Casings, and Iron Blocks, while the high pressure structure uses their steel counterparts. **The casings, Pipe Casings, and metal blocks in one machine must all be of the same tier.**
+以下数量按一个蒸汽仓、一个输入总线和一个输出总线计算。基础结构使用镀铜砖块、青铜管道方块和铁块；高压结构使用对应钢制部件。**同一台机器的机械方块、管道方块和金属方块必须全部为同一等级。**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| 部件 | 基础结构 | 高压结构 | 数量与位置 |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 27 in the basic setup; may be replaced with the hatches or buses below, but at least 14 actual casings must remain |
-| Pipe Casing | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | Ten: eight around the front controller and two more along the center of the second layer inside the structure |
-| Metal block | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmetal6:13" showIcon="left" /> | Six: three on each of the second and third layers in the fifth row counted from the front |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" /> | Same controller | One, at the front center of the second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Fluid Input Hatch | For example, <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Same hatch | Optional, replacing a casing; supplies recipe fluids |
+| 外壳 | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 基础配置为 27 个；可由下方仓或总线替换，但实际外壳至少保留 14 个 |
+| 管道方块 | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | 十个：前方控制器周围八个，结构内部第二层中央另有两个 |
+| 金属方块 | <ItemLink id="minecraft:iron_block" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmetal6:13" showIcon="left" /> | 六个：从前往后数，第五排的第二层和第三层各三个 |
+| 控制器 | <ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" /> | 同一控制器 | 一个，位于第二层前方中央 |
+| 蒸汽仓 | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | 同一仓 | 恰好一个，替换一个外壳 |
+| 输入总线 | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | 同一总线 | 至少一个，替换外壳 |
+| 输出总线 | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | 同一总线 | 至少一个，替换外壳 |
+| 流体输入仓 | 例如 <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | 同一仓 | 可选，替换一个外壳；供应配方流体 |
 
-The new structure has 30 positions for casings or hatches. Installing the three required interfaces leaves 27 casings; adding one Fluid Input Hatch leaves 26. At least 14 actual casings must remain when adding more hatches or buses. Hatches and buses cannot replace Pipe Casings or metal blocks.
+新结构有 30 个可放外壳或仓的位置。安装三个必需接口后还剩 27 个外壳；增加一个流体输入仓后剩 26 个。继续增加仓或总线时至少保留 14 个实际外壳。仓和总线不能替代管道方块或金属方块。 |
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 预览结构并辅助建造。主信道等级 1 选择基础结构，等级 2 选择高压结构。辅助建造完成后安装仓，并检查结构。
 
-## Machine Uses
+## 机器用途
 
-The Steam Squasher uses the Compressor recipe map. When checking NEI, first confirm that the item has a Compressor recipe, then check its tier, input quantity, outputs, and special requirements.
+大型蒸汽压缩机使用压缩机配方类型。查看 NEI 时，先确认物品有压缩机配方，再检查等级、输入数量、产物和特殊要求。
 
-| Use | Common recipes and considerations |
+| 用途 | 常见配方与注意事项 |
 | --- | --- |
-| Making material blocks | Eligible metals commonly use nine ingots to make one metal block; some dusts also have block compression recipes. Check NEI for the material and recipe tier. |
-| Making building blocks | Compresses Clay Balls, Bricks, Nether Bricks, Glowstone Dust, and other materials into their corresponding blocks; for example, four brick items make one brick block |
-| Making Compressed Fireclay | Compresses Fireclay Dust into Compressed Fireclay for later firing; the Compressor does not perform the firing step itself |
-| Producing Compressed Air Cells | Compresses Empty Cells into Compressed Air Cells for later air processing |
-| Other ordinary compression recipes | Processes Alloy Plates and other materials with eligible recipes; check the Compressor recipe in NEI to confirm compatibility |
+| 制作材料方块 | 符合条件的金属通常使用九枚锭制作一个金属方块；部分粉也有方块压缩配方。请在 NEI 中查看材料和配方等级。 |
+| 制作建筑方块 | 将黏土球、砖、地狱砖、荧石粉等材料压缩为对应方块；例如，四块砖可制成一个砖块 |
+| 制作压缩耐火黏土 | 将耐火黏土粉压缩为压缩耐火黏土，以便后续烧制；压缩机本身不会进行烧制步骤 |
+| 生产压缩空气单元 | 将空单元压缩为压缩空气单元，以供后续空气加工 |
+| 其他普通压缩配方 | 加工合金板及其他符合条件的材料；请在 NEI 中确认压缩机配方是否兼容 |
 
-### Air Cells and Later Oxygen Production
+### 空气单元与后续氧气生产
 
-An ordinary compression recipe turns **one Empty Cell into one Compressed Air Cell**. Empty Cells enter through the steam Input Bus, and Compressed Air Cells leave through the steam Output Bus. This recipe only needs steam for power; it does not need an additional water supply, air supplied through an Input Hatch, or a special air collection device.
+普通压缩配方会将**一个空单元变为一个压缩空气单元**。空单元从蒸汽输入总线进入，压缩空气单元通过蒸汽输出总线输出。该配方只需蒸汽供电，不需要额外供水、通过输入仓供应空气或使用特殊集气设备。
 
-Compressed Air Cells can be used in later oxygen and nitrogen production, but this machine only produces Compressed Air Cells. **It does not directly output Oxygen or Nitrogen.** Before further processing, check the uses of Compressed Air Cells and Air fluid in NEI, then supply the fluids, cells, and output interfaces required by the next machine's recipe.
+压缩空气单元可用于后续氧气和氮气生产，但该机器只会生产压缩空气单元。**它不会直接输出氧气或氮气。**继续加工前，请在 NEI 中查看压缩空气单元和空气流体的用途，并为下一台机器的配方准备所需流体、单元和输出接口。
 
-For automation, send Empty Cells to the Compressor and Compressed Air Cells to the next machine. Empty Cells returned by the process can be routed back to the input. Leave enough buffer for cell circulation so all Empty Cells do not become stuck in other machines.
+自动化时，将空单元送入压缩机，将压缩空气单元送往下一台机器。可将该流程返还的空单元送回输入端。为单元循环留出足够缓冲，避免所有空单元都滞留在其他机器中。
 
 > [!NOTE]
-> The machine is available in the Steam age, but only accepts recipes up to LV. The high pressure steel structure raises the machine's structure tier. It does not enable MV or higher-tier recipes, or recipes requiring a special compression tier.
+> 该机器在蒸汽时代即可使用，但只接受 LV 及以下配方。高压钢结构会提升机器结构等级，但不会启用 MV 或更高等级配方，也不会解锁需要特殊压缩等级的配方。
 
-### First Startup
+### 首次启动
 
-1. Check the structure and confirm that the Steam Hatch, steam Input Bus, and steam Output Bus are installed.
-2. Connect the steam pipe to the Steam Hatch and confirm that steam actually enters it.
-3. Check the recipe and input quantity in NEI, and leave space in the Output Bus.
-4. Start the machine with a small amount of material and observe the output route and steam buffer.
-5. Increase input quantities and parallels after confirming a continuous steam supply.
+1. 检查结构，并确认已安装蒸汽仓、蒸汽输入总线和蒸汽输出总线。
+2. 将蒸汽管道接到蒸汽仓，并确认蒸汽确实进入其中。
+3. 在 NEI 中检查配方和输入数量，并为输出总线留出空间。
+4. 少量投入材料启动机器，并观察产物路由和蒸汽缓冲。
+5. 确认蒸汽持续供应后，再增加输入量和并行数。
 
-## Steam Supply and Throughput
+## 蒸汽供应与吞吐量
 
-The Steam Squasher can process up to eight copies of **the same recipe** at once. This does not mean it can process eight different items in one cycle. Actual parallels also depend on input quantities, output space, and the parallel limit set in the GUI.
+大型蒸汽压缩机最多可同时处理八份**相同配方**。这不代表它能在一轮中处理八种不同物品。实际并行数还取决于输入数量、输出空间以及 GUI 中设置的并行上限。
 
-For example, if a block compression recipe uses nine ingots to make one metal block, eight parallels require 72 ingots and produce eight metal blocks in one cycle.
+例如，某方块压缩配方使用九枚锭制作一个金属方块，八并行需要 72 枚锭，并在一轮中产出八个金属方块。
 
-The basic structure runs at 125% of a singleblock bronze Steam Compressor's speed, taking roughly 80% as long. Its steam consumption rate per parallel is 62.5% of the singleblock machine's rate. Combining both bonuses gives roughly 50% of the total steam consumption for the same amount of material. However, running more parallels still increases the whole machine's instantaneous steam demand.
+基础结构的速度是单方块青铜蒸汽压缩机的 125%，耗时约为其 80%。每个并行的蒸汽消耗速率为单方块机器的 62.5%。两种加成合并后，相同数量材料的蒸汽总消耗约为 50%。但增加并行数仍会提高整台机器的即时蒸汽需求。
 
-| Property | Basic structure | High pressure structure |
+| 属性 | 基础结构 | 高压结构 |
 | --- | --- | --- |
-| Accepted recipe tiers | Ordinary Compressor recipes at LV and below | Ordinary Compressor recipes at LV and below |
-| Maximum parallels | 8 | 8 |
-| Speed relative to the basic structure | 1× | 2× |
-| Steam consumption rate for the same recipe and parallel count | 1× | 2× |
-| Total steam consumption per recipe | Baseline | Approximately the same as the basic structure |
+| 可接受的配方等级 | LV 及以下的普通压缩机配方 | LV 及以下的普通压缩机配方 |
+| 最大并行数 | 8 | 8 |
+| 相对于基础结构的速度 | 1 倍 | 2 倍 |
+| 相同配方及并行数下的蒸汽消耗速率 | 1 倍 | 2 倍 |
+| 每份配方的总蒸汽消耗量 | 基准 | 与基础结构大致相同 |
 
-The high pressure upgrade increases speed and steam consumption rate together. It mainly improves throughput, without halving the total steam cost per item again. Actual duration and steam consumption are also affected by tick and integer rounding.
+高压升级会同时提高速度和蒸汽消耗速率，主要改善吞吐量，不会再将每件物品的蒸汽总成本减半。实际时间和蒸汽消耗还会受到游戏刻和整数取整影响。
 
-The Steam Hatch buffers 64,000 L of steam, but this only covers temporary shortfalls and cannot replace continuous boiler production. Size boilers and pipes for the **steam consumption rate while processing**.
+蒸汽仓可储存 64,000 L 蒸汽，但这只能应对暂时短缺，无法替代锅炉持续产汽。锅炉和管道应按**加工期间的蒸汽消耗速率**配置。
 
-Use Waila to check the operating steam consumption rate and watch whether the buffer keeps falling during continuous processing. If a value is shown in L/t, multiply by 20 to get L/s at the normal 20 TPS. Use matching units when comparing pipe throughput. If steam supply is insufficient, lower the parallel limit in the GUI, then increase boiler production or improve the piping.
+使用 Waila 查看运行时的蒸汽消耗速率，并观察持续加工时缓冲量是否不断下降。如果显示单位为 L/t，在正常 20 TPS 下乘以 20 即为 L/s。比较管道吞吐量时请使用相同单位。蒸汽供应不足时，先在 GUI 中降低并行上限，再提高锅炉产量或改进管道。
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation, and materials already consumed are not returned. Check steam production and pipe throughput before upgrading to high pressure or increasing the parallel limit.
+> 加工期间蒸汽耗尽会中止当前操作，已消耗的材料不会返还。升级高压结构或提高并行上限前，请检查蒸汽产量和管道吞吐量。
 
-## Upgrading to High Pressure
+## 升级为高压结构
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31078" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. Replace **all** Bronze Plated Bricks, Bronze Pipe Casings, and Iron Blocks with the Solid Steel Machine Casings, Steel Pipe Casings, and Steel Blocks listed in the table.
+高压结构保持相同尺寸、仓位和控制器。将**所有**镀铜砖块、青铜管道方块和铁块替换为表中所列的脱氧钢机械方块、钢管道方块和钢块。
 
-Stop processing and material input before upgrading. After replacing the components, check the structure again and confirm the machine displays the high pressure tier before restoring steam and production.
+升级前请停止加工和材料输入。替换部件后重新检查结构，并确认机器显示为高压等级，再恢复蒸汽和生产。
 
-High pressure is the machine's structure tier. It still uses ordinary steam, and the existing Steam Hatch and steam buses can be reused. The upgrade doubles speed and steam consumption rate, but the maximum remains eight parallels.
+高压是机器的结构等级。它仍使用普通蒸汽，现有蒸汽仓和蒸汽总线均可保留。升级会使速度和蒸汽消耗速率加倍，但最大并行数仍为八。
 
-## Automation and Item Routing
+## 自动化与物品路由
 
-Steam Input and Output Buses each have four item slots. They do not automatically pull from adjacent chests or push products into them; placing a chest next to a bus is not enough for automation.
+蒸汽输入总线和输出总线各有四个物品槽。它们不会自动从相邻箱子抽取物品，也不会将产物推入箱子；仅将箱子放在总线旁不足以实现自动化。
 
-- **Input:** Use hoppers, GT item pipes, conveyors, or item conduits to send items into the front face of the Input Bus.
-- **Output:** Actively extract from the front face of the Output Bus with pipes, conduits, or conveyors, then route products to storage or the next machine.
-- **Steam:** Connect fluid pipes from the boiler to the Steam Hatch. An ordinary Input Hatch cannot replace the Steam Hatch for power.
-- **Recipe fluids:** Only install an additional ordinary Input Hatch and supply the corresponding fluid when the NEI recipe requires a fluid input. Producing Compressed Air Cells does not need this interface.
-- **Routing:** Set filters for material blocks, Compressed Fireclay, Compressed Air Cells, and other products so air cells do not enter material storage and intermediates that need firing do not remain at the output.
+- **输入：**使用漏斗、GT 物品管道、传送带或物品导管，将物品送入输入总线正面。
+- **输出：**用管道、导管或传送带从输出总线正面主动提取，再将产物送往存储处或下一台机器。
+- **蒸汽：**用流体管道将锅炉接至蒸汽仓。普通输入仓不能替代蒸汽仓供能。
+- **配方流体：**仅当 NEI 配方要求流体输入时，才额外安装普通输入仓并供应对应流体。制作压缩空气单元不需要此接口。
+- **路由：**为材料方块、压缩耐火黏土、压缩空气单元和其他产物设置过滤器，避免空气单元进入材料存储处，也避免需要烧制的中间产物滞留在输出端。
 
-Block compression recipes often consume several items at once. Size the input buffer for "inputs per recipe × target parallels". Avoid filling the input slots with small quantities of many different materials, leaving too few of each for even one recipe.
+方块压缩配方通常一次消耗多件物品。输入缓冲应按“每份配方输入量 × 目标并行数”配置。避免在输入槽中放入多种材料的少量物品，导致每种都不足以运行一份配方。
 
-Additional Input Buses expand item buffering, while additional Output Buses help prevent output congestion. Neither raises the parallel limit. Keep at least 14 actual casings when expanding, and do not install a second Steam Hatch.
+增加输入总线可扩大物品缓冲，增加输出总线有助于避免产物堵塞，但都不会提高并行上限。扩建时至少保留 14 个实际外壳，且不能安装第二个蒸汽仓。
 
-## Troubleshooting
+## 故障排除
 
-| Symptom | What to check |
+| 症状 | 检查事项 |
 | --- | --- |
-| Incomplete new structure | Is the structure three blocks wide, seven blocks deep, and three blocks tall? Is the controller at the front center of the second layer? Are the ten Pipe Casings and six metal blocks correctly positioned? |
-| Structure tier mismatch | Are the casings, Pipe Casings, and metal blocks all of the same tier? Were only some bronze components replaced, or any Iron Blocks left? |
-| Missing Steam Hatch or buses | Is there exactly one Steam Hatch and at least one steam Input Bus and Output Bus? Were ordinary electric machine item buses used by mistake? |
-| Structure fails after adding hatches | Are at least 14 actual casings left? Were any Pipe Casings or metal blocks replaced with hatches or buses? |
-| Inputs present but no recipe found | Does the item have a Compressor recipe? Are there enough inputs for one recipe? Does the recipe require a compression tier? Is there enough output space? |
-| Recipe tier too high | Does the recipe shown in NEI exceed LV? The high pressure structure also cannot process MV or higher-tier recipes. |
-| Empty Cells do not become Oxygen Cells | The Compressor produces Compressed Air Cells. Oxygen and Nitrogen require further processing in other machines. |
-| Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
-| Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
-| Fewer than eight recipes processed at once | Are there enough inputs for eight copies of the same recipe? Is the parallel limit set lower? Can the output slots hold all products? |
+| 新结构不完整 | 结构是否宽三格、深七格、高三格？控制器是否位于第二层前方中央？十个管道方块和六个金属方块是否放置正确？ |
+| 结构等级不一致 | 外壳、管道方块和金属方块是否全部同等级？是否只替换了部分青铜部件，或遗留了铁块？ |
+| 缺少蒸汽仓或总线 | 是否恰好有一个蒸汽仓，以及至少一个蒸汽输入总线和输出总线？是否误用了普通电力机器物品总线？ |
+| 添加仓后结构无法成型 | 是否还剩至少 14 个实际外壳？是否有管道方块或金属方块被仓或总线替换？ |
+| 有输入但找不到配方 | 物品是否有压缩机配方？输入是否足以运行一份配方？配方是否要求特殊压缩等级？输出空间是否充足？ |
+| 配方等级过高 | NEI 显示的配方是否高于 LV？高压结构同样不能加工 MV 或更高等级的配方。 |
+| 空单元没有变成氧气单元 | 压缩机产出的是压缩空气单元。氧气和氮气还需在其他机器中进一步加工。 |
+| 蒸汽仓中有蒸汽但机器仍停止 | 持续供应能否跟上消耗？管道是否受限或与其他机器共用蒸汽？当前并行数和高压等级是否超出锅炉产能？ |
+| 总线旁的箱子无法传输物品 | 蒸汽总线不会自动提取或推送物品。请检查主动传输设备、连接面、方向和过滤器。 |
+| 每次处理不足八份配方 | 是否有足够输入运行八份相同配方？并行上限是否设置得更低？输出槽能否容纳全部产物？ |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+一般结构检查和工具使用请参见[多方块机器](./multiblocks_index.md)。
 
-## Related Pages
+## 相关页面
 
-- [GTNH Wiki: Steam Squasher](https://wiki.gtnewhorizons.com/wiki/Steam_Squasher)
+- [GTNH Wiki：大型蒸汽压缩机](https://wiki.gtnewhorizons.com/wiki/Steam_Squasher)

@@ -18,4 +18,4 @@ navigation:
   parent: ./singleblock_index.md
   position: 10
 ---
-# Brewery
+# 酿造室

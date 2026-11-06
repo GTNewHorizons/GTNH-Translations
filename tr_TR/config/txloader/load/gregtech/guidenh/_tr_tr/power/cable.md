@@ -28,7 +28,7 @@ Güç teller aracılığıyla iletildiğinde akım yol boyunca her yerde aynı k
 - Kablo kaybı oranı tel kalınlığına veya akıma bağlı değildir. Yalnızca malzemeye ve telin yalıtımlı olup olmadığına (tel mi kablo mu) bağlıdır. Yalıtımlı kablolar genellikle karşılık gelen çıplak telin kaybının yalnızca yarısına sahiptir.
 - Bazı teller sıfır kayba sahiptir ve bu nedenle süperiletken gibi davranır; örneğin 1x Kızıltaş Alaşımı Kablosu, 1x MV Süperiletken Teli ve 1x Sonsuzluk Teli.
 
-# Değiştirme ve Tablo
+# Değiştirme ve Boyama
 
 Bir tür tel veya kablo tutarken, başka bir yerleştirilmiş tel veya kabloya <kbd>Shift</kbd> + <kbd>Sol tık</kbd> yaparak onu doğrudan değiştir. Bağlantı yönleri ve kapaklar korunur. Değiştirmeden sonra eski tel-cihaz bağlantıları kopar ve yeniden bağlanmaları gerekir.
 

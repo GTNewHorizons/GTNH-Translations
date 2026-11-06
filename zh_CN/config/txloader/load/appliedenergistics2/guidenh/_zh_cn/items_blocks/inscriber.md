@@ -13,7 +13,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockInscriber" scale="4" />
 
-压印器使用[压印模板](presses.md)压印电路板和[处理器](processors.md)，还可以将几种物品粉碎成粉末。它可接受AE2能源（AE）和Fabric/Forge Energy（E/FE）。分面模式下，从不同面插入的物品会进入不同的槽位；使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />可旋转其朝向。它还可以将产物推入相邻的容器。
+压印器使用[压印模板](presses.md)压印电路板和[处理器](processors.md)，还可以将几种物品粉碎成粉。它可接受AE2能源（AE）和Fabric/Forge Energy（E/FE）。分面模式下，从不同面插入的物品会进入不同的槽位；使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />可旋转其朝向。它还可以将产物推入相邻的容器。
 
 输入缓冲区大小可调节。当用一个容器为多台压印器供料时，使用小缓冲区可以让材料分配得更均匀。
 

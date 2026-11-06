@@ -10,32 +10,32 @@ navigation:
   icon: gregtech:gt.blockmachines:1172
   position: -3001
 ---
-# Cleanroom
+# 超净间
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1172" tier={2} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left" /> is a multiblock facility available in HV. It provides a clean environment for machines placed inside it, enabling recipes for more advanced or less expensive circuits, circuit boards, and other products.
+<ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left" />是 HV 阶段可用的多方块设施，为放置其中的机器提供洁净环境，从而解锁更先进或成本更低的电路、电路板及其他产物配方。
 
-The Cleanroom itself does not take processing ingredients or output products. Place the actual processing machines inside, supply them with their own power, and arrange their item and fluid I/O. The Cleanroom's Energy Hatch only powers the environment.
+超净间本身不接收处理原料，也不输出产物。将实际加工机器放在内部，为它们单独供电，并安排物品和流体输入/输出。超净间的能源仓仅用于为环境供电。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock tier | HV; the Cleanroom can be maintained with LV power |
-| Dimensions | External width and length of 3–15 blocks each, height of 4–15 blocks; a rectangular footprint is allowed |
-| First build | 5×5×5, providing a usable interior of 3×3×3 |
-| Power | Exactly one ordinary Energy Hatch; an LV Energy Hatch can accept 2A |
-| Cleanness | Gradually rises from 0% to 100%; below 100%, item outputs from recipes requiring a Cleanroom may be lost |
-| Overclocking and bonuses | Upgrading the Energy Hatch speeds up cleaning; it grants no extra speed, parallels, or power discount to machines inside |
-| Maintenance and pollution | Requires one Maintenance Hatch; each maintenance issue lowers maximum cleanness by 10 percentage points; no pollution may be generated inside |
+| 解锁等级 | HV；超净间可由 LV 电力维持 |
+| 尺寸 | 外部宽度和长度各为 3-15 格，高度为 4-15 格；底面允许为矩形 |
+| 初始建造 | 5×5×5，可用内部空间为 3×3×3 |
+| 电力 | 恰好一个普通能源仓；LV 能源仓可接收 2A |
+| 洁净度 | 从 0% 逐渐升至 100%；未达到 100% 时，需要超净间的配方可能会丢失物品产物 |
+| 超频与加成 | 升级能源仓可加快清洁速度；不会为内部机器提供额外速度、并行数或电力折扣 |
+| 维护与污染 | 需要一个维护仓；每个维护问题都会使最高洁净度降低 10 个百分点；内部不能产生污染 |
 
 > [!WARNING]
-> **Wait for 100% cleanness before supplying ingredients for recipes that require a Cleanroom.** Below 100%, a machine may consume the ingredients and run the recipe normally, yet lose an item output.
+> **为需要超净间的配方输入原料前，请等待洁净度达到 100%。**低于 100% 时，机器可能会消耗原料并正常运行配方，却丢失物品产物。
 
-## Crafting and Construction
+## 合成与建造
 
-The current recipes for the controller, Plascrete Blocks, and Filter Machine Casings are shown below.
+下方展示了控制器、塑料混凝土方块和过滤器机械方块的当前配方。
 
 <RecipesFor id="gregtech:gt.blockmachines:1172" />
 
@@ -43,144 +43,144 @@ The current recipes for the controller, Plascrete Blocks, and Filter Machine Cas
 
 <RecipesFor id="gregtech:gt.blockcasings3:11" />
 
-### Your First 5×5×5 Cleanroom
+### 你的第一个 5×5×5 超净间
 
-These dimensions include the walls, floor, and ceiling, leaving a 3×3×3 interior. Complete the shell and power supply first, then add access and transport ports as needed.
+这些尺寸包含墙壁、地板和天花板，因此内部空间为 3×3×3。先完成外壳和供电，再根据需要添加通道和运输接口。
 
-| Component | Basic quantity and position |
+| 部件 | 基本数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left" /> | One, at the center of the ceiling; the controller must face horizontally, never up or down |
-| <ItemLink id="gregtech:gt.blockcasings3:11" showIcon="left" /> | Eight, filling the rest of the ceiling's inner area |
-| <ItemLink id="gregtech:gt.blockreinforced:2" showIcon="left" /> | 87, forming the floor, walls, and ceiling perimeter; this count already accounts for the two required hatches |
-| Energy Hatch | Exactly one, replacing a Plascrete Block |
-| <ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" /> | Exactly one, replacing a Plascrete Block |
+| <ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left" /> | 一个，位于天花板中央；控制器必须水平朝向，不能朝上或朝下 |
+| <ItemLink id="gregtech:gt.blockcasings3:11" showIcon="left" /> | 八个，填满天花板内部剩余区域 |
+| <ItemLink id="gregtech:gt.blockreinforced:2" showIcon="left" /> | 87个，构成地板、墙壁和天花板外围；此数量已计入所需的两个仓 |
+| 能源仓 | 恰好一个，替换一块塑料混凝土方块 |
+| <ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" /> | 恰好一个，替换一块塑料混凝土方块 |
 
-The preview above shows the shell. When building, replace two Plascrete Blocks with the Energy Hatch and Maintenance Hatch. Each additional valid transport port or glass block replaces one more Plascrete Block.
+上方的预览展示了外壳。建造时，用能源仓和维护仓替换两块塑料混凝土方块。每增加一个有效运输端口或玻璃方块，就再替换一块塑料混凝土方块。
 
-Build in the following order:
+按以下顺序建造：
 
-1. Lay a solid 5×5 floor and build the four walls, reserving positions for power, maintenance, and access.
-2. Build the ceiling perimeter with Plascrete Blocks. Place the controller in the center and the eight Filter Machine Casings in the remaining inner positions.
-3. Install the Energy Hatch and Maintenance Hatch, then close all remaining gaps.
-4. Place processing machines, cables, and pipes within the walls, above the floor, and below the filters. Processing machines cannot replace wall blocks.
-5. Check the structure, fix all maintenance issues, connect a stable power supply, and wait for 100% cleanness.
+1. 铺设完整的 5×5 地板并建起四面墙，为电力、维护和出入预留位置。
+2. 用塑料混凝土方块搭建天花板外围。在中央放置控制器，并在其余内部位置放置八个过滤器机械方块。
+3. 安装能源仓和维护仓，然后封闭所有剩余空隙。
+4. 在墙内、地板上方和过滤器下方放置加工机器、电缆和管道。加工机器不能替代墙壁方块。
+5. 检查结构，修复所有维护问题，连接稳定电源，并等待洁净度达到 100%。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Before expanding, stop production and ingredient input. Check and clean the rebuilt room before resuming processing.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 预览结构并辅助建造。扩建前，停止生产并暂缓输入原料。重建房间后，先检查并清洁，再恢复加工。
 
-### Expansion and Casing Replacements
+### 扩建与外壳替换
 
-The footprint may be rectangular. Keep the controller at the center of the ceiling and fill every other position inside the ceiling perimeter with Filter Machine Casings. If the width or length is even, either middle position along that axis is valid. If both are even, there are four possible central positions.
+占地形状可以是矩形。控制器需保持在天花板中央，天花板外围内的其他所有位置都填入过滤器机械方块。如果宽度或长度为偶数，该轴线上两个中间位置任选其一；如果两者都是偶数，则有四个可选中央位置。
 
-The default configuration requires **at least 20 actual Plascrete Blocks** and limits replacements with other valid blocks. The replacement share is calculated as “replacement blocks ÷ (Plascrete Blocks + replacement blocks)”; its percentage is rounded down to an integer and must not exceed **30%**. Filters and the controller are excluded from this calculation. Energy and Maintenance Hatches, doors, glass, and transport ports all count as replacements.
+默认配置要求**至少有 20 块实际塑料混凝土方块**，并限制可用其他有效方块替换的比例。替换比例按“替换方块 ÷（塑料混凝土方块 + 替换方块）”计算，百分比向下取整，且不得超过 **30%**。过滤器和控制器不计入此计算。能源仓、维护仓、门、玻璃和运输端口都算作替换方块。
 
-| Replacement | Placement rules |
+| 替换方块 | 放置规则 |
 | --- | --- |
-| Ordinary Energy Hatch and Maintenance Hatch | Plascrete positions; exactly one of each |
-| GT Machine Hulls and Cable Diodes | Plascrete positions; used for transport through the shell |
-| Valid glass | Plascrete positions; ordinary vanilla glass is invalid |
-| IC2 Reinforced Door | Side walls, away from vertical edges and corners; not in the floor or ceiling |
-| OpenBlocks Elevators and Ender IO Travel Anchors | Plascrete positions, including the floor |
+| 普通能源仓和维护仓 | 塑料混凝土方块位置；每种恰好一个 |
+| GT 机器外壳和线缆二极管 | 塑料混凝土方块位置；用于穿过外壳运输 |
+| 有效玻璃 | 塑料混凝土方块位置；普通原版玻璃无效 |
+| IC2 防爆门 | 侧墙上，远离竖直边缘和角落；不能放在地板或天花板上 |
+| OpenBlocks 电梯和 Ender IO旅行锚 | 塑料混凝土方块位置，包括地板 |
 
-EV and higher tier glass is accepted. The pack's default configuration also allows specific blocks such as BartWorks tiered glass, including HV glass. Therefore, not every valid glass needs to be EV, and not every decorative glass is a valid replacement.
+EV 及更高等级的玻璃有效。整合包的默认配置也允许特定方块，例如 BartWorks 任意等级玻璃（包括 HV 玻璃）。因此，并非所有有效玻璃都必须是 EV 等级，也并非所有装饰玻璃都能作为有效替换方块。
 
-The Cleanroom does not need Input Buses, Output Buses, fluid hatches, or a Muffler Hatch, and these cannot replace its wall blocks. Deliver items and fluids to the processing machines' own interfaces inside.
+超净间不需要输入总线、输出总线、流体仓或消声仓，而且这些方块不能替换墙壁。应将物品和流体送入房间内部加工机器自身的接口。
 
-Extra Utilities' <ItemLink id="ExtraUtilities:etherealglass:0" showIcon="left" /> is recommended as a doorway, allowing players to pass through without reducing cleanness.
+推荐使用 Extra Utilities 的 <ItemLink id="ExtraUtilities:etherealglass:0" showIcon="left" /> 作为门道，让玩家通过时不会降低洁净度。
 
-## Uses and First Startup
+## 用途与首次启动
 
-**Some recipes** in Circuit Assemblers, Laser Engravers, Assembling Machines, Cutting Machines, and Autoclaves require a clean environment. Check the individual recipe's “Requires Cleanroom” note in NEI.
+电路组装机、激光蚀刻机、组装机、板材切割机和高压釜中的**部分配方**需要洁净环境。请在 NEI 中查看各配方的“需要超净间”说明。
 
-Before the first startup, switch off the processing machines or hold back their ingredients, then prepare the room:
+首次启动前，关闭加工机器或暂缓投入原料，然后准备房间：
 
-1. Confirm that the controller reports a complete structure with the correct hatch counts.
-2. Fix all six maintenance issues. See [Multiblock Machines: Maintenance](./multiblocks_index.md#maintenance).
-3. Close the doors and make sure no equipment inside generates pollution.
-4. Supply the Cleanroom continuously and watch its cleanness rise.
-5. At 100%, connect each processing machine to its own power supply and insert the ingredients to start processing.
+1. 确认控制器显示结构完整且仓数量正确。
+2. 修复全部六项维护问题。参见[多方块机器：维护](./multiblocks_index.md#maintenance)。
+3. 关上门，并确保内部设备不会产生污染。
+4. 持续为超净间供电，并观察洁净度上升。
+5. 达到 100% 后，分别为每台加工机器接入电源并放入原料，开始加工。
 
-Ordinary GT singleblock machines can start recipes requiring a Cleanroom once cleanness is above 0%, but their outputs are not guaranteed safe. Item loss due to insufficient cleanness is decided **when the recipe starts and consumes its ingredients**. Reaching 100% halfway through processing cannot recover an output already selected for loss.
+普通 GT 单方块机器在洁净度高于 0% 时即可启动需要超净间的配方，但产物并不保证安全。洁净度不足导致的物品损失在**配方启动并消耗原料时**判定。若加工到一半才达到 100%，无法挽回已被判定损失的产物。
 
-100% cleanness only removes losses caused by the environment. A recipe with inherently probabilistic outputs still uses the chances shown in NEI.
+100% 洁净度只会消除环境导致的损失。配方本身若有概率产物，仍按 NEI 所示概率生成。
 
-Some later multiblocks, such as the Large Chemical Reactor and Hyper-Intensity Laser Engraver, do not need to be placed in a Cleanroom. **All multiblock machines have a built-in cleanroom environment.**
+部分后期多方块机器（如大型化学反应釜和高强度激光蚀刻机）无需放在超净间内。**所有多方块机器都自带超净间环境。**
 
-## Cleanness and Power
+## 洁净度与电力
 
-HV is the controller's unlock tier, not the minimum power tier. With an LV Energy Hatch, the Cleanroom initially consumes **40 EU/t**. Consumption gradually decreases as cleanness rises, reaching **4 EU/t** at 100%.
+HV 是控制器的解锁等级，并非最低供电等级。使用 LV 能源仓时，超净间初始消耗 **40 EU/t**。洁净度上升时，耗电会逐渐下降，到 100% 时降至 **4 EU/t**。
 
-40 EU/t exceeds the rated output of one LV generator, but the Cleanroom's LV Energy Hatch can accept 2A. For a first build, use two LV generators or another LV supply that can continuously provide enough power, with cabling rated for the current. A single 32 EU/t LV generator cannot clean the room from 0% on its own. Account for cable losses as well.
+40 EU/t 超过单台 LV 发电机的额定输出，但超净间的 LV 能源仓可接收 2A。首次建造时，使用两台 LV 发电机或其他能够持续提供足够电力的 LV 电源，并配备额定电流合适的线缆。单台 32 EU/t 的 LV 发电机无法独自将房间从 0% 清洁起来。还要考虑线缆损耗。
 
-The following example assumes an **external height of five blocks, no maintenance issues, closed doors, and cleaning from 0% to 100%**. Times assume normal operation at 20 TPS.
+以下示例假设**外部高度为五格、没有维护问题、门已关闭，且洁净度从 0% 升至 100%**。时间按正常 20 TPS 运行估算。
 
-| Energy Hatch tier | Startup consumption | Consumption at 100% | Approximate cleaning time |
+| 能源仓等级 | 启动耗电 | 100% 时耗电 | 约需清洁时间 |
 | --- | --- | --- | --- |
-| LV | 40 EU/t | 4 EU/t | 15 minutes |
-| MV | 40 EU/t | 4 EU/t | 15 minutes |
-| HV | 160 EU/t | 16 EU/t | 7 minutes 30 seconds |
-| EV | 640 EU/t | 64 EU/t | 3 minutes 45 seconds |
+| LV | 40 EU/t | 4 EU/t | 15 分钟 |
+| MV | 40 EU/t | 4 EU/t | 15 分钟 |
+| HV | 160 EU/t | 16 EU/t | 7 分 30 秒 |
+| EV | 640 EU/t | 64 EU/t | 3 分 45 秒 |
 
-MV does not clean faster than LV. Starting at HV, standard lossy overclocking multiplies power by four and halves cleaning time per overclock. Taller rooms take longer to clean; increasing only width or length does not lengthen a cleaning cycle.
+MV 不会比 LV 清洁得更快。从 HV 开始，普通有损超频会使耗电量乘以四，并让每次超频的清洁时间减半。房间越高，清洁所需时间越长；只增加宽度或长度不会延长清洁周期。
 
-**Power the Cleanroom and its processing machines separately.** The Cleanroom's Energy Hatch tier does not limit the voltage of machines inside or grant them overclocking bonuses. Add the Cleanroom's consumption to that of all processing machines when sizing the power supply.
+**超净间和其中的加工机器要分别供电。**超净间能源仓的等级不会限制内部机器的电压，也不会赋予其超频加成。规划电源时，应将超净间耗电与所有加工机器的耗电相加。
 
-Keep the room running after reaching 100%. Do not switch it off to save its idle power. After a shutdown, power failure, or broken structure, restore the environment and confirm 100% cleanness before resuming processing.
+达到 100% 后仍要让房间持续运行。不要为了节省空载耗电而将其关闭。停机、电力故障或结构损坏后，应恢复环境并确认洁净度达到 100%，再继续加工。
 
-## Access, Power, and Transport Through the Walls
+## 墙体中的出入、电力与运输
 
-### Access
+### 出入
 
-An IC2 Reinforced Door provides access. When an open door is detected, the Cleanroom continuously loses cleanness, normally two percentage points every five seconds. Close doors after use. For frequent access, use Extra Utilities' <ItemLink id="ExtraUtilities:etherealglass:0" showIcon="left" /> to avoid repeatedly opening a door.
+IC2 防爆门可用于出入。检测到门开启时，超净间会持续损失洁净度，通常每五秒下降两个百分点。使用后请关门。频繁出入时，可使用 Extra Utilities 的 <ItemLink id="ExtraUtilities:etherealglass:0" showIcon="left" />，避免反复开门。
 
-Wooden doors, vanilla iron doors, holes, and ordinary pipes are not valid Cleanroom wall blocks. Do not leave a gap for power cables or ME cables.
+木门、原版铁门、洞口和普通管道都不是有效的超净间墙壁方块。不要为电源线或 ME 线缆留出缺口。
 
-### Power Through the Walls
+### 穿墙供电
 
-Embed a **GT Machine Hull** or **Cable Diode** of the appropriate tier in the wall, connecting the external power supply to the internal machine cables. For example, an <ItemLink id="gregtech:gt.blockmachines:13" showIcon="left" /> can carry HV power through the wall.
+在墙中嵌入合适等级的**GT 机器外壳**或**线缆二极管**，将外部电源连接到内部机器线缆。例如，<ItemLink id="gregtech:gt.blockmachines:13" showIcon="left" /> 可以让 HV 电力穿过墙壁。
 
-A Machine Hull outputs power through its front face and accepts power from its other faces. Face its output inward and connect the cables on both sides. For higher current, use a suitably rated Cable Diode and check the current capacity of both cable runs.
-
-> [!WARNING]
-> When upgrading the voltage supplied to internal machines, also check the Machine Hulls, Cable Diodes, and cables in the wall. Connecting higher-tier power to an old lower-tier port causes an overvoltage explosion. An unpowered hull used only for item transport does not need upgrading with the machine's voltage.
-
-### Items and Fluids
-
-GT Machine Hulls have an item slot and a fluid buffer, allowing them to serve as transfer containers through the wall. Use pipes or Conveyor Modules on either side to insert into and extract from this buffer, then deliver to the internal machines. The hull does not process recipes or automatically distribute everything to the intended machines.
-
-Use separate ports for ingredients, products, and different fluids where practical, so unwanted materials cannot fill a shared small buffer. Configure the processing machines' input faces, output faces, and automatic output separately; a hull in the wall does not replace those settings.
-
-With AE2, establish a link using <ItemLink id="appliedenergistics2:tile.BlockWirelessConnector" showIcon="left" />s inside and outside the room, then connect the internal ME Interfaces, buses, and other devices. Wireless Connectors do not occupy wall positions, leaving more room in the casing replacement allowance.
-
-Powering the ME network does not supply GT EU to its processing machines. Provide machine power through Machine Hulls, Cable Diodes, or a separately configured GT EU P2P setup.
-
-## Maintenance, Pollution, and Monitoring
-
-Each unresolved maintenance issue lowers maximum cleanness by **10 percentage points**. One issue caps it at 90%, and two at 80%. The Cleanroom may still run, but it cannot reach a safe 100%. After repairs, wait for cleanness to recover before resuming recipes that require the environment.
+机器外壳通过正面输出电力，并从其他面接收电力。将输出面朝向室内，并在两侧连接线缆。若需要更高电流，请使用额定值合适的线缆二极管，并检查两侧线缆的电流承载能力。
 
 > [!WARNING]
-> Do not put polluting generators or other polluting equipment inside the Cleanroom. Pollution from a machine inside resets cleanness to zero and triggers all six maintenance issues, stopping the Cleanroom. A Muffler Hatch cannot fix this. Move the pollution source outside, then repair, restart, and clean the room again.
+> 升级内部机器的供电电压时，也要检查墙中的机器外壳、线缆二极管和线缆。将更高等级的电力接入旧的低等级端口会引发过压爆炸。若外壳仅用于物品运输且不通电，则无需随机器电压升级。
 
-Use the controller GUI and Waila to check cleanness, maintenance, and operation. An Industrial Information Panel or a Needs Maintenance Cover connected to a light or alarm can help monitor maintenance issues. Having no maintenance issues does not mean cleanness is already 100%; check the environment after opening doors, power failures, or restarting.
+### 物品与流体
 
-The controller also emits a redstone signal on every side reflecting cleanness. **100% corresponds to signal strength 15.** To control ingredient input automatically, check for strength 15. Any nonzero signal is insufficient, since low cleanness can also produce a signal. Structure checks and redstone updates have a delay, so keep doors closed, power stable, and maintenance resolved alongside any interlock.
+GT 机器外壳有物品槽和流体缓冲区，可作为穿墙转运容器。使用两侧的管道或传送带向该缓冲区输入或提取物品，再送至室内机器。外壳不会处理配方，也不会自动将所有物品分配给目标机器。
 
-## Troubleshooting
+条件允许时，请将原料、产物和不同流体使用不同端口，避免不需要的材料占满共用的小型缓冲区。分别配置加工机器的输入面、输出面和自动输出；墙中的外壳不能替代这些设置。
 
-| Symptom | What to check |
+使用 AE2 时，在房间内外各放置 <ItemLink id="appliedenergistics2:tile.BlockWirelessConnector" showIcon="left" /> 建立连接，再连接内部 ME 接口、总线及其他设备。无线接入器不占用墙壁位置，因此能为外壳替换比例留出更多空间。
+
+为 ME 网络供电不会给其中的 GT 加工机器提供 EU。请通过机器外壳、线缆二极管或单独配置的 GT EU 点对点网络为机器供电。
+
+## 维护、污染与监控
+
+每项未解决的维护问题都会使最高洁净度降低**10 个百分点**。一项问题会将上限限制在 90%，两项则限制在 80%。超净间仍可运行，但无法达到安全的 100%。修复后，请等待洁净度恢复，再继续需要该环境的配方。
+
+> [!WARNING]
+> 不要在超净间内放置会产生污染的发电机或其他设备。室内机器产生的污染会将洁净度重置为零，并触发全部六项维护问题，使超净间停机。消声仓无法解决此问题。将污染源移至室外，然后修复、重启并重新清洁房间。
+
+使用控制器 GUI 和 Waila 检查洁净度、维护状态和运行情况。连接到灯或警报器的工业信息屏或维护提示覆盖板有助于监控维护问题。没有维护问题并不代表洁净度已达 100%；开门、电力故障或重启后都要检查环境。
+
+控制器还会在每个侧面输出反映洁净度的红石信号。**100% 对应信号强度 15。**如要自动控制原料输入，请检测信号强度是否为 15。任何非零信号都不够，因为洁净度低时也可能产生信号。结构检查和红石更新存在延迟，因此联锁控制还应确保关门、供电稳定并解决维护问题。
+
+## 故障排除
+
+| 症状 | 检查事项 |
 | --- | --- |
-| Incomplete structure | External dimensions, a central ceiling controller facing horizontally, filters throughout the inner ceiling, and fully enclosed walls and floor |
-| Wrong hatch count | Exactly one ordinary Energy Hatch and one Maintenance Hatch; no Input Buses, fluid hatches, or Muffler Hatch in the shell |
-| Room fails to form after adding glass or ports | Whether the replacements are valid, at least 20 Plascrete Blocks remain, and all replacements together satisfy the percentage limit |
-| Immediate shutdown with LV power | Whether only one 32 EU/t generator is connected; sufficient sustained startup power, cable current capacity, cable losses, and energy buffer |
-| MV power does not speed up cleaning | MV has no cleaning overclock; faster cleaning starts at HV. Upgrade the Energy Hatch and supply cabling before raising voltage |
-| Cleanness stays at 90% or 80% | Unresolved maintenance issues; if cleanness keeps falling, also check for open Reinforced Doors |
-| Ingredients consumed but an item output is missing | Whether cleanness was 100% when the recipe started; then check inherent output chances and the machine's output configuration |
-| Internal machine still requires a Cleanroom | Whether it is fully inside, the Cleanroom is formed with cleanness above 0%, and a structure check has occurred since placement or expansion |
-| Cleanroom runs but an internal machine does not | Separate machine power, voltage, ingredients, fluids, Integrated Circuit configuration, and output space |
-| Cleanness suddenly resets with all maintenance issues | Find and remove an internal pollution source, repair maintenance, and restart; hold back processing ingredients |
+| 结构不完整 | 外部尺寸、位于天花板中央且水平朝向的控制器、铺满天花板内部的过滤器，以及完全封闭的墙壁和地板 |
+| 仓数量错误 | 恰好一个普通能源仓和一个维护仓；外壳中没有输入总线、流体仓或消声仓 |
+| 添加玻璃或端口后结构无法成型 | 替换方块是否有效、是否至少保留 20 块塑料混凝土方块，以及所有替换方块是否符合比例上限 |
+| 使用 LV 电力后立即停机 | 是否只连接了一台 32 EU/t 发电机；持续启动供电是否足够、线缆电流容量、线缆损耗和能源缓存 |
+| MV 电力没有加快清洁 | MV 没有清洁超频；更快的清洁从 HV 开始。提高电压前，先升级能源仓和供电线缆 |
+| 洁净度停在 90% 或 80% | 是否存在未解决的维护问题；若洁净度持续下降，还要检查防爆门是否打开 |
+| 原料已消耗但缺少物品产物 | 配方启动时洁净度是否为 100%；然后检查产物本身的概率和机器输出配置 |
+| 内部机器仍提示需要超净间 | 机器是否完全位于室内、超净间是否已成型且洁净度高于 0%，以及放置或扩建后是否进行过结构检查 |
+| 超净间运行但内部机器不工作 | 分别检查机器电源、电压、原料、流体、集成电路配置和输出空间 |
+| 洁净度突然重置且出现全部维护问题 | 找出并移除室内污染源，修复维护问题并重启；暂缓投入加工原料 |
 
-See [Multiblock Machines](./multiblocks_index.md) for general tool controls, maintenance, and power failure guidance.
+常规工具控制、维护和电力故障指南请参见[多方块机器](./multiblocks_index.md)。
 
-## References
+## 参考资料
 
-- [GTNH Wiki: Cleanroom](https://wiki.gtnewhorizons.com/wiki/Cleanroom)
+- [GTNH Wiki：超净间](https://wiki.gtnewhorizons.com/wiki/Cleanroom)

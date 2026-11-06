@@ -9,49 +9,49 @@ navigation:
   icon: gregtech:gt.blockmachines:1000
   position: -1001
 ---
-# Electric Blast Furnace
+# 工业高炉
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1000" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> (Electric Blast Furnace, abbreviated EBF) is a processing multiblock available in LV. Electricity and Heating Coils let it reach temperatures that a Bricked Blast Furnace cannot. Its first major use is usually producing aluminium; later, it handles many metals and other materials that require high-temperature processing.
+<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />（工业高炉，简称 EBF）是一种 LV 阶段即可使用的加工多方块机器。电力和加热线圈使其温度能够超过砖高炉。它最早的主要用途通常是生产铝；后期则可处理许多需要高温加工的金属和其他材料。
 
-The EBF is usually a new player's first **GT electric multiblock**, and an important step toward MV materials. Building it brings together structure requirements, item and fluid interfaces, maintenance, and continuous power. The experience of getting your first EBF running reliably carries over to many later multiblocks.
+EBF 通常是新玩家接触的第一台**GT 电力多方块机器**，也是迈向 MV 材料的重要一步。建造它需要综合考虑结构要求、物品和流体接口、维护以及持续供电。让第一台 EBF 稳定运转的经验也适用于许多后续多方块机器。
 
-The tier at which you obtain the controller is separate from the power required by its recipes. Although your first Energy Hatches are LV, common aluminium recipes need MV power. Two LV Energy Hatches and a sufficient power supply allow an early EBF to run these recipes.
+获得控制器的阶段与配方所需的电力等级是两回事。尽管最初的能源仓是 LV，常见铝配方仍需要 MV 电力。两个 LV 能源仓和足够的电源即可让早期 EBF 运行这些配方。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock tier | LV; two LV Energy Hatches commonly provide the power for early MV recipes |
-| Structure size | 3×3×4; the center of each of the two middle layers is air |
-| Power | Supports multiple normal Energy Hatches; does not support Multi-Amp Energy Hatches or Laser Target Hatches |
-| Overclocking and parallels | Normally uses regular overclocks; sufficient excess heat converts some into perfect overclocks; no additional parallel bonus |
-| Processing bonuses | Every 900 K above the recipe requirement multiplies power use by 95%; every 1800 K allows one perfect overclock |
-| Maintenance and pollution | Requires maintenance and a Muffler Hatch; base pollution is 400 gibbl/s, with actual emissions reduced by the Muffler Hatch tier |
+| 解锁等级 | LV；两个 LV 能源仓通常可为早期 MV 配方供电 |
+| 结构尺寸 | 3×3×4；中间两层的中心位置为空气 |
+| 电力 | 支持多个普通能源仓；不支持多A能源仓或激光靶仓 |
+| 超频与并行 | 通常使用普通超频；热量有富余时可转为部分无损超频；没有额外并行加成 |
+| 加工加成 | 每高于配方要求 900 K，耗电量乘以 95%；每高 1800 K，可进行一次无损超频 |
+| 维护与污染 | 需要维护和消声仓；基础污染量为 400 gibbl/s，实际排放量会根据消声仓等级降低 |
 
-For a first build, start with **Cupronickel Coils, two LV Energy Hatches, short cables, and a small batch of aluminium ingredients**. Forming the structure is only the first step: the recipe, temperature, output space, and continuous power supply must all be suitable before processing can finish successfully.
+首次建造建议使用**白铜线圈、两个 LV 能源仓、短线缆和少量铝配方原料**。搭好结构只是第一步：配方、温度、输出空间和持续供电都必须满足要求，才能成功完成加工。
 
-## Crafting and Construction
+## 合成与建造
 
-### Understanding the Controller and Interfaces
+### 了解控制器与接口
 
-The controller displays machine status, checks the structure, and provides controls. Items, fluids, and power enter through the components below. Buses and hatches only become part of the EBF when installed in valid structure positions.
+控制器会显示机器状态、检查结构并提供操作界面。物品、流体和电力通过下方部件输入。总线和仓只有安装在有效结构位置时，才会成为 EBF 的组成部分。
 
-| Component | Purpose |
+| 部件 | 用途 |
 | --- | --- |
-| Input Bus | Holds item ingredients such as dusts and Programmed Circuits |
-| Output Bus | Receives item products such as ingots and hot ingots |
-| Input Hatch | Supplies fluids required by the recipe, such as nitrogen |
-| Output Hatch | Receives fluid products listed in the recipe |
-| Energy Hatch | Receives EU from the external power network and powers the multiblock |
-| Maintenance Hatch | Allows tools to repair maintenance issues |
-| Muffler Hatch | Vents pollution; its vent face must remain clear |
+| 输入总线 | 存放粉、编程电路等物品原料 |
+| 输出总线 | 接收锭和热锭等物品产物 |
+| 输入仓 | 提供配方所需流体，例如氮气 |
+| 输出仓 | 接收配方所列的流体产物 |
+| 能源仓 | 从外部电网接收 EU 并为多方块机器供电 |
+| 维护仓 | 可使用工具修复维护问题 |
+| 消声仓 | 排出污染；其排气面必须保持畅通 |
 
-An Input Bus and an Input Hatch serve different purposes. Putting dust in the controller's slot, or connecting a fluid pipe to an Input Bus, does not replace the required interfaces.
+输入总线和输入仓用途不同。将粉放入控制器的槽位，或把流体管道接到输入总线上，都不能替代所需接口。
 
-### Preparing the Components
+### 准备部件
 
-Current recipes for the controller and Heat Proof Machine Casings are shown below. Heating Coils come in several tiers; check NEI for their materials and recipes before crafting them.
+当前版本的控制器和隔热机械方块配方如下所示。加热线圈有多个等级；制作前请在 NEI 中查看其材料与配方。
 
 <RecipesFor id="gregtech:gt.blockmachines:1000" />
 
@@ -59,117 +59,117 @@ Current recipes for the controller and Heat Proof Machine Casings are shown belo
 
 <RecipesFor id="gregtech:gt.blockcasings5:0" />
 
-The bottom layer holds the controller and most interfaces. Each of the two middle layers is a ring of eight Heating Coils of the same tier, with air in the center. The top center must contain the Muffler Hatch. Fill the remaining bottom and top-ring positions with Heat Proof Machine Casings, or with interfaces allowed in those positions.
+底层放置控制器和大部分接口。中间两层各由同等级的八个加热线圈围成一圈，中央留空。顶层中央必须放置消声仓。底层和顶层圆环剩余位置填入隔热机械方块，或放置允许安装在这些位置的接口。
 
-| Component | Quantity and position |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> | One, at the front center of the bottom layer |
-| <ItemLink id="gregtech:gt.blockcasings5:0" showIcon="left" /> or other Heating Coils | Sixteen, in the two middle layers; all must be the same tier |
-| <ItemLink id="gregtech:gt.blockcasings:11" showIcon="left" /> | 0–12, filling unused positions in the bottom layer and top ring |
-| Normal Energy Hatch | At least one, in the bottom layer; two <ItemLink id="gregtech:gt.blockmachines:41" showIcon="left" />s are commonly used for early MV recipes |
-| <ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" /> | One, in the bottom layer |
-| <ItemLink id="gregtech:gt.blockmachines:91" showIcon="left" /> | One, at the top center; keep its vent face unobstructed |
-| Input Bus or Input Hatch | At least one input interface, in the bottom layer; provide item and fluid inputs as required by the recipe |
-| Output Bus or Output Hatch | At least one output interface; Output Buses go in the bottom layer, while Output Hatches can also occupy the top ring |
+| <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> | 一个，位于底层前方中央 |
+| <ItemLink id="gregtech:gt.blockcasings5:0" showIcon="left" />或其他加热线圈 | 十六个，放在中间两层；必须全部为同一等级 |
+| <ItemLink id="gregtech:gt.blockcasings:11" showIcon="left" /> | 0–12 个，填充底层和顶层圆环的空位 |
+| 普通能源仓 | 至少一个，放在底层；早期 MV 配方通常使用两个 <ItemLink id="gregtech:gt.blockmachines:41" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" /> | 一个，放在底层 |
+| <ItemLink id="gregtech:gt.blockmachines:91" showIcon="left" /> | 一个，位于顶层中央；排气面必须畅通 |
+| 输入总线或输入仓 | 至少一个输入接口，放在底层；根据配方提供物品和流体原料 |
+| 输出总线或输出仓 | 至少一个输出接口；输出总线放在底层，输出仓也可放在顶层圆环 |
 
-At least one input and one output interface are required. With only two LV Energy Hatches, one Maintenance Hatch, one Input Bus, and one Output Bus, you need **11 Heat Proof Machine Casings** for the remaining positions. Additional fluid hatches or buses can replace casings in allowed positions; they cannot replace coils or the Muffler Hatch.
+至少需要一个输入接口和一个输出接口。若只安装两个 LV 能源仓、一个维护仓、一个输入总线和一个输出总线，则剩余位置需要 **11 个隔热机械方块**。其他流体仓或总线可在允许的位置替换外壳，但不能替换线圈或消声仓。
 
-The animation below also includes an <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> for recipes that use gas, so it uses **10 Heat Proof Machine Casings**. If your first recipe has no fluid input, you can initially leave a casing there and replace it with an Input Hatch later.
+下方动画还包含一个 <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" />，用于需要气体的配方，因此使用 **10 个隔热机械方块**。若第一种配方没有流体输入，可以先在该处放置外壳，之后再换成输入仓。
 
-### Building Layer by Layer
+### 逐层建造
 
-Press play to see the construction sequence, or drag the timeline to revisit a step. The animation starts with the controller, then adds the bottom-layer interfaces, both coil rings, the top layer, and a roof for rain protection.
+点击播放查看建造顺序，或拖动时间轴回看步骤。动画先放置控制器，再添加底层接口、两圈线圈、顶层，最后加上防雨屋顶。
 
 <GameScene interactive={true} width="480" height="340">
   <ImportStructure src="/assets/structures/ebf_ponder.snbt" />
   <ImportPonder src="/assets/ponders/ebf_build.json" />
 </GameScene>
 
-1. **Choose the front and place the controller.** Reserve a 3×3 base and place the controller at its front center, facing outward. Leave access to maintenance, item and fluid interfaces, and cable connections.
-2. **Complete the base.** The other eight bottom-layer positions accept Energy Hatches, a Maintenance Hatch, and input/output interfaces. Fill unused positions with Heat Proof Machine Casings. The bottom center is also part of the structure and must not be left empty.
-3. **Place the first coil ring.** Build a 3×3 ring of eight Cupronickel Coils above the base, leaving air in the center.
-4. **Place the second coil ring.** Add another ring of the same coils, for sixteen in total. All coils must be the same tier; do not mix Cupronickel and Kanthal layers.
-5. **Finish the top and install the Muffler Hatch.** Put the Muffler Hatch in the center of the fourth layer, normally venting upward. Fill the outer eight positions with casings, or substitute fluid Output Hatches where needed.
-6. **Check the structure.** Keep both middle-layer center blocks clear of torches, cables, pipes, and other blocks. If the EBF does not form, recheck the structure in the controller GUI and look for missing or incorrectly placed components.
+1. **选定正面并放置控制器。**预留 3×3 底座，将控制器放在前方中央并朝外。确保维护仓、物品与流体接口以及线缆连接处都便于接近。
+2. **完成底座。**底层其他八个位置可放能源仓、维护仓以及输入/输出接口。空余位置用隔热机械方块填充。底层中央也是结构的一部分，不能留空。
+3. **放置第一圈线圈。**在底座上方搭建 3×3 的白铜线圈环，共八个，中央留空。
+4. **放置第二圈线圈。**再加一圈相同线圈，总数为十六个。所有线圈必须同等级；不要混用白铜和坎塔尔线圈。
+5. **完成顶层并安装消声仓。**将消声仓放在第四层中央，通常让排气口朝上。外围八个位置用外壳填充，或按需换成流体输出仓。
+6. **检查结构。**中间两层的中央位置不能放火把、线缆、管道或其他方块。如果 EBF 无法成型，请在控制器 GUI 中重新检查结构，并查看是否有部件缺失或位置错误。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. The `coil` subchannel selects the coil tier. After construction, check the structure at the controller and repair maintenance issues at the Maintenance Hatch.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 预览结构并辅助建造。`coil` 子信道用于选择线圈等级。建造完成后，在控制器处检查结构，并在维护仓修复维护问题。
 
 > [!WARNING]
-> Protect Energy Hatches, generators, and Battery Buffers from rain. Leave at least one air block in front of the Muffler Hatch's vent and build the roof higher up. Do not place a roof directly on an upward-facing Muffler Hatch or block its vent with cables or pipes.
+> 用屋顶保护能源仓、发电机和电池箱免受雨淋。消声仓排气口前至少留一个空气方块，并将屋顶架高。不要把屋顶直接盖在朝上的消声仓上，也不要用线缆或管道堵住排气口。
 
-Older guides may require gas Output Hatches in the top ring to recover exhaust gases. That special exhaust recovery system has been removed in the current version. If a recipe produces fluids, provide Output Hatches for the outputs shown in NEI; bottom-layer Output Hatches can receive gases too. The top ring remains a valid location for Output Hatches.
+旧版指南可能会要求在顶层圆环放置气体输出仓以回收废气。当前版本已移除此特殊废气回收系统。如果配方会产生流体，请为 NEI 显示的产物提供输出仓；底层输出仓也能接收气体。顶层圆环仍可放置输出仓。
 
-### Completing Maintenance
+### 完成维护
 
-A newly placed EBF usually has maintenance issues. Open the Maintenance Hatch, hold the relevant GT tool on your cursor, and click its maintenance button to repair the issue. The Soldering Iron also needs charge and solder. Return to the controller afterward and confirm that every issue has been repaired.
+刚放置的 EBF 通常存在维护问题。打开维护仓，将对应的 GT 工具拿在光标上，点击维护按钮修复问题。电烙铁还需要充电并备有焊锡。之后回到控制器，确认所有问题均已修复。
 
-| Controller message | Tool |
+| 控制器提示 | 工具 |
 | --- | --- |
-| Pipe is loose | Wrench |
-| Screws are loose | Screwdriver |
-| Something is stuck | Soft Mallet |
-| Platings are dented | Hard Hammer |
-| Circuitry is burned out | Soldering Iron |
-| Something does not belong here | Crowbar |
+| 管道松了。 | 扳手 |
+| 螺丝没拧紧。 | 螺丝刀 |
+| 有什么东西卡住了。 | 软锤 |
+| 外壳出现凹陷。 | 锻造锤 |
+| 电路短路了。 | 电烙铁 |
+| 有个零件不应该在这里。 | 撬棍 |
 
-In LV, you can also put the tools in a Toolbox and right-click the Maintenance Hatch with it to repair several issues at once. Maintenance issues can occasionally recur while the machine runs, so keep the hatch accessible after automation.
+在 LV 阶段，也可以将工具放入工具箱，再用工具箱右键维护仓，一次修复多个问题。机器运行时维护问题偶尔会再次出现，因此自动化后仍需保持维护仓可访问。
 
-Maintenance affects actual power use. One issue reduces EBF efficiency to 90%, raising a 120 EU/t recipe to about **133 EU/t**. This exceeds the nominal 128 EU/t output of four LV generators. Completing all maintenance is especially important for an early EBF powered through two LV Energy Hatches.
+维护状态会影响实际耗电。一个问题会使 EBF 效率降至 90%，让耗电 120 EU/t 的配方上升至约 **133 EU/t**。这超过四台 LV 发电机标称的 128 EU/t 输出。早期 EBF 使用两个 LV 能源仓供电时，完成全部维护尤其重要。
 
-## Capabilities
+## 功能特性
 
-The EBF runs recipes listed under Electric Blast Furnace in NEI. Common uses include aluminium, steel, high-temperature alloys, and dusts that require a specified temperature. Some recipes also require a Programmed Circuit or a gas input. A material may have several gas-assisted recipes with different times and costs.
+EBF 可运行 NEI 中列在工业高炉下的配方。常见用途包括铝、钢、高温合金，以及需要指定温度的粉。部分配方还需要编程电路或气体输入。同一种材料可能有多种辅助气体配方，其耗时和成本各不相同。
 
-When designing a production line, check the recipe's items, fluids, EU/t, temperature, and output type. Some recipes produce **hot ingots**, which need a [Vacuum Freezer](./vacuum_freezer.md) before further processing. Regular ingots do not need freezing.
+设计生产线时，请检查配方的物品、流体、EU/t、温度和产物类型。部分配方会产出**热锭**，后续加工前需使用[真空冷冻机](./vacuum_freezer.md)冷却。普通锭无需冷冻。
 
-Input Buses hold dusts and Programmed Circuits; Input Hatches supply the gases or other fluids required by the recipe. Output Buses collect items, and Output Hatches collect fluids. You can install multiple input interfaces, but do not assume that every blast furnace recipe needs gas.
+输入总线存放粉和编程电路；输入仓提供配方所需的气体或其他流体。输出总线收集物品，输出仓收集流体。可以安装多个输入接口，但不要假定每种工业高炉配方都需要气体。
 
-### Producing Your First Aluminium
+### 生产第一批铝
 
-Check the Electric Blast Furnace recipes for <ItemLink id="gregtech:gt.metaitem.01:11019" showIcon="left" /> in NEI. Choose one for which you can obtain all ingredients, fluids, and circuits. Different aluminium sources and gas options can have different processing times; do not apply one recipe's requirements to every aluminium recipe.
+在 NEI 中查看 <ItemLink id="gregtech:gt.metaitem.01:11019" showIcon="left" /> 的工业高炉配方。选择一种能够获得全部原料、流体和电路的配方。不同铝来源和气体选项的加工时间可能不同；不要将一种配方的要求套用于所有铝配方。
 
-For your first trial, work through this checklist:
+首次尝试时，请依次核对以下项目：
 
-1. **Read the recipe requirements.** Check the ingredients, circuit setting, fluid quantity, EU/t, and temperature. An early build normally uses a 120 EU/t recipe that two LV Energy Hatches can support.
-2. **Check structure and maintenance.** The controller should report no structure or maintenance issues, the Muffler Hatch should be able to vent, and the machine should be enabled.
-3. **Prepare the outputs.** Leave enough space in the appropriate Output Bus and Output Hatch. Keep output protection enabled during your first trials so useful products are not voided as overflow.
-4. **Prepare power first.** Let the boiler and generators stabilize, or charge the batteries beforehand. Make sure both Energy Hatches receive power continuously.
-5. **Insert only a small batch.** Put dusts and the required circuit in an Input Bus and supply fluids to an Input Hatch. Watch one complete recipe finish.
-6. **Add automation afterward.** Confirm that products reach the correct output interfaces and stored energy does not continually decrease before increasing the input quantity.
+1. **阅读配方要求。**检查原料、电路设置、流体数量、EU/t 和温度。早期结构通常使用耗电 120 EU/t、可由两个 LV 能源仓支持的配方。
+2. **检查结构和维护。**控制器应显示没有结构或维护问题，消声仓应能排气，并且机器已启用。
+3. **准备产物空间。**在合适的输出总线和输出仓中留出足够空间。首次试运行时保持溢出保护开启，避免有用产物因溢出而被销毁。
+4. **先准备好电力。**让锅炉和发电机稳定运行，或预先给电池充电。确保两个能源仓都能持续接收电力。
+5. **只投入少量原料。**将粉和所需电路放入输入总线，并通过输入仓提供流体。观察一条配方完整运行结束。
+6. **之后再添加自动化。**确认产物进入正确的输出接口，且储存电量不会持续下降，然后再增加输入量。
 
-If the machine loses power during the trial, investigate the supply first. Repeatedly inserting more ingredients will not fix it. Steel is another important early use for the EBF; compare different ingredients and gas options before moving some steel production away from the Bricked Blast Furnace.
+试运行期间若机器电力故障，先检查供电。反复投入更多原料无法解决问题。钢也是 EBF 早期的重要用途；在将部分钢生产从砖高炉转移出来之前，应比较不同原料和气体选项。
 
-## Power and Overclocking
+## 电力与超频
 
-### Why Use Two LV Energy Hatches?
+### 为什么使用两个 LV 能源仓？
 
-The EBF uses normal Energy Hatches. With only one normal Energy Hatch, recipe calculations use 1 A of available power. With two hatches of the same tier, their combined amperage can support recipes one tier higher. Each LV Energy Hatch accepts at most 2 A LV, giving a combined maximum of **4 A × 32 EU = 128 EU/t**. This supports common 120 EU/t MV recipes.
+EBF 使用普通能源仓。仅有一个普通能源仓时，配方计算按 1 A 可用电力处理。两个同等级能源仓的总安数可支持高一等级的配方。每个 LV 能源仓最多接收 2 A LV，总计最高为 **4 A × 32 EU = 128 EU/t**。这足以运行常见的 120 EU/t MV 配方。
 
-This form of tier skipping describes the higher-tier recipes the machine can run. **The external cables still carry 32 V LV power.** Supply more LV amperage; do not feed MV voltage directly into LV Energy Hatches. Cable capacity, generator count, and hatch count must all meet the power requirement.
+这种升压指的是机器可运行的高等级配方。**外部线缆仍然传输 32 V 的 LV 电力。**应增加 LV 安数；不要将 MV 电压直接接入 LV 能源仓。线缆容量、发电机数量和能源仓数量都必须满足电力需求。
 
-| Configuration | Available power and use |
+| 配置 | 可用电力与用途 |
 | --- | --- |
-| One LV Energy Hatch | Recipe calculations use 1 A LV, or 32 EU/t; cannot start common 120 EU/t recipes |
-| Two LV Energy Hatches | Accept up to 4 A LV combined, nominally 128 EU/t; suitable for early MV recipes |
-| One MV Energy Hatch | Recipe calculations use 1 A MV, or 128 EU/t; requires a suitable MV supply and cables |
+| 一个 LV 能源仓 | 配方按 1 A LV，即 32 EU/t 计算；无法启动常见的 120 EU/t 配方 |
+| 两个 LV 能源仓 | 总计最高接收 4 A LV，标称 128 EU/t；适用于早期 MV 配方 |
+| 一个 MV 能源仓 | 配方按 1 A MV，即 128 EU/t 计算；需要合适的 MV 电源和线缆 |
 
-There is only **8 EU/t of headroom** between 128 EU/t and a 120 EU/t recipe. The following calculation assumes all four LV packets travel paths with the same loss and no other loads:
+128 EU/t 与 120 EU/t 配方之间只有 **8 EU/t 的余量**。以下计算假设四个 LV 电包路径损耗相同且没有其他负载：
 
-| Loss per packet before reaching a hatch | Maximum power received by the EBF | Headroom for a 120 EU/t recipe |
+| 到达能源仓前每个电包的损耗 | EBF 实际接收的最大电力 | 120 EU/t 配方的余量 |
 | --- | --- | --- |
 | 0 EU | 4 × 32 = 128 EU/t | 8 EU/t |
 | 1 EU | 4 × 31 = 124 EU/t | 4 EU/t |
 | 2 EU | 4 × 30 = 120 EU/t | 0 EU/t |
-| 3 EU | 4 × 29 = 116 EU/t | Insufficient power |
+| 3 EU | 4 × 29 = 116 EU/t | 电力不足 |
 
-Real paths can have different cable lengths and losses, so calculate each separately. Energy Hatch buffers can temporarily sustain the machine, but a continually falling buffer means average input is insufficient. Starting successfully does not guarantee that the complete recipe will finish. See [Local Energy Networks](/power/enet.md) and [Cable Loss](/power/cable_loss.md) for details.
+实际线路的线缆长度和损耗可能不同，因此应分别计算。能源仓缓存区可让机器暂时持续运行，但缓存电量持续下降意味着平均输入不足。成功启动不代表配方一定能完整运行结束。详情请见[本地能源网络](/power/enet.md)和[线缆损耗](/power/cable_loss.md)。
 
 > [!WARNING]
-> Losing power during processing aborts the current recipe and can destroy ingredients already consumed. Confirm sufficient continuous power before your first batch. Include cable losses instead of relying only on the generators' nominal output.
+> 加工期间电力故障会中止当前配方，并可能摧毁已消耗的原料。首次投入前，请确认持续供电充足。计算时应计入线缆损耗，不能只依赖发电机的标称输出。
 
-### Option 1: Direct Power Through Short Cables
+### 方案一：通过短线缆直接供电
 
-Four <ItemLink id="gregtech:gt.blockmachines:1120" showIcon="left" />s can supply an early EBF, each outputting at most 1 A LV. The example below assigns two turbines to each Energy Hatch and keeps both branches short.
+四台 <ItemLink id="gregtech:gt.blockmachines:1120" showIcon="left" /> 可为早期 EBF 供电，每台最多输出 1 A LV。下例将两台涡轮分配给每个能源仓，并让两路供电都保持较短。
 
 <GameScene interactive={true} width="480" height="340" zoom="1.2">
   <ImportStructure src="/assets/structures/powering_ebf_1.snbt" />
@@ -177,72 +177,72 @@ Four <ItemLink id="gregtech:gt.blockmachines:1120" showIcon="left" />s can suppl
   <ImportPonder src="/assets/ponders/ebf_power_direct.json" />
 </GameScene>
 
-- Each hatch receives power from two turbines; its branch needs at least 2 A LV capacity. If all four turbines share one supply trunk, that trunk needs at least 4 A capacity.
-- Use a Wrench to face turbine energy outputs toward the cables. Steam must enter through valid fluid input faces; simply placing a turbine against an Energy Hatch does not guarantee a connection.
-- Continuous turbine output requires continuous steam. An unwarmed boiler, exhausted fuel, or insufficient pipe distribution can stop a turbine from generating.
-- This setup has very little headroom and is suited to a dedicated early EBF supply. Recalculate the load if you connect other machines.
+- 每个能源仓由两台涡轮供电，因此支路线缆至少需要 2 A LV 容量。如果四台涡轮共用一条主干供电线，则主干至少需要 4 A 容量。
+- 使用扳手将涡轮电力输出面朝向线缆。蒸汽必须从有效流体输入面进入；仅仅将涡轮贴在能源仓旁边并不能保证连接成功。
+- 涡轮要持续输出，就必须持续供应蒸汽。锅炉未预热、燃料耗尽或管道分配不足都可能导致涡轮停止发电。
+此设置余量很小，适合专供早期 EBF。若连接其他机器，请重新计算负载。
 
-When adding roofs over the turbines and Energy Hatches, keep the Muffler Hatch vent clear. The animation's arrows show connection directions; actual power still depends on cables, generators, and a steady supply of fuel and steam.
+在涡轮和能源仓上方加屋顶时，确保消声仓排气口畅通。动画中的箭头表示连接方向；实际供电仍取决于线缆、发电机以及稳定的燃料和蒸汽供应。
 
-### Option 2: A Battery Buffer Near the EBF
+### 方案二：在 EBF 旁放置电池箱
 
-You can place a <ItemLink id="gregtech:gt.blockmachines:171" showIcon="left" /> near the EBF, install four usable LV batteries, and connect both Energy Hatches through short cables. The buffer's maximum output amperage depends on the number of usable batteries: **a four-slot buffer with only one battery cannot output 4 A**.
+可以在 EBF 附近放置 <ItemLink id="gregtech:gt.blockmachines:171" showIcon="left" />，装入四块可用 LV 电池，并用短线缆连接两个能源仓。缓冲器的最大输出安数取决于可用电池数量：**四槽缓冲器若只有一块电池，就无法输出 4 A**。
 
 <GameScene interactive={true} width="480" height="340" zoom="1.1">
   <ImportStructure src="/assets/structures/powering_ebf_2.snbt" />
   <ImportPonder src="/assets/ponders/ebf_power_buffer.json" />
 </GameScene>
 
-This example uses eight LV Steam Turbines and also supplies other LV machines. Adjust the generator count to your actual load. Along with the EBF's 120 EU/t, account for cable losses, losses associated with the Battery Buffer, and other machines.
+此示例使用八台 LV 蒸汽涡轮，并同时为其他 LV 机器供电。请根据实际负载调整发电机数量。除了 EBF 的 120 EU/t，还要计入线缆损耗、电池箱相关损耗以及其他机器的耗电。
 
-Point the buffer's output face toward the EBF branch and connect generators to its other valid input faces. The output trunk needs at least 4 A LV capacity, and each Energy Hatch branch needs at least 2 A. Size the generator-side cables for the combined current that can pass through them too.
+将缓冲器输出面朝向 EBF 支路，并把发电机接入其余有效输入面。输出主干至少需要 4 A LV 容量，每个能源仓支路至少需要 2 A。发电机一侧的线缆也要按其可能承载的总电流选型。
 
-The buffer smooths fluctuations from the generators and allows shorter cables near the EBF. It still needs enough average generation. Charge the batteries, then run several consecutive batches. If charge falls after each batch, increase generation, reduce cable loss, or reduce other loads. Adding battery capacity only delays the time at which the batteries run out.
+缓冲器可平抑发电机波动，并缩短 EBF 附近的线缆，但平均发电量仍须充足。先给电池充电，再连续运行几批配方。如果每批结束后电量都下降，请增加发电量、减少线缆损耗或降低其他负载。增加电池容量只会推迟电池耗尽的时间。
 
 > [!WARNING]
-> Energy Hatch voltage limits still apply. Do not connect MV power directly to LV Energy Hatches. When upgrading to MV power, replace the hatches and check the cables too. Cables must meet both voltage and amperage limits or they may burn out.
+> 能源仓的电压限制仍然适用。不要将 MV 电力直接接入 LV 能源仓。升级为 MV 电力时，应更换能源仓并检查线缆。线缆必须同时满足电压和安数限制，否则可能烧毁。
 
-### Upgrading Power and Overclocking
+### 升级电力与超频
 
-Higher-tier or additional normal Energy Hatches can support higher-power recipes and shorten processing through [tier skipping](/tierskipping_overcloking_parallels/tierskipping.md) and [overclocking](/tierskipping_overcloking_parallels/overclocking.md). Each regular overclock multiplies EU/t by four and halves duration. Available power and temperature still limit the number of overclocks.
+更高等级或更多的普通能源仓可以支持高耗电配方，并通过[升压](/tierskipping_overcloking_parallels/tierskipping.md)和[超频](/tierskipping_overcloking_parallels/overclocking.md)缩短加工时间。每次普通超频都会使 EU/t 乘以四、持续时间减半。可用电力和温度仍会限制超频次数。
 
-For example, ignoring excess-heat discounts, one regular overclock raises a 120 EU/t recipe to about 480 EU/t and halves its duration. After upgrading the Energy Hatch, check generator count and steam supply again; the original 120 EU/t power budget is no longer sufficient.
+例如，不考虑过热折扣时，一次普通超频会将耗电 120 EU/t 的配方提高到约 480 EU/t，并将耗时减半。升级能源仓后，也要重新检查发电机数量和蒸汽供应；原先 120 EU/t 的供电预算已不足够。
 
-## Temperature and Heating Coils
+## 温度与加热线圈
 
-### Meeting the Recipe Requirement
+### 满足配方温度要求
 
-Coils of the same tier determine the base temperature. Cupronickel Coils with two LV Energy Hatches provide **1801 K**, enough for aluminium recipes requiring 1300 K. Still check the specific recipe you choose.
+同等级线圈决定基础温度。使用白铜线圈和两个 LV 能源仓可达到 **1801 K**，足以满足要求 1300 K 的铝配方。仍需检查你选择的具体配方。
 
-| Coil | Temperature with two LV Energy Hatches or one MV Energy Hatch |
+| 线圈 | 使用两个 LV 能源仓或一个 MV 能源仓时的温度 |
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockcasings5:0" showIcon="left" /> | 1801 K |
 | <ItemLink id="gregtech:gt.blockcasings5:1" showIcon="left" /> | 2701 K |
 | <ItemLink id="gregtech:gt.blockcasings5:2" showIcon="left" /> | 3601 K |
 
-The machine also adjusts temperature according to **the voltage tier of the sum of its normal Energy Hatches' nominal voltages**. MV is the baseline; each tier above it adds 100 K. One HV Energy Hatch with Cupronickel Coils therefore gives 1901 K. Changing the number of same-tier hatches can also change temperature. With only one LV Energy Hatch, Cupronickel Coils give 1701 K.
+机器还会根据**普通能源仓标称电压总和对应的电压等级**调整温度。MV 为基准，每高一个等级增加 100 K。因此，使用白铜线圈和一个 HV 能源仓可达到 1901 K。改变同等级能源仓的数量也可能改变温度。仅有一个 LV 能源仓时，白铜线圈可达到 1701 K。
 
-This temperature calculation is separate from incoming cable voltage, actual amperage, and cable loss. After upgrading coils or Energy Hatches, use a <ItemLink id="gregtech:gt.metaitem.01:32762" showIcon="left" /> to check the actual temperature. Do not infer it from the EU/t the machine is currently consuming.
+此温度计算与输入线缆电压、实际安数和线缆损耗分别处理。升级线圈或能源仓后，请使用 <ItemLink id="gregtech:gt.metaitem.01:32762" showIcon="left" /> 检查实际温度。不要根据机器当前耗电的 EU/t 来推断温度。
 
-If machine temperature is below the recipe requirement, more power will not make the recipe start. Replace all sixteen coils with the same tier and check coils shared with adjacent machines too.
+如果机器温度低于配方要求，增加电力也无法启动配方。请将全部十六个线圈换成同一等级，并检查是否有线圈与相邻机器共用。
 
-### Benefits of Excess Heat
+### 过热的好处
 
-Every 900 K above the recipe requirement gives another multiplicative 5% power discount. Every 1800 K lets one regular overclock become a perfect overclock. A perfect overclock still multiplies EU/t by four, but divides duration by four, so that overclock does not increase total energy per recipe.
+温度每高于配方要求 900 K，耗电量就会再乘以 95%。每高 1800 K，可将一次普通超频转为无损超频。无损超频仍使 EU/t 乘以四，但会让持续时间除以四，因此这次超频不会增加每条配方的总耗能。
 
-| Temperature above the recipe requirement | Power multiplier | Overclocks that can become perfect |
+| 高于配方要求的温度 | 耗电倍率 | 可转为无损超频的次数 |
 | --- | --- | --- |
-| Less than 900 K | 100% | 0 |
+| 低于 900 K | 100% | 0 |
 | 900–1799 K | 95% | 0 |
 | 1800–2699 K | 0.95 × 0.95 = 90.25% | 1 |
 | 2700–3599 K | 0.95³ ≈ 85.74% | 1 |
 | 3600–4499 K | 0.95⁴ ≈ 81.45% | 2 |
 
-For example, one HV Energy Hatch and Nichrome Coils give 3701 K. An aluminium recipe requiring 1300 K has 2401 K of excess heat, giving two 5% power discounts and allowing one perfect overclock. Check NEI and the machine display for the resulting recipe power and duration.
+例如，一个 HV 能源仓配合镍铬线圈可达到 3701 K。要求 1300 K 的铝配方可获得 2401 K 过热，从而享受两次 5% 耗电折扣，并允许一次无损超频。请在 NEI 和机器显示界面中确认最终配方耗电量与持续时间。
 
-Perfect overclocks improve overclocks that your power supply already supports. Extra heat does not create extra power. First get the early machine running reliably, then compare the costs of better coils, more power, and additional EBFs.
+无损超频只能优化电源已经支持的超频。额外热量不会产生额外电力。先让早期机器稳定运行，再比较升级线圈、增加电力和增建 EBF 的成本。
 
-## Wall Sharing and Automation
+## 共用墙壁与自动化
 
 <GameScene interactive={true} width="240" height="240" zoom="1.2" wrap="square" align="right">
   <ImportStructure src="/assets/structures/quad_ebf.snbt" />
@@ -250,34 +250,34 @@ Perfect overclocks improve overclocks that your power supply already supports. E
   <RemoveBlocks id="Railcraft:residual.heat" />
 </GameScene>
 
-Multiple EBFs can share side-wall casings and coils. Four in a 2×2 arrangement reduce the coil count from 64 for independent structures to 42. Shared coils must meet every connected machine's tier requirements, so check all affected EBFs when upgrading.
+多台 EBF 可以共用侧墙外壳和线圈。以 2×2 排列的四台机器可将线圈数量从各自独立结构所需的 64 个降至 42 个。共用线圈必须满足所有相连机器的等级要求，因此升级时要检查所有受影响的 EBF。
 
-Maintenance Hatches and some input/output interfaces can also be shared. Power must cover all machines running simultaneously. Shared Energy Hatches make machines compete for amperage, which is especially likely to cause power failures when using two-hatch tier skipping.
+维护仓和部分输入/输出接口也可以共用。电力必须足以同时运行所有机器。共用能源仓会让机器争用安数，使用双仓升压时尤其容易电力故障。
 
-For automation, arrange dust, circuit, and fluid inputs and leave enough output space for hot ingots, regular items, and fluids. If an EBF feeds a Vacuum Freezer, test with a small batch and confirm that only hot ingots requiring cooling reach it. See the [Vacuum Freezer guide](./vacuum_freezer.md#hot-ingot-routing) for input filtering, item transport, and storage settings.
+自动化时，应安排好粉、电路和流体输入，并为热锭、普通物品和流体留出足够输出空间。如果 EBF 要向真空冷冻机供料，请先用少量原料测试，并确认只有需要冷却的热锭会进入其中。输入过滤、物品运输和存储设置请参见[真空冷冻机指南](./vacuum_freezer.md#hot-ingot-routing)。
 
-With multiple Input Buses, check the controller's **input separation** setting. When enabled, each bus's items are considered as a separate recipe group. Keep the dusts and circuit needed for a recipe in a bus that can match them together. Separate buses and circuits for different recipes can reduce unintended recipe matches.
+使用多个输入总线时，请检查控制器的**输入隔离**设置。启用后，每个总线中的物品会被视为独立配方组。将配方所需的粉和电路放入能同时匹配它们的总线。不同配方使用独立总线和电路可减少误匹配。
 
-Before obtaining a Vacuum Freezer, prioritize recipes that produce regular ingots and whose downstream processing is available to you. Later, you can dedicate EBFs to aluminium, steel, and high-temperature materials. Four EBFs sharing coils save structure materials, but simultaneous operation still requires enough power for all four.
+在获得真空冷冻机之前，优先选择产出普通锭且你能进行后续加工的配方。之后可分别安排 EBF 生产铝、钢和高温材料。四台 EBF 共用线圈能节省结构材料，但同时运行仍需要足够电力。
 
-## Troubleshooting
+## 故障排除
 
-| Symptom | What to check |
+| 症状 | 检查事项 |
 | --- | --- |
-| Structure is incomplete | All sixteen coils are the same tier; both middle centers are air; the Muffler Hatch is in the top center; the base has Energy Hatches, a Maintenance Hatch, and input/output interfaces |
-| A new machine has maintenance issues | Repair with all six tools at the Maintenance Hatch, then confirm at the controller; forming the structure and completing maintenance are separate steps |
-| Insufficient temperature | Scan the actual temperature and check coil tier, power configuration, and the recipe's temperature requirement in NEI |
-| Ingredients are present but no recipe is found | Check ingredient types and quantities, circuit setting, fluids, and EU/t; with input separation, make sure required items are not split across buses |
-| Insufficient voltage or power | Check for two LV Energy Hatches in an early build, or suitable hatches for upgraded recipes; Input Bus tier does not determine machine voltage |
-| Machine stops immediately after starting | Check generation, cable capacity and loss, and continuous power to the hatches; do not repeatedly insert expensive ingredients to test |
-| Machine runs briefly, then loses power | Watch battery and hatch buffers for a continuous decline; check boiler steam output, pipe distribution, other loads, and maintenance |
-| A four-slot Battery Buffer provides insufficient power | Check for four usable, charged LV batteries, the correct output face, and enough average generation |
-| Insufficient output space | Check that the appropriate Output Buses and Output Hatches exist, are not full, and can hold the complete recipe output |
-| Pollution cannot be vented | Check that the Muffler Hatch vents into air and that an advanced Muffler Hatch has any required Air Filter |
-| Cables burn out or Energy Hatches explode | Check cable voltage and amperage limits, overvoltage at Energy Hatches, and exposure to rain |
+| 结构不完整 | 十六个线圈等级相同；中间两层中央为空气；消声仓位于顶层中央；底层有能源仓、维护仓和输入/输出接口 |
+| 新机器存在维护问题 | 在维护仓使用六种工具进行修复，然后在控制器处确认；结构成型和完成维护是两个独立步骤 |
+| 温度不足 | 扫描实际温度，并在 NEI 中检查线圈等级、电力配置和配方温度要求 |
+| 有原料但找不到配方 | 检查原料种类与数量、电路设置、流体和 EU/t；启用输入隔离时，确保所需物品没有分散在不同总线中 |
+| 电压或电力不足 | 早期结构应检查是否有两个 LV 能源仓，升级配方则应使用合适的能源仓；输入总线等级不决定机器电压 |
+| 机器启动后立即停止 | 检查发电量、线缆容量与损耗，以及能源仓是否持续供电；不要反复投入昂贵原料进行测试 |
+| 机器短暂运行后电力故障 | 观察电池和能源仓缓存是否持续下降；检查锅炉蒸汽输出、管道分配、其他负载及维护状态 |
+| 四槽电池箱供电不足 | 检查是否有四块可用且充满电的 LV 电池、输出面是否正确，以及平均发电量是否足够 |
+| 输出空间不足 | 检查是否有合适的输出总线和输出仓、是否已满，以及能否容纳完整配方产物 |
+| 污染无法排出 | 检查消声仓是否朝向空气；进阶消声仓还要确认是否需要空气滤网 |
+| 线缆烧毁或能源仓爆炸 | 检查线缆的电压和安数限制、能源仓是否过压，以及设备是否淋雨 |
 
-See [Multiblock Machines](/gtnh_basics/multiblocks.md) for general rules. As material demand grows, additional EBFs can divide the workload instead of relying only on repeated overclocks of one machine.
+一般规则请参见[多方块机器](/gtnh_basics/multiblocks.md)。随着材料需求增长，可增建 EBF 分担工作，而不是只靠一台机器反复超频。
 
-## References
+## 参考资料
 
-- [GTNH Wiki: Electric Blast Furnace](https://wiki.gtnewhorizons.com/wiki/Electric_Blast_Furnace)
+- [GTNH Wiki：工业高炉](https://wiki.gtnewhorizons.com/wiki/Electric_Blast_Furnace)

@@ -25,7 +25,7 @@ date: 2026-05-27
 > 该多方块唯一的改动是结构，核心功能与之前完全相同
 
 ## 建造
-<Color id="GREEN">ECE</Color>没有分级部件。维护仓和消声仓可以替换任意未与齿轮箱机械方块接触的强化钨钢机械方块。输入仓（一个或多个）可以替换任意与齿轮箱机械方块接触的钨钢涡轮机械方块。四重输入仓可能有助于注入所有必需的流体。动力仓只能放在结构右侧与控制器相对的中心机械方块上，且不能超过 4A。极限引擎进气机械方块的上方还必须保持为空气。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
+<Color id="GREEN">ECE</Color>没有任意等级部件。维护仓和消声仓可以替换任意未与齿轮箱机械方块接触的强化钨钢机械方块。输入仓（一个或多个）可以替换任意与齿轮箱机械方块接触的钨钢涡轮机械方块。四重输入仓可能有助于注入所有必需的流体。动力仓只能放在结构右侧与控制器相对的中心机械方块上，且不能超过 4A。极限引擎进气机械方块的上方还必须保持为空气。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
 
 ### 需求：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15534"/><ItemImage id="gregtech:gt.blockmachines:15534"/>
@@ -42,14 +42,14 @@ date: 2026-05-27
 - 1 消声仓（任意不紧邻齿轮箱的钛机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
 - 1+ 输入仓（任意不紧邻齿轮箱的钛机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
 
-### 共墙
-<Color id="GREEN">ECE</Color>的每个侧面都可以与其他机器共墙，以节省机械方块。但由于输入仓的位置受到限制，输入仓不在此列。
+### 共用墙壁
+<Color id="GREEN">ECE</Color>的每个侧面都可以与其他机器共用墙壁，以节省机械方块。但由于输入仓的位置受到限制，输入仓不在此列。
 
 ## 用法
 <Color id="GREEN">ECE</Color>通过有限的几种可燃柴油燃料发电。下表列出了可用选项及其能量密度（EU/L）。最受欢迎的是航空煤油A和高辛烷值汽油，这两种燃料通常也用于通用化学燃料引擎。
 | 柴油燃料 | EU/L | 默认速率 | 增强速率 |
 | --------------- | --------------- | --------------- | --------------- |
-| 航空煤油3号 | 1,824 | 5.98 L/t | 12.0 L/t |
+| 航空煤油#3 | 1,824 | 5.98 L/t | 12.0 L/t |
 | 航空煤油A | 1,248 | 4.85 L/t | 9.70 L/t |
 | 高辛烷值汽油 | 2,500 | 4.36 L/t | 8.72 L/5 |
 

@@ -1,15 +1,15 @@
 ---
 navigation:
-  title: Geliştirilmiş Dispenser İşlevselliği
+  title: Geliştirilmiş Fırlatıcı İşlevselliği
   parent: misc.md
   icon: minecraft:dispenser
 categories:
-    - Miscellaneous Changes
+    - Diğer Değişiklikler
 author: koolkrafter5
 date: 2026-06-10
 ---
 
-Aşağıdaki eşyalar artık bir <ItemLink id="minecraft:dispenser"/> <ItemImage id="minecraft:dispenser"/> tarafından fırlatılabilir:
+Aşağıdaki eşyalar artık bir <ItemLink id="minecraft:dispenser"/> <ItemImage id="minecraft:dispenser"/> içinden fırlatılabilir:
 
 - <ItemImage id="ThaumicHorizons:alchemite"/>
 - <ItemImage id="ThaumicHorizons:boatGreatwood"/>

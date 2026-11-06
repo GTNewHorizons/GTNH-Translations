@@ -9,29 +9,29 @@ navigation:
   icon: gregtech:gt.blockmachines:31087
   position: -501
 ---
-# Steam Hearth
+# 蒸汽壁炉
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31087" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" /> is a multiblock furnace available in the Steam age. It uses steam to smelt items in batches, processing up to eight copies of the same recipe at once. Blasting and Smoking modes can further speed up eligible metal and food recipes, respectively.
+<ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" /> 是蒸汽时代可用的多方块熔炉。它使用蒸汽批量熔炼物品，最多同时处理八份相同配方。高炉（Blasting）和烟熏模式还能分别加快符合条件的金属和食物配方。
 
-The Steam Hearth has basic bronze and high pressure steel structures that share the same controller. It does not consume electric power, but the boiler must provide a continuous steam supply.
+蒸汽壁炉有基础青铜结构和高压钢结构，两者共用同一控制器。它不消耗电力，但锅炉必须持续供应蒸汽。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires a High Pressure Steam Furnace and other materials |
-| Dimensions | 3×3×3, with the controller at the front center of the second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Processing modes | Furnace, Blasting, and Smoking; accepted items depend on the selected recipe map |
-| Parallels | Up to eight copies of the same recipe; the high pressure structure does not raise this limit |
-| Processing bonuses | In Furnace mode, the basic structure runs at 125% of a singleblock bronze Steam Furnace's speed and 62.5% of its steam consumption rate per parallel |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| 解锁阶段 | 蒸汽时代；控制器配方需要高压蒸汽熔炉及其他材料 |
+| 尺寸 | 3×3×3，控制器位于第二层前方中央 |
+| 电力 | 恰好一个蒸汽仓；不需要能源仓 |
+| 加工模式 | 熔炉、高炉和烟熏；可处理物品取决于所选配方类型 |
+| 并行数 | 最多同时处理八份相同配方；高压结构不会提高此上限 |
+| 加工加成 | 熔炉模式下，基础结构的速度是单方块青铜蒸汽熔炉的 125%，每个并行的蒸汽消耗速率为其 62.5% |
+| 升级与超频 | 高压结构将速度和蒸汽消耗速率加倍；不进行电压超频 |
+| 维护与污染 | 无需维护，不产生污染，也不需要消声仓 |
 
-## Crafting and Construction
+## 合成与建造
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+下方展示了控制器、基础外壳和蒸汽仓的当前配方。点击表格中的物品可查看其他部件的配方。
 
 <RecipesFor id="gregtech:gt.blockmachines:31087" />
 
@@ -39,119 +39,119 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### 结构材料
 
-The following quantities assume one Steam Hatch, one Input Bus, and one Output Bus. The basic structure uses bronze components, while the high pressure structure uses their steel counterparts. **All four types of structure component must be of the same tier.**
+以下数量按一个蒸汽仓、一个输入总线和一个输出总线计算。基础结构使用青铜部件，高压结构使用对应钢制部件。**四类结构部件都必须为同一等级。**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| 部件 | 基础结构 | 高压结构 | 数量与位置 |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | Six in the basic setup; casing positions on the bottom and middle layers may be replaced with the hatches or buses below, but at least two actual casings must remain |
-| Gear Box | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | Four, at the center of each edge of the top layer |
-| Pipe Casing | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | Four, at the center of each edge of the bottom layer |
-| Firebox | <ItemLink id="gregtech:gt.blockcasings3:13" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings3:14" showIcon="left" /> | Three, at the center of the left, right, and rear sides of the middle layer |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" /> | Same controller | One, at the front center of the second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | At least one, replacing a casing |
+| 外壳 | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 基础配置为六个；底层和中层的外壳位置可由下方仓或总线替换，但实际外壳至少保留两个 |
+| 齿轮箱 | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | 四个，位于顶层每条边的中央 |
+| 管道方块 | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | 四个，位于底层每条边的中央 |
+| 炉膛 | <ItemLink id="gregtech:gt.blockcasings3:13" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings3:14" showIcon="left" /> | 三个，位于中层左侧、右侧和后方中央 |
+| 控制器 | <ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" /> | 同一控制器 | 一个，位于第二层前方中央 |
+| 蒸汽仓 | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | 同一仓 | 恰好一个，替换一个外壳 |
+| 输入总线 | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | 同一总线 | 至少一个，替换外壳 |
+| 输出总线 | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | 同一总线 | 至少一个，替换外壳 |
 
-There are nine positions for casings or hatches. Installing the three required interfaces leaves six casings. Each additional bus replaces another casing. Hatches cannot replace Gear Boxes, Pipe Casings, or Fireboxes.
+共有九个可放外壳或仓的位置。安装三个必需接口后还剩六个外壳。增加总线会替换更多外壳。仓不能替代齿轮箱、管道方块或炉膛。
 
-### Building by Layer
+### 逐层建造
 
-Build the bottom layer first, then the middle layer containing the controller, and finally the four Gear Boxes on top. Empty positions in the preview do not need to be filled with casings. The structure requires neither glass nor Heating Coils.
+先建造底层，再建造含控制器的中层，最后在顶层放置四个齿轮箱。预览中的空位无需填外壳。结构不需要玻璃或加热线圈。
 
-Place the Steam Hatch and steam Input and Output Buses in suitable casing positions for convenient pipe connections. Ordinary electric machine Input and Output Buses cannot replace the steam versions. Maintenance and Muffler Hatches are not required.
+将蒸汽仓、蒸汽输入总线和输出总线放在便于连接管道的合适外壳位置。普通电力机器输入和输出总线不能替代蒸汽版本。无需维护仓和消声仓。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 预览结构并辅助建造。主信道等级 1 选择基础结构，等级 2 选择高压结构。辅助建造完成后安装仓，并检查结构。
 
-## Uses and Processing Modes
+## 用途与加工模式
 
-The Steam Hearth can process furnace recipes in bulk, producing items such as stone, glass, directly smelted materials, and cooked food. Different inputs may yield different products. Check NEI before smelting, especially before using intermediate products from an ore processing chain.
+蒸汽壁炉可批量处理熔炉配方，产出石头、玻璃、直接熔炼的材料和熟食等物品。不同输入可能产生不同产物。熔炼前请查看 NEI，尤其要检查矿石加工链中的中间产物。
 
-Right-click the controller with a <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> to cycle through **Furnace → Blasting → Smoking → Furnace**. You can also use the mode button in the GUI. Waila and the controller interface show the current mode.
+手持 <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> 右键控制器，即可在**熔炉 → 高炉 → 烟熏 → 熔炉**之间循环切换。也可使用 GUI 中的模式按钮。Waila 和控制器界面会显示当前模式。
 
-| Mode | Accepted recipes | Change relative to Furnace mode at the same structure tier |
+| 模式 | 可处理配方 | 相同结构等级下相对熔炉模式的变化 |
 | --- | --- | --- |
-| Furnace | Ordinary furnace recipes | Base speed and steam consumption rate |
-| Blasting | Metal recipes accepted by the Et Futurum Blast Furnace | Double speed and steam consumption rate |
-| Smoking | Food recipes accepted by the Et Futurum Smoker | Double speed and steam consumption rate |
+| 熔炉 | 普通熔炉配方 | 基础速度和蒸汽消耗速率 |
+| 高炉 | Et Futurum 高炉可处理的金属配方 | 速度和蒸汽消耗速率均加倍 |
+| 烟熏 | Et Futurum 烟熏炉可处理的食物配方 | 速度和蒸汽消耗速率均加倍 |
 
-Blasting and Smoking only process items in their respective recipe maps; they do not automatically fall back to Furnace mode. If an item with a furnace recipe does not process, check the selected mode first. Being a metal or food item alone does not guarantee a recipe in the specialized mode.
+高炉和烟熏模式只会处理各自配方类型中的物品，不会自动回退到熔炉模式。若有熔炉配方的物品无法加工，请先检查所选模式。物品仅仅属于金属或食物，并不保证它有对应特殊模式的配方。
 
 > [!NOTE]
-> Blasting here corresponds to the Blast Furnace processing introduced in Minecraft 1.14+. It cannot replace an [Electric Blast Furnace](./electric_blast_furnace.md) or Bricked Blast Furnace. It has no heat or Heating Coil mechanic, and selecting Blasting does not enable Electric Blast Furnace recipes.
+> 此处的高炉对应 Minecraft 1.14+ 引入的高炉加工。它不能替代[工业高炉](./electric_blast_furnace.md)或砖高炉。它没有热量或加热线圈机制，选择高炉模式也不会启用工业高炉配方。
 
-### First Startup
+### 首次启动
 
-1. Check the structure and confirm that the Steam Hatch, steam Input Bus, and steam Output Bus are installed.
-2. Connect the steam pipe to the Steam Hatch and confirm that steam actually enters it.
-3. Select the appropriate mode for the input and leave space in the Output Bus.
-4. Enable the machine and supply a small amount of ingredients. Watch the products and stored steam.
-5. Confirm a continuous steam supply before increasing ingredient input and parallel count.
+1. 检查结构，并确认已安装蒸汽仓、蒸汽输入总线和蒸汽输出总线。
+2. 将蒸汽管道接到蒸汽仓，并确认蒸汽确实进入其中。
+3. 为输入选择合适模式，并在输出总线中留出空间。
+4. 启用机器并少量供应原料。观察产物和储存的蒸汽。
+5. 确认蒸汽持续供应后，再增加原料输入和并行数。
 
-## Steam Supply and Throughput
+## 蒸汽供应与吞吐量
 
-The Steam Hearth processes up to eight copies of **the same recipe** at once. It does not process eight different items together in one cycle. Actual parallels also depend on ingredient quantities, output space, and the parallel limit set in the GUI.
+蒸汽壁炉最多可同时处理八份**相同配方**。它不能在一轮中同时处理八种不同物品。实际并行数还取决于原料数量、输出空间以及 GUI 中设置的并行上限。
 
-In Furnace mode, the basic structure runs at 125% of a singleblock bronze Steam Furnace's speed, taking approximately 80% of its time. Its steam consumption rate per parallel is 62.5% of that furnace's rate. Combining these bonuses gives approximately 50% of the total steam consumption for the same item. Running multiple parallels still increases the machine's instantaneous steam demand.
+熔炉模式下，基础结构的速度是单方块青铜蒸汽熔炉的 125%，耗时约为其 80%。每个并行的蒸汽消耗速率为该熔炉的 62.5%。两种加成合并后，同一物品的蒸汽总消耗约为 50%。但运行多个并行仍会提高机器的即时蒸汽需求。
 
-The following comparison uses **the basic structure in Furnace mode, with the same parallel count**, as the baseline:
+以下比较以**熔炉模式下的基础结构、并行数相同**为基准：
 
-| Structure and mode | Processing speed | Steam consumption rate |
+| 结构与模式 | 加工速度 | 蒸汽消耗速率 |
 | --- | --- | --- |
-| Basic structure, Furnace | 1× | 1× |
-| Basic structure, Blasting or Smoking | 2× | 2× |
-| High pressure structure, Furnace | 2× | 2× |
-| High pressure structure, Blasting or Smoking | 4× | 4× |
+| 基础结构，熔炉模式 | 1 倍 | 1 倍 |
+| 基础结构，高炉或烟熏模式 | 2 倍 | 2 倍 |
+| 高压结构，熔炉模式 | 2 倍 | 2 倍 |
+| 高压结构，高炉或烟熏模式 | 4 倍 | 4 倍 |
 
-The mode and high pressure bonuses stack. Both increase speed and steam consumption rate together, mainly improving throughput. They do not halve the total steam consumed per item again. Actual time and consumption are also affected by tick and integer rounding.
+模式和高压加成会叠加。两者都会同时提升速度和蒸汽消耗速率，主要改善吞吐量，但不会再次降低每件物品的蒸汽总消耗。实际时间和消耗还会受到游戏刻和整数取整影响。
 
-Size boilers and pipes for **the steam consumption rate during operation**, rather than relying only on the Steam Hatch's 64,000 L capacity.
+锅炉和管道应按**运行期间的蒸汽消耗速率**配置，不要只依赖蒸汽仓的 64,000 L 容量。
 
-Use Waila to check the operating steam consumption rate and watch whether stored steam keeps falling during continuous processing. If an interface uses L/t, multiply by 20 to obtain L/s at normal 20 TPS. Use matching units when comparing pipe throughput. If supply is insufficient, lower the parallel limit in the GUI, then expand boiler production or improve the pipes.
+使用 Waila 查看运行时蒸汽消耗速率，并观察持续加工时储存蒸汽是否不断下降。如果界面使用 L/t，正常 20 TPS 下乘以 20 即为 L/s。比较管道吞吐量时请使用相同单位。供应不足时，先在 GUI 中降低并行上限，再扩大锅炉产量或改进管道。
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation without returning consumed ingredients. Before upgrading to high pressure or selecting a faster mode, check steam production and pipe throughput.
+> 加工期间蒸汽耗尽会中止当前操作，已消耗的原料不会返还。升级高压结构或选择更快模式前，请检查蒸汽产量和管道吞吐量。
 
-## Upgrading to High Pressure
+## 升级为高压结构
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31087" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. However, **all Bronze Plated Bricks, Bronze Gear Boxes, Bronze Pipe Casings, and Bronze Fireboxes must be replaced with their steel counterparts in the table**. Replacing only the casings or Fireboxes, or mixing components from both tiers, fails the tier check.
+高压结构保持相同尺寸、仓位和控制器。不过，**所有镀铜砖块、青铜齿轮箱机械方块、青铜管道方块和青铜燃烧室都必须替换为表中的对应钢制部件**。只替换外壳或炉膛，或混用两个等级的部件，都会导致等级检查失败。
 
-Stop processing and ingredient input before upgrading. After replacing the components, check the structure again and confirm that the machine reports the high pressure tier before restoring steam and production.
+升级前请停止加工和原料输入。替换部件后重新检查结构，并确认机器显示为高压等级，再恢复蒸汽和生产。
 
-High pressure is a structure tier, not a separate steam fluid. The machine still uses ordinary steam, and the existing Steam Hatch and steam buses can be reused. No electric Energy Hatch is needed. The upgrade doubles speed and steam consumption rate, while the maximum remains eight parallels.
+高压是结构等级，不是另一种蒸汽流体。机器仍使用普通蒸汽，现有蒸汽仓和蒸汽总线均可保留。无需电力能源仓。升级会使速度和蒸汽消耗速率加倍，最大并行数仍为八。
 
-## Automation and Sorting
+## 自动化与分类
 
-Steam Input and Output Buses each have four item slots. They do not automatically pull ingredients from adjacent chests or push products into them. Simply placing a chest next to a bus does not automate transport.
+蒸汽输入总线和输出总线各有四个物品槽。它们不会自动从相邻箱子抽取原料，也不会将产物推入箱子。仅将箱子放在总线旁不能自动传输。
 
-- **Input:** Use hoppers, GT Item Pipes, Conveyor Modules, Item Conduits, or similar equipment to insert items through the Input Bus's front face.
-- **Output:** Actively extract from the Output Bus's front face with pipes, conduits, or Conveyor Modules, then send the products to storage or the next machine.
-- **Steam:** Use fluid pipes to deliver boiler output to the Steam Hatch. Item buses cannot receive steam.
-- **Sorting:** Filter the transport equipment for the intended ingredients so items that the current mode cannot process do not fill the input slots.
+- **输入：**使用漏斗、GT 物品管道、传送带、物品导管等设备，从输入总线正面插入物品。
+- **输出：**使用管道、导管或传送带从输出总线正面主动提取，再将产物送至存储处或下一台机器。
+- **蒸汽：**使用流体管道将锅炉产物送至蒸汽仓。物品总线无法接收蒸汽。
+- **分类：**为传输设备设置所需原料过滤器，避免当前模式无法处理的物品占满输入槽。
 
-If you frequently need to process metals, food, and other materials at the same time, use separate machines or switch modes when changing ingredients. More Input Buses increase the item buffer but do not raise the parallel limit. More Output Buses can reduce output blockages.
+如果经常需要同时处理金属、食物和其他材料，请使用不同机器，或在更换原料时切换模式。增加输入总线可扩大物品缓冲，但不会提高并行上限。增加输出总线可减少产物堵塞。
 
-## Troubleshooting
+## 故障排除
 
-| Symptom | What to check |
+| 症状 | 检查事项 |
 | --- | --- |
-| Incomplete structure | Controller at the front center of the second layer; correct positions for four Gear Boxes, four Pipe Casings, and three Fireboxes |
-| Structure tier mismatch | Casings, Gear Boxes, Pipe Casings, and Fireboxes must all be of the same tier; check for bronze components left after upgrading |
-| Missing Steam Hatch or bus | Exactly one Steam Hatch and at least one steam Input and Output Bus; check for incorrect hatch types |
-| Structure fails after adding buses | At least two actual casings must remain; buses cannot replace Gear Boxes, Pipe Casings, or Fireboxes |
-| Ingredients present but no recipe found | Correct mode, a valid recipe for the item in that mode, and enough output space |
-| Stops after starting despite stored steam | Sufficient sustained supply, pipe restrictions or shared supply, and whether the parallel count, high pressure tier, or faster mode exceeds boiler capacity |
-| Chest beside a bus does not transfer items | Steam buses do not automatically pull or push items; check active transport equipment, connection faces, directions, and filters |
-| Fewer than eight recipes processed | Enough ingredients for the same recipe, the GUI parallel limit, and output space for all products |
-| Steam consumption increases after upgrading | High pressure doubles consumption rate, and Blasting or Smoking can double it again; increase the steam supply accordingly |
+| 结构不完整 | 控制器位于第二层前方中央；四个齿轮箱、四个管道方块和三个炉膛的位置正确 |
+| 结构等级不一致 | 外壳、齿轮箱、管道方块和炉膛必须全部同等级；升级后检查是否遗留青铜部件 |
+| 缺少蒸汽仓或总线 | 恰好一个蒸汽仓，且至少有一个蒸汽输入总线和输出总线；检查仓类型是否错误 |
+| 添加总线后结构无法成型 | 实际外壳至少保留两个；总线不能替代齿轮箱、管道方块或炉膛 |
+| 有原料但找不到配方 | 模式是否正确，该模式是否有该物品的有效配方，以及输出空间是否充足 |
+| 有存储蒸汽但启动后停止 | 检查持续供应是否充足、管道受限或共用情况，以及并行数、高压等级或更快模式是否超过锅炉产能 |
+| 总线旁的箱子无法传输物品 | 蒸汽总线不会自动提取或推送物品；检查主动传输设备、连接面、方向和过滤器 |
+| 每次处理不足八份配方 | 检查相同配方的原料是否充足、GUI 并行上限及输出空间是否足以容纳全部产物 |
+| 升级后蒸汽消耗上升 | 高压会使消耗速率加倍，高炉或烟熏模式还可能再次加倍；相应增加蒸汽供应 |
 
-See [Multiblock Machines](./multiblocks_index.md) for general structure checks and tool controls.
+一般结构检查和工具操作请参见[多方块机器](./multiblocks_index.md)。
 
-## References
+## 参考资料
 
-- [GTNH Wiki: Steam Hearth](https://wiki.gtnewhorizons.com/wiki/Steam_Hearth)
+- [GTNH Wiki：蒸汽壁炉](https://wiki.gtnewhorizons.com/wiki/Steam_Hearth)

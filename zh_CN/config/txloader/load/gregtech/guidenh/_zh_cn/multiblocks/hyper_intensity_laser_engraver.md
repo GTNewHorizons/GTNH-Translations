@@ -9,4 +9,4 @@ navigation:
   icon: gregtech:gt.blockmachines:3004
   position: -5001
 ---
-# Hyper Intensity Laser Engraver
+# 高强度激光蚀刻机

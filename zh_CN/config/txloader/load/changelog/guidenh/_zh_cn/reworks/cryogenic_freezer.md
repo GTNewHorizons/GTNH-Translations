@@ -26,7 +26,7 @@ date: 2026-05-27
 > - 更多并行：8 -> 16
 
 ## 建造
-<Color id="GREEN">凛冰冷冻机</Color>没有任何分级部件。总线/仓可以替换结构中任意位置的机械方块。<Color id="RED">多A能源仓与激光能源仓</Color>不受支持，但可以放置多个普通能源仓用于超频。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
+<Color id="GREEN">凛冰冷冻机</Color>没有任何任意等级部件。总线/仓可以替换结构中任意位置的机械方块。<Color id="RED">多A能源仓与激光能源仓</Color>不受支持，但可以放置多个普通能源仓用于超频。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
 
 ### 所需材料：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15565"/><ItemImage id="gregtech:gt.blockmachines:15565"/>
@@ -41,8 +41,8 @@ date: 2026-05-27
 - 0+ 输出总线（任意外壳）<ItemImage id="gregtech:gt.blockmachines:80" />
 - 0+ 输出仓（任意外壳）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### 共墙
-<Color id="GREEN">凛冰冷冻机</Color>的每一面均可与其他机器共墙，以节省机械方块、框架箱和总线/仓。没有任何配方的耗电超过1A，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
+### 共用墙壁
+<Color id="GREEN">凛冰冷冻机</Color>的每一面均可与其他机器共用墙壁，以节省机械方块、框架箱和总线/仓。没有任何配方的耗电超过1A，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
 ## 用途
 <Color id="GREEN">凛冰冷冻机</Color>是真空冷冻机的直接升级，因为它以300%的速度运行，只消耗正常所需90%的EU/t，并提供固定的16倍并行。

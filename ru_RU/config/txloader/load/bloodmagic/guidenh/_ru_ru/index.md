@@ -7,4 +7,4 @@ navigation:
 
 # Blood Magic
 
-Guides for Blood Magic.
+Руководства по моду Blood Magic.

@@ -10,4 +10,4 @@ navigation:
   icon: gregtech:gt.blockmachines:15331
   position: -8001
 ---
-# Research Station
+# 研究站

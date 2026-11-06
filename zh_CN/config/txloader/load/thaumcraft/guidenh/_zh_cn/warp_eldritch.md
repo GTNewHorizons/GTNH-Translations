@@ -15,7 +15,7 @@ navigation:
   position: 30
 ---
 
-# Warp and Eldritch Knowledge
+# 扭曲与邪术知识
 
 <Column width="600" align="center" gap="8">
 
@@ -23,138 +23,126 @@ navigation:
   <FloatingImage src="/assets/images/thaumcraft_logo.png" x="50" y="132" width="2078" height="445" displayWidth="300" wrap="inline" title="Thaumcraft" />
 </Column>
 
-Eldritch knowledge explores the world's deepest secrets, but often leads its students astray.<br>
-Delving into forbidden research gradually builds up <Color color="#B7A0D6">Warp</Color>.<br>
-The whispers, hallucinations, and physical changes it brings can also lead to discoveries in <Color color="#B7A0D6">Eldritch Studies</Color>.
+邪术知识探究世界最深层的秘密，却常会引人误入歧途。<br>深入禁忌研究会逐渐累积<Color color="#B7A0D6">扭曲</Color>。<br>它带来的低语、幻觉和身体变化也可能引导你发现<Color color="#B7A0D6">邪术研究</Color>。
 
-Eldritch Studies covers void metal, primal energy, and exploration of the Outer Lands, connecting to the Advanced Alchemical Furnace, the Staff Core of the Primal, and later KAMI research.
-GTNH's **Warp Theory** expands Warp events and provides ways to deal with permanent Warp.
+邪术学研究涉及虚空金属、元始能量和外域探索，并与荒古炼金炉、元始杖芯以及后续 KAMI 研究相关联。GTNH 的**神秘扭曲学**扩展了扭曲事件，并提供处理永久扭曲的方法。
 
-## Sources and Types of Warp
+## 扭曲来源与类型
 
-Research marked with purple forbidden knowledge warnings in the Thaumonomicon is a major source of Warp.<br>
-Crafting certain items, eating some foods, and using magical tools can also add Warp; look for the relevant markings in research entries and item tooltips.
+魔导手册中带有紫色禁忌知识警告的研究是扭曲的重要来源。<br>制作某些物品、食用部分食物和使用魔法工具也可能增加扭曲；请留意研究条目和物品tooltips 中的相关标记。
 
-| Type | Properties | Treatment |
+| 类型 | 属性 | 处理方式 |
 | --- | --- | --- |
-| **Temporary Warp** | Gradually fades during Warp checks | Wait, or remove it with items such as Sanitizing Soap |
-| **Sticky Warp** | Does not fade naturally; also called normal Warp | Sanitizing Soap has a chance to reduce it; cleansing items from addons can also remove it |
-| **Permanent Warp** | Ordinary Sanitizing Soap cannot remove it | In NH, items such as Pure Tears and Purification Talismans can remove it |
+| **临时扭曲** | 扭曲检查期间会逐渐消退 | 等待，或使用祛邪肥皂等物品清除 |
+| **黏性扭曲** | 不会自然消退；也称普通扭曲 | 祛邪肥皂有几率降低扭曲；附属模组的净化物品也可以清除 |
+| **永久扭曲** | 普通祛邪肥皂无法清除 | 在 NH 中可使用纯净泪水、净化护身符等物品清除 |
 
-Equipment with the **Warping** property also adds Warp to event calculations.<br>
-This contribution comes from items currently worn or held and disappears when they are unequipped; cleansing items do not remove the property from the equipment itself.
+带有**扭曲**属性的装备也会为事件计算增加扭曲。<br>此影响来自当前穿戴或手持的物品，卸下后便会消失；净化物品无法移除装备本身的该属性。
 
-**Checking your Warp**
+**查看自身扭曲**
 
-GTNH's IGI overlay can display Warp directly. You can also check it with the following items:
+GTNH 的 IGI 覆盖界面可以直接显示扭曲。也可使用以下物品查看：
 
-- <ItemLink id="WarpTheory:item.warptheory.paper" showIcon="left" />: Shows the exact amounts of permanent, sticky, and temporary Warp in chat when used. Color changes, burning, and other reactions also indicate the danger level.
-- <ItemLink id="Thaumcraft:ItemSanityChecker" showIcon="left" />: Displays a Warp bar while held. Dark purple represents permanent Warp, light purple represents sticky Warp, and pink represents temporary Warp. The bar is full at a combined total of 100; use litmus paper to check higher values.
+- <ItemLink id="WarpTheory:item.warptheory.paper" showIcon="left" />：使用后会在聊天栏显示永久、黏性和临时扭曲的精确数值。颜色变化、燃烧和其他反应也能表示危险等级。
+- <ItemLink id="Thaumcraft:ItemSanityChecker" showIcon="left" />：手持时显示扭曲条。深紫色代表永久扭曲，浅紫色代表黏性扭曲，粉色代表临时扭曲。总值达到 100 时扭曲条会满；更高数值可用石蕊试纸检查。
 
-## Warp Events and the Timer
+## 扭曲事件与计时器
 
-Thaumcraft's own Warp events include Unnatural Hunger, Sun Scorned, blurred vision, increased Vis costs, and Eldritch Guardians appearing in dense fog. Some whispers also grant research points or new discoveries.
+神秘时代本身的扭曲事件包括异食癖、烈日灼身、视线模糊、魔力消耗增加，以及浓雾中出现邪术守卫。有些低语还会给予研究点数或新的发现。
 
-- **Vis drained from your wand**, affecting subsequent crafting and combat.
-- **Inventory items swapped or shuffled**, along with random teleportation and unusual movement.
-- **Poison, Wither, Blindness**, and other effects, or the appearance of Firebats and hostile creatures.
-- Events that cause lasting damage, such as **countdown explosions, nearby block decay, and spawning a Wither**.
+- **法杖中的魔力被抽走**，影响后续合成和战斗。
+- **物品栏物品互换或打乱**，并可能伴随随机传送和异常移动。
+- **中毒、凋零、失明**等状态效果，或出现火焰蝙蝠和敌对生物。
+- 造成持续伤害的事件，例如**倒计时爆炸、附近方块衰败和生成凋灵**。
 
-Events are triggered by random checks. The available events also depend on Warp strength, the timer, and configuration.<br>
-The table below lists some event thresholds in NH's default configuration. The **effective strength** used to select an event depends on current Warp and the timer, and equipment such as faceplates can reduce it.
+事件由随机检查触发。可触发的事件还取决于扭曲强度、计时器和配置。<br>下表列出 NH 默认配置中的部分事件阈值。用于选择事件的**有效强度**取决于当前扭曲和计时器；面甲等装备可降低该强度。
 
-| Effective Strength Threshold | Additional Risk |
+| 有效强度阈值 | 额外风险 |
 | --- | --- |
-| 50 | Draining Vis from your wand |
-| 125 | Swapping inventory items |
-| 130 | Random teleportation |
-| 150 | Shuffling inventory items |
-| 160 | Countdown explosion |
-| 180 | Nearby block decay |
-| 200 | Spawning a Wither |
+| 50 | 抽走法杖中的魔力 |
+| 125 | 交换物品栏物品 |
+| 130 | 随机传送 |
+| 150 | 打乱物品栏物品 |
+| 160 | 倒计时爆炸 |
+| 180 | 附近方块衰败 |
+| 200 | 生成凋灵 |
 
-Block decay affects blocks, plants, and leaves that the event can transform; countdown explosions and Withers can cause further damage to nearby facilities.<br>
-Where you stay while accumulating Warp also determines how much these events can damage.
+方块衰败会影响事件能够转化的方块、植物和树叶；倒计时爆炸与凋灵则可能进一步破坏附近设施。<br>在扭曲累积期间所处的位置，也会影响这些事件能造成多大损害。
 
-**Event decay in 2.9**
+**2.9 版本中的事件衰减**
 
-After you stop gaining new Warp, events gradually weaken; ordinary random events stop once the timer runs out.<br>
-**Gaining Warp again reactivates the timer.** Forbidden research, related crafting, and other sources can all end this quiet period.<br>
-Equipment with the Warping property affects event strength but **does not reset the timer**. Existing sticky and permanent Warp remains after events stop.
+停止获得新扭曲后，事件会逐渐减弱；计时器结束后，普通随机事件便会停止。<br>**再次获得扭曲会重新启动计时器。**禁忌研究、相关合成及其他来源都可能结束这段平静期。<br>带有扭曲属性的装备会影响事件强度，但**不会重置计时器**。事件停止后，已有的黏性和永久扭曲仍会保留。
 
 > [!WARNING]
-> High Warp events can cause explosions, damage terrain, or spawn a Wither near the player. Stay away from important machines, storage, and other players' facilities when gaining large amounts of Warp, waiting for Eldritch discoveries, or using cleansing items with backlash.
+> 高扭曲事件可能引发爆炸、破坏地形，或在玩家附近生成凋灵。大量获得扭曲、等待邪术发现或使用可能引发反噬的净化物品时，请远离重要机器、储存设施和其他玩家的设施。
 
-## Warp Ward and Symptom Relief
+## 扭曲守护与症状缓解
 
-<Color color="#B7A0D6">Warp Ward</Color> prevents ordinary Warp events for its duration. Your existing Warp remains, making it useful for suppressing events while crafting, exploring, or going about daily activities.
+<Color color="#B7A0D6">扭曲守护</Color>会在持续时间内阻止普通扭曲事件。已有扭曲仍会保留，因此适合在合成、探索或日常活动期间压制事件。
 
-**Purifying Bath Salts and the Arcane Spa**
+**净化浴盐与奥术浴场**
 
-Throwing <ItemLink id="Thaumcraft:ItemBathSalts" showIcon="left" /> into water creates Purifying Fluid. Bathing in it grants Warp Ward; higher permanent Warp shortens the protection.
+将<ItemLink id="Thaumcraft:ItemBathSalts" showIcon="left" />投入水中会生成净化之水。浸泡其中可获得扭曲守护；永久扭曲越高，保护持续时间越短。
 
-An <ItemLink id="Thaumcraft:blockStoneDevice:12" showIcon="left" /> uses water and Purifying Bath Salts to replenish Purifying Fluid in the area above it, providing a convenient way to renew protection at your base.
+<ItemLink id="Thaumcraft:blockStoneDevice:12" showIcon="left" />使用水和净化浴盐补充上方区域的净化之水，可方便地在基地持续获得防护。
 
-Botania's <ItemLink id='Botania:brewFlask:0:{brewKey:"warpWard"}' showIcon="left" /> also provides Warp Ward. Each dose from a regular flask grants 10 minutes of protection.
+植物魔法的<ItemLink id='Botania:brewFlask:0:{brewKey:"warpWard"}' showIcon="left" />也能提供扭曲守护。普通烧瓶中的每份药剂可提供 10 分钟防护。
 
-An equipped <ItemLink id="WarpTheory:item.warptheory.portableshower" showIcon="left" /> reapplies Warp Ward when it expires, making it useful when regularly wearing equipment with the Warping property.
+装备<ItemLink id="WarpTheory:item.warptheory.portableshower" showIcon="left" />后，扭曲守护结束时会自动重新施加效果，因此经常穿戴带扭曲属性装备时很有用。
 
-<ItemLink id="thaumicbases:rosehipSyrup" showIcon="left" /> reduces the level of effects such as blurred vision, Unnatural Hunger, and Vis Exhaustion, removing them when they are already at the lowest level. It also treats some ordinary negative potion effects.
+<ItemLink id="thaumicbases:rosehipSyrup" showIcon="left" />会降低视线模糊、异食癖和魔力枯竭等效果的等级；若这些效果已降至最低等级，则会将其移除。它也能治疗一些普通负面药水效果。
 
-## Reducing and Removing Warp
+## 降低与清除扭曲
 
-**Sanitizing Soap**
+**祛邪肥皂**
 
-Finishing the use animation of <ItemLink id="Thaumcraft:ItemSanitySoap" showIcon="left" /> removes all temporary Warp and has a chance to reduce sticky Warp by 1.
+完成<ItemLink id="Thaumcraft:ItemSanitySoap" showIcon="left" />的使用动作后，可移除所有临时扭曲，并有几率降低 1 点黏性扭曲。
 
-- The base chance is **33%**.
-- Warp Ward adds **25 percentage points**.
-- Standing in Purifying Fluid adds another **25 percentage points**, for **83%** when both conditions are met.
+- 基础几率为 **33%**。
+- 扭曲守护增加 **25 个百分点**。
+- 站在净化之水中会再增加 **25 个百分点**；同时满足两项条件时几率为 **83%**。
 
-Keep using the soap until the animation finishes. Using it in Purifying Fluid saves materials when removing large amounts of sticky Warp.
+持续使用净化皂，直至动作完成。在净化之水中使用可节省清除大量黏性扭曲所需的材料。
 
-**Thaumic Insurgence soaps**
+**神秘革命模组的肥皂**
 
-Thaumic Insurgence provides additional cleansing options:
+神秘革命模组还提供额外的净化方式：
 
-- <ItemLink id="thaumicinsurgence:item.ItemSanitySoapAlpha" showIcon="left" /> (α soap): Also removes temporary Warp and has a chance to reduce sticky Warp by 1, with a higher base chance of 50%. Warp Ward and Purifying Fluid raise this to 100%.
+- <ItemLink id="thaumicinsurgence:item.ItemSanitySoapAlpha" showIcon="left" />（α 肥皂）：也可清除临时扭曲，并有几率降低 1 点黏性扭曲，基础几率更高，为 50%。扭曲守护和净化之水可将几率提升至 100%。
 
-- <ItemLink id="thaumicinsurgence:item.ItemSanitySoapBeta" showIcon="left" />: On success, converts **1 permanent Warp into 2 sticky Warp**, which can then be removed with ordinary or α soap. The base chance is 10%, with Warp Ward and Purifying Fluid each adding 15 percentage points. Failure adds 2 temporary Warp.
+- <ItemLink id="thaumicinsurgence:item.ItemSanitySoapBeta" showIcon="left" />：成功时会将**1 点永久扭曲转化为 2 点黏性扭曲**，之后可用普通或 α 肥皂清除。基础几率为 10%，扭曲守护和净化之水各增加 15 个百分点。失败会增加 2 点临时扭曲。
 
-**Impure Tear**
+**污秽泪水**
 
-<ItemLink id="WarpTheory:item.warptheory.cleanserminor" showIcon="left" /> removes 5 Warp when your combined permanent, sticky, and temporary Warp is **at least 50**.<br>
-It removes temporary Warp first, then sticky Warp, then permanent Warp. It can lower high Warp, but cannot continue cleansing once the total falls below the threshold. Its research requires Eldritch Epiphany, Arcane Litmus Paper, and other prerequisites.
+<ItemLink id="WarpTheory:item.warptheory.cleanserminor" showIcon="left" />会在永久、黏性和临时扭曲总和**至少为 50**时移除 5 点扭曲。<br>它会先移除临时扭曲，再移除黏性扭曲，最后移除永久扭曲。它能降低高扭曲，但总值低于阈值后便无法继续净化。其研究需要邪术揭谛、奥术石蕊试纸和其他前置条件。
 
-**Pure Tear**
+**纯净泪水**
 
-<ItemLink id="WarpTheory:item.warptheory.cleanser" showIcon="left" /> removes all accumulated temporary, sticky, and permanent Warp at once.<br>
-Its powerful effect places its research behind Eldritch Revelation, Ichor, and other prerequisites, with demanding material requirements.
+<ItemLink id="WarpTheory:item.warptheory.cleanser" showIcon="left" />会一次性移除累积的所有临时、黏性和永久扭曲。<br>由于效果强大，其研究被置于邪术启示录、灵液等研究之后，且材料要求很高。
 
-The **Purge Your Warp** quest offers another way to obtain a Pure Tear. Check its required submissions and rewards even if you have not completed the corresponding research.
+任务“净化你的扭曲”提供另一种获得纯净泪水的方法。即使尚未完成对应研究，也请检查其提交要求和奖励。
 
 > [!WARNING]
-> A Pure Tear queues a series of backlash events based on your Warp before cleansing. **Warp Ward cannot prevent this backlash.** After using it, stay away from your base until the concentrated events have finished.
+> 纯净泪水会根据净化前的扭曲值排入一系列反噬事件。**扭曲守护无法阻止这些反噬。**使用后请远离基地，直到密集事件结束。
 
-**Purification Talisman**
+**净化护身符**
 
-An equipped <ItemLink id="WarpTheory:item.warptheory.amulet" showIcon="left" /> periodically attempts to reduce Warp, gradually removing permanent Warp as well. It is suitable for ongoing cleansing.
+装备<ItemLink id="WarpTheory:item.warptheory.amulet" showIcon="left" />后，它会周期性尝试降低扭曲，也会逐渐清除永久扭曲。适合持续净化。
 
-The cleansing process still queues ordinary Warp events. Warp Ward delays these events, which may resume after the protection ends; choose a suitable place to stay while cleansing.
+净化过程仍会排入普通扭曲事件。扭曲守护会推迟这些事件；保护结束后，事件可能恢复。净化时请选择合适的停留地点。
 
-## Discovering Eldritch Research
+## 发现邪术学研究
 
-The two Eldritch discoveries come from random checks during Thaumcraft Warp events. They use the **sum of the player's permanent and sticky Warp**:
+两项邪术发现都通过神秘时代扭曲事件期间的随机检查获得。其判定使用**玩家永久扭曲与黏性扭曲之和**：
 
-- **Eldritch Epiphany**: Can unlock when the total is **greater than 25**, revealing the Eldritch tab in the Thaumonomicon and opening research paths such as void metal and the Sanity Checker.
-- **Eldritch Revelation**: Can unlock when the total is **greater than 50**. It is a prerequisite for Opening the Eye and some advanced Eldritch research.
+- **邪术揭谛**：总值**大于 25**时有机会解锁，在魔导手册中显示邪术学页签，并开启虚空金属、神智检测仪等研究路线。
+- **邪术启示录**：总值**大于 50**时有机会解锁，是开眼仪式和部分高级邪术研究的前置条件。
 
-Temporary Warp and equipment Warp do not count toward these thresholds. Reaching the required amount still leaves you waiting for a random check, so the time required varies.
+临时扭曲和装备扭曲不计入这些阈值。达到要求后仍需等待随机检查，因此所需时间各不相同。
 
-**Warp Ward prevents this check.** If you regularly wear a Portable Shower or maintain another source of protection, remove it and wait in an area prepared for Warp events.<br>
-You can reduce your Warp after receiving the discoveries; unlocked research remains available.
+**扭曲守护会阻止该检查。**若你经常穿着便携式沐浴器或维持其他防护来源，请将其卸下，并在已为扭曲事件做好准备的区域等待。<br>获得发现后可以降低扭曲；已解锁的研究仍然可用。
 
-## Crimson Cult and Opening the Eye
+## 血腥崇拜与开眼仪式
 
 <Column width="240" align="right" wrap="square" alignItems="center" gap="4">
 
@@ -165,7 +153,7 @@ You can reduce your Warp after receiving the discoveries; unlocked research rema
 
 <Column width="120" align="center" gap="0">
 
-Ordinary Eldritch Obelisk
+普通邪术方尖碑
 
 </Column>
 
@@ -176,43 +164,38 @@ Ordinary Eldritch Obelisk
 
 <Column width="120" align="center" gap="0">
 
-Crimson Cult Obelisk
+血腥崇拜方尖碑
 
 </Column>
 
 </Column>
 
-While exploring, you may discover two kinds of Eldritch Obelisks. Crimson Clerics and Crimson Knights can be found near Crimson Cult obelisks, and defeating them can yield <ItemLink id="Thaumcraft:ItemEldritchObject:1" showIcon="left" />.<br>
+探索时，你可能会发现两种邪术方尖碑。血腥崇拜方尖碑附近会出现血腥教徒和血腥骑士，击败他们可能获得<ItemLink id="Thaumcraft:ItemEldritchObject:1" showIcon="left" />。<br>
 
-Scanning the relevant enemies helps reveal research clues. Hold the book and right-click to read it, unlocking **Crimson Cult**.<br>
-Crimson Knights fight in melee, while Crimson Clerics use ranged magic.
+扫描相关敌人有助于揭示研究线索。手持手册并右键阅读，即可解锁**血腥崇拜**。<br>血腥骑士进行近战攻击，而血腥教徒使用远程魔法。
 
-(Crimson Clerics do not attack unprovoked. Leaving some clerics alive allows Crimson Knights to keep spawning, greatly increasing your opportunities to obtain <ItemLink id="Thaumcraft:ItemEldritchObject:1" showIcon="left" />.)
+（血腥教徒不会主动攻击。留下部分血腥教徒存活，可以让血腥骑士继续生成，大幅增加获得<ItemLink id="Thaumcraft:ItemEldritchObject:1" showIcon="left" />的机会。）
 
-Eldritch Guardians may also appear around the ritual area. These sites are useful sources of Crimson Rites, Eldritch Eyes, and related scans.
+仪式区域附近也可能出现邪术守卫。这些地点是获取血腥仪式、邪术之眼及相关扫描线索的好来源。
 
-After completing **Crimson Cult** and **Eldritch Revelation**, you can research **Opening the Eye** to gain access to the Outer Lands.
+完成**血腥崇拜**和**邪术启示录**后，即可研究**开眼仪式**，进入外域。
 
-The ritual requires an intact naturally generated Eldritch Obelisk of either kind, with its Eldritch Altar at the base and Sinister Node above preserved.<br>
-Insert **4 <ItemLink id="Thaumcraft:ItemEldritchObject:0" showIcon="left" />** into the altar, then right-click it with a wand to open an Eldritch Portal.<br>
-The ritual has a base requirement of **100 Vis of each of the six primal aspects**. **Arcane crafting Vis discounts apply.**
+仪式要求保留一座完整的自然生成邪术方尖碑（任一类型），包括底部的邪术祭坛和上方的凶险节点。<br>向祭坛放入 **4 个<ItemLink id="Thaumcraft:ItemEldritchObject:0" showIcon="left" />**，再用法杖右键点击以开启邪术传送门。<br>仪式基础需求为六种元始要素各 **100 点魔力**。**奥术合成魔力减免有效。**
 
-Eldritch Eyes can drop from Eldritch Guardians or be made through infusion after completing Opening the Eye research.<br>
-The node above the altar participates in opening the portal; bottling or converting it affects the ritual.
+完成开眼仪式研究后，可从邪术守卫身上获得邪术之眼，也可通过注魔合成。<br>祭坛上方的节点会参与开启传送门；将其装罐或转换会影响仪式。
 
-Gadomancy provides the **Gate of the Voidwalkers**, an artificial entrance built using a Node Manipulator and a Redirection Focus.<br>
-It also requires Eldritch Eyes and wand Vis. The corresponding research shows its structure.
+魔能学提供**虚空漫步者之门**，可使用节点操纵仪和重定向核心搭建人造入口。<br>它也需要邪术之眼和法杖魔力。相应研究会展示结构。
 
 > [!WARNING]
-> The Gate of the Voidwalkers allows only one entity to pass through, after which the entrance disappears. Prepare another means of returning, or be ready to complete the Outer Lands challenge before leaving.
+> 虚空漫步者之门只允许一个实体通过，随后入口便会消失。请准备其他返回方式，或做好完成外域挑战后才能离开的准备。
 
-## Exploring the Outer Lands
+## 探索外域
 
-<Color color="#B7A0D6">The Outer Lands</Color> is a separate maze built from Ancient Stone. Corridors connect rooms containing enemies, Ancient Urns, research clues, and boss areas. An expedition usually involves finding a key room, obtaining a Runed Tablet, opening a boss room, and returning with a Primordial Pearl.
+<Color color="#B7A0D6">外域</Color>是一座由荒古石头建成的独立迷宫。走廊连接着包含敌人、远古瓮、研究线索和首领区域的房间。一次远征通常需要找到钥匙房间、取得符文石板、开启首领房间，并带回元始珍珠。
 
-Entering through an Eldritch Portal grants **The Outer Lands** research. Special blocks and glyphs reveal further research clues; obtaining a pearl opens additional Eldritch and addon research paths in the Thaumonomicon.
+通过邪术传送门进入后，会获得“外域”研究。特殊方块和符文会揭示更多研究线索；取得珍珠后，魔导手册中还会开启其他邪术和附属模组研究路线。
 
-**The maze and research clues**
+**迷宫与研究线索**
 
 <Column width="240" align="right" wrap="square" alignItems="center" gap="4">
 
@@ -223,34 +206,32 @@ Entering through an Eldritch Portal grants **The Outer Lands** research. Special
 
 <Column width="120" align="center" gap="0">
 
-Key Room
+钥匙房间
 
 </Column>
 
 </Column>
 
-- <ItemLink id="Thaumcraft:blockEldritch:5" showIcon="left" /> and <ItemLink id="Thaumcraft:blockCosmeticSolid:11" showIcon="left" />: Scan these after entering the Outer Lands to discover **Revelations in the Outer Lands** and learn more about the maze.
-- **Libraries and other special rooms**: Their layouts differ from ordinary corridors and contain special blocks and loot related to research.
-- **Ancient Urns**: Found in corridors and rooms, they release loot when broken. Higher-quality urns may also appear around boss rooms.
-- **Key rooms**: A Runed Tablet floats above the central stone pedestal, guarded by Eldritch Guardians. These rooms are the source of naturally generated tablets.
-- **Boss room entrances**: An Ancient Locking Mechanism requires a Runed Tablet to activate.
+- <ItemLink id="Thaumcraft:blockEldritch:5" showIcon="left" />和<ItemLink id="Thaumcraft:blockCosmeticSolid:11" showIcon="left" />：进入外域后扫描它们，即可发现**外域之启示**并进一步了解迷宫。
+- **图书馆及其他特殊房间：** 布局与普通走廊不同，包含与研究有关的特殊方块和战利品。
+- **远古瓮：** 位于走廊和房间中，打碎后会释放战利品。首领房间附近也可能出现品质更高的瓮。
+- **钥匙房间：** 符文石板悬浮在中央石基座上方，由邪术守卫看守。这些房间是自然生成石板的来源。
+- **首领房间入口：** 荒古锁具需要符文石板才能启动。
 
-Enemies in the maze include Eldritch Guardians, Shambling Husks, and Eldritch Crabs. Narrow corridors affect ranged attacks and movement; dense fog, negative effects, and branching paths can also slow exploration.
+迷宫中的敌人包括邪术守卫、行尸走肉和邪术爪牙。狭窄走廊会影响远程攻击和移动；浓雾、负面效果和岔路也会拖慢探索。
 
-The Outer Lands restricts common forms of creative flight and Thaumcraft levitation, so changes in elevation along the corridors matter.<br>
-Marking the entrance, explored branches, and boss rooms helps you find your way back.
+外域会限制常见的创造模式飞行和神秘时代悬浮能力，因此走廊中的高低变化很重要。<br>标记入口、探索过的岔路和首领房间，有助于找到返回路线。
 
-## Runed Tablets and Ancient Locking Mechanisms
+## 符文石板与荒古锁具
 
-A <ItemLink id="Thaumcraft:ItemEldritchObject:2" showIcon="left" /> is the key to opening an Outer Lands boss room.<br>
-Naturally generated tablets appear at the center of dedicated key rooms. Search the maze to find one, then bring it to a boss room entrance.
+<ItemLink id="Thaumcraft:ItemEldritchObject:2" showIcon="left" />是开启外域首领房间的钥匙。<br>自然生成的石板位于专用钥匙房间中央。探索迷宫找到石板后，再将其带到首领房间入口。
 
-After completing Opening the Eye, you can research **Runed Tablet** and craft tablets through infusion. The research itself adds 5 Warp, and the recipe has an instability of **10**.
+完成开眼仪式后，可以研究**符文石板**并通过注魔合成石板。该研究本身会增加 5 点扭曲，配方的不稳定度为 **10**。
 
-The main ingredients include:
+主要原料包括：
 
-- <ItemLink id="DraconicEvolution:infoTablet" showIcon="left" /> as the central ingredient.
-- **2 Eldritch Eyes** and **4 Void Seeds**.
+- 使用<ItemLink id="DraconicEvolution:infoTablet" showIcon="left" />作为中央原料。
+- **2 个邪术之眼**和 **4 颗虚空种子**。
 - <ItemLink id="ThaumicExploration:pureZombieBrain" showIcon="left" />.
 - <ItemLink id="Automagy:crystalBrain:3" showIcon="left" />.
 
@@ -263,161 +244,147 @@ The main ingredients include:
 
 <Column width="120" align="center" gap="0">
 
-Boss Room Door
+首领房间门
 
 </Column>
 
 </Column>
 
-The essentia requirements are **128 Praecantatio, 64 Alienis, 64 Cognitio, 32 Iter, 32 Tenebrae, and 32 Vacuos**.<br>
-Crafted tablets are useful once you have the materials and essentia supply, reducing the time spent searching for a key room on each expedition.
+源质需求为 **128 Praecantatio、64 Alienis、64 Cognitio、32 Iter、32 Tenebrae 和 32 Vacuos**。<br>有了材料和源质供应后，制作石板可减少每次远征寻找钥匙房间的时间。
 
-**Use and consumption**
+**使用与消耗**
 
-Right-clicking the locking mechanism with a tablet consumes **1 tablet**. After a brief charging period, the mechanism transforms the room and creates its challenge.
+用石板右键点击锁定机关会消耗 **1 块石板**。短暂充能后，机关会改变房间并生成其中的挑战。
 
-Each mechanism can only be activated once. After obtaining more tablets, look for unopened boss rooms in new mazes.<br>
-Outer Lands challenges include an Eldritch Construct, an Eldritch Warden, the Crimson Cult, and Taint. The room type is determined by world generation.
+每个机关只能启动一次。取得更多石板后，可在新迷宫中寻找尚未开启的首领房间。<br>外域挑战包括邪术构装体、邪术守卫、血腥崇拜和腐化。房间类型由世界生成决定。
 
-## Boss Challenges in the Outer Lands
+## 外域首领挑战
 
-**Eldritch Construct**
+**邪术构装体**
 
-The construct has two combat forms. An attack that would defeat its initial body causes it to shed its head and enter a headless form, continuing the fight.<br>
-Losing its head also causes an explosion. Defeat the transformed body to obtain a Primordial Pearl.
+邪术构装体有两种战斗形态。受到足以击败初始躯体的攻击后，它会脱下头部并进入无头形态，继续战斗。<br>失去头部时还会引发爆炸。击败变形后的躯体即可获得元始珍珠。
 
-This transformation interrupts the pace of combat; watch for the explosion and subsequent attacks when fighting at close range.
+这种变形会打断战斗节奏；近距离交战时请留意爆炸和后续攻击。
 
-**Eldritch Warden**
+**邪术典狱官**
 
-The warden primarily attacks with ranged Eldritch projectiles and can apply Wither, Weakness, and other effects.<br>
-It appears with additional absorption health. Depleting this shield triggers a frenzy, briefly making it invulnerable and creating a force field.
+典狱官主要使用远程邪术弹幕攻击，并可施加凋零、虚弱等效果。<br>它会额外获得吸收生命值。护盾耗尽会触发狂暴，使其短暂无敌并生成力场。
 
-Leave enough room to dodge its projectiles and force field. Defeating the warden yields a Primordial Pearl and a Rare Treasure Bag.
+留出足够空间躲避它的弹幕和力场。击败典狱官可获得元始珍珠和稀有藏宝袋。
 
-**Crimson Cult**
+**血腥崇拜**
 
-The Crimson Portal at the center of the room continually spawns Crimson Knights and Clerics, followed by a Crimson Praetor. The praetor restores the health of nearby cultists; dealing with it first makes the remaining enemies easier to clear.
+房间中央的血腥传送门会不断生成血腥骑士和血腥教徒，随后出现血腥主教。血腥主教会恢复附近教徒的生命值；优先处理它可让剩余敌人更容易清理。
 
-The portal has strong health regeneration before the praetor appears. **The Primordial Pearl in this room drops from the Crimson Portal**, which must be defeated. The praetor also drops a Rare Treasure Bag.
+血腥主教出现之前，传送门的生命值恢复速度很快。**本房间的元始珍珠由血腥传送门掉落**，必须击败传送门才能获得。血腥主教也会掉落稀有藏宝袋。
 
-**Taint**
+**腐化**
 
-These rooms contain tainted terrain and several tentacles, including Giant Taintacles. Their attacks and the tainted environment interfere with movement, so consider your footing and attacks from other tentacles while clearing them.
+这些房间中有污秽地形和多根触须，包括巨型腐化触手。它们的攻击和污秽环境会影响移动，清理时要注意立足点以及其他触须的攻击。
 
-The last Giant Taintacle defeated drops a Primordial Pearl. Defeating just one may leave other Giant Taintacles in the room.
+击败最后一根巨型腐化触手后会掉落元始珍珠。只击败其中一根可能会留下房间内其他巨型腐化触手。
 
-Maintain Warp Ward during an Outer Lands expedition to reduce additional Warp events during combat. After completing the challenge, use the return portal to leave.
+外域远征期间保持扭曲守护，以减少战斗中额外触发的扭曲事件。完成挑战后，通过返回传送门离开。
 
-### Void Metal and Primal Energy
+### 虚空金属与元始能量
 
-**Void metal**
+**虚空金属**
 
-After Eldritch Epiphany and Thaumium research, you can research void metal. <ItemLink id="Thaumcraft:ItemResource:17" showIcon="left" /> is used to make <ItemLink id="Thaumcraft:ItemResource:16" showIcon="left" />, and is also required for Eldritch Eyes, Runed Tablets, and various addon devices.
+完成邪术揭谛和神秘锭研究后，即可研究虚空金属。<ItemLink id="Thaumcraft:ItemResource:17" showIcon="left" />它用于制作<ItemLink id="Thaumcraft:ItemResource:16" showIcon="left" />，也是邪术之眼、符文石板和各种附属设备的必需材料。
 
-Void metal opens several paths:
+虚空金属可开启多条路线：
 
-- **Void metal tools and armor**: Some tools and equipment repair their own durability and have the Warping property.
-- **Void metal wand caps**: Reduce wand Vis costs and support further wand upgrades.
-- **Advanced essentia storage**: Expands storage capacity for individual aspects, supporting larger alchemy and infusion recipes.
-- **Void Thaumaturge Robes**: Combine protection, Vis discounts, and abilities such as those of the Goggles of Revealing.
-- **Addon material paths**: Research into Shadowmetal, Shadow Fortress equipment, and Primordial equipment continues to build on void metal discoveries.
+- **虚空金属工具与盔甲：** 部分工具和装备会自行修复耐久，并具有扭曲属性。
+- **虚空金属杖端：** 降低法杖魔力消耗，并支持进一步升级法杖。
+- **高级源质储存：** 扩展单种要素的储存容量，以支持更大型的炼金和注魔配方。
+- **虚空神秘使法袍：** 结合防护、魔力减免和揭示护目镜等装备的能力。
+- **附属模组材料路线：** 暗影金属、暗影要塞装备和元始装备的研究会继续基于虚空金属发现推进。
 
-**Primal energy and the Staff Core of the Primal**
+**元始能量与元始杖芯**
 
-<ItemLink id="Thaumcraft:ItemResource:15" showIcon="left" /> is an important ingredient in Eldritch crafting, used for Eldritch Eyes, the Primal Crusher, and several advanced magical recipes.
+<ItemLink id="Thaumcraft:ItemResource:15" showIcon="left" />是邪术学合成的重要原料，可用于制作邪术之眼、元始杵和多种高级魔法配方。
 
-**Wand Focus: Primal** fires powerful orbs of primal energy that can damage the surrounding environment. Both the focus and its orbs are part of the scanning prerequisites for the Staff Core of the Primal.<br>
-The staff core builds on research into several elemental staff cores. See [Wands, Vis and Nodes](./wands_vis_nodes.md) for its capacity, charging, and prerequisites.
+**法杖核心：元始**可以发射强力元始能量球，对周围环境造成伤害。法杖核心及其能量球都是元始杖芯扫描前置条件的一部分。<br>该法杖核心基于对数种元素法杖核心的研究。关于容量、充能和前置条件，请参阅[法杖、魔力与节点](./wands_vis_nodes.md)。
 
-## Primordial Pearls and Their Research Uses
+## 元始珍珠及其研究用途
 
-A <ItemLink id="Thaumcraft:ItemEldritchObject:3" showIcon="left" /> is an important reward from the Outer Lands and a key material for developing more advanced Eldritch devices.<br>
-Scanning it reveals **Primordial Pearl** research, connecting to the Advanced Alchemical Furnace, Primal Crusher, Primordial Node Manipulation, and several addon research paths.
+<ItemLink id="Thaumcraft:ItemEldritchObject:3" showIcon="left" />是外域的重要奖励，也是开发更高级邪术设备的关键材料。<br>扫描它会揭示**元始珍珠**研究，并关联到荒古炼金炉、元始杵、元始节点操纵和数条附属模组研究路线。
 
-**Advanced Alchemical Furnace**
+**荒古炼金炉**
 
-The Advanced Alchemical Furnace increases the buffer and processing capacity of essentia extraction, using Ignis, Perditio, and Aqua Centi-Vis.<br>
-Its research also requires knowledge of Essentia Distillation and Centi-Vis power. Once the constructs and furnace are ready, it can connect to existing essentia storage and logistics to meet the demands of large infusion recipes.
+荒古炼金炉可扩大源质提取的缓冲和处理能力，使用 Ignis（火）、Perditio（混沌）和 Aqua（水）厘魔（Centi-Vis，CV）。<br>其研究还要求掌握源质蒸馏和厘魔供能。构装体和熔炉准备就绪后，可接入现有源质储存和物流系统，以满足大型注魔配方的需求。
 
-See [Alchemy and Essentia](./alchemy_essentia.md) for its components, inputs, outputs, and power supply.
+关于其组件、输入、输出和供能，请参阅[炼金与源质](./alchemy_essentia.md)。
 
-**Primal Crusher**
+**元始杵**
 
-The <ItemLink id="Thaumcraft:ItemPrimalCrusher" showIcon="left" /> combines abilities from the Shovel of the Earthmover, Pickaxe of the Core, and void metal tools. It mines earth and stone in a **3×3** area and has a chance to turn eligible ores into Native Clusters.<br>
-It repairs its own durability, making it useful for large excavations as well as combat.
+<ItemLink id="Thaumcraft:ItemPrimalCrusher" showIcon="left" />结合了后土铲、炽心镐和虚空金属工具的能力。它可在 **3×3** 区域内挖掘土和石头，并有几率将符合条件的矿石转化为原生矿簇。<br>它会自行修复耐久，适合大型挖掘和战斗。
 
-**Primordial Gauntlet and addon devices**
+**元始手套与附属设备**
 
-Witching Gadgets' <ItemLink id="WitchingGadgets:item.WG_PrimordialGlove" showIcon="left" /> holds an aura node and uses it to recharge socketed Infused Gems. Its sockets stabilize the gems, allowing their abilities to be reused after recharging.
+巫术工具的<ItemLink id="WitchingGadgets:item.WG_PrimordialGlove" showIcon="left" />可容纳灵气节点，并用其为插入的蕴魔宝石充能。插槽可稳定宝石，使其充能后能再次使用能力。
 
-Pearls are also used for advanced rings, Primordial equipment, and content from addons such as Thaumic Horizons and Tainted Magic.<br>
-These paths consume substantial amounts of essentia and advanced materials. A steady pearl supply allows you to develop production devices, tools, and protection separately.
+珍珠也用于高级戒指、元始装备，以及神秘视界、污秽魔法等附属模组内容。<br>这些路线会消耗大量源质和高级材料。稳定的珍珠供应可让你分别发展生产设备、工具和防护。
 
-### Primordial Node Manipulation
+### 元始节点操纵
 
-**Primordial Node Manipulation** research provides a way to modify ordinary aura nodes with pearls. Using a Primordial Pearl on a node consumes the pearl and changes the node's base aspect amounts, with a chance to improve its quality.
+**元始节点操纵**研究提供了使用珍珠改造普通灵气节点的方法。对节点使用元始珍珠会消耗珍珠并改变节点的基础要素数量，同时有几率改善其品质。
 
-- The base amounts of **existing primal aspects** may increase or decrease.
-- **Missing primal aspects** have a chance to be added.
-- The base amounts of **compound aspects** may decrease.
-- Nodes of **Fading, Pale, or Normal quality** have a chance to improve.
+- **已有元始要素**的基础数量可能增加或减少。
+- 有几率添加**缺失的元始要素**。
+**复合要素**的基础数量可能减少。
+**衰竭、苍白或普通品质**的节点有几率提升品质。
 
-A pearl can react with a node even before this research is completed; completing it improves the chances of some favorable changes. With an established pearl supply, it offers another way to modify nodes, taking both random outcomes and pearl costs into account.
+即使尚未完成此研究，珍珠也能与节点产生反应；完成研究后，部分有利变化的几率会提高。珍珠供应充足后，这便提供了另一种改造节点的方法，但需同时考虑随机结果和珍珠成本。
 
-See [Wands, Vis and Nodes](./wands_vis_nodes.md) for custom nodes, Node Manipulators, and Energized Nodes.
+关于自定义节点、节点操纵仪和充能节点，请参阅[法杖、魔力与节点](./wands_vis_nodes.md)。
 
-## Obtaining a Steady Supply of Primordial Pearls
+## 获取稳定的元始珍珠供应
 
-**Primordial Berry**
+**元始浆果**
 
-CropsNH's **Primordial Berry** produces pearls when harvested at maturity. Plant a Primordial Pearl in Crop Sticks as the seed to establish the first crop.
+作物 NH 的**元始浆果**成熟收割后会产出珍珠。将元始珍珠放入作物支架作为种子，即可培育第一株作物。
 
-- Primordial Berry cannot be obtained through crossbreeding, spread naturally, or be bred with other plants.
-- Improving its stats requires devices such as the **Crop Gene Extractor and Crop Synthesizer**.
-- Its preferred biome tags include **End and Magical**. At least one suitable biome tag or sufficient biome humidity is needed to prevent crop sickness.
-- It has a long growth cycle and needs a stable growing environment with suitable acceleration.
+- 元始浆果无法通过杂交获得，不会自然蔓延，也不能与其他植物杂交。
+- 提升其属性需要**作物基因提取器和作物合成器**等设备。
+- 它偏好的生物群系标签包括**末地和魔法**。至少需要一个适宜的生物群系标签或足够的生物群系湿度，才能避免作物生病。
+- 它的生长周期较长，需要稳定的生长环境和适当加速。
 
-**Reassembling pearl fragments**
+**重组珍珠碎片**
 
-GTNH also provides a <ItemLink id="dreamcraft:PrimordialPearlFragment" showIcon="left" /> route: processing a Primordial Pearl in a Forge Hammer produces **3 fragments**. The corresponding Witching Gadgets research and infusion recipe then turn each fragment back into a pearl.
+GTNH 还提供<ItemLink id="dreamcraft:PrimordialPearlFragment" showIcon="left" />途径：将元始珍珠放入锻造锤处理可获得 **3 个碎片**。随后通过对应的巫术工具研究和注魔配方，可以将每个碎片重新制成珍珠。
 
-The reassembly research requires Primordial Pearl and Ichor-related prerequisites. Its recipe consumes Eldritch Eyes, Ichor materials, Aurora Blocks, and large amounts of essentia, with an instability of **20**.<br>
-This route turns one pearl into several, making it suitable once you have a complete Ichor material supply and infusion infrastructure.
+重组研究需要元始珍珠和灵液相关前置条件。配方会消耗邪术之眼、灵液材料、极光方块和大量源质，不稳定度为 **20**。<br>这种方法可将一颗珍珠转化为多颗，适合在灵液材料供应和注魔设施齐备后使用。
 
-## Pearl Revitalization and the Extremely Primordial Pearl
+## 珍珠复苏与极元始珍珠
 
-**Pearl Revitalization in Witching Gadgets**
+**巫术工具中的珍珠复苏**
 
-Some Witching Gadgets recipes for Primordial equipment draw the energy from a pearl, leaving a <ItemLink id="WitchingGadgets:item.WG_Material:12" showIcon="left" />.<br>
-After completing **Pearl Revitalization** research, infusion can restore it to a Primordial Pearl.
+部分巫术工具元始装备配方会从珍珠中抽取能量，留下<ItemLink id="WitchingGadgets:item.WG_Material:12" showIcon="left" />。<br>完成**珍珠复苏**研究后，可通过注魔将其恢复为元始珍珠。
 
-The recipe uses one shard of each of the six primal aspects and a <ItemLink id="Thaumcraft:blockCrystal:6" showIcon="left" />. It requires **64 essentia of each primal aspect** and **384 Praecantatio**, with an instability of **10**.<br>
-When making Primordial Gauntlets, weapons, and armor, these leftover pearls can be returned to your material supply.
+该配方使用六种元始要素碎片各一枚和一个<ItemLink id="Thaumcraft:blockCrystal:6" showIcon="left" />。需要**每种元始要素 64 点源质**以及 **384 点 Praecantatio**，不稳定度为 **10**。<br>制作元始手套、武器和盔甲时，可将这些剩余珍珠回收到材料储备中。
 
-**Extremely Primordial Pearl**
+**极元始珍珠**
 
-The <ItemLink id="Avaritia:big_pearl" showIcon="left" /> comes from Avaritia's integration with Thaumcraft, unlocked after Primordial Pearl research.<br>
-Its infusion uses one ordinary Primordial Pearl as the central ingredient and **7 more** around it, consuming **8 pearls** in total.
+<ItemLink id="Avaritia:big_pearl" showIcon="left" />来自无尽贪婪与神秘时代的联动，完成元始珍珠研究后即可解锁。<br>其注魔配方以一颗普通元始珍珠为中央原料，周围再放置**7 颗**，总计消耗 **8 颗珍珠**。
 
-This infusion has an instability of **12** and requires 64 essentia each of the six primal aspects, Alienis, and Praecantatio, plus 32 Terminus. Producing it in quantity requires the corresponding essentia reserves and altar stability.
+此注魔的不稳定度为 **12**，需要六种元始要素、Alienis 和 Praecantatio 各 64 点源质，另需 32 点 Terminus。批量生产需要准备相应源质储备并确保祭坛稳定。
 
-When used as a catalyst in later recipes, the Extremely Primordial Pearl can be retained. It is used for the Akashic Record and several Infinity equipment recipes. It does not stack; recipes requiring several pearls at once need that many separate pearls.
+极元始珍珠用作后续配方的催化剂时可以保留。它用于制作阿卡西记录和多种无尽装备配方。该物品不可堆叠；一次需要多颗珍珠的配方就需要准备相同数量的独立珍珠。
 
-## Further Protection: Primordial Armor
+## 进一步防护：元始护甲
 
-**Primordial Armor** consists of <ItemLink id="WitchingGadgets:item.WG_PrimordialHelm" showIcon="left" />, <ItemLink id="WitchingGadgets:item.WG_PrimordialChest" showIcon="left" />, <ItemLink id="WitchingGadgets:item.WG_PrimordialLegs" showIcon="left" />, and <ItemLink id="WitchingGadgets:item.WG_PrimordialBoots" showIcon="left" />.<br>
-Its material path uses Shadow Fortress equipment, void metal, and pearls, making it worth considering when developing advanced magical protection.
+**元始护甲**由<ItemLink id="WitchingGadgets:item.WG_PrimordialHelm" showIcon="left" />、<ItemLink id="WitchingGadgets:item.WG_PrimordialChest" showIcon="left" />、<ItemLink id="WitchingGadgets:item.WG_PrimordialLegs" showIcon="left" />和<ItemLink id="WitchingGadgets:item.WG_PrimordialBoots" showIcon="left" />组成。<br>其材料路线使用暗影要塞装备、虚空金属和珍珠，开发高级魔法防护时值得考虑。
 
-Each piece can be independently tuned to a **primal affinity** by sneak-right-clicking while holding it. Several pieces tuned to the same aspect also meet the item counts required by some abilities.
+手持单件盔甲时潜行并右键，即可将其调谐至一种**元始亲和**。多件装备调谐至相同要素，还可满足部分能力所需的装备数量。
 
-- **Aer affinity**: Reflects projectiles; at least two Aer-tuned pieces provide creative flight.
-- **Terra affinity**: Grants regeneration when injured, while the boots also provide knockback resistance.
-- **Ignis affinity**: Extinguishes you automatically and reduces fire and explosion damage; the helm can provide Night Vision.
-- **Aqua affinity**: Removes several negative effects; the helm can provide Water Breathing and underwater Night Vision.
-- **Ordo affinity**: Provides regeneration and reduces the level and duration of Thaumcraft's Warp-related negative status effects.
-- **Perditio affinity**: Applies Blindness and Slowness to attackers when you are hit.
+- **Aer 亲和：** 反弹弹射物；至少两件 Aer 调谐装备可提供创造模式飞行。
+- **Terra 亲和：** 受伤时提供生命恢复，靴子还可提供抗击退。
+- **Ignis 亲和：** 自动灭火并降低火焰和爆炸伤害；头盔可提供夜视。
+- **Aqua 亲和：** 移除多种负面效果；头盔可提供水下呼吸和水下夜视。
+- **Ordo 亲和：** 提供生命恢复，并降低神秘时代扭曲相关负面状态效果的等级和持续时间。
+- **Perditio 亲和：** 受到攻击时会对攻击者施加失明和缓慢。
 
-The Primordial Helm also reduces the effective strength of Warp Theory events. When wearing it regularly, combine it with protection such as a Portable Shower to manage the Warp contributed by your equipment.
+元始头盔也会降低神秘扭曲学事件的有效强度。经常穿戴时，可搭配便携式沐浴器等防护装备，以管理装备带来的扭曲。
 
 </Column>

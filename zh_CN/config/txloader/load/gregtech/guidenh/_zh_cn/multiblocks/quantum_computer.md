@@ -17,4 +17,4 @@ navigation:
   icon: gregtech:gt.blockmachines:15311
   position: -8001
 ---
-# Quantum Computer
+# 量子计算机

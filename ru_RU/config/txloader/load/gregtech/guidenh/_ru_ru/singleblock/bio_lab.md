@@ -11,9 +11,9 @@ item_ids:
   - gregtech:gt.blockmachines:12707
   - gregtech:gt.blockmachines:12708
 navigation:
-  title: Bio Lab
+  title: Биолаборатория
   icon: gregtech:gt.blockmachines:12699
   parent: ./singleblock_index.md
   position: 30
 ---
-# Bio Lab
+# Биолаборатория

@@ -10,4 +10,4 @@ Farklı çıktılar için farklı aletler gerekir:
 {hr}
 Çalışma süresi {color_time:{var:ticks_per_operation}} olarak sabittir
 {color_name:Enerji Girişi Kademesi} çıktıyı daha da çoğaltır
-{color_amount:Çıktı çarpanı =} {color_formula:2 * (Tier^2) - (2 * Tier) + 5}
+{color_amount:Çıktı çarpanı =} {color_formula:2 * (Kademe^2) - (2 * Kademe) + 5}

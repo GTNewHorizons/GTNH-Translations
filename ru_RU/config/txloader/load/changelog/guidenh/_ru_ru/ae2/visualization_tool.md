@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Network Visualisation Tool Changes
+  title: Изменения устройства визуализации сети
   parent: ae2.md
   icon: appliedenergistics2:item.ToolNetworkVisualiser
 categories:
@@ -9,12 +9,12 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Network Visualisation Tool
-If you've ever been far enough in the game before, you will know that the Network Visualisation Tool <ItemImage id="appliedenergistics2:item.ToolNetworkVisualiser"/> starts to become of a tangled mess of unreadable lines.
+# Устройство визуализации сети
+Если вы уже заходили достаточно далеко в игре, то знаете, что устройство визуализации сети <ItemImage id="appliedenergistics2:item.ToolNetworkVisualiser"/> со временем превращается в запутанный клубок нечитаемых линий.
 
-To help, the rendering has now been changed! The changes are also completely configurable in `config/ae2stuff.cfg`, or via the in-game config for AE2Stuff!
+Чтобы это исправить, отрисовку изменили! Все эти изменения полностью настраиваются в `config/ae2stuff.cfg` или через внутриигровой конфиг AE2Stuff!
 <FloatingImage src="../assets/ae2/visualization.png" align="left" displayWidth="256">
   <ImageAnnotation>
-    An example of the new rendering
+    Пример новой отрисовки
   </ImageAnnotation>
 </FloatingImage>

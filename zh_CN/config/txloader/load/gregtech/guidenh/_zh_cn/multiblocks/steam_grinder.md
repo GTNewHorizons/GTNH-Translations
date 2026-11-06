@@ -9,30 +9,30 @@ navigation:
   icon: gregtech:gt.blockmachines:31041
   position: -501
 ---
-# Steam Grinder
+# 大型蒸汽研磨机
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31041" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" /> is a multiblock Macerator available in the Steam age. It uses steam to grind ores and materials in batches. As an upgrade to the singleblock Steam Macerator, it can process up to eight copies of the same recipe at once and is useful in early ore processing lines.
+<ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" /> 是蒸汽时代可用的多方块研磨机。它使用蒸汽批量研磨矿石和材料。作为单方块蒸汽研磨机的升级版，它最多能同时处理八份相同配方，适用于早期矿石加工生产线。
 
-The machine has basic bronze and high pressure steel structures that share the same controller. Upgrading to the high pressure structure increases throughput, but does not raise the maximum recipe tier or provide additional ore byproducts.
+该机器有基础青铜结构和高压钢结构，两者共用同一控制器。升级为高压结构可提高吞吐量，但不会提高配方最高等级，也不会增加矿物副产物。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires Diamonds, Pistons, a Tumbaga Frame Box, and other materials |
-| Dimensions | 3×3 footprint, four blocks tall; controller at the front center of the second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Recipe range | Macerator recipes at LV or below, requiring no more than 32 EU/t |
-| Output limit | Only the first item in the recipe's output list; the high pressure structure does not add output types |
-| Parallels | Up to eight copies of the same recipe; lower recipe power does not raise this limit |
-| Processing bonuses | The basic structure runs at 125% of a singleblock bronze Steam Macerator's speed and 62.5% of its steam consumption rate per parallel |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| 解锁阶段 | 蒸汽时代；控制器配方需要钻石、活塞、铜金合金框架及其他材料 |
+| 尺寸 | 占地 3×3，高四格；控制器位于第二层前方中央 |
+| 电力 | 恰好一个蒸汽仓；不需要能源仓 |
+| 配方范围 | LV 或以下、耗电不超过 32 EU/t 的研磨机配方 |
+| 输出限制 | 仅产出配方输出列表中的第一种物品；高压结构不会增加输出种类 |
+| 并行数 | 最多同时处理八份相同配方；较低配方耗电不会提高此上限 |
+| 加工加成 | 基础结构的速度是单方块青铜蒸汽研磨机的 125%，每个并行的蒸汽消耗速率为其 62.5% |
+| 升级与超频 | 高压结构将速度和蒸汽消耗速率加倍；不进行电压超频 |
+| 维护与污染 | 无需维护，不产生污染，也不需要消声仓 |
 
-## Crafting and Construction
+## 合成与建造
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+下方展示了控制器、基础外壳和蒸汽仓的当前配方。点击表格中的物品可查看其他部件的配方。
 
 <RecipesFor id="gregtech:gt.blockmachines:31041" />
 
@@ -40,136 +40,136 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### 结构材料
 
-The following quantities assume one Steam Hatch, one Input Bus, and one Output Bus. The basic structure uses bronze components, while the high pressure structure uses their steel counterparts. **The casings, Frame Boxes, and Gear Box Casings in one machine must all be of the same tier.**
+以下数量按一个蒸汽仓、一个输入总线和一个输出总线计算。基础结构使用青铜部件，高压结构使用对应钢制部件。**同一台机器的外壳、框架和齿轮箱机械方块必须全部为同一等级。**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| 部件 | 基础结构 | 高压结构 | 数量与位置 |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 17 in the basic setup; may be replaced with the hatches or buses below, but at least 14 actual casings must remain |
-| Frame Box | <ItemLink id="gregtech:gt.blockframes:300" showIcon="left" /> | <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | Eight, at the four corners of the second and third layers |
-| Gear Box Casing | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | One, at the center of the fourth layer |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" /> | Same controller | One, at the front center of the second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | At least one, replacing a casing |
+| 外壳 | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 基础配置为 17 个；可由下方仓或总线替换，但实际外壳至少保留 14 个 |
+| 框架 | <ItemLink id="gregtech:gt.blockframes:300" showIcon="left" /> | <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | 八个，位于第二层和第三层的四角 |
+| 齿轮箱机械方块 | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | 一个，位于第四层中央 |
+| 控制器 | <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" /> | 同一控制器 | 一个，位于第二层前方中央 |
+| 蒸汽仓 | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | 同一仓 | 恰好一个，替换一个外壳 |
+| 输入总线 | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | 同一总线 | 至少一个，替换外壳 |
+| 输出总线 | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | 同一总线 | 至少一个，替换外壳 |
 
-The new structure has 20 positions for casings or hatches. Installing the three required interfaces leaves 17 casings; adding buses reduces the casing count accordingly. Hatches and buses cannot replace Frame Boxes or Gear Box Casings.
+新结构有 20 个可放外壳或仓的位置。安装三个必需接口后还剩 17 个外壳；增加总线会相应减少外壳数量。仓和总线不能替代框架或齿轮箱机械方块。
 
-### Building by Layer
+### 逐层建造
 
-Count layers upward from the base. Choose the controller facing first, then follow the interactive structure or hologram layer by layer.
+从底座开始向上数层。先选择控制器朝向，再按交互式结构或全息投影逐层建造。
 
-| Layer | What to place |
+| 层 | 放置内容 |
 | --- | --- |
-| First | A full 3×3 base, giving nine casing positions |
-| Second | Frame Boxes at all four corners, the controller at the front center, and one casing position at the center of the left, right, and rear sides |
-| Third | Frame Boxes at all four corners and one casing position at the center of each of the four sides |
-| Fourth | A Gear Box Casing at the center and one casing position at the center of each of the four sides; the four corners do not need blocks |
+| 第一层 | 完整的 3×3 底座，共九个外壳位置 |
+| 第二层 | 四角放框架，前方中央放控制器，左侧、右侧和后方中央各留一个外壳位置 |
+| 第三层 | 四角放框架，四边中央各留一个外壳位置 |
+| 第四层 | 中央放齿轮箱机械方块，四边中央各留一个外壳位置；四角无需放方块 |
 
-The empty center positions on the second and third layers do not need to be filled with casings. Place the Steam Hatch and steam Input and Output Buses in suitable casing positions for convenient pipe connections. Ordinary electric machine item buses cannot replace the steam versions.
+第二层和第三层的中央空位无需填入机械方块。将蒸汽仓、蒸汽输入总线和蒸汽输出总线放在便于连接管道的合适机械方块位置。普通电力机器的物品总线不能替代蒸汽版本。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 预览结构并辅助建造。主信道等级 1 选择基础结构，等级 2 选择高压结构。辅助建造完成后安装仓，并检查结构。
 
 > [!NOTE]
-> This page describes the new structure in 2.9.0. The current RC-2 also accepts the old hollow 3×3×3 structure, but the hologram and assisted construction use the new structure. The old page's explanation of parallels based on recipe power does not apply to the current version; the machine's maximum is fixed at eight parallels.
+> 本页介绍 2.9.0 的新结构。当前 RC-2 也接受旧版中空 3×3×3 结构，但全息投影和辅助建造均使用新结构。旧页面基于配方耗电解释并行数的内容不适用于当前版本；机器上限固定为八并行。
 
-## Machine Uses and Outputs
+## 机器用途与产物
 
-The Steam Grinder uses the Macerator recipe map. When checking NEI, first confirm that the item has a Macerator recipe, then check its tier, input quantity, and **first item output**.
+大型蒸汽研磨机使用研磨机配方类型（recipe map）。查看 NEI 时，先确认物品有研磨机配方，再检查等级、输入数量和**第一种物品产物**。
 
-| Use | Common recipes and considerations |
+| 用途 | 常见配方与注意事项 |
 | --- | --- |
-| Initial ore crushing | Turns eligible ores into Crushed Ore; this step increases the main output quantity for many common ores, with exact yields shown in NEI |
-| Grinding ore intermediates | Turns eligible Crushed Ore into Impure Dust and Centrifuged Ore into dust; the machine does not automatically perform later washing, centrifuging, or smelting steps |
-| Grinding materials | Turns ingots, gems, and other materials with matching recipes into dust for alloys and further processing |
-| Item recycling | Processes components or items with Macerator recycling recipes; check the outputs before sending in items you still need |
+| 初步粉碎矿石 | 将符合条件的矿石变成粉碎矿石；许多常见矿石经过此步骤会增加主要产物数量，具体产量见 NEI |
+| 研磨矿石中间产物 | 将符合条件的粉碎矿石变成含杂粉，将离心矿石变成粉；该机器不会自动进行后续洗矿、离心或熔炼步骤 |
+| 研磨材料 | 按对应配方将锭、宝石和其他材料变成粉，用于合金和后续加工 |
+| 回收物品 | 按研磨机回收配方加工部件或物品；投入仍有用途的物品前请检查产物 |
 
-### Why There Are No Byproducts
+### 为什么没有副产物
 
-The machine only produces the **first item output** in the Macerator recipe's output list. Items in the second and later positions in NEI are not produced, even if they have an output chance. This is a machine limitation, rather than a shortage of slots in the Output Bus.
+该机器只会产出研磨机配方输出列表中的**第一种物品**。NEI 中排在第二及之后的物品不会产出，即使它们有输出概率。这是机器本身的限制，并非输出总线槽位不足。
 
-For example, if a recipe lists a main mineral, an ore byproduct, and Stone Dust as three outputs, the Steam Grinder only uses the quantity and chance of the first output. Adding Output Buses, increasing parallels, or upgrading to the high pressure structure does not unlock the remaining outputs.
+例如，若配方列出一种主要矿物、一种矿石副产物和石粉三种产物，大型蒸汽研磨机只会使用第一种产物的数量和概率。增加输出总线、提高并行数或升级高压结构都不会解锁其余产物。
 
-If you need ore byproducts from the maceration step, consider machines with more outputs, such as the <ItemLink id="gregtech:gt.blockmachines:303" showIcon="left" />. Ore washing and centrifuging also have their own outputs; plan each step according to its machine and NEI recipe.
+如果需要磨矿步骤的矿石副产物，可考虑使用具有更多输出的机器，例如 <ItemLink id="gregtech:gt.blockmachines:303" showIcon="left" />。洗矿和离心也有各自产物；请按对应机器和 NEI 配方规划每个步骤。
 
 > [!NOTE]
-> The machine is available in the Steam age, but only accepts recipes up to LV. Upgrading to the high pressure steel structure does not enable MV or higher-tier recipes and does not change the first-item-output limit.
+> 该机器在蒸汽时代即可使用，但只接受 LV 及以下配方。升级为高压钢结构不会解锁 MV 或更高等级配方，也不会改变仅输出第一种物品的限制。
 
-### First Startup
+### 首次启动
 
-1. Check the structure and confirm that the Steam Hatch, steam Input Bus, and steam Output Bus are installed.
-2. Connect the steam pipe to the Steam Hatch and confirm that steam actually enters it.
-3. Check the recipe tier and first item output in NEI, and leave space in the Output Bus.
-4. Start the machine with a small amount of material and observe the output route and steam buffer.
-5. Increase input quantities and parallels after confirming a continuous steam supply.
+1. 检查结构，并确认已安装蒸汽仓、蒸汽输入总线和蒸汽输出总线。
+2. 将蒸汽管道接到蒸汽仓，并确认蒸汽确实进入其中。
+3. 在 NEI 中检查配方等级和第一种物品产物，并为输出总线留出空间。
+4. 少量投入材料启动机器，并观察产物路由和蒸汽缓冲。
+5. 确认蒸汽持续供应后，再增加输入量和并行数。
 
-## Steam Supply and Throughput
+## 蒸汽供应与吞吐量
 
-The Steam Grinder can process up to eight copies of **the same recipe** at once. This does not mean it can process eight different items in one cycle. Actual parallels also depend on input quantities, output space, and the parallel limit set in the GUI. Lower-power recipes do not raise the maximum above eight.
+大型蒸汽研磨机最多可同时处理八份**相同配方**。这不代表它能在一轮中处理八种不同物品。实际并行数还取决于输入数量、输出空间以及 GUI 中设置的并行上限。低耗电配方也不会将上限提高到八以上。
 
-The basic structure runs at 125% of a singleblock bronze Steam Macerator's speed, taking roughly 80% as long. Its steam consumption rate per parallel is 62.5% of the singleblock machine's rate. Combining both bonuses gives roughly 50% of the total steam consumption for the same amount of material. However, running more parallels still increases the whole machine's instantaneous steam demand.
+基础结构的速度是单方块青铜蒸汽研磨机的 125%，耗时约为其 80%。每个并行的蒸汽消耗速率为单方块机器的 62.5%。两种加成合并后，相同数量材料的蒸汽总消耗约为 50%。但增加并行数仍会提高整台机器的即时蒸汽需求。
 
-| Property | Basic structure | High pressure structure |
+| 属性 | 基础结构 | 高压结构 |
 | --- | --- | --- |
-| Accepted recipe tiers | LV and below | LV and below |
-| Maximum parallels | 8 | 8 |
-| Item output types | Only the recipe's first item output | Only the recipe's first item output |
-| Speed relative to the basic structure | 1× | 2× |
-| Steam consumption rate for the same recipe and parallel count | 1× | 2× |
-| Total steam consumption per recipe | Baseline | Approximately the same as the basic structure |
+| 可运行配方等级 | LV 及以下 | LV 及以下 |
+| 最大并行数 | 8 | 8 |
+| 物品输出种类 | 仅配方的第一种物品产物 | 仅配方的第一种物品产物 |
+| 相对于基础结构的速度 | 1 倍 | 2 倍 |
+| 相同配方及并行数下的蒸汽消耗速率 | 1 倍 | 2 倍 |
+| 每份配方的总蒸汽消耗量 | 基准 | 与基础结构大致相同 |
 
-The high pressure upgrade increases speed and steam consumption rate together. It mainly improves throughput, without halving the total steam cost per item again. Actual duration and steam consumption are also affected by tick and integer rounding.
+高压升级会同时提高速度和蒸汽消耗速率，主要改善吞吐量，不会再将每件物品的蒸汽总成本减半。实际时间和蒸汽消耗还会受到游戏刻和整数取整影响。
 
-The Steam Hatch buffers 64,000 L of steam, but this only covers temporary shortfalls and cannot replace continuous boiler production. Size boilers and pipes for the **steam consumption rate while processing**.
+蒸汽仓可储存 64,000 L 蒸汽，但这只能应对暂时短缺，无法替代锅炉持续产汽。锅炉和管道应按**加工期间的蒸汽消耗速率**配置。
 
-Use Waila to check the operating steam consumption rate and watch whether the buffer keeps falling during continuous processing. If a value is shown in L/t, multiply by 20 to get L/s at the normal 20 TPS. Use matching units when comparing pipe throughput. If steam supply is insufficient, lower the parallel limit in the GUI, then increase boiler production or improve the piping.
+使用 Waila 查看运行时的蒸汽消耗速率，并观察持续加工时缓冲量是否不断下降。如果显示单位为 L/t，在正常 20 TPS 下乘以 20 即为 L/s。比较管道吞吐量时请使用相同单位。蒸汽供应不足时，先在 GUI 中降低并行上限，再提高锅炉产量或改进管道。
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation, and materials already consumed are not returned. Check steam production and pipe throughput before upgrading to high pressure or increasing the parallel limit.
+> 加工期间蒸汽耗尽会中止当前操作，已消耗的材料不会返还。升级高压结构或提高并行上限前，请检查蒸汽产量和管道吞吐量。
 
-## Upgrading to High Pressure
+## 升级为高压结构
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31041" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. Replace **all** Bronze Plated Bricks, Bronze Frame Boxes, and Bronze Gear Box Casings with the Solid Steel Machine Casings, Steel Frame Boxes, and Steel Gear Box Casings listed in the table. Replacing only the casings, or leaving some bronze frames or gearboxes, fails the new structure's tier check.
+高压结构保持相同尺寸、仓位和控制器。将**所有**镀铜砖块、青铜框架和青铜齿轮箱机械方块替换为表中所列的脱氧钢机械方块、钢框架和钢齿轮箱机械方块。只替换外壳，或留下部分青铜框架、齿轮箱机械方块，都会导致新结构的等级检查失败。
 
-Stop processing and material input before upgrading. After replacing the components, check the structure again and confirm the machine displays the high pressure tier before restoring steam and production.
+升级前请停止加工和材料输入。替换部件后重新检查结构，并确认机器显示为高压等级，再恢复蒸汽和生产。
 
-High pressure is a structure tier, not a separate steam fluid. The machine still uses ordinary steam, and the existing Steam Hatch and steam buses can be reused. No Energy Hatch is needed. The upgrade doubles speed and steam consumption rate, but the maximum remains eight parallels.
+高压是结构等级，不是另一种蒸汽流体。机器仍使用普通蒸汽，现有蒸汽仓和蒸汽总线均可保留。无需能源仓。升级会使速度和蒸汽消耗速率加倍，但最大并行数仍为八。
 
-## Automation and Item Routing
+## 自动化与物品路由
 
-Steam Input and Output Buses each have four item slots. They do not automatically pull from adjacent chests or push products into them; placing a chest next to a bus is not enough for automation.
+蒸汽输入总线和输出总线各有四个物品槽。它们不会自动从相邻箱子抽取物品，也不会将产物推入箱子；仅将箱子放在总线旁不足以实现自动化。
 
-- **Input:** Use hoppers, GT item pipes, conveyors, or item conduits to send items into the front face of the Input Bus.
-- **Output:** Actively extract from the front face of the Output Bus with pipes, conduits, or conveyors, then route products to storage or the next machine.
-- **Steam:** Connect fluid pipes from the boiler to the Steam Hatch. Item buses cannot receive steam.
-- **Routing:** Set filters for ores, Crushed Ore, Impure Dust, and other materials so intermediates do not enter the wrong processing step.
+- **输入：**使用漏斗、GT 物品管道、传送带或物品导管，将物品送入输入总线正面。
+- **输出：**用管道、导管或传送带从输出总线正面主动提取，再将产物送往存储处或下一台机器。
+- **蒸汽：**用流体管道将锅炉接至蒸汽仓。物品总线无法接收蒸汽。
+- **路由：**为矿石、粉碎矿石、含杂粉等材料设置过滤器，避免中间产物进入错误加工步骤。
 
-The same grinder may serve several steps in an ore processing line. If both raw ores and newly produced Crushed Ore are sent back to the same Input Bus, check filters and priorities so one step does not continually fill the input slots. For continuous processing through several steps, consider separate machines and check the steam supply shared by the entire line.
+同一台研磨机可用于矿石加工生产线的多个步骤。如果原矿和新产出的粉碎矿石都送回同一输入总线，请检查过滤器和优先级，避免某一步持续占满输入槽。若要连续完成多个加工步骤，可考虑使用不同机器，并检查整条生产线共用的蒸汽供应。
 
-Additional Input Buses expand item buffering, while additional Output Buses help prevent output congestion. Neither raises the parallel limit or unlocks byproducts. Keep at least 14 actual casings when expanding, and do not install a second Steam Hatch.
+增加输入总线可扩大物品缓冲，增加输出总线有助于避免产物拥堵。但两者都不会提高并行上限或解锁副产物。扩展时至少保留 14 个实际外壳，且不能安装第二个蒸汽仓。
 
-## Troubleshooting
+## 故障排除
 
-| Symptom | What to check |
+| 症状 | 检查事项 |
 | --- | --- |
-| Incomplete new structure | Is the footprint 3×3 and the height four blocks? Is the controller at the front center of the second layer? Are the eight Frame Boxes on the second and third layers and the top Gear Box Casing correctly positioned? |
-| Structure tier mismatch | Are the casings, Frame Boxes, and Gear Box Casing all of the same tier? Were only some bronze components replaced? |
-| Missing Steam Hatch or buses | Is there exactly one Steam Hatch and at least one steam Input Bus and Output Bus? Were ordinary electric machine item buses used by mistake? |
-| Structure fails after adding buses | Are at least 14 actual casings left? Were any Frame Boxes or the Gear Box Casing replaced with buses? |
-| Inputs present but no recipe found | Does the item have a Macerator recipe? Are there enough inputs for one recipe? Is there enough output space? |
-| Recipe tier too high | Does the recipe shown in NEI exceed LV? The high pressure structure also cannot process MV or higher-tier recipes. |
-| NEI shows byproducts that the machine does not produce | The machine only produces the first item output. Adding Output Buses or upgrading to the high pressure structure does not unlock the remaining outputs. |
-| Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
-| Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
-| Fewer than eight recipes processed at once | Are there enough materials for copies of the same recipe? Is the parallel limit set lower? Can the output slots hold all products? |
+| 新结构不完整 | 占地是否为 3×3、高四格？控制器是否位于第二层前方中央？第二和第三层的八个框架以及顶层齿轮箱机械方块是否放置正确？ |
+| 结构等级不一致 | 外壳、框架和齿轮箱机械方块是否全部同等级？是否只替换了部分青铜部件？ |
+| 缺少蒸汽仓或总线 | 是否恰好有一个蒸汽仓，以及至少一个蒸汽输入总线和输出总线？是否误用了普通电力机器物品总线？ |
+| 添加总线后结构无法成型 | 是否还剩至少 14 个实际外壳？是否有框架或齿轮箱机械方块被总线替换？ |
+| 有输入但找不到配方 | 物品是否有研磨机配方？输入是否足以运行一份配方？输出空间是否充足？ |
+| 配方等级过高 | NEI 显示的配方是否高于 LV？高压结构同样不能加工 MV 或更高等级的配方。 |
+| NEI 显示机器不会产出的副产物 | 该机器只会产出第一种物品。增加输出总线或升级高压结构都不会解锁其余产物。 |
+| 蒸汽仓中有蒸汽但机器仍停止 | 持续供应能否跟上消耗？管道是否受限或与其他机器共用蒸汽？当前并行数和高压等级是否超出锅炉产能？ |
+| 总线旁的箱子无法传输物品 | 蒸汽总线不会自动提取或推送物品。请检查主动传输设备、连接面、方向和过滤器。 |
+| 每次处理不足八份配方 | 是否有足够材料运行多份相同配方？并行上限是否设置得更低？输出槽能否容纳全部产物？ |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+一般结构检查和工具使用请参见[多方块机器](./multiblocks_index.md)。
 
-## Related Pages
+## 相关页面
 
-- [GTNH Wiki: Steam Grinder](https://wiki.gtnewhorizons.com/wiki/Steam_Grinder)
+- [GTNH Wiki：大型蒸汽研磨机](https://wiki.gtnewhorizons.com/wiki/Steam_Grinder)

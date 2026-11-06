@@ -10,4 +10,4 @@ navigation:
   icon: gregtech:gt.blockmachines:15546
   position: -2001
 ---
-# Pyrolyse Oven
+# 热解炉

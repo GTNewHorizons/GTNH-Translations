@@ -29,4 +29,4 @@ navigation:
   icon: gregtech:gt.blockmachines:13106
   position: -4001
 ---
-# Lapotronic Supercapacitor
+# 兰波顿超级电容库

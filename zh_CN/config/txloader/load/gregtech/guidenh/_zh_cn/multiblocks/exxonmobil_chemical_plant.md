@@ -13,4 +13,4 @@ navigation:
   icon: gregtech:gt.blockmachines:998
   position: -2001
 ---
-# Exxonmobil Chemical Plant
+# 埃克森美孚化工厂

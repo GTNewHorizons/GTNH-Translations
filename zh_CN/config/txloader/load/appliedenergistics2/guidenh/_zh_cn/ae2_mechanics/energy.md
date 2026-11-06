@@ -11,11 +11,11 @@ item_ids:
 
 # 能量
 
-## 能量缓冲器
+## 能量缓存器
 
-ME网络需要能量才能运行。整个网络共享同一个能量缓冲器。AE设备以及物品的输入与取出都会直接从这个共享池中获取能量，而<ItemLink id="appliedenergistics2:tile.BlockVibrationChamber" showIcon="left" />、<ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" showIcon="left" />和<ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />则向其中供给能量。你可以用<ItemLink id="appliedenergistics2:item.ToolNetworkTool" showIcon="left" />右键网络中的任意元件，查看该网络的能量统计信息。
+ME网络需要能量才能运行。整个网络共享同一个能量缓存器。AE设备以及物品的输入与取出都会直接从这个共享池中获取能量，而<ItemLink id="appliedenergistics2:tile.BlockVibrationChamber" showIcon="left" />、<ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" showIcon="left" />和<ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />则向其中供给能量。你可以用<ItemLink id="appliedenergistics2:item.ToolNetworkTool" showIcon="left" />右键网络中的任意元件，查看该网络的能量统计信息。
 
-由于能量的存储与分配都在网络层面统一处理，网络内部实际上没有传输速率限制：设备可以按需获取任意多的能量，能源接收器也能以网络所能存储的速度尽快输入能量。真正的限制是你的总储能容量。你可以用[能源元件](../items_blocks/energy_cells.md)来扩充这个共享缓冲区。
+由于能量的存储与分配都在网络层面统一处理，网络内部实际上没有传输速率限制：设备可以按需获取任意多的能量，能源接收器也能以网络所能存储的速度尽快输入能量。真正的限制是你的总储能容量。你可以用[能源元件](../items_blocks/energy_cells.md)来扩充这个共享缓存区。
 
 ## 能量接收
 
@@ -57,13 +57,13 @@ AE2内部并不直接使用FE、RF或EU，而是把这些能量系统转化为�
 
 显然，网络每游戏刻所能接收或消耗的能量不会超过它的存储量。如果一个网络只能存储800 AE，那么它的设备在该游戏刻内至多只能使用800 AE，能源接收器在该游戏刻内也至多只能输入800 AE。
 
-这是许多奇怪行为的常见诱因。例如，你搭建了一个只有能源接收器、驱动器、终端和少量其他设备的小网络，然后想把满满一物品栏的圆石塞进网络：网络所缓冲的能量可能不足以在一个游戏刻内完成全部这些输入。一部分圆石会输入失败，网络的能量会耗尽，并可能因此重启一次。
+这是许多奇怪行为的常见诱因。例如，你搭建了一个只有能源接收器、驱动器、终端和少量其他设备的小网络，然后想把满满一物品栏的圆石塞进网络：网络所缓存的能量可能不足以在一个游戏刻内完成全部这些输入。一部分圆石会输入失败，网络的能量会耗尽，并可能因此重启一次。
 
-在使用[空间IO](./spatial_io.md)时这一点会变得尤其明显，因为启动一套[空间塔](../items_blocks/spatial_pylon.md)结构需要非常大的能量缓冲器。解决办法就是加入能源元件。
+在使用[空间IO](./spatial_io.md)时这一点会变得尤其明显，因为启动一套[空间塔](../items_blocks/spatial_pylon.md)结构需要非常大的能量缓存器。解决办法就是加入能源元件。
 
-* 网络中的每根线缆、每台设备或每个部件都会为网络提供内置的25 AE缓冲。
+* 网络中的每根线缆、每台设备或每个部件都会为网络提供内置的25 AE缓存。
 
-* <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />内置8,000 AE的小型能量缓冲器。
+* <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />内置8,000 AE的小型能量缓存器。
 
 * <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" showIcon="left" />可存储200,000 AE。对大多数使用场景而言，一个就足以吸收网络日常的能量峰值。
 

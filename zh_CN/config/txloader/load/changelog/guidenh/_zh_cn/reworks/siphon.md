@@ -21,18 +21,18 @@ date: 2026-05-27
 
 > [!NOTE]
 > 除结构本身外，该多方块结构还有以下改动：
-> 线圈分级：等级更高的线圈每级提供 +10% 速度加成（加法叠加）
+> 线圈任意等级：等级更高的线圈每级提供 +10% 速度加成（加法叠加）
 > 基础速度翻倍：与旧结构相比，基础处理速度已翻倍
 > WAILA 升级：悬停在控制器上时，现在会显示当前的速度加成与线圈等级
 
 ## 建造
-<Color id="GREEN">PGS</Color>只有一种分等级的组件。加热线圈决定机器的速度加成。总线/仓可以替换结构上任意位置的气体钻机外壳，但包括能源仓在内的每一种都必须恰好有一个。不支持多A能源仓和激光能源仓。输入总线中的采矿管道既不会被控制器消耗，也不会被放置到世界中，因此 <Color id="GREEN">PGS</Color> 不需要与下方的气态巨行星保持直接视线。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构，并用子通道 "coil" 指定加热线圈的等级。
+<Color id="GREEN">PGS</Color>只有一种任意等级的组件。加热线圈决定机器的速度加成。总线/仓可以替换结构上任意位置的气体钻机外壳，但包括能源仓在内的每一种都必须恰好有一个。不支持多A能源仓和激光能源仓。输入总线中的采矿管道既不会被控制器消耗，也不会被放置到世界中，因此 <Color id="GREEN">PGS</Color> 不需要与下方的气态巨行星保持直接视线。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构，并用子信道 "coil" 指定加热线圈的等级。
 
 ### 所需方块：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:15559"/><ItemImage id="gregtech:gt.blockmachines:15559"/>
 - 184 个 <ItemLink id="gtnhintergalactic:gassiphoncasing"/><ItemImage id="gtnhintergalactic:gassiphoncasing"/>
 - 93 个 <ItemLink id="gregtech:gt.blockframes:316"/><ItemImage id="gregtech:gt.blockframes:316"/>
-- 12 个加热线圈（分等级）<ItemLink id="gregtech:gt.blockcasings5:13"/><ItemImage id="gregtech:gt.blockcasings5:13"/>
+- 12 个加热线圈（任意等级）<ItemLink id="gregtech:gt.blockcasings5:13"/><ItemImage id="gregtech:gt.blockcasings5:13"/>
 - 6 个 <ItemLink id="bartworks:bw.werkstoffblockscasingadvanced.01:88"/><ItemImage id="bartworks:bw.werkstoffblockscasingadvanced.01:88"/>
 - 1 个能源仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 个维护仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:90" />
@@ -40,11 +40,11 @@ date: 2026-05-27
 - 0+ 个输入总线（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:70" />
 - 0+ 个输出仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### 共用墙体
+### 共用墙壁
 PGS 可以共用其任意一侧墙面，以节省外壳、加热线圈和总线/仓的数量。没有任何配方耗电超过 1A，因此可以在<u>__两__</u>台甚至<u>__四__</u>台机器之间共用<u>__一个__</u>能源仓。
 
 ## 空间站
-<Color id="GREEN">PGS</Color>必须建造在环绕气态巨行星运行的空间站上。<Color id="BLUE">空间站</Color>的建造方法：发射火箭进入太空，点击一颗行星，然后按下屏幕右侧写有 "A Space Station can be created here!"（此处可以创建空间站！）处的 CREATE（创建）按钮。每颗气态巨行星的空间站建造成本如下所列。玩家必须把所需材料放在物品栏中（不能放在背包或压缩箱里）才能按下按钮。随后空间站会作为一颗环绕行星运行的卫星出现在星系地图（Galaxy Map）中，与月球类似。
+<Color id="GREEN">PGS</Color>必须建造在环绕气态巨行星运行的空间站上。<Color id="BLUE">空间站</Color>的建造方法：发射火箭进入太空，点击一颗行星，然后按下屏幕右侧写有 "A Space Station can be created here!"（这里可以创建空间站！）处的 CREATE（创建）按钮。每颗气态巨行星的空间站建造成本如下所列。玩家必须把所需材料放在物品栏中（不能放在背包或压缩箱里）才能按下按钮。随后空间站会作为一颗环绕行星运行的卫星出现在星系地图（Galaxy Map）中，与月球类似。
 
 - 木星 - 1 个 EV 机器外壳、4 个封装EV电路板、6 块玻璃板、231 个装饰镍块
 - 土星 - 1 个 LuV 机器外壳、4 个封装LuV电路板、6 块玻璃板、231 个装饰秘银块
@@ -65,16 +65,16 @@ PGS 可以共用其任意一侧墙面，以节省外壳、加热线圈和总线/
 | 加热线圈 | 速度 |
 |--------------- | --------------- |
 | 白铜 | 210% |
-| 卡汉合金 | 220% |
+| 坎塔尔 | 220% |
 | 镍铬合金 | 230% |
 | 钛铂钒合金 | 240% |
 | 高速钢-G | 250% |
 | 高速钢-S | 260% |
 | 硅岩 | 270% |
 | 硅岩合金 | 280% |
-| 特林 | 290% |
+| 三元金属 | 290% |
 | 通流琥珀金 | 300% |
 | 觉醒龙 | 310% |
 | 无尽 | 320% |
 | 海珀珍 | 330% |
-| Eternal | 340% |
+| 永恒 | 340% |

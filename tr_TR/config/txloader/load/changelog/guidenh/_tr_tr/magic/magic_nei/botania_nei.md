@@ -13,7 +13,7 @@ Botania'nın çeşitli NEI işleyicileri bu güncellemede elden geçirildi:
 - Eşyalar için tarif ararken artık yalnızca kullanımlar değil, Lexicon girdileri de gösteriliyor.
 - Floating Flower işleyicisi artık NEI'nin Overlay Button'ını kullanarak eşyaları envanter/çalışma masası ızgarasına taşıyabiliyor.
 - Artık Mana İnfüzyonu, Yaprak Eczacısı ve Rünik Sunak işleyicilerindeki tüm tarifleri gerçekten görebiliyorsun. Eskiden tıklanacak alanın önünde eşyalar duruyordu, bu yüzden yalnızca o eşyanın tarifini görebiliyordun. Artık tıklanabilir alan oluşturulmadan önce çiziliyorlar.
-- Mana Havuzu (ve Kızıltaş gibi Katalizörleri) ile Yaprak Eczacısı gibi üretim istasyonları artık yer imlerine eklenen / desenli tariflerin malzemelerine eklenmiyor.
+- Mana Havuzu (ve Katalizörleri) ile Yaprak Eczacısı gibi üretim istasyonları artık yer imlerine eklenen / desenli tariflerin malzemelerine eklenmiyor.
 - Botanical Brewery işleyicisi, solda katalizör olarak bira uygulanabilecek tüm eşyaları içeriyor.
 - Yaprak Eczacısı ve Rünik Sunak tarifleri artık malzemelerinde sırasıyla "Herhangi bir tohum" ve Yaşayantaş içeriyor.
 

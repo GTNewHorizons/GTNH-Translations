@@ -668,7 +668,7 @@ gt.blockmachines.multimachine.tm.teslaCoil.desc.4=Birincil Tesla Sargıları en 
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.0=Histerezis düşük ayarı
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.1=Histerezis yüksek ayarı
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.2=Tesla Kulelerinin aktarım yarıçapı ayarı
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.3=Tesla Alıcı aktarım yarıçapı ayarı
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.3=Tesla Alıcı'nın aktarım yarıçapı ayarı
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.4=Tesla Nihai Kaplama transfer yarıçapı ayarı
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.5=Çıktı gerilimi ayarı
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.6=Çıkış akımı ayarı
@@ -749,7 +749,7 @@ gt.blockmachines.multimachine.em.essentiatoem.desc.1=Esansı elemental formuna d
 
 gt.blockmachines.multimachine.em.scanner.name=Elementsel Tarayıcı
 gt.blockmachines.multimachine.em.scanner.hint.0=1 - Klasik Kapaklar veya Yüksek Güç Kasası
-gt.blockmachines.multimachine.em.scanner.hint.1=2 - Elemental Giriş Kapakları veya Moleküler Kasa
+gt.blockmachines.multimachine.em.scanner.hint.1=2 - Elemental Girdi Kapakları veya Moleküler Kasa
 gt.blockmachines.multimachine.em.scanner.hint.2=3 - Elemental Çıkış Kapakları veya Moleküler Kasa
 gt.blockmachines.multimachine.em.scanner.hint.3=4 - Elemental Taşma Kapakları veya Moleküler Kasa
 gt.blockmachines.multimachine.em.scanner.desc.0=Elementsel Tarayıcı'nın Kontrolcü Bloğu
@@ -764,7 +764,7 @@ gt.blockmachines.multimachine.em.research.desc.3=Veri Çubuğu yazılana kadar e
 
 gt.blockmachines.multimachine.em.collider.name=Madde Çarpıştırıcısı
 gt.blockmachines.multimachine.em.collider.hint.0=1 - Klasik Kapaklar veya Yüksek Güç Kasası
-gt.blockmachines.multimachine.em.collider.hint.1=2 - Elemental Giriş Kapakları veya Moleküler Kasa
+gt.blockmachines.multimachine.em.collider.hint.1=2 - Elemental Girdi Kapakları veya Moleküler Kasa
 gt.blockmachines.multimachine.em.collider.hint.2=3 - Elemental Çıkış Kapakları veya Moleküler Kasa
 gt.blockmachines.multimachine.em.collider.hint.3=4 - Elemental Taşma Kapakları veya Moleküler Kasa
 gt.blockmachines.multimachine.em.collider.hint.4=Genel - Ters yöne bakan başka bir Kontrolcü
@@ -961,7 +961,7 @@ fog.upgrade.text.20=EBF ısı bonusları 30,000K üzerinde verilir, ancak ısı 
 fog.upgrade.text.21=Satın alınan toplam yükseltme miktarına göre maksimum paralel için bir çarpanın kilidini açar. Bu bonus şu formülle hesaplanır: Çarpan = 1 + Yükseltme Miktarı / 5
 fog.upgrade.text.22=N11'i mevcut maksimum paralel değerine göre geliştirir. Geliştirilmiş Formül: Çarpan = (1 / Isı^0.01) / (Paralel^0.02)
 fog.upgrade.text.23=Her aktif halka için maksimum işleme gerilimini 1 artırır.
-fog.upgrade.text.24=Heliotermal Plazma Üreticisinin T5 plazmalarını işlemesini sağlar.
+fog.upgrade.text.24=Heliotermal Plazma Üreticisinin T5'e kadar olan plazmaları işlemesini sağlar.
 fog.upgrade.text.25=Helyofüzyon Egzotikleştirici'nin diğer yükseltme avantajlarından etkilenmesini sağlar, ancak bu avantajların önce karekökü alınır. Hız aşırtma bonusu şu formülle ayarlanır: OC Faktörü = 2 + (Temel OC Faktörü - 2)^2
 fog.upgrade.text.26=İkinci halkanın inşasına izin verir ve 4 modül yuvası ekler.
 fog.upgrade.text.27=Azami yakıt tüketimindeki üst sınırı kaldırır, ancak bonus hesaplamalarında kullanılan yakıt tüketimi şu formüle göre ölçeklenir: Gerçek FC = Mevcut Azami FC + (Mevcut FC - Mevcut Azami FC)^0.75; burada FC yakıt tüketimini, azami FC ise bu yükseltme olmadan azami yakıt tüketimini ifade eder.

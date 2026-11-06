@@ -7,7 +7,7 @@ navigation:
   position: 40
 ---
 
-# Thaumcraft
+# 神秘时代
 
 <Column width="600" align="center" gap="8">
 
@@ -19,135 +19,135 @@ navigation:
   <ImportStructure src="/assets/structures/infusion_altar.snbt" />
 </GameScene>
 
-**Thaumcraft 4** (TC4) is one of GTNH's main magic mods and the first magic mod you encounter.
+**神秘时代 4**（TC4）是 GTNH 的主要魔法模组之一，也是你最先接触到的魔法模组。
 
-Starting with scanning and research, you gradually learn about the aspects contained in items and creatures. Through alchemy and infusion, you can create wands, magical tools, equipment and automation systems.
+从扫描和研究开始，你会逐渐了解物品与生物所含的要素。通过炼金和注魔，你可以制造法杖、魔法工具、装备和自动化系统。
 
-In NH, Thaumcraft is closely connected to technology materials, the Twilight Forest and other magic mods. As your research progresses, you can explore Botania and Blood Magic, connect magical systems to AE, or use magic to maintain GT machines.
+在 NH 中，神秘时代与科技材料、暮色森林及其他魔法模组紧密关联。随着研究推进，你可以探索植物魔法和血魔法，将魔法系统接入 AE，或使用魔法维持 GT 机器运转。
 
-This page provides an overview of Thaumcraft's world, basic concepts and NH-specific changes, focusing on the uses of magical facilities and the differences between <Color color="#B7A0D6">research points, Vis and essentia</Color>.
+本页概述神秘时代的世界、基本概念和 NH 特有改动，重点介绍魔法设施的用途，以及<Color color="#B7A0D6">研究点数、魔力和源质</Color>之间的区别。
 
 <br clear="all" />
 
-## The World of Thaumcraft
+## 神秘时代的世界
 
-- **Everything has aspects.** In Thaumcraft, objects have more than an appearance and a purpose: they also contain <Color color="#B7A0D6">aspects</Color> that you can observe and study. Fire, water, order, life and metal can all be described through aspects. Combining aspects produces more complex properties; understanding these relationships is fundamental to research and alchemy.
+- **万物皆有要素。**在神秘时代中，物体不只有外观和用途：它们也含有<Color color="#B7A0D6">要素</Color>，供你观察和研究。火、水、秩序、生命和金属等都可以用要素描述。组合要素会产生更复杂的属性；理解这些关系是研究与炼金的基础。
 
-- **Knowledge becomes infrastructure.** The world also contains <Color color="#B7A0D6">aura nodes</Color> that gather magical energy. Wands can draw Vis from nodes for arcane crafting and wand foci. Essentia extracted from items is used for alchemy, infusion and some magical devices. As your knowledge and facilities improve, you move from manual research and crafting to essentia storage, logistics and automated production.
+- **知识化为基础设施。**世界中也存在汇集魔法能量的<Color color="#B7A0D6">灵气节点</Color>。法杖可以从节点抽取魔力，用于奥术合成和法杖核心。物品中提取的源质则用于炼金、注魔和部分魔法设备。随着知识和设施不断完善，你会从手动研究与合成，逐步转向源质储存、物流和自动化生产。
 
-- **Exploration has consequences.** Processing magical materials can pollute the surrounding environment, while learning forbidden knowledge can give the player Warp. When researching a new ability, learn about its uses, costs and effects together.
+- **探索会带来影响。**处理魔法材料可能污染周围环境，而学习禁忌知识会使玩家获得扭曲。研究新能力时，请一并了解其用途、代价和效果。
 
-## The Thaumonomicon
+## 魔导手册
 
-The <ItemLink id="Thaumcraft:ItemThaumonomicon" showIcon="left" /> is your main source of knowledge about Thaumcraft, containing research explanations, research notes and unlocked recipes. Its research entries provide the operating instructions for individual devices.
+<ItemLink id="Thaumcraft:ItemThaumonomicon" showIcon="left" />是你了解神秘时代的主要知识来源，其中包含研究说明、研究笔记和已解锁配方。各研究条目会提供相应设备的操作说明。
 
-The book has separate tabs for different topics and addons. Research has prerequisites, and some entries only appear after specific scans or other conditions are met. **An entry being absent does not necessarily mean it does not exist.**
+书中设有不同主题和附属模组的独立标签页。研究有前置条件，部分条目只会在完成特定扫描或满足其他条件后出现。**没有看到某条目，并不一定代表它不存在。**
 
-| Content in the Book | Information Provided |
+| 手册内容 | 提供的信息 |
 | --- | --- |
-| Research icons and connections | Prerequisites between research entries and hints about unlocking them |
-| <Color color="#B7A0D6">Research notes</Color> | Research solved at a Research Table, primarily through aspect connections |
-| Research that costs research points | The aspect types and research points required to unlock it |
-| Completed research | Device uses, operating instructions and recipes |
-| <Color color="#D5B77A">Forbidden knowledge markers</Color> | Purple effects and the associated warnings indicate that learning this research may cause Warp |
+| 研究图标与连接线 | 研究条目之间的前置条件及解锁提示 |
+| <Color color="#B7A0D6">研究笔记</Color> | 在研究台上完成的研究，主要通过连接要素解决 |
+| 需要研究点数的研究 | 解锁所需的要素类型和研究点数 |
+| 已完成的研究 | 设备用途、操作说明和配方 |
+| <Color color="#D5B77A">禁忌知识标记</Color> | 紫色效果及相关警告表示学习该研究可能导致扭曲 |
 
-Completed research must be read to unlock its content. **Research unlocks and material requirements are independent:** seeing a recipe in the book does not mean your technology and magical facilities can already produce it.
+必须阅读已完成的研究才能解锁其中内容。**研究解锁与材料需求彼此独立：**手册中能看到配方，并不表示你的科技和魔法设施已经能够生产它。
 
-## Aspects, Research Points, Vis and Essentia
+## 要素、研究点数、魔力与源质
 
-These concepts often use the same aspect icons, but serve different purposes. When you see an icon, first check whether it appears at a Research Table, in a wand or in an essentia container.
+这些概念常使用相同的要素图标，但用途各不相同。看到图标时，先确认它出现于研究台、法杖还是源质容器中。
 
-| Concept | Meaning | Main Uses |
+| 概念 | 含义 | 主要用途 |
 | --- | --- | --- |
-| <Color color="#B7A0D6">Aspects</Color> | Properties that describe items, creatures and magical phenomena | Understanding research combinations and identifying which essentia an item can provide |
-| <Color color="#B7A0D6">Research points</Color> | Research resources accumulated by the player, tracked separately for each aspect | Connecting research notes, combining aspects and unlocking some research |
-| <Color color="#B7A0D6">Vis</Color> | Magical energy stored in a wand, tracked separately for each primal aspect | Crafting at an Arcane Worktable, using wand foci and similar operations |
-| <Color color="#B7A0D6">Essentia</Color> | Aspects extracted from items that can be stored and transported | Alchemy, infusion and some magical devices |
+| <Color color="#B7A0D6">要素</Color> | 描述物品、生物和魔法现象的属性 | 理解研究组合，并辨识物品能够提供哪些源质 |
+| <Color color="#B7A0D6">研究点数</Color> | 玩家积累的研究资源，按要素分别记录 | 连接研究笔记、组合要素及解锁部分研究 |
+| <Color color="#B7A0D6">魔力</Color> | 储存在法杖中的魔法能量，按元始要素分别记录 | 在奥术工作台合成、使用法杖核心及类似操作 |
+| <Color color="#B7A0D6">源质</Color> | 从物品中提取、可储存和运输的要素 | 炼金、注魔及部分魔法设备 |
 
-## Aspects and Research Points
+## 要素与研究点数
 
-The six <Color color="#B7A0D6">primal aspects</Color> are <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Air (Aer), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />Earth (Terra), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />Fire (Ignis), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />Water (Aqua), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />Order (Ordo) and <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />Entropy (Perditio). Compound aspects are formed from two other aspects; NH's addons also expand the aspect system.
+六种<Color color="#B7A0D6">元始要素</Color>是<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />风（Aer）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />地（Terra）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />火（Ignis）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />水（Aqua）、<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />秩序（Ordo）和<ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />混沌（Perditio）。复合要素由其他两种要素构成；NH 的附属模组也扩展了要素系统。
 
-Scanning items, creatures and other targets can reveal aspects and grant research points. Some targets require you to know their component aspects before they can be scanned. Combining aspects at a Research Table can also help you discover new compound aspects. If you lack research points, you need to replenish your research resources; charging a wand will not solve that problem.
+扫描物品、生物和其他目标可以揭示要素并给予研究点数。有些目标要求你先认识其组成要素才能扫描。在研究台上组合要素也能帮助你发现新的复合要素。若缺少研究点数，就需要补充研究资源；给法杖充能无法解决这个问题。
 
-## Vis and Essentia
+## 魔力与源质
 
-Vis in a wand is tracked separately for the six primal aspects. Check the stored amount of each aspect required by an arcane recipe; having one aspect fully charged cannot make up for a shortage of another.
+法杖中的魔力按六种元始要素分别记录。检查奥术配方所需的每种要素储量；某种要素充满也无法弥补另一种要素的不足。
 
-Essentia is usually extracted from items using an Alchemical Furnace or similar facilities, then collected in jars or other containers. A recipe requiring compound aspects such as metal or life is often asking for the corresponding essentia rather than Vis in a wand.
+源质通常通过炼金炉或类似设施从物品中提取，再收集到罐子或其他容器中。配方要求金属或生命等复合要素时，通常需要的是对应源质，而非法杖中的魔力。
 
-Aer Vis required by an Arcane Worktable and Metallum essentia required by infusion come from a wand and an essentia supply system, respectively. **Research points, wand Vis and essentia in jars cannot replace each other.**
+奥术工作台所需的 Aer 魔力来自法杖，注魔所需的 Metallum 源质则来自源质供应系统。**研究点数、法杖魔力和罐中的源质无法互相替代。**
 
-## Nodes and Sources of Magical Energy
+## 节点与魔法能量来源
 
-**Aura nodes** are concentrations of magical energy in the world. Observation tools reveal their aspects, and wands can draw Vis from them. Most nodes gradually regenerate their energy, so finding and managing nodes is an important part of early magical power supply.
+**灵气节点**是世界中聚集的魔法能量。观察工具可以揭示节点中的要素，法杖则能从中抽取魔力。大多数节点会逐渐恢复能量，因此寻找并管理节点是早期魔法供能的重要环节。
 
-Nodes have different types, qualities and aspect compositions. Once you understand them, you can research ways to move, preserve and modify them, using what you find while exploring to supply your base's magical facilities.
+节点的类型、品质和要素构成都各不相同。理解节点后，你可以研究移动、保存和改造它们的方法，并利用探索中发现的节点为基地里的魔法设施供能。
 
 > [!WARNING]
-> When drawing energy from a node with an early wand, avoid casually draining an aspect to zero. <Color color="#D5B77A">Draining a node completely</Color> can damage it and affect its ability to provide energy later. First learn what protections your wand and completed research offer.
+> 使用早期法杖从节点抽取能量时，避免随意将某种要素耗至零。<Color color="#D5B77A">将节点能量完全耗尽</Color>可能损坏节点，影响它日后的供能能力。请先了解法杖和已完成研究提供了哪些保护。
 
-Later, you will also encounter <Color color="#B7A0D6">Centi-Vis</Color>: modified nodes can supply compatible devices with this form of energy. Storing Vis in a wand and building a Centi-Vis supply network are two forms of power supply that you need to understand separately.
+之后你还会遇到<Color color="#B7A0D6">厘魔（Centi-Vis，CV）</Color>：经过改造的节点可以为兼容设备供应这种能量。法杖储存魔力和建立 厘魔 供能网络是两种不同的供能方式，需要分别理解。
 
-## Vis Costs and Discounts
+## 魔力消耗与减免
 
-<Color color="#B7A0D6">Wand capacity</Color> determines how much Vis of each primal aspect the wand can store, while <Color color="#B7A0D6">Vis discounts</Color> reduce the energy actually consumed by an operation. Wand caps and some equipment provide discounts. For more demanding recipes, consider both wand capacity and the discounts available to you.
+<Color color="#B7A0D6">法杖容量</Color>决定法杖能储存多少各类元始要素魔力，而<Color color="#B7A0D6">魔力减免</Color>会降低操作实际消耗的能量。法杖核心和部分装备可以提供减免。面对需求更高的配方时，应同时考虑法杖容量和可用减免。
 
-For example, suppose an arcane recipe has a base requirement of 100 Vis of one aspect, with a total applicable discount of 20%. The actual requirement becomes 80 Vis of that aspect. This allows a wand with a capacity of 80 to satisfy a recipe that originally required 100, but the wand's capacity remains 80.
+例如，某个奥术配方基础需要 100 点某种要素的魔力，适用减免总计为 20%。实际需求会降至该要素魔力 80 点。这样，容量为 80 的法杖就能满足原本需要 100 点魔力的配方，但法杖容量仍为 80。
 
-| Problem | What to Check |
+| 问题 | 检查要点 |
 | --- | --- |
-| The wand has enough capacity but lacks stored energy | Replenish every type of Vis required by the recipe |
-| A fully charged wand still cannot meet the recipe's requirements | Upgrade the wand or increase the discounts applicable to that craft |
-| You have equipment with discounts but still cannot craft | Check the actual requirements, whether the equipment is worn and the stored amount of each aspect |
-| Infusion lacks essentia | Prepare an essentia supply; Vis discounts cannot replace essentia ingredients |
+| 法杖容量足够，但储存的能量不足 | 补充配方所需的每种魔力 |
+| 法杖已充满，仍无法满足配方要求 | 升级法杖，或提高适用于该合成的减免 |
+| 有带减免的装备，却仍无法合成 | 检查实际需求、装备是否穿戴，以及每种要素的储存量 |
+| 注魔缺少源质 | 准备源质供应；魔力减免无法替代源质原料 |
 
-## Flux, Taint and Warp
+## 咒波、腐化与扭曲
 
-Environmental problems and effects on the player need to be understood separately.
+需要分别理解环境问题和对玩家造成的影响。
 
-| Concept | Main Target | What to Know |
+| 概念 | 主要影响对象 | 注意事项 |
 | --- | --- | --- |
-| <Color color="#D5B77A">Flux</Color> | The surrounding environment | Improper magical processing can release pollution; watch your alchemy facilities and their surroundings |
-| <Color color="#D5B77A">Taint</Color> | Terrain, blocks and creatures | An environmental hazard that needs dedicated treatment; investigate its source and control methods when you find it |
-| <Color color="#D5B77A">Warp</Color> | The player | Forbidden research and some actions cause Warp, which can trigger related events |
+| <Color color="#D5B77A">咒波</Color> | 周围环境 | 不当的魔法处理可能释放污染；留意炼金设施及其周边 |
+| <Color color="#D5B77A">腐化</Color> | 地形、方块和生物 | 需要专门处理的环境危害；发现后应调查其来源和控制方法 |
+| <Color color="#D5B77A">扭曲</Color> | 玩家 | 禁忌研究和某些行为会造成扭曲，并可能触发相关事件 |
 
-Cleaning up environmental pollution does not remove the player's Warp, and dealing with Warp does not replace treating a tainted area. Look for forbidden knowledge warnings when reading new research, and consider pollution control when preparing new alchemy facilities.
+清理环境污染不会消除玩家的扭曲，处理扭曲也不能替代对腐化区域的治理。阅读新研究时留意禁忌知识警告，准备新的炼金设施时也要考虑污染控制。
 
 > [!WARNING]
-> Warp Theory adds more Warp events in NH. <Color color="#D5B77A">High Warp</Color> can trigger dangerous events that damage your base. Before pursuing forbidden research, learn about these events and how to respond, and make suitable arrangements for valuable facilities and items.
+> 扭曲理论会在 NH 中增加更多扭曲事件。<Color color="#D5B77A">高扭曲</Color>可能引发破坏基地的危险事件。在追求禁忌研究前，请了解这些事件及应对方法，并为贵重设施和物品做好安排。
 
-## NH-Specific Changes and Mod Integration
+## NH 特有改动与模组联动
 
-NH makes many changes to Thaumcraft's material progression, research and user experience, mainly in the following areas.
+NH 对神秘时代的材料进度、研究和用户体验做了许多改动，主要涉及以下方面。
 
-| Topic | What to Watch For in NH |
+| 主题 | 在 NH 中需要留意的内容 |
 | --- | --- |
-| Wand materials | The usual wand progression involves Twilight Forest boss materials; check current recipes and material sources before crafting |
-| Wand upgrades | Capacity and Vis discounts need to develop together; after completing the relevant research, you can also replace wand rods and caps |
-| Recipe lookup | Use the Thaumonomicon for research and operating instructions, and NEI to check current recipes; the quest book explicitly directs you to NEI for some wand recipes |
-| Scanning conveniences | You can scan items in your inventory; scanning an entire chest still requires the corresponding research |
-| Research and aspect assistance | Aspect Recipe Index and similar features help you find aspect sources, combinations and related recipes |
-| Magical automation | Golems, Automagy and related content provide logistics and automation facilities; Thaumic Energistics connects essentia storage and supply to AE |
-| Technology and magic integration | Addons such as EMT provide tools and devices; GT also has facilities such as the Research Completer and Vis Maintenance Hatch |
-| Other magic paths | Botania and Blood Magic also have connections to Thaumcraft research and materials |
+| 法杖材料 | 常见的法杖升级路线涉及暮色森林首领材料；制作前请核对当前配方和材料来源 |
+| 法杖升级 | 容量和魔力减免需要同步发展；完成相关研究后，还可以更换法杖杖柄与杖端 |
+| 配方查询 | 使用魔导手册查看研究和操作说明，并通过 NEI 核对当前配方；任务书会明确提示部分法杖配方需要查询 NEI |
+| 扫描便利功能 | 可以扫描物品栏中的物品；要扫描整只箱子仍需完成相应研究 |
+| 研究与要素辅助 | 要素配方索引等功能可以帮助查找要素来源、组合方式和相关配方 |
+| 魔法自动化 | 傀儡、魔法自动学及相关内容提供物流和自动化设施；神秘能源将源质储存与供应接入 AE |
+| 科技与魔法联动 | EMT 等附属模组提供工具和设备；GT 也有奥法研究阐释者、Vis自动维护仓等设施 |
+| 其他魔法路线 | 植物魔法和血魔法也与神秘时代的研究和材料有所关联 |
 
-Magic offers movement and building tools, equipment and enchantments, durability repair, material processing, and item and essentia automation. Choose a research direction based on your current needs, then follow its prerequisites to develop the facilities you need.
+魔法提供移动和建造工具、装备与附魔、耐久修复、材料处理，以及物品和源质自动化功能。根据当前需求选择研究方向，再沿着其前置条件逐步建造所需设施。
 
-## Topics
+## 主题
 
-This category organizes guides by topic, with each topic page directly under Thaumcraft. The guides focus on an overview of mechanics, facility uses, resource relationships and NH-specific changes. The Thaumonomicon and NEI provide detailed operating instructions and recipes.
+本分类按主题整理指南，各主题页面都直接位于神秘时代分类下。指南侧重概述机制、设施用途、资源关系和 NH 特有改动。魔导手册与 NEI 提供详细操作说明和配方。
 
-| Chapter | Main Content |
+| 章节 | 主要内容 |
 | --- | --- |
-| [Thaumcraft Basics](./thaumcraft_basics.md) | The Thaumonomicon, aspects, nodes, Warp, Vis, Vis discounts and an overview of the world |
-| [Aspects, Scanning and Research](./aspects_scanning_research.md) | The aspect system, scanning conditions, research points, research notes and prerequisites |
-| [Wands, Vis and Nodes](./wands_vis_nodes.md) | Wand crafting and discounts, Vis sources, node types and cultivation, and Centi-Vis supply |
-| [Alchemy and Essentia](./alchemy_essentia.md) | Crucibles and alchemy devices, essentia production and distribution, pollution control |
-| [Infusion Crafting](./infusion_crafting.md) | Altar components, recipe resources, stability and integration with other devices |
-| [Magic Automation](./magic_automation.md) | Item logistics, inventory control, fluid devices, production support and golem uses |
-| [Warp and Eldritch Knowledge](./warp_eldritch.md) | Warp management, Eldritch research, Opening the Eye, and exploration of the Outer Lands |
-| [Thaumic Tinkerer](./thaumic_tinkerer.md) | Custom enchanting, durability repair, infused crops, elemental fire, and KAMI devices |
-| Addons and GT Integration | Thaumic Energistics, other addon facilities, and GT's magical devices and material connections |
+| [神秘时代基础](./thaumcraft_basics.md) | 魔导手册、要素、节点、扭曲、魔力、魔力减免和世界概览 |
+| [要素、扫描与研究](./aspects_scanning_research.md) | 要素系统、扫描条件、研究点数、研究笔记和前置条件 |
+| [法杖、魔力与节点](./wands_vis_nodes.md) | 法杖制作与减免、魔力来源、节点类型与培育，以及 厘魔 供应 |
+| [炼金与源质](./alchemy_essentia.md) | 坩埚与炼金设备、源质生产和分配、污染控制 |
+| [注魔合成](./infusion_crafting.md) | 祭坛组件、配方资源、稳定性以及与其他设备的联动 |
+| [魔法自动化](./magic_automation.md) | 物品物流、库存控制、流体设备、生产辅助和傀儡用途 |
+| [扭曲与异界知识](./warp_eldritch.md) | 扭曲管理、异界研究、开启之眼以及外域探索 |
+| [神秘工匠](./thaumic_tinkerer.md) | 自定义附魔、耐久修复、注魔作物、元素之火和 KAMI 设备 |
+| 附属模组与 GT 联动 | 神秘能源、其他附属模组设施，以及 GT 的魔法设备和材料关联 |
 
 </Column>

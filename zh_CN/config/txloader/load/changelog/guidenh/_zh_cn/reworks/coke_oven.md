@@ -24,25 +24,25 @@ date: 2026-05-27
 > [!NOTE]
 > 除结构本身外，该多方块结构还进行了以下改动：
 > 新自动化：焦炉现在使用专用的焦炉仓来实现自动化
-> 共墙：由于它们现在是GT多方块结构，因此可以共墙！
+> 共用墙壁：由于它们现在是GT多方块结构，因此可以共用墙壁！
 
 ## 建造
-<Color id="GREEN">焦炉</Color>是一个由焦炉砖围成的空心立方体，其中一面放置控制器。可以通过控制器的GUI手动操作<Color id="GREEN">焦炉</Color>，也可以使用<Color id="RED">焦炉仓</Color> <ItemImage id="gregtech:gt.blockmachines:237"/>来自动输入原料并取出产物。<Color id="RED">焦炉仓</Color>可以替换结构中任意位置的焦炉砖，并在三种可用模式之一下工作：输入、输出（物品）和输出（流体）。用螺丝刀右键点击焦炉仓即可切换模式，用扳手右键点击则可旋转其朝向。焦炉仓没有自己的内部物品栏，因此被破坏时不会掉落物品或清空流体——只有控制器才会这样。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
+<Color id="GREEN">焦炉</Color>是一个由焦炉砖块围成的空心立方体，其中一面放置控制器。可以通过控制器的GUI手动操作<Color id="GREEN">焦炉</Color>，也可以使用<Color id="RED">焦炉仓</Color> <ItemImage id="gregtech:gt.blockmachines:237"/>来自动输入原料并取出产物。<Color id="RED">焦炉仓</Color>可以替换结构中任意位置的焦炉砖块，并在三种可用模式之一下工作：输入、输出（物品）和输出（流体）。用螺丝刀右键点击焦炉仓即可切换模式，用扳手右键点击则可旋转其朝向。焦炉仓没有自己的内部物品栏，因此被破坏时不会掉落物品或清空流体——只有控制器才会这样。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
 
-一座带三个仓的<Color id="GREEN">焦炉</Color>需要114块焦炉砖（锭）、54个铁和18个青铜才能建成。焦炉砖需要消耗190个沙子、114个黏土，以及木制模具（Wooden Form）的38次使用次数。不过，强烈建议在游戏前期收集远多于此的材料，以便建造更多焦炉。
+一座带三个仓的<Color id="GREEN">焦炉</Color>需要114块焦炉砖块（锭）、54个铁和18个青铜才能建成。焦炉砖块需要消耗190个沙子、114个黏土，以及木制模具（Wooden Form）的38次使用次数。不过，强烈建议在游戏前期收集远多于此的材料，以便建造更多焦炉。
 
 ### 所需材料：
 - 1 <ItemLink id="gregtech:gt.blockmachines:236"/><ItemImage id="gregtech:gt.blockmachines:236"/>
 - 0-25 <ItemLink id="gregtech:gt.blockmachines:237"/><ItemImage id="gregtech:gt.blockmachines:237"/>
 - 0+ <ItemLink id="gregtech:gt.blockcasings12"/><ItemImage id="gregtech:gt.blockcasings12"/>
 
-### 共墙
+### 共用墙壁
 <FloatingImage src="../assets/reworks/coke_oven_wallshare.png" displayWidth="128" align="right">
   <ImageAnnotation>
-    四座共墙焦炉的示例
+    四座共用墙壁焦炉的示例
   </ImageAnnotation>
 </FloatingImage>
-<Color id="GREEN">焦炉</Color>的每一面均可与其他机器共墙，以节省焦炉砖和焦炉仓。强烈建议这样做，因为它能节省大量资源并减少所需仓的数量。例如，右侧的图片展示了四座独立的焦炉共同使用位于结构中心处同一个焦炉仓的情形。
+<Color id="GREEN">焦炉</Color>的每一面均可与其他机器共用墙壁，以节省焦炉砖块和焦炉仓。强烈建议这样做，因为它能节省大量资源并减少所需仓的数量。例如，右侧的图片展示了四座独立的焦炉共同使用位于结构中心处同一个焦炉仓的情形。
 
 ## 用途
 <Color id="GREEN">焦炉</Color>主要用于将原木烧制成木炭，但也有其他一些冷门用途，见下表。盆栽树（Bonsai trees）是在游戏前期收集大量原木的绝佳方式。手持任意原版树苗右键点击作物架即可创建盆栽——云杉和丛林木最佳，因为它们每次收获的产出更多。另一种方法是制作一把匠魂伐木斧，反复砍伐神圣橡树，或其他任何一次就能掉落数千根原木的巨型树木。神圣橡树自然生成于神圣泉源（Sacred Springs）生物群系，其树苗可以通过任务书中的任务奖励获得。

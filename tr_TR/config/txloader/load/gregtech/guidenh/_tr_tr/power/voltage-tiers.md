@@ -10,7 +10,7 @@ navigation:
 
 GTNH, ilerlemeyi bir dizi gerilim kademesine böler. Gerilim kademeni ilerletmek, paketin teknolojik ilerlemeyi ölçtüğü başlıca yollardan biridir.
 
-Aşağıdaki tablo her kademenin gerilim aralığını gösterir. **Standart gerilim** her kademenin üst Bağlı değeridir. Çoğu durumda her kademe yukarı çıkışta standart gerilim 4 ile çarpılır. Bir kademenin standart gerilimi genellikle $$2 \times 4^n \text{ V}$$ olur; burada $$n$$ **kademe indeksidir**: ULV 0, LV 1 ve böyle devam eder.
+Aşağıdaki tablo her kademenin gerilim aralığını gösterir. **Standart gerilim**, her kademenin üst bağlı değeridir. Çoğu durumda, her kademe yükselişi standart gerilimi 4 ile çarpar. Bir kademenin standart gerilimi genellikle $$2 \times 4^n \text{ V}$$ olur; burada $$n$$ **kademe indeksidir**: ULV 0, LV 1 ve böyle devam eder.
 
 | Kademe İndeksi | Kısaltma | Tam Ad | Gerilim Aralığı (V) | Standart Gerilim (V) |
 |------------|---------|-----------|-------------------|----------------------|

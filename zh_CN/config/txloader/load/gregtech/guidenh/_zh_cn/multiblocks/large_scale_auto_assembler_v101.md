@@ -10,4 +10,4 @@ navigation:
   icon: gregtech:gt.blockmachines:876
   position: -7001
 ---
-# Large Scale Auto-Assembler v1.01
+# 大规模自动组装机v1.01

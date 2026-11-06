@@ -9,73 +9,73 @@ navigation:
   icon: gregtech:gt.blockmachines:3016
   position: -8001
 ---
-# Beam Mirror
+# 束流反射镜
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:3016" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" /> is a UV tier multiblock for bending particle beams at 90° or 180° angles. 
+<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />是 UV 等级的多方块机器，可将粒子束弯折 90° 或 180°。
 
-The Beam Mirror only supports one beam input hatch and one beam output hatch, but it does not require any power or maintenance to run. Particle beams also do not suffer any penalties or lose any of their stats when passing through the machine. 
+束流反射镜仅支持一个束流输入仓和一个束流输出仓，但运行无需电力或维护。粒子束通过机器时也不会受到任何减益或损失任何属性。
 
-The Beam Mirror is completely optional, but may assist with the [Beam Line](./beam_line.md) and/or the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md). Check the [<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md) and [<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md) to modify beams before processing recipes in the [<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md).
+束流反射镜完全可选，但可辅助[束流线](./beam_line.md)和/或[<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md)。请查看[<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md)和[<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md)，在[<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md)处理配方前调整粒子束。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | UV |
-| Structure Size (LxWxH) | 5x3x5 (90°) |
-| ^^ | 5x3x6 (180°) |
-| Power | None |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| 解锁等级 | UV |
+| 结构尺寸（长×宽×高） | 5x3x5（90°） |
+| ^^ | 5x3x6（180°） |
+| 电力 | 无 |
+| 超频 | 无 |
+| 维护 | 无需维护 |
+| 污染 | 不产生污染 |
 
-## Crafting and Construction
-### Crafting
+## 合成与建造
+### 合成
 <RecipesFor id="gregtech:gt.blockmachines:3016" />
 
 <RecipesFor id="gregtech:gt.blockcasings3:10" />
 
 <RecipesFor id="gtnhlanth:casing.shielded_accelerator" handlerBlacklist="bq_quest" />
 
-### Structure
-The Beam Mirror has no tiered components. 
+### 结构
+束流反射镜没有任意等级部件。
 
-The glass can be any tier and has no effect on the operation of the machine. 
+玻璃可以是任意等级，不会影响机器运行。
 
-The Beam Mirror can be rotated or flipped.
+束流反射镜可以旋转或翻转。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and the projector stack size to specify the angle (1 for 90°, and 2 for 180°).
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 可预览/建造结构，并通过子信道“glass”指定玻璃等级，通过投影器堆叠数量指定角度（1 为 90°，2 为 180°）。
 
 <ContentTabs>
-  <Tab title="90° Structure">
-  | Component | Quantity and placement |
+  <Tab title="90° 结构">
+  | 部件 | 数量与位置 |
   | --- | --- |
-  | <ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" /> | 1, Front bottom center |
+  | <ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" /> | 1 个，正面底部中央 |
   | <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> | 31 |
-  | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 9, Cover both ends of the machine |
-  | <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 5 |
-  | <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1, Above controller |
-  | <ItemImage id="gregtech:gt.blockmachines:10504" noTooltip /><Tooltip label="Beam Output Hatch">Normal/Filtered both supported</Tooltip> | 1, Top of the side opposite the controller, must be rotated so its back faces the glass |
+  | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 9 个，覆盖机器两端 |
+  | <ItemImage id="bartworks:BW_TieredGlass" />任意等级玻璃 | 5 个 |
+  | <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1 个，控制器上方 |
+  | <ItemImage id="gregtech:gt.blockmachines:10504" noTooltip /><Tooltip label="束流输出仓">普通/过滤型均可</Tooltip> | 1 个，位于控制器对侧顶部，旋转方向须使背面朝向玻璃 |
   </Tab>
 
-  <Tab title="180° Structure">
-  | Component | Quantity and placement |
+  <Tab title="180° 结构">
+  | 部件 | 数量与位置 |
   | --- | --- |
-  | <ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" /> | 1, Front bottom center |
+  | <ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" /> | 1 个，正面底部中央 |
   | <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> | 52 |
-  | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 9, Cover both ends of the machine |
-  | <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 8 |
-  | <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1, Above controller |
-  | <ItemImage id="gregtech:gt.blockmachines:10504" noTooltip /><Tooltip label="Beam Output Hatch">Normal/Filtered both supported</Tooltip> | 1, Top of the side opposite the controller, must be rotated so its back faces the glass |
+  | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 9 个，覆盖机器两端 |
+  | <ItemImage id="bartworks:BW_TieredGlass" />任意等级玻璃 | 8 个 |
+  | <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1 个，控制器上方 |
+  | <ItemImage id="gregtech:gt.blockmachines:10504" noTooltip /><Tooltip label="束流输出仓">普通/过滤型均可</Tooltip> | 1 个，位于控制器对侧顶部，旋转方向须使背面朝向玻璃 |
   </Tab>
 </ContentTabs>
 
 
-### Wallshare
+### 共用墙壁
 
-Beam Mirrors may wallshare each of their sides to save on casings. Sharing is useful for bending the outputs of the [<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md) because the beam output hatches are so close together.
+束流反射镜的每一侧都可以与其他机器共用墙壁，以节省机械方块。共用[<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md)的输出端很有用，因为束流输出仓彼此距离很近。
 
-## References
+## 参考资料
 
-- [GTNH Wiki : Beam Mirror](https://wiki.gtnewhorizons.com/wiki/Beam_Mirror)
+- [GTNH Wiki：束流反射镜](https://wiki.gtnewhorizons.com/wiki/Beam_Mirror)

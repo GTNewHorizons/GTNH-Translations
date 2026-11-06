@@ -12,7 +12,7 @@ navigation:
 
 # 损耗率
 
-每根[导线与线缆](cable.md)都有线缆损耗率参数（在提示信息中显示为“loss/m/amp: x V”）。设损耗率为 $$\rho$$、导线长度为 $$L$$，则能量包穿过导线后的实际输入电压为：
+每根[导线与线缆](cable.md)都有线缆损耗率参数（在tooltip 中显示为“loss/m/amp: x V”）。设损耗率为 $$\rho$$、导线长度为 $$L$$，则能量包穿过导线后的实际输入电压为：
 
 $$U_{\text{input}} = U_{\text{output}} - \rho L_{\text{wire}}$$
 

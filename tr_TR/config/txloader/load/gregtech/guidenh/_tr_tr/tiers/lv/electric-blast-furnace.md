@@ -21,7 +21,7 @@ quest_ids:
 ```filetree
 |-- **Source**:         [GregTech5u](https://github.com/GTNewHorizons/GT5-Unofficial/blob/master/src/main/java/gregtech/common/tileentities/machines/multi/MTEElectricBlastFurnace.java)
 |-- **Machine Type**:   Blast Furnace
-|-- **Tier**:           [LV](./tier-lv-index.md)
+|-- **Kademe**:           [LV](./tier-lv-index.md)
 |-- **Details**
 |   |-- **Size**:                   3x3x4
 |   |-- **Energy Hatches**:         Standard

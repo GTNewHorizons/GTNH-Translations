@@ -9,4 +9,4 @@ navigation:
   icon: gregtech:gt.blockmachines:15563
   position: -9001
 ---
-# Electric Implosion Compressor
+# 电动聚爆压缩机

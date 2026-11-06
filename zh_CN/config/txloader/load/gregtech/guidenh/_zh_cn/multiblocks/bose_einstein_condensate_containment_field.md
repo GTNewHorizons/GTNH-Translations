@@ -9,28 +9,28 @@ navigation:
   icon: gregtech:gt.blockmachines:15755
   position: -11001
 ---
-# Bose-Einstein Condensate Containment Field
+# 玻色-爱因斯坦凝聚态物质约束场
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15755" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left" /> is a UIV tier multiblock for storing entangled condensate in the [BEC Line](./bose_einstein_condensate_line.md)--similar to a fluid tank. 
+<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left" />是 UIV 等级的多方块机器，用于在[BEC 生产线](./bose_einstein_condensate_line.md)中储存纠缠凝聚态物质，类似流体储罐。
 
-Entangled condensate is generated in the [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Entanglement Apparatus</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md) and transferred to the Containment Field via BEC hatches. 
+纠缠凝聚态物质由[<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">玻色-爱因斯坦凝聚态物质纠缠装置</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md)生成，并通过玻色-爱因斯坦凝聚态物质仓（BEC 仓）输送至约束场。
 
-Stored condensate is exposed to all [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) on the current network and only ever leaves the machine when requested by an IO Node for a recipe.
+储存的凝聚态物质会提供给当前网络中的所有[<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">观测阵列</ItemLink>](./bose_einstein_condensate_observation_array.md)，仅当玻色-爱因斯坦凝聚态物质传送节点（IO 节点）为配方发出请求时，才会离开约束场。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | UIV |
-| Structure Size (LxWxH) | 45x45x17 |
-| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| 解锁等级 | UIV |
+| 结构尺寸（长×宽×高） | 45x45x17 |
+| 电力 | 允许使用任意仓，包括多A仓和激光仓 |
+| 超频 | 无 |
+| 维护 | 无需维护 |
+| 污染 | 不产生污染 |
 
-## Crafting and Construction
-### Crafting
+## 合成与建造
+### 合成
 <RecipesFor id="gregtech:gt.blockmachines:15755" handlerBlacklist="gt.recipe.researchStation" />
 
 <RecipesFor id="gregtech:gt.blockglass1:9" handlerBlacklist="gt.recipe.researchStation" />
@@ -47,23 +47,21 @@ Stored condensate is exposed to all [<ItemLink id="gregtech:gt.blockmachines:157
 
 <RecipesFor id="gregtech:gt.blockcasings.bec:5" handlerBlacklist="gt.recipe.researchStation" />
 
-### Structure
+### 结构
 
-The Containment Field has no tiered components. 
+约束场没有任意等级部件。
 
-Multi-amp and laser energy hatches are supported for greatly increasing the capacity of the machine. 
+支持多A能源仓和激光能源仓，可大幅提高机器容量。
 
-The Containment Field can be rotated or flipped.
+约束场可以旋转或翻转。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 可预览/建造结构。
 
-Unique to the Containment Field is the <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> which emits a redstone signal if the set condition inside its GUI is true.  
-There is a filter for specifying a particular type of entangled condensate, a comparison operator, and a threshold value.  
-For example, emit a redstone signal if entangled infinity condensate is greater than or equal to 100,000L. Leave the filter blank to sum all stored condensates together.
+约束场独有<ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" />：当 GUI 中设置的条件成立时，它会发出红石信号。可设置过滤器指定特定类型的纠缠凝聚态物质、比较运算符和阈值。例如，纠缠无限凝聚态物质大于或等于 100,000L 时发出红石信号。过滤器留空则会汇总所有已储存的凝聚态物质。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left" /> | 1, Front center, 3rd layer |
+| <ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left" /> | 1 个，正面中央，第 3 层 |
 | <ItemLink id="gregtech:gt.blockglass1:9" showIcon="left" /> | 1236 |
 | <ItemLink id="gregtech:gt.blockcasings.bec" showIcon="left" /> | 1045 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:4" showIcon="left" /> | 896 |
@@ -71,32 +69,30 @@ For example, emit a redstone signal if entangled infinity condensate is greater 
 | <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> | 508 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> | 439-442 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:5" showIcon="left" /> | 324-343 |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
-| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 1-4, Replaces the <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> on each of the four sides of layer 9 |
-| <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> | 0+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">可使用普通、多A或激光型</Tooltip> | 1 个以上，可替换任意 <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 1-4 个，替换第 9 层四侧各自的 <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> | 0 个以上，可替换任意 <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
 
-### Wallsharing
+### 共用墙壁
 
-Containment Field may wallshare each of their sides to save lots of blocks, but since the capacity can be increased virtually infinitely with a single Containment Field via the GUI, more than one is generally not built.
+约束场的每一侧都可以与其他机器共用墙壁，以节省大量方块；不过，单台约束场即可通过 GUI 将容量近乎无限地提高，因此通常不会建造多台。
 
-## Usage
+## 用途
 
-The Containment Field is the second step in the [BEC Line](./bose_einstein_condensate_line.md) and stores entangled condensate until it is requested by an [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Node</ItemLink>](./bose_einstein_condensate_teleportation_node.md) for a recipe. Condensate both enters and leaves the Containment Field through BEC hatches on the sides of the structure and is exposed to all [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) on the current network. Optionally, use a [<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left">Maxwell Gate</ItemLink>](./bose_einstein_condensate_maxwell_gate.md) to filter and limit the direction of condensate flow--similar to a diode and fluid filter.
+约束场是[BEC 生产线](./bose_einstein_condensate_line.md)的第二步，用于储存纠缠凝聚态物质，直到[<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">传送节点</ItemLink>](./bose_einstein_condensate_teleportation_node.md)为配方发出请求。凝聚态物质通过结构侧面的玻色-爱因斯坦凝聚态物质仓进出约束场，并提供给当前网络中的所有[<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">观测阵列</ItemLink>](./bose_einstein_condensate_observation_array.md)。可以选择使用[<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left">玻色-爱因斯坦凝聚态物质麦克斯韦门</ItemLink>](./bose_einstein_condensate_maxwell_gate.md)过滤并限制凝聚态物质流向，类似二极管和流体过滤器。
 
-The field strength of the Containment Field is set manually in the GUI of the controller by clicking the "Edit Parameter" button<FloatingImage src="gtnhintergalactic:textures/gui/overlay_button/options.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={4.0} scaleY={4.0} />(or with OpenComputers) and determines both the maximum capacity and passive power consumption of the machine; every 1 unit of field strength increases the maximum capacity by 1L at the cost of 1 EU/t. It is not possible to filter or partition the storage based on condensate type.
+在控制器 GUI 中点击“编辑参数”按钮<FloatingImage src="gtnhintergalactic:textures/gui/overlay_button/options.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={4.0} scaleY={4.0} />（或通过 OpenComputers），即可手动设置约束场的场强；该数值决定机器的最大容量和被动耗电量。场强每增加 1 单位，最大容量增加 1L，代价为 1 EU/t。无法根据凝聚态物质类型过滤或划分储存空间。
 
-The maximum capacity is only a soft cap since excess condensate can still enter the Containment Field, but 11% of all condensate is voided each second until it falls back below the maximum capacity. This penalty applies evenly to all stored condensates and never prioritizes any one over the others.  
-Avoid this penalty by setting the field strength really high, or by using an unfiltered <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> to disable the [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Entanglement Apparatus</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md) with a machine controller cover when condensate levels get too high.
+最大容量只是软上限，超过容量的凝聚态物质仍可进入约束场，但每秒会有 11% 的所有凝聚态物质被销毁，直到容量降回上限以下。该惩罚平均作用于所有已储存凝聚态物质，不会优先处理任何一种。将场强设得足够高，或在凝聚态物质过多时使用未过滤的<ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" />配合机器控制覆盖板禁用[<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">纠缠装置</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md)，即可避免此惩罚。
 
 > [!CAUTION]
-> The Containment Field voids all of its contents if it ever powerfails or is manually disabled. Keep it running at all times while in use unless it is absolutely necessary to shut it down.
+>如果约束场发生电力故障或被手动禁用，其所有内容都会被 销毁。使用期间应始终保持运行，除非绝对有必要停机。
 
-If multiple Containment Fields are available on the same network, then the condensate inserted into network is split proportional to their total field strength.  
-For example, if one Containment Field has a 150,000 field strength and another has a 50,000 field strength, then the former receives 75% of the condensate and the latter receives only 25% of the condensate.
+如果同一网络上有多个约束场，注入网络的凝聚态物质会按各自场强总量的比例分配。例如，一个约束场场强为 150,000，另一个为 50,000，则前者接收 75% 的凝聚态物质，后者接收 25%。
 
-### OpenComputers Integration
+### OpenComputers 集成
 
-The Containment Field is automatable with OpenComputers and has a few additional functions/methods compared to standard GregTech multiblocks, as seen below. These can be used to dynamically change the field strength of the Containment Field based on the current condensate levels as an extra protection against voiding.
+约束场可通过 OpenComputers 自动化；与普通 GregTech 多方块机器相比，它还提供一些额外功能/方法，如下所示。这些功能可根据当前凝聚态物质储量动态调整约束场场强，作为防止凝聚态物质被销毁的额外保护。
 
 ```lua
 -- List all available methods for the Containment Field
@@ -135,5 +131,5 @@ function BecStorageComponentProxy.getFieldStrength() end
 function BecStorageComponentProxy.setFieldStrength(strength) end
 ```
 
-## References
-- [GTNH Wiki : Bose-Einstein Condensate Containment Field](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Containment_Field)
+## 参考资料
+- [GTNH Wiki：玻色-爱因斯坦凝聚态物质约束场](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Containment_Field)

@@ -9,7 +9,7 @@ navigation:
   position: 50
 ---
 
-# Infusion Crafting
+# 注魔合成
 
 <Column width="600" align="center" gap="8">
 
@@ -17,151 +17,142 @@ navigation:
   <FloatingImage src="/assets/images/thaumcraft_logo.png" x="50" y="132" width="2078" height="445" displayWidth="300" wrap="inline" title="Thaumcraft" />
 </Column>
 
-**Infusion Crafting** infuses essentia and surrounding ingredients into a central item to create wand components, magical devices, equipment, and materials for mod integration.<br>
-As research progresses, the same altar can also handle equipment upgrades and infusion enchanting.
+**注魔合成**将源质和周围的原料注入中央物品，以制造法杖组件、魔法设备、装备和模组联动材料。<br>随着研究推进，同一座祭坛还可以用于装备升级和注魔附魔。
 
-Using an Infusion Altar requires attention to <Color color="#B7A0D6">recipes, stability, and essentia supply</Color>.<br>
-In GTNH, Thaumic Energistics, Infusion Claws, Infusion Intercepters, and other devices can handle supply and activation, allowing the altar to support continuous production.
+使用注魔祭坛时，需要留意<Color color="#B7A0D6">配方、稳定性和源质供应</Color>。<br>在 GTNH 中，神秘能源、注魔爪、注魔截流者及其他设备可以处理供料和启动，让祭坛支持连续生产。
 
-## The Infusion Altar
+## 注魔祭坛
 
 <GameScene interactive={true} wrap="square" align="right" width="240" height="220" showBackground={false} allowLayerSlider={false} gridButtonEnabled={false}>
   <ImportStructure src="/assets/structures/infusion_altar.snbt" />
 </GameScene>
 
-The altar's main structure consists of one <ItemLink id="Thaumcraft:blockStoneDevice:2" showIcon="left" />, a central <ItemLink id="Thaumcraft:blockStoneDevice:1" showIcon="left" />, and four pillars. The pillars are built from <ItemLink id="Thaumcraft:blockCosmeticSolid:6" showIcon="left" /> and <ItemLink id="Thaumcraft:blockCosmeticSolid:7" showIcon="left" />, becoming Infusion Pillars when activated with a wand.
+祭坛的主体结构由一个<ItemLink id="Thaumcraft:blockStoneDevice:2" showIcon="left" />、一个中央<ItemLink id="Thaumcraft:blockStoneDevice:1" showIcon="left" />和四根柱子组成。柱子由<ItemLink id="Thaumcraft:blockCosmeticSolid:6" showIcon="left" />和<ItemLink id="Thaumcraft:blockCosmeticSolid:7" showIcon="left" />搭建，使用法杖激活后会成为注魔桩。
 
-The central pedestal sits two blocks directly below the matrix and holds the item being infused. Additional pedestals around it hold the recipe ingredients. The scene shows an activated altar and a set of outer pedestals, which can be expanded to suit recipes.
+中央基座位于矩阵正下方两格处，用来放置被注魔物品。周围的额外基座用于放置配方原料。图中展示了已激活的祭坛和一组外围基座，可根据配方需要扩建。
 
-- **Structure activation:** Complete Infusion research, build the structure shown in the Thaumonomicon, and right-click the matrix with a wand. Leave the empty spaces within the main structure clear; logistics devices can be connected after activation.
-- **Outer pedestal range:** Pedestals must be below the matrix, within 8 blocks along each horizontal axis, X and Z, and no more than 10 blocks below it.
-- **Pedestal layers:** Only one outer pedestal is recognized per vertical column. Offset their horizontal positions when using multiple layers.
-- **Space allocation:** Leave room below the central pedestal for an essentia connection and below the surrounding pedestals for item logistics. An Infusion Claw can be installed above the matrix.
+- **结构激活：** 完成注魔研究，按照魔导手册所示搭建结构，再用法杖右键点击矩阵。主体结构内部的空位须保持空置；激活后再连接物流设备。
+- **外围基座范围：** 基座必须位于矩阵下方，沿水平 X、Z 轴各不超过 8 格，且垂直方向最多低于矩阵 10 格。
+- **基座层数：** 每个垂直列只会识别一个外围基座。使用多层时，请错开它们的水平位置。
+- **空间规划：** 为中央基座下方的源质接口和周围基座下方的物品物流留出空间。注魔爪可以安装在矩阵上方。
 
-## Recipes and the Crafting Process
+## 配方与合成流程
 
-An infusion recipe requires a central item, outer ingredients, the specified essentia, and the relevant research completed by the player activating it. The Thaumonomicon and NEI show the current recipe's items, essentia quantities, and instability.
+注魔配方需要中央物品、外围原料、指定源质，以及负责启动注魔的玩家已完成相关研究。魔导手册和 NEI 会显示当前配方的物品、源质和不稳定度。
 
-A standard altar first draws essentia, then absorbs the outer ingredients one by one. The finished item remains on the central pedestal. Outer ingredient positions can be rearranged, provided their types and quantities match the recipe.
-
-> [!WARNING]
-> A standard altar does not check that all required essentia is available before starting. Missing essentia or ingredients knocked off pedestals stall the ritual while risk checks continue, increasing instability or essentia requirements. Prepare the essentia and ingredients and check altar stability before crafting.
-
-Each outer ingredient entry occupies a separate pedestal. When a recipe requires the same ingredient several times, multiple pedestals are needed for matching. Returned containers or reusable ingredients may remain on their pedestals; arrange their collection for batch production.
-
-## Pedestal Layout and Stability
-
-The altar checks <Color color="#B7A0D6">central symmetry</Color>: two positions at the same height correspond when rotated 180° around the matrix's vertical axis. For example, a pedestal three blocks east and one block north of the matrix pairs with one three blocks west and one block south.
-
-- **Pair pedestals:** Each outer pedestal should have a corresponding pedestal on the opposite side. Empty pedestals also count toward symmetry.
-- **Pair occupied positions:** Two opposite pedestals remain balanced when both hold ingredients, which can be different items. Additional stabilizers can compensate for the occupancy imbalance caused by an odd number of ingredients.
-- **Remove unused ingredients:** Items on other pedestals within range participate in recipe matching. Leaving ingredients from another craft may prevent the recipe from being recognized.
-- **Check after adjustments:** Use an Arcane Abacus after adding or removing pedestals, moving stabilizers, or connecting addon devices.
-
-The recipe's instability and the altar's environmental modifier together determine the initial risk of the ritual. Stabilizers should offset the target recipe's risk and leave a margin for shortages and automatic activation devices.
-
-An <ItemLink id="WitchingGadgets:item.WG_Material:7" showIcon="left" /> reads the matrix's stability, identifies unpaired stabilizers, and shows risk and essentia cost information for the current or available recipe.<br>
-Arrange the pedestals and stabilizers first, then place the target recipe's ingredients to check the result.
-
-## Placing Stabilizers
-
-Stabilizers include candles, skulls, crystals, and suitable blocks from addons. Blocks with a tooltip indicating that they can stabilize an Infusion Altar can be found in NEI and used around the altar.
-
-A <ItemLink id="thaumicbases:quicksilverBlock" showIcon="left" /> is a common choice in GTNH and suits a foundation with multiple layers of stabilizers. Candles, skulls, and other valid stabilizers can also be used according to the materials available.
-
-- **Effective range:** Up to 12 blocks along each of the X and Z axes, 5 blocks above, and 10 blocks below the matrix.
-- **Pairing:** Place valid stabilizers at the same height in positions centrally symmetric about the matrix. Unpaired stabilizers increase instability.
-- **Multiple layers:** Each layer needs its own symmetry. Stabilizers can be placed beneath the altar to leave space at ground level for access and logistics.
-- **Central column:** The vertical column directly above and below the matrix is excluded from ordinary stabilizer symmetry checks.
-
-Every 10 ordinary stabilizers placed in pairs provide 1 point of stability in total. For larger foundations, keep each layer's boundary complete and use an Arcane Abacus to locate missing blocks.
-
-Other valid blocks within the stabilizer range also count. Nearby decorations, another altar's stabilizers, and blocks added later can affect the existing altar's stability.
-
-## Essentia Supply
-
-A standard altar draws the required aspects from essentia sources near the matrix. Each <ItemLink id="Thaumcraft:blockJar:0" showIcon="left" /> holds 64 points; prepare several jars of the same type when an aspect's requirement exceeds one jar.
-
-- **Jar supply:** Suitable for a small set of recipes or occasional infusions. Prepare each required aspect separately.
-- <ItemLink id="Thaumcraft:blockMirror:6" showIcon="left" />: Linked pairs supply the altar with essentia from a distant storage area.
-- <ItemLink id="thaumicenergistics:thaumicenergistics.block.infusion.provider" showIcon="left" />: Once connected to an ME network, it lets the altar draw essentia from network stocks. Place it within the altar's draw range to reduce jar transport.
-
-When a required aspect is out of stock, an Infusion Provider can request essentia autocrafting in batches of 32 points.<br>
-This requires an available pattern and crafting CPU. Keeping common aspects in stock reduces waiting during continuous infusion.
-
-A standard matrix still draws essentia in successive steps. More aspect types and larger quantities make this stage take longer. Recipes with high essentia demand can use an Infusion Intercepter or Advanced Infusion Provider.
-
-Refer to the "Alchemy and Essentia" chapter for production, storage, and transport. When several altars share stocks, account for their combined demand during simultaneous operation.
-
-## Infusion Accidents and Losses
-
-Unstable infusions can knock ingredients off pedestals, destroy ingredients, release Flux, or harm nearby entities.<br>
-Missing ingredients delay crafting, increasing the chance of further accidents.
-
-- **Destroyed ingredients:** Replace the missing items. For valuable recipes, prepare spare outer ingredients where possible.
-- **Essentia stops flowing:** Check which aspects the matrix still needs, jar contents, provider stocks, and supply paths.
-- **Essentia demand increases:** Replenish the quantities currently required by the ritual and address the shortage. Further waiting may cause additional losses.
-- **Flux spills:** Place Flux cleanup devices near the altar and leave access for replenishing ingredients and collecting items.
+标准祭坛会先抽取源质，再逐一吸收外围原料。成品会留在中央基座上。外围原料的位置可以调整，只要种类和数量符合配方即可。
 
 > [!WARNING]
-> Essentia and ingredients already absorbed are not automatically returned when an infusion is interrupted. Removing or replacing the central item may terminate the ritual. Automatic product collection should also wait until crafting is complete to avoid extracting the input early.
+> 标准祭坛不会在启动前检查所需源质是否全部到位。源质不足或原料被撞下基座时，仪式会停滞，但风险检查仍会继续，从而增加不稳定度或源质需求。合成前请备足源质和原料，并检查祭坛稳定性。
 
-If accidents recur, improve altar stability and resolve supply problems before consuming more materials. For high-risk recipes, reduce the time spent waiting for essentia or missing ingredients.
+每项外围原料都要占据一个独立基座。配方多次需要同一种原料时，必须使用多个基座来匹配。返还的容器或可重复使用的原料可能会留在基座上；批量生产时请规划好收集方式。
 
-## Infusion Enchanting
+## 基座布局与稳定性
 
-After completing **Infusion Enchantment** research, the altar can apply supported enchantments to tools, weapons, and armor. These recipes require experience as well as items and essentia, drawing it from players near the altar.
+祭坛会检查<Color color="#B7A0D6">中心对称</Color>：同一高度的两个位置，绕矩阵竖直轴旋转 180 度后彼此对应。例如，位于矩阵东侧三格、北侧一格的基座，对应西侧三格、南侧一格的位置。
 
-- **Higher enchantment levels:** Repeat the same enchantment until its permitted maximum level. Higher levels require more essentia and experience.
-- **Existing enchantments:** Other enchantments on the item increase resource costs and instability. Check the base requirements in the book against the target item's current state.
-- **Applicability and compatibility:** Enchantment rules still determine whether an enchantment applies to an item and can coexist with its existing enchantments.
+- **基座成对：** 每个外围基座都应在另一侧有对应基座。空基座也计入对称检查。
+- **占用位置成对：** 两个相对的基座都放有原料时仍然平衡，且原料可以不同。原料数量为奇数导致占用不平衡时，可用额外稳定器补偿。
+- **移除无关原料：** 范围内其他基座上的物品也会参与配方匹配。若留有其他合成的原料，可能导致配方无法识别。
+- **调整后检查：** 添加或移除基座、移动稳定器或连接附属设备后，使用奥术计算器进行检查。
 
-When preparing a set of equipment, plan the processing order around the desired final enchantments and use an Arcane Abacus to check the costs for the current item. Equipment with several enchantments benefits from an altar with a larger stability margin.
+配方的不稳定度和祭坛的环境修正共同决定仪式的初始风险。稳定器应抵消目标配方的风险，并为材料短缺和自动启动设备留出余量。
 
-NH's addons also provide devices such as the Osmotic Enchanter and Overchanting Table. Their recipes, resource costs, and level rules are described in their own research entries.
+<ItemLink id="WitchingGadgets:item.WG_Material:7" showIcon="left" />可以读取矩阵的稳定性、找出未配对的稳定器，并显示当前或可用配方的风险及源质消耗信息。<br>先安排好基座与稳定器，再放入目标配方的原料以检查结果。
 
-## Automatic Activation and Item Logistics
+## 放置稳定器
 
-An <ItemLink id="gadomancy:BlockInfusionClaw" showIcon="left" /> is installed above the Runic Matrix. With a wand or staff inside, it can trigger infusion through a redstone signal from a side. The device is bound to its owner and uses that player's research for recipe recognition.
+稳定器包括蜡烛、头颅、水晶及附属模组中的适用方块。可以在 NEI 中查找tooltip 注明可稳定注魔祭坛的方块，并将其放在祭坛周围。
 
-The Infusion Claw needs Vis replenishment for its wand and can receive power from a Centi-Vis network.<br>
-It adds instability to the rituals it activates. A wand with greater capacity or a suitable staff reduces this effect.
+<ItemLink id="thaumicbases:quicksilverBlock" showIcon="left" />是 GTNH 中常用的选择，适合搭建多层稳定器地基。也可根据手头材料使用蜡烛、头颅和其他有效稳定器。
 
-Item automation mainly handles the following tasks:
+- **有效范围：** 沿 X 和 Z 轴各最多 12 格、矩阵上方 5 格，以及矩阵下方 10 格。
+- **配对：** 在矩阵周围中心对称的位置、相同高度上放置有效稳定器。未配对的稳定器会增加不稳定度。
+- **多层结构：** 每一层都必须各自满足对称。可以将稳定器放在祭坛下方，为地面层的出入和物流留出空间。
+- **中央竖列：** 矩阵正上方和正下方的竖直列不参与普通稳定器的对称检查。
 
-- **Central item allocation:** Send the central item and outer ingredients to their assigned pedestals. Maintain correct allocation rules when several recipes share an altar.
-- **Individual outer inputs:** Each ingredient entry needs a pedestal, including repeated occurrences of the same ingredient.
-- **Activation control:** Trigger the Infusion Claw after the ingredients are in place. For continuous production, wait for the previous craft to finish.
-- **Product collection:** Identify and extract the finished item from the central pedestal. Also handle containers or reusable ingredients left on outer pedestals.
+每放置 10 个成对的普通稳定器，总共提供 1 点稳定性。搭建较大的地基时，请确保每层边界完整，并使用奥术计算器查找缺失方块。
 
-An ME network can manage inputs and products, while redstone, OC, or other control devices coordinate activation and collection.<br>
-Handle returned containers or leftover ingredients before the next craft begins to prevent continuous production from stalling.
+稳定器范围内的其他有效方块也会计入。附近的装饰物、另一座祭坛的稳定器以及之后增添的方块，都可能影响现有祭坛的稳定性。
 
-For Centi-Vis sources and connections, see [Wands, Vis and Nodes](./wands_vis_nodes.md).
+## 源质供应
 
-## Increasing Infusion Speed
+标准祭坛会从矩阵附近的源质来源抽取所需要素。每个<ItemLink id="Thaumcraft:blockJar:0" showIcon="left" />可容纳 64 点；若某种要素的需求超过一罐，请准备多罐同类型源质。
 
-An <ItemLink id="thaumicinsurgence:infusionIntercepter" showIcon="left" /> is installed directly below the central pedestal and receives essentia through its bottom face.<br>
-Connect essentia tubes or a Thaumic Energistics Essentia Provider below it to send the required essentia directly into the corresponding Runic Matrix.
+- **罐子供应：** 适合少量配方或偶尔进行注魔。分别准备每种所需要素。
+- <ItemLink id="Thaumcraft:blockMirror:6" showIcon="left" />：成对连接后，可从远处的储存区向祭坛供应源质。
+- <ItemLink id="thaumicenergistics:thaumicenergistics.block.infusion.provider" showIcon="left" />：接入 ME 网络后，祭坛便可从网络库存抽取源质。将其放在祭坛的抽取范围内，可减少罐子的搬运。
 
-With an ME Essentia Provider and sufficient stocks at the input, it can supply large amounts of essentia very quickly. With tubes, actual supply speed limits its performance. It serves only the altar directly above it; activate the main altar structure before installing it.
+所需要素库存不足时，注魔供应器可以请求源质自动合成，每批 32 点。<br>这需要可用样板和合成 CPU。让常用要素保持库存，可减少连续注魔时的等待。
 
-An <ItemLink id="thaumicenergistics:thaumicenergistics.block.advanced.infusion.provider" showIcon="left" /> supplies all required essentia to an active infusion at once and requests autocrafting for the quantities missing.<br>
-It can bind to multiple matrices within 12 blocks along each of the X and Z axes and 5 blocks vertically.
+标准矩阵仍会逐步抽取源质。要素种类越多、数量越大，这个阶段耗时越长。源质需求很高的配方可以使用注魔截流者或高级注魔供应器。
 
-- **Infusion Intercepters** provide fast essentia supply for individual altars.
-- **Advanced Infusion Providers** let multiple altars share network stocks and essentia autocrafting.
-- **World Accelerators** can speed up matrix operation further, but first ensure adequate stability and supply. Acceleration during shortages also speeds up risk checks while the ritual is stalled.
+生产、储存和运输请参阅“炼金与源质”章节。多座祭坛共用库存时，请将同时运作时的总需求考虑在内。
 
-Once essentia supply takes less time, absorbing outer ingredients individually still contributes to crafting time. To expand production, arrange multiple altars according to the number of recipes and ingredients, with complete input and collection control for each.
+## 注魔事故与损耗
 
-## Troubleshooting
+不稳定的注魔可能将原料撞下基座、摧毁原料、释放咒波或伤害附近实体。<br>原料缺失会拖延合成，增加进一步发生事故的概率。
 
-- **Right-clicking with a wand does not start infusion:** Check structure activation, research completion, the central item and outer ingredients, and any unrelated ingredients left within range.
-- **Some outer ingredients are not recognized:** Check whether their pedestals are below the matrix, within range, and share a vertical column with another pedestal.
-- **Risk remains high after placing stabilizers:** Use an Arcane Abacus to check asymmetric positions, stabilizer range, and occupied outer pedestals. Include the extra instability from an Infusion Claw when using one.
-- **An Infusion Claw does not start the recipe:** Check the owner's research, the inserted wand, power supply, and redstone trigger, then verify the recipe ingredients on the altar.
-- **An Intercepter supplies no essentia:** Check that it is directly below the central pedestal, its bottom face connects to a valid essentia source, and the source contains the required aspects.
-- **Automation completes only the first craft:** Check collection of the central product and outer leftovers, allocation of the next set of ingredients, and whether the activation signal triggers again.
+- **原料被摧毁：** 补上缺失物品。对于贵重配方，尽可能预备额外的外围原料。
+- **源质停止流动：** 检查矩阵仍然需要哪些要素、罐内内容、供应器库存和供应路径。
+- **源质需求增加：** 补足仪式当前需要的数量并解决短缺。继续等待可能导致更多损失。
+- **咒波溢出：** 在祭坛附近放置咒波清理设备，并留出补充原料和收集物品的通道。
+
+> [!WARNING]
+> 注魔中断时，已吸收的源质和原料不会自动返还。移除或更换中央物品可能会终止仪式。自动收取成品的操作也应等到合成完成后再进行，以免过早取出输入物品。
+
+如果事故反复发生，请先提高祭坛稳定性并解决供应问题，再投入更多材料。对于高风险配方，应尽量减少因等待源质或缺失原料而停滞的时间。
+
+## 注魔附魔
+
+完成**注魔附魔**研究后，祭坛可以为工具、武器和盔甲施加受支持的附魔。这些配方除物品和源质外还需要经验值，并会从祭坛附近的玩家身上抽取经验。
+
+- **更高附魔等级：** 重复施加同一种附魔，直至达到允许的最高等级。更高等级需要更多源质和经验。
+- **已有附魔：** 物品上的其他附魔会增加资源消耗和不稳定度。请对照手册中的基础需求，检查目标物品的当前状态。
+- **适用性与兼容性：** 附魔规则仍会决定某项附魔是否适用于该物品，以及能否与其现有附魔共存。
+
+准备一套装备时，应根据想要的最终附魔规划处理顺序，并使用奥术计算器检查当前物品的消耗。附魔较多的装备更适合在稳定性余量较大的祭坛上处理。
+
+NH 的附属模组也提供渗透附魔台和超吟附魔台等设备。相关配方、资源消耗和等级规则请查阅各自的研究条目。
+
+## 自动启动与物品物流
+
+<ItemLink id="gadomancy:BlockInfusionClaw" showIcon="left" />安装在符文矩阵上方。内部放入法杖或长杖，再从侧面接收红石信号即可启动注魔。设备绑定其所有者，并使用该玩家的研究来识别配方。
+
+注魔爪需要为其中的法杖补充魔力，并可从厘魔（Centi-Vis，CV）网络获得能量。<br>它会增加所启动仪式的不稳定度。使用容量更大的法杖或合适的法杖可以减轻这一影响。
+
+物品自动化主要处理以下任务：
+
+- **分配中央物品：** 将中央物品和外围原料送到指定基座。多种配方共用祭坛时，应确保分配规则正确。
+- **逐项送入外围原料：** 每项原料都需要一个基座，同一种原料重复出现时也不例外。
+- **启动控制：** 原料就位后触发注魔爪。连续生产时，请等待上一件合成完成。
+- **收取成品：** 识别并取出中央基座上的成品。还要处理留在外围基座上的容器或可重复使用原料。
+
+ME 网络可以管理输入与成品，红石、OC 或其他控制设备则可协调启动和收取。<br>开始下一次合成前，先处理返还的容器或剩余原料，以免连续生产停滞。
+
+关于厘魔来源和连接，请参阅[法杖、魔力与节点](./wands_vis_nodes.md)。
+
+## 提高注魔速度
+
+<ItemLink id="thaumicinsurgence:infusionIntercepter" showIcon="left" />安装在中央基座正下方，并通过底面接收源质。<br>在它下方连接源质管道或神秘能源源质供应器，即可将所需源质直接送入对应符文矩阵。
+
+连接 ME 源质供应器且输入库存充足时，它可以非常迅速地供应大量源质。使用管道时，实际供应速度会限制性能。它只服务正上方的祭坛；安装前请先激活主体结构。
+
+<ItemLink id="thaumicenergistics:thaumicenergistics.block.advanced.infusion.provider" showIcon="left" />会一次性向进行中的注魔供应全部所需源质，并为缺少的数量请求自动合成。<br>它可绑定 X、Z 轴方向各 12 格、垂直方向 5 格范围内的多个矩阵。
+
+- **注魔截流者**可为单座祭坛快速供应源质。
+- **高级注魔供应器**可让多座祭坛共用网络库存和源质自动合成。
+- **世界加速器**可以进一步加快矩阵运作，但请先确保稳定性和供应充足。短缺时加速也会加快仪式停滞期间的风险检查。
+
+源质供应所需时间缩短后，逐个吸收外围原料仍会占用合成时间。要扩大产能，可根据配方和原料数量安排多座祭坛，并为每座祭坛配置完整的输入与收取控制。
+
+## 故障排除
+
+- **用法杖右键无法启动注魔：** 检查结构激活、研究完成情况、中央物品和外围原料，并确认范围内没有无关原料。
+- **部分外围原料无法识别：** 检查对应基座是否位于矩阵下方且在范围内，并确认其所在竖列没有其他基座。
+- **放置稳定器后风险仍然很高：** 使用奥术计算器检查不对称的位置、稳定器范围和已占用的外围基座。使用注魔爪时还要计入其额外不稳定度。
+- **注魔爪无法启动配方：** 检查所有者的研究、插入的法杖、能量供应和红石触发信号，再确认祭坛上的配方原料。
+- **注魔截流者没有供应源质：** 检查其是否位于中央基座正下方、底面是否连接有效的源质来源，以及来源中是否含有所需要素。
+- **自动化只完成第一次合成：** 检查中央成品和外围剩余物是否已收取、下一批原料是否已分配，以及启动信号是否再次触发。
 
 </Column>

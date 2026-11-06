@@ -9,33 +9,31 @@ navigation:
   icon: gregtech:gt.blockmachines:15756
   position: -11001
 ---
-# Bose-Einstein Condensate Observation Array
+# 玻色-爱因斯坦凝聚态物质观测阵列
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15756" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left" /> is a UIV tier multiblock for supplying power, condensate, and nanites to any connected [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Nodes</ItemLink>](./bose_einstein_condensate_teleportation_node.md) in the [BEC Line](./bose_einstein_condensate_line.md). 
+<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left" />是 UIV 等级的多方块机器，用于向[BEC 生产线](./bose_einstein_condensate_line.md)中所有已连接的[<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">玻色-爱因斯坦凝聚态物质传送节点（IO 节点）</ItemLink>](./bose_einstein_condensate_teleportation_node.md)供应电力、凝聚态物质和纳米蜂群。
 
-The Observation Array is really just a large router rather than an assembler because it does not process any recipes or hold condensate itself. It only ever stores nanites locally for IO Nodes to read from and transfers condensate from the [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Containment Fields</ItemLink>](./bose_einstein_condensate_containment_field.md) to IO Nodes upon request. 
+观测阵列其实只是大型路由器，而非组装机，因为它不处理配方，也不储存凝聚态物质。它只会在本地储存纳米蜂群，供传送节点读取，并根据请求将凝聚态物质从[<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">约束场</ItemLink>](./bose_einstein_condensate_containment_field.md)传输至传送节点。
 
-Up to 16 IO Nodes may connect to the same Observation Array via line-of-sight connector hatches, but it is not recommended to run different recipes at the same time because that could introduce penalties and potentially void outputs. IO Nodes do not have their own energy hatches so their individual power costs are summed together and covered by the Observation Array, which supports multi-amp and laser energy hatches for serious throughput.
+每台观测阵列最多可通过视线连接仓连接 16 个传送节点，但不建议同时运行不同配方，因为可能产生惩罚，甚至销毁产物。传送节点没有自己的能源仓，因此其耗电量会汇总并由观测阵列承担；观测阵列支持多A能源仓和激光能源仓，可实现高吞吐量。
 
-BEC recipes appear as [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) recipes in NEI but there is no strict item or condensate order to follow. Instead, they have a certain number of equal-length steps equivalent to their number of solid inputs. The steps are not exactly hard stops but each one requests a specific nanite tier or better to run and exceeding the requested tier significantly reduces the IO Node's processing speed.  
-The nanites are never actually consumed but they do need to be rapidly swapped out of the Observation Array to perfectly match the requested nanite at all times.  
-The nanite order is constant per recipe but varies between recipes so any automation method needs to be highly precise and flexible.
+BEC 配方在 NEI 中显示为[<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md)配方，但无需遵循严格的物品或凝聚态物质顺序。配方会分为若干等长步骤，数量等同于固体原料数量。步骤并非完全停止点，但每一步都会请求特定等级或更高等级的纳米蜂群才能运行；超过请求等级会大幅降低传送节点处理速度。纳米蜂群不会被实际消耗，但必须及时更换，使观测阵列中的纳米蜂群始终与请求等级完全匹配。每种配方的纳米蜂群顺序固定，但不同配方各不相同，因此自动化必须非常精准且灵活。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | UIV |
-| Structure Size (LxWxH) | 61x31x31 |
-| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| 解锁等级 | UIV |
+| 结构尺寸（长×宽×高） | 61x31x31 |
+| 电力 | 允许使用任意仓，包括多A仓和激光仓 |
+| 超频 | 无 |
+| 维护 | 无需维护 |
+| 污染 | 不产生污染 |
 
-## Crafting and Construction
-### Crafting
+## 合成与建造
+### 合成
 
 <RecipesFor id="gregtech:gt.blockmachines:15756" handlerBlacklist="gt.recipe.researchStation" />
 
@@ -55,21 +53,21 @@ The nanite order is constant per recipe but varies between recipes so any automa
 
 <RecipesFor id="gregtech:gt.blockcasings.bec:6" handlerBlacklist="gt.recipe.researchStation" />
 
-### Structure
+### 结构
 
-The Observation Array has no tiered components, and can be rotated or flipped.
+观测阵列没有任意等级部件，可以旋转或翻转。
 
-Each <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> must face directly into one on an [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Node</ItemLink>](./bose_einstein_condensate_teleportation_node.md) for them to link, but there is no cabling inbetween and they can be up to 128 blocks apart if necessary. 
+每个 <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" />都必须正对[<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">传送节点</ItemLink>](./bose_einstein_condensate_teleportation_node.md)上的一个仓才能建立连接；中间无需布线，必要时两者距离最多可达 128 格。
 
-Multi-amp and laser energy hatches are supported for serious throughput. 
+支持多A能源仓和激光能源仓，以实现高吞吐量。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 可预览/建造结构。
 
-The <ItemLink id="gregtech:gt.blockmachines:9415" showIcon="left" /> is effectively an input bus exclusively for nanites and can hold up to 2,147,483,647 at once.
+<ItemLink id="gregtech:gt.blockmachines:9415" showIcon="left" />本质上是专供纳米蜂群使用的输入总线，一次最多可容纳 2,147,483,647 个纳米蜂群。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left" /> | 1, Front center, 16th layer |
+| <ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left" /> | 1 个，正面中央，第 16 层 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> | 1700 |
 | <ItemLink id="gregtech:gt.blockcasings.bec" showIcon="left" /> | 1515 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> | 1444-1458 |
@@ -78,31 +76,29 @@ The <ItemLink id="gregtech:gt.blockmachines:9415" showIcon="left" /> is effectiv
 | <ItemLink id="gregtech:gt.blockglass1:9" showIcon="left" /> | 664 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:5" showIcon="left" /> | 560 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:6" showIcon="left" /> | 464 |
-| <ItemLink id="gregtech:gt.blockmachines:9415" showIcon="left" /> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
-| <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> | 1+, Can replace <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> in the center of each ring's edge |
-| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 1-2, Replaces the <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> on the center part at the left or right end of the machine |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:9415" showIcon="left" /> | 1 个以上，可替换任意 <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> | 1 个以上，可替换每个环边缘中央的 <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 1-2 个，可替换机器左端或右端中央部分的 <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">可使用普通、多A或激光型</Tooltip> | 1 个以上，可替换任意 <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
 
-### Wallsharing
+### 共用墙壁
 
-Using a wallshare saves a small number of casings, but in return you lose 4 [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Node</ItemLink>](./bose_einstein_condensate_teleportation_node.md) connections (8 in total since there are 2 observation arrays), and the condensate hatches cannot be shared.
+共用墙壁可节省少量机械方块，但会损失 4 个[<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">传送节点</ItemLink>](./bose_einstein_condensate_teleportation_node.md)连接位（两台观测阵列总计损失 8 个），且凝聚态物质仓无法共用。
 
-## Usage
+## 用途
 
-The Observation Array works as a router that provides power, condensate, and nanites to connected [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Nodes</ItemLink>](./bose_einstein_condensate_teleportation_node.md). Up to 16 IO Nodes can be connected to the Observation Array.  
-Despite it being listed as an assembler, think of the Observation Array as a large router and the IO Node as the assembler since the latter actually processes the recipes.
+观测阵列作为路由器，向已连接的[<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">传送节点</ItemLink>](./bose_einstein_condensate_teleportation_node.md)供应电力、凝聚态物质和纳米蜂群。观测阵列最多可连接 16 个传送节点。虽然它被列为组装机，但应将观测阵列视作大型路由器，而传送节点才是组装机，因为后者才实际处理配方。
 
 > [!NOTE]
-> Check [BEC Line](./bose_einstein_condensate_line.md) for how the BEC line operates overall and what the Observation Array performs in BEC Line. This guide covers Observation Array specific information only.
+> 有关 BEC 生产线的整体运行方式以及观测阵列在其中的作用，请查看[BEC 生产线](./bose_einstein_condensate_line.md)。本指南仅介绍观测阵列的专属信息。
 
-### Condensate
+### 凝聚态物质
 
-The Observation Array does not hold any condensate itself unlike [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Containment Fields</ItemLink>](./bose_einstein_condensate_containment_field.md), only ever transfers it from the Containment Field to the IO Node upon request.
+与[<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">约束场</ItemLink>](./bose_einstein_condensate_containment_field.md)不同，观测阵列本身不储存任何凝聚态物质，只会根据请求将其从约束场传输至传送节点。
 
-Any condensate in the network that is not requested by the current recipe is considered a contaminant or slowdown. Each contaminant significantly reduces the processing speed of the IO node and if there are ever more than three contaminants in the network at once then the recipe immediately fails and voids.  
-Condensate supplied to an IO Node is no longer considered in the network and therefore does not affect other IO Nodes processing other recipes on the same Observation Array. However, it is still recommended to process only one recipe at a time to avoid these penalties altogether.
+当前配方未请求的网络中任何凝聚态物质都会被视为污染物或减速因素。每种污染物都会显著降低传送节点的处理速度；若网络中同时存在超过三种污染物，配方会立即失败并 销毁。送入传送节点的凝聚态物质不再计入网络，因此不会影响同一观测阵列上处理其他配方的传送节点。不过，仍建议一次只处理一个配方，以完全避免这些惩罚。
 
-### Nanites
+### 纳米蜂群
 
 <LineChart 
   wrap="square" align="right"
@@ -115,35 +111,34 @@ Condensate supplied to an IO Node is no longer considered in the network and the
   <Series name="Δ=3, 2 unmatched contaminants" data="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
 </LineChart>
 
-Recipes are processed in sequential, equal-length steps equivalent to its number of solid inputs.  
-For example, the <ItemLink id="gregtech:gt.metaitem.03:32310" /> is processed in five steps that are each 1/5th of the total overall duration because it has five solid inputs in its recipe. 
+配方按顺序分成等长步骤，步骤数等同于固体原料数量。例如，<ItemLink id="gregtech:gt.metaitem.03:32310" />有五种固体原料，因此会分为五步处理，每步时长为总时长的 1/5。
 
-The steps are not exactly hard stops but each one requests a specific nanite tier or better to run and exceeding the requested tier significantly reduces the IO Node's processing speed, as seen in the following equations and graphs. 
+步骤并非完全停止点，但每一步都会请求特定等级或更高等级的纳米蜂群才能运行；超过请求等级会大幅降低传送节点处理速度，具体公式和图表如下所示。
 
 <Latex formula="\Delta = \text{Nanite Tier Provided} - \text{Nanite Tier Requested}" scale="0.8" />
 <Latex formula="d = \text{Max}(1 + \text{Unrequested Contaminant}, \text{Speed Divisor})" scale="0.8" />
 <Latex formula="+\text{Progress Ticks/t} = \Biggl\lfloor \frac{\text{Min}(30720, \text{ Nanites Available})}{\text{Active Parallels} \times 2^\Delta \times d } \Biggl\rfloor" scale="0.8" />
 
-It is possible to skip steps or complete entire recipes in one tick if there are enough nanites available at once, but there is a hard cap of 30,720 nanites.
+如果一次可提供足够的纳米蜂群，则可以跳过步骤，甚至在一个 tick 内完成整个配方，但纳米蜂群数量上限为 30,720 个。
 
-Below table shows each nanite's tiers.
-| Tier | Nanite |
+下表列出各纳米蜂群的等级。
+| 等级 | 纳米蜂群 |
 | --- | --- |
-| 1 | <ItemLink id="gregtech:gt.metaitem.03:4010" showIcon="left" >Carbon</ItemLink>/<ItemLink id="gregtech:gt.metaitem.03:4811" showIcon="left" >Glowstone</ItemLink> |
-| 2 | <ItemLink id="gregtech:gt.metaitem.03:4054" showIcon="left" >Silver</ItemLink>/<ItemLink id="gregtech:gt.metaitem.03:4129" showIcon="left" >Neutronium</ItemLink> |
-| 3 | <ItemLink id="gregtech:gt.metaitem.03:4086" showIcon="left" >Gold</ItemLink> |
-| 4 | <ItemLink id="gregtech:gt.metaitem.03:4581" showIcon="left" >Transcendent Metal</ItemLink> |
-| 5 | <ItemLink id="gregtech:gt.metaitem.03:4147" showIcon="left" >Six-Phased Copper</ItemLink> |
-| 6 | <ItemLink id="gregtech:gt.metaitem.03:4585" showIcon="left" >White Dwarf Matter</ItemLink> |
-| 7 | <ItemLink id="gregtech:gt.metaitem.03:4586" showIcon="left" >Black Dwarf Matter</ItemLink> |
-| 8 | <ItemLink id="gregtech:gt.metaitem.03:4139" showIcon="left" >Universium</ItemLink> |
-| 9 | <ItemLink id="gregtech:gt.metaitem.03:4141" showIcon="left" >Eternity</ItemLink> |
-| 10 | <ItemLink id="gregtech:gt.metaitem.03:4143" showIcon="left" >Magmatter</ItemLink> |
+| 1 | <ItemLink id="gregtech:gt.metaitem.03:4010" showIcon="left" >碳</ItemLink>/<ItemLink id="gregtech:gt.metaitem.03:4811" showIcon="left" >荧石</ItemLink> |
+| 2 | <ItemLink id="gregtech:gt.metaitem.03:4054" showIcon="left" >银</ItemLink>/<ItemLink id="gregtech:gt.metaitem.03:4129" showIcon="left" >中子</ItemLink> |
+| 3 | <ItemLink id="gregtech:gt.metaitem.03:4086" showIcon="left" >金</ItemLink> |
+| 4 | <ItemLink id="gregtech:gt.metaitem.03:4581" showIcon="left" >超时空金属</ItemLink> |
+| 5 | <ItemLink id="gregtech:gt.metaitem.03:4147" showIcon="left" >六相铜</ItemLink> |
+| 6 | <ItemLink id="gregtech:gt.metaitem.03:4585" showIcon="left" >白矮星物质</ItemLink> |
+| 7 | <ItemLink id="gregtech:gt.metaitem.03:4586" showIcon="left" >黑矮星物质</ItemLink> |
+| 8 | <ItemLink id="gregtech:gt.metaitem.03:4139" showIcon="left" >宇宙素</ItemLink> |
+| 9 | <ItemLink id="gregtech:gt.metaitem.03:4141" showIcon="left" >永恒</ItemLink> |
+| 10 | <ItemLink id="gregtech:gt.metaitem.03:4143" showIcon="left" >磁物质</ItemLink> |
 {: widths="30" width="220"}
 
-### Recipes
+### 配方
 
-You can check recipes with nanite required for each step in [BEC Line Guide - Recipes](./bose_einstein_condensate_line.md#recipes).
+可以在[BEC 生产线指南 - 配方](./bose_einstein_condensate_line.md#recipes)中查看每个步骤所需纳米蜂群的配方。
 
-## References
-- [GTNH Wiki : Bose-Einstein Condensate Observation Array](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Observation_Array)
+## 参考资料
+- [GTNH Wiki：玻色-爱因斯坦凝聚态物质观测阵列](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Observation_Array)

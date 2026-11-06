@@ -9,69 +9,69 @@ navigation:
   icon: gregtech:gt.blockmachines:3017
   position: -8001
 ---
-# Beam Splitter
+# 束流分流器
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:3017" />
 </GameScene>
-The <ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" /> is a UV tier multiblock for filtering and/or splitting particle beams. 
+<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />是 UV 等级的多方块机器，用于过滤和/或分割粒子束。
 
-The Beam Splitter only supports one beam input hatch and four filtered beam output hatches, but it does not require any power or maintenance to run. 
+束流分流器仅支持一个束流输入仓和四个过滤式束流输出仓，但运行无需电力或维护。
 
-The Beam Splitter is completely optional, but may assist with the [Beam Line](./beam_line.md) and/or the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md). Also try the [<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />](./beam_mirror.md) and [<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md) before processing recipes in the [<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md).
+束流分流器完全可选，但可辅助[束流线](./beam_line.md)和/或[<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md)。在[<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md)处理配方前，也可以使用[<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />](./beam_mirror.md)和[<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md)。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | UV |
-| Structure Size (LxWxH) | 9x9x3 |
-| Power | None |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| 解锁等级 | UV |
+| 结构尺寸（长×宽×高） | 9x9x3 |
+| 电力 | 无 |
+| 超频 | 无 |
+| 维护 | 无需维护 |
+| 污染 | 不产生污染 |
 
-## Crafting and Construction
-### Crafting
+## 合成与建造
+### 合成
 <RecipesFor id="gregtech:gt.blockmachines:3017" handlerBlacklist="gt.recipe.researchStation" />
 
 <RecipesFor id="gregtech:gt.blockcasings3:10" />
 
 <RecipesFor id="gtnhlanth:casing.shielded_accelerator" handlerBlacklist="bq_quest" />
 
-### Structure
-The Beam Splitter has no tiered components. The glass can be any tier and has no effect on the operation of the machine. 
+### 结构
+束流分流器没有任意等级部件。玻璃可使用任意等级，不会影响机器运行。
 
-The Beam Splitter can be rotated or flipped.
+束流分流器可以旋转或翻转。
 
-The Beam Splitter only supports <ItemLink id="gregtech:gt.blockmachines:3014" showIcon="left" />.
+束流分流器仅支持 <ItemLink id="gregtech:gt.blockmachines:3014" showIcon="left" />。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 可预览/建造结构，并通过子信道“glass”指定玻璃等级。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" /> | 1, Front bottom center |
+| <ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" /> | 1 个，正面底部中央 |
 | <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> | 42 |
-| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 27, Edge and corner of both ends of the machine |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 9 |
-| <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1, Above controller |
-| <ItemLink id="gregtech:gt.blockmachines:3014" showIcon="left" /> | 4, On the opposite side of the controller, each gap is 1 block |
+| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 27 个，机器两端的边缘和角落 |
+| <ItemImage id="bartworks:BW_TieredGlass" />任意等级玻璃 | 9 个 |
+| <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1 个，控制器上方 |
+| <ItemLink id="gregtech:gt.blockmachines:3014" showIcon="left" /> | 4 个，控制器对侧，每个间隔 1 格 |
 
-### Wallsharing
+### 共用墙壁
 
-Beam Splitters may wallshare each of their sides to save on casings and glass. However, it is not possible to share the beam input hatch or filtered beam output hatches due to the restrictions on their locations.
+束流分流器的每一侧都可以与其他机器共用墙壁，以节省机械方块和玻璃。但由于位置限制，束流输入仓和过滤式束流输出仓无法共用。
 
-## Usage
+## 用途
 
 <GameScene interactive={true} wrap="square" align="right" width="300" height="300">
   <ImportStructure src="/assets/structures/beam_splitter_example_ponder.snbt" />
   <ImportPonder src="/assets/ponders/multiblocks/beam_splitter/beam_splitter_example_ponder.json" />
 </GameScene>
 
-The Beam Splitter filters and/or splits an input particle beam into 1-4 parts and never shuts down unless manually disabled. Particle beams also do not suffer any penalties or lose any energy/focus when passing through the machine. Only the rate is split evenly between all valid outputs. Fractional rates are always rounded down.
+束流分流器会将输入粒子束过滤和/或分为 1-4 束，除非手动禁用，否则不会停机。粒子束通过机器时不会受到惩罚，也不会损失能量/聚焦度。只有速率会在所有有效输出端之间平均分配。小数速率始终向下取整。
 
-The scene on the right shows the Beam Splitter's operation with an example.
+右侧示意图展示了束流分流器的运行示例。
 
-The Beam Splitter perfectly complements the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) because the latter generates many different types of particles from the same beam output hatches and it would be wasteful for those to all go to the same [<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md).
+束流分流器与[<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md)完美互补，因为后者会从相同束流输出仓产生多种不同粒子，将它们全部送往同一个[<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md)会造成浪费。
 
-There is no possible way to join particle beams together so recipes are going to be split across machines and therefore the particles should be too.
+粒子束无法合并，因此配方需要分配给多台机器，粒子也应相应分流。
 
-## References
-- [GTNH Wiki : Beam Splitter](https://wiki.gtnewhorizons.com/wiki/Beam_Splitter)
+## 参考资料
+- [GTNH Wiki：束流分流器](https://wiki.gtnewhorizons.com/wiki/Beam_Splitter)

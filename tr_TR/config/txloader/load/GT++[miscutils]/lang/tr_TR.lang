@@ -8,7 +8,7 @@ itemGroup.MiscUtilOtherTab=[GT++] Eşyaları II
 itemGroup.MiscUtilBOP=[GT++] Biomes O'Plenty Additions
 
 //Debug
-item.AAA_Broken.name=[Non-existent Item] Report This Recipe On Github, Please.
+item.AAA_Broken.name=[Mevcut Olmayan Eşya] Lütfen bu Tarifi Github'da rapor edin.
 item.itemBedLocator_Base.name=Yatak Bulucu [NBT Testi]
 item.itemBaseItemWithCharge.name=Temel Şarj Edilebilir Eşya
 item.miscutils_itemDebugShapeSpawner.name=[Hata Ayıklama] Şekiller
@@ -23,7 +23,7 @@ death.attack.plasmabolt.player=%1$s, %2$s tarafından plazma kullanılarak öld�
 death.attack.gtpp.grinder=%s bir IsaDeğirmeni tarafından hiçliğe dönüştürüldü.
 
 //Batch mode chat message
-misc.BatchModeTextOn=Batch recipes (ME output bus recommended, will void excess outputs!)
+misc.BatchModeTextOn=Yığın tarifleri (ME çıkış yolu önerilir, fazla çıktıları yok edecek!)
 misc.BatchModeTextOff=Tarifleri Çoklu Üretme
 
 //Alternative Materials
@@ -48,7 +48,7 @@ tile.blockCircuitProgrammer.name=Devre Programcısı
 tile.blockDecayablesChest.name=Kurşun Kaplı Kutu
 tile.blockVolumetricFlaskSetter.name=Hacimsel Şişe Ayarlayıcısı
 tile.blockSuperLight.name=Parlayan Yıldız
-tile.blockPestKiller.name=Pest Killer
+tile.blockPestKiller.name=Haşere Öldürücü
 tile.blockSuperJukebox.name=Sir Mixalot [Müzik kutusu]
 
 //Tools
@@ -60,9 +60,9 @@ item.itemSandstoneHammer.name=Kırıktaş Kırıcı
 # Tooltips
 GTPP.machines.chisel_slot.tooltip=Hedef Yuvası
 GTPP.machines.chisel_slot.tooltip.1=§7Oyulmuş eşyayı belirtilen çıktıya yerleştirin
-GTPP.core.GT_Tooltip=Added by: §2Alkalus §7- §c[GT++]
+GTPP.core.GT_Tooltip=Ekleyen: §2Alkalus §7- §c[GT++]
 GTPP.core.GT_Tooltip_Builder=§2Alkalus §7- §c[GT++]
-GTPP.core.GT_Tooltip_Radioactive=§7Warning: §aRadioactive! §6 Avoid direct handling without hazmat protection.
+GTPP.core.GT_Tooltip_Radioactive=§7Uyarı: §aRadyoaktif! §6 Tehlikeli madde koruması olmadan doğrudan temastan kaçının.
 
 # RecipeMaps
 gtpp.recipe.cokeoven=Kok Fırını
@@ -85,7 +85,7 @@ gtpp.recipe.RTGgenerators=RTG
 gtpp.recipe.thermalgeneratorfuel=Termal Kazan
 gtpp.recipe.solartower=Güneş kulesi
 gtpp.recipe.cyclotron=COMET - Kompakt Siklotron
-gtpp.recipe.fishpond=Zhuhai - Fishing Port
+gtpp.recipe.fishpond=Zhuhai - Balıkçı Limanı
 gtpp.recipe.cryogenicfreezer=Kriyojenik dondurucu
 gtpp.recipe.multicentrifuge=Multiblok Santrifüj
 gtpp.recipe.multielectro=Multiblok Elektrolizör
@@ -108,7 +108,7 @@ gtpp.nei.chemplant.tier.2=Çelik
 gtpp.nei.chemplant.tier.3=Alüminyum
 gtpp.nei.chemplant.tier.4=Paslanmaz Çelik
 gtpp.nei.chemplant.tier.5=Titanyum
-gtpp.nei.chemplant.tier.6=Tungsten Steel
+gtpp.nei.chemplant.tier.6=Tungsten Çeliği
 gtpp.nei.chemplant.tier.7=Laurenyum
 gtpp.nei.chemplant.tier.8=Botmiyum
 gtpp.nei.rtg.days=Yakıt Değeri: %s Minecraft Günü
@@ -118,7 +118,7 @@ gtpp.nei.solar_tower.3=Girdi Miktarı = 1000 x T
 gtpp.nei.tgs.1=Fidan Tüketilmez
 gtpp.nei.tgs.2=Eğer %s sağlanılırsa,
 gtpp.nei.tgs.3=Bunun yerine fidanlar üretilir
-gtpp.nei.tgs.sapling=Outputted if %s is provided
+gtpp.nei.tgs.sapling=%s sağlanırsa çıktı olarak verilir
 
 gtpp.nei.tgs.tooltip.sapling=Makine kontrolcü yuvasına koy
 gtpp.nei.tgs.tooltip.saw=Kütükler hasat etmek için giriş yoluna koy
@@ -210,9 +210,9 @@ MU-metaitem.01.0.name=MU-metaitem.01.0.name
 //Cells
 item.SulfurDioxide.name=Yüksek Kaliteli Sülfür Dioksit Hücresi
 item.mobessence.name=Yaratık Özü Hücresi
-item.Fertiliser.name=Fertiliser Cell
-item.UN32Fertiliser.name=UN-32 Fertiliser Cell
-item.UN18Fertiliser.name=UN-18 Fertiliser Cell
+item.Fertiliser.name=Gübre Hücresi
+item.UN32Fertiliser.name=UN-32 Gübre Hücresi
+item.UN18Fertiliser.name=UN-18 Gübre Hücresi
 item.RaisinJuice.name=Kuru Üzüm Suyu Hücresi
 item.BerylliumHydroxide.name=Berilyum Hidroksit Hücresi
 item.AmmoniumBifluoride.name=Amonyum Biflorür Hücresi
@@ -244,10 +244,10 @@ item.backpackSilver.name=Gümüş Sırt Çantası
 item.backpackGray.name=Gri Sırt Çantası
 item.backpackBlack.name=Siyah Sırt Çantası
 item.backpackWhite.name=Beyaz Sırt Çantası
-item.itemBlueprint.name=Blueprint [I am useless]
-item.itemBlueprint.tooltip.0=Technical Document No. %d
-item.itemBlueprint.tooltip.1=Currently holding a blueprint for %s
-item.itemBlueprint.tooltip.2=Currently not holding a blueprint for anything.
+item.itemBlueprint.name=Plan [İşe yaramaz]
+item.itemBlueprint.tooltip.0=Teknik Belge No. %d
+item.itemBlueprint.tooltip.1=Şu anda %s için bir şema tutuyor
+item.itemBlueprint.tooltip.2=Şu anda hiçbir şey için şema tutmuyor.
 item.itemGemShards.0.name=Elmas Parçaları
 item.itemGemShards.1.name=Zümrüt Parçaları
 item.itemGemShards.2.name=Yakut Parçaları
@@ -256,8 +256,8 @@ item.itemGemShards.tooltip=Elmas Parçaları
 item.itemHalfCompleteCasings.name=Yarım Tamamlanmış Kasa
 item.itemSulfuricPotion.name=Fırlatılabilir Sülfürik Asit Şişeciği
 item.itemHydrofluoricPotion.name=Fırlatılabilir Hidroflorik Asit Şişeciği
-item.itemBaseItemHotFood.tooltip.0=§7Warning: §cVery hot!§7 Avoid direct handling..
-item.itemBaseItemHotFood.tooltip.1=This food has %d seconds left, until it is cool.
+item.itemBaseItemHotFood.tooltip.0=§7Uyarı: §cÇok sıcak!§7 Doğrudan tutmaktan kaçın..
+item.itemBaseItemHotFood.tooltip.1=Bu yemeğin soğumasına %d saniye kaldı.
 item.itemBoilerChassis.name=Gelişmiş Kazan Şasisi [Kademe %d]
 item.itemDehydratorCoilWire.name=Bobin Teli [%s]
 item.itemDehydratorCoil.name=Kurutucu Bobini [%s]
@@ -270,7 +270,7 @@ item.itemDragonJar.0.tooltip=Hiçbir şey içermiyor.
 item.itemDragonJar.1.name=Yakalanmış Ejderha Kavanozu
 item.itemDragonJar.1.tooltip=İçinde bir %s var.
 item.itemControlCore.name=Kontrol Çekirdeği [%s]
-item.itemControlCore.tooltip.0=Allows a Multiblock to function upto %s
+item.itemControlCore.tooltip.0=Bir Multibloğun %s değerine kadar çalışmasını sağlar
 item.itemControlCore.tooltip.1=Gerekli Kademe, tüm Enerji Girişlerinin eu/t toplamına göre belirlenir.
 item.itemControlCore.tooltip.2=Alt kademeler düşük hızda çalıştırmak için kullanılabilir; bu bazı durumlarda işe yarar.
 item.thekeytothecity.tooltip.0=Kendini dünyanın tepesinde hissediyorsun.
@@ -1188,7 +1188,7 @@ item.itemRodLongIncoloyMA956.name=Uzun Incoloy-MA956 Çubuk
 item.itemRingIncoloyMA956.name=Incoloy-MA956 Yüzük
 item.itemScrewIncoloyMA956.name=Incoloy-MA956 Vida
 item.itemRotorIncoloyMA956.name=İnkoloy-MA956 Rotor
-item.itemGearIncoloyMA956.name=Incoloy-MA956 Dişli" - "Incoloy-MA956 Dişli", "Incoloy-MA956 Dişli
+item.itemGearIncoloyMA956.name=Incoloy-MA956 Dişli
 item.itemIngotGrisium.name=Grizyum Külçe
 item.itemHotIngotGrisium.name=Sıcak Grizyum Külçe
 item.itemDustGrisium.name=Grizyum Toz
@@ -1249,19 +1249,19 @@ item.itemPlateTriniumNaquadahAlloy.name=Trinyum Naquadah Alaşım Plaka
 item.itemPlateDoubleTriniumNaquadahAlloy.name=Çift Trinyum Naquadah Alaşım Plaka
 item.itemIngotTriniumNaquadahCarbonite.name=Trinyum Naquadah Karbonit Külçe
 item.itemHotIngotTriniumNaquadahCarbonite.name=Sıcak Trinyum Naquadah Karbonit Külçe
-item.itemDustTriniumNaquadahCarbonite.name=Trinium Naquadah Karbonit Tozu
-item.itemDustTinyTriniumNaquadahCarbonite.name=Minik Trinium Naquadah Karbonit Tozu
-item.itemDustSmallTriniumNaquadahCarbonite.name=Küçük Trinium Naquadah Karbonit Tozu
+item.itemDustTriniumNaquadahCarbonite.name=Trinyum Naquadah Karbonit Tozu
+item.itemDustTinyTriniumNaquadahCarbonite.name=Minik Trinyum Naquadah Karbonit Tozu
+item.itemDustSmallTriniumNaquadahCarbonite.name=Küçük Trinyum Naquadah Karbonit Tozu
 item.itemNuggetTriniumNaquadahCarbonite.name=Trinyum Naquadah Karbonit Parçası
-item.itemPlateTriniumNaquadahCarbonite.name=Trinium Naquadah Karbonit Plaka
-item.itemPlateDoubleTriniumNaquadahCarbonite.name=Çift Trinium Naquadah Karbonit Plaka
-item.itemBoltTriniumNaquadahCarbonite.name=Trinium Naquadah Karbonit Cıvata
-item.itemRodTriniumNaquadahCarbonite.name=Trinium Naquadah Karbonit Çubuk
-item.itemRodLongTriniumNaquadahCarbonite.name=Uzun Trinium Naquadah Karbonit Çubuk
-item.itemRingTriniumNaquadahCarbonite.name=Trinium Naquadah Karbonit Yüzük
-item.itemScrewTriniumNaquadahCarbonite.name=Trinium Naquadah Karbonit Vida
-item.itemRotorTriniumNaquadahCarbonite.name=Trinium Naquadah Karbonit Rotor
-item.itemGearTriniumNaquadahCarbonite.name=Trinium Naquadah Karbonit Teçhizat
+item.itemPlateTriniumNaquadahCarbonite.name=Trinyum Naquadah Karbonit Plaka
+item.itemPlateDoubleTriniumNaquadahCarbonite.name=Çift Trinyum Naquadah Karbonit Plaka
+item.itemBoltTriniumNaquadahCarbonite.name=Trinyum Naquadah Karbonit Cıvata
+item.itemRodTriniumNaquadahCarbonite.name=Trinyum Naquadah Karbonit Çubuk
+item.itemRodLongTriniumNaquadahCarbonite.name=Uzun Trinyum Naquadah Karbonit Çubuk
+item.itemRingTriniumNaquadahCarbonite.name=Trinyum Naquadah Karbonit Yüzük
+item.itemScrewTriniumNaquadahCarbonite.name=Trinyum Naquadah Karbonit Vida
+item.itemRotorTriniumNaquadahCarbonite.name=Trinyum Naquadah Karbonit Rotor
+item.itemGearTriniumNaquadahCarbonite.name=Trinyum Naquadah Karbonit Teçhizat
 item.itemIngotQuantum.name=Kuantum Külçe
 item.itemHotIngotQuantum.name=Sıcak Kuantum Külçe
 item.itemDustQuantum.name=Kuantum Tozu
@@ -1632,9 +1632,9 @@ item.itemGregtechPump.tooltip.1=Sağ tık ile boşaltılamaz, GUI'li bir tankın
 item.itemGregtechPump.tooltip.2=Bu teknik olarak sadece gösterişli bir sıvı hücresi
 item.itemGregtechPump.tooltip.3=Sıvı içermiyor
 item.itemBaseEuItem.tooltip.0=§eElektrik
-item.itemBaseEuItem.tooltip.1=Contains %d EU   Tier: %d
+item.itemBaseEuItem.tooltip.1=İçerir: %d EU   Kademe: %d
 item.itemBaseEuItem.tooltip.2=Boş. Düzgün şekilde geri dönüştürmelisin.
-item.itemBaseEuItem.tooltip.3=%d / %d EU - Voltage: %d
+item.itemBaseEuItem.tooltip.3=%d / %d EU - Gerilim: %d
 item.itemDebugClearing.name=Hata Ayıklama Karesi [%d]
 item.itemDebugClearing.0.tooltip=Mod: Temizle
 item.itemDebugClearing.1.tooltip=Mod: Doldur
@@ -1719,8 +1719,8 @@ item.SteelMultispade.name=Çelik Çoklu Kürek
 item.TinAlloyMultispade.name=Kalay Alaşımı Çoklu Kürek
 item.UltimetMultipick.name=Ultimet Çoklu Kazma
 item.UltimetMultispade.name=Ultimet Çoklu Kürek
-item.WroughtIronMultipick.name=Wrought Iron Multipick
-item.WroughtIronMultispade.name=Wrought Iron Multispade
+item.WroughtIronMultipick.name=Ferforje Demir Çoklu Kazma
+item.WroughtIronMultispade.name=Ferforje Demir Çoklu Kürek
 item.SterlingSilverMultipick.name=Som Gümüş Çoklu Kazma
 item.SterlingSilverMultispade.name=Som Gümüş Çoklu Kürek
 item.RoseGoldMultipick.name=Gül Altın Çoklu Kazma
@@ -1801,7 +1801,7 @@ item.itemPlateLithium.name=Lityum Plaka
 item.itemPlateDoubleEuropium.name=Çift Öropyum Plaka
 
 //Gears
-item.itemSmallGearWroughtIron.name=Small Wrought Iron Gear
+item.itemSmallGearWroughtIron.name=Küçük Ferforje Demir Dişli
 
 //Misc
 item.itemFoilUranium235.name=Uranyum 235 Folyosu
@@ -1840,7 +1840,7 @@ item.modularbauble.name=Modüler Aksesuar
 item.itemDustSoularium.name=Ruhanyum Toz
 item.itemDustSmallSoularium.name=Küçük Soularium Tozu
 item.itemDustTinySoularium.name=Minik Ruhanyum Tozu
-item.itemDustRedstoneAlloy.name=Redstone Alaşım Tozu
+item.itemDustRedstoneAlloy.name=Kızıltaş Alaşım Tozu
 item.itemDustSmallRedstoneAlloy.name=Küçük Kızıltaş Alaşım Tozu
 item.itemDustTinyRedstoneAlloy.name=Minik Kızıltaş Alaşım Tozu
 item.itemDustElectricalSteel.name=Elektrikli Çelik Tozu
@@ -1859,7 +1859,7 @@ item.itemDustConductiveIron.name=İletken Demir Tozu
 item.itemDustSmallConductiveIron.name=Küçük İletken Demir Tozu
 item.itemDustTinyConductiveIron.name=Minik İletken Demir Tozu
 item.itemPlateSoularium.name=Soularium tabağı
-item.itemPlateRedstoneAlloy.name=Redstone Alaşım plakası
+item.itemPlateRedstoneAlloy.name=Kızıltaş Alaşım plakası
 item.itemPlateElectricalSteel.name=Elektrikli Çelik Levha
 item.itemPlatePhasedIron.name=Fazlı Demir plaka
 item.itemPlateEnergeticAlloy.name=Enerjik Alaşım plakası
@@ -1871,9 +1871,9 @@ item.itemPlateLudicrite.name=Ludicrite plakası
 item.itemPlateVoid.name=Boş plaka
 item.itemPlateDimensionShard.name=Dimensional Shard plakası
 item.rfEUBattery.name=Evrensel Şarj Edilebilir Pil
-item.rfEUBattery.tooltip.0=§eIC2/EU Information§7);
+item.rfEUBattery.tooltip.0=§eIC2/EU Bilgisi§7);
 item.rfEUBattery.tooltip.1=§7Kademe: [§e%d§7] Mevcut Güç: [§e%d§7/EU]
-item.rfEUBattery.tooltip.2=§7Transfer Limit: [§e%d§7Eu/t] Burn Time: [§e%d§7s]
+item.rfEUBattery.tooltip.2=§7Transfer Sınırı: [§e%d§7EU/t] Yanma Süresi: [§e%d§7s]
 item.rfEUBattery.tooltip.3=§cRF Bilgisi§7
 item.rfEUBattery.tooltip.4=§7Çekim Oranı: [§%d§7Rf/t] Ekleme Oranı: [§c%d§7Rf/t]
 item.rfEUBattery.tooltip.5=§7Şu anki Şarj: [§c%d§7Rf / %dRf] §c%.2f%%§7
@@ -1889,16 +1889,16 @@ item.SlowBuildingRing.name=§eYavaş İnşa Yüzüğü§7
 item.SlowBuildingRing.tooltip.0=§aBaubles içinde Yüzük olarak takılır. Koşmanı engeller.§7
 item.SlowBuildingRing.tooltip.1=§aHareket hızı eğilme hızına düşer.§7
 item.SlowBuildingRing.tooltip.2=§aTakılıyken eğilmeyi açıp kapatmak için shift'e bas.§7
-item.itemBufferCore1.name=Energy Core [ULV].
-item.itemBufferCore2.name=Energy Core [LV].
-item.itemBufferCore3.name=Energy Core [MV].
-item.itemBufferCore4.name=Energy Core [HV].
-item.itemBufferCore5.name=Energy Core [EV].
-item.itemBufferCore6.name=Energy Core [IV].
-item.itemBufferCore7.name=Energy Core [LuV].
-item.itemBufferCore8.name=Energy Core [ZPM].
-item.itemBufferCore9.name=Energy Core [UV].
-item.itemBufferCore10.name=Energy Core [MAX].
+item.itemBufferCore1.name=Enerji Çekirdeği [ULV].
+item.itemBufferCore2.name=Enerji Çekirdeği [LV].
+item.itemBufferCore3.name=Enerji Çekirdeği [MV].
+item.itemBufferCore4.name=Enerji Çekirdeği [HV].
+item.itemBufferCore5.name=Enerji Çekirdeği [EV].
+item.itemBufferCore6.name=Enerji Çekirdeği [IV].
+item.itemBufferCore7.name=Enerji Çekirdeği [LuV].
+item.itemBufferCore8.name=Enerji Çekirdeği [ZPM].
+item.itemBufferCore9.name=Enerji Çekirdeği [UV].
+item.itemBufferCore10.name=Enerji Çekirdeği [MAX].
 item.itembookgt.name=§oTermal Kazan Kılavuzu
 
 // Everglade Items
@@ -2092,7 +2092,7 @@ tile.blockFishTrap.name=Balık Yakalayıcı
 tile.blockInfiniteFluidTank.name=Sonsuz Sıvı Tankı
 tile.blockMiningExplosives.name=Madencilik Patlayıcısı
 tile.blockHellFire.name=Cehennemsi Ateş
-tile.blockProjectBench.name=Project Table
+tile.blockProjectBench.name=Proje Masası
 tile.blockTradeBench.name=Takas Tezgahı
 tile.blockModularity.name=Modülerlik Tezgahı
 tile.blockBlackGate.name=Wither Kafesi
@@ -2286,12 +2286,12 @@ item.itemDustTinyLautarite.name=Minik Lautarite Tozu
 item.itemDustSmallLautarite.name=Küçük Lautarite Tozu
 
 tile.OreBariteRd.name=Barit (Rd) Cevheri
-item.crushedBariteRd.name=Crushed Barite (Rd) Ore
-item.oreRawBariteRd.name=Raw Barite (Rd) Ore
-item.crushedCentrifugedBariteRd.name=Centrifuged Crushed Barite (Rd) Ore
-item.crushedPurifiedBariteRd.name=Purified Crushed Barite (Rd) Ore
-item.dustImpureBariteRd.name=Impure Barite (Rd) Dust
-item.dustPureBariteRd.name=Purified Barite (Rd) Dust
+item.crushedBariteRd.name=Ezilmiş Barit (Rd) Cevheri
+item.oreRawBariteRd.name=Ham Barit (Rd) Cevheri
+item.crushedCentrifugedBariteRd.name=Santrifüjlenmiş Ezilmiş Barit (Rd) Cevheri
+item.crushedPurifiedBariteRd.name=Temizlenmiş Öğütülmüş Barit (Rd) Cevheri
+item.dustImpureBariteRd.name=Saf Olmayan Barit (Rd) Tozu
+item.dustPureBariteRd.name=Temizlenmiş Barit (Rd) Tozu
 item.itemDustBariteRd.name=Barit (Rd) Tozu
 item.itemDustTinyBariteRd.name=Minik Barit (Rd) Tozu
 item.itemDustSmallBariteRd.name=Küçük Barit (Rd) Tozu
@@ -2543,7 +2543,7 @@ tile.Block of Nitinol 60.name=Nitinol 60 Bloğu
 tile.Nitinol 60 Frame Box.name=Nitinol 60 Çerçeve
 
 item.itemIngotAdvancedNitinol.name=Gelişmiş Nitinol Külçe
-item.itemHotIngotAdvancedNitinol.name=Sıcak Gelişmiş Nitinol 60 Külçe
+item.itemHotIngotAdvancedNitinol.name=Sıcak Gelişmiş Nitinol Külçe
 item.itemDustAdvancedNitinol.name=Gelişmiş Nitinol Tozu
 item.itemDustTinyAdvancedNitinol.name=Minik Gelişmiş Nitinol Tozu
 item.itemDustSmallAdvancedNitinol.name=Küçük Bir Yığın Gelişmiş Nitinol Tozu
@@ -2639,7 +2639,7 @@ tile.Lafium Compound Frame Box.name=Lafium Bileşik Çerçevesi
 
 item.itemIngotKoboldite.name=Koboldit Külçe
 item.itemHotIngotKoboldite.name=Sıcak Koboldit Külçesi
-item.itemNuggetKoboldite.name=Koboldit Külçesi
+item.itemNuggetKoboldite.name=Koboldit Parçası
 item.itemPlateKoboldite.name=Koboldite Plate".
 item.itemPlateDoubleKoboldite.name=Çift Koboldit Plaka
 item.itemBoltKoboldite.name=Koboldit Cıvatası
@@ -2691,9 +2691,9 @@ tile.Abyssal Alloy Frame Box.name=Abisal Alaşım Çerçevesi
 
 
 //Radioactive
-item.dustTechnetium99M.name=Technetium 99M Dust
-item.dustTechnetium99.name=Technetium 99 Dust
-item.dustMolybdenum99.name=Molybdenum 99 Dust
+item.dustTechnetium99M.name=Teknesyum 99M Tozu
+item.dustTechnetium99.name=Teknesyum 99 Tozu
+item.dustMolybdenum99.name=Molibden 99 Tozu
 
 //Bags
 item.item.MysticBag.name=Mistik Kese
@@ -2882,12 +2882,12 @@ item.GTPP.BattPack.09.name=Şarj Paketi [MAX]
 
 //Added 13/3/19
 item.gtpp.debug.scanner.name=GT++ Hata Ayıklama Tarayıcısı
-item.RawWaste.name=Cell of Animal Waste
-item.ManureSlurry.name=Cell of Manure Slurry
-item.FertileManureSlurry.name=Cell of Fertile Slurry
+item.RawWaste.name=Hayvan Atığı Hücresi
+item.ManureSlurry.name=Gübre Çamuru Hücresi
+item.FertileManureSlurry.name=Verimli Cüruf Hücresi
 item.itemDustTinyDemicheleiteBr.name=Minik Demicheleite Yığını (Br)
 item.itemDustSmallDemicheleiteBr.name=Küçük Demicheleite Yığını (Br)
-tile.blockPooCollector.name=Agricultural Sewer
+tile.blockPooCollector.name=Tarımsal Kanalizasyon
 tile.Block of Lithium 7.name=Lityum 7 Bloğu
 
 //Added 14/3/19
@@ -2905,8 +2905,8 @@ item.itemBombUnf.name=Fırlatılabilir Bomba (tamamlanmamış)
 item.itemBombCasing.name=Bomba Kasası
 item.gtpp.throwable.bomb.name=Fırlatılabilir Bomba
 item.itemDetCable.name=Bomba Fitili
-tile.blockPooCollector.0.name=Agricultural Sewer
-tile.blockPooCollector.8.name=Biocomposite Collector
+tile.blockPooCollector.0.name=Tarımsal Kanalizasyon
+tile.blockPooCollector.8.name=Biyokompozit Toplayıcı
 item.itemIngotBakelite.name=Bakalit Külçe
 item.itemDustBakelite.name=Bakalit Tozu
 item.itemDustTinyBakelite.name=Minik Bakalit Tozu
@@ -2925,15 +2925,15 @@ item.itemPlateNylon.name=Naylon Levha
 item.itemPlateDoubleNylon.name=Çift Naylon Levha
 item.itemCellNylon.name=Naylon Hücre
 tile.Block of Nylon.name=Naylon Bloğu
-item.itemIngotTeflon.name=Teflon Ingot
+item.itemIngotTeflon.name=Teflon Külçe
 item.itemDustTeflon.name=Teflon Tozu
 item.itemDustTinyTeflon.name=Minik Teflon Tozu
 item.itemDustSmallTeflon.name=Küçük Teflon Tozu
-item.itemNuggetTeflon.name=Teflon Nugget
+item.itemNuggetTeflon.name=Teflon Parçası
 item.itemPlateTeflon.name=Teflon Plaka
 item.itemPlateDoubleTeflon.name=Çift Teflon Plaka
-item.itemCellTeflon.name=Teflon Cell
-tile.Block of Teflon.name=Block of Teflon
+item.itemCellTeflon.name=Teflon Hücre
+tile.Block of Teflon.name=Teflon Bloğu
 
 //Added 17/4/19
 //Spelling Corrections
@@ -3017,12 +3017,12 @@ item.itemCellBlackMetal.name=Siyah Metal Hücresi
 tile.Block of Black Metal.name=Siyah Metal Bloğu
 tile.Black Metal Frame Box.name=Siyah Metal Çerçevesi
 
-item.itemIngotWhiteMetal.name=White Metal Ingot
-item.itemHotIngotWhiteMetal.name=Hot White Metal Ingot
+item.itemIngotWhiteMetal.name=Beyaz Metal Külçe
+item.itemHotIngotWhiteMetal.name=Sıcak Beyaz Metal Külçesi
 item.itemDustWhiteMetal.name=Beyaz Metal Tozu
 item.itemDustTinyWhiteMetal.name=Minik Beyaz Metal Tozu
 item.itemDustSmallWhiteMetal.name=Küçük Beyaz Metal Tozu
-item.itemNuggetWhiteMetal.name=White Metal Nugget
+item.itemNuggetWhiteMetal.name=Beyaz Metal Parçası
 item.itemPlateWhiteMetal.name=Beyaz Metal Plaka
 item.itemPlateDoubleWhiteMetal.name=Çift Beyaz Metal Plaka
 item.itemBoltWhiteMetal.name=Beyaz Metal Cıvata
@@ -3032,9 +3032,9 @@ item.itemRingWhiteMetal.name=Beyaz Metal Yüzük
 item.itemScrewWhiteMetal.name=Beyaz Metal Vida
 item.itemRotorWhiteMetal.name=Beyaz Metal Rotor
 item.itemGearWhiteMetal.name=Beyaz Metal Dişli
-item.itemCellWhiteMetal.name=White Metal Cell
-tile.Block of White Metal.name=Block of White Metal
-tile.White Metal Frame Box.name=White Metal Frame Box
+item.itemCellWhiteMetal.name=Beyaz Metal Hücre
+tile.Block of White Metal.name=Beyaz Metal Bloğu
+tile.White Metal Frame Box.name=Beyaz Metal Çerçeve
 
 //Added 29/04/2019
 tile.OreRunite.name=Runite Cevheri
@@ -3076,7 +3076,7 @@ item.GTPP.BattPack.05.name=Şarj Paketi [IV]
 item.IndustrialDiamondExquisite.name=Seçkin Endüstriyel Elmas
 
 item.itemSpringCelestialTungsten.name=Göksel Tungsten Yay
-item.itemSpringWhiteMetal.name=White Metal Spring
+item.itemSpringWhiteMetal.name=Beyaz Metal Yay
 item.itemSpringNitinol60.name=Nitinol 60 Yay
 item.itemSpringWatertightSteel.name=Su Geçirmez Çelik Yay
 item.itemSpringEglinSteel.name=Eglin Çeliği Yay
@@ -3087,7 +3087,7 @@ item.itemSmallSpringStaballoy.name=Küçük Staballoy Yay
 item.itemSmallSpringBlackSteel.name=Küçük Siyah Çelik Yayı
 item.itemSmallSpringBlackTitanium.name=Küçük Siyah Titanyum Yayı
 
-item.itemFineWireWhiteMetal.name=Fine White Metal Wire
+item.itemFineWireWhiteMetal.name=İnce Beyaz Metal Tel
 item.itemFineWirePalladium.name=İnce Paladyum Tel
 item.itemFineWireZirconium.name=İnce Zirkonyum Tel
 item.itemFineWireGrisium.name=İnce Grizyum Tel
@@ -3111,7 +3111,7 @@ item.itemHeavyPlateRhugnor.name=Ağır Rhugnor Plakası
 item.itemHeavyPlateAdvancedNitinol.name=Ağır Gelişmiş Nitinol Plakası
 item.itemHeavyPlateAstralTitanium.name=Ağır Astral Titanyum Plakası
 item.itemHeavyPlateCelestialTungsten.name=Ağır Göksel Tungsten Plaka
-item.itemHeavyPlateWhiteMetal.name=Heavy White Metal Plate
+item.itemHeavyPlateWhiteMetal.name=Ağır Beyaz Metal Plaka
 item.itemHeavyPlateBlackMetal.name=Ağır Siyah Metal Plaka
 item.itemHeavyPlateAncientGranite.name=Ağır Antik Granit Levha
 
@@ -3123,10 +3123,10 @@ item.itemCellSeleniumDioxide.name=Selenyum Dioksit Hücresi
 item.itemCellSeleniousAcid.name=Selenöz Asit Hücresi
 
 //Added 25/7/19
-container.pestkiller=Pest Killer
+container.pestkiller=Haşere Öldürücü
 
 //Added 15/8/19
-gtpp.nei.decayables=Decayables Chest
+gtpp.nei.decayables=Çürüyenler Sandığı
 entity.batKing.name=Yarasa Kralı
 item.itemCellCarbyne.name=Karbin Hücresi
 item.itemCellHydrogenCyanide.name=Hidrojen Siyanür Hücresi
@@ -3248,13 +3248,13 @@ item.CarbonMonoxide.name=Karbon Monoksit Hücresi
 item.itemCellCarbonMonoxide.name=Karbon Monoksit Hücresi
 item.acetone.name=Aseton Hücresi
 item.saltwater.name=Tuzlu Su Hücresi
-item.BasicAgrichemItem.22.name=Mold (Pellet)
+item.BasicAgrichemItem.22.name=Kalıp (Pelet)
 item.BasicAgrichemItem.23.name=Temiz Alüminyum Karışımı
 
 //Added 12/12/19
 
-item.BasicGenericChemItem.0.name=Red Metal Catalyst
-item.BasicGenericChemItem.1.name=Yellow Metal Catalyst
+item.BasicGenericChemItem.0.name=Kırmızı Metal Katalizör
+item.BasicGenericChemItem.1.name=Sarı Metal Katalizör
 item.BasicGenericChemItem.2.name=Mavi Metal Katalizör
 item.BasicGenericChemItem.3.name=Turuncu Metal Katalizör
 item.BasicGenericChemItem.4.name=Mor Metal Katalizör
@@ -3272,13 +3272,13 @@ item.BasicMetaFood.2.name=Çiğ At Eti
 item.BasicMetaFood.3.name=Pişmiş At Eti
 item.BasicMetaFood.4.name=Çiğ Kurt Eti
 item.BasicMetaFood.5.name=Pişmiş Kurt Eti
-item.BasicMetaFood.6.name=Çiğ Leopar Eti
-item.BasicMetaFood.7.name=Pişmiş Leopar Eti
+item.BasicMetaFood.6.name=Çiğ Oselot Eti
+item.BasicMetaFood.7.name=Pişmiş Oselot Eti
 item.BasicMetaFood.8.name=Alaz Eti
 
-item.itemCellNaquadahFuel.name=Naquadah Fuel Cell
-item.itemCellEnrichedNaquadahFuel.name=Enriched Naquadah Fuel Cell
-item.itemCellNaquadriaFuel.name=Naquadria Fuel Cell
+item.itemCellNaquadahFuel.name=Naquadah Yakıt Hücresi
+item.itemCellEnrichedNaquadahFuel.name=Zenginleştirilmiş Naquadah Yakıt Hücresi
+item.itemCellNaquadriaFuel.name=Naquadria Yakıt Hücresi
 item.boricacid.name=Borik Asit Hücre
 item.hydrochloricacid.name=Hidroklorik Asit Hücre
 
@@ -3390,8 +3390,8 @@ item.itemBasicTurbine_2.name=Basit Çelik Türbin
 interaction.voidexcess.enabled=Fazlalığı Yok Etme Etkin
 interaction.voidexcess.disabled=Fazlalığı Yok Etme Devre Dışı
 
-interaction.separateBusses.enabled=Input busses are separated
-interaction.separateBusses.disabled=Input busses are not separated
+interaction.separateBusses.enabled=Giriş yolları ayrılmıştır
+interaction.separateBusses.disabled=Girdi yolları ayrıştırılmamış
 
 //Added 29/11/21
 
@@ -3527,7 +3527,7 @@ item.SunnariumBit.name=Güneştaşı Parçası
 sleep.event.okay=İyi uyudun ve şimdi kendini biraz daha iyi hissediyorsun.
 sleep.event.good=İyi uyudun ve şimdi kendini çok daha iyi hissediyorsun.
 sleep.event.wellrested=Kendini gerçekten çok dinlenmiş hissediyorsun.
-sleep.event.downsides=The downsides of life no longer effect you.
+sleep.event.downsides=Hayatın olumsuzlukları artık seni etkilemiyor.
 item.miscutils:magicfeather.name=Sihirli Tüy
 
 //Added 10/02/22
@@ -3537,7 +3537,7 @@ item.BasicGenericChemItem.14.name=Katı Asit Katalizör
 item.BasicGenericChemItem.15.name=Sonsuz Mutasyon Katalizörü
 
 //Added 23/10/22
-miscutils.machines.QFTFluidMode=Quantum Force Transformer Fluid Output Mode
+miscutils.machines.QFTFluidMode=Kuantum Güç Trafosu Sıvı Çıktı Modu
 
 //Added 16/11/22
 item.BasicGenericChemItem.16.name=Platin Grup Katalizörü
@@ -3558,15 +3558,15 @@ item.ItemCustomSpawnEgg.name=%s Çağır
 item.itemSimpleFiremaker.message.0=Ateş çukurunu yakıyorsun.
 item.itemSimpleFiremaker.message.1=Bir şekilde kendini ateşe vermeyi başardın...
 item.itemSimpleFiremaker.message.2=Bir ateş yaktın!
-item.itemSimpleFiremaker.message.3=Your attemp does nothing.
+item.itemSimpleFiremaker.message.3=Denemen bir işe yaramıyor.
 
 //Added 17/07/23
-item.BasicGenericChemItem.29.name=Limpid Water Catalyst
-item.BasicGenericChemItem.30.name=Flawless Water Catalyst
+item.BasicGenericChemItem.29.name=Duru Su Katalizörü
+item.BasicGenericChemItem.30.name=Kusursuz Su Katalizörü
 
 //Added 18/07/23
-item.BasicGenericChemItem.31.name=Particle Acceleration Catalyst
-item.BasicGenericChemItem.32.name=Synchrotron-Capable Catalyst
+item.BasicGenericChemItem.31.name=Parçacık Hızlandırma Katalizörü
+item.BasicGenericChemItem.32.name=Senkrotron Uyumlu Katalizör
 
 //Added 19/09/23
 item.BasicGenericChemItem.33.name=Algajenik Büyüme Teşvik Edici Katalizör

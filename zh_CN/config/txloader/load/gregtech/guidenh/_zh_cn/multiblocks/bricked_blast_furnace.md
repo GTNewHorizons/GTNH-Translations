@@ -12,30 +12,30 @@ navigation:
   icon: gregtech:gt.blockmachines:140
   position: -501
 ---
-# Bricked Blast Furnace
+# 砖高炉
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:140" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:140" showIcon="left">Bricked Blast Furnace (BBF)</ItemLink> is a Steam tier multiblock for smelting iron into steel. 
+<ItemLink id="gregtech:gt.blockmachines:140" showIcon="left">砖高炉（BBF）</ItemLink>是蒸汽等级的多方块机器，用于将铁冶炼成钢。
 
-Crafting the necessary firebricks requires gathering gypsum dust from basaltic mineral sand veins and calcite dust from lapis veins, among other things. 
+合成所需耐火砖需要从玄武岩矿砂矿脉采集石膏粉、从青金石矿脉采集方解石粉等材料。
 
-Players commonly run 4-8 BBFs continuously to keep up with the high demand for steel in the early game. 
+玩家通常会持续运行 4-8 台 BBF，以满足游戏前期对钢材的大量需求。
 
-The BBF is superseded by the [<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />](./electric_blast_furnace.md), but it may be useful to keep some around for cheap and easy steel production while the EBF smelts other materials.
+BBF 后期会被[<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />](./electric_blast_furnace.md)取代，但仍可保留几台，以便 EBF 冶炼其他材料时廉价、方便地生产钢材。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | Steam |
-| Structure Size (LxWxH) | 3x3x4 |
-| Power | None |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces 200 gibbl/s pollution |
+| 解锁等级 | 蒸汽 |
+| 结构尺寸（长×宽×高） | 3x3x4 |
+| 电力 | 无 |
+| 超频 | 无 |
+| 维护 | 无需维护 |
+| 污染 | 产生 200 gibbl/s 污染 |
 
-## Crafting and Construction
-### Crafting
+## 合成与建造
+### 合成
 <RecipesFor id="gregtech:gt.blockmachines:140" />
 
 <Row>
@@ -43,44 +43,44 @@ The BBF is superseded by the [<ItemLink id="gregtech:gt.blockmachines:1000" show
 <RecipesFor id="gregtech:gt.blockcasings4:15" handlerId="gt.recipe.assembler" input="NotEnoughItems:neiFluidDisplay:224" />
 </Row>
 
-### Structure
-The BBF consists of a controller block and several layers of firebrick around a hollow interior. 
+### 结构
+BBF 由控制器方块和围绕中空内部的数层耐火砖组成。
 
-There are no buses/hatches since all items are inserted and extracted manually from the controller. 
+没有总线/仓，所有物品都要手动从控制器插入或取出。
 
-Unlike other multiblocks, there is no warning message or error when unformed - The only way to tell if the BBF is formed is by starting a recipe; the controller lights up and smoke is released out of the top of the structure. 
+与其他多方块机器不同，结构未成型时不会显示警告或错误信息。判断 BBF 是否成型的唯一方法是启动配方：控制器会亮起，烟雾从结构顶部排出。
 
-BBF cannot be rotated - The chimney must point upward.
+BBF 无法旋转 - 烟囱必须朝上。
 
-Use the extended tooltip and NEI structure preview to learn more about its structure requirements in-game, and the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure in the world.
+在游戏中使用扩展 tooltip 和 NEI 结构预览了解结构要求，并使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />在世界中预览/建造结构。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:140" showIcon="left" /> | 1, Front center, 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings4:15" showIcon="left" /> | 32, Everywhere except the controller and the hollow center of 2nd-4th layers |
+| <ItemLink id="gregtech:gt.blockmachines:140" showIcon="left" /> | 1 个，正面中央，第 2 层 |
+| <ItemLink id="gregtech:gt.blockcasings4:15" showIcon="left" /> | 32 个，除控制器和第 2-4 层中空区域外的所有位置 |
 
-### Wallsharing
+### 共用墙壁
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructure src="/assets/structures/bbf_wallshare.snbt" />
 </GameScene>
 
-BBFs may wallshare each of their sides to save on firebricks. This is extremely valuable in the early game because firebricks are very expensive and time-consuming to craft. 
+BBF 的每一侧都可以与其他机器共用墙壁，以节省耐火砖。耐火砖合成昂贵且耗时，因此这在游戏前期尤其有价值。
 
-Note that a Controller cannot be included in Wallsharing, which usually makes BBF wallshares like 2xN column.
+请注意，控制器不能用于共用墙壁，因此 BBF 通常采用 2xN 列式共用墙壁布局。
 
-See the scene on the right for an example of BBF wallsharing.
+右侧示意图展示了 BBF 共用墙壁示例。
 
-## Usage
+## 用途
 
-The BBF has many different recipes for smelting iron into steel. The only significant difference between them is their throughput. Each steel ingot takes 360s to smelt with coal or charcoal, but only 240s with coke. Compressed fuels also have slightly higher fuel efficiency because they can process 10 ingots at a time instead of 9 for the same amount of resources. 
+BBF 有多种将铁冶炼成钢的配方，主要区别在于吞吐量。每块钢锭使用煤或木炭冶炼需要 360 秒，使用焦煤则仅需 240 秒。压缩燃料的燃料效率也略高，因为相同资源可一次处理 10 块锭，而非 9 块。
 
-Compressing iron doesn't provides any processing benefit.
+压缩铁不会带来任何处理优势。
 
-A full summary of the relevant recipes are provided below. Note that iron ingots can be replaced with iron dust if necessary.
+下方汇总了相关配方。必要时可用铁粉替代铁锭。
 
 <ContentTabs>
-  <Tab title="Comparison between Fuel types">
-    | Fuel Type | Amount | Processing Time |
+  <Tab title="燃料类型对比">
+    | 燃料类型 | 数量 | 处理时间 |
     | --- | --- | --- |
     | <ItemLink id="Railcraft:fuel.coke" showIcon="left" /> | 2 | 240s |
     | <ItemLink id="miscutils:itemCactusCoke" showIcon="left" /> | 8 | 240s |
@@ -88,8 +88,8 @@ A full summary of the relevant recipes are provided below. Note that iron ingots
     | <ItemLink id="minecraft:coal" showIcon="left" /> | 4 | 360s |
     | <ItemLink id="minecraft:coal:1" showIcon="left" /> | 4 | 360s |
   </Tab>
-  <Tab title="Comparison with Compressed Fuel">
-    | Fuel Type | Amount | Iron Ingots Processed | Processing Time |
+  <Tab title="压缩燃料对比">
+    | 燃料类型 | 数量 | 处理的铁锭数 | 处理时间 |
     | --- | --- | --- | --- |
     | <ItemLink id="Railcraft:fuel.coke" showIcon="left" /> | 2 | 1 | 240s |
     | <ItemLink id="Railcraft:cube" showIcon="left" /> | 2(=<ItemImage id="Railcraft:fuel.coke" />18) | 10 | 2400s |
@@ -98,17 +98,17 @@ A full summary of the relevant recipes are provided below. Note that iron ingots
   </Tab>
 </ContentTabs>
 
-The BBF can also boost the output of certain metal oxide dusts (pyrite, magnetite, cassiterite, etc). More specifically, the BBF yields 3 ingots for every 2 dusts--a 50% boost compared to vanilla furnaces or the [<ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" />](./steam_hearth.md). The problem is that the recipes are 120s with coal or charcoal and 80s with coke, which delays steel production.
+BBF 还可以提高某些金属氧化物粉（黄铁矿、磁铁矿、锡石等）的产量。具体而言，每 2 个粉可产出 3 个锭，相较原版熔炉或[<ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" />](./steam_hearth.md)提高 50%。问题在于，使用煤或木炭的配方需要 120 秒，使用焦煤则需要 80 秒，会延误钢材生产。
 
-### Pollution
-The BBF releases 200 gibbl/s of pollution into the air while active. If left unchecked, pollution can apply significant debuffs to the player and slowly erodes the surrounding chunks. The debuffs can be avoided by wearing a full hazmat suit, but nothing can stop the effects on the world until LV. There are really three options for mitigating the effects of pollution in the steam age:
+### 污染
+BBF 运行时会向空气中释放 200 gibbl/s 污染。若不加控制，污染会对玩家施加严重减益，并缓慢侵蚀周围区块。穿戴全套防化服可以避免减益，但直到 LV 阶段前都无法阻止污染对世界的影响。蒸汽时代有三种减轻污染影响的方法：
 
-- Place BBFs far away from your base to concentrate the pollution elsewhere. <ItemLink id="gregtech:gt.blockmachines:2701" showIcon="left" /> can help transport resources.
-- Place BBFs in the nether to concentrate the pollution in an entirely other dimension. It does not travel through the nether portal.
-- Disable pollution in .minecraft\config\GregTech\Pollution.cfg.
+- 将 BBF 放在远离基地的地方，把污染集中到其他区域。<ItemLink id="gregtech:gt.blockmachines:2701" showIcon="left" />可用于运输资源。
+- 将 BBF 放在下界，把污染集中到另一个维度。污染不会通过下界传送门传播。
+- 在 .minecraft\config\GregTech\Pollution.cfg 中禁用污染。
 
-Later on, use pollution scrubbers and/or [<ItemImage id="gregtech:gt.blockmachines:12020" />Electric Air Filters](./electric_air_filter.md) to actually remove the pollution from chunks. Higher tier armors (ie. Nanosuit) also provide full hazmat protection. 
+后期可使用污染清除器和/或[<ItemImage id="gregtech:gt.blockmachines:12020" />大型空气过滤机](./electric_air_filter.md)清除区块中的污染。更高等级的护甲（如纳米套装）也可提供完整的防化保护。
 
-## References
+## 参考资料
 
-- [GTNH Wiki : Bricked Blast Furnace](https://wiki.gtnewhorizons.com/wiki/Bricked_Blast_Furnace)
+- [GTNH Wiki：砖高炉](https://wiki.gtnewhorizons.com/wiki/Bricked_Blast_Furnace)

@@ -9,7 +9,7 @@ categories:
 - devices
 ---
 
-# ME双流体接口
+# ME二合一接口
 
 <Row gap="20">
 <BlockImage id="ae2fc:fluid_interface" scale="4" />

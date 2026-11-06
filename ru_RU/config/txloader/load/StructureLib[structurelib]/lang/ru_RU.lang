@@ -41,16 +41,16 @@ item.structurelib.constructableTrigger.gui.wipe.confirm=§4Уверены?
 item.structurelib.constructableTrigger.gui.channels.from=§rМод: §9§o%s
 item.structurelib.constructableTrigger.gui.info=Многие мультиблоки поддерживают различные вариации структуры. Субканал позволяет указать, какой именно вариант использовать.\nВсе субканалы в качестве ключа используют строку из строчных букв, а в качестве значения - положительное целое число. Для большинства известных субканалов доступно автодополнение при вводе.\nВы также можете перетаскивать предметы из NEI, чтобы задать значение соответствующего субканала. Все эти предметы имеют подсказку: "§oЗадаёт§r §oзначение§r §oX§r §oдля§r §oсубканала§r §oY§r"
 
-item.structurelib.debugConstructableTrigger.name=Debug Multiblock Structure Hologram Projector
+item.structurelib.debugConstructableTrigger.name=Отладочный голограммный проектор мультиблочных структур
 
 channels.structurelib.show_errors=Если включено, подсвечивает элементы мультиблока с явными ошибками
 
 structurelib.tooltip.channelvalue=§7Значение §b%d§r§7 для подканала §b%s
-structurelib.tooltip.indicator_dnd=Перейдите в GUI, чтобы выбрать это значение для этого канала.
-structurelib.pickchannel.success=§aSet §b%s§r§a to §b%d§r
+structurelib.tooltip.indicator_dnd=Перейдите в GUI или СКМ, чтобы выбрать это значение для данного канала
+structurelib.pickchannel.success=§aУстановлено §b%s§r§a на §b%d§r
 structurelib.pickchannel.cleared=§aВсе каналы очищены§r
-structurelib.pickchannel.confirmwipe=§6Sneak+Middle-click again to clear all channels
-structurelib.pickchannel.nomapping=§cNo channel mapping found for this item
+structurelib.pickchannel.confirmwipe=§6Shift + СКМ ещё раз, чтобы очистить все каналы
+structurelib.pickchannel.nomapping=§cДля этого предмета не найдено привязки к каналу
 
 structurelib.autoplace.built_stat=Построено %s блоков
 structurelib.autoplace.complete=§aЭтот мультиблок собран!

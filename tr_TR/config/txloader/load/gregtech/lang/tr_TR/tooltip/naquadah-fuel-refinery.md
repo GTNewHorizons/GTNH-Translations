@@ -1,3 +1,3 @@
 Naquadah Yakıtları üretir
 {hr}
-{color_name:Recipe} Kademesinin üzerindeki her {color_name:Coil} için {color_mechanic:Performs 1 4/4 Perfect Overclock}
+{color_name:Tarif} Kademesinin üzerindeki her {color_name:Bobin} için {color_mechanic:1 adet 4/4 Kusursuz Hız Aşırtma gerçekleştirir}

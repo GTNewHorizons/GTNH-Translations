@@ -27,7 +27,7 @@ date: 2026-05-23
 
 
 ## 建造
-<Color id="GREEN">IOF</Color> 没有分级组件。玻璃可以是任意等级，对机器运行没有影响。总线/仓可替换结构中任意位置的不锈钢机械方块。支持<Color id="RED">多A能源仓与激光能源仓</Color>，可实现极高吞吐量。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> 可视化/搭建结构，并通过子通道 "glass" 指定玻璃的等级。
+<Color id="GREEN">IOF</Color> 没有任意等级组件。玻璃可以是任意等级，对机器运行没有影响。总线/仓可替换结构中任意位置的不锈钢机械方块。支持<Color id="RED">多A能源仓与激光能源仓</Color>，可实现极高吞吐量。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> 可视化/搭建结构，并通过子信道 "glass" 指定玻璃的等级。
 
 假设__不__使用 <ItemLink id="gregtech:gt.blockmachines:32026" /> 来制作各组件，建造一座 <Color id="GREEN">IOF</Color> 还需要 7.21k 中子态素、3.89k 铱、3.03k 宇宙中子态素、3.02k 超能硅岩和 880 基岩物质等材料。
 
@@ -36,7 +36,7 @@ date: 2026-05-23
 - 462 <ItemLink id="gregtech:gt.blockcasings8:7" /> <ItemImage id="gregtech:gt.blockcasings8:7" />
 - 0-163 <ItemLink id="gregtech:gt.blockcasings4:1" /> <ItemImage id="gregtech:gt.blockcasings4:1" />
 - 96 <ItemLink id="gregtech:gt.sheetmetal:84" /> <ItemImage id="gregtech:gt.sheetmetal:84" />
-- 90 等级玻璃（任意等级） <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 90 任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 23 <ItemLink id="gregtech:gt.blockframes:306" /> <ItemImage id="gregtech:gt.blockframes:306" />
 - 7 <ItemLink id="gregtech:gt.blockcasings5:8" /> <ItemImage id="gregtech:gt.blockcasings5:8" />
 - 7 <ItemLink id="miscutils:gtplusplus.blockcasings.2:6" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2:6" />
@@ -49,8 +49,8 @@ date: 2026-05-23
 - 1+ 输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
 - 1+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 共墙
-<Color id="GREEN">IOF</Color> 的每一面都可与其他机器共墙，以节省机械方块、板金属、框架和总线/仓。把底层与正下方倒置的另一座机器重叠是最有效的方式，强烈推荐。但不要共用能源仓，因为只要还有可用并行，机器就会尽可能多地拉取电流。
+### 共用墙壁
+<Color id="GREEN">IOF</Color> 的每一面都可与其他机器共用墙壁，以节省机械方块、板金属、框架和总线/仓。把底层与正下方倒置的另一座机器重叠是最有效的方式，强烈推荐。但不要共用能源仓，因为只要还有可用并行，机器就会尽可能多地拉取电流。
 
 ## 用法
 <Color id="GREEN">IOF</Color> 几乎可以处理 GTNH 中的任何矿石，包括其各种形态（破碎矿、洗净矿等）。每种矿石统一消耗 30 EU/t 电力、2L 润滑油和 200L 蒸馏水。带有其他输入的配方（例如化学浸洗所需的过硫酸钠）仍需在默认消耗之外额外提供这些材料。处理速度取决于所提供的功率与机器当前的模式。

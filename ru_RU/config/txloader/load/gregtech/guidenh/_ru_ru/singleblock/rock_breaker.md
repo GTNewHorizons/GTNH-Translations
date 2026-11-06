@@ -13,9 +13,9 @@ item_ids:
   - gregtech:gt.blockmachines:12085
   - gregtech:gt.blockmachines:12086
 navigation:
-  title: Rock Breaker
+  title: Камнелом
   icon: gregtech:gt.blockmachines:441
   parent: ./singleblock_index.md
   position: 10
 ---
-# Rock Breaker
+# Камнелом

@@ -7,4 +7,4 @@ navigation:
 
 # Yükseltme Kartları
 
-Bkz. [Eşyalar ve Blokları: Yükseltme Kartları](../items_blocks/upgrade_cards.md).
+Bkz. [Yükseltme Kartları](../items_blocks/upgrade_cards.md).

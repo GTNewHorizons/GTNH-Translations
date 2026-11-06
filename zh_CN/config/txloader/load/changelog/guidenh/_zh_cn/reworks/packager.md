@@ -24,16 +24,16 @@ date: 2026-05-16
 
 > [!NOTE]
 > 这个多方块结构做了以下改动（结构本身除外）：
-> - 分级速度：配方速度现在取决于物品管道方块等级，为200-900%（旧上限为600%）
+> - 任意等级速度：配方速度现在取决于物品管道方块等级，为200-900%（旧上限为600%）
 
 ## 建造
-<Color id="GREEN">AWD</Color>有一个分级组件。物品管道方块决定机器的速度增益。玻璃可以是任意等级，对机器的运行没有影响。总线/仓可以替换结构中任意位置的机械方块。<Color id="RED">多A能源仓和激光能源仓 </Color>不受支持，但可以放置多个普通能源仓来超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来可视化/搭建结构，并通过子通道 "item_pipe" 和 "glass" 指定这些组件的等级。
+<Color id="GREEN">AWD</Color>有一个任意等级组件。物品管道方块决定机器的速度增益。玻璃可以是任意等级，对机器的运行没有影响。总线/仓可以替换结构中任意位置的机械方块。<Color id="RED">多A能源仓和激光能源仓 </Color>不受支持，但可以放置多个普通能源仓来超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来可视化/搭建结构，并通过子信道 "item_pipe" 和 "glass" 指定这些组件的等级。
 
 ### 需要：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15513" /> <ItemImage id="gregtech:gt.blockmachines:15513" />
 - 4-15 <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" /> <ItemImage id="miscutils:gtplusplus.blockcasings.3:9" />
 - 3 物品管道方块 <ItemImage id="gregtech:gt.blockcasings11:5" />
-- 3 等级玻璃（任意） <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 3 任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 2 <ItemLink id="gregtech:gt.blockframes:32" /> <ItemImage id="gregtech:gt.blockframes:32" />
 - 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
@@ -41,8 +41,8 @@ date: 2026-05-16
 - 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
 - 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 共墙：
-<Color id="GREEN">AWD</Color>的每一侧都可以与其他机器共墙，以节省机械方块、铅青铜框架和总线/仓。没有配方会消耗超过1A的电力，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
+### 共用墙壁：
+<Color id="GREEN">AWD</Color>的每一侧都可以与其他机器共用墙壁，以节省机械方块、铅青铜框架和总线/仓。没有配方会消耗超过1A的电力，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
 ## 用途
 <Color id="GREEN">AWD</Color>是单方块打包机和解包机的直接升级版，因为它能处理这两种配方，最高能以<Color id="GREEN">900%</Color>的速度运行，只消耗正常所需的<Color id="RED">75%</Color> EU/t，并按电压等级提供<Color color="#ed6401">16</Color>并行，如下表所示。
