@@ -27,6 +27,25 @@ OVERRIDE_NAMES_LANG_EN_US_REL_PATH = os.environ.get(
     "OVERRIDE_NAMES_LANG_EN_US_REL_PATH",
     "config/txloader/forceload/____gtnhoverridenames/lang/en_US.lang",
 )
+CUSTOM_MAIN_MENU_LANG_EN_US_REL_PATH = os.environ.get(
+    "CUSTOM_MAIN_MENU_LANG_EN_US_REL_PATH",
+    "config/txloader/load/custommainmenu/lang/en_US.lang",
+)
+GTNH_CREDITS_LANG_EN_US_REL_PATH = os.environ.get(
+    "GTNH_CREDITS_LANG_EN_US_REL_PATH",
+    "config/txloader/load/gtnhcredits/lang/en_US.lang",
+)
+LOOT_BAG_GROUPS_LANG_EN_US_REL_PATH = os.environ.get(
+    "LOOT_BAG_GROUPS_LANG_EN_US_REL_PATH",
+    "config/txloader/load/dreamcraft/lang/en_US.lang",
+)
+MISSING_KEYS_LANG_DOMAINS = os.environ.get(
+    "MISSING_KEYS_LANG_DOMAINS",
+    "bibliocraft,extrautils,gravisuit,witchery",
+).split(",")
+MISSING_KEYS_LANG_EN_US_REL_PATHS = [
+    f"config/txloader/load/{domain}/lang/en_US.lang" for domain in MISSING_KEYS_LANG_DOMAINS
+]
 GT_LANG_EN_US_REL_PATH = "GregTech_US.lang"
 GT_LANG_TARGET_REL_PATH = "GregTech.lang"
 
@@ -44,6 +63,11 @@ __all__ = [
     "DEFAULT_QUESTS_LANG_TARGET_REL_PATH",
     "CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH",
     "OVERRIDE_NAMES_LANG_EN_US_REL_PATH",
+    "CUSTOM_MAIN_MENU_LANG_EN_US_REL_PATH",
+    "GTNH_CREDITS_LANG_EN_US_REL_PATH",
+    "LOOT_BAG_GROUPS_LANG_EN_US_REL_PATH",
+    "MISSING_KEYS_LANG_DOMAINS",
+    "MISSING_KEYS_LANG_EN_US_REL_PATHS",
     "GT_LANG_EN_US_REL_PATH",
     "GT_LANG_TARGET_REL_PATH",
     "PARATRANZ_PROJECT_ID",

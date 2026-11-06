@@ -406,6 +406,23 @@ class Action:
         relpath = get_relpath(settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH)
         write_file(os.path.abspath(relpath), override_names_content)
 
+        main_menu_content = _download_from_gtnh(settings.CUSTOM_MAIN_MENU_LANG_EN_US_REL_PATH)
+        relpath = get_relpath(settings.CUSTOM_MAIN_MENU_LANG_EN_US_REL_PATH)
+        write_file(os.path.abspath(relpath), main_menu_content)
+
+        credits_content = _download_from_gtnh(settings.GTNH_CREDITS_LANG_EN_US_REL_PATH)
+        relpath = get_relpath(settings.GTNH_CREDITS_LANG_EN_US_REL_PATH)
+        write_file(os.path.abspath(relpath), credits_content)
+
+        loot_bag_groups_content = _download_from_gtnh(settings.LOOT_BAG_GROUPS_LANG_EN_US_REL_PATH)
+        relpath = get_relpath(settings.LOOT_BAG_GROUPS_LANG_EN_US_REL_PATH)
+        write_file(os.path.abspath(relpath), loot_bag_groups_content)
+
+        for missing_keys_relpath in settings.MISSING_KEYS_LANG_EN_US_REL_PATHS:
+            missing_keys_content = _download_from_gtnh(missing_keys_relpath)
+            relpath = get_relpath(missing_keys_relpath)
+            write_file(os.path.abspath(relpath), missing_keys_content)
+
         git_commit(
             str(repo_path),
             [str(base_path)],
@@ -471,6 +488,10 @@ class Action:
             settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH,
             settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH,
             settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH,
+            settings.CUSTOM_MAIN_MENU_LANG_EN_US_REL_PATH,
+            settings.GTNH_CREDITS_LANG_EN_US_REL_PATH,
+            settings.LOOT_BAG_GROUPS_LANG_EN_US_REL_PATH,
+            *settings.MISSING_KEYS_LANG_EN_US_REL_PATHS,
         ):
             if pack_relpath in changed_relpaths:
                 lang_files.append(self._read_pack_lang_file(base_path, pack_relpath))
@@ -509,6 +530,10 @@ class Action:
             self._read_pack_lang_file(base_path, settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH),
             self._read_pack_lang_file(base_path, settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH),
             self._read_pack_lang_file(base_path, settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH),
+            self._read_pack_lang_file(base_path, settings.CUSTOM_MAIN_MENU_LANG_EN_US_REL_PATH),
+            self._read_pack_lang_file(base_path, settings.GTNH_CREDITS_LANG_EN_US_REL_PATH),
+            self._read_pack_lang_file(base_path, settings.LOOT_BAG_GROUPS_LANG_EN_US_REL_PATH),
+            *(self._read_pack_lang_file(base_path, p) for p in settings.MISSING_KEYS_LANG_EN_US_REL_PATHS),
         ]
         for file_path in glob.glob(f'./{base_path}/resources/*/lang/en_US.lang'):
             with open(file_path, 'r', encoding='UTF-8') as f:
@@ -544,6 +569,10 @@ class Action:
             self._read_pack_lang_file(base_path, settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH),
             self._read_pack_lang_file(base_path, settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH),
             self._read_pack_lang_file(base_path, settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH),
+            self._read_pack_lang_file(base_path, settings.CUSTOM_MAIN_MENU_LANG_EN_US_REL_PATH),
+            self._read_pack_lang_file(base_path, settings.GTNH_CREDITS_LANG_EN_US_REL_PATH),
+            self._read_pack_lang_file(base_path, settings.LOOT_BAG_GROUPS_LANG_EN_US_REL_PATH),
+            *(self._read_pack_lang_file(base_path, p) for p in settings.MISSING_KEYS_LANG_EN_US_REL_PATHS),
         ]
         for pattern, filetype in (
             ('resources/*/lang/en_US.lang', FiletypeLang),
