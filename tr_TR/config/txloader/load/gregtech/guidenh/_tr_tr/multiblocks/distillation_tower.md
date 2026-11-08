@@ -103,7 +103,7 @@ Her çıktı katmanını ayrı bir sıvı borusuna ve tanka bağla. Damıtma Kul
 | --- | --- |
 | Standart Çıkış Kapağı | Her katmanı ayrı bir tanka bağla; tank, aşağı akıştaki geçici duruşları tamponlamalı |
 | ME Çıkış Kapağı | Her çıktı katmanı yine kendi kapağını gerektirir; ME kablolarının her yönden bağlanabilmesi için kapağa Tel Kesici ile sağ tıkla |
-| Yok Etme Taşması | Yalnızca etkilenen ürün güvenle atılabiliyorsa etkinleştir; dolu bir aşağı akış hedefine giremeyen sıvı kalıcı olarak yok edilir |
+| Hiçlik Taşması | Yalnızca etkilenen ürün güvenle atılabiliyorsa etkinleştir; dolu bir aşağı akış hedefine giremeyen sıvı kalıcı olarak yok edilir |
 | Paylaşılan kasalar veya kapaklar | Duvar paylaşımı malzeme tasarrufu sağlar, ancak paylaşılan Çıkış Kapakları o katmandaki çıktıları uyumlu değilse iki kulenin birbirini tıkamasına yol açabilir |
 
 Tarif bir Programlanmış Devre veya başka bir eşya girdisi gerektiriyorsa alt katmana bir Giriş Yolu kur. Toz veya başka bir eşya çıktısı üretiyorsa ayrıca bir Çıkış Yolu kur. Otomasyonu bağladıktan sonra önce bir parti işle ve sürekli girdiyi etkinleştirmeden önce her katmanda gerçek ürünü ve hedef tankı doğrula.

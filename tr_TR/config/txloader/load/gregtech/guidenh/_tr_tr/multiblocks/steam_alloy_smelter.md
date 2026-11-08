@@ -156,7 +156,7 @@ Buharlı Giriş ve Çıkış Yollarının her biri dört eşya yuvasına sahipti
 Temel kurulum en fazla bir ek Buharlı Giriş veya Çıkış Yoluna izin verir. Tıkanıklığın oluştuğu yere göre daha fazla girdi veya çıktı tamponlaması arasında seçim yap. Ek yollar paralel sınırını artırmaz, en az 25 gerçek kasa kalmalıdır ve ikinci bir Buhar Kapağı takılamaz.
 
 > [!WARNING]
-> Tüm ürünler toplanacaksa GUI'de boşaltmayı “Void Nothing” olarak ayarla. Etkin boşaltma nedeniyle alaşımları ve kalıplanmış parçaları kaybetmemek için Çıkış Yolu veya depolama dolduğunda çıkış tıkanıklığını gider.
+> Tüm ürünler toplanacaksa GUI'de boşaltmayı “Hiçbir Şeyi Hiçleme” olarak ayarla. Etkin boşaltma nedeniyle alaşımları ve kalıplanmış parçaları kaybetmemek için Çıkış Yolu veya depolama dolduğunda çıkış tıkanıklığını gider.
 
 ## Sorun Giderme
 

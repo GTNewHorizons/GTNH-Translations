@@ -102,7 +102,7 @@ Thaumic Machina'nın **Vis Kanalları** yükseltmesi, ekipman ve saltanat asası
 | shadowcloth | <ItemLink id="TaintedMagic:ItemWandCap:3" showIcon="left" /> | 5 | 85% | — |
 | thauminite | <ItemLink id="thaumicbases:resource:2" showIcon="left" /> | 6 | 85% | — |
 | blood_iron | <ItemLink id="BloodArsenal:wand_caps:0" showIcon="left" /> | 6 | 85% | Su maliyeti %80; Kan Aşılanmış Ahşap gövdeyle LP dönüşüm maliyetlerini daha da düşürür |
-| void | <ItemLink id="Thaumcraft:WandCap:7" showIcon="left" /> | 7 | 80% | — |
+| hiçlik | <ItemLink id="Thaumcraft:WandCap:7" showIcon="left" /> | 7 | 80% | — |
 | elementium | <ItemLink id="ForbiddenMagic:WandCaps:5" showIcon="left" /> | 7 | 70% | Yaşayanodun veya Dreamwood gövdeyle eşleştirildiğinde Mana dönüşüm maliyetlerini düşürür |
 | crimsoncloth | <ItemLink id="TaintedMagic:ItemWandCap:2" showIcon="left" /> | 6 | 80% | — |
 | shadowmetal | <ItemLink id="TaintedMagic:ItemWandCap:0" showIcon="left" /> | 8 | 70% | — |

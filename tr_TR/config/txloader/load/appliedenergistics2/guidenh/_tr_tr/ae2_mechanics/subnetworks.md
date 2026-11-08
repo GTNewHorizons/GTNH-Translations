@@ -24,7 +24,7 @@ navigation:
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="1.5 2.5 6.5" color="#00ff00">
-  Varilin içeriğini bir eşya yok etme hücresine taşır.
+  Varilin içeriğini bir eşya hiçlik hücresine taşır.
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="1.5 2.5 5.5" color="#00ff00">

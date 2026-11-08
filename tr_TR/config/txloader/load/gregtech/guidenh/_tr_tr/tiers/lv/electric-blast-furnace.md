@@ -97,7 +97,7 @@ Lojistiğini makinenin altından geçirmek zorunda kalmadan veriyollarına ve ka
 > * Egzoz çıkışını herhangi bir blok, kablo veya boruyla kapatma.
 > * Enerji kapaklarının gerilim kademesini aşma.
 > * Tarif boyunca istikrarlı güç sağla.
-> * Yok etme koruması etkinse çıkışlar için yer olduğundan emin ol.
+> * Hiçlik koruması etkinse çıkışlar için yer olduğundan emin ol.
 
 # Kullanım
 Yapı oluştuğunda ve tüm bakım sorunları giderildiğinde EYF sonunda kullanıma hazırdır. Ancak oyuncunun yalnızca LV enerji kapaklarına erişimi olmasına rağmen LV tarifi yoktur; <ItemImage id="gregtech:gt.metaitem.01:11305" /> çelik ve <ItemImage id="gregtech:gt.metaitem.01:11019" /> alüminyum işlemek en az MV güç gerektirir.
@@ -165,4 +165,4 @@ Tarifin doğru olduğunu kontrol et (eşyalar, sıvılar ve programlanmış devr
 Yeterli EU sağlandığını kontrol et. Muhtemelen çok fazla kablo kaybı vardır ya da yeterli buhar türbini yoktur. Ayrıca gelişmiş susturucularda hava filtresi olduğunu kontrol et.
 
 ## Yeterli çıkış alanı yok.
-Çıkış yolunun/kapağının dolu olmadığını kontrol et. Tarif ayrıca, yapının alt katmanında çıkış kapağı gerektiren sıvı çıkışlarının aksine, yapının üst katmanında çıkış kapağı gerektiren bir gaz çıkarmaya çalışıyor olabilir. Çıkışlardan biri özellikle önemli değilse eşyalar, sıvılar veya her ikisi için yok etme modunu etkinleştirmeyi dene.
+Çıkış yolunun/kapağının dolu olmadığını kontrol et. Tarif ayrıca, yapının alt katmanında çıkış kapağı gerektiren sıvı çıkışlarının aksine, yapının üst katmanında çıkış kapağı gerektiren bir gaz çıkarmaya çalışıyor olabilir. Çıkışlardan biri özellikle önemli değilse eşyalar, sıvılar veya her ikisi için hiçlik modunu etkinleştirmeyi dene.

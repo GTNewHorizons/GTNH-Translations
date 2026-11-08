@@ -150,7 +150,7 @@ Buharlı Giriş ve Çıkış Yollarının her birinde dört eşya yuvası vardı
 Bir tarif tek bir veriyolunun tutabileceğinden daha fazla eşya türü gerektiriyorsa buharlı Giriş Yolları ekle. Döngü başına birden çok sıvı veya büyük miktarlar da ek kapak gerektirebilir. Arayüz eklerken en az 25 gerçek kasa bırak ve ikinci bir Buhar Kapağı takma.
 
 > [!WARNING]
-> Tüm ürünleri toplamak için GUI'nin boşaltma modunu "Do Not Void" olarak ayarla ve her eşya ve sıvı çıkışı için yer sağla. Sıvı boşaltma etkinse, bir Çıkış Kapağı eksik veya tıkalı olduğunda Tuzlu Su, Kral Suyu ve diğer ürünler atılabilir.
+> Tüm ürünleri toplamak için GUI'nin boşaltma modunu "Hiçleme" olarak ayarla ve her eşya ve sıvı çıkışı için yer sağla. Sıvı boşaltma etkinse, bir Çıkış Kapağı eksik veya tıkalı olduğunda Tuzlu Su, Kral Suyu ve diğer ürünler atılabilir.
 
 ## Sorun Giderme
 

@@ -25,7 +25,7 @@ navigation:
 Daha sonra <Color color="#B7A0D6">KAMI</Color> araştırması Ichor üzerine kurularak Ichorcloth zırhı, Ichorium aletleri, ışınlanma cihazları ve daha fazlasını sunar.
 
 İçeriği ekipman yükseltmelerini, malzeme üretimini ve üs inşasını destekler. Osmotic Enchanter ve Thaumic Restorer mevcut ekipman ve esans sistemlerine uyum sağlar;<br>
-aşılanmış ekinler aspekt kombinasyonlarıyla yetiştirilir, KAMI ise void malzemelerinden, Osmiridyum'dan ve daha yüksek asa Vis kapasitesinden daha fazla yararlanır.
+aşılanmış ekinler aspekt kombinasyonlarıyla yetiştirilir, KAMI ise hiçlik malzemelerinden, Osmiridyum'dan ve daha yüksek asa Vis kapasitesinden daha fazla yararlanır.
 
 NH birçok araştırma ön koşulunu ve tarifini yeniden yazıyor, bu yüzden güncel malzemeleri NEI'de kontrol et. Bu sayfa cihaz mekaniklerine, kullanımlarına ve NH'ye özgü değişikliklere odaklanır.
 
@@ -203,7 +203,7 @@ Thaumic Tinkerer, Aşılanmış Tohumlar için NEI ganimet araması sağlar; bel
 - **Dört doğal elementin** ekinleri ilgili Aşılanmış Tahılı üretir; bu tahıl simyada Aer, Ignis, Aqua ve Terra iksirleri yapmak için kullanılabilir.
 - **Ordo ve Perditio** ekinleri sırasıyla cam ve kum üretir.
 - **Cognitio** ganimet havuzunda kâğıt, kitap, kitaplık ve Bilgi Parçaları bulunur.
-- **Alienis** ganimet havuzunda Ender İncisi, Ender Gözü ve Void Tohumları bulunur.
+- **Alienis** ganimet havuzunda Ender İncisi, Ender Gözü ve Hiçlik Tohumları bulunur.
 - Diğer bileşik aspektlerin kendi ganimet havuzları vardır. Yetiştirmek için uygun bir ana aspekt bulmak üzere hedef eşyanın tariflerini NEI'de ara.
 
 Uzun süreli hasat için tohumları ve eğilimlerini, toprak kalıntısını ve yetişme konumlarını koru; yetiştirme ve üretim için uygun ekim alanları ata.

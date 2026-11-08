@@ -10,7 +10,7 @@ date: 2026-05-16
 ---
 
 # Kişisel Boyut Tasarımı
-Çimenlikte inşa etmekten ya da dipsiz bir boşlukta süzülmekten sıkıldın mı? Artık <Color id="GREEN">Kişisel Boyut Portalı</Color> yepyeni bir tasarımla geliyor; hatta bir "Şehir Bloğu" tarzı ön ayarı bile içeriyor!
+Çimenlikte inşa etmekten ya da dipsiz bir hiçlikte süzülmekten sıkıldın mı? Artık <Color id="GREEN">Kişisel Boyut Portalı</Color> yepyeni bir tasarımla geliyor; hatta bir "Şehir Bloğu" tarzı ön ayarı bile içeriyor!
 
 ## Yeni Özellikler:
 - Yepyeni bir arayüz tasarımı!

@@ -99,11 +99,11 @@ Kapasite Kartları; İçe Aktarma Veriyolları, Dışa Aktarma Veriyolları, Dep
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:27" />
 
-## Taşma Yok Etme Kartı
+## Hiçlik Taşma Kartı
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" />
 
-Taşma Yok Etme Kartları, bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> içindeki [Depolama Hücrelerine](storage_cells.md) uygulanabilir.
+Hiçlik Taşma Kartları, bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> içindeki [Depolama Hücrelerine](storage_cells.md) uygulanabilir.
 Hücre dolduğunda gelen eşyaları yok ederler. Önce hücrelerini [bölümlediğinden](cell_workbench.md) emin ol.
 Eşit Dağıtım Kartı ile birleştirildiğinde, diğer bölümlerde hâlâ yer olsa bile bir eşya kendi bölümü dolduğu anda yok edilir.
 
