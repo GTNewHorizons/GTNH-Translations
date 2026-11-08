@@ -1,1 +1,1 @@
-Turn {color_steam:Steam} back to {color_cold:Distilled Water}
+{color_steam:蒸気}を{color_cold:蒸留水}に戻す
