@@ -31,7 +31,7 @@ gtnhlanth.tt.disstank.machinetype=Реактор-разбавитель
 
 # Source Chamber
 gtnhlanth.tt.sc.machinetype=Источник частиц
-gtnhlanth.tt.sc.input=§cRequires 1 input bus OR 1 input hatch
+gtnhlanth.tt.sc.input=§cТребуется 1 входной люк ИЛИ 1 входной шлюз
 
 # Linear Accelerator
 gtnhlanth.tt.linac.machinetype=Ускоритель частиц, LINAC
@@ -63,7 +63,7 @@ GT5U.gui.text.shutdown_reason.gtnhlanth.inputinterrupt=Входной пучок
 GT5U.gui.text.recipe_result.dissolution_ratio=§7Неправильное соотношение подачи жидкости!
 GT5U.gui.text.recipe_result.gtnhlanth.wrongparticle=Неверная частица!
 GT5U.gui.text.recipe_result.gtnhlanth.toolowenergy=Энергия ниже требуемого уровня!
-GT5U.gui.text.recipe_result.gtnhlanth.toohighenergy=Above Required Energy!
+GT5U.gui.text.recipe_result.gtnhlanth.toohighenergy=Выше требуемой энергии!
 GT5U.gui.text.shutdown_reason.gtnhlanth.noparticle=Частица отсутствует (скорость равна 0)!
 GT5U.gui.text.shutdown_reason.gtnhlanth.boostinterrupt=Not enough booster fluid supplied!
 
@@ -140,8 +140,8 @@ beamline.focus.fmt=Фокус: §9%s§r
 beamline.amount=Количество
 beamline.amount.fmt=Количество: §d%s§r
 beamline.rate=Скорость
-beamline.materialenergy=Max Material Energy
-beamline.particleenergy=Max Particle Energy
+beamline.materialenergy=Макс. энергия материала
+beamline.particleenergy=Макс. энергия частицы
 beamline.energyratio=Соотношение энергии
 beamline.temperature=Температура
 beamline.temperature.fmt=Температура: §4%s§r K
@@ -154,7 +154,7 @@ beamline.out_pre.hdr=§lМультиблочный выход установки
 gt.blockmachines.beamline_pipe.name=Лучевая труба
 
 beamline.pipe.desc.0=Транспорт для частиц
-beamline.pipe.desc.1=Сигнал не пересекается и не изгибается
+beamline.pipe.desc.1=Пучки не могут пересекаться или изгибаться
 
 
 tile.recipe.tc=Приёмник элементарных частиц
@@ -165,7 +165,7 @@ particle.name.fmt=%s (%s)
 particle.photon=Фотон
 particle.zboson=Z Бозон
 particle.wboson=W Бозон
-particle.glueball=Glueball
+particle.glueball=Глюбол
 particle.higgs=Бозон Хиггса
 particle.graviton=Гравитон
 particle.electron=Электрон

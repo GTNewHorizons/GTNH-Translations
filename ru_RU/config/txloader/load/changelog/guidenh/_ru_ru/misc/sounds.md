@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Sound Changes
+  title: Изменения звуков
   parent: misc.md
   icon: gregtech:gt.WirelessHeadphones
 categories:
@@ -9,14 +9,14 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Sound Changes
-There have been quite a few sound changes coming to 2.9. These are explained briefly below:
+# Изменения звуков
+В 2.9 появилось довольно много изменений звуков. Ниже они кратко описаны:
 
-## Structure Rework Sounds:
-Lots of the new [Structure Reworks](../reworks/reworks.md) come with brand new sounds! They won't all be listed here, but see how many you can find!
+## Звуки переработанных структур:
+Многие новые [переработки структур](../reworks/reworks.md) получили новые звуки! Здесь перечислены не все, поэтому попробуйте найти как можно больше!
 
-## Sound Center Location:
-Multiblock sounds will now emit from the center of the structure, instead of the previous emission from the controller.
+## Расположение источника звука:
+Звуки мультиблоков теперь исходят из центра структуры, а не из контроллера, как раньше.
 
-## Howler Alarm:
-The Howler Alarm <ItemImage id="IC2NuclearControl:blockNuclearControlMain:2"/> now comes with a new sound setting, the <Color id="GREEN">Factorio Rocket Silo</Color>!
+## Сирена "Ревун":
+Сирена "Ревун" <ItemImage id="IC2NuclearControl:blockNuclearControlMain:2"/> теперь имеет новую настройку звука: <Color id="GREEN">Ракетная шахта Factorio</Color>!
