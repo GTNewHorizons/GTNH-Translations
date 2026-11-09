@@ -1,0 +1,525 @@
+# Dashboard en_US translation file
+
+# Keys
+key.categories.dashboard=Dashboard
+key.dashboard.open_editor=Open Dashboard HUD Editor
+key.dashboard.toggle_images=Show/Hide Pictures
+key.dashboard.next_layout=Next HUD Layout
+
+key.categories.dashboard_editor=Dashboard Editor
+key.dashboard.reset=Reset
+key.dashboard.lock=Lock
+key.dashboard.attach=Attach
+key.dashboard.hide_menu=Hide Editor Menu
+key.dashboard.size_modifier=Resize (hold)
+key.dashboard.opacity_modifier=See-through (hold)
+key.dashboard.free_move_modifier=Move Without Snapping (hold)
+
+# Messages
+dashboard.message.images_shown=Pictures shown
+dashboard.message.images_hidden=Pictures hidden
+dashboard.message.layout=HUD layout %s
+
+# Editor gui
+dashboard.editor.title=Dashboard HUD Editor
+
+## Buttons
+dashboard.editor.button.done=Done
+dashboard.editor.button.reset=Reset
+dashboard.editor.button.customize=Customize
+dashboard.editor.customize_tooltip=Change how the HUD looks
+dashboard.editor.customize_tooltip.bars=Bars: themes, fill direction and numbers
+dashboard.editor.customize_tooltip.sections=Also the crosshair, status effects, screen overlays, hotbar and held items
+dashboard.editor.button.elements=Elements
+dashboard.editor.elements_tooltip=A list of the elements, to find hidden, small or covered ones
+dashboard.editor.elements_search.hint=Search...
+dashboard.editor.elements_tooltip.hover=§6Hover§7 over a row to light up its element
+dashboard.editor.elements_tooltip.grab=§6Left-click§7 a row to pick its element up, click again to drop it
+dashboard.editor.elements_tooltip.toggle=§6Right-click§7 a row to show or hide its element
+dashboard.editor.button.mods=Mods
+dashboard.editor.mods_tooltip=Choose which mods' elements show in the editor
+dashboard.editor.mods_tooltip.game=Unticked mods still show in game
+dashboard.editor.mods_tooltip.ctrl=§6Ctrl+click§7 a mod to switch all the others
+dashboard.editor.button.grid=Grid
+dashboard.editor.button.grid.on=Grid: ON
+dashboard.editor.button.grid.off=Grid: OFF
+dashboard.editor.button.preview=Preview
+dashboard.editor.button.preview.on=Preview: ON
+dashboard.editor.button.preview.off=Preview: OFF
+dashboard.editor.button.labels=Labels
+dashboard.editor.button.labels.on=Labels: ON
+dashboard.editor.button.labels.off=Labels: OFF
+dashboard.editor.button.positions=Position
+dashboard.editor.button.positions.on=Position: ON
+dashboard.editor.button.positions.off=Position: OFF
+
+## Help tooltip
+dashboard.editor.help_tooltip.title=Controls
+dashboard.editor.help_tooltip.title_3=Still need help?
+dashboard.editor.help_tooltip.title_5=Have you tried turning it off and on again?
+dashboard.editor.help_tooltip.title_7=The help is the same as 5 seconds ago
+dashboard.editor.help_tooltip.give_up=Okay, you're on your own now
+dashboard.editor.help_tooltip.point=Hover over an element, then:
+dashboard.editor.help_tooltip.move=§6Drag§7 to move (hold §6[%s]§7 to stop snapping)
+dashboard.editor.help_tooltip.nudge=§6Arrow keys§7 to move by 1 pixel
+dashboard.editor.help_tooltip.toggle=§6Right-click§7 to show or hide
+dashboard.editor.help_tooltip.reset=§6[%s]§7 to reset the position
+dashboard.editor.help_tooltip.resize=§6[%s]+scroll§7 to resize
+dashboard.editor.help_tooltip.reset_size=§6[%s]+[%s]§7 to reset the size
+dashboard.editor.help_tooltip.opacity=§6[%s]+scroll§7 to make the background see-through (some elements)
+dashboard.editor.help_tooltip.reset_opacity=§6[%s]+[%s]§7 to reset the see-through background
+dashboard.editor.help_tooltip.lock=§6[%s]§7 to lock, so it can not be changed by accident
+dashboard.editor.help_tooltip.attach=§6[%s]§7, then click another element to make it follow that one (§6[%s]§7 again to detach)
+dashboard.editor.help_tooltip.menu=Drag this menu to move it, or press §6[%s]§7 to hide it
+dashboard.editor.help_tooltip.change_keys=Change some of these keys in Options > Controls > Dashboard Editor
+dashboard.editor.help_tooltip.layout=Editing layout %s of %s, switch in game with §6[%s]§7
+dashboard.editor.help_tooltip.ingameinfo=InGameInfoXML text only shows up here after it was toggled on in game
+dashboard.editor.help_tooltip.journeymap=The JourneyMap minimap only shows up here while it is turned on in JourneyMap
+
+## Element tooltip
+dashboard.editor.element_tooltip.hidden=Hidden
+dashboard.editor.element_tooltip.locked=§cLocked, press §6[%s]§c to unlock
+dashboard.editor.element_tooltip.attached=§cAttached to %s, press §6[%s]§c to detach
+dashboard.editor.element_tooltip.not_showing=Not showing right now
+dashboard.editor.element_tooltip.size=Size: %s (drawn at %s)
+dashboard.editor.element_tooltip.size_smallest=Size: %s (drawn at %s, smallest)
+dashboard.editor.element_tooltip.size_largest=Size: %s (drawn at %s, largest)
+dashboard.editor.element_tooltip.background=Background opacity: %s%%
+dashboard.editor.element_tooltip.own_settings=Own settings: %s
+dashboard.editor.element_tooltip.own_settings_moved=Moved here, so its own position setting is ignored until Reset
+dashboard.editor.element_tooltip.key_not_set=key not set
+
+# Elements
+## Minecraft
+dashboard.element.minecraft.hotbar=Hotbar
+dashboard.element.minecraft.experience=Experience Bar
+dashboard.element.minecraft.experience_level=Experience Level
+dashboard.element.minecraft.jump_bar=Horse Jump Bar
+dashboard.element.minecraft.boss_health=Boss Health
+dashboard.element.minecraft.health=Health
+dashboard.element.minecraft.armor=Armor
+dashboard.element.minecraft.food=Food
+dashboard.element.minecraft.air=Air
+dashboard.element.minecraft.mount_health=Mount Health
+dashboard.element.minecraft.item_name=Held Item Name
+dashboard.element.minecraft.action_bar=Action Bar
+dashboard.element.minecraft.scoreboard=Scoreboard
+dashboard.element.minecraft.achievement=Achievement Popup
+dashboard.element.minecraft.health_number=Health Number
+dashboard.element.minecraft.armor_number=Armor Number
+dashboard.element.minecraft.food_number=Food Number
+dashboard.element.minecraft.saturation_number=Saturation Number
+dashboard.element.minecraft.air_number=Air Number
+dashboard.element.minecraft.mount_health_number=Mount Health Number
+dashboard.element.minecraft.boss_health_number=Boss Health Number
+dashboard.element.minecraft.status_effects=Status Effects
+
+dashboard.preview.scoreboard=Scores
+
+## Inventory (added by Dashboard)
+dashboard.element.inventory=Inventory
+dashboard.element.inventory.description=Your 27 inventory slots on a see-through background.\n§6[%s]+scroll§7 to change how see-through it is.\nHidden by default.
+
+## Item Pickups (added by Dashboard)
+dashboard.element.pickup_feed=Item Pickups
+dashboard.element.pickup_feed.description=Shows the items you pick up for a moment.\nMore of the same item adds to its row.\nMore settings (time, slide out): Dashboard config > Other\nHidden by default.
+
+## Pictures (added by Dashboard)
+dashboard.element.image.pack=A picture from a resource pack\nHide or show all pictures with §6[%s]§7 (%s)\n§6Scroll§7 to zoom, §6middle-drag§7 to look around (in chat, just §6drag§7)
+dashboard.element.image.folder=A picture from config/dashboard/images\nHide or show all pictures with §6[%s]§7 (%s)\n§6Scroll§7 to zoom, §6middle-drag§7 to look around (in chat, just §6drag§7)
+
+## Tinkers' Construct (added by Dashboard)
+dashboard.element.tinkers.belt_hotbar=Belt Hotbar
+dashboard.element.tinkers.belt_hotbar.description=The items in your Traveller's Belt,\nswapped with your hotbar by pressing §6[%s]§7 (%s).\n§6[%s]+scroll§7 to change how see-through it is.\nHidden by default.
+
+## GraviSuite
+dashboard.element.gravisuite.status=GraviSuite Status
+dashboard.element.gravisuite.status.own_settings=GraviSuite config > hudPosition
+
+dashboard.preview.gravisuite.mode=Gravitation Engine: ON
+dashboard.preview.gravisuite.energy=Energy Level: 100%
+
+## Galacticraft
+dashboard.element.galacticraft.oxygen=Oxygen & Temperature
+dashboard.element.galacticraft.oxygen.own_settings=Galacticraft config > Minimap Left / Minimap Bottom
+dashboard.element.galacticraft.oxygen_warning=Oxygen Warning
+dashboard.element.galacticraft.launch_countdown=Launch Countdown
+dashboard.element.galacticraft.lander=Lander Warning & Speed
+dashboard.element.galacticraft.rocket_altitude=Rocket Altitude
+
+## GalaxySpace
+dashboard.element.galaxyspace.pressure=Atmospheric Pressure
+dashboard.element.galaxyspace.pressure.own_settings=Galacticraft config > Minimap Left / Minimap Bottom
+
+## Waila
+dashboard.element.waila.info_box=Waila
+dashboard.element.waila.info_box.own_settings=§6[%s]§7 (%s)
+
+## Adventure Backpack
+dashboard.element.adventurebackpack.potion_icons=Backpack Potion Icons
+dashboard.element.adventurebackpack.potion_icons.own_settings=Adventure Backpack config > status
+dashboard.element.adventurebackpack.tanks=Backpack Tanks
+dashboard.element.adventurebackpack.tanks.own_settings=Adventure Backpack config > tanks
+
+## Botania
+dashboard.element.botania.mana_bar=Mana Bar
+dashboard.element.botania.mana_bar.own_settings=Botania config > manaBar.height
+dashboard.element.botania.flight_bar=Flügel Tiara Flight Bar
+dashboard.element.botania.flight_bar.own_settings=Botania config > flightBar.height
+dashboard.element.botania.boss_bar=Botania Boss Bar
+dashboard.element.botania.wand_mode=Wand Mode
+dashboard.element.botania.corporea_hint=Corporea Index Hint
+dashboard.element.botania.crosshair_info=Botania Crosshair Info
+
+## Backhand
+dashboard.element.backhand.offhand_slot=Off-hand Slot
+dashboard.element.backhand.offhand_slot.own_settings=Backhand config > offhand hotbar slot X/Y offset
+
+## InGameInfoXML
+dashboard.element.ingameinfo.top_left=Info Text: Top Left
+dashboard.element.ingameinfo.top_center=Info Text: Top Center
+dashboard.element.ingameinfo.top_right=Info Text: Top Right
+dashboard.element.ingameinfo.middle_left=Info Text: Middle Left
+dashboard.element.ingameinfo.middle_center=Info Text: Middle Center
+dashboard.element.ingameinfo.middle_right=Info Text: Middle Right
+dashboard.element.ingameinfo.bottom_left=Info Text: Bottom Left
+dashboard.element.ingameinfo.bottom_center=Info Text: Bottom Center
+dashboard.element.ingameinfo.bottom_right=Info Text: Bottom Right
+dashboard.element.ingameinfo.own_settings=InGameInfoXML config > alignment offsets
+
+## Draconic Evolution
+dashboard.element.draconicevolution.info_box=Draconic Info Box
+dashboard.element.draconicevolution.armor_hud=Draconic Armor HUD
+dashboard.element.draconicevolution.magnet_icon=Draconic Magnet Icon
+dashboard.element.draconicevolution.own_settings=§6[%s]§7 (%s) > Configure HUD Elements
+
+## Thaumcraft
+dashboard.element.thaumcraft.wand_dial=Wand Vis Dial
+dashboard.element.thaumcraft.wand_dial.own_settings=Thaumcraft config > wand_dial_bottom
+dashboard.element.thaumcraft.warp_meter=Warp Meter
+dashboard.element.thaumcraft.runic_shield=Runic Shielding
+dashboard.element.thaumcraft.hover_harness=Hover Harness
+dashboard.element.thaumcraft.notifications=Research Notifications
+dashboard.element.thaumcraft.notifications.own_settings=Thaumcraft config > notification_max
+
+dashboard.preview.thaumcraft.notification=New research discovered
+
+## Thaumic Tinkerer
+dashboard.element.thaumictinkerer.dislocation_focus=Dislocation Focus
+dashboard.element.thaumictinkerer.dislocation_focus.own_settings=Thaumcraft config > wand_dial_bottom
+dashboard.element.thaumictinkerer.tool_mode=Kami Tool Mode
+dashboard.element.thaumictinkerer.soul_hearts=Soul Hearts
+dashboard.element.thaumictinkerer.soul_hearts.own_settings=Thaumic Tinkerer config > soulHeart.height
+
+## Tainted Magic
+dashboard.element.taintedmagic.katana_charge=Katana Charge
+dashboard.element.taintedmagic.disassembler_mode=Thaumic Disassembler Mode
+
+## Witchery
+dashboard.element.witchery.side.own_settings=Witchery config > GUIOnLeft
+dashboard.element.witchery.blood_meter=Vampire Blood
+dashboard.element.witchery.target_blood=Target's Blood
+dashboard.element.witchery.infusion_energy=Infusion Energy
+dashboard.element.witchery.creature_power=Creature Power
+dashboard.element.witchery.infused_brew=Infused Brew
+dashboard.element.witchery.bark_belt=Bark Belt Charges
+
+## Battlegear 2
+dashboard.element.battlegear2.shield_bar=Shield Block Bar
+dashboard.element.battlegear2.shield_bar.description=Shows while holding a shield in the off hand
+dashboard.element.battlegear2.shield_bar.own_settings=Battlegear config > Shield bar relative position
+dashboard.element.battlegear2.quiver=Quiver Slots
+dashboard.element.battlegear2.quiver.description=Shows while holding a bow with a quiver in your inventory
+dashboard.element.battlegear2.quiver.own_settings=Battlegear config > Quiver hotbar relative position
+
+## Nature's Compass
+dashboard.element.naturescompass.biome_info=Biome Search Info
+dashboard.element.naturescompass.biome_info.description=Shows while holding a Nature's Compass
+dashboard.element.naturescompass.biome_info.own_settings=Nature's Compass config > overlaySide / lineOffset
+
+## Random Things
+dashboard.element.randomthings.notification=Notification
+dashboard.element.randomthings.notification.description=Sent by the Notification Interface or /rt notify
+
+## Bogosorter
+dashboard.element.bogosorter.usage_ticker=Usage Ticker
+dashboard.element.bogosorter.usage_ticker.description=Pops up for a moment when the held item or armor changes count\nThe hotbar swap column (§6hold Alt§7) moves with the hotbar
+
+## GregTech
+dashboard.element.gregtech.power_goggles=Power Goggles
+dashboard.element.gregtech.power_goggles.own_settings=Power Goggles config, opened with §6[%s]
+
+## EnderIO
+dashboard.element.enderio.conduit_probe=Conduit Probe
+dashboard.element.enderio.conduit_probe.description=Shows while holding a Conduit Probe, with its probe and copy mode
+dashboard.element.enderio.yeta_wrench_selector=Yeta Wrench Selector
+dashboard.element.enderio.yeta_wrench_selector.description=Shows for a moment after switching the Yeta Wrench mode\nOnly with the default overlay (EnderIO config > yetaWrenchOverlayMode 0)
+dashboard.element.enderio.yeta_wrench_mode=Yeta Wrench Mode
+dashboard.element.enderio.yeta_wrench_mode.description=Shows while holding a Yeta Wrench, the current conduit display mode
+dashboard.element.enderio.yeta_wrench_mode.own_settings=EnderIO config > yetaWrenchOverlayMode
+
+## TaskNH
+dashboard.element.tasknh.pinned_tasks=Pinned Tasks
+dashboard.element.tasknh.pinned_tasks.description=The tasks pinned to the HUD in the TaskNH task list
+dashboard.element.tasknh.pinned_tasks.own_settings=TaskNH task list > HUD settings
+dashboard.element.tasknh.pinned_tasks.sample=Build a power line
+dashboard.element.tasknh.pinned_tasks.sample_item=Craft cables
+
+## Akashic Tome
+dashboard.element.akashictome.book_hint=Book Hint
+dashboard.element.akashictome.book_hint.description=Shows which guide book the tome switches to for the block you look at, while holding an Akashic Tome
+
+## LootGames
+dashboard.element.lootgames.game_info=Minigame Info
+dashboard.element.lootgames.game_info.description=Shows while playing a LootGames minigame, Minesweeper or Sudoku
+
+## GTNHLib (+ServerUtilities)
+dashboard.element.gtnhlib.above_hotbar_text=Text Above Hotbar
+dashboard.element.gtnhlib.above_hotbar_text.description=Short messages GTNH mods show above the hotbar\nServerUtilities notifications move with it
+dashboard.element.gtnhlib.title=Title
+dashboard.element.gtnhlib.title.own_settings=GTNHLib config > titleOffsetX / titleOffsetY / titleScale
+
+## Infernal Mobs
+dashboard.element.infernalmobs.health_bar=Elite Mob Health
+dashboard.element.infernalmobs.health_bar.description=Shows while looking at an elite mob, when no boss bar shows\nWith the mob's name and its modifiers
+
+## Et Futurum
+dashboard.element.etfuturum.subtitles=Subtitles
+dashboard.element.etfuturum.subtitles.description=Sound captions: name nearby sounds and point where they come from
+dashboard.element.etfuturum.subtitles.own_settings=Et Futurum config > functions > enableSubtitles
+
+## Hardcore Ender Expansion
+dashboard.element.hardcoreenderexpansion.notifications=Notes
+dashboard.element.hardcoreenderexpansion.energy_cluster=Energy Cluster Info
+dashboard.element.hardcoreenderexpansion.energy_cluster.description=Shows while looking at an Energy Cluster
+
+## JourneyMap
+dashboard.element.journeymap.minimap=Minimap
+dashboard.element.journeymap.minimap.own_settings=JourneyMap MiniMap Options > Position
+
+## IndustrialCraft 2
+dashboard.element.ic2.armor_charge=Armor Charge
+dashboard.element.ic2.armor_charge.description=Shows while wearing a Nano or Quantum helmet with its HUD on\nSwitch the HUD mode with §6[%s]§7 (%s) + §6[%s]§7 (%s)
+dashboard.element.ic2.held_item=Held Item Info
+dashboard.element.ic2.held_item.description=Shows in the Nano or Quantum helmet's extended HUD mode\nSwitch the HUD mode with §6[%s]§7 (%s) + §6[%s]§7 (%s)
+
+# Customize screen
+dashboard.customize.title=Customize
+dashboard.customize.section.bars=Bars
+dashboard.customize.all_bars=All Bars
+dashboard.customize.crosshair=Crosshair
+dashboard.customize.crosshair_style=Style
+dashboard.customize.crosshair_size=Crosshair size
+dashboard.customize.tinkers_crosshair=Tinkers Crosshair
+dashboard.customize.tinkers_crosshair.on=On: Tinkers' own crosshair while holding its ranged weapons
+dashboard.customize.tinkers_crosshair.off=Off: always use the crosshair above
+dashboard.customize.fill_direction=Fill direction
+dashboard.customize.mixed=Mixed
+dashboard.customize.number=Number next to the bar
+dashboard.customize.number.on=On
+dashboard.customize.number.off=Off
+dashboard.customize.number_style=Number style
+dashboard.customize.number_style.slash=Current/Max
+dashboard.customize.number_style.spaced_slash=Current / Max
+dashboard.customize.number_style.current=Current
+dashboard.customize.number_style.max=Max
+dashboard.customize.number_style.percent=Percent
+dashboard.customize.number_decimals=Decimals
+dashboard.customize.number_decimals.0=Whole numbers
+dashboard.customize.number_decimals.1=1 decimal
+dashboard.customize.number_decimals.2=2 decimals
+dashboard.customize.saturation=Saturation
+dashboard.customize.reset_flips=Reset fill directions
+dashboard.customize.show_states=Show States
+dashboard.customize.hide_states=Hide States
+dashboard.customize.reset=Reset
+dashboard.customize.state.health_poisoned=Poisoned
+dashboard.customize.state.health_withered=Withered
+dashboard.customize.state.health_absorption=Absorption
+dashboard.customize.state.health_flash_empty=Flash (Empty)
+dashboard.customize.state.health_flash=Flash
+dashboard.customize.state.health_flash_poisoned=Flash (Poisoned)
+dashboard.customize.state.health_flash_withered=Flash (Withered)
+dashboard.customize.state.health_regen=Regeneration
+dashboard.customize.state.health_hardcore=Hardcore
+dashboard.customize.state.food_hunger=Hunger Effect
+dashboard.customize.state.food_saturation=AppleCore Saturation
+dashboard.customize.state.food_exhaustion=AppleCore Exhaustion
+dashboard.customize.state.air_pop=Pop
+dashboard.customize.status_effects=Status Effects
+dashboard.customize.screen_overlays=Screen Overlays
+dashboard.customize.hotbar=Hotbar
+dashboard.customize.rendering=Rendering
+
+# Rendering section
+dashboard.rendering.hidden_held_items=Hidden Held Items
+dashboard.rendering.hint=minecraft:wool or minecraft:wool:14
+dashboard.rendering.add=Add
+dashboard.rendering.held.tooltip=Fill in the item in your hand
+dashboard.rendering.remove=Remove
+dashboard.rendering.unknown=Unknown item
+
+# Hotbar section
+dashboard.hotbar.numbers=Slot Numbers
+dashboard.hotbar.text=Text
+dashboard.hotbar.text.bound_key=Bound Key
+dashboard.hotbar.text.numbers=Numbers
+dashboard.hotbar.position=Position
+dashboard.hotbar.position.0=Top Left
+dashboard.hotbar.position.1=Top
+dashboard.hotbar.position.2=Top Right
+dashboard.hotbar.position.3=Left
+dashboard.hotbar.position.4=Middle
+dashboard.hotbar.position.5=Right
+dashboard.hotbar.position.6=Bottom Left
+dashboard.hotbar.position.7=Bottom
+dashboard.hotbar.position.8=Bottom Right
+dashboard.hotbar.size=Size
+dashboard.hotbar.layer=Layer
+dashboard.hotbar.layer.over_items=Over Items
+dashboard.hotbar.layer.under_items=Under Items
+dashboard.hotbar.color=Color
+dashboard.hotbar.color.0=Black
+dashboard.hotbar.color.1=Dark Blue
+dashboard.hotbar.color.2=Dark Green
+dashboard.hotbar.color.3=Dark Aqua
+dashboard.hotbar.color.4=Dark Red
+dashboard.hotbar.color.5=Dark Purple
+dashboard.hotbar.color.6=Gold
+dashboard.hotbar.color.7=Gray
+dashboard.hotbar.color.8=Dark Gray
+dashboard.hotbar.color.9=Blue
+dashboard.hotbar.color.10=Green
+dashboard.hotbar.color.11=Aqua
+dashboard.hotbar.color.12=Red
+dashboard.hotbar.color.13=Light Purple
+dashboard.hotbar.color.14=Yellow
+dashboard.hotbar.color.15=White
+
+# Screen overlays screen
+dashboard.screen_overlays.pumpkin_opacity=Pumpkin Opacity
+dashboard.screen_overlays.portal_opacity=Portal Opacity
+dashboard.screen_overlays.fire_opacity=Fire Opacity
+dashboard.screen_overlays.fire_height=Fire Height
+dashboard.screen_overlays.preview=Preview
+dashboard.screen_overlays.water_opacity=Underwater Opacity
+dashboard.screen_overlays.vignette_strength=Vignette Strength
+dashboard.screen_overlays.sleep_fade_strength=Sleep Fade Strength
+dashboard.screen_overlays.hurt_shake_strength=Hurt Shake
+dashboard.screen_overlays.nausea_strength=Nausea Wobble
+dashboard.screen_overlays.night_vision_flicker=Night Vision Flicker
+dashboard.screen_overlays.overlays=Overlays
+dashboard.screen_overlays.camera=Camera
+
+# Status effects screen
+dashboard.status_effects.background=Background
+dashboard.status_effects.icon=Icon
+dashboard.status_effects.name=Name
+dashboard.status_effects.time=Time
+dashboard.status_effects.stack=Stack
+dashboard.status_effects.stack.vertical=Vertical
+dashboard.status_effects.stack.horizontal=Horizontal
+dashboard.status_effects.spacing=Spacing
+dashboard.status_effects.pulse=Pulse
+dashboard.status_effects.infinite=Infinite
+dashboard.status_effects.permanent=Permanent
+dashboard.status_effects.permanent.show=Show
+dashboard.status_effects.permanent.hide=Hide
+dashboard.status_effects.group=Good First
+dashboard.status_effects.sort=Sort
+dashboard.status_effects.sort.added=Added
+dashboard.status_effects.sort.time=Time Left
+dashboard.status_effects.pulse.seconds=%ss left
+
+# Bar themes
+dashboard.theme.vanilla=Vanilla
+
+# Config
+dashboard.config.open_editor=Open HUD Editor
+dashboard.config.open_editor.tooltip=Opens the HUD editor, to move, resize and hide parts of the HUD\nOnly while in a world, since the editor shows the HUD
+
+dashboard.config.editor=Editor and Customize
+dashboard.config.editor.tooltip=Settings you can also change in the HUD editor and its Customize screen
+
+dashboard.config.editor.show_grid=Show Grid
+dashboard.config.editor.show_grid.tooltip=Show the grid in the HUD editor and snap elements to it
+dashboard.config.editor.show_preview=Show Preview
+dashboard.config.editor.show_preview.tooltip=Show sample content for elements that are not showing in the HUD editor
+dashboard.config.editor.show_labels=Show Labels
+dashboard.config.editor.show_labels.tooltip=Show the element names inside their boxes in the HUD editor
+dashboard.config.editor.show_positions=Show Positions
+dashboard.config.editor.show_positions.tooltip=Show the element position, measured from the middle of the screen, next to its box in the HUD editor
+dashboard.config.editor.shown_editor_mods=Mods Shown in the Editor
+dashboard.config.editor.shown_editor_mods.tooltip=Mod ids whose elements show in the HUD editor. Other mods are left out, to tidy it. They still show in game
+dashboard.config.editor.crosshair_style=Crosshair Style
+dashboard.config.editor.crosshair_style.tooltip=Crosshair shape: 0 is vanilla, 1 and up are the shapes on the crosshair sheet
+dashboard.config.editor.crosshair_size=Crosshair Size
+dashboard.config.editor.crosshair_size.tooltip=Crosshair size, 1 to 5 times
+dashboard.config.editor.tinkers_crosshair=Tinkers Crosshair
+dashboard.config.editor.tinkers_crosshair.tooltip=Let Tinkers' Construct draw its own crosshair while holding its bows, crossbows and throwing weapons
+dashboard.config.editor.hidden_held_items=Hidden Held Items
+dashboard.config.editor.hidden_held_items.tooltip=Items drawn as an empty hand in first person, as modid:name for every meta or modid:name:meta
+dashboard.config.editor.hotbar_numbers=Hotbar Slot Numbers
+dashboard.config.editor.hotbar_numbers.tooltip=Show the bound key on each hotbar slot
+dashboard.config.editor.hotbar_number_bound_key=Hotbar Slot Bound Key
+dashboard.config.editor.hotbar_number_bound_key.tooltip=Show the key bound in Controls instead of the slot number 1 to 9
+dashboard.config.editor.hotbar_number_under_items=Hotbar Slot Numbers Under Items
+dashboard.config.editor.hotbar_number_under_items.tooltip=Draw the hotbar slot keys under the items instead of over them
+dashboard.config.editor.hotbar_number_position=Hotbar Slot Number Position
+dashboard.config.editor.hotbar_number_position.tooltip=Where the key sits in each hotbar slot: 0 top left, 1 top, 2 top right, 3 left, 4 middle, 5 right, 6 bottom left, 7 bottom, 8 bottom right
+dashboard.config.editor.hotbar_number_size=Hotbar Slot Number Size
+dashboard.config.editor.hotbar_number_size.tooltip=Size of the hotbar slot keys, in percent of normal text
+dashboard.config.editor.hotbar_number_color=Hotbar Slot Number Color
+dashboard.config.editor.hotbar_number_color.tooltip=Color of the hotbar slot keys, one of the 16 chat colors: 0 black to 15 white
+dashboard.config.editor.status_effect_background=Status Effect Background
+dashboard.config.editor.status_effect_background.tooltip=Show the background behind each status effect
+dashboard.config.editor.status_effect_icon=Status Effect Icon
+dashboard.config.editor.status_effect_icon.tooltip=Show the icon of each status effect
+dashboard.config.editor.status_effect_name=Status Effect Name
+dashboard.config.editor.status_effect_name.tooltip=Show the name and level of each status effect
+dashboard.config.editor.status_effect_time=Status Effect Time
+dashboard.config.editor.status_effect_time.tooltip=Show the time left of each status effect
+dashboard.config.editor.status_effect_horizontal=Status Effects in a Row
+dashboard.config.editor.status_effect_horizontal.tooltip=Put the status effects in a row instead of a column
+dashboard.config.editor.status_effect_spacing=Status Effect Spacing
+dashboard.config.editor.status_effect_spacing.tooltip=Pixels between the status effects, negative to overlap them
+dashboard.config.editor.status_effect_pulse_seconds=Status Effect Pulse
+dashboard.config.editor.status_effect_group=Status Effects Good First
+dashboard.config.editor.status_effect_group.tooltip=Show good status effects before bad ones
+dashboard.config.editor.status_effect_permanent=Show Permanent Status Effects
+dashboard.config.editor.status_effect_permanent.tooltip=Show infinite status effects and the ones kept up by a beacon
+dashboard.config.editor.pumpkin_opacity=Pumpkin Opacity
+dashboard.config.editor.pumpkin_opacity.tooltip=How visible the pumpkin blur is, in percent
+dashboard.config.editor.portal_opacity=Portal Opacity
+dashboard.config.editor.portal_opacity.tooltip=How visible the nether portal swirl is, in percent
+dashboard.config.editor.fire_opacity=Fire Opacity
+dashboard.config.editor.fire_opacity.tooltip=How visible the flames are while burning, in percent
+dashboard.config.editor.fire_height=Fire Height
+dashboard.config.editor.fire_height.tooltip=How high the flames reach while burning, in percent
+dashboard.config.editor.water_opacity=Underwater Opacity
+dashboard.config.editor.water_opacity.tooltip=How visible the underwater overlay is, in percent
+dashboard.config.editor.vignette_strength=Vignette Strength
+dashboard.config.editor.vignette_strength.tooltip=How dark the corners of the screen get, in percent
+dashboard.config.editor.sleep_fade_strength=Sleep Fade Strength
+dashboard.config.editor.sleep_fade_strength.tooltip=How dark the screen gets while falling asleep, in percent
+dashboard.config.editor.hurt_shake_strength=Hurt Shake
+dashboard.config.editor.hurt_shake_strength.tooltip=How much the camera tilts when you get hurt, in percent
+dashboard.config.editor.nausea_strength=Nausea Wobble
+dashboard.config.editor.nausea_strength.tooltip=How much the screen wobbles from nausea and portals, in percent
+dashboard.config.editor.night_vision_flicker=Night Vision Flicker
+dashboard.config.editor.night_vision_flicker.tooltip=Flash the screen while night vision runs out
+dashboard.config.editor.status_effect_sort_by_time=Sort Status Effects by Time
+dashboard.config.editor.status_effect_sort_by_time.tooltip=Sort status effects by time left instead of the order they were added
+dashboard.config.editor.status_effect_pulse_seconds.tooltip=Pulse status effects with this many seconds left, in steps of 5, 0 to never pulse
+
+dashboard.config.other=Other
+dashboard.config.other.tooltip=Settings you can only change here
+
+dashboard.config.other.show_images=Show Pictures
+dashboard.config.other.show_images.tooltip=Show pictures from resource packs and the config/dashboard/images folder, toggled with a key
+dashboard.config.other.pickup_feed_seconds=Item Pickups Time
+dashboard.config.other.pickup_feed_seconds.tooltip=How long each row of the item pickups shows, in seconds
+dashboard.config.other.pickup_feed_slide_out=Item Pickups Slide Out
+dashboard.config.other.pickup_feed_slide_out.tooltip=How long each row of the item pickups takes to slide away, in milliseconds, 0 to just disappear
+dashboard.config.other.active_layout=Active Layout
+dashboard.config.other.active_layout.tooltip=Which of the HUD layouts is used. Each one remembers its own element positions, sizes and looks
