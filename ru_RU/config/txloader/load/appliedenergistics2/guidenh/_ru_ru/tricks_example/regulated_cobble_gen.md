@@ -56,7 +56,7 @@ quartz fiber, cutting power to the planes.
 
 ## Configurations
 
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />s (1) Have no GUI to configure, but can be enchanted with Efficiency and Unbreaking to reduce power draw.
+* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />s (1) have no GUI to configure, but can be enchanted with Efficiency and Unbreaking to reduce power draw.
 * The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2) is in its default configuration.
 * The <ItemLink id="appliedenergistics2:item.ItemMultiPart:80" /> (3) must be on the subnetwork side of the quartz fiber, not the main network, or the main
   network will reboot every time it toggles.

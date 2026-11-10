@@ -15,13 +15,13 @@ item_ids:
 
 The matter cannon is a portable railgun that fires small items as projectiles, including <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:6" /> and metal nuggets. Damage depends on the ammunition: heavier items such as gold nuggets deal more damage than matter balls. Each shot consumes 1600 AE.
 
-When `matterCannonBlockDamage` is enabled, the cannon can break blocks according to their hardness and the ammunition's damage. Recharge it in an <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
+When `matterCannonBlockDamage` is enabled, the cannon can break blocks according to their hardness and the ammunition's damage. Recharge it in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
 
 Like a [storage cell](storage_cells.md), the cannon's ammunition magazine can be filled by placing it in the component slot of an <ItemLink id="appliedenergistics2:tile.BlockChest" />.
 
 ## Upgrades
 
-The cannon supports these [upgrades](upgrade_cards.md), installed with an <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />:
+The cannon supports these [upgrades](upgrade_cards.md), installed with a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />:
 
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> enables fuzzy matching and NBT-ignoring filters.
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> switches the whitelist to a blacklist.

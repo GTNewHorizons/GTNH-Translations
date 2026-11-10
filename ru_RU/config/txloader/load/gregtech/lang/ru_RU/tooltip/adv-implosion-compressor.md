@@ -1,2 +1,2 @@
-Factory Grade Advanced Implosion Compressor
-{color_parallel:1 + (Tier/2)} Parallels
+Улучшенный имплозионный компрессор заводского класса
+{color_parallel:1 + (тир/2)} параллелей

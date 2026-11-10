@@ -1,1 +1,1 @@
-Explosions are fun
+Взрывы - это весело
