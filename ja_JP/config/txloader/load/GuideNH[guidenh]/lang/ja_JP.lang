@@ -183,7 +183,8 @@ guideme.guidebook.CommandDumpPageLangSuccess=Guide page lang dump complete: %s p
 guideme.guidebook.CommandDumpPageLangUsage=Usage: /guidenhc dumppagelang [outDir]
 guideme.guidebook.CommandExportSiteFailure=Static site export failed after %s: %s
 guideme.guidebook.CommandExportSiteStart=Exporting static site to %s...
-guideme.guidebook.CommandExportSiteSuccess=Static site export complete: %s guides, %s pages, %s failed. Output: %s. Elapsed: %s
+guideme.guidebook.CommandExportSiteSuccess=Static site export complete: %s mod IDs, %s languages, %s pages, %s failed, %s warnings, %s errors. Output: %s. Elapsed: %s
+guideme.guidebook.CommandExportSiteTiming=Static site export elapsed time: %s
 guideme.guidebook.CommandExportSiteUsage=Usage: /guidenhc exportsite [outDir] [--ponder-frames]
 guideme.guidebook.CommandExportStart=Exporting %s to %s...
 guideme.guidebook.CommandExportStructureUsage=Usage: /guidenhc exportstructure [--mode snbt|snbt_e|blocks|blocks_e] [<x> <y> <z> <sizeX> <sizeY> <sizeZ>]
@@ -644,7 +645,7 @@ guidenh.siteexport.languages.sharedPage=Shared page
 guidenh.siteexport.language.en_us=English
 guidenh.siteexport.language.zh_cn=Simplified Chinese
 guidenh.siteexport.language.zh_tw=Traditional Chinese
-guidenh.siteexport.language.ja_jp=Japanese
+guidenh.siteexport.language.ja_jp=日本語
 guidenh.siteexport.language.ko_kr=Korean
 guidenh.siteexport.language.ru_ru=Russian
 
@@ -693,5 +694,8 @@ guidenh.debug.info.memory=Memory: %sMB / %sMB (%s%%)
 guidenh.debug.info.hovered_element=Hovered Element:
 guidenh.debug.info.parent_element=Parent Element:
 guidenh.debug.info.class_name=Class: %s
-guidenh.debug.info.size=Size: %s x %s
-guidenh.debug.info.position=Position: %s, %s
+guidenh.debug.info.size=サイズ: %s x %s
+guidenh.debug.info.position=座標: %s, %s
+
+# ServerUtilities Sidebar button
+sidebar_button.guidenh.guide=Guides
