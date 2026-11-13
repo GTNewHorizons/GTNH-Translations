@@ -1,4 +1,4 @@
-Accepts and stores up to {color_amount:{var:max_particles}} {green:Particles} from potentially intermittent high {red:Rate} beam packets
-Re-releases those particles as a stable beam at a {red:Rate} of your choosing
+Принимает и хранит до {color_amount:{var:max_particles}} {green:частиц} из прерывистых пакетов пучка с высокой {red:интенсивностью}
+Выпускает эти частицы стабильным пучком с {red:интенсивностью} на ваш выбор
 {hr}
-If a beam with a different {green:Particle}, {blue:Energy} or {aqua:Focus} arrives during operation, it is ignored unless no {green:Particles} are stored
+Если во время работы придёт пучок с другой {green:частицей}, {blue:энергией} или {aqua:фокусировкой}, он игнорируется, пока в хранилище есть {green:частицы}

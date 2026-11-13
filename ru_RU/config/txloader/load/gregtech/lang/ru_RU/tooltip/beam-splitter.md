@@ -1,2 +1,2 @@
-Select which particles to blacklist in the output hatches
-Input particles are split evenly among all valid output hatches
+Выберите, какие частицы занести в чёрный список выходных шлюзов
+Входящие частицы делятся поровну между всеми подходящими выходными шлюзами

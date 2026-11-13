@@ -34,11 +34,11 @@ plannh.settings.catalyst_astral_arrays=Astral Arrays
 plannh.settings.catalyst_accel_card=Accel. Card
 
 ## Settings - Botania
-plannh.settings.mana_per_tick=Mana/t
+plannh.settings.mana_per_tick=мана/t
 
 ## Settings - Thaumcraft (and friends)
-plannh.settings.vis_per_tick=Vis/t
-plannh.settings.thaumcraft.bellows=Bellows
+plannh.settings.vis_per_tick=вис/t
+plannh.settings.thaumcraft.bellows=Меха
 plannh.settings.thaumcraft.fire_vis=Fire Vis
 plannh.settings.thaumcraft.furnace_boost_source=Boost Supply
 plannh.settings.thaumcraft.vis_discount=Vis Disc.%
@@ -46,7 +46,7 @@ plannh.settings.thaumcraft.furnace_boost_source.none=None
 plannh.settings.thaumcraft.furnace_boost_source.network_vis=Vis Network
 plannh.settings.thaumcraft.furnace_boost_source.essentia_nozzle=Essentia Nozzle
 plannh.tooltip.thaumcraft.furnace_steady_state=Assumes continuous supply; excludes startup buffers
-plannh.settings.witchinggadgets.bellows=Bellows
+plannh.settings.witchinggadgets.bellows=Меха
 
 ## Settings - Furnaces
 plannh.settings.galacticraft.arc_power_tier=Power Tier
@@ -78,10 +78,10 @@ plannh.settings.bee_no_stimulator=None
 plannh.settings.bee_magic_production_aura=Production Booster
 plannh.settings.bee_magic_lifespan_aura=Lifespan Booster
 plannh.settings.bee_no_frame=None
-plannh.settings.gendustry_apiary_upgrade_1=Upgrade 1
-plannh.settings.gendustry_apiary_upgrade_2=Upgrade 2
-plannh.settings.gendustry_apiary_upgrade_3=Upgrade 3
-plannh.settings.gendustry_apiary_upgrade_4=Upgrade 4
+plannh.settings.gendustry_apiary_upgrade_1=Улучшение 1
+plannh.settings.gendustry_apiary_upgrade_2=Улучшение 2
+plannh.settings.gendustry_apiary_upgrade_3=Улучшение 3
+plannh.settings.gendustry_apiary_upgrade_4=Улучшение 4
 plannh.settings.gendustry_apiary_upgrade_1_count=Upgrade 1 Count
 plannh.settings.gendustry_apiary_upgrade_2_count=Upgrade 2 Count
 plannh.settings.gendustry_apiary_upgrade_3_count=Upgrade 3 Count
@@ -154,7 +154,7 @@ plannh.settings.steam_duration_modifier=Steam Spd%
 
 ## Properties
 ## Typed Magic Resources
-plannh.resources.essentia=Essentia
+plannh.resources.essentia=Эссенция
 plannh.resources.stored_vis=Stored Vis
 plannh.resources.network_vis=Network Vis
 plannh.resources.aura_charge=Aura Charge
@@ -166,15 +166,15 @@ plannh.gui.node.port.inactive=Not required with these settings
 plannh.gui.node.port.base_amount=Base Amount
 plannh.gui.node.port.per_operation=Per Operation
 ## Properties - General
-plannh.properties.duration_ticks=Duration
-plannh.properties.num_components=Components
+plannh.properties.duration_ticks=Длительность
+plannh.properties.num_components=Компоненты
 
 ## Properties - GT (and friends)
-plannh.properties.gt.special_value=Special Value
-plannh.properties.gt.bartworks.glass_tier=Glass Tier
-plannh.properties.gt.bartworks.sievert=Sievert
+plannh.properties.gt.special_value=Особое значение
+plannh.properties.gt.bartworks.glass_tier=Тир стекла
+plannh.properties.gt.bartworks.sievert=Зиверт
 plannh.properties.gt.bartworks.sievert_exact=Exact Sievert
-plannh.properties.gt.bartworks.mass=Mass
+plannh.properties.gt.bartworks.mass=Масса
 plannh.properties.gt.total_eu=Total EU
 plannh.properties.gt.eu_per_tick=EU/t
 plannh.properties.gt.coil_heat=Coil Heat
@@ -202,7 +202,7 @@ plannh.properties.thaumcraft.instability=Instability
 plannh.properties.thaumcraft.total_vis=Total Vis
 plannh.properties.thaumcraft.research_key=Research Key
 plannh.properties.thaumcraft.num_components=Components
-plannh.properties.thaumcraft.essentia=Essentia
+plannh.properties.thaumcraft.essentia=Эссенция
 plannh.properties.witchinggadgets.fire_essentia_per_fuel=Fire Essentia per Refill
 plannh.properties.galacticraft.gj_per_t=gJ/t
 plannh.properties.projectred.power_units_per_t=ProjectRed Power/t
@@ -216,7 +216,7 @@ plannh.properties.cofh.rf_total=RF Total
 plannh.properties.cofh.rf_per_t=RF/t
 
 ## Properties - Ender IO
-plannh.properties.enderio.experience=Experience
+plannh.properties.enderio.experience=Опыт
 
 ## Share messages
 plannh.share.import_link=> PlanNH Import
@@ -319,8 +319,8 @@ plannh.gui.group.load=Combined load
 plannh.gui.group.load.unbalanced=No solved load yet
 
 ## GUI - Balancer
-plannh.gui.balancer_mode=Mode: %s
-plannh.gui.balancer_mode.none=Normal
+plannh.gui.balancer_mode=Режим: %s
+plannh.gui.balancer_mode.none=Обычный
 plannh.gui.balancer_mode.input=Fixed Machines (input)
 plannh.gui.balancer_mode.output=Fixed Machines (output)
 plannh.gui.balancer_mode.auto=Auto
@@ -389,8 +389,8 @@ nei.options.keys.plannh.undo=Undo (Ctrl + key)
 nei.options.keys.plannh.redo=Redo (Ctrl + Shift + key)
 nei.options.keys.plannh.redo_alt=Redo alternate (Ctrl + key)
 nei.options.plannh.appearance.show_grid=Show Grid
-nei.options.plannh.appearance.show_grid.0=Off
-nei.options.plannh.appearance.show_grid.1=On
+nei.options.plannh.appearance.show_grid.0=Откл.
+nei.options.plannh.appearance.show_grid.1=Вкл.
 nei.options.plannh.appearance.show_grid.tip=Show the canvas grid.
 nei.options.plannh.appearance.background_color=Background Color
 nei.options.plannh.appearance.background_color.tip=Canvas background color.\nFormat: 0xAARRGGBB
@@ -408,8 +408,8 @@ nei.options.plannh.layout.thoroughness=Thoroughness
 nei.options.plannh.layout.thoroughness.tip=Untangling effort. Higher takes longer.\nRange: 1-30
 nei.options.plannh.debug=Debug
 nei.options.plannh.debug.route_dump=Log Arrow Routing
-nei.options.plannh.debug.route_dump.true=On
-nei.options.plannh.debug.route_dump.false=Off
+nei.options.plannh.debug.route_dump.true=Вкл.
+nei.options.plannh.debug.route_dump.false=Откл.
 nei.options.plannh.debug.route_dump.tip=Log routing inputs for replay.
 
 ## Summary panel
@@ -420,7 +420,7 @@ plannh.summary.title.choices=Choices
 plannh.summary.title.properties=Properties
 plannh.summary.title.machine_counts=Machine Counts
 plannh.summary.title.messages=Solver Messages
-plannh.summary.title.help=Help
+plannh.summary.title.help=Помощь
 plannh.summary.mode.title=Summary mode
 plannh.summary.mode.switch_hint=Click to switch
 plannh.summary.mode.cycles=Cycles
@@ -448,13 +448,13 @@ plannh.summary.help.nei=[R/U] open NEI
 plannh.summary.help.add_recipe=[+ in NEI GUI] add recipe
 plannh.summary.tooltip.scope=Showing
 plannh.summary.tooltip.scope.chart=Entire chart
-plannh.summary.tooltip.measure.amount=Amount
+plannh.summary.tooltip.measure.amount=Количество
 plannh.summary.tooltip.measure.workload=Workload
 plannh.summary.tooltip.measure.per_cycle=Per cycle
 plannh.summary.tooltip.totals.title=Measured workload totals
 plannh.summary.tooltip.totals.operations=Combined workload
 plannh.summary.tooltip.totals.duration=Cycle duration
-plannh.summary.tooltip.choice.status=Status
+plannh.summary.tooltip.choice.status=Статус
 plannh.summary.tooltip.choice.active=Active choice
 plannh.summary.tooltip.choice.alternative=Available alternative
 plannh.summary.tooltip.choice.reason=Alternative reason
@@ -462,21 +462,21 @@ plannh.summary.tooltip.choice.default=The solver's preferred answer for the enti
 plannh.summary.tooltip.choice.click.active=This chart-wide choice is already active.
 plannh.summary.tooltip.choice.click.alternative=Click to use this chart-wide alternative.
 plannh.summary.tooltip.text.severity=Severity
-plannh.summary.tooltip.text.error=Error
-plannh.summary.tooltip.text.warn=Warning
-plannh.summary.tooltip.text.info=Info
+plannh.summary.tooltip.text.error=Ошибка
+plannh.summary.tooltip.text.warn=Предупреждение
+plannh.summary.tooltip.text.info=Информация
 
 ## GUI - Time units
 plannh.gui.rate.tick=t
-plannh.gui.rate.second=s
-plannh.gui.rate.minute=m
-plannh.gui.rate.hour=h
-plannh.gui.rate.day=d
+plannh.gui.rate.second=с
+plannh.gui.rate.minute=м
+plannh.gui.rate.hour=ч
+plannh.gui.rate.day=д
 plannh.gui.rate.tick.suffix=/t
-plannh.gui.rate.second.suffix=/s
-plannh.gui.rate.minute.suffix=/m
-plannh.gui.rate.hour.suffix=/h
-plannh.gui.rate.day.suffix=/d
+plannh.gui.rate.second.suffix=/с
+plannh.gui.rate.minute.suffix=/м
+plannh.gui.rate.hour.suffix=/ч
+plannh.gui.rate.day.suffix=/д
 
 ## GUI - Numbers
 ## How a count of something is written, beside the thing it counts
