@@ -5,7 +5,7 @@ GT5U.gui.text.no_water=§7물 없음
 GT5U.gui.text.no_lava=§7용암 없음
 GT5U.gui.text.no_air=§7공기 없음
 GT5U.gui.text.no_co2=§7이산화탄소 없음
-GT5U.gui.text.no_li2bef4=§7Missing Li2BeF4
+GT5U.gui.text.no_li2bef4=§7Li2BeF4 누락됨
 GT5U.gui.text.no_saw=§7톱 없음
 GT5U.gui.text.no_sapling=§7묘목 없음
 GT5U.gui.text.no_oxygen=§7산소 없음
@@ -14,15 +14,15 @@ GT5U.gui.text.no_catalyst=§7가용 가능 촉매 없음
 GT5U.gui.text.no_milling_ball=§7분쇄공 없음
 GT5U.gui.text.growing_trees=§a나무 기르는중
 GT5U.gui.text.managing_power=§a전력 관리중
-GT5U.gui.text.no_scrap=§aInput too low quality
-GT5U.gui.text.warm_up=§aWarming up
-GT5U.gui.text.machine_locked_to_different_recipe=§7Machine is already locked to a different recipe
+GT5U.gui.text.no_scrap=§a입력물의 품질이 너무 낮습니다.
+GT5U.gui.text.warm_up=§a예열 중
+GT5U.gui.text.machine_locked_to_different_recipe=§7기계가 이미 다른 조합법으로 고정되어 있습니다.
 GT5U.gui.text.no_output_for_sapling=§7This sapling yields no outputs
 GT5U.gui.text.no_tools=§7Missing applicable tools
 
-GTPP.EBF.heat=Heat capacity
+GTPP.EBF.heat=열용량
 
-GTPP.machines.tier=Tier
+GTPP.machines.tier=티어
 GTPP.machines.input=입력
 GTPP.machines.output=출력
 
@@ -32,43 +32,43 @@ GTPP.multiblock.energy=저장된 전력
 GTPP.multiblock.progress=진행상황
 GTPP.multiblock.efficiency=효율
 GTPP.multiblock.problems=문제
-GTPP.multiblock.mei=Max Energy Income
-GTPP.multiblock.usage=Probably uses
-GTPP.multiblock.generation=Probably generates
-GTPP.multiblock.specialvalue=Special Value
-GTPP.multiblock.duration=Duration
-GTPP.multiblock.multimachine.metal=Metal Mode. Does compressor (circuit 20), lathe (circuit 21) and electromagnetic polarizer (circuit 22).
-GTPP.multiblock.multimachine.fluid=Fluid Mode. Does fermenter (circuit 20), fluid extractor (circuit 21) and extractor (circuit 22).
-GTPP.multiblock.multimachine.misc=Misc. Mode. Does precision laser engraver (circuit 20), autoclave (circuit 21) and fluid solidifier (circuit 22).
+GTPP.multiblock.mei=최대 에너지 수입
+GTPP.multiblock.usage=예상 사용량
+GTPP.multiblock.generation=예상 생성량
+GTPP.multiblock.specialvalue=특수 값
+GTPP.multiblock.duration=지속 시간
+GTPP.multiblock.multimachine.metal=금속 모드입니다. 압축기(회로 20), 선반(회로 21), 전자기장 분극기(회로 22)를 사용합니다.
+GTPP.multiblock.multimachine.fluid=유체 모드입니다. 발효기(회로 20), 유체 추출기(회로 21), 추출기(회로 22)를 지원합니다.
+GTPP.multiblock.multimachine.misc=기타 모드입니다. 정밀 레이저 각인기(회로 20), 오토클레이브(회로 21), 액체 응고기(회로 22)를 지원합니다.
 
 
 GTPP.waila.steam.use=Probably uses: §e%s§r L/t Steam
 
-GTPP.CC.machinetier=Control Core Tier
-GTPP.CC.discount=EU Discount
-GTPP.CC.parallel=Maximum Parallel
+GTPP.CC.machinetier=제어 코어 티어
+GTPP.CC.discount=EU 할인
+GTPP.CC.parallel=최대 병렬 처리
 
 //Tooltips for the Charger Packs
-GTPP.battpack.tooltip.1=Worn as a Belt within Baubles
+GTPP.battpack.tooltip.1=Baubles의 벨트 슬롯에 착용합니다
 GTPP.battpack.tooltip.2=Drains
 GTPP.battpack.tooltip.3=to charge worn armour
-GTPP.battpack.tooltip.4=Also charges items on the hotbar
+GTPP.battpack.tooltip.4=핫바에 있는 아이템도 충전합니다
 
 //Tooltips for the Personal Healing Bauble
 GTPP.nanohealer.tooltip.1=Worn as a Necklace within Baubles
 GTPP.nanohealer.tooltip.2=Drains
 GTPP.nanohealer.tooltip.3= EU per operation.
-GTPP.nanohealer.tooltip.4=Can restore HP, Hunger and Saturation.
-GTPP.nanohealer.tooltip.5=Will not prevent death.
-GTPP.nanohealer.tooltip.6=Shift+RMB to toggle notifications.
-GTPP.nanohealer.hidden=Hiding Info?
+GTPP.nanohealer.tooltip.4=체력, 허기 및 포만감을 회복할 수 있습니다.
+GTPP.nanohealer.tooltip.5=사망을 방지하지 않습니다.
+GTPP.nanohealer.tooltip.6=Shift+우클릭으로 알림을 전환합니다.
+GTPP.nanohealer.hidden=정보 숨기기?
 
 //10/4/19
 //Tooltips for the Mob Killing Baubles
-GTPP.monsterkiller.tooltip.1=Worn as an Amulet within Baubles
+GTPP.monsterkiller.tooltip.1=Baubles에서 부적으로 착용합니다
 GTPP.monsterkiller.tooltip.2=Drains
 GTPP.monsterkiller.tooltip.3=per each kill
-GTPP.monsterkiller.tooltip.4=Target Type:
+GTPP.monsterkiller.tooltip.4=대상 유형:
 
 //17/08/19
 GTPP.container.decaychest.name=Decayables
@@ -91,13 +91,13 @@ GTPP.nei.timetaken=Time Taken
 GTPP.nei.output=Output
 GTPP.nei.input=Input
 GTPP.nei.result=Result
-GTPP.nei.radioation=Radiation Level
+GTPP.nei.radioation=방사능 수치
 
 //Some Generic Words
 GTPP.info.eu=EU
-GTPP.info.euInfo=EU Information
-GTPP.info.inputLimit=Input Limit
-GTPP.info.currentPower=Current Power
+GTPP.info.euInfo=EU 정보
+GTPP.info.inputLimit=입력 한도
+GTPP.info.currentPower=현재 전력
 GTPP.info.hidden=Hidden
 
 //Some Time Words
@@ -154,47 +154,47 @@ achievement.MU-metaitem.01.32110=Graviton Containment
 achievement.MU-metaitem.01.32066.desc=[AL] Pickup this item to see the recipe in NEI
 achievement.MU-metaitem.01.32068.desc=[AL] Pickup this item to see the recipe in NEI
 achievement.MU-metaitem.01.32070.desc=[AL] Pickup this item to see the recipe in NEI
-achievement.MU-metaitem.01.32110.desc=[AL] Pickup this item to see the recipe in NEI
+achievement.MU-metaitem.01.32110.desc=[AL] 이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
 achievement.item.personalHealingDevice=Food is for chumps
-achievement.item.personalHealingDevice.desc=[AL] You have upgraded to the nano, the future is yours
-achievement.item.GTPP.BattPack.06.name=Charge Pack Mk I
-achievement.item.GTPP.BattPack.07.name=Charge Pack Mk II
-achievement.item.GTPP.BattPack.08.name=Charge Pack Mk III
-achievement.item.GTPP.BattPack.09.name=Charge Pack Mk IV
-achievement.item.GTPP.BattPack.06.name.desc=[AL] Pickup this item to see the recipe in NEI
-achievement.item.GTPP.BattPack.07.name.desc=[AL] Pickup this item to see the recipe in NEI
-achievement.item.GTPP.BattPack.08.name.desc=[AL] Pickup this item to see the recipe in NEI
-achievement.item.GTPP.BattPack.09.name.desc=[AL] Pickup this item to see the recipe in NEI
+achievement.item.personalHealingDevice.desc=[AL] 나노 장치로 업그레이드했습니다. 미래는 여러분의 것입니다.
+achievement.item.GTPP.BattPack.06.name=충전 팩 Mk I
+achievement.item.GTPP.BattPack.07.name=충전 팩 Mk II
+achievement.item.GTPP.BattPack.08.name=충전 팩 Mk III
+achievement.item.GTPP.BattPack.09.name=충전 팩 Mk IV
+achievement.item.GTPP.BattPack.06.name.desc=[AL] 이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
+achievement.item.GTPP.BattPack.07.name.desc=[AL] 이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
+achievement.item.GTPP.BattPack.08.name.desc=[AL] 이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
+achievement.item.GTPP.BattPack.09.name.desc=[AL] 이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
 
 
 
 //14/2/19
 achievement.gtpp.start=Gregtech++
-achievement.gtpp.start.desc=So, think you've got what it takes?
-achievement.hatch.control=This is where you put the Control Core
-achievement.hatch.control.desc=A special hatch required by all GT++ Multiblocks.
-achievement.hatch.dynamo.buffered=Buffered Dynamo Hatch
-achievement.hatch.dynamo.buffered.desc=More energy from the same multi!
-achievement.multi.abs=Alloy Blast Smelter [ABS]
-achievement.multi.abs.desc=Used to create most late game alloys.
-achievement.dust.potin=Potin!
-achievement.dust.potin.desc=Well, you gotta start somewhere...
+achievement.gtpp.start.desc=그렇다면, 자신에게 그만한 능력이 있다고 생각합니까?
+achievement.hatch.control=여기에 제어 코어를 놓으세요.
+achievement.hatch.control.desc=모든 GT++ 멀티블록에 필요한 특수 해치입니다.
+achievement.hatch.dynamo.buffered=완충 다이나모 해치
+achievement.hatch.dynamo.buffered.desc=동일한 멀티블록에서 더 많은 에너지를 얻습니다!
+achievement.multi.abs=합금 고속 제련소 [ABS]
+achievement.multi.abs.desc=대부분의 후반 게임 합금을 제작하는 데 사용됩니다.
+achievement.dust.potin=포틴!
+achievement.dust.potin.desc=뭐든 어디선가는 시작해야 합니다...
 achievement.dust.eglin=Eglin Steel!
-achievement.dust.eglin.desc=Progress, albeit slow...
+achievement.dust.eglin.desc=느리지만 진행 중입니다...
 achievement.dust.staballoy=Staballoy!
-achievement.dust.staballoy.desc=Now we're talking...
+achievement.dust.staballoy.desc=이제 좀 말이 통합니다...
 achievement.dust.quantum=Quantum!
-achievement.dust.quantum.desc=Raw Matter.
+achievement.dust.quantum.desc=원시 물질.
 achievement.dust.hypogen=하이포젠!
-achievement.dust.hypogen.desc=What even is this material?
+achievement.dust.hypogen.desc=이 재료는 대체 무엇입니까?
 achievement.block.fishtrap=Free Fish
-achievement.block.fishtrap.desc=Better than HarvestCraft.
+achievement.block.fishtrap.desc=HarvestCraft보다 뛰어납니다.
 achievement.block.withercage=Jail
-achievement.block.withercage.desc=Trap a Wither/Dragon with this.
+achievement.block.withercage.desc=이것으로 위더/드래곤을 가두십시오.
 achievement.rtg=Radioisotope Thermoelectric Generation!
-achievement.rtg.desc=Probably stolen from Russia, use with care.
+achievement.rtg.desc=러시아에서 훔쳐 온 것일 수 있으니 조심해서 사용하세요.
 achievement.dehydrate=Dehydration
-achievement.dehydrate.desc=Drink some water.
+achievement.dehydrate.desc=물을 조금 마시세요.
 achievement.semifluid=It's like a fluid, but it's not
 achievement.semifluid.desc=Semifluids are confusing.
 achievement.earlywasher=Simple Ore Washer

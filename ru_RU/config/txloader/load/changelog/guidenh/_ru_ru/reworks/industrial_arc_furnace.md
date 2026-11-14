@@ -61,19 +61,19 @@ On startup, the arc furnace must ignite the arc before processing, and after rec
 The <Color id="GREEN">IAF</Color> processes standard arc furnace recipes in this mode, including recycling recipes. Most normal recipes may also optionally use plasma, something that is no longer possible in the singleblock arc furnace.
 
 ### Blasting Mode:
-The <Color id="GREEN">IAF</Color> can now process all EBF recipes, but at the cost of 16x the power cost. This can potentially alleviate some of the burden on your EBFs if you have the power to spare
+The <Color id="GREEN">IAF</Color> can now process all EBF recipes, but at the cost of 16x the power cost. This can potentially alleviate some of the burden on your EBFs if you have the power to spare.
 
 ### Ore Mode:
-The <Color id="GREEN">IAF</Color> can use this mode to process ores and raw ores directly into molten metal. This will only work if the input ores can be directly smelted in a furnace (not requiring a processing line or EBF for example)
+The <Color id="GREEN">IAF</Color> can use this mode to process ores and raw ores directly into molten metal. This will only work if the input ores can be directly smelted in a furnace (not requiring a processing line or EBF for example).
 
 In this mode, the startup time is 10 seconds. It will consume all ores and raw ores from all input buses. If the queued ore amount exceeds the capacity, startup phase will end immediately. If no ores are entered for 5 ticks, startup will also end immediately.
 
 ## Electrode Maintenance
-Every time a process occurs, the electrode in the electrode hatch will take damage. Electrodes are inserted in the electrode hatch, and taking or swapping the electrode will powerfail the machine. This also include 0 tick swaps, so the machine must be powered down to swap electrodes.
+Every time a process occurs, the electrode in the electrode hatch will take damage. Electrodes are inserted in the electrode hatch, and taking or swapping the electrode will powerfail the machine. This also includes 0 tick swaps, so the machine must be powered down to swap electrodes.
 
 - At less than 30% durability, there will be a 5% chance for a random arc surge (restarting the arc again)
 - At less than 10% durability, there will be a 2% chance to void items in the arc
 
-As such, it is vital to automate the swapping of electrodes based on damage sustained. This automation can be helped using the Electrode Detector Hatch, which will detect the durability and output a redstone signal at a configurable threshold in its GUI
+As such, it is vital to automate the swapping of electrodes based on damage sustained. This automation can be helped using the Electrode Detector Hatch, which will detect the durability and output a redstone signal at a configurable threshold in its GUI.
 
 The <Color id="GREEN">IAF</Color> __CANNOT__ tierskip. On startup, the machine will take $$\text{MaxParallels} \times \text{AmpsPerParallel} \times (1+\text{SurgePenalty})$$ amps, which can be quite high depending on the electrode!

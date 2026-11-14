@@ -1,22 +1,22 @@
-(Dis)solves all your problems!
+全部の問題を解(溶)きましょう！
 {gray:{hr}}
-Optionally supply a {aqua:Base} to boost {light_purple:Efficiency}:
-{aqua:{var:sodium_hydroxide_rate}/min} of {aqua:Sodium Hydroxide} : {light_purple:{var:sodium_hydroxide_eff}%}
-{aqua:{var:potassium_hydroxide_rate}/min} of {aqua:Potassium Hydroxide} : {light_purple:{var:potassium_hydroxide_eff}%}
-{aqua:{var:caesium_hydroxide_rate}/min} of {aqua:Caesium Hydroxide} : {light_purple:{var:caesium_hydroxide_eff}%}
-{aqua:{var:francium_hydroxide_rate}/min} of {aqua:Francium Hydroxide} : {light_purple:{var:francium_hydroxide_eff}%}
+必要に応じて {aqua:塩基} を追加して、{light_purple:効率} を高めることができます
+{aqua:{var:sodium_hydroxide_rate}/min}の{aqua:水酸化ナトリウム} : {light_purple:{var:sodium_hydroxide_eff}%}
+{aqua:{var:potassium_hydroxide_rate}/min}の{aqua:水酸化カリウム} : {light_purple:{var:potassium_hydroxide_eff}%}
+{aqua:{var:caesium_hydroxide_rate}/min}の{aqua:水酸化セシウム} : {light_purple:{var:caesium_hydroxide_eff}%}
+{aqua:{var:francium_hydroxide_rate}/min}の{aqua:水酸化フランシウム} : {light_purple:{var:francium_hydroxide_eff}%}
 {gray:{hr}}
-Produces {dark_green:Toxic Residue} from burning acids
-If the {dark_green:Toxic Residue} exceeds {dark_aqua:Capacity}, then the machine {red:Explodes}
-Every tick, {dark_green:Toxic Residue} increases by {green:0.05 * Fuel Density (EU/L)^0.8 * Fuel Consumption ({var:fluid_unit}) * rand({var:residue_rand_min}, {var:residue_rand_max})}
-Every tick, {dark_green:Toxic Residue} decays by {green:Base Decay * Decay Boost * Toxic Residue^0.08}
-{yellow:Residue decays 10x slower when the multiblock is disabled}
+酸を消費することで{dark_green:有毒な残留物}が発生します
+{dark_green:有毒な残留物}が{dark_aqua:容量}を超過すると機械が{red:爆発}します
+毎Tick、{dark_green:有毒な残留物}が{green:0.05 * 燃料密度 (EU/L)^0.8 * 燃料消費 ({var:fluid_unit}) * {var:residue_rand_min}～{var:residue_rand_max}の乱数 }増加
+毎Tick、{dark_green:有毒な残留物}が{green:崩壊係数 * 崩壊強化 * 有毒な残留物^0.08}減少
+{yellow:有毒な残留物はマルチブロックが無効な場合、10分の1の速度で減少します}
 {gray:{hr}}
-Insert up to {blue:16 Robot Arms} to increase {blue:Decay Boost}:
-{white:Decay Boost =} {green:sqrt(Robot Arms) * N^(Robot Arm Tier - 1)} where {green:N=1.2} ({var:tier_iv}§7-) or {green:N=1.4} ({var:tier_luv}§7+)
-Every minute, there is a {green:Robot Arms / (45 * (Robot Arm Tier + 1))} chance to void exactly one {blue:Robot Arm}
+{blue:崩壊強化}は{blue:ロボットアーム}を挿入すると、{blue:16個を}上限に増加します
+{white:崩壊強化 =} {green:(ロボットアームの個数)の平方根 * N^(ロボットアームのTier - 1)} :Nの値は{var:tier_iv}§7以下の場合{green:1.2}、{var:tier_luv}§7以上の場合{green:1.4}
+毎分{green:ロボットアームの個数 / (45 * (ロボットアームのTier + 1))}の確率で、1つ{blue:ロボットアーム}が減少
 {gray:{hr}}
-The structure has {gold:3 Tiers} which determine {blue:Base Decay} and {dark_aqua:Capacity}:
-{gold:T1} : {gold:Strengthened Inanimate Machine Casing} : {blue:{var:tier1_decay}} : {dark_aqua:{var:tier1_capacity}}
-{gold:T2} : {gold:Precise Stationary Machine Casing} : {blue:{var:tier2_decay}} : {dark_aqua:{var:tier2_capacity}}
-{gold:T3} : {gold:Ultimate Static Machine Casing} : {blue:{var:tier3_decay}} : {dark_aqua:{var:tier3_capacity}}
+この構造物は{gold:3段階のTier}を持ち、{blue:崩壊係数}と{dark_aqua:容量}を決定します
+{gold:T1} : {gold:強化無機質マシン外装} : {blue:{var:tier1_decay}} : {dark_aqua:{var:tier1_capacity}}
+{gold:T2} : {gold:精密静止マシン外装} : {blue:{var:tier2_decay}} : {dark_aqua:{var:tier2_capacity}}
+{gold:T3} : {gold:究極静的マシン外装} : {blue:{var:tier3_decay}} : {dark_aqua:{var:tier3_capacity}}

@@ -43,4 +43,4 @@ The <Color id="GREEN">Industrial Sledgehammer</Color> has one tiered component. 
 <Color id="GREEN">Industrial Sledgehammers</Color> may wallshare each of their sides to save on casings and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
 
 ## Usage
-The Industrial Sledgehammer is a direct upgrade from the singleblock forge hammer and the Steam Presser because it runs at 200% speed and offers $$\text{Voltage Tier} \times \text{Solenoid Tier} \times 6$$ parallels
+The Industrial Sledgehammer is a direct upgrade from the singleblock forge hammer and the Steam Presser because it runs at 200% speed and offers $$\text{Voltage Tier} \times \text{Solenoid Tier} \times 6$$ parallels.

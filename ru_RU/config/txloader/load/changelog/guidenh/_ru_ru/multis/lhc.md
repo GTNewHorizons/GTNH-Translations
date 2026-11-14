@@ -81,11 +81,11 @@ The <Color id="GREEN">LHC</Color> has two modes of use, <Color id="BLUE">Acceler
 In the GUI, there are two extra panels that can be used. One is a calculator, allowing the user to tinker with different hypothetical input and target values. The other is a Particle Probability Table, where a target Collision Energy can be provided, and probabilities of each particle are given for each module on the LHC.
 
 ### Accelerator Mode:
-The <Color id="BLUE">Accelerator Mode</Color> is used to accelerate the beam in the smaller <Color id="GREEN">LHC</Color> ring. It increases the energy stored in the beam by the following equation, until either the target beam energy is reached, or the maximum number of cycles is reached. This operation runs once per second
+The <Color id="BLUE">Accelerator Mode</Color> is used to accelerate the beam in the smaller <Color id="GREEN">LHC</Color> ring. It increases the energy stored in the beam by the following equation, until either the target beam energy is reached, or the maximum number of cycles is reached. This operation runs once per second.
 
 <Latex formula="\text{Beam Energy Increase}  \text{EU Consumed in cycle} \times 0.1\text{eV}"/>
 
-If the target beam energy is reached, the beam rate is multiplied by 1.3 repeatedly on subsequent cycles. The power of the machine starts at 1A of UV per beam rate, and increases quadratically with the number of completed cycles as below. When the target beam cycle count is reached, the mode will automatically switch to <Color id="RED">Collider Mode</Color>. Since the power scales based on the cycles, the more cycles ran the closer the machine gets to being a perfect 4/4 overclock
+If the target beam energy is reached, the beam rate is multiplied by 1.3 repeatedly on subsequent cycles. The power of the machine starts at 1A of UV per beam rate, and increases quadratically with the number of completed cycles as below. When the target beam cycle count is reached, the mode will automatically switch to <Color id="RED">Collider Mode</Color>. Since the power scales based on the cycles, the more cycles run the closer the machine gets to being a perfect 4/4 overclock.
 
 <Latex formula="\text{Power} = R_0 \times a^N \times N^2">
   Where:
@@ -93,23 +93,23 @@ If the target beam energy is reached, the beam rate is multiplied by 1.3 repeate
   - $$a = $$ Multiplication Factor
   - $$N = $$ Cycle Count
 </Latex>
-Hover on the above equation for a tooltip showing what each term means
+Hover on the above equation for a tooltip showing what each term means.
 
 ### Beams:
-For those of you that have used the cyclotron in the past, you may notice that the LHC does not output particles as simple "items". Instead, they are now internally stored as "particle packets" that exist within beams, similar to the concept used for data packets in the Research Station. These packets have four attributes; type, energy, rate, and focus.Focus is not used in the LHC or Beam Crafter directly.
+For those of you that have used the cyclotron in the past, you may notice that the LHC does not output particles as simple "items". Instead, they are now internally stored as "particle packets" that exist within beams, similar to the concept used for data packets in the Research Station. These packets have four attributes; type, energy, rate, and focus. Focus is not used in the LHC or Beam Crafter directly.
 
-Beams are transferred using the <ItemLink id="gregtech:gt.blockmachines:10502"/><ItemImage id="gregtech:gt.blockmachines:10502"/> from an output hatch to their destination
+Beams are transferred using the <ItemLink id="gregtech:gt.blockmachines:10502"/><ItemImage id="gregtech:gt.blockmachines:10502"/> from an output hatch to their destination.
 
 ### Collider Mode:
-The <Color id="RED">Collider Mode</Color> is automatically switched to upon either the target beam energy beam reached, or the max cycle count being reached. The __collision energy__ is simply $$\text{Beam Energy} \times 2$$. The particles in the output beam are determined by two factors:
+The <Color id="RED">Collider Mode</Color> is automatically switched to upon either the target beam energy being reached, or the max cycle count being reached. The __collision energy__ is simply $$\text{Beam Energy} \times 2$$. The particles in the output beam are determined by two factors:
 1. The installed modules on the multi
 2. The collision energy of the beam
 
 Assuming you have the correct modules installed for a particle, any particles with a rest mass _lower_ than the collision energy have a chance to be in the output beam. The rest mass of particles can be found through NEI in the tooltips of the particles. NEI will also show any required modules to get that specific output. Multiple modules may allow for the creation of the same particle. The <ItemLink id="gregtech:gt.blockmachines:3014"/><ItemImage id="gregtech:gt.blockmachines:3014"/> can be used to blacklist certain particles from appearing in the output beam.
 
-Once your beams are made, you can use beamline pipes to route them to their destination, usually a [Beam Crafter](beamcrafter.md) <ItemImage id="gregtech:gt.blockmachines:3015"/>
+Once your beams are made, you can use beamline pipes to route them to their destination, usually a [Beam Crafter](beamcrafter.md) <ItemImage id="gregtech:gt.blockmachines:3015"/>.
 
 ----------
-For a more detailed look at both the LHC, and the accompanying Beam Crafter, feel free to take a look at the [video guide produced by the author himself](https://www.youtube.com/watch?v=8HFQJgyFLHU&t=44s)
+For a more detailed look at both the LHC, and the accompanying Beam Crafter, feel free to take a look at the [video guide produced by the author himself](https://www.youtube.com/watch?v=8HFQJgyFLHU&t=44s).
 
 If you want an even more detailed look, head on over to [the wiki page](https://wiki.gtnewhorizons.com/wiki/Large_Hadron_Collider), where the wiki team have written an amount of documentation that would make even CERN blush!

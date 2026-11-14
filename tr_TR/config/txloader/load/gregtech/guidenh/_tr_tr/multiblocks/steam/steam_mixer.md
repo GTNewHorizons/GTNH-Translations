@@ -150,7 +150,7 @@ Buhar Giriş ve Çıkış Yollarının her birinde dört eşya yuvası vardır v
 Bir tarif bir yolun tutabileceğinden daha fazla eşya türü gerektiriyorsa Buhar Giriş Yolları ekle. Birden fazla sıvı veya döngü başına büyük miktarlar da ek kapaklar gerektirebilir. Arayüz eklerken en az 25 gerçek kasa bırak ve ikinci bir Buhar Kapağı takma.
 
 > [!WARNING]
-> Tüm ürünleri toplamak için arayüzün imha modunu "Do Not Void" olarak ayarla ve her eşya ve sıvı çıkışı için yer sağla. Sıvı imhası etkinse bir Çıkış Kapağı eksik veya tıkalı olduğunda Tuzlu Su, Kral Suyu ve diğer ürünler atılabilir.
+> Tüm ürünleri toplamak için arayüzün imha modunu "Hiçleme" olarak ayarla ve her eşya ve sıvı çıkışı için yer sağla. Sıvı imhası etkinse bir Çıkış Kapağı eksik veya tıkalı olduğunda Tuzlu Su, Kral Suyu ve diğer ürünler atılabilir.
 
 ## Sorun Giderme
 

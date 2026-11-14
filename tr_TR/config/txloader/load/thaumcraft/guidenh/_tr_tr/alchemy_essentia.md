@@ -110,12 +110,12 @@ Bir <ItemLink id="Thaumcraft:ItemResource:13" showIcon="left" /> bir kavanozu be
 - Etiketli sıradan bir kavanoz dolana kadar 64 emişe sahiptir, ardından esans çekmeyi durdurur.
 - Bir <ItemLink id="Thaumcraft:blockJar:3" showIcon="left" /> dolduktan sonra fazla esansı kabul etmeye ve yok etmeye devam eder. Etiketlendiğinde dolana kadar 48 emişe sahiptir, ardından 32'ye düşer.
 
-Boşluk Kavanozları zamanla fazla kalan yan ürünler için bir çıkış sağlar. Boru ağlarında, etiketli sıradan kavanozlar genellikle önce dolar. AE depolama sistemlerinde, Depolama Veri Yolu önceliğini ve Boşluk Kavanozlarını kullanma seçeneğini yapılandır.
+Hiçlik Kavanozları zamanla fazla kalan yan ürünler için bir çıkış sağlar. Boru ağlarında, etiketli sıradan kavanozlar genellikle önce dolar. AE depolama sistemlerinde, Depolama Veri Yolu önceliğini ve Hiçlik Kavanozlarını kullanma seçeneğini yapılandır.
 
 Cam Şişeler ve Esans Şişeleri, dolu şişe başına 8 puan tutar; bu da onları küçük miktarları taşımak ve aktarmak için kullanışlı kılar. Ayrıca bazı tariflerde ve etiketlere aspekt atamak için kullanılırlar.
 
 > [!WARNING]
-> Bir kavanoza veya imbiğe boş elle eğilip sağ tıklamak esansını temizler. Bir kavanozun etiketli yüzüne tıklamak etiketi kaldırır; başka bir yüze tıklamak kavanozu boşaltabilir. Bir Boşluk Kavanozu tarafından kabul edilen fazla esans da kalıcı olarak kaybolur.
+> Bir kavanoza veya imbiğe boş elle eğilip sağ tıklamak esansını temizler. Bir kavanozun etiketli yüzüne tıklamak etiketi kaldırır; başka bir yüze tıklamak kavanozu boşaltabilir. Bir Hiçlik Kavanozu tarafından kabul edilen fazla esans da kalıcı olarak kaybolur.
 
 ## Esans Boruları ve Emiş
 
@@ -164,7 +164,7 @@ Damıtma hattı malzemeleri alır ve çıkarılan esansı ağa geri döndürür.
 
 Bu, eksik esansın talep üzerine üretilmesini sağlar. Aynı malzemeden gelen diğer aspektlerin yine de toplanması gerekir. Sık kullanılan bir aspekti düzenli olarak yenilerken, zamanla biriken yan ürünler için depolama veya bir çıkış sağla.
 
-Bir Boşluk Kavanozunu Esans Depolama Veri Yolu üzerinden bağlarken, veri yolu arayüzünde ilgili seçeneği aktifleştir ve normal depolamanın esansı önce alması için daha düşük bir öncelik ayarla.
+Bir Hiçlik Kavanozunu Esans Depolama Veri Yolu üzerinden bağlarken, veri yolu arayüzünde ilgili seçeneği aktifleştir ve normal depolamanın esansı önce alması için daha düşük bir öncelik ayarla.
 
 ## Esans Üretimini Artırmak
 

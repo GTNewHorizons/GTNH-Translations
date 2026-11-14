@@ -1,0 +1,532 @@
+## Mod Settings
+
+## Settings
+## Settings - General
+plannh.settings.duration_ticks=Duration
+plannh.settings.tick_modifier=Accel
+plannh.settings.machines=Mach
+plannh.settings.energy_per_tick=Energy/t
+plannh.settings.inputs_per_tick=Inputs/t
+
+## Settings - GT
+plannh.settings.voltage=Tier
+plannh.settings.amp=Amp
+plannh.settings.speed=Speed
+plannh.settings.parallels=Par
+plannh.settings.gt_multiblock=Multiblock
+plannh.settings.machine_heat=M. Heat
+plannh.settings.recipe_heat=R. Heat
+plannh.settings.heat_discount_mult=HD Mult.%
+plannh.settings.eut_discount=EU Disc.%
+plannh.settings.eut_increase_per_oc=EU%/OC
+plannh.settings.duration_decrease_per_oc=Spd%/OC
+plannh.settings.max_overclocks=Max OC
+plannh.settings.max_regular_oc=Max Reg OC
+plannh.settings.max_tier_skips=Max Skips
+plannh.settings.fuel_efficiency=Fuel Eff.%
+plannh.settings.perfect_oc=Perfect OC
+plannh.settings.heat_oc=Heat OC
+plannh.settings.heat_discount=Heat Disc.
+plannh.settings.laser_oc=Laser OC
+plannh.settings.unlimited_skips=Unl. Skips
+plannh.settings.no_overclock=No OC
+plannh.settings.catalyst_astral_arrays=Astral Arrays
+plannh.settings.catalyst_accel_card=Accel. Card
+
+## Settings - Botania
+plannh.settings.mana_per_tick=Mana/t
+
+## Settings - Thaumcraft (and friends)
+plannh.settings.vis_per_tick=Vis/t
+plannh.settings.thaumcraft.bellows=Bellows
+plannh.settings.thaumcraft.fire_vis=Fire Vis
+plannh.settings.thaumcraft.furnace_boost_source=Boost Supply
+plannh.settings.thaumcraft.vis_discount=Vis Disc.%
+plannh.settings.thaumcraft.furnace_boost_source.none=None
+plannh.settings.thaumcraft.furnace_boost_source.network_vis=Vis Network
+plannh.settings.thaumcraft.furnace_boost_source.essentia_nozzle=Essentia Nozzle
+plannh.tooltip.thaumcraft.furnace_steady_state=Assumes continuous supply; excludes startup buffers
+plannh.settings.witchinggadgets.bellows=Bellows
+
+## Settings - Furnaces
+plannh.settings.galacticraft.arc_power_tier=Power Tier
+plannh.settings.twilightforest.cinder_log_count=Cinder Logs
+
+## Settings - Forestry
+plannh.settings.forestry_rf_per_tick=For. RF/t
+plannh.settings.bee_speed=Bee Speed
+plannh.settings.bee_lifespan=Bee Lifespan
+plannh.settings.bee_frame_1=Frame 1
+plannh.settings.bee_frame_2=Frame 2
+plannh.settings.bee_frame_3=Frame 3
+plannh.settings.bee_alveary_stimulator_1_board_type=Stimulator 1
+plannh.settings.bee_alveary_stimulator_2_board_type=Stimulator 2
+plannh.settings.bee_alveary_stimulator_3_board_type=Stimulator 3
+plannh.settings.bee_alveary_stimulator_1_circuit_1=Circuit 1.1
+plannh.settings.bee_alveary_stimulator_1_circuit_2=Circuit 1.2
+plannh.settings.bee_alveary_stimulator_1_circuit_3=Circuit 1.3
+plannh.settings.bee_alveary_stimulator_1_circuit_4=Circuit 1.4
+plannh.settings.bee_alveary_stimulator_2_circuit_1=Circuit 2.1
+plannh.settings.bee_alveary_stimulator_2_circuit_2=Circuit 2.2
+plannh.settings.bee_alveary_stimulator_2_circuit_3=Circuit 2.3
+plannh.settings.bee_alveary_stimulator_2_circuit_4=Circuit 2.4
+plannh.settings.bee_alveary_stimulator_3_circuit_1=Circuit 3.1
+plannh.settings.bee_alveary_stimulator_3_circuit_2=Circuit 3.2
+plannh.settings.bee_alveary_stimulator_3_circuit_3=Circuit 3.3
+plannh.settings.bee_alveary_stimulator_3_circuit_4=Circuit 3.4
+plannh.settings.bee_no_stimulator=None
+plannh.settings.bee_magic_production_aura=Production Booster
+plannh.settings.bee_magic_lifespan_aura=Lifespan Booster
+plannh.settings.bee_no_frame=None
+plannh.settings.gendustry_apiary_upgrade_1=Upgrade 1
+plannh.settings.gendustry_apiary_upgrade_2=Upgrade 2
+plannh.settings.gendustry_apiary_upgrade_3=Upgrade 3
+plannh.settings.gendustry_apiary_upgrade_4=Upgrade 4
+plannh.settings.gendustry_apiary_upgrade_1_count=Upgrade 1 Count
+plannh.settings.gendustry_apiary_upgrade_2_count=Upgrade 2 Count
+plannh.settings.gendustry_apiary_upgrade_3_count=Upgrade 3 Count
+plannh.settings.gendustry_apiary_upgrade_4_count=Upgrade 4 Count
+plannh.gui.gendustry.upgrades=Apiary Upgrades
+plannh.gui.gendustry.installed=Installed
+plannh.settings.choice_hint=Left/Right-click to cycle; middle-click to reset
+plannh.settings.item_drop_hint=Drop from NEI to select
+plannh.settings.item_choice_hint=Click to choose; middle-click to reset
+plannh.settings.item_choice_invalid=Unavailable with these settings
+plannh.settings.middle_reset_hint=Middle-click to reset
+plannh.settings.item_count_scroll=Scroll to change count
+plannh.settings.choice_auto=Recipe default
+plannh.settings.choice_manual=Custom value
+plannh.bees.genetic_speed=Genetic Speed
+plannh.bees.base_lifespan=Base Lifespan
+plannh.bees.work_cycles=%s work cycles
+plannh.bees.calculation=Production
+plannh.bees.requirements=Requirements
+plannh.bees.details_hint=Hold Shift for details
+plannh.bees.lifetime_model=One operation = queen lifetime + rebreeding
+plannh.bees.supplied_conditions=Assumes stable breeding and all production conditions met
+plannh.bees.unmodeled_effects=Excludes world effects and bonus flower products
+plannh.bees.aura_on=Enabled
+plannh.bees.aura_off=Disabled
+plannh.bees.aura_toggle=Click to toggle booster
+plannh.bees.aura_booster_source=Requires a Vis or Mana Apiary Booster within 6 blocks
+plannh.bees.aura_cost=Booster fuel costs are not included
+plannh.bees.aura_production=Production Bonus
+plannh.bees.aura_death=Lifespan Bonus
+plannh.bees.aura_port=Booster charge: %s (not an item)
+plannh.bees.aura_renewal=Consumes 1 charge/t after the initial aura expires
+plannh.bees.aura_steady_state=Includes rebreeding; excludes startup and idle time
+plannh.bees.aura_provider_limit=Boosters may not sustain this rate
+plannh.bees.stimulator_energy=Energy per Work Cycle
+plannh.bees.mj_per_cycle=%s MJ/work cycle
+plannh.gui.bees.frames=Frames
+plannh.gui.bees.frame_hint=Click or drop from NEI to choose a frame
+plannh.gui.bees.frame_slot=Frame
+plannh.gui.bees.frame_empty=No frame
+plannh.gui.bees.frame_reset=Middle-click to clear frame
+plannh.gui.bees.frame_maintenance=Assumes fresh frames; replacement costs excluded
+plannh.gui.bees.frame_order=Frames apply in slot order, then boards; bonus caps apply
+plannh.gui.bees.board_hint=Click to choose a board
+plannh.gui.bees.board_drop=Drop a board to replace, or a tube to fill an empty socket
+plannh.gui.bees.board_reset=Middle-click to reset board and circuits
+plannh.gui.bees.board_powered=Assumes continuous power
+plannh.gui.bees.board_caps=Bonus caps apply per board
+plannh.gui.bees.stimulator=Stimulator
+plannh.gui.bees.sockets=Circuits
+plannh.gui.bees.total_stimulator_energy=Total Stimulator Energy
+plannh.gui.bees.tube_hint=Click or drop from NEI to choose a circuit
+plannh.gui.bees.tube_reset=Middle-click to clear circuit
+plannh.gui.bees.circuit=Circuit
+plannh.gui.bees.circuit_empty=No circuit
+plannh.gui.bees.circuit_effects=Circuit Effects
+
+## Settings - Ender IO
+plannh.settings.eio_capacitor=Capacitor
+
+## Settings - BloodMagic
+plannh.settings.lp_per_tick=BM LP/t
+
+## Settings - Cofh core
+plannh.settings.rf_per_tick=RF/t
+
+## Settings - Steam
+plannh.settings.steam_eut_discount=Steam EU%
+plannh.settings.steam_duration_modifier=Steam Spd%
+
+## Properties
+## Typed Magic Resources
+plannh.resources.essentia=Essentia
+plannh.resources.stored_vis=Stored Vis
+plannh.resources.network_vis=Network Vis
+plannh.resources.aura_charge=Aura Charge
+plannh.resources.unit.centivis=centivis
+plannh.resources.unit.aura=aura
+plannh.properties.thaumcraft.essentia_units=Essentia Units
+plannh.properties.thaumcraft.stored_vis_units=Stored Vis Units
+plannh.gui.node.port.inactive=Not required with these settings
+plannh.gui.node.port.base_amount=Base Amount
+plannh.gui.node.port.per_operation=Per Operation
+## Properties - General
+plannh.properties.duration_ticks=Duration
+plannh.properties.num_components=Components
+
+## Properties - GT (and friends)
+plannh.properties.gt.special_value=Special Value
+plannh.properties.gt.bartworks.glass_tier=Glass Tier
+plannh.properties.gt.bartworks.sievert=Sievert
+plannh.properties.gt.bartworks.sievert_exact=Exact Sievert
+plannh.properties.gt.bartworks.mass=Mass
+plannh.properties.gt.total_eu=Total EU
+plannh.properties.gt.eu_per_tick=EU/t
+plannh.properties.gt.coil_heat=Coil Heat
+plannh.properties.gt.fusion_threshold=Fusion Threshold
+plannh.properties.gt.recipe_map=Recipe Map
+plannh.properties.gt.steam_eu_pert=Steam/t
+plannh.properties.gt.total_steam_eu=Total Steam
+plannh.properties.gt.eoh.start_eu=Base Startup EU
+plannh.properties.gt.eoh.output_eu=Base Returned EU
+
+## Properties - Avaritia
+plannh.properties.avaritia.compression_cost=Compression Cost
+
+## Properties - Botania
+plannh.properties.botania.mana_cost=Mana Cost
+
+## Properties - BloodMagic
+plannh.properties.bloodmagic.lp_amount=LP Cost
+plannh.properties.bloodmagic.lp_tier=LP Tier
+plannh.properties.bloodmagic.reagent=Reagent
+
+## Properties - Thaumcraft (and friends)
+plannh.properties.thaumcraft.vis_cost=Vis Cost
+plannh.properties.thaumcraft.instability=Instability
+plannh.properties.thaumcraft.total_vis=Total Vis
+plannh.properties.thaumcraft.research_key=Research Key
+plannh.properties.thaumcraft.num_components=Components
+plannh.properties.thaumcraft.essentia=Essentia
+plannh.properties.witchinggadgets.fire_essentia_per_fuel=Fire Essentia per Refill
+plannh.properties.galacticraft.gj_per_t=gJ/t
+plannh.properties.projectred.power_units_per_t=ProjectRed Power/t
+
+## Properties - Forestry
+plannh.properties.forestry.processing_time=Processing Time
+plannh.properties.bee_species=Bee Species
+
+## Properties - Cofh core
+plannh.properties.cofh.rf_total=RF Total
+plannh.properties.cofh.rf_per_t=RF/t
+
+## Properties - Ender IO
+plannh.properties.enderio.experience=Experience
+
+## Share messages
+plannh.share.import_link=> PlanNH Import
+plannh.share.item_name=§bPlanNH Share
+plannh.share.item_lore=§7%s
+plannh.share.lore_shared=§7Shared flowchart
+plannh.share.click_to_import=§eClick to import
+plannh.share.import_error.missing=§cMissing NBT data
+plannh.share.import_error.invalid=§cInvalid PlanNH data
+plannh.share.import_error.decode=§cFailed to decode: %s
+plannh.share.slot_imported=Imported
+plannh.share.copy_to_clipboard=Plan exported to clipboard
+plannh.share.copy_from_clipboard=Plan imported from clipboard
+
+## GUI
+plannh.gui.recipe.add_to_plan=Add recipe to plan
+plannh.error.recipe_add=Could not add this recipe. The plan was not changed. See the log for details.
+plannh.error.recipe_edit=Could not update recipe %s. The previous settings were preserved. See the log for details.
+plannh.error.save=Could not write the plan to disk. See the log for details.
+plannh.error.load=Could not read the plan. Original data was preserved; checking the backup. See the log for details.
+plannh.error.load_backup=Could not read the backup plan. See the log for details.
+plannh.error.import=Could not import the graph. The plan was not changed. See the log for details.
+plannh.error.export=Could not export or share the graph. See the log for details.
+plannh.error.debug_save=The plan was saved, but its diagnostic copy could not be written. See the log for details.
+plannh.error.connection=Could not create the connection. See the log for details.
+plannh.error.history=Could not restore undo/redo history. See the log for details.
+plannh.warning.unavailable_nodes=Loaded with %s unavailable recipes. Their nodes and connections were preserved but are excluded from all results.
+plannh.warning.malformed_entries=Removed %s malformed entries from the plan.
+plannh.warning.backup_loaded=Loaded the backup plan. The unreadable original was preserved separately.
+plannh.warning.non_atomic_save=This filesystem does not support atomic save replacement. Using a backup-protected write.
+plannh.gui.node.unavailable=Recipe unavailable. Excluded from all results.
+key.neiflowchart.open=Open flowchart
+key.neiflowchart.secondscreen=Toggle second screen
+## GUI - Node throughput
+plannh.gui.node.throughput.duration=%s
+plannh.gui.node.throughput.copies_needed=Copies needed §7
+plannh.gui.node.throughput.unbalanced=not balanced
+plannh.gui.node.throughput.unplanned=not planned
+plannh.gui.node.throughput.settings=Settings
+plannh.gui.node.throughput.shift_hint=Hold §f§l[LSHIFT]§7 for every unit and setting
+## Throughput fold, the rows of rates behind it
+plannh.gui.node.throughput.rows=Throughput rows
+plannh.gui.node.throughput.rows.hide_hint=Click to fold these rows away
+plannh.gui.node.throughput.rows.show_hint=Click to show the rows again
+
+## GUI - Node port
+## The rate under a port, and the rows that take it apart
+plannh.gui.node.port.rate=Rate
+plannh.gui.node.port.per_unit=Per unit
+plannh.gui.node.port.consumption=Input consumption
+plannh.gui.node.port.productivity=Output productivity
+plannh.gui.node.port.shift_hint=Hold §f§l[LSHIFT]§7 for the rate in every unit
+plannh.gui.node.port.configure_hint=Right-Click to Configure
+
+## GUI - Node balancer target
+## Target selector, at the head of the target fold
+plannh.gui.node.target.label=Target
+plannh.gui.node.target.prev=Previous target
+plannh.gui.node.target.next=Next target
+## Target fold
+plannh.gui.node.target.title=Held by
+plannh.gui.node.target.rows=Target rows
+plannh.gui.node.target.rows.hide_hint=Click to fold these rows away
+plannh.gui.node.target.rows.show_hint=Click to show the rows again
+plannh.gui.node.target.none_hint=No target selected, so the balance picks this machine's count
+plannh.gui.node.target.copies=Copies
+plannh.gui.node.target.solved=The balance asks for
+plannh.gui.node.target.no_outputs=This recipe names no output, so there is no rate to ask for
+plannh.gui.node.target.unsupported=%s honours no target; switch the chart's balance mode to pin machines
+plannh.gui.node.target.extent=Extent pins are handed to a solve by the caller, not set on a machine
+
+## GUI - Node properties
+## The fold, and the recipe's own figures behind it
+plannh.gui.node.properties=Machine properties
+plannh.gui.node.properties.hide_hint=Click to fold these rows away
+plannh.gui.node.properties.show_hint=Click to show the rows again
+plannh.gui.node.properties.none_hint=This recipe carries no properties to show
+
+## GUI - Node extractor
+## The switcher on the node's option row, over how this recipe is read
+plannh.gui.node.machine=Machine
+plannh.gui.node.extractor.prev=Previous extractor
+plannh.gui.node.extractor.next=Next extractor
+plannh.gui.node.extractor.choose=Click to choose an extractor
+
+## GUI - Node settings
+plannh.gui.node.settings=Machine settings
+plannh.gui.node.settings.hide_hint=Click to fold these rows away
+plannh.gui.node.settings.show_hint=Click to show the rows again
+
+## GUI - Groups
+plannh.gui.group.add_machine_group=Add Machine Group
+plannh.gui.group.machine.title=Machine group
+plannh.gui.group.machine.empty=No recipes yet
+plannh.gui.group.machine.shared=Recipes share machine settings and their loads add up.
+plannh.gui.group.machine_capacity=Maximum machines
+plannh.gui.group.capacity.increase=Increase maximum by 1
+plannh.gui.group.capacity.decrease=Decrease maximum by 1
+plannh.gui.group.load=Combined load
+plannh.gui.group.load.unbalanced=No solved load yet
+
+## GUI - Balancer
+plannh.gui.balancer_mode=Mode: %s
+plannh.gui.balancer_mode.none=Normal
+plannh.gui.balancer_mode.input=Fixed Machines (input)
+plannh.gui.balancer_mode.output=Fixed Machines (output)
+plannh.gui.balancer_mode.auto=Auto
+
+## GUI - Balancer messages
+## Failures
+plannh.solver.no_pin=Nothing is pinned - fix a machine count to ask for a balance
+plannh.solver.empty_graph=Empty graph
+plannh.solver.balance_failed=Balance failed: %s
+plannh.solver.validation_failed=Solution failed independent validation: %s
+## Wiring diagnostics
+plannh.solver.wiring_import='%s' imports %s externally, but is produced at '%s' - missing an edge?
+plannh.solver.wiring_unlinked='%s' sources %s externally, but an unlinked part of the chart produces it at '%s' - missing an edge?
+plannh.solver.overshoots_target='%s' overshoots its %s target: %s/s produced for a target of %s/s, because another output on the same machine asks for more
+## Alternatives search
+plannh.solver.showing_closest=Showing the closest %d of %d workable answers
+plannh.solver.stopped_early=Stopped after %d combinations, so there may be more than the ones listed (%d not tried)
+plannh.solver.choice_no_longer_fits=The saved excess choice no longer fits this chart - showing the solver's own answer
+plannh.solver.choice_needs_more_gates=The saved excess choice needs more gates than the solver's answer, so it was dropped
+## Pipeline diagnostics
+plannh.solver.pins_conflict=These pins cannot hold together, and dropping them makes the chart solvable: %s
+plannh.solver.stage_failed=%s %s
+plannh.solver.machines_cannot_run=%d machines cannot run: %s
+plannh.solver.budget=Ran out of solve budget, solver state %s
+plannh.solver.unsatisfiable=Found no solution, solver state %s
+plannh.solver.no_solution=Found no solution
+plannh.solver.not_conserving=Returned a point that does not conserve: %s
+plannh.solver.negative_extent=Returned a negative extent %s
+plannh.solver.negative_flow=Returned a negative edge flow %s
+plannh.solver.inexact_residual=Returned an inexact port residual %s
+plannh.solver.under_supply=Returned a port that under-supplies: residual %s
+plannh.solver.gate_count_not_certified=Gate count %d is minimal but not certified optimal (exact search over budget)
+## Names
+plannh.solver.none=none
+plannh.solver.pin_extent=extent
+plannh.solver.pin_target=rate
+plannh.solver.pin_copies=copies
+plannh.solver.pref_fewest_gates=fewest gates
+plannh.solver.pref_fewest_imports=fewest imports
+plannh.solver.pref_least_excess=least excess
+plannh.solver.pref_least_flow=least internal flow
+## Rank reasons
+plannh.solver.reason_equally_valid=equally valid
+plannh.solver.reason_imports_instead=imports instead of leaving a surplus
+plannh.solver.reason_moves_more=moves more material
+plannh.solver.reason_moves_less=moves less material
+plannh.solver.reason_voids_more=leans on the outside more
+plannh.solver.reason_crosses_more=crosses the boundary more
+plannh.solver.reason_imports_more=imports more
+plannh.solver.reason_leaves_excess=leaves more excess
+## Boundary labels
+plannh.solver.boundary_excess=excess %s
+plannh.solver.boundary_add=add %s
+plannh.solver.boundary_flow=%s
+plannh.solver.boundary_nothing=nothing crosses the boundary
+
+## NEI config
+nei.options.plannh=PlanNH
+nei.options.plannh.appearance=Appearance
+nei.options.plannh.appearance.item_columns=Item Columns
+nei.options.plannh.appearance.item_columns.tip=NEI item-panel columns.\nMin: 6
+nei.options.plannh.appearance.blur_strength=Blur Strength
+nei.options.plannh.appearance.blur_strength.tip=Background blur.\nRange: 0-255 (0 = off)
+nei.options.keys.plannh=PlanNH
+nei.options.keys.plannh.undo=Undo (Ctrl + key)
+nei.options.keys.plannh.redo=Redo (Ctrl + Shift + key)
+nei.options.keys.plannh.redo_alt=Redo alternate (Ctrl + key)
+nei.options.plannh.appearance.show_grid=Show Grid
+nei.options.plannh.appearance.show_grid.0=Off
+nei.options.plannh.appearance.show_grid.1=On
+nei.options.plannh.appearance.show_grid.tip=Show the canvas grid.
+nei.options.plannh.appearance.background_color=Background Color
+nei.options.plannh.appearance.background_color.tip=Canvas background color.\nFormat: 0xAARRGGBB
+nei.options.plannh.solver=Solver
+nei.options.plannh.solver.free_ingredients=Free Ingredients
+nei.options.plannh.solver.free_ingredients.tip=Skip missing-wire warnings for these ingredients.\nNames ignore case. Separate with semicolons.
+nei.options.plannh.solver.effort_percent=Solver Effort (%%)
+nei.options.plannh.solver.effort_percent.tip=Solver time budget. Higher takes longer.\nRange: 25-200%% (100%% = default)
+nei.options.plannh.layout=Auto-Layout
+nei.options.plannh.layout.node_spacing=Node Spacing
+nei.options.plannh.layout.node_spacing.tip=Gap between machines in a column.\nRange: 10-80
+nei.options.plannh.layout.layer_spacing=Layer Spacing
+nei.options.plannh.layout.layer_spacing.tip=Column gap. Raised if arrows need more room.\nRange: 40-200
+nei.options.plannh.layout.thoroughness=Thoroughness
+nei.options.plannh.layout.thoroughness.tip=Untangling effort. Higher takes longer.\nRange: 1-30
+nei.options.plannh.debug=Debug
+nei.options.plannh.debug.route_dump=Log Arrow Routing
+nei.options.plannh.debug.route_dump.true=On
+nei.options.plannh.debug.route_dump.false=Off
+nei.options.plannh.debug.route_dump.tip=Log routing inputs for replay.
+
+## Summary panel
+plannh.summary.title.summary=Summary
+plannh.summary.title.outputs=Outputs
+plannh.summary.title.inputs=Inputs
+plannh.summary.title.choices=Choices
+plannh.summary.title.properties=Properties
+plannh.summary.title.machine_counts=Machine Counts
+plannh.summary.title.messages=Solver Messages
+plannh.summary.title.help=Help
+plannh.summary.mode.title=Summary mode
+plannh.summary.mode.switch_hint=Click to switch
+plannh.summary.mode.cycles=Cycles
+plannh.summary.mode.throughput=Throughput
+plannh.summary.mode.cycles.hint=Show resource amounts per cycle.
+plannh.summary.mode.throughput.hint=Show resource rates.
+plannh.summary.mode.cycles.short=C
+plannh.summary.mode.throughput.short=T
+plannh.summary.rate.title=Throughput unit
+plannh.summary.rate.tick=Per tick
+plannh.summary.rate.second=Per second
+plannh.summary.rate.minute=Per minute
+plannh.summary.rate.hour=Per hour
+plannh.summary.rate.day=Per day
+plannh.summary.scope.clear_hint=Use the clear-all button to show the entire chart.
+plannh.summary.scope.filter.action=Add to summary filter
+plannh.summary.scope.filter.remove=Remove from summary filter
+plannh.summary.scope.filter.ctrl_hint=Ctrl-click to add/remove this node/group.
+plannh.summary.scope.clear=Clear all summary filters
+plannh.summary.totals.cycles=Ops: %s Time: %d t (%ss/cycle)
+plannh.summary.totals.throughput=Ops: %s Cycle: %ss
+plannh.summary.help.zoom=[Scroll] zoom
+plannh.summary.help.move=[LMB drag] move node
+plannh.summary.help.nei=[R/U] open NEI
+plannh.summary.help.add_recipe=[+ in NEI GUI] add recipe
+plannh.summary.tooltip.scope=Showing
+plannh.summary.tooltip.scope.chart=Entire chart
+plannh.summary.tooltip.measure.amount=Amount
+plannh.summary.tooltip.measure.workload=Workload
+plannh.summary.tooltip.measure.per_cycle=Per cycle
+plannh.summary.tooltip.totals.title=Measured workload totals
+plannh.summary.tooltip.totals.operations=Combined workload
+plannh.summary.tooltip.totals.duration=Cycle duration
+plannh.summary.tooltip.choice.status=Status
+plannh.summary.tooltip.choice.active=Active choice
+plannh.summary.tooltip.choice.alternative=Available alternative
+plannh.summary.tooltip.choice.reason=Alternative reason
+plannh.summary.tooltip.choice.default=The solver's preferred answer for the entire chart.
+plannh.summary.tooltip.choice.click.active=This chart-wide choice is already active.
+plannh.summary.tooltip.choice.click.alternative=Click to use this chart-wide alternative.
+plannh.summary.tooltip.text.severity=Severity
+plannh.summary.tooltip.text.error=Error
+plannh.summary.tooltip.text.warn=Warning
+plannh.summary.tooltip.text.info=Info
+
+## GUI - Time units
+plannh.gui.rate.tick=t
+plannh.gui.rate.second=s
+plannh.gui.rate.minute=m
+plannh.gui.rate.hour=h
+plannh.gui.rate.day=d
+plannh.gui.rate.tick.suffix=/t
+plannh.gui.rate.second.suffix=/s
+plannh.gui.rate.minute.suffix=/m
+plannh.gui.rate.hour.suffix=/h
+plannh.gui.rate.day.suffix=/d
+
+## GUI - Numbers
+## How a count of something is written, beside the thing it counts
+plannh.gui.number.multiple=×%s
+
+## Unsupported pack screen
+## FML shows this screen at startup in place of the main menu, when a mod is older than PlanNH supports
+plannh.unsupported_pack.header=PlanNH %s needs newer versions of these mods:
+plannh.unsupported_pack.outdated_mod=%s %s is older than %s
+plannh.unsupported_pack.footer=Remove PlanNH from the mods folder, or update to GT New Horizons %s or newer.
+
+## GUI - Flowchart toolbar
+plannh.gui.toolbar.balance.label=Balance: %s
+plannh.gui.toolbar.graph.previous.title=Previous graph
+plannh.gui.toolbar.graph.next.title=Next graph
+plannh.gui.toolbar.graph.add.title=Add graph
+plannh.gui.toolbar.graph.add.shift=Shift + left-click: add a graph
+plannh.gui.toolbar.graph.delete.title=Delete graph
+plannh.gui.toolbar.graph.delete.shift=Shift + left-click: delete this graph
+plannh.gui.toolbar.graph.delete.last=The last graph cannot be deleted.
+plannh.gui.toolbar.graph.delete.warning=Warning: this permanently removes the active graph.
+plannh.gui.toolbar.graph.delete.confirm=Delete graph "%s"?
+plannh.gui.toolbar.graph.delete.irreversible=This cannot be undone.
+plannh.gui.toolbar.graph.delete.button=Delete
+
+plannh.gui.toolbar.undo.title=Undo edit
+plannh.gui.toolbar.redo.title=Redo edit
+plannh.gui.toolbar.shortcut=Shortcut: %s
+plannh.gui.toolbar.alternate=Alternate: %s
+
+plannh.gui.toolbar.layout.title=Auto-layout
+plannh.gui.toolbar.snap.title=Snap to grid
+
+plannh.gui.toolbar.balance.title=Balance mode
+plannh.gui.toolbar.balance.cycle=Left-click: next / Right-click: previous
+plannh.gui.toolbar.balance.off=Off
+plannh.gui.toolbar.balance.input=In
+plannh.gui.toolbar.balance.output=Out
+plannh.gui.toolbar.balance.auto=Auto
+plannh.gui.toolbar.balance.mode.none=Displays configured machine counts without balancing.
+plannh.gui.toolbar.balance.mode.input=Uses whole machines; connected inputs are consumed exactly.
+plannh.gui.toolbar.balance.mode.output=Uses whole machines; connected output demand is supplied exactly.
+plannh.gui.toolbar.balance.mode.auto=Balances connected recipes and loops with fractional machine counts.
+plannh.gui.toolbar.balance.pins.none=No machine count or rate target is required.
+plannh.gui.toolbar.balance.pins.fixed=Fix at least one machine count; rate targets are ignored.
+plannh.gui.toolbar.balance.pins.auto=Fix a machine count or set a target rate to start balancing.
+
+plannh.gui.toolbar.add.group.title=Add group
+plannh.gui.toolbar.add.note.title=Add note
+
+plannh.gui.toolbar.share.title=Share graph
+plannh.gui.toolbar.copy.title=Copy graph
+plannh.gui.toolbar.import.title=Import graph

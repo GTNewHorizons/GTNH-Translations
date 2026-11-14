@@ -1,0 +1,396 @@
+# Every key starts with tempora. except blocks and items, Minecraft makes those keys from their names
+# Colours are set in code, text here only says what to show
+
+# Blocks and items
+item.tempora_wand.name=Tempora Wand
+tile.rendering_error_block.name=Tempora Rendering Error
+tile.temporaStressTestBlock.name=Tempora Stress Test Block
+tempora.tooltip.rendering_error=If you are seeing this, something has likely gone wrong with Tempora's event rendering. Please report it, thanks!
+# Air has no name in vanilla but block changes can be to or from it
+tempora.block.air=Air
+
+# Chat building blocks
+# How long ago, e.g. "6.4m ago"
+tempora.time.ago.now=just now
+tempora.time.ago.seconds=%ss ago
+tempora.time.ago.minutes=%sm ago
+tempora.time.ago.hours=%sh ago
+tempora.time.ago.days=%sd ago
+tempora.time.ago.weeks=%sw ago
+tempora.time.ago.months=%smo ago
+tempora.time.ago.years=%sy ago
+
+# A length of time, e.g. "4 months"
+tempora.duration.year.one=%s year
+tempora.duration.year.many=%s years
+tempora.duration.month.one=%s month
+tempora.duration.month.many=%s months
+tempora.duration.week.one=%s week
+tempora.duration.week.many=%s weeks
+tempora.duration.day.one=%s day
+tempora.duration.day.many=%s days
+tempora.duration.hour.one=%s hour
+tempora.duration.hour.many=%s hours
+tempora.duration.minute.one=%s minute
+tempora.duration.minute.many=%s minutes
+tempora.duration.second.one=%s second
+tempora.duration.second.many=%s seconds
+tempora.duration.tick.one=%s tick
+tempora.duration.tick.many=%s ticks
+
+# Hovers on things in a line
+tempora.chat.closest_player=Closest player, %s blocks away. Not necessarily who did it.
+tempora.chat.id=ID %s:%s
+tempora.chat.dimension_id=Dimension ID %s
+tempora.uuid.display=UUID: %s
+tempora.uuid.click_to_copy=Click to copy UUID.
+
+# Clickable coords
+# Coords use the player's number format (GTNHLib's numberFormatLocale) which doesn't have to match their language,
+# so the separator is picked in code from that format, e.g. [12,345 64 -2,000] or [12 345, 64, -2 000]
+tempora.teleport.display=[%s]
+tempora.teleport.hover=Click to teleport.
+tempora.teleport.dimension=%s (ID %s)
+# Labelled since these have decimals and lots of formats write those with a comma, e.g. 12.345,5
+tempora.teleport.exact=Exactly X: %s Y: %s Z: %s
+tempora.teleport.done=Teleported to %s in %s.
+tempora.teleport.no_permission=You need permission to use /tempora to teleport.
+
+# Stored with events when who or what did it is unknown, so these keys have to keep their names
+tempora.unknown.player=[UNKNOWN PLAYER]
+tempora.unknown.cause=[UNKNOWN CAUSE]
+tempora.unknown.error=[UNKNOWN ERROR]
+
+tempora.dimension.invalid=Dimension %s does not exist.
+
+# Event lines
+# Every line reads when, who, did what, where. The words here show grey
+tempora.event.achievement=%s %s earned %s at %s
+tempora.event.block_break=%s %s broke %s at %s
+tempora.event.block_place=%s %s placed %s at %s
+tempora.event.block_change=%s %s became %s at %s near %s %s
+tempora.event.block_change.no_player=%s %s became %s at %s %s
+tempora.event.command=%s %s ran %s at %s
+tempora.event.command.hover=Click to put this command in your chat box.
+tempora.event.entity_death.killed=%s %s killed %s at %s
+tempora.event.entity_death.died=%s %s died (%s) at %s
+tempora.event.entity_death.unknown=%s %s died at %s
+tempora.event.entity_position=%s %s was at %s
+tempora.event.entity_spawn=%s %s spawned at %s
+tempora.event.explosion=%s Explosion by %s at %s, power %s, broke %s blocks near %s
+tempora.event.explosion.no_player=%s Explosion by %s at %s, power %s, broke %s blocks
+tempora.event.inventory.added=%s %s put %s %s in %s at %s
+tempora.event.inventory.removed=%s %s took %s %s from %s at %s
+tempora.event.inventory.invalid=Unknown inventory interaction %s in the inventory database. Please report this.
+tempora.event.item_pickup_drop.pickup=%s %s picked up %s %s at %s
+tempora.event.item_pickup_drop.drop=%s %s dropped %s %s at %s
+tempora.event.item_pickup_drop.death_drop=%s %s died and dropped %s %s at %s
+tempora.event.item_pickup_drop.invalid=Unknown item pickup or drop %s in the database. Please report this.
+tempora.event.item_use=%s %s used %s at %s
+tempora.event.item_use.empty_hand=%s %s clicked with an empty hand at %s
+tempora.event.player_death.killed=%s %s was killed by %s at %s (%s)
+tempora.event.player_death.died=%s %s died (%s) at %s (%s)
+tempora.event.player_death.unknown=%s %s died at %s (%s)
+tempora.event.player_death.level=level %s
+tempora.event.player_death.level_kept=level %s, inventory kept
+tempora.event.player_position=%s %s was at %s
+tempora.event.player_connection.join=%s %s joined at %s
+tempora.event.player_connection.leave=%s %s left at %s (%s)
+tempora.event.player_connection.server_stopped=Server stopped
+tempora.event.player_connection.invalid=Unknown join or leave %s in the database. Please report this.
+tempora.event.tps=%s TPS %s, mean tick %sms, worst %sms
+tempora.event.weather=%s %s went from %s to %s
+
+# [Trace] on a block change, end of the stack trace on hover and all of it in chat on click
+tempora.trace.button=[Trace]
+tempora.trace.missing=[No trace]
+tempora.trace.full=Full stack trace
+tempora.trace.hover.title=What changed the block
+tempora.trace.hover.more=Click to see all %s lines.
+
+# Lookup results
+# Header above each logger's events, e.g. "Player block breaks (3) [Info]"
+tempora.command.lookup.header=%s %s %s
+tempora.command.lookup.header.count=(%s)
+tempora.command.lookup.header.latest=(latest %s)
+tempora.command.lookup.header.hover=Click to search only %s.
+# With s:time, the one header above every logger's events, e.g. "Events by time (latest 10)", and the logger before each
+tempora.command.lookup.timeline=Events by time
+tempora.command.lookup.tag=[%s]
+tempora.chat.info=[Info]
+tempora.command.lookup.too_many_pending=%s events are still waiting to be saved, so the newest may be missing.
+tempora.command.lookup.query_failed=Database query failed on %s: %s
+tempora.command.lookup.event_failed=[This event couldn't be shown, see the server log]
+tempora.command.lookup.logger_failed=Couldn't show the %s results, see the server log.
+# Line under a lookup's results listing every filter it used, e.g. "Searched r:10 t:3d l:all p:anyone n:5"
+tempora.command.search.searched=Searched %s
+tempora.command.search.nothing_found=Nothing found %s
+# Last line of each filter's hover
+tempora.command.search.default=Using default (%s)
+tempora.command.search.overridden=Overridden default of %s with %s
+
+# While a lookup runs on the query thread
+tempora.query.searching=Searching...
+tempora.query.already_running=Your last lookup is still running, try again once it has finished.
+tempora.query.server_busy=Too many lookups are waiting, try again in a moment.
+tempora.query.timed_out=The lookup hit its time limit (%ss) and was stopped. Try narrowing it down, e.g. with a shorter time.
+tempora.query.failed=The lookup failed: %s
+
+# Loggers
+# Each logger's name, and on hovering [Info] what it records and how the server has it set up. Loggers from other
+# mods add their own tempora.logger.<logger name>.name and .description to their lang file
+tempora.logger.no_description=No description given for this logger.
+tempora.logger.setting.everywhere=Logs everywhere, except in regions that turn it off.
+tempora.logger.setting.regions_only=Only logs inside regions that turn it on.
+tempora.logger.setting.nbt_blocks.on=Saves what is inside blocks and their settings (NBT).
+tempora.logger.setting.nbt_blocks.off=Doesn't save what is inside blocks (NBT is off).
+tempora.logger.setting.nbt_items.on=Saves item NBT, such as enchantments and contents.
+tempora.logger.setting.nbt_items.off=Doesn't save item NBT (NBT is off).
+tempora.logger.setting.interval=Records every %s.
+tempora.logger.setting.retention=Keeps events for %s.
+
+tempora.logger.AchievementLogger.name=Achievements
+tempora.logger.AchievementLogger.description=Achievements players earn, logged where they stood. Only the first time each player earns one.
+tempora.logger.BlockChangeLogger.name=All block changes
+tempora.logger.BlockChangeLogger.description=Every block that changes, whatever changed it: players, machines, other mods or the world itself.
+tempora.logger.CommandLogger.name=Commands
+tempora.logger.CommandLogger.description=Commands players run, with their arguments, logged where the player stood.
+tempora.logger.EntityDeathLogger.name=Mob deaths
+tempora.logger.EntityDeathLogger.description=Mobs dying, and what killed them. Player deaths have their own logger.
+tempora.logger.EntityPositionLogger.name=Mob positions
+tempora.logger.EntityPositionLogger.description=Where mobs are, recorded at regular intervals. Players are recorded by Player positions instead.
+tempora.logger.EntitySpawnLogger.name=Mob spawns
+tempora.logger.EntitySpawnLogger.description=Mobs and other entities appearing in the world, each one once. Players, dropped items and XP orbs are left out.
+tempora.logger.ExplosionLogger.name=Explosions
+tempora.logger.ExplosionLogger.description=Explosions, with what set them off, their power, the nearest player and the blocks they destroyed.
+tempora.logger.InventoryLogger.name=Inventory transfers
+tempora.logger.InventoryLogger.description=Items players move into or out of containers, such as chests, machines and AE2 terminals, logged at the container.
+tempora.logger.ItemPickupDropLogger.name=Item pickups and drops
+tempora.logger.ItemPickupDropLogger.description=Items players pick up off the ground, throw out, or drop when they die, logged where they stood.
+tempora.logger.ItemUseLogger.name=Item uses
+tempora.logger.ItemUseLogger.description=Players right clicking with an item, or an empty hand, logged where they stood.
+tempora.logger.PlayerBlockBreakLogger.name=Player block breaks
+tempora.logger.PlayerBlockBreakLogger.description=Blocks players break.
+tempora.logger.PlayerBlockPlaceLogger.name=Player block places
+tempora.logger.PlayerBlockPlaceLogger.description=Blocks players place.
+tempora.logger.PlayerDeathLogger.name=Player deaths
+tempora.logger.PlayerDeathLogger.description=Players dying, what killed them, and the XP level they had.
+tempora.logger.PlayerPositionLogger.name=Player positions
+tempora.logger.PlayerPositionLogger.description=Where each player is, recorded at regular intervals.
+tempora.logger.PlayerConnectionLogger.name=Player joins and leaves
+tempora.logger.PlayerConnectionLogger.description=Players joining and leaving the server, where they were, and why they left. Players turned away before joining, e.g. for missing mods, aren't logged leaving.
+tempora.logger.TPSLogger.name=Server TPS
+tempora.logger.TPSLogger.description=The server's ticks per second and how long its ticks took, recorded at regular intervals.
+tempora.logger.WeatherLogger.name=Weather
+tempora.logger.WeatherLogger.description=Each dimension's weather changing between clear, rain and thunder.
+
+# Weather, as the weather logger stores it
+tempora.weather.clear=clear
+tempora.weather.rain=rain
+tempora.weather.thunder=thunderstorm
+
+# Commands
+# Each command has .description, and .arg0, .arg1 etc for its args in order, shown by /tempora help
+tempora.command.usage=Usage: %s
+tempora.command.usage.hint=See %s for details.
+tempora.command.usage.hint.hover=Click to show it.
+tempora.command.unknown=There is no Tempora command called '%s'.
+tempora.command.disabled=Tempora is disabled. Set enabled=true in config/tempora/tempora.cfg and restart the server to use these features.
+tempora.command.not_server_thread=Tempora commands can't be run over RCon, or by mods from another thread. Use the server console, or run them in game.
+tempora.command.list.header=Tempora commands. Click one to fill it in, hover over it to see what it does:
+tempora.command.bad_filter='%s' isn't a valid filter. Use any of: %s
+tempora.command.unknown_player=No player called '%s' has joined this server.
+tempora.command.unknown_logger=There is no logger called '%s'. Choices are: %s.
+tempora.time.invalid=Invalid time '%s'. Expected e.g. 30m, 6h, 1d, 2w or 1mo.
+tempora.time.unsupported_unit=Invalid time: '%s' isn't a unit of time.
+tempora.time.too_long=Invalid time: the longest is %s years.
+tempora.command.count_capped=%s events per logger is over this server's limit, so it was capped to %s (maxResultsPerLogger in config/tempora/commands.cfg).
+tempora.command.count_capped.total=%s events is over this server's limit, so it was capped to %s (maxResultsPerLogger in config/tempora/commands.cfg).
+tempora.command.bad_sort='%s' isn't a way to sort. Choices are: %s.
+
+# /tempora help
+tempora.command.help.description=Lists every Tempora command, or shows how to use one, e.g. /tempora help region set. A ? after any command shows the same, e.g. /tempora lookup ?
+tempora.command.help.arg0=Optional. The command to explain, e.g. lookup or region set.
+tempora.command.help.label.description=Description: %s
+tempora.command.help.label.usage=Usage: %s
+tempora.command.help.label.example=Example: %s
+
+# /tempora lookup
+tempora.command.lookup.description=Shows the latest events around you and draws them in the world. Every filter is optional and they can go in any order. By default it searches %s blocks around you, over the last %s days, in every logger, by anyone, and shows the latest %s events of each. Loggers that aren't tied to a place, such as weather, are shown by /tempora global instead.
+tempora.command.lookup.arg0=How many blocks around you to search, default %s.
+tempora.command.lookup.arg1=How far back to look, e.g. 30m, 6h, 1d, 2w, default 3d. A range such as 3d-1d looks between 3 days and 1 day ago.
+tempora.command.lookup.arg2=Which loggers to search, comma separated, e.g. break,place. Default is every logger.
+tempora.command.lookup.arg3=Whose events to show, comma separated, e.g. Player1,Player2. A ! leaves a player out instead, e.g. !Player1 for everyone but Player1. Block changes and explosions go by the closest player. Loggers with no player, such as mob spawns, are skipped. Default is anyone.
+tempora.command.lookup.arg4=How many events to show from each logger, default %s, or in all with s:time, default %s. This server's limit is %s.
+tempora.command.lookup.arg5=How to list the events: logger shows each logger's under its own header, time shows them all together in the order they happened, newest last. Default is logger.
+tempora.command.lookup.arg6=Filters events key info by this value. Use _ instead of spaces. By default no filter is applied.
+tempora.command.lookup.global_logger=%s isn't tied to a place, so it can't be looked up around you. Use %s instead.
+tempora.command.lookup.name_no_answer=Your client didn't say what f:%s matches, so it can't be searched. See your client log.
+tempora.command.lookup.name_empty=f:%s has nothing to search for.
+tempora.command.lookup.name_too_many=f:%s is too broad and matches %s/%s things. Try a more specific search filter.
+
+# /tempora global
+tempora.command.global.description=Shows the latest events from loggers that aren't tied to a place, such as players joining and leaving, weather and TPS. Works from anywhere, including the server console. Every filter is optional and they can go in any order. By default it shows the last %s events of each, over the last %s days.
+tempora.command.global.arg0=How far back to look, e.g. 30m, 6h, 1d, 2w, default 3d. A range such as 3d-1d looks between 3 days and 1 day ago.
+tempora.command.global.arg1=Which loggers to show, comma separated, e.g. weather,tps. Default is every one.
+tempora.command.global.arg2=How many events to show from each logger, default %s. This server's limit is %s.
+tempora.command.global.positional_logger=%s records events at a place, use %s to look them up around you.
+
+# /tempora player
+tempora.command.player.description=Shows a player's latest events wherever they happened, from every logger that records players: what they broke, placed, took from or put in containers, used, picked up, dropped, the commands they ran, the mobs they killed, their deaths, achievements and movements, and when they joined and left. Block changes and explosions go by the closest player. Works from anywhere, including the server console, and draws the events in your dimension in the world. Every filter is optional and they can go in any order. By default it shows the latest %s events of each, over everything still stored.
+tempora.command.player.arg0=Whose events to show, comma separated, e.g. Player1,Player2. A ! leaves a player out instead, e.g. !Player1 for everyone but Player1.
+tempora.command.player.arg1=How far back to look, e.g. 30m, 6h, 1d, 2w. A range such as 3d-1d looks between 3 days and 1 day ago. Default is everything still stored.
+tempora.command.player.arg2=Which loggers to search, comma separated, e.g. break,place. Default is every logger that records players.
+tempora.command.player.arg3=How many events to show from each logger, default %s, or in all with s:time, default %s. This server's limit is %s.
+tempora.command.player.arg4=How to list the events: logger shows each logger's under its own header, time shows them all together in the order they happened, newest last. Default is logger.
+tempora.command.player.header=Latest events by %s:
+tempora.command.player.no_player=%s doesn't record players. Choices are: %s.
+tempora.player_filter.everyone_but=everyone but %s
+tempora.player_filter.except=%s except %s
+
+# /tempora status
+tempora.command.status.description=Shows whether each logger is storing events, how many it holds and how old they are, how much disk it uses, and any backlog of events waiting to be saved, then the total size of Tempora's databases and the free disk space left. Hover over a logger's name for what it records and how it is set up. Works from anywhere, including the server console.
+# E.g. "break [OK] 12,345 events, 1.2 MB, oldest 3.9d ago, newest 5s ago"
+tempora.command.status.logger=%s %s %s, %s, oldest %s, newest %s
+tempora.command.status.events.one=%s event
+tempora.command.status.events.many=%s events
+tempora.command.status.logger.empty=%s %s no events yet, %s
+tempora.command.status.logger.unreadable=%s %s %s, couldn't read it: %s
+tempora.command.status.logger.stopped=%s %s
+tempora.command.status.state.ok=[OK]
+tempora.command.status.state.ok.hover=Storing events.
+tempora.command.status.state.failing=[Failing]
+tempora.command.status.state.failing.hover=Can't store events: %s
+tempora.command.status.state.off=[Off]
+tempora.command.status.state.off.hover=Disabled in config/tempora/%s.
+tempora.command.status.state.not_started=[Not started]
+tempora.command.status.state.not_started.hover=Failed to start, so it stores nothing until the server restarts. See the server log.
+tempora.command.status.queued=%s waiting to be saved
+tempora.command.status.total=Total %s on disk, %s free
+
+# /tempora home
+tempora.command.home.description=Lists the places a player has spent the most time, busiest first, from their position history. Useful for finding their base, and for telling it apart from an AFK farm or spawn. Each place is the %sx%s chunks around its busiest chunk, and clicking it teleports you to where they last stood there.
+tempora.command.home.arg0=Name of the player to look up.
+tempora.command.home.arg1=How far back to look, e.g. 1d, 3w, 1mo. A range such as 3w-1w looks between 3 weeks and 1 week ago. Default is everything still stored.
+tempora.command.home.arg2=Only look in this dimension, by ID. Default is every dimension.
+tempora.command.home.arg3=How many places to list, up to %s, default %s.
+tempora.command.home.header=Places %s spent the most time:
+tempora.command.home.spot=%s. %s of their time, in %s at %s, last there %s
+tempora.command.home.no_more=No other places where they spent much time.
+tempora.command.home.no_db=Player position logging is disabled, so there is no position history to search.
+
+# /tempora sql
+tempora.command.sql.description=Runs a read-only SELECT query against a logger's database and shows the results in chat, for investigations /tempora lookup can't express.
+tempora.command.sql.arg0=A read-only SELECT query. The table name is the full logger name, e.g. PlayerPositionLogger. Player columns hold a number for each player: match one with player('<name or UUID>'), e.g. playerUUID = player('Notch').
+tempora.command.sql.select_only=Only SELECT queries are allowed.
+tempora.command.sql.logger_off=%s is disabled by config, so it has no database to query.
+tempora.command.sql.invalid_table=The query must name a logger table: %s.
+tempora.command.sql.missing_columns=Query missing required columns: %s
+tempora.command.sql.missing_columns.advice=It is highly recommended to use SELECT * instead of specifying columns.
+tempora.command.sql.no_results_in=No results found in %s.
+tempora.command.sql.error=SQL error: %s
+tempora.command.sql.query_quantity=Found %s matching results.
+tempora.command.sql.query_quantity_if_max=Showing the first %s results (server limit: %s). Additional matches may be hidden.
+
+# /tempora wand
+tempora.command.wand.description=Gives you a Tempora wand. Left click a block to see its history, right click a face to see the history of the space in front of it.
+tempora.command.wand.given=You have been given a Tempora wand. Left click a block to see its history, right click a face to see the space in front of it.
+
+# /tempora explode, dev env only
+tempora.command.explode.description=Creates an explosion at the block you are looking at, for testing that explosions are logged. Only exists in a development environment.
+tempora.command.explode.arg0=Power of the explosion, TNT is %s.
+tempora.command.explode.no_block_in_sight=No block in sight.
+tempora.command.explode.not_a_number=Power must be a number.
+
+# /tempora region create
+tempora.command.region.create.description=Creates a named region between two corner blocks, both included. Coordinates can be relative to you, e.g. ~-50. On its own a region changes nothing, use /tempora region set to turn loggers on or off inside it.
+tempora.command.region.create.arg0=Unique name for the region, used by the other region commands.
+tempora.command.region.create.arg1=First corner block. ~ means your own position.
+tempora.command.region.create.arg2=Opposite corner block.
+tempora.command.region.create.arg3=Optional. Dimension ID, defaults to your current dimension.
+tempora.command.region.create.success=Created region %s | Bounds: %s -> %s | Midpoint: %s.
+tempora.command.region.create.name_taken=A region called '%s' already exists. Names must be unique.
+tempora.command.region.create.relative_needs_player=Relative coordinates (~) can only be used by a player.
+tempora.command.region.create.no_rules=It has no rules yet, so it won't change what gets logged. %s
+tempora.command.region.create.suggest_block_logging=[Log block changes here]
+tempora.command.region.create.suggest_block_logging.hover=Fills in the command to turn block change logging ON in this region.
+
+# /tempora region list
+tempora.command.region.list.description=Lists every region with its rules, and briefly draws them in the world around you.
+tempora.command.region.list.arg0=Optional. Only list regions in this dimension.
+tempora.command.region.list.none=No regions defined.
+tempora.command.region.list.entry=Region %s | Bounds: %s -> %s | Midpoint: %s | Created %s by %s.
+tempora.command.region.list.no_regions_in_dim=%s (ID %s) has no regions.
+
+# /tempora region remove
+tempora.command.region.remove.description=Deletes a region and its rules. Without a name, deletes the region you are standing in.
+tempora.command.region.remove.arg0=Optional. Name of the region to delete.
+tempora.command.region.remove.removed=Removed region %s | Bounds: %s -> %s | Midpoint: %s.
+tempora.command.region.remove.not_in_region=You are not inside a region.
+tempora.command.region.remove.ambiguous=You are inside %s regions, click one to remove it:
+
+# /tempora region set
+tempora.command.region.set.description=Turns a logger ON or OFF inside a region, or clears the rule. Where regions overlap, the smallest one with a rule for that logger decides, and ON wins between equally sized regions. Where no region has a rule, the logger's logByDefault config applies.
+tempora.command.region.set.arg0=Name of the region.
+tempora.command.region.set.arg1=Logger to set the rule for, or all for every logger.
+tempora.command.region.set.arg2=on to always log here, off to never log here, clear to remove the rule.
+tempora.command.region.set.set=Region %s: %s is now %s.
+tempora.command.region.set.set_all=Region %s: all loggers are now %s.
+tempora.command.region.set.cleared=Region %s: removed the rule for %s.
+tempora.command.region.set.cleared_all=Region %s: removed all rules.
+tempora.command.region.set.no_rule=Region %s has no rule for %s, nothing to clear.
+tempora.command.region.set.logger_disabled=Note: %s is disabled in the config (enabled=false under %s), so it won't log anywhere until that is turned back on.
+
+# /tempora region check
+tempora.command.region.check.description=Shows whether each logger records events where you are standing, and which region or config option decided it.
+tempora.command.region.check.arg0=Optional. Only check this logger.
+tempora.command.region.check.header=Logging at %s in %s (ID %s):
+tempora.command.region.check.entry=%s: %s (%s)
+tempora.command.region.check.reason.disabled=disabled in config
+tempora.command.region.check.reason.default=no region rule here, using logByDefault from config
+tempora.command.region.check.reason.region=rule in region '%s'
+tempora.command.region.check.reason.tie=rule in region '%s', which is the same size as '%s' and ON wins ties
+
+# Shared by the region commands
+tempora.command.region.global_logger=%s isn't tied to a place, so regions don't affect it.
+
+# Regions
+tempora.region.not_found=No region is called '%s'. Use /tempora region list to see them all.
+tempora.region.rules=Rules: %s
+tempora.region.rules.none=No rules, so this region doesn't change what gets logged.
+tempora.region.dimension_banner=-- Regions in %s (ID %s) --
+
+# Drawn in the world
+tempora.render.regions.author=Created by %s
+tempora.render.regions.created_on=Created %s
+
+# Regions you're standing in, on the HUD
+tempora.hud.region.inside.one=Currently inside %s region:
+tempora.hud.region.inside.many=Currently inside %s regions:
+tempora.hud.region.entry='%s' - Volume %s blocks.
+tempora.hud.region.and_more=And %s more...
+
+# Wand
+tempora.wand.checking_pos=Checking %s in %s
+tempora.wand.nothing_found=Nothing has been logged at this block.
+tempora.wand.alert=[ALERT]
+tempora.wand.unauthorised=%s %s tried to use a Tempora wand at %s without being an operator.
+
+# Labels drawn above events in the world
+tempora.render.event.died=%s died
+tempora.render.event.killed_by=Killed by %s
+tempora.render.event.spawned=%s spawned
+tempora.render.event.explosion=Explosion, power %s
+tempora.render.event.item_used=Used %s
+tempora.render.event.empty_hand=an empty hand
+tempora.render.event.items_in=+%s %s
+tempora.render.event.items_out=-%s %s
+tempora.render.event.picked_up=Picked up %s %s
+tempora.render.event.dropped=Dropped %s %s
+tempora.render.event.death_dropped=Died and dropped %s %s
+
+# Warnings to ops
+tempora.warning.logger_failing=Tempora: %s can't store events (%s). Nothing it sees is being logged, check the server log urgently.
+tempora.warning.queue_too_large=Warning: %s has %s events pending, Tempora is struggling to keep up. You may be logging too much or a large event has occurred (explosion etc.).
+tempora.warning.events_dropped=%s Tempora: %s dropped %s events it could not store (%s). Each one is in the server log.
+tempora.warning.regions_unreadable=Tempora could not read its region file when the server started, so no regions are in use. The file was kept as %s in the world's Tempora folder, and the server log has the error.

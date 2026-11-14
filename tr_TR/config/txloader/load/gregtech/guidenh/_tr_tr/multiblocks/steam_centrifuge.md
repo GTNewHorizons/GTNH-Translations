@@ -151,7 +151,7 @@ Buhar Giriş ve Çıkış Yollarının her birinde dört eşya yuvası vardır. 
 Santrifüj tarifleri genellikle aynı anda birkaç farklı eşya üretir. Dört yuvalı tek bir Çıkış Yolu tüm çıktıları tutmayabilir. Ek Çıkış Yolları eşya çıkış alanını genişletir ancak paralel sınırını yükseltmez. Kapak veya veriyolu eklerken en az 60 gerçek kasa bırak ve ikinci bir Buhar Kapağı takma.
 
 > [!WARNING]
-> Tüm yan ürünleri toplamak için GUI'nin yok etme modunu "Yok Etme" olarak ayarla ve her eşya ve sıvı çıktısı için yer sağla. Sıvı yok etme etkinse, bir Çıkış Kapağı eksik veya tıkalı olduğunda Yapıştırıcı ve diğer ürünler atılabilir.
+> Tüm yan ürünleri toplamak için GUI'nin hiçlik modunu "Hiçleme" olarak ayarla ve her eşya ve sıvı çıktısı için yer sağla. Sıvı yok etme etkinse, bir Çıkış Kapağı eksik veya tıkalı olduğunda Yapıştırıcı ve diğer ürünler atılabilir.
 
 ## Sorun Giderme
 

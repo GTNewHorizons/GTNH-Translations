@@ -103,7 +103,7 @@ Her çıkış katmanını ayrı bir sıvı borusuna ve tanka bağla. Damıtma Ku
 | --- | --- |
 | Standart Çıkış Kapağı | Her katmanı ayrı bir tanka bağla; tank, aşağı akıştaki geçici duruşları tamponlamalı |
 | ME Çıkış Kapağı | Her çıkış katmanı yine kendi kapağını gerektirir; ME kablolarının her yönden bağlanabilmesi için kapağa Tel Kesici ile sağ tıkla |
-| Void Overflow | Yalnızca etkilenen ürün güvenle atılabiliyorsa etkinleştir; dolu bir aşağı akış hedefine giremeyen sıvı kalıcı olarak yok edilir |
+| Hiçlik Taşması | Yalnızca etkilenen ürün güvenle atılabiliyorsa etkinleştir; dolu bir aşağı akış hedefine giremeyen sıvı kalıcı olarak yok edilir |
 | Paylaşılan kasalar veya kapaklar | Duvar paylaşımı malzemeden tasarruf sağlar, ancak paylaşılan Çıkış Kapakları o katmandaki çıktıları uyumlu değilse iki kulenin birbirini engellemesine yol açabilir |
 
 Bir tarif Programlanmış Devre veya başka bir eşya girdisi gerektiriyorsa alt katmana bir Giriş Yolu yerleştir. Toz veya başka bir eşya çıktısı üretiyorsa ayrıca bir Çıkış Yolu yerleştir. Otomasyonu bağladıktan sonra önce tek bir parti işle ve sürekli girdiyi etkinleştirmeden önce her katmandaki gerçek ürünü ve hedef tankı doğrula.

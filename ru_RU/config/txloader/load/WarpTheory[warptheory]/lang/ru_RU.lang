@@ -12,7 +12,7 @@ chat.warptheory.minorwarp=Нет реакции
 chat.warptheory.averagewarp=Бумага приобретает неприятный цвет
 chat.warptheory.majorwarp=Бумага рассыпается в пыль
 chat.warptheory.deadlywarp=Бумага загорается
-chat.warptheory.warpcounts=(%s Permanent Warp, %s Normal Warp, %s Temporary Warp)
+chat.warptheory.warpcounts=(%s постоянного искажения, %s обычного искажения, %s временного искажения)
 chat.warptheory.potionwarning.1=§c§l§nВНИМАНИЕ§r§c: употребление этого зелья сбросит §lВСЕ искажения, исследования, отсканированные предметы и открытые аспекты§r§c!
 chat.warptheory.potionwarning.2=§cПродолжайте пить в течение §l10 секунд§r§c, если вы абсолютно уверены, что хотите сбросить всё.
 
@@ -142,12 +142,12 @@ chat.warptheory.witherpotion=Вы чувствуете себя совершен
 
 # << /warptheory command >>
 commands.warptheory.usage=/warptheory <event> [player]
-commands.warptheory.events=Invalid Syntax, available events are: %s
-commands.warptheory.additional=Additional commands: print purge
-commands.warptheory.noeffects=No active warp effects!
-commands.warptheory.purged=Purged %s!
-commands.warptheory.notfound=Could not find warp event: %s
-commands.warptheory.triggered=Triggered warp event: %s
+commands.warptheory.events=Неверный синтаксис, доступные события: %s
+commands.warptheory.additional=Дополнительные команды: print purge
+commands.warptheory.noeffects=Нет активных эффектов искажения!
+commands.warptheory.purged=Очищено: %s!
+commands.warptheory.notfound=Не удалось найти событие искажения: %s
+commands.warptheory.triggered=Запущено событие искажения: %s
 
 # << Research stuff >>
 tc.research_category.WT_Category=Warp Theory

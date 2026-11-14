@@ -25,7 +25,7 @@ Multibloklar çeşitli şekil, boyut ve kasalarda olsa da eşya, sıvı ve enerj
 
 Kontrolcü multiblokun kalbidir. Tüm yapının yerleşimini ve yönünü olduğu kadar makinenin çalışma ayarlarını da belirler. GUI'yi açmak için kontrolcüye sağ tıkla; burada (1) üstte makinenin adı, (2) makinenin durumu, (3) bir ses açma/kapama düğmesi, (4) birkaç yapılandırılabilir parametre, (5) güç paneli ve (6) varsa manuel geçersiz kılmalar bulunur. Yapılandırılabilir parametrelerin ve manuel geçersiz kılmaların her birinin kısa bir açıklaması aşağıda verilmiştir.
 
-- **Yok Etme Modu** - Çıkış yolunda ve/veya çıkış kapağında yer olmadığında multiblokun davranışını belirler. Yalnızca eşyaları, yalnızca sıvıları veya ikisini birden yok etmeyi seç. Hiçbir şeyi yok etme, tüm ürünler için yeterli yer olana kadar makineyi geçici olarak duraklat anlamına gelir.
+- **Hiçlik Modu** - Çıkış yolunda ve/veya çıkış kapağında yer olmadığında multiblokun davranışını belirler. Yalnızca eşyaları, yalnızca sıvıları veya ikisini birden yok etmeyi seç. Hiçbir Şeyi Hiçleme, tüm ürünler için yeterli yer olana kadar makineyi geçici olarak duraklat anlamına gelir.
 - **Giriş Ayrıştırma** - Farklı giriş yollarındaki KATI bileşenlerin, programlanmış devreler dahil, aynı tarifte kullanılmasını engeller. Bu, tarif çakışması potansiyeli yüksek multibloklar için özellikle kullanışlıdır.
 - **Toplu Mod** - Aynı tarifin katlarını tek bir büyük tarif olarak çalıştırır. Bu, hiçbir şekilde zaman indirimi sağlamaz veya makinenin verimini artırmaz. Amacı, tarif kontrol sayısını azaltarak lag'i düşürmek ve TPS'yi iyileştirmektir.
 - **Tarifi Kilitle** - Multiblokun başka tarifler çalıştırmasını engeller. Bu, multiblok çalışırken veya istediğin tariften önce ayarlanabilir.

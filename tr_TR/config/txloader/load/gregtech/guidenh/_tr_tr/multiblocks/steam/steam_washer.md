@@ -175,7 +175,7 @@ Buhar Giriş ve Çıkış Yollarının her birinde dört eşya yuvası vardır. 
 Cevher yıkama tarifleri aynı anda birkaç farklı eşya üretebilir. Dört yuvalı tek bir Çıkış Yolu, sürekli işlem sırasında tüm ürünleri tutamayabilir. Ek Çıkış Yolları çıkış alanını genişletir ancak paralel sınırını yükseltmez. Kapak veya yol eklerken en az 55 gerçek kasa bırak ve ikinci bir Buhar Kapağı takma.
 
 > [!WARNING]
-> Tüm yan ürünleri toplamak için GUI'nin yok etme modunu "Yok Etme" olarak ayarla ve her çıktı için yer sağla. Eşya yok etme etkinse çıkış tıkandığında ana ürünler veya yan ürünler atılabilir.
+> Tüm yan ürünleri toplamak için GUI'nin hiçlik modunu "Hiçleme" olarak ayarla ve her çıktı için yer sağla. Eşya yok etme etkinse çıkış tıkandığında ana ürünler veya yan ürünler atılabilir.
 
 ## Sorun Giderme
 

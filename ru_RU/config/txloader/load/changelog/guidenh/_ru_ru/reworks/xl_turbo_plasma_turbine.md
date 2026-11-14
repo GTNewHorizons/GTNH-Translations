@@ -47,7 +47,7 @@ The <Color id="GREEN">XLPT</Color> has no tiered components. The glass can be an
 <Color id="GREEN">XLPTs</Color> may wallshare each of their sides to save on casings, heating coils, and buses/hatches. However, do NOT share the input hatch because the fuel is not split evenly between the <Color id="GREEN">XLPTs</Color> -- one consumes everything and the other receives nothing. 
 
 ## Usage
-The <Color id="GREEN">XLPT</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid game when fuel production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
+The <Color id="GREEN">XLPT</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid-game when fuel production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
 
 - Tight Fitting Mode - High efficiency, Low optimal flow rate (power).
 - Loose Fitting Mode - Low efficiency, High optimal flow rate (power).

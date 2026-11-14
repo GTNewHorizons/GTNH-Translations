@@ -22,7 +22,7 @@ Tired of having multiple 64A dynamos on your Active Transformers? Use these inst
 <ItemImage id="gregtech:gt.blockmachines:16035"/>
 </Row>
 <br clear="none">
-Now you can use 256A dynamo hatches from <Color id="BLUE">UV</Color> and beyond! This will cut down slightly on the duplication of hatches, and allows more effective packing of amps into wires in the late game!
+Now you can use 256A dynamo hatches from <Color id="BLUE">UV</Color> and beyond! This will cut down slightly on the duplication of hatches, and allow more effective packing of amps into wires in the late game!
 
 Unfortunately this also comes with a slight nerf to Multi-Amp Hatches across the board, but you win some and you lose some I guess!
 <RecipeFor id="gregtech:gt.blockmachines:15100" />

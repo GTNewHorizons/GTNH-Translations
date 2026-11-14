@@ -30,8 +30,8 @@ item.thaumiumGrafter.name=Таумический садовый нож
 item.magicbees:mysteriousMagnet.name=Таинственный магнит
 item.moonDial.name=Нефритовый набор луны
 
-item.voidScoop.name=Пустотный сачок
-item.voidGrafter.name=Пустотный садовый нож
+item.voidScoop.name=Сачок из пустотного металла
+item.voidGrafter.name=Садовый нож из пустотного металла
 item.beeRing.name=Кольцо для сбора пчел
 
 #Tiles
@@ -220,7 +220,7 @@ moon.new=Новолуние
 
 #Backpack
 item.backpack.thaumaturgeT1.name=Рюкзак тауматурга
-item.backpack.thaumaturgeT2.name=Рюкзак тауматурга
+item.backpack.thaumaturgeT2.name=Тканный рюкзак тауматурга
 backpack.thaumaturge=Рюкзак тауматурга
 
 #Itemgroups
@@ -565,23 +565,23 @@ binniecore.allele.magicbees.effectNodePurifying.desc=Очищает узлы а�
 magicbees.effectNodeRavening=Пожирание
 binniecore.allele.magicbees.effectNodeRavening.desc=Морит голодом узел ауры, превращая его в Голодный
 magicbees.effectBrainy=Мозговитость
-binniecore.allele.magicbees.effectBrainy.desc=Спаун сильных зомби
+binniecore.allele.magicbees.effectBrainy.desc=Рандомно спавнит сильных зомби
 magicbees.effectBatty=Сумасшествие
-binniecore.allele.magicbees.effectBatty.desc=Спаун Огненных летучих мышей
+binniecore.allele.magicbees.effectBatty.desc=Рандомно спавнит огненных летучих мышей
 magicbees.effectWispy=Призрачность
-binniecore.allele.magicbees.effectWispy.desc=Спаун виспов
+binniecore.allele.magicbees.effectWispy.desc=Рандомно спавнит виспов
 magicbees.effectGhastly=Гаст
-binniecore.allele.magicbees.effectGhastly.desc=Спаун гастов
+binniecore.allele.magicbees.effectGhastly.desc=Рандомно спавнит гастов
 magicbees.effectSpidery=Паук
-binniecore.allele.magicbees.effectSpidery.desc=Спаун пауков
+binniecore.allele.magicbees.effectSpidery.desc=Рандомно спавнит пауков
 magicbees.effectAblaze=Ифрит
-binniecore.allele.magicbees.effectAblaze.desc=Спаун ифритов
+binniecore.allele.magicbees.effectAblaze.desc=Рандомно спавнит ифритов
 magicbees.effectCanine=Волчность
-binniecore.allele.magicbees.effectCanine.desc=Спаун волков
+binniecore.allele.magicbees.effectCanine.desc=Рандомно спавнит волков
 magicbees.effectManaDrainer=Vortex
-binniecore.allele.magicbees.effectManaDrainer.desc=Спаун мана криперов
+binniecore.allele.magicbees.effectManaDrainer.desc=Рандомно спавнит мана криперов
 magicbees.effectAMWisp=Spiritual
-binniecore.allele.magicbees.effectAMWisp.desc=Спаун духов
+binniecore.allele.magicbees.effectAMWisp.desc=Рандомно спавнит духов
 magicbees.effectTEBlizzy=Blizzy
 binniecore.allele.magicbees.effectTEBlizzy.desc=Randomly spawns Blizzes
 magicbees.effectTEBlitz=Blitzy
@@ -589,19 +589,19 @@ binniecore.allele.magicbees.effectTEBlitz.desc=Randomly spawns Blitzes
 magicbees.effectTEBasalz=Basalzy
 binniecore.allele.magicbees.effectTEBasalz.desc=Randomly spawns Basalzes
 magicbees.effectDreaming=Dreaming
-binniecore.allele.magicbees.effectDreaming.desc=Transforms mundane materials into Botannical ones
+binniecore.allele.magicbees.effectDreaming.desc=Превращает обычные материалы в материалы, пригодные для ботанического анализа
 magicbees.effectPorcine=Свинья
-binniecore.allele.magicbees.effectPorcine.desc=Causes pigs to appear.
+binniecore.allele.magicbees.effectPorcine.desc=Вызывает появление свиней.
 magicbees.effectBovine=Корова
-binniecore.allele.magicbees.effectBovine.desc=Attracts cows.
+binniecore.allele.magicbees.effectBovine.desc=Привлекает коров.
 magicbees.effectChicken=Курица
-binniecore.allele.magicbees.effectChicken.desc=Attracts chickens.
+binniecore.allele.magicbees.effectChicken.desc=Привлекает кур.
 magicbees.effectSheep=Овца
-binniecore.allele.magicbees.effectSheep.desc=Manufactures wool farms.
+binniecore.allele.magicbees.effectSheep.desc=Производит шерсть на фермах.
 magicbees.effectCatty=Оцелот
-binniecore.allele.magicbees.effectCatty.desc=Causes cats to gather.
+binniecore.allele.magicbees.effectCatty.desc=Приводит к скоплению кошек.
 magicbees.effectHorse=Лошадь
-binniecore.allele.magicbees.effectHorse.desc=Causes horses to appear.
+binniecore.allele.magicbees.effectHorse.desc=Вызывает появление лошадей.
 
 flowerProvider.book=Книги
 flowerProvider.magic=Таумические цветы
@@ -644,7 +644,7 @@ classification.alchemical.description=Эти пчёлы имеют непост�
 classification.essential=Ценные
 classification.essential.description=Эти пчёлы имеют повышенную близость к аспектированной магии.|Apinomicon
 classification.botanical=Ботаническая
-classification.botanical.description=A peculiar variant of mundane bees, they seem to have a hightened affinity for flowers.|Apinomicon
+classification.botanical.description=Эта своеобразная разновидность обычных пчел, по-видимому, обладает повышенной склонностью к цветам.|Apinomicon
 
 tc.aspect.tempus=Время, Момент, Вечность
 tc.aspect.help.tempus=течение времени
@@ -708,12 +708,12 @@ tc.research_name.MB_ApimancersDrainer=Apimancer's Drainer
 tc.research_text.MB_ApimancersDrainer=Как долго продержится ваша королева?
 tc.research_page.MB_ApimancersDrainer.1=Apimancer's Drainer - это инновационное устройство в области Магии пчеловодства, предназначенное для извлечения эссенции из жизненной силы пчел. Он размещается под пасекой, устанавливая прямую связь с пасекой выше.<BR>Чтобы определить тип производимой им эссенции, Drainer настраивается путем постукивания по нему нужной эссенцией.<BR>После настройки Drainer преобразует жизненная энергия королевы в выбранную эссенцию...
 
-tc.research_name.MB_ScoopVoid=Пустотный сачок
+tc.research_name.MB_ScoopVoid=Сачок из пустотного металла
 tc.research_text.MB_ScoopVoid=Тёмная сеть
 tc.research_page.MB_ScoopVoid.1=Пустотный металл - любопытная вещь, и пришло время посмотреть, что он может принести в Магию пчеловодства. Его самовосстанавливающиеся свойства проникли и в сеть, создав весьма тревожную сетку.<BR>Будем надеяться, что это не слишком сильно повлияет на пчел...
 
-tc.research_name.MB_GrafterVoid=Пустотный садовый нож
-tc.research_text.MB_GrafterVoid=Искаженная Ива
+tc.research_name.MB_GrafterVoid=Садовый нож из пустотного металла
+tc.research_text.MB_GrafterVoid=Искаженная ива
 tc.research_page.MB_GrafterVoid.1=Хотя нет никаких сомнений в том, что тауминит является превосходным материалом, ваше недавнее открытие пустотного металла и последующие эксперименты показали большие перспективы его использования в качестве материала для инструментов. Деликатная природа садовых ножей и восстанавливающие свойства пустотного металла выглядят многообещающей комбинацией.<BR>Очень похож на таумический нож и вызывает такое же утомление.
 
 
@@ -723,15 +723,15 @@ tc.research_page.MB_GrafterVoid.1=Хотя нет никаких сомнени�
 magicbees.botania.lexicon.subtitle=[Magic Bees]
 
 magicbees.botania.lexicon.manasteelTools.title=Инструменты натуралиста из манастали
-magicbees.botania.lexicon.manasteelTools.0=Необычные свойства манастали хорошо подходят для инструментов натуралиста. &1Манасталевый сачок&0 можно использовать для эффективного сбора ульев, а &1Манасталевый садовый нож&0 является надежной заменой обычного бронзового садового ножа. Конечно, оба инструмента обладают способностью восстанавливаться за счёт маны. Для достижения наилучших результатов комбинируйте средство с Living Wood.
-magicbees.botania.lexicon.manasteelScoop=&1Манасталевый сачок&0
-magicbees.botania.lexicon.manasteelGrafter=&1Манасталевый садовый нож&0
+magicbees.botania.lexicon.manasteelTools.0=Необычные свойства манастали хорошо подходят для инструментов натуралиста. &1Сачок из манастали&0 можно использовать для эффективного сбора ульев, а &1Садовый нож из манастали&0 является надежной заменой обычного бронзового садового ножа. Конечно, оба инструмента обладают способностью восстанавливаться за счёт маны. Для достижения наилучших результатов комбинируйте средство с жизнедеревом.
+magicbees.botania.lexicon.manasteelScoop=&1Сачок из манастали&0
+magicbees.botania.lexicon.manasteelGrafter=&1Садовый нож из манастали&0
 
-magicbees.botania.lexicon.beeAlfheim.title=Альфхеймская Магия пчеловодства
-magicbees.botania.lexicon.beeAlfheim.trade=Обмен на &bАльфхеймских дронов&0
+magicbees.botania.lexicon.beeAlfheim.title=Альфхеймская магия пчеловодства
+magicbees.botania.lexicon.beeAlfheim.trade=Обмен на &bАльфхеймских трутней&0
 magicbees.botania.lexicon.beeAlfheim.0=&1=&1Эльфийские пчеловоды&0 стремятся открыть для себя прелести пчел вашего мира и особенно заинтересованы в &1Dreaming Drones&0 которые вы можете им предоставить. Взамен они будут торговать &bАльфхеймскими трутнями&0, единственными пчелами, существующими в Альфхейме.
 
-magicbees.botania.lexicon.beegonia.0=Дроны - это основа будущего здоровой колонии, но на самом деле они могут начать просто накапливаться до такой степени, что вы больше не будете знать, что с ними делать.<br>The &1Бегония&0 - решение проблемы переполненности! Просто бросьте запасные дроны поблизости, и они восстановят жизненную силу дрона и преобразуют её в ману! Они не очень придирчивы и будут
+magicbees.botania.lexicon.beegonia.0=Трутни - это основа будущего здоровой колонии, но на самом деле они могут начать просто накапливаться до такой степени, что вы больше не будете знать, что с ними делать.<br>The &1Бегония&0 - решение проблемы переполненности! Просто бросьте запасные дроны поблизости, и они восстановят жизненную силу дрона и преобразуют её в ману! Они не очень придирчивы и будут
 magicbees.botania.lexicon.beegonia.1=производят постоянное количество маны во время работы, хотя кажется, что более "сложные" пчелы обеспечивают больше маны, чем обычные пчелы, что бы это ни значило.
 magicbees.botania.lexicon.beegonia.crafting=Элегантное решение от Syncrostrike
 magicbees.botania.lexicon.beegonia.2=Ну. Это была эта или &2Beenus Fly Trap&0, но здесь есть свои проблемы.
@@ -740,8 +740,8 @@ magicbees.botania.lexicon.hiveacynth.0=Поиск новых пчел для в�
 magicbees.botania.lexicon.hiveacynth.1=будут когда-либо производиться, и примерно пропорционально тому, как они встречаются в дикой природе.<br>Иногда цветок важничает и производит хваленую наследницу, а не вульгарного трутня. Сигнал красного камня не позволит &1Хивеацинту&0 преобразовать ману в жизненную сущность.
 magicbees.botania.lexicon.hiveacynth.crafting=> beesbeesbees.com
 
-magicbees.botania.lexicon.hibeescus.0=&5Неблагородные&0 пчелы, хотя и столь же полезные, как и их &2Нетронутые&0 сородичи, имеют только один недостаток - примерно через 100 поколений они начинают болеть, слабеть и могут погибнуть из-за вас, верно? прежде чем вы получите ту желанную мутацию, которая сведет с ума ваших собратьев-пчеловодов от зависти. Однако, похоже, решение этой проблемы все-таки есть! При наличии достаточного количества маны, времени и помощи особых
-magicbees.botania.lexicon.hibeescus.1=&1Гибискуса&0 на вашей стороне, вы можете устранить множество генетических недостатков у &5Неблагородных&0 диких пчел. Терпение является необходимостью, так как &1Гибискус&0 творит свою магию очень медленно, до 2 полных дней!<br>Также рекомендуется использовать его силу экономно, так как он невероятно жаждет маны. Применение сигнала красного камня к его корням не позволит ему поглощать новых принцесс или королев, но не
+magicbees.botania.lexicon.hibeescus.0=&5Низкопородные&0 пчелы, хотя и столь же полезные, как и их &2Чистопордные&0 сородичи, имеют только один недостаток - примерно через 100 поколений они начинают болеть, слабеть и могут погибнуть из-за вас, верно? прежде чем вы получите ту желанную мутацию, которая сведет с ума ваших собратьев-пчеловодов от зависти. Однако, похоже, решение этой проблемы все-таки есть! При наличии достаточного количества маны, времени и помощи особых
+magicbees.botania.lexicon.hibeescus.1=&1Гибискуса&0 на вашей стороне, вы можете устранить множество генетических недостатков у &5Низкопородных&0 диких пчел. Терпение является необходимостью, так как &1Гибискус&0 творит свою магию очень медленно, до 2 полных дней!<br>Также рекомендуется использовать его силу экономно, так как он невероятно жаждет маны. Применение сигнала красного камня к его корням не позволит ему поглощать новых принцесс или королев, но не
 magicbees.botania.lexicon.hibeescus.2=остановить операцию генетической очистки, как только она начнется.
 magicbees.botania.lexicon.hibeescus.crafting=Только для злобных людей.
 

@@ -60,7 +60,7 @@ The <Color id="GREEN">LATEX</Color> is a direct upgrade from the singleblock ass
 
 
 ## Elastic Singularity
-Insert an elastic singularity into the <Color id="GREEN">LATEX</Color> controller to double the amount of parallels, gain another 25% rubber discount, and unlock the ability to use multi-amp and laser energy hatches. That is a maximum of 240 parallels and a 75% rubber polymer discount. The elastic singularity itself is crafted in a Dire Crafting Table but the five singularities that its comprised of are all made in the Neutronium Compressor or Pseudostable Black Hole Containment Field. That means the upgrade cannot be installed until UV and there is no sharing the singularity between machines. The cost of each singularity is listed below (113,771,520L each).
+Insert an elastic singularity into the <Color id="GREEN">LATEX</Color> controller to double the amount of parallels, gain another 25% rubber discount, and unlock the ability to use multi-amp and laser energy hatches. That is a maximum of 240 parallels and a 75% rubber polymer discount. The elastic singularity itself is crafted in a Dire Crafting Table but the five singularities that it's comprised of are all made in the Neutronium Compressor or Pseudostable Black Hole Containment Field. That means the upgrade cannot be installed until UV and there is no sharing the singularity between machines. The cost of each singularity is listed below (113,771,520L each).
 
 - Rubber Singularity - 12,345 superdense rubber sheets or 790,080 individual rubber sheets.
 - Silicone Rubber Singularity - 12,345 superdense silicone rubber sheets or 790,080 individual silicone rubber sheets.

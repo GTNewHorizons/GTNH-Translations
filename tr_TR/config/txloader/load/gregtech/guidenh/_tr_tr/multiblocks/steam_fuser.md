@@ -154,7 +154,7 @@ Buhar Giriş ve Çıkış Veriyollarının her birinde dört eşya yuvası vard�
 Temel kurulum en fazla bir ek buhar Giriş veya Çıkış Yoluna izin verir. Tıkanıklığın nerede oluştuğuna göre daha fazla girdi veya çıktı tamponlaması arasında seçim yap. Ek veriyolları paralel sınırını yükseltmez, en az 25 gerçek kasa kalmalıdır ve ikinci bir Buhar Kapağı takılamaz.
 
 > [!WARNING]
-> Tüm ürünlerin toplanması gerektiğinde arayüzde yok etmeyi "Void Nothing" olarak ayarla. Etkin yok etme nedeniyle alaşımları ve kalıplanmış parçaları kaybetmemek için Çıkış Yolu veya depo dolduğunda çıktı tıkanıklığını gider.
+> Tüm ürünlerin toplanması gerektiğinde arayüzde yok etmeyi "Hiçbir Şeyi Hiçleme" olarak ayarla. Etkin yok etme nedeniyle alaşımları ve kalıplanmış parçaları kaybetmemek için Çıkış Yolu veya depo dolduğunda çıktı tıkanıklığını gider.
 
 ## Sorun Giderme
 

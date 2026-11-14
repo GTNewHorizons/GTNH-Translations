@@ -121,7 +121,7 @@ Sağ taraftaki düğmeler temel aç/kapat seçeneklerini sunar:
 
 Orta sol alan en az dört yapılandırma seçeneği sunar, ancak her makine hepsine izin vermez:
 
-- **Yok Etme Modu**: hiçbir şeyi yok etme / yalnızca eşyalar / yalnızca sıvılar / ikisi de.
+- **Hiçlik Modu**: Hiçbir Şeyi Hiçleme / yalnızca eşyalar / yalnızca sıvılar / ikisi de.
 - **Giriş Ayrıştırması**: farklı Giriş Yollarındaki eşyaların aynı tarifte kullanılmasını önler.
 - **Toplu Mod**: tarif kontrollerini ve TPS maliyetini azaltmak için aynı tarifin tekrarlanan kopyalarını birleştirir.
 - **Tarifi Kilitle**: makinenin başka tarifler çalıştırmasını önler.
@@ -144,7 +144,7 @@ Onu tanımlayan özellik gösterge ışığı sistemidir:
 - Turuncu yanıp sönüyor: parametre çok yüksek.
 - Anahtar bir parametrenin ışığına genellikle ayarı değiştirmek için sol tıklanabilir.
 
-TecTech makineleri taşma durumunda **her zaman yok eder**, bu yüzden güvenli yok etme düğmesinin pratikte bir etkisi yoktur. Parametre depolama kartları ayarları bir TecTech makinesinden diğerine kopyalayabilir.
+TecTech makineleri taşma durumunda **her zaman yok eder**, bu yüzden güvenli hiçlik düğmesinin pratikte bir etkisi yoktur. Parametre depolama kartları ayarları bir TecTech makinesinden diğerine kopyalayabilir.
 
 # Bakım
 
