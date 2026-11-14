@@ -49,7 +49,7 @@ player_must_be_online=Player must be online!
 serverutilities.task.cleanup_entity=Removing %s in %d seconds
 serverutilities.task.cleanup_hostiles=Hostile mobs
 serverutilities.task.cleanup_passives=Passive mobs
-serverutilities.task.cleanup_items=Dropped items
+serverutilities.task.cleanup_items=Items Largados
 serverutilities.task.cleanup_experience=XP orbs
 serverutilities.task.cleanup_removed=Removed %s entities from world
 
@@ -636,6 +636,7 @@ commands.tree_base.available_subcommands=Available SubCommands: %s
 # Backup
 cmd.backup_start=Backup do Servidor iniciado!
 cmd.backup_stop=Backup do Servidor interrompido!
+cmd.backup_stop_pending=Backup work was cancelled, but some of it is still finishing in the background.
 cmd.backup_end_1=Backup do servidor finalizado em %s!
 cmd.backup_end_2=Backup do servidor finaliado em %s! (%s)
 cmd.backup_fail=Failed to save world! (%s)
@@ -709,7 +710,7 @@ gui.active=Active
 gui.inactive=Inactive
 gui.settings=Settings
 gui.rename=Rename
-gui.search_box=Search...
+gui.search_box=Procurar...
 gui.copy=Copy
 
 ## Labels
