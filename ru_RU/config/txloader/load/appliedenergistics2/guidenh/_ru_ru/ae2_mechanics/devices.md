@@ -1,15 +1,15 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Devices
+  title: Устройства
   icon: appliedenergistics2:tile.BlockInterface
 ---
 
-# Devices
+# Устройства
 
-A "Device" refers to an AE2 network component that performs some function related to the network itself. They almost always require a channel, with some exceptions, such as [Level Emitters](../items_blocks/level_emitter.md) or [Molecular Assemblers](../items_blocks/molecular_assembler.md).
+"Устройство" - это компонент сети AE2, который выполняет какую-либо функцию, связанную с самой сетью. Почти всем им нужен канал, но есть исключения, например [Излучатели уровня](../items_blocks/level_emitter.md) или [Молекулярные сборщики](../items_blocks/molecular_assembler.md).
 
-Some examples include:
+Некоторые примеры:
 
 *   <ItemLink id="appliedenergistics2:tile.BlockInterface" showIcon="left" />
 *   <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="left" />

@@ -2,98 +2,98 @@
 # Colours are set in code, text here only says what to show
 
 # Blocks and items
-item.tempora_wand.name=Tempora Wand
-tile.rendering_error_block.name=Tempora Rendering Error
-tile.temporaStressTestBlock.name=Tempora Stress Test Block
-tempora.tooltip.rendering_error=If you are seeing this, something has likely gone wrong with Tempora's event rendering. Please report it, thanks!
+item.tempora_wand.name=Tempora жезл
+tile.rendering_error_block.name=Ошибка рендеринга Tempora
+tile.temporaStressTestBlock.name=Блок стресс-теста Tempora
+tempora.tooltip.rendering_error=Если вы видите это, скорее всего, произошёл сбой рендеринга событий Tempora. Пожалуйста, сообщите об этом, спасибо!
 # Air has no name in vanilla but block changes can be to or from it
-tempora.block.air=Air
+tempora.block.air=Воздух
 
 # Chat building blocks
 # How long ago, e.g. "6.4m ago"
-tempora.time.ago.now=just now
-tempora.time.ago.seconds=%ss ago
-tempora.time.ago.minutes=%sm ago
-tempora.time.ago.hours=%sh ago
-tempora.time.ago.days=%sd ago
-tempora.time.ago.weeks=%sw ago
-tempora.time.ago.months=%smo ago
-tempora.time.ago.years=%sy ago
+tempora.time.ago.now=только что
+tempora.time.ago.seconds=%sс назад
+tempora.time.ago.minutes=%sм назад
+tempora.time.ago.hours=%sч назад
+tempora.time.ago.days=%sд назад
+tempora.time.ago.weeks=%sнед назад
+tempora.time.ago.months=%sмес назад
+tempora.time.ago.years=%sг назад
 
 # A length of time, e.g. "4 months"
-tempora.duration.year.one=%s year
-tempora.duration.year.many=%s years
-tempora.duration.month.one=%s month
-tempora.duration.month.many=%s months
-tempora.duration.week.one=%s week
-tempora.duration.week.many=%s weeks
-tempora.duration.day.one=%s day
-tempora.duration.day.many=%s days
-tempora.duration.hour.one=%s hour
-tempora.duration.hour.many=%s hours
-tempora.duration.minute.one=%s minute
-tempora.duration.minute.many=%s minutes
-tempora.duration.second.one=%s second
-tempora.duration.second.many=%s seconds
-tempora.duration.tick.one=%s tick
-tempora.duration.tick.many=%s ticks
+tempora.duration.year.one=%s год
+tempora.duration.year.many=%s лет
+tempora.duration.month.one=%s месяц
+tempora.duration.month.many=%s месяцев
+tempora.duration.week.one=%s неделя
+tempora.duration.week.many=%s недель
+tempora.duration.day.one=%s день
+tempora.duration.day.many=%s дней
+tempora.duration.hour.one=%s час
+tempora.duration.hour.many=%s часов
+tempora.duration.minute.one=%s минута
+tempora.duration.minute.many=%s минут
+tempora.duration.second.one=%s секунда
+tempora.duration.second.many=%s секунд
+tempora.duration.tick.one=%s тик
+tempora.duration.tick.many=%s тиков
 
 # Hovers on things in a line
-tempora.chat.closest_player=Closest player, %s blocks away. Not necessarily who did it.
+tempora.chat.closest_player=Ближайший игрок, в %s блоках отсюда. Не обязательно виновник.
 tempora.chat.id=ID %s:%s
-tempora.chat.dimension_id=Dimension ID %s
+tempora.chat.dimension_id=ID измерения %s
 tempora.uuid.display=UUID: %s
-tempora.uuid.click_to_copy=Click to copy UUID.
+tempora.uuid.click_to_copy=Нажмите, чтобы скопировать UUID.
 
 # Clickable coords
 # Coords use the player's number format (GTNHLib's numberFormatLocale) which doesn't have to match their language,
 # so the separator is picked in code from that format, e.g. [12,345 64 -2,000] or [12 345, 64, -2 000]
 tempora.teleport.display=[%s]
-tempora.teleport.hover=Click to teleport.
+tempora.teleport.hover=Нажмите, чтобы телепортироваться.
 tempora.teleport.dimension=%s (ID %s)
 # Labelled since these have decimals and lots of formats write those with a comma, e.g. 12.345,5
-tempora.teleport.exact=Exactly X: %s Y: %s Z: %s
-tempora.teleport.done=Teleported to %s in %s.
-tempora.teleport.no_permission=You need permission to use /tempora to teleport.
+tempora.teleport.exact=Точно X: %s Y: %s Z: %s
+tempora.teleport.done=Вы телепортированы к %s в измерении %s.
+tempora.teleport.no_permission=У вас нет прав на использование /tempora для телепортации.
 
 # Stored with events when who or what did it is unknown, so these keys have to keep their names
-tempora.unknown.player=[UNKNOWN PLAYER]
-tempora.unknown.cause=[UNKNOWN CAUSE]
-tempora.unknown.error=[UNKNOWN ERROR]
+tempora.unknown.player=[НЕИЗВЕСТНЫЙ ИГРОК]
+tempora.unknown.cause=[НЕИЗВЕСТНАЯ ПРИЧИНА]
+tempora.unknown.error=[НЕИЗВЕСТНАЯ ОШИБКА]
 
-tempora.dimension.invalid=Dimension %s does not exist.
+tempora.dimension.invalid=Измерение %s не существует.
 
 # Event lines
 # Every line reads when, who, did what, where. The words here show grey
-tempora.event.achievement=%s %s earned %s at %s
-tempora.event.block_break=%s %s broke %s at %s
-tempora.event.block_place=%s %s placed %s at %s
+tempora.event.achievement=%s %s получил достижение %s на %s
+tempora.event.block_break=%s %s сломал %s на %s
+tempora.event.block_place=%s %s поставил %s на %s
 tempora.event.block_change=%s %s became %s at %s near %s %s
 tempora.event.block_change.no_player=%s %s became %s at %s %s
-tempora.event.command=%s %s ran %s at %s
-tempora.event.command.hover=Click to put this command in your chat box.
-tempora.event.entity_death.killed=%s %s killed %s at %s
-tempora.event.entity_death.died=%s %s died (%s) at %s
-tempora.event.entity_death.unknown=%s %s died at %s
-tempora.event.entity_position=%s %s was at %s
-tempora.event.entity_spawn=%s %s spawned at %s
-tempora.event.explosion=%s Explosion by %s at %s, power %s, broke %s blocks near %s
-tempora.event.explosion.no_player=%s Explosion by %s at %s, power %s, broke %s blocks
-tempora.event.inventory.added=%s %s put %s %s in %s at %s
-tempora.event.inventory.removed=%s %s took %s %s from %s at %s
-tempora.event.inventory.invalid=Unknown inventory interaction %s in the inventory database. Please report this.
-tempora.event.item_pickup_drop.pickup=%s %s picked up %s %s at %s
-tempora.event.item_pickup_drop.drop=%s %s dropped %s %s at %s
-tempora.event.item_pickup_drop.death_drop=%s %s died and dropped %s %s at %s
-tempora.event.item_pickup_drop.invalid=Unknown item pickup or drop %s in the database. Please report this.
-tempora.event.item_use=%s %s used %s at %s
-tempora.event.item_use.empty_hand=%s %s clicked with an empty hand at %s
-tempora.event.player_death.killed=%s %s was killed by %s at %s (%s)
-tempora.event.player_death.died=%s %s died (%s) at %s (%s)
-tempora.event.player_death.unknown=%s %s died at %s (%s)
-tempora.event.player_death.level=level %s
-tempora.event.player_death.level_kept=level %s, inventory kept
-tempora.event.player_position=%s %s was at %s
+tempora.event.command=%s %s выполнил %s на %s
+tempora.event.command.hover=Нажмите, чтобы вставить эту команду в строку чата.
+tempora.event.entity_death.killed=%s %s убил %s на %s
+tempora.event.entity_death.died=%s %s погиб (%s) на %s
+tempora.event.entity_death.unknown=%s %s погиб на %s
+tempora.event.entity_position=%s %s находился на %s
+tempora.event.entity_spawn=%s %s появился на %s
+tempora.event.explosion=%s Взрыв от %s на %s, сила %s, разрушено блоков: %s рядом с %s
+tempora.event.explosion.no_player=%s Взрыв от %s на %s, сила %s, разрушено блоков: %s
+tempora.event.inventory.added=%s %s положил %s %s в %s на %s
+tempora.event.inventory.removed=%s %s забрал %s %s из %s на %s
+tempora.event.inventory.invalid=Неизвестное взаимодействие с инвентарём %s в базе данных инвентарей. Пожалуйста, сообщите об этом.
+tempora.event.item_pickup_drop.pickup=%s %s подобрал %s %s на %s
+tempora.event.item_pickup_drop.drop=%s %s выбросил %s %s на %s
+tempora.event.item_pickup_drop.death_drop=%s %s погиб и выронил %s %s на %s
+tempora.event.item_pickup_drop.invalid=Неизвестный подбор или выпадение предмета %s в базе данных. Пожалуйста, сообщите об этом.
+tempora.event.item_use=%s %s использовал %s на %s
+tempora.event.item_use.empty_hand=%s %s нажал пустой рукой на %s
+tempora.event.player_death.killed=%s %s был убит %s на %s (%s)
+tempora.event.player_death.died=%s %s погиб (%s) на %s (%s)
+tempora.event.player_death.unknown=%s %s погиб на %s (%s)
+tempora.event.player_death.level=уровень %s
+tempora.event.player_death.level_kept=уровень %s, инвентарь сохранён
+tempora.event.player_position=%s %s находился на %s
 tempora.event.player_connection.join=%s %s joined at %s
 tempora.event.player_connection.leave=%s %s left at %s (%s)
 tempora.event.player_connection.server_stopped=Server stopped
