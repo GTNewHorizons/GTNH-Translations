@@ -636,6 +636,7 @@ commands.tree_base.available_subcommands=使えるサブコマンド: %s
 # Backup
 cmd.backup_start=サーバーのバックアップを開始しました！
 cmd.backup_stop=サーバーのバックアップを中止しました！
+cmd.backup_stop_pending=Backup work was cancelled, but some of it is still finishing in the background.
 cmd.backup_end_1=サーバーのバックアップが%sで完了しました！
 cmd.backup_end_2=サーバーのバックアップが%sで完了しました！ (%s)
 cmd.backup_fail=ワールドを保存できませんでした！ (%s)
