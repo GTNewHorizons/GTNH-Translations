@@ -72,7 +72,7 @@ Beam Crafters may wallshare each of their sides to save on casings and glass. Ho
 ## Usage
 The Beam Crafter is the final step in the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) and captures one or more of the output particle beams for recipes. More specifically, it permanently buffers up to 2B of each particle type and only ever consumes them when a recipe requires them.
 
-There is no passive decay and it does not matter which beam input hatch the particles enter through. **However, particles are only added to the buffer while the Beam Crafter is actively processing a recipe.**
+There is no passive decay and it does not matter which beam input hatch the particles enter through.
 
 Beam Crafter recipes start immediately upon receiving any valid inputs and only finish when the machine receives enough of the required particles, similar to how the [<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />](./research_station.md) consumes computation. Therefore, the duration of recipes is strictly determined by the rate at which particles are consumed. It could be instantaneous if there are enough particles stored in the buffer, or last forever if the collision energy of the LHC is not high enough to produce the required particles.
 
