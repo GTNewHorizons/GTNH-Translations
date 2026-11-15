@@ -7,9 +7,9 @@ navigation:
 
 # Устройства
 
-"Устройство" - это компонент сети AE2, который выполняет какую-либо функцию, связанную с самой сетью. Почти всем им нужен канал, но есть исключения, например [Излучатели уровня](../items_blocks/level_emitter.md) или [Молекулярные сборщики](../items_blocks/molecular_assembler.md).
+"Устройством" называется компонент сети AE2, выполняющий какую-либо функцию, связанную с самой сетью. Они почти всегда требуют канал, за некоторыми исключениями, такими как [Излучатели уровня](../items_blocks/level_emitter.md) или [Молекулярные сборщики](../items_blocks/molecular_assembler.md).
 
-Некоторые примеры:
+Вот несколько примеров:
 
 *   <ItemLink id="appliedenergistics2:tile.BlockInterface" showIcon="left" />
 *   <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="left" />

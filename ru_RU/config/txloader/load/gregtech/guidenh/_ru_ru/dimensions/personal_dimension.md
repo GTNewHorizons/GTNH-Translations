@@ -4,9 +4,9 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAA2Q==
 navigation:
-  title: Personal Dimension
+  title: Личное измерение
   parent: ./_index.md
   icon: personalspace:personalPortal
   position: -7
 ---
-# Personal Dimension
+# Личное измерение

@@ -2,7 +2,7 @@
 item_ids:
   - appliedenergistics2:item.ItemMultiPart:360
 navigation:
-  title: Terminal QoL Changes
+  title: Улучшения удобства терминалов
   parent: ae2.md
 categories:
     - Applied Energistics 2
@@ -10,23 +10,23 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Terminal QoL Changes
-Given how much time you spend ~~jumping on machines~~ inside your terminals, they were overdue for some quality of life upgrades!
+# Улучшения удобства терминалов
+Учитывая, сколько времени вы проводите ~~прыгая по механизмам~~ в своих терминалах, они давно заслуживали нескольких улучшений!
 
-## Enhanced Pin Management
-Pins are now separated into __Player__ and __Crafting__ sections, both separated and with a maximum of up to 16 for each (depending on resolution). Crafted items will automatically get pinned in the crafting Pin slots. This is all configurable in your mod settings
+## Расширенное управление закреплениями
+Закреплённые предметы теперь разделены на секции __Игрок__ и __Создание__, каждая из которых обособлена и вмещает до 16 слотов (в зависимости от разрешения экрана). Созданные предметы автоматически закрепляются в слотах секции создания. Всё это можно настроить в параметрах мода.
 
-## Configurable Amounts
-If you've ever found that the autocrafting amounts seem odd to you, now you can configure them! When looking to autocraft any item, click the wrench in the bottom left to set new values for use in the future!
+## Настраиваемое количество
+Если вам когда-либо казалось, что стандартные значения количества для автокрафта не совсем удобны, теперь их можно настроить! При заказе автокрафта любого предмета нажмите на гаечный ключ в левом нижнем углу, чтобы задать новые значения на будущее!
 
 <FloatingImage src="../assets/ae2/gui_amount.png" align="left" displayWidth="256">
   <ImageAnnotation>
-    The config page
+    Страница настройки
   </ImageAnnotation>
 </FloatingImage>
 
 <FloatingImage src="../assets/ae2/gui_amount_2.png" align="left" displayWidth="256">
   <ImageAnnotation>
-    The result of that change
+    Результат изменений
   </ImageAnnotation>
 </FloatingImage>

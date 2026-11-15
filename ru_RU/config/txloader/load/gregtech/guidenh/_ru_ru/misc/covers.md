@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: Covers
+  title: Модули
   icon: minecraft:grass
   parent: ./misc_index.md
 ---
-# Covers
+# Модули
 
-## Conveyor Module
+## Конвейерный модуль

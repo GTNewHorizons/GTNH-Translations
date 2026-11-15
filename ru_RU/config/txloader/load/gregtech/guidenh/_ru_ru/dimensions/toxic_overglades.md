@@ -6,7 +6,7 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAKSg==
 navigation:
-  title: Toxic Overglades
+  title: Токсичные болота
   parent: ./_index.md
   icon: gtneioreplugin:blockDimensionDisplay_Eg
   position: -7
