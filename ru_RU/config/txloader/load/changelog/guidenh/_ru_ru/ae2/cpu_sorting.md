@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: CPU Sorting
+  title: Сортировка ЦП
   parent: ae2.md
   icon: appliedenergistics2:tile.BlockAdvancedCraftingUnit:3
 categories:
@@ -9,14 +9,14 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# CPU Sorting
-Ever wished you could sort your CPUs without being limited to just sorting by name? Well now you can!
+# Сортировка ЦП
+Всегда хотели сортировать свои ЦП, не ограничиваясь только сортировкой по названию? Теперь это возможно!
 
-CPUs can now be sorted by a variety of metrics as follows:
-- CPU Name
-- Storage Memory
-- Number of Co-Processors
-- Crafting Status
-- Automation (Player, Mixed, Non-Player)
+Теперь ЦП можно сортировать по различным параметрам:
+- Название ЦП
+- Объём памяти хранения
+- Количество сопроцессоров
+- Статус создания
+- Автоматизация (Игрок, Смешанный, Не игрок)
 
-They can also be sorted as Ascending or Descending on any of those categories!
+Их также можно сортировать по возрастанию или по убыванию в любой из этих категорий!

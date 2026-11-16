@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Certus Quartz Crystal
+  title: Кристалл истинного кварца
   icon: gregtech:gt.metaitem.01:8516
 categories:
 - misc ingredients blocks
@@ -10,16 +10,16 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:10
 ---
 
-# Certus Quartz Crystal
+# Кристалл истинного кварца
 
 <ItemImage id="gregtech:gt.metaitem.01:8516" scale="4" />
 
-*"Certus Quartz Crystals possess a unique trait————their crystalline matrix can store large amounts of energy"*
+*"Кристаллы истинного кварца обладают уникальным свойством————их кристаллическая матрица может хранить большое количество энергии"*
 
-One of the primary crafting materials for AE2 blocks, [devices](../ae2_mechanics/devices.md), and items. Obtained by mining [Certus Quartz Ore](certus_ore.md).
+Один из основных материалов для создания блоков AE2, [устройств](../ae2_mechanics/devices.md) и предметов. Добывается путём добычи [руды истинного кварца](certus_ore.md).
 
 
-## Some Alternate Recipes
+## Некоторые альтернативные рецепты
 
 <Recipe id="gregtech:gt.metaitem.01:8516" handlerId="smelting" />
 

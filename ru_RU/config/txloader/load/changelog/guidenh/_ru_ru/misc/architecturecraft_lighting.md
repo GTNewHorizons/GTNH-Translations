@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Improved ArchitectureCraft Lighting
+  title: Улучшенное освещение ArchitectureCraft
   parent: misc.md
   icon: ArchitectureCraft:sawbench
 categories:
@@ -8,21 +8,21 @@ categories:
 author: Skorched
 date: 2026-05-22
 ---
-# Improved ArchitectureCraft Lighting
-Are you one of the many players that love using <Color id="BLUE">ArchitectureCraft</Color> for building, but hate the lighting effects on the angles it creates! Well cry no more!
-By changing the way the internal calculations work, the transitions between these blocks are now more seamless than ever! Just look:
+# Улучшенное освещение ArchitectureCraft
+Вы один из многих игроков, которым нравится использовать <Color id="BLUE">ArchitectureCraft</Color> для строительства, но раздражают проблемы с освещением на углах создаваемых им блоков? Больше никаких слёз!
+Благодаря изменению внутренних расчётов переходы между такими блоками теперь стали максимально плавными! Просто посмотрите:
 <FloatingImage src="../assets/misc/lighting.png" displayWidth="256" wrap="square">
   <ImageAnnotation>
-    Before and After for some specific cases
+    "До" и "после" для некоторых отдельных случаев
 </ImageAnnotation>
 </FloatingImage>
 <FloatingImage src="../assets/misc/lighting_2.png" displayWidth="256" wrap="square">
   <ImageAnnotation>
-    Before and After for some specific cases
+    "До" и "после" для некоторых отдельных случаев
 </ImageAnnotation>
 </FloatingImage>
 <FloatingImage src="../assets/misc/lighting_3.png" displayWidth="256" wrap="square">
   <ImageAnnotation>
-    Before and After for some specific cases
+    "До" и "после" для некоторых отдельных случаев
 </ImageAnnotation>
 </FloatingImage>

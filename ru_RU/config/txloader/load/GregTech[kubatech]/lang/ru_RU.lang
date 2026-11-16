@@ -136,7 +136,6 @@ kubatech.chat.mia.not_empty=§cCan't swap between Swarmer/Normal mode while Bees
 # info data
 ## general
 kubatech.infodata.running_mode=Работает в режиме:
-kubatech.infodata.running_mode.fmt=Работает в режиме: §a%s§r
 
 ## Extreme Entity Crusher
 kubatech.infodata.eec.current_mob=Текущий моб: §e%s
@@ -162,8 +161,6 @@ kubatech.infodata.eec.weapon.looting_level=Уровень добычи оруж�
 kubatech.infodata.eec.total_damage=Общий урон от атаки: §e%s
 
 ## Extreme Industrial Greenhouse
-kubatech.infodata.eig.running_mode.setup_mode.input=Работает в режиме: §aРежим настройки (загрузка)§r
-kubatech.infodata.eig.running_mode.setup_mode.output=Работает в режиме: §aРежим настройки (выгрузка)§r
 kubatech.infodata.eig.uses.water=Использует %sЛ воды за операцию
 kubatech.infodata.eig.uses.weedex=Использует %sЛ/секунду Гербицида 9000
 kubatech.infodata.eig.max_slots=Макс. слотов: §a%s§r
@@ -377,6 +374,9 @@ kubatech.multiblock.ExtremeIndustrialGreenhouse.fertilized_dirt=Удобренн
 kubatech.multiblock.ExtremeIndustrialGreenhouse.purple_lamp=Фиолетовая лампа (ProjectRed Illumination, обычная или инвертированная)
 kubatech.multiblock.ExtremeIndustrialGreenhouse.footer=Земля вспахивается, а вода появляется бесплатно после формирования структуры
 
+kubatech.infodata.eig.running_mode.operational=Running in mode: §aOperating§r
+kubatech.infodata.eig.running_mode.setup_mode.input=Работает в режиме: §aРежим настройки (загрузка)§r
+kubatech.infodata.eig.running_mode.setup_mode.output=Работает в режиме: §aРежим настройки (выгрузка)§r
 
 kubatech.multiblock.MegaIndustrialApiary.machine_type=Мега-пасека. (Mapiary)
 kubatech.multiblock.MegaIndustrialApiary.dirt_or_grass=Земля или трава

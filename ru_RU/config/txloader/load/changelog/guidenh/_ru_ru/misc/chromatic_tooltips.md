@@ -10,8 +10,8 @@ date: 2026-05-22
 ---
 
 # Chromatic Tooltips
-The <Color id="GREEN">Chromatic Tooltips</Color> mod has been added, completely overhauling the appearance of tooltips!
+Был добавлен мод <Color id="GREEN">Chromatic Tooltips</Color>, полностью преображающий внешний вид подсказок!
 
-Tooltips can now look completely different, whether it be an item icon in the corner, gradient borders, appearance animations, neater separation of information, and even more!
+Теперь подсказки могут выглядеть совершенно иначе - со значком предмета в углу, градиентными рамками, анимациями появления, более аккуратным разделением информации и многим другим!
 
-The style is changeable via resource packs, see which tooltips have changed!
+Стиль можно изменять с помощью ресурспака - посмотрите, какие подсказки преобразились!

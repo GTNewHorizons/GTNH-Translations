@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Instantly Connecting Pipes
+  title: Мгновенное соединение труб
   parent: misc.md
   icon: gregtech:gt.blockmachines:5760
 categories:
@@ -9,7 +9,7 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Instantly Connecting Pipes
-As of 2.9, all GregTech fluid pipes, item pipes, and cables will now connect with no delay, right as they are placed!
+# Мгновенное соединение труб
+Начиная с версии 2.9, все жидкостные трубы, предметные трубы и кабели GregTech соединяются без задержки, сразу же при установке!
 
-Pipes and cables will still only connect to blocks that you explicitly connect them to by placing directly on them. They __will not__ instantly connect to all nearby pipes or cables
+Трубы и кабели по-прежнему будут подключаться только к тем блокам, к которым вы их подключаете напрямую при установке. Они __не будут__ мгновенно соединяться со всеми соседними трубами или кабелями.

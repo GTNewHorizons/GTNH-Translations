@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: GTNH Teams
+  title: Команды GTNH
   parent: misc.md
   icon: minecraft:skull:3
 categories:
@@ -9,20 +9,20 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# GTNH Teams
-New to 2.9 is a new team system, but don't raise your pitchforks yet! This system intends to replace effectively every team system currently in the pack!
+# Команды GTNH
+Нововведением версии 2.9 стала новая система команд, но не спешите хвататься за вилы! Эта система призвана заменить практически все существующие в сборке системы команд!
 
-All players will by default be in a team (of just yourself), and the standard commands are listed at the end of this page. This team system currently works with the [Vending Machine](../qol/vending_machine.md) and [Visual Prospecting](../qol/shared_prospecting.md), but the dev team is working to slowly move everything across to this system to avoid the barrage of different existing team systems.
+По умолчанию каждый игрок состоит в команде (из одного себя), а стандартные команды приведены в конце этой страницы. Сейчас эта система команд работает с [торговым автоматом](../qol/vending_machine.md) и [визуальной разведкой](../qol/shared_prospecting.md), но команда разработчиков постепенно переводит на неё всё остальное, чтобы избавиться от нагромождения различных старых систем команд.
 
-## Commands:
-| Command   | Use    |
+## Команды:
+| Команда   | Назначение    |
 |--------------- | --------------- |
-| `/gtnhteam help`   | Displays this list of commands   |
-| `/gtnhteam info`   | Print out the members list of your current team   |
-| `/gtnhteam invite <player>`   | Officer - Invite an online player to your team   |
-| `/gtnhteam accept [team]`   | Accept a pending team invitation  |
-| `gtnhteam deny [team]`   | Decline a pending team invitation |
-| `gtnhteam leave`   | Leave your current team and form a new solo team |
-| `gtnhteam rename <new name>`   | Owner - Change your team's name |
-| `/gtnhteam promote <player>`   | Owner - Promote a member to officer, or an officer to owner |
-| `/gtnhteam demote`   | Owner - Demote an owner to officer, or officer to member |
+| `/gtnhteam help`   | Отображает этот список команд   |
+| `/gtnhteam info`   | Выводит список участников вашей текущей команды   |
+| `/gtnhteam invite <player>`   | Офицер - пригласить игрока в сети в вашу команду   |
+| `/gtnhteam accept [team]`   | Принять ожидающее приглашение в команду  |
+| `gtnhteam deny [team]`   | Отклонить ожидающее приглашение в команду |
+| `gtnhteam leave`   | Покинуть текущую команду и создать новую одиночную команду |
+| `gtnhteam rename <new name>`   | Владелец - изменить название вашей команды |
+| `/gtnhteam promote <player>`   | Владелец - повысить участника до офицера или офицера до владельца |
+| `/gtnhteam demote`   | Владелец - понизить владельца до офицера или офицера до участника |

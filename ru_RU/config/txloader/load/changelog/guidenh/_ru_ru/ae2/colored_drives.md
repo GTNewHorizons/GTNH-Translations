@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Color Coded ME Drives
+  title: Цветовая маркировка МЭ накопителей
   parent: ae2.md
   icon: appliedenergistics2:tile.BlockDrive
 categories:
@@ -9,13 +9,13 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Color Coded ME Drives
-The visual rendering of ME Drives has changed! Now when applying a color to a drive, the color is applied to the chassis itself instead of the individual drives!
+# Цветовая маркировка МЭ накопителей
+Визуальное отображение МЭ накопителей изменилось! Теперь при окрашивании накопителя цвет применяется к самому корпусу, а не к отдельным слотам!
 
-This allows you to maintain a color-coded storage system, whilst still being able to discern types and tiers of the cells inside from outside the GUI!
+Это позволяет поддерживать систему хранения с цветовой маркировкой и при этом различать типы и тиры ячеек внутри, не открывая GUI!
 
 <FloatingImage src="../assets/ae2/colored_drives.png" align="left" displayWidth="256">
   <ImageAnnotation>
-    An example of a color coded set-up using ME Drives
+    Пример системы с цветовой маркировкой с использованием МЭ накопителей
   </ImageAnnotation>
 </FloatingImage>

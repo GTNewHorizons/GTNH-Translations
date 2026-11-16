@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Cell Workbench
+  title: Верстак для ячеек
   icon: appliedenergistics2:tile.BlockCellWorkbench
 categories:
 - machines
@@ -9,33 +9,33 @@ item_ids:
 - appliedenergistics2:tile.BlockCellWorkbench
 ---
 
-# Cell Workbench
+# Верстак для ячеек
 
 <ItemImage id="appliedenergistics2:tile.BlockCellWorkbench" scale="4" />
 
-The Cell Workbench can be used to configure [storage cells](storage_cells.md) and <ItemLink id="appliedenergistics2:item.ItemViewCell" />.
+Верстак для ячеек можно использовать для настройки [ячеек хранения](storage_cells.md) и <ItemLink id="appliedenergistics2:item.ItemViewCell" />.
 
-You can install [upgrade cards](upgrade_cards.md) into cells, or configure "partitions" to restrict the types of items the cell can store.
+Вы можете устанавливать в ячейки [карты улучшений](upgrade_cards.md) или настраивать "разметку", чтобы ограничить типы предметов, которые может хранить ячейка.
 
-If you do not have the required item or fluid, you can drag it from NEI to place it into the filter slot.
+Если у вас нет нужного предмета или жидкости, вы можете перетащить их из NEI в слот фильтра.
 
-Using a fluid container, such as an iron bucket or fluid tank, while pressing <Color id="YELLOW"><KeyBind id="key.container_interaction.desc" /></Color> will set the fluid as the filter instead of the iron bucket or tank item.
+Использование ёмкости с жидкостью, например железного ведра или жидкостного резервуара, при нажатии <Color id="YELLOW"><KeyBind id="key.container_interaction.desc" /></Color> установит в фильтр саму жидкость вместо предмета ведра или резервуара.
 
-## Settings
+## Настройки
 
-The Cell Workbench has several buttons in the top-left and top-right. Some buttons are displayed only for cells that support the corresponding feature:
+В верстаке для ячеек есть несколько кнопок в левом верхнем и правом верхнем углах. Некоторые кнопки отображаются только для ячеек, поддерживающих соответствующую функцию:
 
-* **Clear**: Clears all partition settings in the workbench.
-* **Partition Storage**: Automatically fills the partition slots based on the items currently stored in the cell.
-* **Copy Mode**: Determines whether the workbench's partition settings are retained when the cell is removed. They are cleared by default. When retention is enabled, the same partition settings can be copied to other cells. If the new cell already has partition settings, the cell's own settings take priority.
-* **Fuzzy Comparison**: Available when a <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" showIcon="left" linksTo="../items_blocks/upgrade_cards.md#Fuzzy Card"/> is installed. Adjusts how partitions perform fuzzy matching.
-* **Ore Dictionary Filter**: Available when an <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" showIcon="left" linksTo="../items_blocks/upgrade_cards.md#Ore Dictionary Filter Card"/> is installed. Allows ore dictionary names to be entered for filtering. When enabled, the normal partition slots are hidden, and it takes priority over fuzzy mode.
-* **Cell Restriction**: Click to open the restriction settings GUI:
-  * **Maximum Item Count**: Limits the total number of items stored in the cell, rather than limiting each item type separately.
-  * **Maximum Item Types**: Limits the number of different item types the cell can store.
+* **Очистка**: очищает все настройки разметки в верстаке.
+* **Раздел хранения**: автоматически заполняет слоты разметки на основе предметов, которые сейчас хранятся в ячейке.
+* **Режим копирования**: определяет, сохраняются ли настройки разметки в верстаке при извлечении ячейки. По умолчанию они очищаются. Когда сохранение включено, те же настройки разметки можно скопировать на другие ячейки. Если у новой ячейки уже есть свои настройки разметки, её собственные настройки имеют приоритет.
+* **Нечёткое сравнение**: доступно, когда установлена <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" showIcon="left" linksTo="../items_blocks/upgrade_cards.md#Fuzzy Card"/>. Настраивает способ нечёткого сопоставления при разметке.
+* **Фильтр по словарю руд**: доступно, когда установлена <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" showIcon="left" linksTo="../items_blocks/upgrade_cards.md#Ore Dictionary Filter Card"/>. Позволяет вводить названия из словаря руд для фильтрации. Когда эта функция включена, обычные слоты разметки скрыты, и она имеет приоритет над нечётким режимом.
+* **Ограничение ячейки**: нажмите, чтобы открыть GUI настроек ограничений:
+  * **Объём ресурсов**: ограничивает общее количество предметов, хранящихся в ячейке, а не каждого типа предметов по отдельности.
+  * **типов**: ограничивает количество различных типов предметов, которые может хранить ячейка.
 
-  Entering `0` disables the corresponding restriction. Restriction values cannot exceed the cell's own capacity or maximum number of item types. Click the reset button to clear both restrictions.
+  Ввод `0` отключает соответствующее ограничение. Значения ограничений не могут превышать собственную ёмкость ячейки или максимальное количество типов предметов. Нажмите кнопку сброса, чтобы очистить оба ограничения.
 
-## Recipe
+## Рецепт
 
 <RecipeFor id="appliedenergistics2:tile.BlockCellWorkbench" />

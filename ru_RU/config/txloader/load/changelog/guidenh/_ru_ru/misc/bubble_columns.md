@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Bubble Columns
+  title: Колонны пузырей
   parent: misc.md
   icon: harvestcraft:boiledwaterItem
 categories:
@@ -9,10 +9,10 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Bubble Columns
-<Color id="GREEN">Bubble Columns</Color> have been backported from 1.13, using the same mechanics as in modern versions. For those who have never used them, please read below:
+# Колонны пузырей
+<Color id="GREEN">Колонны пузырей</Color> были взяты из версии 1.13 и используют ту же механику, что и в современных версиях. Если вы никогда ими не пользовались, ознакомьтесь с описанием ниже:
 
-## Usage
-Players and air-breathing mobs can enter a bubble column, which replenishes air supply at the same speed as if they left the water. Slower mining speed penalties still apply where relevant. Water-breathing mobs will suffocate when inside a bubble column.
+## Использование
+Игроки и дышащие воздухом мобы могут войти в колонну пузырей, которая восполняет запас кислорода с той же скоростью, как если бы они вышли из воды. Штрафы к скорости добычи под водой при этом всё ещё действуют, где применимо. Дышащие под водой мобы будут задыхаться внутри колонны пузырей.
 
-Bubble columns can be created by placing either Magma Blocks <ItemImage id="etfuturum:magma"/> or Soul Sand <ItemImage id="minecraft:soul_sand"/>, creating either a whirlpool, or upwards column respectively. These will then propel the player in the direction of the bubble column
+Колонны пузырей можно создать, разместив магмовые блоки <ItemImage id="etfuturum:magma"/> или песок душ <ItemImage id="minecraft:soul_sand"/>, что создаст водоворот или восходящий поток соответственно. Они будут перемещать игрока в направлении колонны пузырей.

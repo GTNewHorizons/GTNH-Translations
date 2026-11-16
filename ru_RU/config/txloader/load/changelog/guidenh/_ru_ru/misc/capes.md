@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Cape Switching
+  title: Переключение плащей
   parent: misc.md
   icon: BloodArsenal:vampire_cape
 categories:
@@ -9,7 +9,7 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Cape Switching
-Have you either donated to the pack, or helped to develop it? Well... <Color id="GREEN">__THANK YOU!!__</Color>
+# Переключение плащей
+Вы поддержали сборку пожертвованием или помогли в её разработке? Что ж... <Color id="GREEN">__СПАСИБО ВАМ!!__</Color>
 
-Capes can now be switched between using the `/cape` command in game! Your choice is then saved on the client so you don't have to worry about making the change in every different world. If you feel you should have a cape but don't, please reach out on the [Discord](https://discord.gg/gtnh)
+Теперь между плащами можно переключаться с помощью команды `/cape` прямо в игре! Ваш выбор сохраняется на стороне клиента, поэтому вам не придётся менять его заново в каждом отдельном мире. Если вы считаете, что у вас должен быть плащ, но его нет, пожалуйста, напишите нам в [Discord](https://discord.gg/gtnh).

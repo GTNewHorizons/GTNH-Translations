@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Sky Dust
+  title: Пыль небесного камня
   icon: appliedenergistics2:item.ItemMultiMaterial:45
 categories:
 - misc ingredients blocks
@@ -9,12 +9,12 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:45
 ---
 
-# Sky Dust
+# Пыль небесного камня
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:45" scale="4" />
 
-Sky dust is produced by crushing <ItemLink id="appliedenergistics2:tile.BlockSkyStone" />. It has no use in the default recipes, but GTNH custom recipes may assign uses. Check NEI for available applications.
+Пыль небесного камня получается при дроблении <ItemLink id="appliedenergistics2:tile.BlockSkyStone" />. Она не используется в стандартных рецептах, но может применяться в пользовательских рецептах GTNH. Проверьте NEI, чтобы узнать доступные способы применения.
 
-## Recipe
+## Рецепт
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:45" />

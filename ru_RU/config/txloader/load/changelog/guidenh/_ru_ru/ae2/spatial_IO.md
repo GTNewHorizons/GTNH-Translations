@@ -2,7 +2,7 @@
 item_ids:
   - appliedenergistics2:tile.BlockSpatialPylon
 navigation:
-  title: Spatial IO Changes
+  title: Изменения пространственного ввода-вывода
   parent: ae2.md
   icon: appliedenergistics2:tile.BlockSpatialPylon
 categories:
@@ -11,16 +11,16 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Spatial IO Changes
-Spatial IO systems have had some improvements! The changes can be found below:
-- __Spatial Link Chamber__: Allows you to nest Spatial Cells <ItemImage id="appliedenergistics2:item.ItemSpatialStorageCell.16Cubed"/> and connect your ME network to their pocket dimension!
-- __Spatial Network Relay__: When placed in the spatial cell dimension, it connects to the link chamber that has this specific cell inside it
-- __New Recipes__: Added new recipes for spatial components so that when made in assemblers, they are now cheaper and require no recursive crafting!
-- __Matrix Blocks__: Matrix blocks that make up the borders of the pocket dimension are now touchable, and allow you to exit the pocket dimension as long as the cell is inside a Spatial Link Chamber via right-click!
+# Изменения пространственного ввода-вывода
+Системы пространственного ввода-вывода получили ряд улучшений! Список изменений приведён ниже:
+- __Камера пространственной связи__: позволяет вкладывать пространственные ячейки <ItemImage id="appliedenergistics2:item.ItemSpatialStorageCell.16Cubed"/> и подключать вашу МЭ сеть к их карманному измерению!
+- __Пространственное сетевое реле__: при размещении в измерении пространственной ячейки оно подключается к камере связи, внутри которой находится эта ячейка.
+- __Новые рецепты__: добавлены новые рецепты для пространственных компонентов, благодаря чему при изготовлении в сборочных машинах они теперь дешевле и не требуют рекурсивного крафта!
+- __Блоки матрицы__: с блоками матрицы, образующими границы карманного измерения, теперь можно взаимодействовать, и они позволяют покинуть карманное измерение нажатием ПКМ, пока ячейка находится внутри камеры пространственной связи!
 
 > [!NOTE]
-> Spatial Link Chambers use 1 channel for their own purpose, and allow the sending of 31 channels inside the pocket dimension
+> Камеры пространственной связи используют 1 канал для собственных нужд и позволяют передавать 31 канал внутрь карманного измерения.
 
 
 > [!WARNING]
-> This does __NOT__ fix multidimensional transfer of machines. If you try to move machines or Tile Entities with the spatial system inter-dimensionally, they WILL get corrupted!
+> Это __НЕ__ исправляет межпространственный перенос механизмов. Если вы попытаетесь переместить механизмы или Tile Entity с помощью пространственной системы между измерениями, они БУДУТ повреждены!

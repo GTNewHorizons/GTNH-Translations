@@ -9,14 +9,14 @@ author: Skorched
 date: 2026-05-22
 ---
 # Fether
-<Color id="RED">Fether</Color> is a 1:1 replacement for Pam's "Harvest the Nether", with a full new texture set, adding some more diversity in farming the nether! This includes:
-- A new set of quartz based armor and tools
-- Beds that can be ~~murderously~~ used to sleep in the nether!
-- Brand new trees with haunting textures
-- Glow flower plants as a source of glowstone
-- Some brand new foods to try out!
+<Color id="RED">Fether</Color> - это полная замена мода Pam's "Harvest the Nether" в соотношении 1:1 с совершенно новым набором текстур, добавляющая больше разнообразия в фермерство в Нижнем мире! В мод входят:
+- Новый набор брони и инструментов на основе кварца
+- Кровати, на которых можно ~~убийственно~~ спать в Нижнем мире!
+- Совершенно новые деревья с жуткими текстурами
+- Светящиеся цветы как источник светокамня
+- Несколько совершенно новых блюд, которые можно попробовать!
 <FloatingImage src="../assets/misc/fether.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
-    Some of the new items available
+    Некоторые из новых доступных предметов
   </ImageAnnotation>
 </FloatingImage>

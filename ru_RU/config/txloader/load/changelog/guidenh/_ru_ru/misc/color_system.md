@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Full Color System
+  title: Цветовая система
   parent: misc.md
   icon: gregtech:gt.metaitem.02:32415
 categories:
@@ -9,65 +9,65 @@ author: Skorched
 date: 2026-05-20
 ---
 
-# Full Color System
-What is life without a little <Color id="GREEN">Color!</Color> GTNH now has a fully built-in complete color system! This works with quests, signs, anvils, chat, and just about anywhere that text is rendered!
+# Цветовая система
+Что за жизнь без капли <Color id="GREEN">цвета!</Color> В GTNH теперь есть полностью встроенная система цветов! Она работает в квестах, на табличках, в наковальнях, в чате и практически везде, где отображается текст!
 
-## Included Features
-- All 16 classic colors - just type "\&" and a color code!
-- RGB hex colors - any of 16 million colors
-- Gradients - create smooth color transitions
-- Rainbow text - hey, why not?
-- Wavy text - animated bouncing text
-- Bold, italic, underline and more - combined freely with any color
+## Доступные функции
+- Все 16 классических цветов - просто введите "\&" и код цвета!
+- RGB hex-цвета - любой из 16 миллионов цветов
+- Градиенты - создавайте плавные цветовые переходы
+- Радужный текст - а почему бы и нет?
+- Волнистый текст - анимированный прыгающий текст
+- Жирный, курсив, подчёркнутый и другие стили - свободно сочетаются с любым цветом
 
-# Usage
-Simply type the color before your text and everything will be that color until you either use another color, or reset with `\&r`.
-## Vanilla Colors:
+# Использование
+Просто введите код цвета перед вашим текстом, и весь последующий текст будет этого цвета, пока вы не используете другой цвет или не сбросите стиль с помощью `\&r`.
+## Ванильные цвета:
 
-| Code | Color |
+| Код | Цвет |
 | -------------- | --------------- |
-| `\&0` | <Color id="BLACK">Black</Color> |
-| `\&1` | <Color color="#0000AA">Dark Blue</Color> |
-| `\&2` | <Color color="#00AA00">Dark Green</Color> |
-| `\&3` | <Color color="#00AAAA">Dark Aqua</Color> |
-| `\&4` | <Color color="#AA0000">Dark Red</Color> |
-| `\&5` | <Color color="#AA00AA">Dark Purple</Color> |
-| `\&6` | <Color color="#FFAA00">Gold</Color> |
-| `\&7` | <Color color="#AAAAAA">Gray</Color> |
-| `\&8` | <Color color="#555555">Dark Gray</Color> |
-| `\&9` | <Color color="#5555FF">Blue</Color> |
-| `\&a` | <Color color="#55FF55">Green</Color> |
-| `\&b` | <Color color="#55FFFF">Aqua</Color> |
-| `\&c` | <Color color="#FF5555">Red</Color> |
-| `\&d` | <Color color="#FF55FF">Light Purple</Color> |
-| `\&e` | <Color color="#FFFF55">Yellow</Color> |
-| `\&f` | <Color color="#FFFFFF">White</Color> |
+| `\&0` | <Color id="BLACK">Чёрный</Color> |
+| `\&1` | <Color color="#0000AA">Тёмно-синий</Color> |
+| `\&2` | <Color color="#00AA00">Тёмно-зелёный</Color> |
+| `\&3` | <Color color="#00AAAA">Бирюзовый</Color> |
+| `\&4` | <Color color="#AA0000">Тёмно-красный</Color> |
+| `\&5` | <Color color="#AA00AA">Тёмно-фиолетовый</Color> |
+| `\&6` | <Color color="#FFAA00">Золотой</Color> |
+| `\&7` | <Color color="#AAAAAA">Серый</Color> |
+| `\&8` | <Color color="#555555">Тёмно-серый</Color> |
+| `\&9` | <Color color="#5555FF">Синий</Color> |
+| `\&a` | <Color color="#55FF55">Зелёный</Color> |
+| `\&b` | <Color color="#55FFFF">Голубой</Color> |
+| `\&c` | <Color color="#FF5555">Красный</Color> |
+| `\&d` | <Color color="#FF55FF">Светло-фиолетовый</Color> |
+| `\&e` | <Color color="#FFFF55">Жёлтый</Color> |
+| `\&f` | <Color color="#FFFFFF">Белый</Color> |
 
 
-## Formatting:
-| Code | Effect |
+## Форматирование:
+| Код | Эффект |
 | -------------- | --------------- |
-| `\&l` | __Bold Text__ |
-| `\&o` | _Italic Text_  |
-| `\&n` | <u>Underlined Text</u> |
-| `\&m` | ~~Strikethrough Text~~ (Strikethrough) |
-| `\&k` | Obfuscated Text (Not rendered for clarity)|
-| `\&z` | Wavy Text |
-| `\&r` | Resets to regular typing|
+| `\&l` | __Жирный текст__ |
+| `\&o` | _Курсивный текст_  |
+| `\&n` | <u>Подчёркнутый текст</u> |
+| `\&m` | ~~Зачёркнутый текст~~ (Зачёркнутый) |
+| `\&k` | Зашифрованный текст (Не отображается для наглядности)|
+| `\&z` | Волнистый текст |
+| `\&r` | Сброс до обычного текста|
 
 
-## RGB Hex Colors:
-16 colors not enough? Just make up your own! You can use any valid hex code (or use an online color picker if stuck)
-| Code | Color |
+## RGB Hex-цвета:
+Не хватает 16 цветов? Придумайте свой! Вы можете использовать любой корректный hex-код (или воспользоваться онлайн-палитрой цветов, если затрудняетесь с выбором)
+| Код | Цвет |
 | -------------- | --------------- |
-| `\&#FF6B4A` | <Color color="#FF6B4A">Coral Orange</Color> |
-| `\&#4ECDC4` | <Color color="#4ECDC4">Soft Teal</Color> |
-| `\&#7B68EE` | <Color color="#7B68EE">Slate Blue</Color> |
-| `\&#FF69B4` | <Color color="#FF69B4">Hot Pink</Color> |
+| `\&#FF6B4A` | <Color color="#FF6B4A">Кораллово-оранжевый</Color> |
+| `\&#4ECDC4` | <Color color="#4ECDC4">Мягкий бирюзовый</Color> |
+| `\&#7B68EE` | <Color color="#7B68EE">Сине-фиолетовый</Color> |
+| `\&#FF69B4` | <Color color="#FF69B4">Ярко-розовый</Color> |
 
 
-## Gradients:
-By typing `\&g` followed by two valid hex colors, a gradient will be made between the two specified colors! Try typing `\&g\&#FF0000\&#FFFF00<YourTextHere>` to make fire!
+## Градиенты:
+Если ввести `\&g`, а затем два корректных hex-кода цвета, между двумя указанными цветами создастся градиент! Попробуйте ввести `\&g\&#FF0000\&#FFFF00<ВашТекстЗдесь>`, чтобы сделать эффект огня!
 
-One special type of gradient has its own special code! Type `\&q` for Rainbow effects!
+Для одного особого вида градиента есть свой специальный код! Введите `\&q` для радужного эффекта!
 
