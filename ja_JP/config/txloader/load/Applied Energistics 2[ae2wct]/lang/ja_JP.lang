@@ -1,10 +1,14 @@
-#Items
+//**************************//
+//WIRELESS CRAFTING TEMRINAL//
+//**************************//
+
+//Items
 item.wirelessCraftingTerminal.name=無線クラフトターミナル
 item.infinityBoosterCard.name=無限ブースターカード
 item.magnetCard.name=マグネットカード
 itemGroup.ae2wct=§9AE2 Wireless Crafting Terminal
 
-#Tooltips
+//Tooltips
 gui.tooltips.ae2wct.PressShift=Shiftで情報を表示
 gui.tooltips.ae2wct.OnlyWorks=無線クラフトターミナル内にある時のみ動作します!
 gui.tooltips.ae2wct.TitleDesc=説明
@@ -37,22 +41,18 @@ gui.tooltips.ae2wct.OrPress=or press
 gui.tooltips.ae2wct.Press=Press
 gui.tooltips.ae2wct.ToSwitchMode=to switch magnet mode
 
-#Labels
+//Labels
 gui.labels.ae2wct.WirelessTermLabel=Wireless Term
 
-#Config Descriptions
+//Config Descriptions
 config.ae2wct.MaxPowerDesc=無線クラフトターミナルが保持できる最大のAEエネルギー
 config.ae2wct.InfinityBoosterCfgDesc=Enable Infinite Range Booster Upgrade
 config.ae2wct.EasyModeDesc=イージーモード (簡易レシピ+無限ブースターカードのレシピ)
 config.ae2wct.BoosterDropChance=ウィザーが無限ブースターカードを落とす確率 (in %-100=確定ドロップ)
 config.ae2wct.DisableBoosterDrop=ハードモードで無限ブースターカードがドロップするか (true=ドロップする)
 config.ae2wct.MineTweakerOverride=MineTweakerを無視するか (true=全てのレシピを無効化)
-config.ae2wct.DoVersionCheck=アップデートを確認
-config.ae2wct.NewVersionAvailable=新しいバージョンのWireless Crafting Terminalが公開されています!
-config.ae2wct.ClickString=["Click here to go to download page [",{"text":"Download","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click this to download the latest version","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
-config.ae2wct.SaveSearchString=Persist terminal search string between sessions
 
-#Achievements
+//Achievements
 achievement.wctAchievement=工作すらもWiFiで
 achievement.wctAchievement.desc=§8《§7無線クラフトターミナル§8／Wireless Crafting Terminal》§7 をクラフトする。
 achievement.boosterAchievement=Interdimensional Crafting Sack
@@ -60,14 +60,14 @@ achievement.boosterAchievement.desc=Aquire an Infinity Booster Card
 achievement.magnetAchievement=Digital Hoover
 achievement.magnetAchievement.desc=Craft a Magnet Card
 
-#Chat Messages
+//Chat Messages
 chatmessages.ae2wct.NoNetworkPower=Network has no power!
 chatmessages.ae2wct.MagnetMode1=Magnet Card Deactivated
 chatmessages.ae2wct.MagnetMode2=Magnet Card Activated - Items not stored in AE network will be placed in inventory
 chatmessages.ae2wct.MagnetMode3=Magnet Card Activated - Items not stored in AE network will be left on ground
 chatmessages.ae2wct.InitializeMagnet=You must first right-click with the Magnet Card in hand before using the keybind!
 
-#Keybindings
+//Keybindings
 ae2wct.OpenTerminal=Open Wireless Crafting Terminal
 ae2wct.OpenMagnetFilter=Open Magnet Card Filter GUI
 ae2wct.SwitchMagnetMode=Activate/Deactivate Magnet Card
