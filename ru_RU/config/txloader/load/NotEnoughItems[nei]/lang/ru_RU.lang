@@ -563,6 +563,15 @@ nei.options.world.overlays=Настройки наложения
 nei.options.world.overlays.lock=Заблокировать наложения между измерениями
 nei.options.world.overlays.lock.true=Включить
 nei.options.world.overlays.lock.false=Отключить
+nei.options.world.overlays.mobOverlayStyle=Mob Spawn Overlay Style
+nei.options.world.overlays.mobOverlayStyle.x=X
+nei.options.world.overlays.mobOverlayStyle.connected=Connected
+nei.options.world.overlays.mobOverlayStyle.square=Square
+nei.options.world.overlays.mobOverlayStyle.pufferfish=Pufferfish
+nei.options.world.overlays.mobOverlayRadius=Mob Spawn Overlay Horizontal Radius
+nei.options.world.overlays.mobOverlayRadius.tip=Horizontal block radius scanned around you. Range 8-64 blocks
+nei.options.world.overlays.mobOverlayVerticalRadius=Mob Spawn Overlay Vertical Radius
+nei.options.world.overlays.mobOverlayVerticalRadius.tip=Blocks scanned above and below you. Range 4-64 blocks
 
 nei.options.tools=Инструменты
 nei.options.tools.export_configs=Файлы конфигурации по умолчанию
@@ -646,7 +655,8 @@ nei.recipe.search.tooltip.name=Синтаксис фильтра
 nei.recipe.search.tooltip.shift=&7Удерживайте &6Shift&7 для большей информации
 nei.recipe.search.tooltip.input=%s§ftext§8 - §7поиск среди входов
 nei.recipe.search.tooltip.output=%s§ftext§8 - §7поиск среди выходов
-nei.recipe.search.tooltip.auxiliary=%s§ftext§8 - §7search in other stacks (fuel, catalysts)
+nei.recipe.search.tooltip.text=%s§ftext§8 - §7search in recipe text
+nei.recipe.search.tooltip.auxiliary=%s§ftext§8 - §7search in other stacks
 nei.recipe.search.tooltip.all=%s§ftext§8 - §7all inputs must match (same with > and ^)
 nei.recipe.search.tooltip.prefix=%stext§8 - §7%s
 
