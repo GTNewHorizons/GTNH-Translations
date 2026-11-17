@@ -2,107 +2,107 @@
 # CORE
 ####################
 
-death.engine.clockwork.player=%1$s 이(가) 튀어나온 용수철에 맞아 세상을 떠났습니다. 조악한 품질로 이 기계를 제작한 %2$s는(은) 비난 받아 마땅합니다.
-death.engine.clockwork=%1$s 이(가) 느슨하게 풀린 스프링에 찔렸습니다.
+death.engine.clockwork.player=%1$s은(는) 시계태엽에 찔려 사망했습니다. 이딴 걸 만든 %2$s은(는) 비난 받아 마땅합니다.
+death.engine.clockwork=%1$s은(는) 시계태엽에 찔려 사망했습니다.
 
 for.beverage.effect.alcoholic=만취
 for.beverage.effect.antidote=해독
 
 for.chat.accesslocked=%s님이 자신을 제외한 다른 사람의 사용을 막으셨습니다.
-for.chat.cannotmemorizeagain=이미 알고 있는 정보입니다.
-for.chat.memorizednote=내용을 완전히 외우고 당신은 비밀이 새어나가는걸 막기 위해 이 종이를 버렸습니다.
-for.chat.memorizednote2=%1$s와 %2$s을(를) 교배하여 %3$s을(를) 만드는 능력에 대해 더 자신감을 갖게 되었습니다!
+for.chat.cannotmemorizeagain=이 정보를 이미 달달 외웠습니다.
+for.chat.memorizednote=당신은 이 정보를 박박 외우고 구겨서 버렸습니다.
+for.chat.memorizednote2=당신은 %1$s와(과) %2$s을(를) 교배해 %3$s을(를) 만들 수 있다는 자신이 넘쳤습니다!
 
-for.chat.command.aliases=사용가능한 명령어: %s
-for.chat.command.list=서브 명령어:
-for.chat.command.permlevel=권한 레벨: %s
-for.chat.command.noperms=당신은 이 명령어를 사용할수 있는 권한이 없습니다.
+for.chat.command.aliases=명령어: %s
+for.chat.command.list=가능한 하위 명령어:
+for.chat.command.permlevel=권한 단계: %s
+for.chat.command.noperms=이 명령어를 실행할 권한이 없습니다.
 
-for.chat.command.forestry.help=포레스트리를 위한 다양한 명령어
-for.chat.command.forestry.format=사용방식: /%s <서브 명령어>
+for.chat.command.forestry.help=Forestry를 위한 다양한 명령어들
+for.chat.command.forestry.format=형식: /%s <하위 명령어>
 
 for.chat.command.forestry.version.desc=- %s : 버전 정보
-for.chat.command.forestry.version.help=버전 출력
-for.chat.command.forestry.version.format=사용방식: /%s
+for.chat.command.forestry.version.help=현재 버전
+for.chat.command.forestry.version.format=형식: /%s
 
-for.chat.command.forestry.plugins.desc=- %s : 포레스트리 플러그인 리스트
-for.chat.command.forestry.plugins.help=모든 포레스트리 플러그인 출력, 초록색은 활성화 빨강색은 비활성화
-for.chat.command.forestry.plugins.format=사용방식: /%s
+for.chat.command.forestry.plugins.desc=- %s : Forestry 플러그인 목록
+for.chat.command.forestry.plugins.help=Forestry 플러그인의 목록입니다. 초록은 활성화, 빨강은 비활성화를 의미합니다.
+for.chat.command.forestry.plugins.format=형식: /%s
 
 for.chat.command.forestry.plugins.info.desc=- %s : 특정 플러그인에 대한 정보
-for.chat.command.forestry.plugins.info.help=특정 플러그인에 대한 정보 출력
-for.chat.command.forestry.plugins.info.format=사용방식: /%s <plugin-name>
+for.chat.command.forestry.plugins.info.help=특정 플러그인에 대한 정보를 출력합니다.
+for.chat.command.forestry.plugins.info.format=형식: /%s <plugin-name>
 
 
-for.chat.help='%s'에 관한 도움.
-for.chat.plugins.error=해당 플러그인[ %s ]에 관한 정보가 존재하지 않습니다.
-for.chat.version=마인크래프트 %2$s버전 포레스트리 %1$s버전이 나왔습니다.
+for.chat.help='%s'를 입력해 정보를 얻으십시오.
+for.chat.plugins.error=%s 플러그인에 관한 정보가 없습니다.
+for.chat.version=마인크래프트 %2$s 버전 용 Forestry %1$s.
 
-for.circuit.dampener.1=과열완충
-for.circuit.dampener.1.description.1=10 RF/t만큼 최대출력 감소
+for.circuit.dampener.1=화염 감쇠기
+for.circuit.dampener.1.description.1=최대 출력을 10 RF/t로 제한합니다.
 for.circuit.dampener.1.description.2=연료 출력 보존
-for.circuit.electric.boost.1=출력 폭주 I
-for.circuit.electric.boost.1.description.1=20 RF/t만큼 출력 증가
-for.circuit.electric.boost.1.description.2=7 EU/t만큼 사용량 증가
-for.circuit.electric.boost.2=출력 폭주 II
-for.circuit.electric.boost.2.description.1=40 RF/t만큼 출력 증가
-for.circuit.electric.boost.2.description.2=15 EU/t만큼 사용량 증가
-for.circuit.electric.choke.1=전력 소모 감소
-for.circuit.electric.choke.1.description.1=10 RF/t만큼 전력소모 감소
-for.circuit.electric.choke.1.description.2=2 EU/t만큼 사용량 감소
-for.circuit.electric.efficiency.1=전력 효율 상승
-for.circuit.electric.efficiency.1.description.1=1 EU/t만큼 사용량 감소
-for.circuit.machine.speed.boost.1=속도 향상 I
-for.circuit.machine.speed.boost.1.description.1=속도 12.5% 증가
-for.circuit.machine.speed.boost.1.description.2=전력 사용량 5% 증가
-for.circuit.machine.speed.boost.2=속도 향상 II
-for.circuit.machine.speed.boost.2.description.1=속도 25% 증가
-for.circuit.machine.speed.boost.2.description.2=전력 사용량 10% 증가
+for.circuit.electric.boost.1=전기 증폭 I
+for.circuit.electric.boost.1.description.1=출력을 20 RF/t만큼 증가시킵니다.
+for.circuit.electric.boost.1.description.2=입력이 7 EU/t만큼 증가합니다.
+for.circuit.electric.boost.2=전기 증폭 II
+for.circuit.electric.boost.2.description.1=출력을 40 RF/t만큼 증가시킵니다.
+for.circuit.electric.boost.2.description.2=입력이 15 EU/t만큼 증가합니다.
+for.circuit.electric.choke.1=전기 감쇠
+for.circuit.electric.choke.1.description.1=출력을 10 RF/t만큼 감소시킵니다.
+for.circuit.electric.choke.1.description.2=입력을 2 EU/t만큼 감소시킵니다.
+for.circuit.electric.efficiency.1=전기 효율
+for.circuit.electric.efficiency.1.description.1=입력을 1 EU/t만큼 감소시킵니다.
+for.circuit.machine.speed.boost.1=속도 증폭 I
+for.circuit.machine.speed.boost.1.description.1=속도를 12.5% 증가시킵니다.
+for.circuit.machine.speed.boost.1.description.2=전력 사용량을 10% 증가시킵니다.
+for.circuit.machine.speed.boost.2=속도 증폭 II
+for.circuit.machine.speed.boost.2.description.1=속도를 25% 증가시킵니다.
+for.circuit.machine.speed.boost.2.description.2=전력 사용량을 10% 증가시킵니다.
 for.circuit.machine.efficiency.1=기계 효율
-for.circuit.machine.efficiency.1.description.1=전력 사용량 10% 감소
+for.circuit.machine.efficiency.1.description.1=전력 사용량을 10% 감소시킵니다.
 
-for.circuit.layout.dummy.name=사용 불가
-for.circuit.layout.dummy.usage=Nothing
+for.circuit.layout.dummy.name=활성화되지 않음
+for.circuit.layout.dummy.usage=없음
 
 for.circuit.layout.engine.tin.name=전기 엔진
-for.circuit.layout.engine.tin.usage=전기 엔진에서
+for.circuit.layout.engine.tin.usage=전기 엔진에서 사용
 
 for.circuit.layout.farms.managed.name=자동 농장
-for.circuit.layout.farms.managed.usage=자동 농장
+for.circuit.layout.farms.managed.usage=자동 농장에서 사용
 
 for.circuit.layout.farms.manual.name=수동 농장
-for.circuit.layout.farms.manual.usage=수동 농장
+for.circuit.layout.farms.manual.usage=수동 농장에서 사용
 
 for.circuit.layout.machine.upgrade.name=기계 업그레이드
-for.circuit.layout.machine.upgrade.usage=Socketed Machines
+for.circuit.layout.machine.upgrade.usage=기계에 사용
 
 for.flowers.cacti=선인장
 for.flowers.end=엔드
-for.flowers.gourd=멜론
+for.flowers.gourd=박류
 for.flowers.jungle=정글
 for.flowers.mushrooms=버섯
-for.flowers.nether=지옥
+for.flowers.nether=네더
 for.flowers.vanilla=꽃
 for.flowers.wheat=밀
 for.flowers.snow=눈
 
 fluid.bioethanol=에탄올
 fluid.biomass=바이오매스
-fluid.glass=액화 유리
+fluid.glass=액체 유리
 fluid.for.honey=꿀
-fluid.ice=얼음물
-fluid.juice=과즙
-fluid.short.mead=연한 벌꿀술
+fluid.ice=파쇄된 얼음
+fluid.juice=과일 주스
+fluid.short.mead=단기 숙성 벌꿀술
 fluid.mead=벌꿀술
 fluid.milk=우유
 fluid.seedoil=씨앗기름
 tile.forestry.fluid.bioethanol.name=에탄올
 tile.forestry.fluid.biomass.name=바이오매스
-tile.forestry.fluid.glass.name=액화 유리
+tile.forestry.fluid.glass.name=액체 유리
 tile.forestry.fluid.for.honey.name=꿀
-tile.forestry.fluid.ice.name=얼음물
-tile.forestry.fluid.juice.name=과즙
-tile.forestry.fluid.short.mead.name=연한 벌꿀술
+tile.forestry.fluid.ice.name=파쇄된 얼음
+tile.forestry.fluid.juice.name=과일 주스
+tile.forestry.fluid.short.mead.name=단기 숙성 벌꿀술
 tile.forestry.fluid.mead.name=벌꿀술
 tile.forestry.fluid.milk.name=우유
 tile.forestry.fluid.seedoil.name=씨앗기름
@@ -112,63 +112,63 @@ for.gui.active=활성화
 for.gui.addressee.player=플레이어
 for.gui.addressee.trader=거래소
 
-for.gui.alyzer.authority=저술자
+for.gui.alyzer.authority=저자
 for.gui.alyzer.classification=분류
-for.gui.alyzer.extinct=멸종
-for.gui.alyzer.nodescription=마인크래프트 대백과백과사전에서 해당 벌에 관한 정보를 찾지 못하였습니다.
+for.gui.alyzer.extinct=도태
+for.gui.alyzer.nodescription=마인크래프티아 백과사전은 해당 견본에 대한 접근을 제공하지 않습니다.
 for.gui.alyzer.overview=분석 가능
 
-for.gui.area=지역
+for.gui.area=영역
 for.gui.arid=건조
 for.gui.beach=해변
 
-for.gui.beealyzer.artificial=인공 교배
+for.gui.beealyzer.artificial=인공 교배로 탄생함
 for.gui.beealyzer.behaviour=행동 특성
-for.gui.beealyzer.generations=%s세대 동안 교배됨
-for.gui.beealyzer.help=분석할 꿀벌과 억제제인 꿀혹은 감로꿀을 공급하여 주십시오.
-for.gui.beealyzer.mutations=추정 변이체
-for.gui.beealyzer.natural=자연에서 기원됨
-for.gui.beealyzer.produce=추정 생산물
-for.gui.beealyzer.specialty=추정 부산물
+for.gui.beealyzer.generations=포획 후 %s 세대 지남
+for.gui.beealyzer.help=벌, 묘목, 나비 등등을 놓고 억제제로 꿀이나 감로를 넣으세요.
+for.gui.beealyzer.mutations=가능한 변이
+for.gui.beealyzer.natural=자연에서 탄생함
+for.gui.beealyzer.produce=나올 수 있는 부산물
+for.gui.beealyzer.specialty=나올 수 있는 특별한 부산물
 for.gui.beealyzer=벌 분석기
 
 for.gui.blank=내용없음
-for.gui.cave=동굴 생활
-for.gui.climate=환경
-for.gui.cold=냉대기후
+for.gui.cave=동굴 거주력
+for.gui.climate=기후
+for.gui.cold=추움
 for.gui.crop=작물
 for.gui.currentBiome=현재 바이옴
 for.gui.currentOutput=현재 출력
 for.gui.damp=습함
 for.gui.derelict=버려짐
 for.gui.desert=사막
-for.gui.didyouknow=알고 계십니까?
+for.gui.didyouknow=알고 계십니까
 for.gui.diurnal=주행성
 for.gui.drones=일벌
 for.gui.effect=효과
-for.gui.empty=없음
+for.gui.empty=비어 있음
 for.gui.emptysocket=빈 소켓
-for.gui.socket.remove=납땜 인두로 제거 가능
+for.gui.socket.remove=인두기로 제거 가능
 for.gui.energy=에너지
-for.gui.environment=장비
-for.gui.evolution=진화와 변이 관련 정보
-for.gui.fecundated=교배됨
+for.gui.environment=환경
+for.gui.evolution=진화
+for.gui.fecundated=짝짓기 함
 for.gui.fertility=번식력
 for.gui.fireresist=불연성
 for.gui.flowers=꽃 종류
-for.gui.flyer=우천활동
-for.gui.flyer.tooltip=우천활동
-for.gui.general=개체 정보
+for.gui.flyer=우천 활동력
+for.gui.flyer.tooltip=우천 활동력
+for.gui.general=일반
 for.gui.heat=열
-for.gui.hellish=지옥
-for.gui.hot=열대기후
+for.gui.hellish=지옥같음
+for.gui.hot=더움
 for.gui.humidity=습도
-for.gui.humidtol=습도 적응력
-for.gui.hybrid=혼혈
-for.gui.icy=한대기후
-for.gui.imprinter.cheater=(당신은 치터야)
-for.gui.imprinter.name=게놈 임프린터
-for.gui.inactive=미발현
+for.gui.humidtol=습도 인내력
+for.gui.hybrid=혼종
+for.gui.icy=얼음장
+for.gui.imprinter.cheater=(더러운 해커!)
+for.gui.imprinter.name=유전자 각인기
+for.gui.inactive=비활성화
 for.gui.life=수명
 for.gui.lifespan=수명
 for.gui.none=None
@@ -176,72 +176,72 @@ for.gui.normal=기본
 for.gui.jubilance=Jubilance: %s
 
 for.gui.escritoire.probe=표본 조사
-for.gui.escritoire.instructions=시작할 유전자 샘플을 중앙에 배치합니다. 왼쪽 슬롯에 더 배치하고 도움이 필요한지 검사합니다.
-for.gui.escritoire.attempt.number=Attempt No. %s
+for.gui.escritoire.instructions=중앙에 유전 샘플을 두어 시작합니다. 왼쪽에 더 배치하는 것으로 더 많은 도움을 받을 수 있습니다.
+for.gui.escritoire.attempt.number= %s번째 시도
 
 # Write as many notes as you like, just set the count correctly.
 
 for.gui.escritoire.notes.level1.count=3
-for.gui.escritoire.notes.level1.1=여행 중에 이상한 표본을 발견했습니다.
-for.gui.escritoire.notes.level1.2=이 이상한 녀석는 추가 조사가 필요합니다.
-for.gui.escritoire.notes.level1.3=나는 의기양양하여 즉시 연구를 시작하고 싶었습니다.
+for.gui.escritoire.notes.level1.1=여행길에 좀 특별한 종을 찾았다.
+for.gui.escritoire.notes.level1.2=이 이상한 친구는 조금 연구할 가치가 있을 것 같다.
+for.gui.escritoire.notes.level1.3=좋아. 지금 당장이라도 연구를 시작하고 싶어.
 
 for.gui.escritoire.notes.level2.count=4
-for.gui.escritoire.notes.level2.1=저는 그것의 경이로운 성질에 놀랐습니다.
-for.gui.escritoire.notes.level2.2=제가 더 자세히 검사하는 동안 표본이 꿈틀거렸습니다.
-for.gui.escritoire.notes.level2.3=밑면의 이상한 표시가 나를 궁금하게 만들었습니다.
-for.gui.escritoire.notes.level2.4=제가 조사를 마치면 사회에서 이런 이야기가 나올 겁니다.
+for.gui.escritoire.notes.level2.1=자연은 참 대단하군.
+for.gui.escritoire.notes.level2.2=가까이 보려 하자, 이 종은 꿈틀대었다.
+for.gui.escritoire.notes.level2.3=아래쪽의 이상한 자국들이 날 궁금하게 한다.
+for.gui.escritoire.notes.level2.4=내가 이 연구를 끝낸다면, 이건 세기의 대발견이 될거야.
 
 for.gui.escritoire.notes.level3.count=4
-for.gui.escritoire.notes.level3.1=약간의 재촉 끝에 나는 흥미로운 새로운 단서를 발견했습니다.
-for.gui.escritoire.notes.level3.2=나는 이 발견에 머리를 긁적이며 모든 것에 의문을 품었습니다.
-for.gui.escritoire.notes.level3.3=내 눈이 날 속인 줄 알았는데, 거기 있었어요.
-for.gui.escritoire.notes.level3.4=이전에는 볼 수 없었던 점 때문에 표본의 분류에 의문이 생겼습니다.
+for.gui.escritoire.notes.level3.1=몇 가지 가설 끝에 새로운 단서를 발견했다.
+for.gui.escritoire.notes.level3.2=나는 이 발견에 머리를 갸우뚱했고 다른 모든 것들에 질문하기 시작했다.
+for.gui.escritoire.notes.level3.3=나는 잘못 본 거라고 생각했지만, 틀림없는 사실이었다.
+for.gui.escritoire.notes.level3.4=보지 못했던 반점이 나를 이 종의 분류에 대한 궁금증으로 이끌었다.
 
 for.gui.escritoire.notes.level4.count=7
-for.gui.escritoire.notes.level4.1=내가 좌절감에 비명을 지르자 가정부는 걱정스럽게 내 서재를 들여다보았습니다.
-for.gui.escritoire.notes.level4.2=광란 속에서 그리고 절망의 문턱에서, 나는 모든 노트를 찢어 버렸습니다!
-for.gui.escritoire.notes.level4.3=이건... 전혀 말이 안 돼요!
-for.gui.escritoire.notes.level4.4=그럴 수는 없습니다. 전에는 그러지 않았어요!
-for.gui.escritoire.notes.level4.5=큰 망치가 거의 흠집을 내지 않아서 전기톱을 가져오라고 보냈습니다.
-for.gui.escritoire.notes.level4.6=맹세코 그것은 구슬 같은, 잔인한, 작은 눈으로 나를 쳐다보았습니다.
-for.gui.escritoire.notes.level4.7=웃음소리? 웃음소리가 들리나요? 누가 여기서 웃고 있죠?
+for.gui.escritoire.notes.level4.1=내 비명에 가정부가 내 서재에 걱정스러운 모습으로 들어왔다.
+for.gui.escritoire.notes.level4.2=절망과 광란 속에서, 나는 내 노트를 전부 찢었다!
+for.gui.escritoire.notes.level4.3=이건... 정말이지 말도 안 돼!
+for.gui.escritoire.notes.level4.4=그럴 리 없어. 전례가 없다고!
+for.gui.escritoire.notes.level4.5=오함마로도 흠집을 내지 못해서, 전기톱을 가져와야만 했다.
+for.gui.escritoire.notes.level4.6=그 작고, 징그럽고, 귀여운 눈이 날 보았다고 맹세할게.
+for.gui.escritoire.notes.level4.7=지금 이거 비웃은거지? 웃음소리가 들려? 누가 웃고 있는거지?
 
 for.gui.escritoire.notes.success.count=5
-for.gui.escritoire.notes.success.1=유레카!
-for.gui.escritoire.notes.success.2=대단하네요! 제 이름이 역사에 남을 거예요!
-for.gui.escritoire.notes.success.3=동료들이 감동받을 거예요!
-for.gui.escritoire.notes.success.4=사회의 모두가 나를 질투할 것 같아요!
-for.gui.escritoire.notes.success.5=네!
+for.gui.escritoire.notes.success.1=유-레카!
+for.gui.escritoire.notes.success.2=됐다! 내 이름은 역사에 길이 남을 거야!
+for.gui.escritoire.notes.success.3=동료들이 감동할 거야!
+for.gui.escritoire.notes.success.4=모두가 날 부러워할 거야!
+for.gui.escritoire.notes.success.5=됐어!
 
 for.gui.escritoire.notes.failure.count=5
-for.gui.escritoire.notes.failure.1=모든 것이 사라졌습니다.
-for.gui.escritoire.notes.failure.2=나는 내 메모를 불에 맡깁니다.
-for.gui.escritoire.notes.failure.3=왜? 처음에는 이렇게 큰 발전을 이루었는데...
-for.gui.escritoire.notes.failure.4=실패. 다시.
-for.gui.escritoire.notes.failure.5=아 세상에...
+for.gui.escritoire.notes.failure.1=모든 것이 날아갔다.
+for.gui.escritoire.notes.failure.2=나는 내 노트를 전부 구겨서 불구덩이에 태웠다.
+for.gui.escritoire.notes.failure.3=왜? 처음엔 그렇게 잘 됐는데...
+for.gui.escritoire.notes.failure.4=실패다. 다시 한 번.
+for.gui.escritoire.notes.failure.5=오...
 
 for.gui.mail.foreveryattached=동봉된 이 아이템으로
-for.gui.mail.from=from
-for.gui.mail.nametrader=이 거래소의 이름을 지어 주세요.
-for.gui.mail.nothingtotrade=이 거래소에는 거래할 것이 없습니다.
-for.gui.mail.notrader=그 이름은 사용하실 수 있습니다.
-for.gui.mail.pleasesend=다음 아이템을 구입하겠습니다
+for.gui.mail.from=From
+for.gui.mail.nametrader=거래소의 이름을 지어주세요
+for.gui.mail.nothingtotrade=거래소에 거래할 품목이 없습니다
+for.gui.mail.notrader=해당 이름을 가진 거래소가 없습니다.
+for.gui.mail.pleasesend=다음 물품을 보내주세요 : 
 for.gui.mail.order.attached=첨부된 주문을 확인하시기 바랍니다.
-for.gui.mail.order.filled.one=%SENDER님의 주문 1개가 처리되었습니다.
-for.gui.mail.order.filled.multiple=%SENDER님의 %COUNT개 주문이 처리되었습니다.
-for.gui.mail.to=to
-for.gui.mail.receive=수신
-for.gui.mail.send=발신
+for.gui.mail.order.filled.one=%SENDER로부터의 주문이 처리되었습니다.
+for.gui.mail.order.filled.multiple=%SENDER로부터의 주문이 %COUNT개 처리되었습니다.
+for.gui.mail.to=To
+for.gui.mail.receive=받는 물품
+for.gui.mail.send=보내는 물품
 
-for.gui.maxenergy=최대 전력
+for.gui.maxenergy=최대 에너지
 for.gui.maxenergyreceive=최대 입력
-for.gui.maxspeed=최대 속도
-for.gui.metabolism=대사력
-for.gui.nether=지옥
+for.gui.maxspeed=최대
+for.gui.metabolism=신진대사
+for.gui.nether=네더
 for.gui.nocturnal=야행성
 for.gui.noeffect=효과 없음
-for.gui.owner=주인
+for.gui.owner=소유자
 for.gui.page=페이지
 
 for.gui.search_ingredients=Search Items
@@ -450,7 +450,7 @@ item.cratedDarkOakWood.name=Crated Dark Oak Wood
 item.cratedDates.name=Crated Date
 item.cratedDirt.name=Crated Dirt
 item.cratedDrippingCombs.name=Crated Dripping Comb
-item.cratedFertilizer.name=Crated Fertilizer
+item.cratedFertilizer.name=상자에 저장된 비료
 item.cratedFrozenCombs.name=Crated Frozen Comb
 item.cratedGlowstone.name=Crated Glowstone Dust
 item.cratedGravel.name=Crated Gravel
@@ -633,7 +633,7 @@ item.for.beeswax.name=밀랍
 
 item.for.beverage.name=Mead
 item.for.beverage.meadCurative.name=약재가 들어간 벌꿀술
-item.for.beverage.meadShort.name=연한 벌꿀술
+item.for.beverage.meadShort.name=단기 숙성 벌꿀술
 item.for.beverage.mead.name=벌꿀술
 
 item.for.biomeFinder.name=서식지 분석기
