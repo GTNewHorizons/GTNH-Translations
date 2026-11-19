@@ -428,6 +428,8 @@ gt.blockmachines.multimachine.tm.microwave.cfgi.0=Güç ayarı
 gt.blockmachines.multimachine.tm.microwave.cfgi.1=Zamanlayıcı ayarı
 gt.blockmachines.multimachine.tm.microwave.cfgo.0=Zamanlayıcı değeri
 gt.blockmachines.multimachine.tm.microwave.cfgo.1=Kalan süre
+gt.blockmachines.multimachine.tm.microwave.timer=§fTimer: %s / %s
+gt.blockmachines.multimachine.tm.microwave.damage=§fUp to §c%s§f damage per second
 
 gt.blockmachines.multimachine.tm.teslaCoil.name=Tesla Kulesi
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.0=Histerezis Düşük
@@ -1114,7 +1116,6 @@ GT5U.gui.text.recipe_result.scanning=§aTaranıyor
 GT5U.gui.text.recipe_result.charging=§aŞarj Ediliyor
 GT5U.gui.text.recipe_result.microwaving=§aMikrodalgada
 GT5U.gui.text.recipe_result.no_routing=§7Yönlendirilemiyor
-GT5U.gui.text.recipe_result.invalid_timer=§7Geçersiz zamanlayıcı
 GT5U.gui.text.recipe_result.no_research_item=§7Araştırılacak geçerli eşya yok
 GT5U.gui.text.recipe_result.no_chargeable_item=§7Şarj edilebilir eşya yok
 GT5U.gui.text.recipe_result.no_computing=§7Hesaplanamıyor
@@ -1225,7 +1226,8 @@ tt.keyphrase.Hint_Details=İpucu Ayrıntıları
 
 #debug boom
 tt.keyword.BOOM=BOOM!
-tt.keyword.Destination=Çıkış Kapağı Kimliği
+tt.keyword.Hatch=Hatch %s
+tt.keyword.Id=ID
 tt.keyword.Weight=Çıkış Kapağı Ağırlığı
 tt.keyword.Source=Kaynak
 tt.keyword.Progress=İlerleme
