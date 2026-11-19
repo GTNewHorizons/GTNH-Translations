@@ -428,6 +428,8 @@ gt.blockmachines.multimachine.tm.microwave.cfgi.0=전력 설정
 gt.blockmachines.multimachine.tm.microwave.cfgi.1=타이머 설정
 gt.blockmachines.multimachine.tm.microwave.cfgo.0=타이머 값
 gt.blockmachines.multimachine.tm.microwave.cfgo.1=타이머 남은 시간
+gt.blockmachines.multimachine.tm.microwave.timer=§fTimer: %s / %s
+gt.blockmachines.multimachine.tm.microwave.damage=§fUp to §c%s§f damage per second
 
 gt.blockmachines.multimachine.tm.teslaCoil.name=테슬라 타워
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.0=낮은 히스테리시스
@@ -1114,7 +1116,6 @@ GT5U.gui.text.recipe_result.scanning=§a스캔 중
 GT5U.gui.text.recipe_result.charging=§a충전 중
 GT5U.gui.text.recipe_result.microwaving=§a전자레인지 가열
 GT5U.gui.text.recipe_result.no_routing=§7경로 지정 불가
-GT5U.gui.text.recipe_result.invalid_timer=§7유효하지 않은 타이머
 GT5U.gui.text.recipe_result.no_research_item=§7연구할 수 있는 유효한 아이템이 없습니다
 GT5U.gui.text.recipe_result.no_chargeable_item=§7충전할 수 있는 아이템이 없습니다
 GT5U.gui.text.recipe_result.no_computing=§7계산할 수 없습니다
@@ -1225,7 +1226,8 @@ tt.keyphrase.Hint_Details=힌트 세부 정보
 
 #debug boom
 tt.keyword.BOOM=쾅!
-tt.keyword.Destination=출력 해치 ID
+tt.keyword.Hatch=Hatch %s
+tt.keyword.Id=ID
 tt.keyword.Weight=출력 해치 무게
 tt.keyword.Source=출처
 tt.keyword.Progress=진행도
