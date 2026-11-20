@@ -27,7 +27,7 @@ vendingmachine.gui.single_coin_type_eject_hint=Shift+클릭으로 지갑에서 �
 vendingmachine.gui.search=검색
 vendingmachine.gui.required_inputs=요구 사항:
 vendingmachine.gui.nc_inputs=요구 사항 (소모되지 않음):
-vendingmachine.gui.alternative_oredict=Accepts Oredict:
+vendingmachine.gui.alternative_oredict=광석 사전 항목 사용 가능:
 vendingmachine.gui.shared_trades_tooltip=%s개의 다른 거래와 재사용 대기시간을 공유합니다
 vendingmachine.gui.cooldown_remaining_tooltip=%s/%s회 거래 남음
 vendingmachine.gui.cooldown_started_tooltip=거래 한도가 %s 후에 초기화됩니다
@@ -63,7 +63,7 @@ vendingmachine.gui.error.player_using=누군가 지금 자판기를 사용하고
 vendingmachine.chat.trade_restock=자판기 재입고 완료: %s
 
 # Command
-vendingmachine.command.usage=Usage: %s
+vendingmachine.command.usage=사용법: %s
 vendingmachine.command.error.player_not_found=Player "%s" was not found.
 vendingmachine.command.error.integer_format=Invalid amount "%s". Expected a whole number.
 vendingmachine.command.no_wallet=No wallet found.
@@ -79,7 +79,7 @@ vendingmachine.command.set.specific_currency=Set %s to %s for %s.
 
 vendingmachine.command.reset.all_coins=Reset all coins for %s.
 vendingmachine.command.reset.specific_coin=Reset %s for %s.
-vendingmachine.command.reset.reloaded_trade_db=Reloaded trade database.
+vendingmachine.command.reset.reloaded_trade_db=거래 데이터베이스를 다시 불러왔습니다.
 
 # Categories
 vendingmachine.category.favourites=즐겨찾기
