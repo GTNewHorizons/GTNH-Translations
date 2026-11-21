@@ -6761,7 +6761,7 @@ gt.item.coil.ev.name=초고전압 코일
 gt.item.coil.ev.tooltip=극한 코일
 gt.item.coil.iv.name=초고전압 코일
 gt.item.coil.iv.tooltip=최고급 코일
-gt.item.coil.luv.name=터무니없이 높은 전압 코일
+gt.item.coil.luv.name=LuV 코일
 gt.item.coil.luv.tooltip=마스터 코일
 gt.item.coil.zpm.name=ZPM 전압 코일
 gt.item.coil.zpm.tooltip=최고급 코일
@@ -7643,6 +7643,17 @@ GT5U.gui.button.vm.select=모든 광석 선택
 GT5U.gui.button.vm.deselect=모든 광석 선택 해제
 GT5U.gui.button.vm.tt.void=§c소멸됩니다
 GT5U.gui.button.vm.tt.novoid=§a버려지지 않습니다
+
+#Quad-Cell Plasma Collider GUI
+GT5U.gui.button.qpc.configure.1=Left-Click to configure Plasmas
+GT5U.gui.button.qpc.configure.2=Right-Click to configure Scale
+GT5U.gui.text.qpc.plasma_display=%s: %s/s
+GT5U.gui.text.qpc.expected_rate=Expected Drain Rates:
+GT5U.gui.text.qpc.residue=Producing %s/s residue 
+GT5U.gui.text.qpc.generating=Generating %s EU/t
+GT5U.gui.text.qpc.scale=Configure Scale
+GT5U.gui.text.qpc.scale.text.1=Set Scale (1-30)
+GT5U.gui.text.qpc.scale.text.2=Scale multiplies both initial Drain Rate and Cycle Time
 
 achievement.gt.blockmachines.wireless.receiver.tier.00=ULV 무선 에너지 해치
 achievement.gt.blockmachines.wireless.receiver.tier.00.desc=이 아이템을 습득하면 NEI에서 조합법을 확인할 수 있습니다.
@@ -9792,6 +9803,8 @@ gt.blockcasings14.4.name=냉장고 케이싱
 gt.blockcasings14.5.name=나콰다 강화 증류 케이싱
 gt.blockcasings14.6.name=압출기 기계 케이싱
 gt.blockcasings14.7.name=장력 내성 기계 케이싱
+gt.blockcasings14.8.name=Plasma Collider Casing
+gt.blockcasings14.9.name=Quadcell Driving Casing
 
 gt.blockcasingsNH.0.name=공기 필터 터빈 케이싱
 gt.blockcasingsNH.1.name=공기 필터 환기구 케이싱
@@ -9853,6 +9866,7 @@ gt.blockglass1.7.name=외부 주조소 격리 유리
 gt.blockglass1.8.name=나노칩 복합 유리
 gt.blockglass1.9.name=전자기 도파관
 gt.blockglass1.10.name=강화 유리
+gt.blockglass1.11.name=Plasma Collider Glass
 gt.blocktintedglass.0.name=착색 산업용 유리(흰색)
 gt.blocktintedglass.1.name=착색된 산업용 유리 (밝은 회색)
 gt.blocktintedglass.2.name=착색된 산업용 유리 (회색)
