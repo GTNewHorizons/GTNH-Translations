@@ -1,10 +1,11 @@
 item.recipeBlueprint.name=Recipe Blueprint
 item.recipePanel.name=Recipe Panel
 item.recipePanel.encoded.name=Recipe Panel
+tile.recipePanel.name=Recipe Panel
 
 tooltip.nei-recipe-panels.blueprint.1=Open a recipe in NEI
 tooltip.nei-recipe-panels.blueprint.2=and click the Panel button to imprint it.
-tooltip.nei-recipe-panels.panel.blank=Blank - imprint it from an NEI recipe screen.
+tooltip.nei-recipe-panels.panel.blank=Blank. Use a Recipe Blueprint on an NEI recipe screen to make imprinted panels.
 tooltip.nei-recipe-panels.panel.recipe=Recipe: %s
 tooltip.nei-recipe-panels.panel.hang=Right-click a wall to hang it.
 
@@ -18,6 +19,7 @@ nei-recipe-panels.recipe.missing=Recipe no longer available. Re-imprint this pan
 nei-recipe-panels.recipe.ambiguous=Multiple recipes match. Re-imprint this panel.
 nei-recipe-panels.recipe.invalid=Unsupported or invalid saved recipe data.
 nei-recipe-panels.recipe.unsupported=This recipe handler cannot be displayed.
+nei-recipe-panels.recipe.loading=Waiting for NEI to finish loading recipes.
 nei-recipe-panels.render.unavailable=Framebuffer rendering unavailable
 nei-recipe-panels.render.failed=Recipe rendering failed
 nei-recipe-panels.render.loading=Loading recipe
@@ -31,3 +33,15 @@ nei-recipe-panels.config.title=Recipe Panel
 nei-recipe-panels.config.name=Name
 nei-recipe-panels.config.background.shown=Background: Shown
 nei-recipe-panels.config.background.hidden=Background: Hidden
+
+nei-recipe-panels.cfg.recipe=Recipe
+nei-recipe-panels.cfg.recipe.registerblueprintrecipe=Register Blueprint Recipe
+nei-recipe-panels.cfg.server=Server
+nei-recipe-panels.cfg.server.panelmode=Who May Imprint
+nei-recipe-panels.cfg.server.consumeincreative=Consume Blueprint in Creative
+nei-recipe-panels.cfg.server.maxingredients=Max Recipe Slots
+nei-recipe-panels.cfg.server.maxsnapshotbytes=Max Recipe Data (bytes)
+nei-recipe-panels.cfg.client=Client
+nei-recipe-panels.cfg.client.texturebudgetmb=Texture Budget (MB)
+nei-recipe-panels.cfg.client.supersample=Panel Resolution Multiplier
+nei-recipe-panels.cfg.client.buttonrequiresblueprint=Hide Button When Unable to Imprint
