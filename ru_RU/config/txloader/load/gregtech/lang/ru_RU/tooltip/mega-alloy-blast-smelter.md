@@ -1,7 +1,7 @@
-{dark_gray:{italic:"all it does is make metals hot"}}
-{color_parallel:{var:parallels}} Parallels
-{color_speed:-{var:speed_bonus}%} Recipe Time per {color_tier:Heating Coil} Tier above TPV (additive)
-{color_efficiency:-{var:energy_discount}%} {EU} Usage per {color_tier:Heating Coil} Tier above the Recipe Tier (multiplicative)
+{dark_gray:{italic:"всё, что оно делает, это делает металлы горячими"}}
+{color_parallel:{var:parallels}} параллелей
+Время рецепта: {color_speed:-{var:speed_bonus}%} за каждый тир {color_tier:нагревательной катушки} выше TPV (аддитивно)
+Потребление {EU}: {color_efficiency:-{var:energy_discount}%} за каждый тир {color_tier:нагревательной катушки} выше тира рецепта (мультипликативно)
 {hr}
-{color_tier:Recipe} Tier limited by {color_tier:Glass} Tier
-Can also use normal ABS coils in their place instead, if you don't like the bonuses :)
+Тир {color_tier:рецепта} ограничен тиром {color_tier:стекла}
+Можно также использовать вместо них обычные катушки ABS, если вам не нравятся бонусы :)

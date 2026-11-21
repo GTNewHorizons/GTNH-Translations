@@ -1,2 +1,2 @@
-Produces raw elements from {dark_purple:UU-Matter}
-The {color_name:Programmed Circuit} within the orb repository selects which {green:Data Orb} to use {color_range:(1-16)}
+Производит исходные элементы из {dark_purple:жидкой материи}
+{color_name:Запрограммированная схема} в хранилище сфер выбирает используемую {green:сферу данных} {color_range:(1-16)}

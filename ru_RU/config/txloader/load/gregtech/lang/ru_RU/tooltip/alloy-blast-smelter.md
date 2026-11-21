@@ -1,2 +1,2 @@
-Allows Complex alloys to be created
-Recipe Tier is limited to {color_name:Hatch} Tier
+Позволяет создавать сложные сплавы
+Тир рецепта ограничен тиром {color_name:энерговвода}

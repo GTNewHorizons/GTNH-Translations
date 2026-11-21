@@ -1,3 +1,3 @@
 {hr}
-{color_mode:Distillation Tower Mode}
+{color_mode:Режим ректификационной колонны}
 #include:gregtech:distillation-tower

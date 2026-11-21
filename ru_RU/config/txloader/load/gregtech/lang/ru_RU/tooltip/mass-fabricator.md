@@ -1,4 +1,4 @@
-Parallels: Scrap = {color_parallel:{var:scrap_parallels}} | UU = {color_parallel:{var:uu_parallels}} per {color_tier:Voltage} Tier
-Produces Scrap, UU-A & UU-M
-Change mode with {color_name:Screwdriver}
-{light_purple:+{var:scrap_chance}%} scrap chance per {color_tier:Voltage} Tier in {color_mode:Recycler} mode
+Параллели: утильсырьё = {color_parallel:{var:scrap_parallels}} | материя = {color_parallel:{var:uu_parallels}} за каждый тир {color_tier:вольтажа}
+Производит утильсырьё, UU-A и UU-M
+Изменение режима с помощью {color_name:отвёртки}
+{light_purple:+{var:scrap_chance}%} к шансу утильсырья за каждый тир {color_tier:вольтажа} в {color_mode:режиме утилизатора}

@@ -1,1 +1,1 @@
-Highly Advanced Assembling Machine
+Высокотехнологичная сборочная машина

@@ -1,6 +1,6 @@
-Consumes {color_eu_usage:{var:energy_tax}%} of the average voltage of all energy type hatches
-Does not require {color_name:maintenance}
-Can be built with variable height between {color_range:{var:min_height}-{var:max_height}}
-{color_hatch:Hatches} can be placed nearly anywhere
-{VNF:min_tier} {color_hatch:Energy/Dynamo Hatches} are the lowest tier you can use
-Supports voltages >= {VNF:max_tier_voltage} using {VNF:max_tier} tier components
+Расходует {color_eu_usage:{var:energy_tax}%} от среднего вольтажа всех энерговводов и энерговыводов
+Не требует {color_name:техобслуживания}
+Может быть построен с переменной высотой {color_range:от {var:min_height} до {var:max_height}}
+{color_hatch:Энерговводы и энерговыводы} можно размещать практически в любом месте
+{VNF:min_tier} {color_hatch:энерговвод/вывод} - самый низкий тир, который можно использовать
+Поддерживает вольтаж >= {VNF:max_tier_voltage} при использовании компонентов тира {VNF:max_tier}

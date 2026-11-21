@@ -1,3 +1,3 @@
-Runs gases through depleted {color_hot:Molten Salts} to extract precious fluids
-Works the same way as the {color_name:Distillation Tower}, but with a fixed height of {var:height}
-Fluids are output one per layer based on their slot number in {color_name:NEI}
+Пропускает газы через обеднённые {color_hot:расплавленные соли} для извлечения ценных жидкостей
+Работает так же, как и {color_name:ректификационная колонна}, но имеет фиксированную высоту {var:height}
+Жидкости выдаются по одной на слой согласно номеру слота в {color_name:NEI}

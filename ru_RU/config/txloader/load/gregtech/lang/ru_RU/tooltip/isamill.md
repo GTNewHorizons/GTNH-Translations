@@ -1,2 +1,2 @@
-{green:G.O.G, Grinds Ores Good}
-{green:It'sa mill!}
+{green:Х.И.Р, хорошо измельчает руды}
+{green:Это мельница!}

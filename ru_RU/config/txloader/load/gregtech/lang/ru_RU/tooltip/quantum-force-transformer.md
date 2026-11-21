@@ -1,18 +1,18 @@
-Allows Complex processing lines to be performed instantly in one step
+Позволяет мгновенно выполнять сложные технологические линии за один шаг
 {hr}
-{color_tier:Pulse Manipulator} Tier determines maximum {color_tier:Recipe} Tier
-Every recipe requires a specific {color_mechanic:Catalyst}
-{color_mechanic:Catalysts} have to be placed in a {color_hatch:Bulk Catalyst Housing}
-Gains {color_parallel:1} Parallel per {color_mechanic:Catalyst}
+Тир {color_tier:импульсного манипулятора} определяет максимальный тир {color_tier:рецепта}
+Для каждого рецепта требуется определённый {color_mechanic:катализатор}
+{color_mechanic:Катализаторы} должны быть помещены в {color_hatch:объёмное хранилище катализаторов}
+Получает {color_parallel:1} параллель на {color_mechanic:катализатор}
 {hr}
-{color_tier:Shielding Core} Tier determines {color_key:Focusing} Bonuses
-Put a {color_name:Circuit} in the controller to specify the focused output, based on {color_name:NEI} order
-If Input Separation is on: put the {color_name:Circuit} in the circuit slot of the bus
-Consumes {color_amount:{var:plasma} * Focus Tier * sqrt(Parallels){L}} of {color_name:Neptunium Plasma} to {color_key:focus}
-The better the {color_key:Focus Tier}, the {color_key:stronger} the effect
-{color_key:Focused} Output will have its {color_efficiency:probability boosted}, with other output's being reduced evenly by the total boost
-Consumes {color_amount:{var:plasma} * Focus Tier * sqrt(Parallels){L}} of {color_name:Fermium Plasma} to {color_key:boost all outputs}
+Тир {color_tier:защитного ядра} определяет бонусы {color_key:фокусировки}
+Поместите {color_name:схему} в контроллер, чтобы указать фокусированный выход, основываясь на порядке {color_name:NEI}
+Если разделение входов включено: поместите {color_name:схему} в слот схемы люка
+Потребляет {color_amount:{var:plasma} * тир фокусировки * sqrt(параллели){L}} {color_name:нептуниевой плазмы} для {color_key:фокусировки}
+Чем выше {color_key:тир фокусировки}, тем {color_key:сильнее} эффект
+{color_key:Сфокусированный} выход будет иметь {color_efficiency:повышенную вероятность}, при этом другие выходы уменьшаются равномерно на общий прирост
+Потребляет {color_amount:{var:plasma} * тир фокусировки * sqrt(параллели){L}} {color_name:фермиевой плазмы} для {color_key:усиления всех выходов}
 {hr}
-Use a {color_name:Screwdriver} to enable {color_mode:Fluid mode}
-Sneak + {color_name:Screwdriver} to disable animations
-{color_mode:Fluid mode} turns all possible outputs into their fluid variant, if avaliable
+Используйте {color_name:отвёртку}, чтобы включить {color_mode:жидкостный режим}
+Shift+ПКМ {color_name:отвёрткой} отключает анимацию
+{color_mode:Жидкостный режим} преобразует все возможные выходы в их жидкий вариант, если он доступен

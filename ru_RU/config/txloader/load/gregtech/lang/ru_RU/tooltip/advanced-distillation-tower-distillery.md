@@ -1,6 +1,6 @@
-Stats dictated by tower mode
-Right click the controller with screwdriver to change mode
+Статистика определяется режимом башни
+ПКМ по контроллеру отвёрткой для смены режима
 {hr}
-{color_mode:Distillery Mode}
-Outputs only one fluid
-{color_parallel:(2 * floor(Height / 3)) * Voltage Tier} Parallels
+{color_mode:Режим дистилляции}
+Выдаёт только одну жидкость
+Параллелей: {color_parallel:(2 * floor(Высота / 3)) * тир вольтажа}
