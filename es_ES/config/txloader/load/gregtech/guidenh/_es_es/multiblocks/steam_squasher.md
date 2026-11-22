@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31078
-quest_ids:
-  - Plg8vg0gS9Ks2Ddc5sIVOg
+bindings:
+  - {type: "betterquesting", id: "Plg8vg0gS9Ks2Ddc5sIVOg"}
 navigation:
   title: Steam Squasher
   parent: ./multiblocks_index.md

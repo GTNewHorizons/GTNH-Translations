@@ -1,11 +1,11 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:32026
-quest_ids:
-  - n7yjRSr0R7O2agebw73FGA==
-  - 3yz1WCEzQ_KQxW8p7_29-Q==
-  - smCKxKkMSeyIAUeFInS4hQ==
-  - hWXZi-whQfmgWO0EII7g2g==
+bindings:
+  - {type: "betterquesting", id: "n7yjRSr0R7O2agebw73FGA=="}
+  - {type: "betterquesting", id: "3yz1WCEzQ_KQxW8p7_29-Q=="}
+  - {type: "betterquesting", id: "smCKxKkMSeyIAUeFInS4hQ=="}
+  - {type: "betterquesting", id: "hWXZi-whQfmgWO0EII7g2g=="}
 navigation:
   title: Component Assembly Line
   parent: ./multiblocks_index.md

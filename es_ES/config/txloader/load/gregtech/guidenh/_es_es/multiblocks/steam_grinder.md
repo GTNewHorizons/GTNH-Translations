@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31041
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAKzA
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKzA"}
 navigation:
   title: Steam Grinder
   parent: ./multiblocks_index.md

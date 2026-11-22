@@ -2,9 +2,9 @@
 item_ids:
   - gregtech:gt.blockmachines:143
   - gregtech:gt.blockmachines:144
-quest_ids:
-  - uYT4jmFtQhOo5PoJLDyh-w==
-  - b-YCbvcNT4uEjg2pN-H6jw==
+bindings:
+  - {type: "betterquesting", id: "uYT4jmFtQhOo5PoJLDyh-w=="}
+  - {type: "betterquesting", id: "b-YCbvcNT4uEjg2pN-H6jw=="}
 navigation:
   title: Concrete Backfiller
   parent: ./multiblocks_index.md
