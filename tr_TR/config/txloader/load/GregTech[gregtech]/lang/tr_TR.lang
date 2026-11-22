@@ -10268,6 +10268,11 @@ GT5U.gui.text.available-condensate=Mevcut Yoğuşuk:
 GT5U.gui.text.bec-stored-condensate=Depolanan Yoğuşuk:
 GT5U.gui.text.nanite-detector-analog=Analog
 GT5U.gui.text.nanite-detector-tier=Kademe %s
+GT5U.gui.text.control-pause=Pause
+GT5U.gui.text.control-parallel=Parallel
+GT5U.gui.text.control-parallel.mantissa=Mantissa:
+GT5U.gui.text.control-parallel.exponent=Exponent:
+GT5U.gui.text.control-parallel.parallel=Parallel:
 
 # BEC I/O Node Structure Hints
 GT5U.tooltip.bec-ionode.controller-pos=Ön orta, 12. katman
@@ -10327,6 +10332,8 @@ gt.tooltip.nanite-tier=Nanit Kademesi: %s
 gt.tooltip.max-nanite=Maks Nanit Kademesi:
 GT5U.gui.text.pause-immediately.tooltip=IO Düğümü kızıltaş sinyali aldığında işlemeyi durdurur.
 GT5U.gui.text.pause-next-step.tooltip=IO Düğümü kızıltaş sinyali aldığında yeni bir girdi adımına geçişte durur.
+GT5U.gui.text.control-pause.tooltip=Control the I/O Node processing flow suspension
+GT5U.gui.text.control-parallel.tooltip=Control the I/O Node max parallel for recipes
 
 # BEC Chat Messages
 GT5U.chat.bec-saved-link-data=Bağlantı Verisi Data Stick'e kaydedildi
@@ -10334,6 +10341,7 @@ GT5U.chat.bec-connected-assembler=Gözlem Dizisine başarıyla bağlanıldı
 GT5U.chat.bec-no-connect-assembler=Gözlem Dizisine bağlanılamadı
 
 # BEC Waila
+GT5U.chat.bec-max-parallel=Max Parallel: %s
 GT5U.chat.bec-processing-speed=İşlem Hızı: tik başına %s puan
 GT5U.chat.bec-slowdowns=Yavaşlamalar: %s
 

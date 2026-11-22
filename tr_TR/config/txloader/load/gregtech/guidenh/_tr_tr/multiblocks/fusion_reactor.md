@@ -5,12 +5,12 @@ item_ids:
   - gregtech:gt.blockmachines:1195
   - gregtech:gt.blockmachines:965
   - gregtech:gt.blockmachines:975
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAEvA==
-  - AAAAAAAAAAAAAAAAAAAErQ==
-  - AAAAAAAAAAAAAAAAAAAErg==
-  - AAAAAAAAAAAAAAAAAAAKFw==
-  - vLnSpTweSki3BaorBNQhxQ==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAEvA=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAErQ=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAErg=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKFw=="}
+  - {type: "betterquesting", id: "vLnSpTweSki3BaorBNQhxQ=="}
 navigation:
   title: Fusion Reactor
   parent: ./multiblocks_index.md

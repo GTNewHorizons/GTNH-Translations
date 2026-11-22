@@ -46,8 +46,8 @@ item_ids:
   - kubatech:htgr_item_burned_triso_fuel:6
   - kubatech:htgr_item_burned_triso_fuel:7
   - kubatech:htgr_item_burned_triso_fuel:8
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAMbg==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAMbg=="}
 navigation:
   title: High Temperature Gas-Cooled Reactor
   parent: ./multiblocks_index.md
