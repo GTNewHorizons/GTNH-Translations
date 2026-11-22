@@ -5,11 +5,11 @@ item_ids:
   - gregtech:gt.blockmachines:142
   - gregtech:gt.blockmachines:149
   - gregtech:gt.blockmachines:15567
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAC_Q==
-  - AAAAAAAAAAAAAAAAAAALwg==
-  - AAAAAAAAAAAAAAAAAAALzA==
-  - -1GoIXIXR029oc0Ge6sRGg==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAC_Q=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAALwg=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAALzA=="}
+  - {type: "betterquesting", id: "-1GoIXIXR029oc0Ge6sRGg=="}
 navigation:
   title: Fluid Drilling Rig
   parent: ./multiblocks_index.md

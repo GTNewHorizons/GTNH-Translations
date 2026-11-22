@@ -39,14 +39,14 @@ item_ids:
   - bartworks:gt.bwMetaGeneratedItem0:38
   - bartworks:gt.bwMetaGeneratedItem0:39
   - bartworks:gt.bwMetaGeneratedItem0:40
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAKKQ==
-  - AAAAAAAAAAAAAAAAAAAKKA==
-  - AAAAAAAAAAAAAAAAAAAKLQ==
-  - AAAAAAAAAAAAAAAAAAAKLA==
-  - AAAAAAAAAAAAAAAAAAAKKw==
-  - AAAAAAAAAAAAAAAAAAAKLg==
-  - AAAAAAAAAAAAAAAAAAAKKg==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKKQ=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKKA=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKLQ=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKLA=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKKw=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKLg=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKKg=="}
 navigation:
   title: Circuit Assembly Line
   parent: ./multiblocks_index.md

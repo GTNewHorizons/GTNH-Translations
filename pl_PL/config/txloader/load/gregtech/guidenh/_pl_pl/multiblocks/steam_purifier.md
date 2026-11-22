@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31082
-quest_ids:
-  - zorY0c3BQuqLJp7ThOLG-g
+bindings:
+  - {type: "betterquesting", id: "zorY0c3BQuqLJp7ThOLG-g"}
 navigation:
   title: Steam Purifier
   parent: ./multiblocks_index.md

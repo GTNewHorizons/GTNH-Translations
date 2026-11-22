@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:1000
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAATQ==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAATQ=="}
 navigation:
   title: Electric Blast Furnace
   parent: ./multiblocks_index.md

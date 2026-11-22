@@ -3,9 +3,9 @@ navigation:
   parent: /ae2_mechanics_index.md
   title: Network Connections
   icon: appliedenergistics2:item.ItemMultiPart:16
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAFMQ==
-  - tM8pT_W3RCqZNDAovERxFg==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAFMQ=="}
+  - {type: "betterquesting", id: "tM8pT_W3RCqZNDAovERxFg=="}
 ---
 
 # Network Connections

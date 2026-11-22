@@ -3,8 +3,8 @@ item_ids:
   - gregtech:gt.blockmachines:9403
   - gregtech:gt.metaitem.01:30554
   - NotEnoughItems:neiFluidDisplay:390
-quest_ids:
-  - mMCFuGqxQTuuLnJgEldztA==
+bindings:
+  - {type: "betterquesting", id: "mMCFuGqxQTuuLnJgEldztA=="}
 navigation:
   title: Clarifier Purification Unit
   parent: ./water_line.md
