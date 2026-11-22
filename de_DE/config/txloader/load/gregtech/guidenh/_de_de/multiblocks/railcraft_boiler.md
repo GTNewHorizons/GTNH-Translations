@@ -4,11 +4,11 @@ item_ids:
   - Railcraft:machine.beta:6
   - Railcraft:machine.beta:3
   - Railcraft:machine.beta:4
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAACMA==
-  - AAAAAAAAAAAAAAAAAAACMQ==
-  - AAAAAAAAAAAAAAAAAAACLw==
-  - AAAAAAAAAAAAAAAAAAACMg==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAACMA=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAACMQ=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAACLw=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAACMg=="}
 navigation:
   title: Railcraft Boiler
   parent: ./multiblocks_index.md

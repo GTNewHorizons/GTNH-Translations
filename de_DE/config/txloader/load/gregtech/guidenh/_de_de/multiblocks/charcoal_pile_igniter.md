@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:1155
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAB8Q==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAB8Q=="}
 navigation:
   title: Charcoal Pile Igniter
   parent: ./multiblocks_index.md

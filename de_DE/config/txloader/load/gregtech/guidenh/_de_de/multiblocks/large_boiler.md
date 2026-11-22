@@ -4,12 +4,12 @@ item_ids:
   - gregtech:gt.blockmachines:15530
   - gregtech:gt.blockmachines:15531
   - gregtech:gt.blockmachines:15532
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAALww==
-  - AAAAAAAAAAAAAAAAAAADEA==
-  - AAAAAAAAAAAAAAAAAAADEw==
-  - AAAAAAAAAAAAAAAAAAADFA==
-  - AAAAAAAAAAAAAAAAAAAMIQ==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAALww=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADEA=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADEw=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADFA=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAMIQ=="}
 navigation:
   title: Large Boiler
   parent: ./multiblocks_index.md

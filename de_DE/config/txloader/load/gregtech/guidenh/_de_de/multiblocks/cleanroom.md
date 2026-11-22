@@ -1,9 +1,9 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:1172
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAADrA==
-  - AAAAAAAAAAAAAAAAAAAHfQ==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADrA=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAHfQ=="}
 navigation:
   title: Cleanroom
   parent: ./multiblocks_index.md
