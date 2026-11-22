@@ -12,11 +12,11 @@ item_ids:
   - gregtech:gt.blockmachines:10934
   - gregtech:gt.blockmachines:10935
   - gregtech:gt.blockmachines:10936
-quest_ids:
-  - vV8Pw_lTTSiMmWOLqkyIWg==
-  - AAAAAAAAAAAAAAAAAAADFw==
-  - AAAAAAAAAAAAAAAAAAADBA==
-  - AAAAAAAAAAAAAAAAAAAFfw==
+bindings:
+  - {type: "betterquesting", id: "vV8Pw_lTTSiMmWOLqkyIWg=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADFw=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADBA=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAFfw=="}
 navigation:
   title: Laser Engraver
   icon: gregtech:gt.blockmachines:441

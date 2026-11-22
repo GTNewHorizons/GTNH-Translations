@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:1126
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAADAA==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADAA=="}
 navigation:
   title: Distillation Tower
   parent: ./multiblocks_index.md

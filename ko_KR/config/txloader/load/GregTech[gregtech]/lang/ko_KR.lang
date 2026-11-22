@@ -2445,7 +2445,7 @@ gt.mbtt.machine_type.mass_fabricator=Mass Fabricator, Recycler
 gt.mbtt.machine_type.grinding_machine=Grinding Machine, IGM
 gt.mbtt.machine_type.gas_sparge_tower=Gas Sparge Tower
 gt.mbtt.machine_type.fluid_heater=Fluid Heater, THD
-gt.mbtt.machine_type.distillery=Distillery, DT
+gt.mbtt.machine_type.distillery=증류기, DT
 gt.mbtt.machine_type.energy_buffer=Energy Buffer, PSS
 gt.mbtt.machine_type.semifluid_generator=Semifluid Generator, LSB
 gt.mbtt.machine_type.extra_large_heat_exchanger=Heat Exchanger, WWXL
@@ -7333,15 +7333,15 @@ achievement.uvage.desc=에너지 클러스터 제작
 achievement.whatnow=이제 무엇을 합니까?
 achievement.whatnow.desc=궁극의 배터리 제작
 
-achievement.gt.metaitem.01.32606=LuV급 전기 모터
+achievement.gt.metaitem.01.32606=LuV 전기 모터
 achievement.gt.metaitem.01.32606.desc=이 아이템을 집으면 NEI에서 조합법을 확인할 수 있습니다.
-achievement.gt.metaitem.01.32607=ZPM급 전기 모터
+achievement.gt.metaitem.01.32607=ZPM 전기 모터
 achievement.gt.metaitem.01.32607.desc=이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
-achievement.gt.metaitem.01.32608=UV 등급 전기 모터
+achievement.gt.metaitem.01.32608=UV 전기 모터
 achievement.gt.metaitem.01.32608.desc=이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
-achievement.gt.metaitem.01.32596=UHV 등급 전기 모터
+achievement.gt.metaitem.01.32596=UHV 전기 모터
 achievement.gt.metaitem.01.32596.desc=이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
-achievement.gt.metaitem.01.32595=UEV급 전기 모터
+achievement.gt.metaitem.01.32595=UEV 전기 모터
 achievement.gt.metaitem.01.32595.desc=이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
 
 achievement.gt.metaitem.01.32615=LuV급 전기 펌프
@@ -10268,6 +10268,11 @@ GT5U.gui.text.available-condensate=사용 가능한 응축액:
 GT5U.gui.text.bec-stored-condensate=저장된 응축물:
 GT5U.gui.text.nanite-detector-analog=아날로그
 GT5U.gui.text.nanite-detector-tier=티어 %s
+GT5U.gui.text.control-pause=Pause
+GT5U.gui.text.control-parallel=Parallel
+GT5U.gui.text.control-parallel.mantissa=Mantissa:
+GT5U.gui.text.control-parallel.exponent=Exponent:
+GT5U.gui.text.control-parallel.parallel=Parallel:
 
 # BEC I/O Node Structure Hints
 GT5U.tooltip.bec-ionode.controller-pos=전면 중앙, 12번째 층
@@ -10327,6 +10332,8 @@ gt.tooltip.nanite-tier=나노머신 등급: %s
 gt.tooltip.max-nanite=최대 나나이트 단계:
 GT5U.gui.text.pause-immediately.tooltip=I/O 노드는 레드스톤 신호를 받으면 처리를 중지합니다.
 GT5U.gui.text.pause-next-step.tooltip=I/O 노드는 레드스톤 신호를 받으면 새로운 입력 단계로 전환하는 즉시 정지합니다.
+GT5U.gui.text.control-pause.tooltip=Control the I/O Node processing flow suspension
+GT5U.gui.text.control-parallel.tooltip=Control the I/O Node max parallel for recipes
 
 # BEC Chat Messages
 GT5U.chat.bec-saved-link-data=링크 데이터를 데이터 스틱에 저장했습니다.
@@ -10334,6 +10341,7 @@ GT5U.chat.bec-connected-assembler=관측 배열에 성공적으로 연결되었�
 GT5U.chat.bec-no-connect-assembler=관측 배열에 연결할 수 없습니다.
 
 # BEC Waila
+GT5U.chat.bec-max-parallel=Max Parallel: %s
 GT5U.chat.bec-processing-speed=처리 속도: 틱당 %s포인트
 GT5U.chat.bec-slowdowns=감속: %s
 
