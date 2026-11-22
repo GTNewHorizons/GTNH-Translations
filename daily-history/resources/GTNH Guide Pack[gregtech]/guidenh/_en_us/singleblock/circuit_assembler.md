@@ -15,13 +15,13 @@ item_ids:
   - gregtech:gt.blockmachines:12094
   - gregtech:gt.blockmachines:12095
   - gregtech:gt.blockmachines:12096
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAADGw==
-  - AAAAAAAAAAAAAAAAAAAExQ==
-  - AAAAAAAAAAAAAAAAAAAExg==
-  - AAAAAAAAAAAAAAAAAAAExw==
-  - AAAAAAAAAAAAAAAAAAAGhQ==
-  - AAAAAAAAAAAAAAAAAAAGkw==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADGw=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAExQ=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAExg=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAExw=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAGhQ=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAGkw=="}
 navigation:
   title: Circuit Assembler
   icon: gregtech:gt.blockmachines:491

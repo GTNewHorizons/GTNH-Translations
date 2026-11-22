@@ -2,8 +2,8 @@
 item_ids:
   - gregtech:gt.blockmachines:15565
   - gregtech:gt.blockmachines:967
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAH8w==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAH8w=="}
 navigation:
   title: Cryogenic Freezer
   parent: ./multiblocks_index.md

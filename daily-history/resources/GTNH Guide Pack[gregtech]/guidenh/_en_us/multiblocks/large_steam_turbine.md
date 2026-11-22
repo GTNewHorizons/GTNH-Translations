@@ -3,9 +3,9 @@ item_ids:
   - gregtech:gt.blockmachines:15524
   - gregtech:gt.blockmachines:15525
   - gregtech:gt.blockmachines:15526
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAADDw==
-  - AAAAAAAAAAAAAAAAAAALDA==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADDw=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAALDA=="}
 navigation:
   title: Large Steam Turbine
   parent: ./multiblocks_index.md

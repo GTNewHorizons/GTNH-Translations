@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31084
-quest_ids:
-  - WEwrzX4ZRkSxJ3M6cBesfA
+bindings:
+  - {type: "betterquesting", id: "WEwrzX4ZRkSxJ3M6cBesfA"}
 navigation:
   title: Steam Blender
   parent: ./multiblocks_index.md
