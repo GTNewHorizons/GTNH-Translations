@@ -17,11 +17,11 @@ item_ids:
   - appliedenergistics2:item.ItemMultiPart:472
   - ae2fc:part_fluid_p2p_interface
 
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAAyw==
-  - AAAAAAAAAAAAAAAAAAAFMw==
-  - _bEWg1FHSmKu9MNhlbDlwA==
-  - mk3rQ7LUQjC96FsFvDedKA==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAAyw=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAFMw=="}
+  - {type: "betterquesting", id: "_bEWg1FHSmKu9MNhlbDlwA=="}
+  - {type: "betterquesting", id: "mk3rQ7LUQjC96FsFvDedKA=="}
 ---
 
 # P2P Tunnels
