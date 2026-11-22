@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31086
-quest_ids:
-  - WGhhKERfRTiJXKZEPoRf1Q
+bindings:
+  - {type: "betterquesting", id: "WGhhKERfRTiJXKZEPoRf1Q"}
 navigation:
   title: Steam Fuser
   parent: ./multiblocks_index.md

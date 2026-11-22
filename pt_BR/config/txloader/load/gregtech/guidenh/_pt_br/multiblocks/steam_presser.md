@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31083
-quest_ids:
-  - s6AEHSKiQe2XveT_oDZbZg
+bindings:
+  - {type: "betterquesting", id: "s6AEHSKiQe2XveT_oDZbZg"}
 navigation:
   title: Steam Presser
   parent: ./multiblocks_index.md

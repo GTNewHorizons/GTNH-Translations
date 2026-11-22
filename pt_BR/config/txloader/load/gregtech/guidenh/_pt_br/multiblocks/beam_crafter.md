@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:3015
-quest_ids:
-  - xTkeDXIZSlmRkde8LZgzLw==
+bindings:
+  - {type: "betterquesting", id: "xTkeDXIZSlmRkde8LZgzLw=="}
 navigation:
   title: Beam Crafter
   parent: ./large_hadron_collider.md

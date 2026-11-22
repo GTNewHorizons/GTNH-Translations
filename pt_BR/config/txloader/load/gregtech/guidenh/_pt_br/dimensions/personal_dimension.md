@@ -1,8 +1,8 @@
 ---
 item_ids:
   - personalspace:personalPortal
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAA2Q==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAA2Q=="}
 navigation:
   title: Personal Dimension
   parent: ./_index.md
