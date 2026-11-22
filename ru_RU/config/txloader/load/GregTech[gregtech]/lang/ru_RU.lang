@@ -41,7 +41,7 @@ gt.oreprefix.flawed_material_crystal=[Дефектное] %s
 gt.oreprefix.flawless_material=[Безупречный] %s
 gt.oreprefix.flawless_material_crystal=[Безупречное] %s
 gt.oreprefix.ground_material=[Измельчённый] %s
-gt.oreprefix.ground_material_ore=[Руда] %2$s %1$s
+gt.oreprefix.ground_material_ore=[Измельчённая руда] %s
 gt.oreprefix.hot_material_ingot=[Раскалённый слиток] %s
 gt.oreprefix.impure_pile_of_material=[Неочищенная кучка] %s
 gt.oreprefix.impure_pile_of_material_crystal_powder=[Неочищенная кучка пыли] %s
@@ -351,7 +351,7 @@ gt.blockmachines.hatch.muffler.name=Выхлопная система (%s)
 gt.blockmachines.locker.name=%1$s Шкаф
 gt.blockmachines.quantum.chest.name=Квантовый сундук %s
 gt.blockmachines.quantum.tank.name=Квантовый резервуар %s
-gt.blockmachines.super.chest.name=Супер сундук%s
+gt.blockmachines.super.chest.name=Супер сундук %s
 gt.blockmachines.super.tank.name=Супер резервуар %s
 gt.blockmachines.hatch.pattern_provider.name=Провайдер шаблонов создания (%s)
 gt.blockmachines.rockbreaker.name=Криогенный отвердитель магмы R-%s
@@ -2944,8 +2944,8 @@ GT5U.machines.digitalchest.voidoverflow.disabled=Пустотный режим �
 GT5U.machines.digitalchest.inputfilter.enabled=Входной фильтр §aВкл.§r
 GT5U.machines.digitalchest.inputfilter.disabled=Входной фильтр §cОткл.§r
 GT5U.machines.digitalchest.tooltip=Хранит %s предметов
-GT5U.machines.digitalchest.tooltip1=Используйте отвёртку, чтобы включить\nудаление предметов при переполнении
-GT5U.machines.digitalchest.debugtooltip=Refills itself infinitely
+GT5U.machines.digitalchest.tooltip1=Используйте отвёртку, чтобы включить\nудаление предметов при переполнении.
+GT5U.machines.digitalchest.debugtooltip=Пополняется бесконечно
 GT5U.machines.digitaltank.tooltip=Хранит %s Л жидкости
 GT5U.machines.digitaltank.tooltip1=Сохраняет своё содержимое при сборе
 GT5U.machines.digitaltank.debugtooltip=Пополняется бесконечно
@@ -5888,13 +5888,13 @@ gt.item.gelled_toluene.name=Гелеобразный толуол
 gt.item.gelled_toluene.tooltip=Взрывоопасно!
 
 # Dynamite
-gt.item.dynamite.name=Dynamite
+gt.item.dynamite.name=Динамит
 gt.item.dynamite.tooltip=
 
 # IC2 Bio stuff
-gt.item.chaff.name=Bio Chaff
+gt.item.chaff.name=Отходы
 gt.item.chaff.tooltip=
-gt.item.plant_ball.name=Plant Ball
+gt.item.plant_ball.name=Шар с краской
 gt.item.plant_ball.tooltip=
 
 ## Bottle drinks
@@ -7931,7 +7931,7 @@ entity.gregtech.GTDrone.name=Дрон
 fluid.aniline=Анилин
 fluid.bioethanol=Этанол
 fluid.biomass=Биомасса
-fluid.biogas=Biogas
+fluid.biogas=Биогаз
 fluid.boricacid=Борная кислота
 fluid.butanol=Бутанол
 fluid.cadaverine=Кадаверин
@@ -8579,7 +8579,7 @@ GT5U.scanner.wrench_info_3=Вы НЕ можете удалить это с по�
 GT5U.scanner.ic2_info_1=Потеря проводимости: %s
 GT5U.scanner.ic2_info_2=Содержащая энергия: %s EU / %s EU
 GT5U.scanner.energy_info_1=Макс. ввод: %s (%s) EU в %s A
-GT5U.scanner.energy_info_2=Макс. вывод: %s (%s) EU в%s A
+GT5U.scanner.energy_info_2=Макс. вывод: %s (%s) EU в %s A
 GT5U.scanner.energy_info_3=Энергия: %s EU / %s EU
 GT5U.scanner.crop_info_1=Имя растения: §6%s §fРост: §6%s §fУрожайность: §6%s §fУстойчивость: §6%s
 GT5U.scanner.crop_info_2=Удобрение: §6%s §fВода: §6%s §fХим. защита: §6%s §fУровень сканирования: §6%s
@@ -10090,9 +10090,9 @@ gt.tierdDrone3.tooltip_main=Сверхсветовой челнок с варп-
 
 # Volumetric Flask
 gt.Volumetric_Flask.name=Мерная колба
-gt.Volumetric_Flask_8k.name=Large Volumetric Flask
-gt.Volumetric_Flask_32k.name=Gigantic Volumetric Flask
-gt.Volumetric_Flask_Infinite.name=Klein Bottle
+gt.Volumetric_Flask_8k.name=Большая мерная колба
+gt.Volumetric_Flask_32k.name=Гигантская мерная колба
+gt.Volumetric_Flask_Infinite.name=Бутылка Кляйна
 
 # CircuitComponentFakeItem
 gt.fakecircuitcomponent.name=Поддельный компонент электросхемы
@@ -10268,6 +10268,11 @@ GT5U.gui.text.available-condensate=Доступный конденсат:
 GT5U.gui.text.bec-stored-condensate=Хранимый конденсат:
 GT5U.gui.text.nanite-detector-analog=Аналоговый
 GT5U.gui.text.nanite-detector-tier=Тир %s
+GT5U.gui.text.control-pause=Pause
+GT5U.gui.text.control-parallel=Parallel
+GT5U.gui.text.control-parallel.mantissa=Mantissa:
+GT5U.gui.text.control-parallel.exponent=Exponent:
+GT5U.gui.text.control-parallel.parallel=Parallel:
 
 # BEC I/O Node Structure Hints
 GT5U.tooltip.bec-ionode.controller-pos=Спереди в центре, 12-й слой
@@ -10327,6 +10332,8 @@ gt.tooltip.nanite-tier=Тир нанита: %s
 gt.tooltip.max-nanite=Макс. тир нанита:
 GT5U.gui.text.pause-immediately.tooltip=Узел ввода-вывода прекратит обработку при получении сигнала редстоуна
 GT5U.gui.text.pause-next-step.tooltip=Узел ввода-вывода остановится при переходе к новому шагу ввода, если получит сигнал редстоуна
+GT5U.gui.text.control-pause.tooltip=Control the I/O Node processing flow suspension
+GT5U.gui.text.control-parallel.tooltip=Control the I/O Node max parallel for recipes
 
 # BEC Chat Messages
 GT5U.chat.bec-saved-link-data=Данные связи сохранены на флешку
@@ -10334,6 +10341,7 @@ GT5U.chat.bec-connected-assembler=Успешно подключено к мас�
 GT5U.chat.bec-no-connect-assembler=Не удалось подключиться к массиву наблюдения
 
 # BEC Waila
+GT5U.chat.bec-max-parallel=Max Parallel: %s
 GT5U.chat.bec-processing-speed=Скорость обработки: %s очков за тик
 GT5U.chat.bec-slowdowns=Замедления: %s
 

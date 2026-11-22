@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31087
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAADZg==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADZg=="}
 navigation:
   title: Steam Hearth
   parent: ./multiblocks_index.md

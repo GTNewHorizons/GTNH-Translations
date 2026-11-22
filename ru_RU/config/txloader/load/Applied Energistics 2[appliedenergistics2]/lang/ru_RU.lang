@@ -1154,19 +1154,19 @@ item.appliedenergistics2.ToolBiometricCard.name=Биометрическая к�
 item.appliedenergistics2.ToolDebugCard.name=Разраб.отладочная карта
 item.appliedenergistics2.ToolReplicatorCard.name=Разраб.карта-репликатор
 item.appliedenergistics2.ToolNetworkVisualiser.name=Устройство визуализации Сети
-item.appliedenergistics2.ToolWirelessKit.name=Набор для настройки беспроводноо соединения
+item.appliedenergistics2.ToolWirelessKit.name=Набор для настройки беспроводного соединения
 
-item.appliedenergistics2.ToolNetworkVisualiser.bound=§eVisualizing network at %s
+item.appliedenergistics2.ToolNetworkVisualiser.bound=§eПоказана сеть по координатам %s
 item.appliedenergistics2.ToolNetworkVisualiser.mode=Режим:
 item.appliedenergistics2.ToolNetworkVisualiser.set=Режим изменён на %s
-item.appliedenergistics2.ToolNetworkVisualiser.mode.full=§eShow Everything
-item.appliedenergistics2.ToolNetworkVisualiser.mode.nodes=§eShow Nodes
-item.appliedenergistics2.ToolNetworkVisualiser.mode.channels=§eShow Channels
-item.appliedenergistics2.ToolNetworkVisualiser.mode.nonum=§eShow Channels and Nodes
+item.appliedenergistics2.ToolNetworkVisualiser.mode.full=§eПоказывать всё
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nodes=§eПоказывать узлы сети
+item.appliedenergistics2.ToolNetworkVisualiser.mode.channels=§eПоказывать каналы
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nonum=§eПоказывать каналы и узлы сети
 item.appliedenergistics2.ToolNetworkVisualiser.mode.nodes_one_channel=§eПоказывать узлы сети и один канал
 item.appliedenergistics2.ToolNetworkVisualiser.mode.one_channel=§eПоказывать один канал
-item.appliedenergistics2.ToolNetworkVisualiser.mode.p2p=§eShow P2P Links
-item.appliedenergistics2.ToolNetworkVisualiser.mode.proxy=§eShow Crafting Input Proxy Links
+item.appliedenergistics2.ToolNetworkVisualiser.mode.p2p=§eПоказывать P2P-соединения
+item.appliedenergistics2.ToolNetworkVisualiser.mode.proxy=§eПоказывать связи прокси-входов автокрафта
 
 item.appliedenergistics2.WirelessMessages.BoundAdvancedFilled=§cЦель уже в очереди
 item.appliedenergistics2.WirelessMessages.Disconnected=Беспроводной %s отключен %s
@@ -1184,22 +1184,22 @@ item.appliedenergistics2.WirelessMessages.Mode=Режим: %s
 item.appliedenergistics2.WirelessMessages.SetMode=Режим изменён на %s
 
 item.appliedenergistics2.WirelessMessages.Simple=§eПростой
-item.appliedenergistics2.WirelessMessages.SimpleEmpty=Click Wireless Connector to bind
-item.appliedenergistics2.WirelessMessages.SimpleBound=§aBound to %s
+item.appliedenergistics2.WirelessMessages.SimpleEmpty=Используйте на беспроводном соединителе для привязки
+item.appliedenergistics2.WirelessMessages.SimpleBound=§aПривязано к %s
 item.appliedenergistics2.WirelessMessages.SimpleBounded=Кликни по другому беспроводному соединителю, чтобы привязать
 
 item.appliedenergistics2.WirelessMessages.Advanced=§eПродвинутый
 item.appliedenergistics2.WirelessMessages.AdvancedLine=§eПродвинутый(линия)
 item.appliedenergistics2.WirelessMessages.AdvancedActivated=%s §aactivated
-item.appliedenergistics2.WirelessMessages.AdvancedNext=§9Next connector in queue: %s
-item.appliedenergistics2.WirelessMessages.AdvancedHowToggle=Sneak + R-click to toggle advanced modes
-item.appliedenergistics2.WirelessMessages.AdvancedNoConnectors=No connectors found in the queue. Try putting the tool into queuing mode and adding some
+item.appliedenergistics2.WirelessMessages.AdvancedNext=§9Следующий соединитель в очереди: %s
+item.appliedenergistics2.WirelessMessages.AdvancedHowToggle=Крадучись, нажмите ПКМ для смены расширенного режима
+item.appliedenergistics2.WirelessMessages.AdvancedNoConnectors=Соединители в очереди не найдены. Переведите инструмент в режим очереди и добавьте соединители
 
 item.appliedenergistics2.WirelessMessages.AdvancedQueueing=§aРежим очереди
 item.appliedenergistics2.WirelessMessages.AdvancedQueueEmpty=§9Используйте на беспроводном соединителе для привязки очереди
 item.appliedenergistics2.WirelessMessages.AdvancedQueueNotEmpty=§9Данный беспроводной соединитель в очередь:
 item.appliedenergistics2.WirelessMessages.AdvancedQueueingLineNotEmpty=§9Switch to Binding Line mode to perform the connection
-item.appliedenergistics2.WirelessMessages.AdvancedQueued=§aAdded connector at %s §ato the queue
+item.appliedenergistics2.WirelessMessages.AdvancedQueued=§aСоединитель по координатам %s §aдобавлен в очередь
 item.appliedenergistics2.WirelessMessages.AdvancedQueueingHubQol=Ctrl + ПКМ чтобы добавить все свободные слоты хаба в очередь
 item.appliedenergistics2.WirelessMessages.AdvancedQueueingHub=%s слотов хаба добавлены в очередь
 item.appliedenergistics2.WirelessMessages.AdvancedQueueingTargetHubFull=All free slots of target hub already queued

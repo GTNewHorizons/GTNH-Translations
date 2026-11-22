@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31080
-quest_ids:
-  - 0rUmaWIPQPaL93q-_pgKXw
+bindings:
+  - {type: "betterquesting", id: "0rUmaWIPQPaL93q-_pgKXw"}
 navigation:
   title: Steam Separator
   parent: ./multiblocks_index.md

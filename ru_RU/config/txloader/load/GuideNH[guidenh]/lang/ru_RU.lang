@@ -348,8 +348,11 @@ guideme.guidebook.GuideEditorFluidRecipe=Fluid Recipe
 guideme.guidebook.GuideEditorRecipesFor=Recipes For
 guideme.guidebook.GuideEditorFluidUsage=Fluid Usage
 guideme.guidebook.GuideEditorRedo=Redo
+guideme.guidebook.GuideEditorReference=Authoring Reference
+guideme.guidebook.GuideEditorReferenceCopy=Copy Topic Markdown
 guideme.guidebook.GuideEditorReferenceImage=Reference Image
 guideme.guidebook.GuideEditorReferenceLink=Reference Link
+guideme.guidebook.GuideEditorReferenceSearch=Search tags, attributes and examples
 guideme.guidebook.GuideEditorRemoveBlocks=Remove Blocks
 guideme.guidebook.GuideEditorReplaceBlock=Replace Block
 guideme.guidebook.GuideEditorRow=Row
@@ -670,6 +673,18 @@ guidenh.siteexport.language.ja_jp=Японский
 guidenh.siteexport.language.ko_kr=Корейский
 guidenh.siteexport.language.ru_ru=Русский
 
+guidenh.binding.missing=Content not found: %s
+guidenh.binding.native_site=Open this guide in GuideNH to view the native content.
+guidenh.binding.no_guide=No guide page is bound to this content: %s
+guidenh.binding.state.completed=Completed
+guidenh.binding.state.hidden=Hidden content
+guidenh.binding.state.locked=Locked
+guidenh.binding.state.missing=Content not found
+guidenh.binding.state.unavailable=Integration unavailable
+guidenh.binding.state.unknown=Progress unknown
+guidenh.binding.state.visible=Visible
+guidenh.binding.unavailable=This content cannot be opened: %s
+
 # BetterQuesting compatibility
 guidenh.compat.bq.hidden=[Скрытый квест]
 guidenh.compat.bq.locked=[Заблокированный квест]
@@ -717,6 +732,10 @@ guidenh.debug.info.parent_element=Parent Element:
 guidenh.debug.info.class_name=Класс: %s
 guidenh.debug.info.size=Размер: %s x %s
 guidenh.debug.info.position=Позиция: %s, %s
+
+# NEI action links
+guidenh.nei.link.unavailable=NEI is not available. The guide remains open.
+guidenh.nei.link.no_recipes=No NEI recipes were found for this link.
 
 # ServerUtilities Sidebar button
 sidebar_button.guidenh.guide=Guides
