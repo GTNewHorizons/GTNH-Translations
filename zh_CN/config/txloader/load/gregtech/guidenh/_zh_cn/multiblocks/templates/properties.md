@@ -1,35 +1,35 @@
 <NoInclude>
-  # Machine Property template
+  # 机器属性模板
 
-  ## Params
-  | name | type | details |
+  ## 参数
+  | 名称 | 类型 | 说明 |
   | --- | --- | --- |
-  | tier | `string` | Unlock tier for machine |
-  | size | `string` | Size for machine(LxWxH). can use `Varies` to present resizable machines |
-  | power | `PowerEnum?` | Energy/Dynamo hatch restriction. default="regular" |
-  | oc | `OCEnum?` | Overclock property. default="imperfect" |
-  | reqMaintenance | `boolean?` | Maintenance Required, default=false |
-  | pollution | `number?` | Pollution machine generates by gibbl/s. default=no pollution |
-  | reqMuffler | `boolean?` | Muffler hatch required, default=false |
+  | tier | `string` | 机器的解锁等级 |
+  | size | `string` | 机器的结构尺寸（长×宽×高）。尺寸可变时可使用 `Varies` |
+  | power | `PowerEnum?` | 对能源仓或动力仓的限制。默认为 "regular" |
+  | oc | `OCEnum?` | 超频类型。默认为 "imperfect" |
+  | reqMaintenance | `boolean?` | 是否需要维护，默认为 false |
+  | pollution | `number?` | 机器产生的污染，单位为 gibbl/s。默认无污染 |
+  | reqMuffler | `boolean?` | 是否需要消声仓，默认为 false |
 
-  ## Type
+  ## 类型
   ### PowerEnum
-  - `regular`: Regular
-  - `any`: Any Hatches allowed, includes Multi-Amp and Laser Hatches
-  - `unlockable`: Regular, but upgrading tier can unlock restrictions
-  - `none`: None
-  - `under4a`: Lower than 4A
-  - `varies`: Varies
+  - `regular`：普通仓
+  - `any`：允许任意仓，包括多安仓和激光仓
+  - `unlockable`：仅限普通仓，可通过升级等级解除限制
+  - `none`：无
+  - `under4a`：低于 4 A
+  - `varies`：视情况而定
 
   ### OCEnum 
-  - `imperfect`: Imperfect
-  - `perfect`: Perfect
-  - `unique`: Unique
-  - `none`: None
-  - `mixed`: Mixed
-  - `varies`: Varies
+  - `imperfect`：非完美超频
+  - `perfect`：完美超频
+  - `unique`：特殊超频
+  - `none`：无
+  - `mixed`：混合超频
+  - `varies`：视情况而定
 
-  ## Examples
+  ## 示例
   ```mdx
   <Template name="properties"
     tier="MV"
@@ -43,60 +43,60 @@
 
 <IncludeOnly>
   <table>
-    <thead><tr><th>Property</th><th>Details</th></tr></thead>
+    <thead><tr><th>属性</th><th>详情</th></tr></thead>
     <tbody>
-      <tr><td>Unlock Tier</td><td><Param name="tier">&cNo Tier Provided&r</Param></td></tr>
+      <tr><td>解锁等级</td><td><Param name="tier">&c未指定等级&r</Param></td></tr>
       
-      <tr><td>Structure Size(LxWxH)</td><td><Param name="size">&cNo Size Provided&r</Param></td></tr>
+      <tr><td>结构尺寸（长×宽×高）</td><td><Param name="size">&c未指定尺寸&r</Param></td></tr>
       
       <tr>
-        <td>Power</td>
+        <td>电力</td>
         <td>
           <Switch test="power">
-            <Case value="any">Any Hatches allowed, includes Multi-Amp and Laser Hatches</Case>
-            <Case value="unlockable">Regular, but upgrading tier can unlock restrictions</Case>
-            <Case value="none">None</Case>
-            <Case value="under4a">Lower than 4A</Case>
-            <Case value="varies">Varies</Case>
-            <Default>Regular</Default>
+            <Case value="any">允许任意仓，包括多安仓和激光仓</Case>
+            <Case value="unlockable">仅限普通仓，可通过升级等级解除限制</Case>
+            <Case value="none">无</Case>
+            <Case value="under4a">低于 4 A</Case>
+            <Case value="varies">视情况而定</Case>
+            <Default>普通仓</Default>
           </Switch>
         </td>
       </tr>
       
       <tr>
-        <td>Overclocks</td>
+        <td>超频</td>
         <td>
           <Switch test="oc">
-            <Case value="perfect">Perfect</Case>
-            <Case value="unique">Unique</Case>
-            <Case value="none">None</Case>
-            <Case value="mixed">Mixed</Case>
-            <Case value="varies">Varies</Case>
-            <Default>Imperfect</Default>
+            <Case value="perfect">完美超频</Case>
+            <Case value="unique">特殊超频</Case>
+            <Case value="none">无</Case>
+            <Case value="mixed">混合超频</Case>
+            <Case value="varies">视情况而定</Case>
+            <Default>非完美超频</Default>
           </Switch>
         </td>
       </tr>
       
       <tr>
-        <td>Maintenance</td>
+        <td>维护</td>
         <td>
           <Switch test="reqMaintenance">
-            <Case value="">Need Maintenance</Case>
-            <Default>No Maintenance Needed</Default>
+            <Case value="">需要维护</Case>
+            <Default>无需维护</Default>
           </Switch>
         </td>
       </tr>
       
       <tr>
-        <td>Pollution</td>
+        <td>污染</td>
         <td>
           <If test="pollution">
-            Produces &r<Param name="pollution" />&r gibbl/s pollution
+            产生 &r<Param name="pollution" />&r gibbl/s 污染
             <Switch test="reqMuffler">
-              <Case value="">, and require Muffler Hatch</Case>
+              <Case value="">，需要消声仓</Case>
               <Default></Default>
             </Switch>
-            <Else>Produces no pollution</Else>
+            <Else>无污染</Else>
           </If>
         </td>
       </tr>

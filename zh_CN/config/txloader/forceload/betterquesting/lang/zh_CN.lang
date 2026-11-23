@@ -5401,7 +5401,7 @@ betterquesting.quest.If475S_dQ5y_f8KcSRHeXQ.desc=它并不能产出赛特斯石�
 
 # Quest: A Summary of Crossbreeding
 betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.name=杂交综论
-betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=进行任何作物育种时，你都必须牢记以下两点：%n%n- [note]亲本的成熟度必须至少达到80%%§r[/note]才能参与杂交，无论其是否还能继续生长。%n- [note]子代必须满足全部生长条件才能生成。[/note]%n%n育种时，子代的属性值以§o实际参与育种的§r亲本属性值的平均值（向下取整）为基础，再加上一个可正可负的随机修正值。%n%n这一随机修正值的取值范围取决于两个因素：参与育种的亲本数量，以及亲本储存的肥料量。%n%n- 在游戏前期，使用多个亲本育种是尝试提升作物属性的唯一途径，但效率很低。%n- 施肥可以扩大多亲本育种时的属性变化范围，并使单亲本繁殖时的属性更加稳定。%n- 使用作物管理器施肥，可以快速提升作物的属性。%n%n多亲本育种：%n- 肥料量为0～49：-1 ～ +1（-1和+1出现的概率较高）%n- 肥料量为50～100：-2 ～ +2%n- 肥料量为101及以上：0 ～ +4（有40%%的概率为0）%n%n单亲本繁殖：%n- 肥料量为0～49：-1 ～ 0（0出现的概率较高）%n- 肥料量为50～100：属性不发生随机变化%n- 肥料量为100及以上：0 ～ +4（有40%%的概率为0）%n%n育种时，子代有50%%的概率与其中一个亲本属于同一物种。此时，仅使用与子代物种相同的所有亲本计算属性平均值，并向下取整。%n%n获得新物种有两种方式：随机突变和确定性突变。%n%n大多数作物都拥有一个或多个突变池。突变池可以理解为与各作物相关联的一组标签。育种时，如果部分亲本共享一个或多个突变池，就有可能发生随机突变。由此产生的子代必定属于这些共享突变池中的某个物种。%n%n[note]一旦你获得了第一颗31/31/31的种子，就可以利用这些随机突变来收集各种不同的作物。[/note]%n%n确定性育种与蜜蜂杂交类似，需要将特定的物种组合在一起。某些情况下需要两个以上的亲本，且所有亲本都必须与杂交架相邻。%n%n在游戏前期，你通常可以通过调整杂交架所在位置的土壤、底土和环境条件，控制随机突变的结果，从而实现类似确定性育种的效果。不过，这种方法通常比确定性突变慢得多，如果需要单独筛选出目标作物，还可能需要频繁照看。%n%n[note]确定性突变的优先级始终高于随机突变。§r[/note]%n%n[note]高级作物（§5MV§r及以上材料）需要使用育种机。[/note]
+betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=进行任何作物育种时，你都必须牢记以下两点：%n%n- [note]亲本的成熟度必须至少达到80%%§r[/note]才能参与杂交，无论其是否还能继续生长。%n- [note]只有满足子代的生长条件，它才会生成。[/note]%n%n育种时，子代的属性值以§o实际参与育种的§r亲本属性值的平均值（向下取整）为基础，再加上一个可正可负的随机修正值。%n%n这一随机修正值的取值范围取决于两个因素：参与育种的亲本数量，以及所有参与育种的亲本中储存的最低肥料量。%n%n- 在游戏前期，使用多个亲本育种是尝试提升作物属性的唯一途径，但效率很低。%n- 施肥可以扩大多亲本育种时的属性变化范围，并使单亲本繁殖时的属性更加稳定。%n- 使用作物管理器施肥，可以快速提升作物的属性。%n%n多亲本育种：%n- 肥料量为0～49：-1 ～ +1（-1和+1出现的概率较高）%n- 肥料量为50～100：-2 ～ +2%n- 肥料量为101及以上：0 ～ +4（每项属性有约43%%的概率为0）%n%n单亲本繁殖：%n- 肥料量为0～49：-1 ～ 0（0出现的概率较高）%n- 肥料量为50～100：属性不发生随机变化%n- 肥料量为101及以上：0 ～ +4（每项属性有约43%%的概率为0）%n%n育种时，子代有50%%的概率与其中一个亲本属于同一物种。此时，仅使用与子代物种相同的所有亲本计算属性平均值，并向下取整。%n%n获得新物种有两种方式：随机突变和确定性突变。%n%n大多数作物都拥有一个或多个突变池。突变池可以理解为与各作物相关联的一组标签。育种时，如果部分亲本共享一个或多个突变池，就有可能发生随机突变。由此产生的子代必定属于这些共享突变池中的某个物种。%n%n[note]一旦你获得了第一颗31/31/31的种子，就可以利用这些随机突变来收集各种不同的作物。[/note]%n%n确定性育种与蜜蜂杂交类似，需要将特定的物种组合在一起。某些情况下需要两个以上的亲本，且所有亲本都必须与杂交架相邻。在游戏前期，你通常可以通过调整杂交架所在位置的土壤、底土和环境条件，控制随机突变的结果，从而实现类似确定性育种的效果。即便你能将突变池范围缩小到只剩你想要的作物，这种方法通常也比确定性育种慢得多，而且还可能需要频繁照看。%n%n[note]确定性突变的优先级始终高于随机突变。§r[/note]%n%n[note]高级作物（§5MV§r及以上材料）需要使用育种机。[/note]%n%n
 
 # Quest: Thauminite Berries
 betterquesting.quest.J04fEo0DTReAF9BJlQZ9RA.name=秘晶浆果
@@ -5541,7 +5541,7 @@ betterquesting.quest.Z4d2MWOOTyuBxdWVoaOMkQ.desc=钨的优秀来源。%n%n钨叶
 
 # Quest: Simple Propagation
 betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.name=轻松繁殖
-betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.desc=繁殖你的植物很简单，只需将双作物架放置在成熟植物旁边，然后等待即可。%n%n只要这根双作物架周围没有其他作物，你的作物便会自然长到它上面。%n%n[warn]进行此操作时，请确保为你的作物施肥（50+肥料），否则你的属性可能会下降。[/warn]%n%n[note]就像任意其他类型的繁殖一样，你的作物需要达到至少80%%成熟度才能自行繁殖。[/note]
+betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.desc=繁殖你的植物很简单，只需将双作物架放置在成熟植物旁边，然后等待即可。%n%n只要这根双作物架周围没有其他作物，你的作物便会自然长到它上面。%n%n若想完全复制亲本的属性，请确保亲本储存有50～100点肥料。若低于50点，子代的属性便可能会下降。%n%n在LV阶段之前，若想提升作物的属性，就需要使用两个或更多亲本进行育种。手动施肥的上限为100点。一旦你拥有了LV作物管理器，就可以用它把亲本的肥料提升至101点及以上。达到这一水平后，哪怕只有一个亲本，也能培育出属性更优的子代。%n%n[note]就像任意其他类型的繁殖一样，你的作物需要达到至少80%%成熟度才能自行繁殖。[/note]
 
 # Quest: Flower Power!
 betterquesting.quest._D2Fw1VcSoqeHHMb8aK5DA.name=花的力量！
@@ -15241,8 +15241,8 @@ betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.name=触发：跳过穿梭机火箭
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.desc=没有描述
 
 # Quest: Trigger: The Roots of Magic
-betterquesting.quest.89FPlXAUS1iUHJlEg0iK7Q.name=Trigger: The Roots of Magic
-betterquesting.quest.89FPlXAUS1iUHJlEg0iK7Q.desc=No Description
+betterquesting.quest.89FPlXAUS1iUHJlEg0iK7Q.name=触发：魔法的根基
+betterquesting.quest.89FPlXAUS1iUHJlEg0iK7Q.desc=没有描述。
 
 # Quest: Trigger: Naquadria Skip
 betterquesting.quest.8EErMy6nSaORxRLGLEKZMQ.name=触发：跳过超能硅岩
@@ -15493,7 +15493,7 @@ betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.name=触发：跳过石莲教程
 betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.desc=
 
 # Quest: Trigger: Twilight Portal Skip
-betterquesting.quest.yNfD7gXVSraw9bWbtfPzIw.name=Trigger: Twilight Portal Skip
+betterquesting.quest.yNfD7gXVSraw9bWbtfPzIw.name=触发：跳过暮色传送门
 betterquesting.quest.yNfD7gXVSraw9bWbtfPzIw.desc=
 
 # Quest: Trigger: Rocket Tier 8 Skip

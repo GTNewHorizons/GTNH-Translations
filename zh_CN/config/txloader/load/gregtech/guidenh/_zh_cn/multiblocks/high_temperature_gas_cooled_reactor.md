@@ -49,9 +49,9 @@ item_ids:
 bindings:
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAMbg=="}
 navigation:
-  title: High Temperature Gas-Cooled Reactor
+  title: 高温气冷反应堆
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:12791
   position: -5001
 ---
-# High Temperature Gas-Cooled Reactor
+# 高温气冷反应堆

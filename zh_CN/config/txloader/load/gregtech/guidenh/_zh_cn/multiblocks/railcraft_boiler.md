@@ -10,9 +10,9 @@ bindings:
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAACLw=="}
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAACMg=="}
 navigation:
-  title: Railcraft Boiler
+  title: 铁路锅炉
   parent: ./multiblocks_index.md
   icon: Railcraft:machine.beta:5
   position: -501
 ---
-# Railcraft Boiler
+# 铁路锅炉

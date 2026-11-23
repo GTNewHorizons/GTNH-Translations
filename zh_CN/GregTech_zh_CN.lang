@@ -2202,17 +2202,17 @@ languagefile {
     S:gt.blockmachines.gtpp.multimachine.flotationcell.tooltip_secondary=§f尺寸：§67§7x§67§7x§69§7（§6长§7x§6宽§7x§6高§7）§c（中空）\n§f结构：\n   §f控制器：  §7顶部中央\n   §668+ §f强化镍铬基合金机械方块\n   §652+ §f浮选机机械方块\n§f   输入总线： §7底层机械方块\n§f   输入仓： §7底层机械方块\n§f   输出仓： §7底层机械方块\n§f   能源仓： §7底层机械方块\n§f   维护仓： §7底层机械方块\n§7§m------------------------------\n§f使用多方块机器§9全息§1投影仪§f来预览或建造该结构！
     S:gt.blockmachines.hatch.bec.tooltip=§7机器类型：§e玻-爱凝聚态物质仓
     S:gt.blockmachines.hatch.capacitor.tier.03.tooltip=用于特斯拉电塔\n§b存储能量！（短暂）
-    S:gt.blockmachines.hatch.condensate-detector.tooltip=§7机器类型：§e玻-爱凝聚态物质检测仓\n§7检测§6玻色-爱因斯坦凝聚态物质约束场§6§7内存储的凝聚态物质数量。\n§7当条件满足时输出红石信号。\n§7可在UI中配置检测条件。\n§7凝聚态物质过滤器留空时，将统计所有已储存的凝聚态物质。
+    S:gt.blockmachines.hatch.condensate-detector.tooltip=§7机器类型：§e玻-爱凝聚态物质仓室\n§7检测§6玻色-爱因斯坦凝聚态物质约束场§7内存储的凝聚态物质数量\n§7若设置的条件满足则输出红石信号\n§7可在UI中配置检测条件\n§7凝聚态物质过滤器留空时，将统计所有已储存的凝聚态物质
     S:gt.blockmachines.hatch.datain.tier.07.tooltip=多方块机器的算力输入端\n高速光纤接口\n§b启用前必须涂色
     S:gt.blockmachines.hatch.dataout.tier.07.tooltip=多方块机器的算力输出端\n高速光纤接口\n§b启用前必须涂色
     S:gt.blockmachines.hatch.dataoutass.tier.07.tooltip=多方块机器的配方数据输出端\n高速光纤接口\n§b启用前必须涂色
     S:gt.blockmachines.hatch.holder.tier.09.tooltip=研究站的组件\n§b进阶固定装置！
-    S:gt.blockmachines.hatch.io-node-controller.tooltip=§7机器类型：§e玻-爱凝聚态物质I/O节点控制仓\n§7收到红石信号时暂停§6玻色-爱因斯坦凝聚态物质传输节点§6§7\n§7节点可立即暂停，或在进入下一步骤时暂停。\n§7暂停的节点不会消耗凝聚态，也不会因污染物而失败。\n§7节点可在配方开始前暂停，使其在配方开始后立即进入待机状态。
-    S:gt.blockmachines.hatch.line-of-sight-connector.tooltip=§7连接到另一个§6视线连接仓§6§7。\n§7连接仓必须面向对方。\n§7使用不透明方块阻断连接。\n§7两个连接仓之间的最大距离为§a128§7个方块。
+    S:gt.blockmachines.hatch.io-node-controller.tooltip=§7机器类型：§e玻-爱凝聚态物质仓室\n§7§6暂停控制\n§7收到红石信号时暂停§6玻色-爱因斯坦凝聚态物质传送节点§6§7\n§7节点可立即暂停，或在进入下一步骤时暂停\n§7暂停的节点不会消耗凝聚态物质也不会因污染物而失败，但仍消耗能量\n§7节点也可在配方开始后进行处理前立即进入待机状态\n§7§m-----------------------------------------\n§7§6并行数控制\n§7控制§6玻色-爱因斯坦凝聚态物质传送节点§6§7处理配方时的最大并行数\n§7§d尾数§7部分数值取决于接收到的红石信号强度\n§7§d指数§7部分数值取决于提供的虚拟编程电路数值\n§7§6并行§7§f = 尾数 × 16^指数\n§7可同时使用多个§6传送节点控制仓§6§7，其§6并行§7数值将会相加
+    S:gt.blockmachines.hatch.line-of-sight-connector.tooltip=§7机器类型：§e玻-爱凝聚态物质仓室\n§7将§6观测阵列§7连接到§6传送节点§7（IO节点）\n§7连接仓必须面向对方，且距离不超过§a128§7个方块\n§7不透明方块会阻断连接
     S:gt.blockmachines.hatch.maintenance.magic.name=Vis自动维护仓
     S:gt.blockmachines.hatch.mmuplink.me.name=量子上行链路ME连接仓
     S:gt.blockmachines.hatch.mmuplink.me.tooltip=量子上行链路ME连接仓。\n使用剪线钳右键点击可更改ME连接行为。\n使用螺丝刀右键点击可清除所有已存储计划并取消所有作业。
-    S:gt.blockmachines.hatch.nanite-detector.tooltip=§7机器类型：§e玻-爱凝聚态物质纳米蜂群探测仓\n§7检测§6玻色-爱因斯坦凝聚态物质传输节点§6§7所请求的纳米蜂群等级\n§7当条件满足时输出红石信号。\n§7可在UI中配置检测条件。\n§7§6模拟模式§7下将忽略阈值，并输出模拟红石信号。
+    S:gt.blockmachines.hatch.nanite-detector.tooltip=§7机器类型：§e玻-爱凝聚态物质仓室\n§7检测§6玻色-爱因斯坦凝聚态物质传输节点§6§7所请求的纳米蜂群等级\n§7当设定的条件满足时输出红石信号\n§7可在UI中配置检测条件\n§7§6模拟模式§7下将忽略阈值，并输出模拟红石信号
     S:gt.blockmachines.hatch.rack.tier.08.tooltip=4个格子的机箱\n§b用以放置电脑元件
     S:gt.blockmachines.hatch.steam.input.debug.tooltip=蒸汽多方块结构的Debug流体输入\n每30秒自动补充\n容量：§f200,000,000L\n§o谁需要这么多§e§o蒸汽§r§o？？？
     S:gt.blockmachines.hatch.vendinguplink.me.name=ME自动售货机上行链路仓
@@ -2448,11 +2448,11 @@ languagefile {
     S:gt.blockmachines.multimachine.vendingmachine.tooltip_secondary=§f尺寸：§61§7x§62§7x§63§7（§6长§7x§6宽§7x§6高§7）\n§f结构：\n   §f控制器：§7第二层中右\n   §64-5 §f自动售货机机械方块\n   §e0-1 §fME自动售货机上行链路仓：§7任意机械方块\n\n不能侧向放置\n§7§m------------------------------\n§f使用多方块机器§9全息§1投影仪§f来预览或建造该结构！
     S:gt.blockmachines.nag.tooltip=机器类型：§e硅岩反应堆，LNR§r\n§4已弃用，此控制器将在下次大更新时移除！\n§4请检查NEI，浏览新控制器及其转换配方\n环境友好型！\n从高能流体中获取能量\n运行时需要消耗§b2400L/s液态空气§7，否则§e你的燃料将被销毁§7。\n输入仓内出现不止§c一种§7燃料时，反应堆会爆炸！\n输入液态核燃料或液态硅岩燃料\n§7§m-----------------------------------------\n能够消耗§9冷却液§f提升§d效率§7：\n§f1000 L/s§7 ： §d105% §7： §9IC2冷却液\n§f1000 L/s§7 ： §d150% §7： §9超级冷却液\n§f1000 L/s§7 ： §d275% §7： §9极寒之凛冰\n§f20 L/s§7 ： §d500% §7： §9富快子时间流体\n§7§m-----------------------------------------\n能够消耗§c激发流体§f，同时提升§d能量输出和燃料消耗§7：\n§f180 L/s §7： §d2x power §7： §c熔融铯\n§f180 L/s §7： §d3x power §7： §c熔融铀-235\n§f20 L/s §7： §d4x power §7： §c熔融硅岩\n§f20 L/s §7： §d16x power §7： §c熔融原子分离催化剂\n§f20 L/s §7： §d64x power §7： §c扩大化空间流体\n§a支持多安仓和激光仓！\n§7§m-----------------------------------------\n按住§l[LSHIFT]§r§7以显示结构指导
     S:gt.blockmachines.nag.tooltip_secondary=§f尺寸：§67§7x§67§7x§68§7（§6长§7x§6宽§7x§6高§7）§c（中空）\n§f结构：\n   §f控制器：§7正面底中\n   §648 §f力场约束机械方块\n   §636 §f防辐射钢框架\n   §66 §f钨钢管道方块\n   §6121 §f防辐射机械方块\n§f   动力仓：§7任意底层机械方块，只接受一个！\n§f   输入仓：§7任意底层机械方块\n§f   输出仓：§7任意底层机械方块\n§f   维护仓：§7任意底层机械方块\n§7§m------------------------------\n§f使用多方块机器§9全息§1投影仪§f来预览或建造该结构！
-    S:gt.blockmachines.pipe.bec.tooltip=§7机器类型：§e玻-爱凝聚态物质导管\n§7将多个玻色-爱因斯坦凝聚态物质的多方块结构连接成一个网络。\n§7多方块结构必须拥有一个§6玻色-爱因斯坦凝聚态物质仓§6§7，该仓室连接导管后才能接入网络。\n§7使用§6玻色-爱因斯坦凝聚态麦克斯韦门§6§7来控制凝聚态物质的流动。\n§7管道可拆分或转向——多方块结构只需互相连接即可组网。\n§7只会连接与其颜色匹配的管道及仓室。
+    S:gt.blockmachines.pipe.bec.tooltip=§7将多个玻-爱凝聚态物质的多方块结构连接成一个网络\n§7连接到玻-爱凝聚态物质多方块结构上的§6玻色-爱因斯坦凝聚态物质仓§6§7\n§7管道可拆分或转向，但只会连接与其颜色匹配的管道及仓室\n§7使用§6玻色-爱因斯坦凝聚态麦克斯韦门§6§7来控制凝聚态物质的可见性和流动。
     S:gt.blockmachines.planetarygassiphon.tooltip=机器类型：§e泵，PGS§r\n§4已弃用，此控制器将在下次大更新时移除！\n§4请检查NEI，浏览新控制器及其转换配方\n§o%s\n建造于绕行气态行星的空间站上\n使用编程电路设置抽取的深度（1-4）\n需提供64x深度的采矿管道\n能量消耗取决于星球等级和深度，详情查看NEI页面。\n可加载所在区块（电烙铁切换）\n§7§m-----------------------------------------\n按住§l[LSHIFT]§r§7以显示结构指导
     S:gt.blockmachines.planetarygassiphon.tooltip_secondary=§f尺寸：§63§7x§63§7x§67§7（§6长§7x§6宽§7x§6高§7）\n§f结构：\n   §f控制器：  §7正面底中\n§f   行星虹吸机械方块：  §73x1x3，基座（中空），至少§63§7个\n§f   强化镀铑钯机械方块：§71x4x1，基座中央的立柱\n§f   钨钢框架：§71x3x1立柱的每个侧面与上方\n§f   能源仓：  §7任意行星虹吸机械方块\n§f   维护仓：  §7任意行星虹吸机械方块\n§f   输入总线：§7任意行星虹吸机械方块\n§f   输出仓：  §7任意行星虹吸机械方块\n   每种仓室必须有且仅有§61§7个！\n   §7§m------------------------------\n§f使用多方块机器§9全息§1投影仪§f来预览或建造该结构！
-    S:gt.blockmachines.quantum.chest.debug.name=Debug Chest
-    S:gt.blockmachines.quantum.chest.debug.tooltip=Stores 2,147,483,640 items\nUse a screwdriver to enable voiding items on overflow\nWill keep its contents when harvested
+    S:gt.blockmachines.quantum.chest.debug.name=Debug箱子
+    S:gt.blockmachines.quantum.chest.debug.tooltip=存储2,147,483,640个物品\n使用螺丝刀启用物品溢出销毁\n拆卸后保留其中内容
     S:gt.blockmachines.research_completer.name=奥法研究阐释者
     S:gt.blockmachines.supercriticalsteamturbine.tooltip=机器类型：§e超临界蒸汽涡轮，LST-SC§r\n§4已弃用，此控制器将在下次大更新时移除！\n§4请检查NEI，浏览新控制器及其转换配方\n需要涡轮转子（控制器方块的GUI中）\n利用超临界蒸汽发电\n对每1L超临界蒸汽，输出1L过热蒸汽并产出能量\n最佳流量会随模式的切换而改变\n使用螺丝刀以调整节流模式\n§7§m-----------------------------------------\n按住§l[LSHIFT]§r§7以显示结构指导
     S:gt.blockmachines.supercriticalsteamturbine.tooltip_secondary=§f尺寸：§64§7x§63§7x§63§7（§6长§7x§6宽§7x§6高§7）§c(中空)\n§f结构：\n§f   控制器：§7  正面中央\n§6   24+§f超临界涡轮机械方块\n§f   动力仓：§7  背面中央\n§f   维护仓：§7  侧面中央\n§f   输入仓：§7  超临界流体，侧面中央\n§f   输出仓：§7  过热蒸汽，侧面中央\n§7§m------------------------------\n§f使用多方块机器§9全息§1投影仪§f来查看或建造整体结构！

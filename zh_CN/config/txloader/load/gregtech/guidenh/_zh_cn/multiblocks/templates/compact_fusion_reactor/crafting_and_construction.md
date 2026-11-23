@@ -1,4 +1,4 @@
-### Crafting
+### 合成
 
 <RecipesFor id={<Param name="controllerId" />} handlerBlacklist="gt.recipe.scanner,gt.recipe.researchStation" />
 <RecipesFor id={<Param name="casingId" />} handlerBlacklist="gt.recipe.researchStation" />
@@ -6,25 +6,25 @@
 <RecipesFor id={<Param name="frameId" />} handlerBlacklist="gt.recipe.unpackager" />
 <RecipesFor id={<Param name="glassId" />} handlerBlacklist="enhancedlootbags,gt.recipe.chemicalbath" />
 
-### Structure
+### 结构
 
-The Compact Fusion Reactor is effectively a larger Fusion Reactor with similar restrictions on the location of the buses/hatches. Input hatches are limited to specific glass blocks on each side, output hatches are limited to the same glass blocks on each side, and energy hatches are limited to specific casings on each curve. 
+压缩核聚变反应堆可以视为更大型的核聚变反应堆，总线和仓的安装位置也有类似限制。输入仓和输出仓都只能替换各侧指定的玻璃方块，两者可用的位置相同。能源仓只能替换各段弧边的指定外壳。 
 
-The glass is NOT tiered--there is a very specific type of glass needed for each structure tier, but it can be either normal or transparent.
+这里用的不是等级玻璃。每个结构等级都有指定的玻璃种类，可选用普通或透明版本。
 
-Every tier has a minimum voltage for the energy hatches.
+各等级对能源仓都有最低电压要求。
 
-The Compact Fusion Reactor can be rotated or flipped.
+压缩核聚变反应堆可以旋转或翻转。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
+可用<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />预览或建造结构。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id={<Param name="controllerId" />} showIcon="left" /> | 1, Middle center, 4th layer |
+| <ItemLink id={<Param name="controllerId" />} showIcon="left" /> | 1 个，位于第 4 层正中心 |
 | <ItemLink id={<Param name="casingId" />} showIcon="left" /> | 1662-1695 |
 | <ItemLink id={<Param name="fusionCoilId" />} showIcon="left" /> | 560 |
 | <ItemLink id={<Param name="frameId" />} showIcon="left" /> | 128 |
 | <ItemLink id={<Param name="glassId" />} showIcon="left" /> | 63-93 |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1-32 |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 1+ |
-| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Output Hatch | 1+ |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="能源仓">可使用普通、多安或激光能源仓</Tooltip> | 1-32 个 |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓 | 1 个或更多 |
+| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />输出仓 | 1 个或更多 |

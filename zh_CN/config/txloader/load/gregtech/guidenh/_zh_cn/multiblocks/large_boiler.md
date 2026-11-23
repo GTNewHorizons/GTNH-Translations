@@ -11,9 +11,9 @@ bindings:
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADFA=="}
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAMIQ=="}
 navigation:
-  title: Large Boiler
+  title: 大型锅炉
   parent: ./multiblocks_index.md
   icon: Railcraft:machine.beta:5
   position: -2001
 ---
-# Large Boiler
+# 大型锅炉

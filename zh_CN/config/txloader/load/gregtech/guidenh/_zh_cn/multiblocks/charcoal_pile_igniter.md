@@ -4,81 +4,81 @@ item_ids:
 bindings:
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAB8Q=="}
 navigation:
-  title: Charcoal Pile Igniter
+  title: 木炭堆点火器
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1155
   position: -501
 ---
-# Charcoal Pile Igniter
+# 木炭堆点火器
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructure src="/assets/structures/cpi_structure.snbt" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1155" showIcon="left" /> (CPI) is a Steam tier multiblock for mass producing charcoal from logs. 
+<ItemLink id="gregtech:gt.blockmachines:1155" showIcon="left" />（CPI）是蒸汽时代的多方块机器，用于将原木批量烧成木炭。 
 
-The CPI is significantly faster than the [<ItemLink id="gregtech:gt.blockmachines:236" showIcon="left" />](./coke_oven.md) but cannot be automated, does not produce creosote oil, and generates pollution.
+木炭堆点火器的速度远高于[<ItemLink id="gregtech:gt.blockmachines:236" showIcon="left" />](./coke_oven.md)，但无法自动化，不产出杂酚油，并且会产生污染。
 
-The time required to convert logs into brittle charcoal blocks scales with the square root of the number of logs meaning larger batches are more efficient. A maximum size CPI takes 603 seconds to produce approximately 896 charcoal from 605 logs. That is nearly two orders of magnitude faster than the Coke Oven which takes 60 seconds to produce 1 charcoal from 1 log.
+将原木烧成易碎木炭块所需的时间与原木数量的平方根成正比，因此单批处理量越大，效率越高。最大规格的木炭堆点火器耗时 603 秒，可将 605 个原木烧成约 896 个木炭。焦炉每 60 秒只能将 1 个原木烧成 1 个木炭，两者的速度相差近两个数量级。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | Steam |
-| Structure Size (LxWxH) | 3-13x3-13x3-7 |
-| Power | None |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces 100 gibbl/s pollution |
+| 解锁等级 | 蒸汽时代 |
+| 结构尺寸（长×宽×高） | 3-13x3-13x3-7 |
+| 电力 | 无 |
+| 超频 | 无 |
+| 维护 | 无需维护 |
+| 污染 | 产生 100 gibbl/s 污染 |
 
-## Crafting and Construction
-### Crafting
+## 合成与建造
+### 合成
 <RecipesFor id="gregtech:gt.blockmachines:1155" />
 
-### Structure
-The dimensions of the CPI are incredibly flexible.
+### 结构
+木炭堆点火器的结构尺寸十分灵活。
 
-Brick floors from 1x1 to 11x11 are acceptable; they do not have to be square.
+砖块底面可以从 1x1 到 11x11，也可以铺成长方形。
 
-The logs can be stacked between 1 and 5 layers, without any air gaps. The machine will not form if there are missing logs inside the structure.  
-The type of logs can be mixed and they can have any rotation.
+原木可以堆叠 1 至 5 层，中间必须填满。结构内部缺少原木时，机器无法成型。  
+原木种类可以混用，朝向不限。
 
-After the logs are placed, surround the logs in dirt or grass.
+放好原木后，用泥土或草方块围住原木堆。
 
-Finally, place the CPI controller on the top layer, so that a log is at the bottom of the machine.
+最后把木炭堆点火器控制器放在最上层，使其正下方紧贴一块原木。
 
-The controller always faces upward - you cannot rotate it to face in any other direction.
+控制器始终朝上，无法旋转至其他方向。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:1155" showIcon="left" /> | 1, Top layer, touching a log below |
-| <ItemImage id="minecraft:log" />Any Log | 1-605, Fills the cube formed by dirts and bricks |
-| <ItemImage id="minecraft:dirt" />Dirt or Grass | 4-340, Covering the logs |
-| <ItemLink id="minecraft:brick_block" showIcon="left" /> | 1-121, Underneath the logs |
+| <ItemLink id="gregtech:gt.blockmachines:1155" showIcon="left" /> | 1 个，位于最上层，正下方紧贴原木 |
+| <ItemImage id="minecraft:log" />任意原木 | 1-605 个，填满泥土和砖块围出的空间 |
+| <ItemImage id="minecraft:dirt" />泥土或草方块 | 4-340 个，覆盖原木 |
+| <ItemLink id="minecraft:brick_block" showIcon="left" /> | 1-121 个，铺在原木下方 |
 
-### Wallshare
+### 共用墙壁
 
-CPI cannot wallshare, and will not work when there are 2 or more controllers on the same pile.
+木炭堆点火器无法共用墙壁。同一堆原木上有 2 个或更多控制器时，机器无法运行。
 
-## Usage
+## 用途
 <FunctionGraph
-  title="Duration of CPI by Log Count"
-  width="260" wrap="square" align="right" xLabel="Logs" xRange="0..605"
+  title="原木数量与烧制时间"
+  width="260" wrap="square" align="right" xLabel="原木数量" xRange="0..605"
 >
-  <Plot expr="10*sqrt(6*x)" label="duration" />
+  <Plot expr="10*sqrt(6*x)" label="烧制时间" />
 
 </FunctionGraph>
 
-As soon as the structure is built correctly, the CPI controller lights up, starts spinning, and emits smoke to indicate that it has begun converting the logs into brittle charcoal blocks. 
+结构搭建正确后，控制器会立即亮起、旋转并冒烟，表示机器已开始将原木烧成易碎木炭块。 
 
-Use the following equation to determine the duration of the "recipe" (in seconds) from the total number of logs. Note that larger batches are more efficient because they produce more charcoal per second, on average.
+用下式可根据原木总量计算配方耗时（单位为秒）。单批处理量越大，平均每秒产出的木炭越多。
 
 <Latex formula="\text{Duration (s)}=10\sqrt{6 \times \text{Logs}}" />
 
-The pollution of the CPI similarly scales with the duration of the recipe and therefore the number of logs, as seen in the following equation. This always averages out to 100 gibbl/s, but the pollution is **released all at once at the very beginning** of a recipe instead of during processing. That means no additional pollution is generated while the machine is running despite the particle effects making it appear otherwise.
+机器产生的污染也与配方耗时成正比，因此会随原木数量变化，如下式所示。平均污染量始终为 100 gibbl/s，但污染会在**配方开始时一次性释放**。此后机器虽会继续显示粒子效果，运行期间却不会再产生污染。
 
 <Latex formula="\text{Pollution (gibbl)} = 100 \times \text{Duration}" />
 
-Once finished, the <ItemLink id="gregtech:gt.blockreinforced:4" showIcon="left" /> blocks inside the structure must be broken manually with an axe. Each block drops 1-2 charcoal, which is slightly more efficient than the [<ItemLink id="gregtech:gt.blockmachines:236" showIcon="left" />](./coke_oven.md) to compensate for the extra effort. Applying luck/fortune to an axe does **NOT** increase the charcoal drop rate, but you can use the Lumber Axe from Tinkers' Construct to clear them out much faster.
+烧制完成后，需要用斧手动砍掉结构内的<ItemLink id="gregtech:gt.blockreinforced:4" showIcon="left" />方块。每块掉落 1-2 个木炭，产率略高于[<ItemLink id="gregtech:gt.blockmachines:236" showIcon="left" />](./coke_oven.md)，以补偿额外的操作。斧上的幸运或时运不会提高木炭掉落量，但可以用匠魂的伐木斧加快清理。
 
 
-## References
-- [GTNH Wiki : Charcoal Pile Igniter](https://wiki.gtnewhorizons.com/wiki/Charcoal_Pile_Igniter)
+## 参考资料
+- [GTNH Wiki：木炭堆点火器](https://wiki.gtnewhorizons.com/wiki/Charcoal_Pile_Igniter)

@@ -18,9 +18,9 @@ bindings:
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADBA=="}
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAFfw=="}
 navigation:
-  title: Laser Engraver
+  title: 激光蚀刻机
   icon: gregtech:gt.blockmachines:441
   parent: ./singleblock_index.md
   position: 10
 ---
-# Laser Engraver
+# 激光蚀刻机

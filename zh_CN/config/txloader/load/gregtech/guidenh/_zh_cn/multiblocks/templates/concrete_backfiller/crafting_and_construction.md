@@ -1,28 +1,28 @@
-### Crafting
+### 合成
 
 <RecipesFor id={<Param name="controllerId" />} />
 <RecipesFor id={<Param name="casingId" />} handlerBlacklist="codechicken.nei.recipe.ShapelessRecipeHandler,bq_quest" />
 <RecipesFor id={<Param name="frameId" />} />
 
-### Structure
+### 结构
 
-The Concrete Backfiller is available in two tiers, but the only structural difference between them is the type of casings and the controller itself. 
+混凝土回填机有两个等级，结构差异仅在于所用外壳和控制器。 
 
-There can be multiple regular energy hatches for overclocking. 
+可以安装多个普通能源仓来超频。 
 
-An input/output bus is optional and exclusively for holding mining pipes (note that the controller is fixed to "Void all" voiding mode - the machine will void mining pipes if there is no space in the controller inventory).
+输入或输出总线为可选部件，仅用于存放采矿管。控制器固定为「全部销毁」溢出模式，如果控制器物品栏没有空间，机器会销毁采矿管。
 
-The Concrete Backfiller cannot be rotated or flipped.
+混凝土回填机无法旋转或翻转。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
+可用<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />预览或建造结构。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id={<Param name="controllerId" />} showIcon="left" /> | 1, Front bottom center |
+| <ItemLink id={<Param name="controllerId" />} showIcon="left" /> | 1 个，位于正面底层中央 |
 | <ItemLink id={<Param name="casingId" />} showIcon="left" /> | 3-8 |
 | <ItemLink id={<Param name="frameId" />} showIcon="left" /> | 15 |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed, need to be at least <Param name="tier" />+ </Tooltip> | 1+, Any 1st layer casing |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1, Any 1st layer casing |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 0+, Any 1st layer casing |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 1+, Any 1st layer casing |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 0+, Any 1st layer casing |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="能源仓">仅允许使用普通能源仓，等级至少为 <Param name="tier" />+ </Tooltip> | 1 个或更多，可替换第 1 层任意外壳 |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />维护仓 | 1 个，可替换第 1 层任意外壳 |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 0 个或更多，可替换第 1 层任意外壳 |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓 | 1 个或更多，可替换第 1 层任意外壳 |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线 | 0 个或更多，可替换第 1 层任意外壳 |

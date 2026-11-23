@@ -4,9 +4,9 @@ item_ids:
 bindings:
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAA2Q=="}
 navigation:
-  title: Personal Dimension
+  title: 私人维度
   parent: ./_index.md
   icon: personalspace:personalPortal
   position: -7
 ---
-# Personal Dimension
+# 私人维度

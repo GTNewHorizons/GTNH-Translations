@@ -7,9 +7,9 @@ bindings:
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADDw=="}
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAALDA=="}
 navigation:
-  title: Large Steam Turbine
+  title: 大型蒸汽涡轮
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15519
   position: -3001
 ---
-# Large Steam Turbine
+# 大型蒸汽涡轮

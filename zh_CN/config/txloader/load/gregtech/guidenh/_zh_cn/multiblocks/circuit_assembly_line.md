@@ -48,37 +48,37 @@ bindings:
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKLg=="}
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKKg=="}
 navigation:
-  title: Circuit Assembly Line
+  title: 电路装配线
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:12735
   position: -6001
 ---
-# Circuit Assembly Line
+# 电路装配线
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:12735" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" />(CAL) is an LuV tier multiblock specialized in circuit assembling. 
+<ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" />（CAL）是 LuV 等级的多方块机器，专门用于组装电路。 
 
-The CAL is a direct upgrade from the singleblock circuit assembler because it runs perfect overclocks and bulk recipes that are 1/6th the average cost for crystal, wetware, bioware, and optical circuits. However, the CAL is built as a series of slices similar to the regular [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) and inputs must be inserted in the exact order in which they appear in NEI. 
+电路装配线是单方块电路组装机的直接升级。它支持完美超频，晶体、湿件、生物和光学电路的批量配方平均只需原本 1/6 的成本。不过，电路装配线和普通[<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md)一样由多段结构组成，原料必须严格按 NEI 中的顺序放入。 
 
-The CAL must also be permanently imprinted with a specific circuit type which means it cannot process anything other than that; there is no universal setup and there are no data sticks/hatches. 
+电路装配线还必须永久压印为指定的电路种类，此后只可处理该种类的配方。它没有通用配置，也不使用闪存或数据仓。 
 
-The CAL has an alternate circuit assembler mode which allows it to craft normal circuit assembler recipes without inserting inputs in a specific order or across the different slices, although it can only process $$\text{Energy Hatch Tier}-1$$ tier recipes.
+电路装配线另有电路组装机模式，可以处理普通电路组装机配方。该模式对原料的放入顺序和所在分段没有要求，但只能处理低于能源仓等级一级（$$\text{Energy Hatch Tier}-1$$）的配方。
 
-The CAL is superseded by the [<ItemLink id="gregtech:gt.blockmachines:9500" showIcon="left" />](./nanochip_assembly_complex.md) in UEV.
+到了 UEV 阶段，可用[<ItemLink id="gregtech:gt.blockmachines:9500" showIcon="left" />](./nanochip_assembly_complex.md)取代电路装配线。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | LuV |
-| Structure Size (LxWxH) | 3x2-7x3 |
-| Power | Regular |
-| Overclocks | Perfect |
-| Maintenance | Need Maintenance |
-| Pollution | Produces no pollution |
+| 解锁等级 | LuV |
+| 结构尺寸（长×宽×高） | 3x2-7x3 |
+| 电力 | 普通能源仓 |
+| 超频 | 完美超频 |
+| 维护 | 需要维护 |
+| 污染 | 无污染 |
 
-## Crafting and Construction
-### Crafting
+## 合成与建造
+### 合成
 
 <RecipesFor id="gregtech:gt.blockmachines:12735" handlerId="gt.recipe.fakeAssemblylineProcess"  />
 
@@ -88,36 +88,36 @@ The CAL is superseded by the [<ItemLink id="gregtech:gt.blockmachines:9500" show
 
 <RecipesFor id="gregtech:gt.blockcasings2:5" />
 
-### Structure
-The CAL is built as a series of slices with an input bus at the bottom center of each one.  
-Each slice can only have 1 type of item when the CAL operates in Circuit Assembly Line mode. For this reason, the CAL needs as many slices as the recipe has item types to process a CAL recipe.  
-For example, the crystal processor has six solid inputs and therefore needs seven slices to craft (the last is for the output bus).
+### 结构
+电路装配线由多个分段组成，每段的底层中央设有输入总线。  
+在电路装配线模式下，每段只能放入 1 种物品，因此所需的输入段数与配方中的物品种类数相同。  
+例如，晶体处理器需要 6 种固体原料，所以需要 7 段才能合成，最后一段留给输出总线。
 
-If the CAL operates in Circuit Assembler mode, this restriction does not apply, but the CAL needs to be **at least 5 slices long to operate**.
+电路组装机模式没有这一限制，但结构**至少要有 5 段才能运行**。
 
-The CAL can be rotated or flipped. The slice with the controller is always the front and therefore the location of the first input. 
+电路装配线可以旋转或翻转。控制器所在段始终是最前端，也是第一种原料的输入位置。 
 
-The glass only needs to be EV+ and has no effect on the operation of the machine. 
+玻璃达到 EV 或更高等级即可，具体等级不影响机器运行。 
 
-Multi-amp and laser energy hatches are not supported and there can only be **ONE** regular energy hatch. Unlike the regular Assembly Line, the output bus must be on the bottom center of the last slice. 
+机器不支持多安或激光能源仓，且**只能装 1 个**普通能源仓。与普通装配线不同，输出总线必须置于最后一段的底层中央。 
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and the projector stack size to specify the length of the machine, up to the maximum of seven blocks long.
+可用<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />预览或建造结构。通过子频道「glass」指定玻璃等级，通过投影仪的堆叠数量指定机器长度，最长为 7 格。
 
-#### Base Structure (Minimum requirements)
-| Component | Quantity and placement |
+#### 基础结构（最低要求）
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" /> | 1, First slice, 3rd layer |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 4, Both sides of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 4, 3rd layer |
-| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-3, Both sides of 1st layer |
-| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 2, Center of 2nd layer |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1, Any 3rd layer Casing |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Any 1st layer side casings |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1, Center of 1st layer |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 0+, Any 1st layer side casings |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1, Center of 1st layer, on last slice |
+| <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" /> | 1 个，位于第一段第 3 层 |
+| <ItemImage id="bartworks:BW_TieredGlass" />任意等级玻璃 | 4 个，位于第 2 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 4 个，位于第 3 层 |
+| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-3 个，位于第 1 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 2 个，位于第 2 层中央 |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="能源仓">仅允许使用普通能源仓</Tooltip> | 1 个，可替换第 3 层任意外壳 |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />维护仓 | 1 个或更多，可替换第 1 层任意一侧的外壳 |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 1 个，位于第 1 层中央 |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓 | 0 个或更多，可替换第 1 层任意一侧的外壳 |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线 | 1 个，位于最后一段第 1 层中央 |
 
-#### Each Additional Slice
+#### 每个额外分段
 
 <GameScene interactive={true} wrap="square" align="right" width="170" height="130">
   <Block id="gregtech:gt.blockmachines:71" />
@@ -131,63 +131,63 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
   <Block id="gregtech:gt.blockcasings3:10" y="2" x="1" />
 </GameScene>
 
-Each additional slice (1 length) requires these blocks:
+每增加一段（长度增加 1 格），都需要以下方块：
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 2, Both sides of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 3, 3rd layer |
-| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-2, Both sides of 1st layer |
-| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 1, Center of 2nd layer |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1, Center of 1st layer |
+| <ItemImage id="bartworks:BW_TieredGlass" />任意等级玻璃 | 2 个，位于第 2 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 3 个，位于第 3 层 |
+| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-2 个，位于第 1 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 1 个，位于第 2 层中央 |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 1 个，位于第 1 层中央 |
 
-Note that the <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus must be moved to the last slice when you extend CAL slices.
+延长电路装配线时，必须把<ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线移到最后一段。
 
-### Wallsharing
+### 共用墙壁
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200" rotateY="315" rotateX="30" >
   <ImportStructure src="/assets/structures/cal_wallshare.snbt" />
 </GameScene>
 
-CALs may wallshare each of their sides to save on casings, glass, and buses/hatches. 
+电路装配线的各侧均可共用墙壁，以节省外壳、玻璃、总线和仓。 
 
-Every recipe (except mainframe recipes) consumes 0.5A of power or less, which means one energy hatch can be shared between four CALs at the same time. Mainframe recipes consume nearly 1A of power, so check the amperage when sharing the same energy hatch. 
+除主机配方外，每个配方的用电都不超过 0.5 A，因此一个能源仓可以同时供四台电路装配线使用。主机配方的用电接近 1 A，共用能源仓时请核对总电流。 
 
-Right-click ME buses/hatches with wire cutters to allow connections from any side and wallshare up to eight machines simultaneously. The example on the right shows four CALs wallshared with connected ME input buses/hatches, but another set of four can be built directly on top without any additional buses/hatches.
+用线剪右键 ME 总线或 ME 仓，可让它们从任意侧接入网络，从而让最多 8 台机器共用墙壁。右图展示了四台共用墙壁且接通 ME 输入总线和输入仓的电路装配线。还可以在它们正上方再叠四台，无需增加总线或仓。
 
-## Usage
-The Circuit Assembly Line can operate in 2 modes: Circuit Assembly Line and Circuit Assembler.
+## 用途
+电路装配线有 2 种运行模式：电路装配线模式和电路组装机模式。
 
-### Circuit Assembler Mode
-In Circuit Assembler mode, the CAL works as a normal [Circuit Assembler](/singleblock/circuit_assembler.md).  
-It doesn't have any speed benefit compared to the singleblock; however, the CAL can process [<ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left">Cleanroom</ItemLink>](./cleanroom.md) recipes, perform perfect overclocks, and run higher tier recipes just by upgrading its hatch, without building new singleblock machines. 
+### 电路组装机模式
+在电路组装机模式下，电路装配线可当作普通的[电路组装机](/singleblock/circuit_assembler.md)使用。  
+其基础速度与单方块机器相同，但可以处理[<ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left">洁净室</ItemLink>](./cleanroom.md)配方并完美超频。要处理更高等级的配方，只需升级能源仓，无需再建新的单方块机器。 
 
-In Circuit Assembler mode, only $$\text{Hatch Tier} - 1$$ recipes can be processed, so at least one singleblock machine is ultimately required to progress through the tiers (similar to [<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" />](./precise_auto_assembler_mt_3662.md) - neither supports tier skipping).
+电路组装机模式只能处理低于能源仓等级一级（$$\text{Hatch Tier} - 1$$）的配方，因此等级推进最终仍需要至少一台单方块机器。情况与[<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" />](./precise_auto_assembler_mt_3662.md)类似，两者都不支持跨级。
 
-You can use Input Separation<FloatingImage src="gregtech:textures/gui/overlay_button/input_separation_on.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} /> to make a single CAL process multiple recipes with different programmed circuits.  
-This makes Circuit Assembler mode suitable for assembling multiple AE2 storage components, OpenComputer components, Forestry Electron Tubes for bees/trees, and even some of the GT data components like <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" />.
+启用输入分离<FloatingImage src="gregtech:textures/gui/overlay_button/input_separation_on.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} />后，同一台电路装配线可以根据不同的编程电路处理多个配方。  
+因此，电路组装机模式很适合组装多种 AE2 存储元件、开放式电脑部件、用于蜜蜂或树木培育的林业电子管，以及<ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" />等格雷科技数据部件。
 
-### Circuit Assembly Line Mode
-In Circuit Assembly Line mode, the CAL works similarly to the [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md). To process CAL recipes, all items must be inserted in the exact order in which they appear in NEI.
+### 电路装配线模式
+在电路装配线模式下，机器的工作方式类似[<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md)。要处理电路装配线配方，必须严格按 NEI 显示的顺序放入所有物品。
 
-The CAL must also be permanently imprinted with a specific circuit type which means it cannot process anything other than that; there is no universal setup and there are no data sticks/hatches. Rebuilding the machine will not reset its imprinted behavior, either.  
-Insert a Circuit Imprint into the controller to imprint a CAL, alternatively you may craft an imprinted controller with a blank controller and a Circuit Imprint.
+电路装配线必须永久压印为特定电路种类，此后无法处理其他种类的配方。它没有通用配置，也不使用闪存或数据仓。重建机器也不会重置压印。  
+把电路压印模板插入控制器，即可完成压印。也可以用空白控制器和电路压印模板直接合成已压印的控制器。
 
-Different variants of the same circuit tier (e.g. <ItemLink id="gregtech:gt.metaitem.03:32087" showIcon="left" /> and <ItemLink id="gregtech:gt.metaitem.03:32096" showIcon="left" />) are not the same and require different imprints. But it is fine to use the same imprinted CAL with different recipes - for example, the Quantum Supercomputer's SMD diode recipe and Advanced SMD diode recipe can be processed in the same CAL.
+同等级的不同电路变体（例如<ItemLink id="gregtech:gt.metaitem.03:32087" showIcon="left" />和<ItemLink id="gregtech:gt.metaitem.03:32096" showIcon="left" />）需要各自的压印模板。同一台已压印的机器可以运行同一变体的不同配方，例如量子超级计算机的贴片二极管配方和先进贴片二极管配方。
 
 
-Crafting circuit imprints requires a few rare materials, listed below.
+制作电路压印模板需要下列几种稀有材料。
 
 > [!NOTE]
-> Press <KeyBind action="nei.options.keys.recipe.recipe" /> to check each item's obtainable sources and recipes.
+> 按 <KeyBind action="nei.options.keys.recipe.recipe" /> 查看各物品的获取方式和配方。
 
 <br>{/* To add gap between callout and list - without this callout will stick to the list below */}
 
-1. <ItemLink id="bartworks:gt.bwMetaGeneratedgem:35" showIcon="left" scale="0.7" /> : Material to craft <ItemLink id="bartworks:gt.bwMetaGeneratedgemExquisite:35" showIcon="left" /> and <ItemLink id="bartworks:gt.bwMetaGenerateddust:36" showIcon="left" />.  
-  Most commonly obtained through Blood Magic meteors using <ItemLink id="gregtech:gt.blockmachines:406" showIcon="left" /> as a catalyst, or by smelting quartzite and amethyst together in an [<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />](./electric_blast_furnace.md) to make flawed gems. The flawed gems' quality can be increased using [<ItemImage id="gregtech:gt.blockmachines:594" noTooltip />EV+ Laser Engravers](/singleblock/laser_engraver.md) or [<ItemLink id="gregtech:gt.blockmachines:1001" showIcon="left" />](./implosion_compressor.md) - just note that you also need the dust version to create Magneto Resonatic Dust.
-1. <ItemLink id="bartworks:gt.bwMetaGenerateddust:4" showIcon="left" /> : Material to craft <ItemLink id="bartworks:gt.bwMetaGenerateddust:36" showIcon="left" />.  
-  <ItemLink id="bartworks:gt.bwMetaGeneratedgemFlawed:4" showIcon="left" /> can be obtained by smelting <ItemLink id="bartworks:gt.bwMetaGenerateddust:3" showIcon="left" /> with <ItemLink id="bartworks:gt.bwMetaGenerateddust:6" showIcon="left" /> in an [<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />](./electric_blast_furnace.md). Yttrium Oxide is not consumed in this process.  
-1. <ItemLink id="gregtech:gt.metaitem.01:2059" showIcon="left" /> : Material to craft <ItemLink id="bartworks:gt.bwMetaGenerateddust:36" showIcon="left" />.  
-  <ItemLink id="gregtech:gt.metaitem.01:9059" showIcon="left" /> can be obtained by smelting crushed lead ore in an [<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />](./electric_blast_furnace.md). You can also get the dust directly by electrolyzing <ItemLink id="miscutils:itemDustAlburnite" showIcon="left" />, which can be obtained from the cerite ore vein in the [<ItemLink id="gtneioreplugin:blockDimensionDisplay_Eg" showIcon="left" />](/dimensions/toxic_overglades.md) dimension.
+1. <ItemLink id="bartworks:gt.bwMetaGeneratedgem:35" showIcon="left" scale="0.7" />，用于制作<ItemLink id="bartworks:gt.bwMetaGeneratedgemExquisite:35" showIcon="left" />和<ItemLink id="bartworks:gt.bwMetaGenerateddust:36" showIcon="left" />。  
+  最常见的获取方式是以<ItemLink id="gregtech:gt.blockmachines:406" showIcon="left" />为催化剂召唤血魔法陨石。也可以在[<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />](./electric_blast_furnace.md)中将石英岩与紫水晶一起熔炼，制成有瑕宝石。有瑕宝石可以用[<ItemImage id="gregtech:gt.blockmachines:594" noTooltip />EV 或更高等级的激光蚀刻机](/singleblock/laser_engraver.md)或[<ItemLink id="gregtech:gt.blockmachines:1001" showIcon="left" />](./implosion_compressor.md)提纯。合成磁共振石粉还需要这种材料的粉末。
+1. <ItemLink id="bartworks:gt.bwMetaGenerateddust:4" showIcon="left" />，用于制作<ItemLink id="bartworks:gt.bwMetaGenerateddust:36" showIcon="left" />。  
+  将<ItemLink id="bartworks:gt.bwMetaGenerateddust:3" showIcon="left" />和<ItemLink id="bartworks:gt.bwMetaGenerateddust:6" showIcon="left" />在[<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />](./electric_blast_furnace.md)中一起熔炼，可获得<ItemLink id="bartworks:gt.bwMetaGeneratedgemFlawed:4" showIcon="left" />。这一过程不会消耗氧化钇。  
+1. <ItemLink id="gregtech:gt.metaitem.01:2059" showIcon="left" />，用于制作<ItemLink id="bartworks:gt.bwMetaGenerateddust:36" showIcon="left" />。  
+  在[<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />](./electric_blast_furnace.md)中熔炼粉碎铅矿石可以获得<ItemLink id="gregtech:gt.metaitem.01:9059" showIcon="left" />。也可以电解<ItemLink id="miscutils:itemDustAlburnite" showIcon="left" />直接获得粉末。这种原料可从[<ItemLink id="gtneioreplugin:blockDimensionDisplay_Eg" showIcon="left" />](/dimensions/toxic_overglades.md)维度的铈硅石矿脉取得。
 
-## References
-- [GTNH Wiki : Circuit Assembly Line](https://wiki.gtnewhorizons.com/wiki/Circuit_Assembly_Line)
+## 参考资料
+- [GTNH Wiki：电路装配线](https://wiki.gtnewhorizons.com/wiki/Circuit_Assembly_Line)

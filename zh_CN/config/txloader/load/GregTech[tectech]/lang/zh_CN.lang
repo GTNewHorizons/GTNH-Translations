@@ -428,8 +428,8 @@ gt.blockmachines.multimachine.tm.microwave.cfgi.0=功率设置
 gt.blockmachines.multimachine.tm.microwave.cfgi.1=时间设置
 gt.blockmachines.multimachine.tm.microwave.cfgo.0=时间
 gt.blockmachines.multimachine.tm.microwave.cfgo.1=剩余时间
-gt.blockmachines.multimachine.tm.microwave.timer=§fTimer: %s / %s
-gt.blockmachines.multimachine.tm.microwave.damage=§fUp to §c%s§f damage per second
+gt.blockmachines.multimachine.tm.microwave.timer=§f计时器：%s / %s
+gt.blockmachines.multimachine.tm.microwave.damage=§f每秒最多造成§c%s§f点伤害
 
 gt.blockmachines.multimachine.tm.teslaCoil.name=特斯拉电塔
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.0=低输电阈值
@@ -1175,11 +1175,11 @@ gt.recipe.condensate=玻色-爱因斯坦凝聚态物质
 tt.nei.eoh.total_items=总计物品：%s
 tt.nei.eoh.solid_mass=所占比例：%s%%
 tt.nei.eoh.item_count=物品数量：%s
-tt.nei.fog_exotic.weight=Weight: %s
-tt.nei.fog_exotic.chance=Request chance: %s%%
-tt.nei.fog_exotic.random_amount=Random amount: %s-%s L
-tt.nei.fog_exotic.picks=Requests %s random plasma
-tt.nei.fog_exotic.rules=See the controller for details
+tt.nei.fog_exotic.weight=权重：%s
+tt.nei.fog_exotic.chance=选中概率：%s%%
+tt.nei.fog_exotic.random_amount=随机用量：%s-%s L
+tt.nei.fog_exotic.picks=随机选取 %s 种等离子体作为输入
+tt.nei.fog_exotic.rules=详情见控制器
 tt.nei.research.max_eu=最多消耗：%s EU
 tt.nei.research.computation=算力：%s
 tt.nei.research.min_computation=最小算力输入：%s /s
@@ -1240,7 +1240,7 @@ tt.keyphrase.Hint_Details=提示细节
 
 #debug boom
 tt.keyword.BOOM=BOOM!
-tt.keyword.Hatch=Hatch %s
+tt.keyword.Hatch=仓室 %s
 tt.keyword.Id=ID
 tt.keyword.Weight=权重
 tt.keyword.Source=来源

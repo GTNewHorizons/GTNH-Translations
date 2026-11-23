@@ -1,1 +1,1 @@
-Explosions are fun
+爆炸就是艺术！

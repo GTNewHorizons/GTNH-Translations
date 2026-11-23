@@ -6,32 +6,32 @@ item_ids:
 bindings:
   - {type: "betterquesting", id: "mMCFuGqxQTuuLnJgEldztA=="}
 navigation:
-  title: Clarifier Purification Unit
+  title: 澄清净化单元
   parent: ./water_line.md
   icon: gregtech:gt.blockmachines:9403
   position: -6001
 ---
-# Clarifier Purification Unit
+# 澄清净化单元
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9403" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:9403" showIcon="left" /> (CPU) is an LuV tier multiblock used for the first step of the [Water Line](./water_line.md).
+<ItemLink id="gregtech:gt.blockmachines:9403" showIcon="left" />（CPU）是 LuV 等级的多方块机器，负责[净水产线](./water_line.md)的第一道工序。
 
-The CPU processes ordinary water into Grade 1 Water. It requires no Energy/Maintenance Hatches to run because it receives power directly from the [<ItemLink id="gregtech:gt.blockmachines:9402" showIcon="left" />](./water_purification_plant.md) once linked with a data stick, and it can be managed by the Purification Plant, like the rest of the Water Line multiblocks. 
+澄清净化单元将普通水处理成一级净化水。使用闪存与[<ItemLink id="gregtech:gt.blockmachines:9402" showIcon="left" />](./water_purification_plant.md)绑定后，它会像净水产线的其他多方块机器一样，由净水厂直接供电和控制，因而无需能源仓或维护仓。 
 
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | LuV |
-| Structure Size (LxWxH) | 11x11x4 |
-| Power | None |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| 解锁等级 | LuV |
+| 结构尺寸（长×宽×高） | 11x11x4 |
+| 电力 | 无 |
+| 超频 | 无 |
+| 维护 | 无需维护 |
+| 污染 | 无污染 |
 
-## Crafting and Construction
-### Crafting
+## 合成与建造
+### 合成
 <RecipesFor id="gregtech:gt.blockmachines:9403" handlerId="gt.recipe.fakeAssemblylineProcess" />
 
 <RecipesFor id="gregtech:gt.blockcasings9:5" />
@@ -44,43 +44,43 @@ The CPU processes ordinary water into Grade 1 Water. It requires no Energy/Maint
 
 <RecipesFor id="gregtech:gt.blockcasings8:1" />
 
-### Structure
-The CPU cannot be rotated or flipped.
+### 结构
+澄清净化单元无法旋转或翻转。
 
-The water is spawned for free once formed and therefore does NOT need to be placed manually. 
+结构成型后，水会自动生成，无需手动放置。 
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
+可用<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />预览或建造结构。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:9403" showIcon="left" /> | 1, Front center, 2nd layer |
+| <ItemLink id="gregtech:gt.blockmachines:9403" showIcon="left" /> | 1 个，位于正面第 2 层中央 |
 | <ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" /> | 123-128 |
 | <ItemLink id="gregtech:gt.blockcasings3:11" showIcon="left" /> | 21 |
 | <ItemLink id="gregtech:gt.blockframes:84" showIcon="left" /> | 12 |
 | <ItemLink id="gregtech:gt.blockframes:335" showIcon="left" /> | 12 |
-| <ItemLink id="gregtech:gt.blockcasings8:1" showIcon="left" /> | 3, Center of 2nd-4th layer |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+, Can replace 2nd layer <ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" /> except edges or center of side |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 1+, Can replace 2nd layer <ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" /> except edges or center of side |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 0+, Can replace 2nd layer <ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" /> except edges or center of side |
-| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Output Hatch | 1+, Can replace 2nd layer <ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" /> except edges or center of side |
+| <ItemLink id="gregtech:gt.blockcasings8:1" showIcon="left" /> | 3 个，位于第 2 至第 4 层中心 |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 1 个或更多，可替换第 2 层的<ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" />，边缘及各侧中央除外 |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓 | 1 个或更多，可替换第 2 层的<ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" />，边缘及各侧中央除外 |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线 | 0 个或更多，可替换第 2 层的<ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" />，边缘及各侧中央除外 |
+| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />输出仓 | 1 个或更多，可替换第 2 层的<ItemLink id="gregtech:gt.blockcasings9:5" showIcon="left" />，边缘及各侧中央除外 |
 
-### Wallshare
+### 共用墙壁
 
-There is no need to wallshare the CPU, since it can run an almost infinite number of parallels if sufficient power is supplied.
+供电充足时，澄清净化单元的并行数几乎没有上限，因此无需共用墙壁。
 
-## Usage
+## 用途
 <RecipeFor id="NotEnoughItems:neiFluidDisplay:390" wrap="square" align="right" />
 
-The CPU is the first step of [Water Line](./water_line.md) processing. As you can see in the recipe next to it, the CPU filters normal water into Grade 1 Water, with a fixed success chance of 70%. 
+澄清净化单元是[净水产线](./water_line.md)的第一道工序。旁边的配方展示了它如何将普通水过滤成一级净化水，基础成功率固定为 70%。 
 
-You can increase the success chance to 85% by feeding Grade 1 Water back into it, as the [Water Line Guide](./water_line.md#shared-mechanics) describes. This is the only way to increase the success rate.
+按照[净水产线指南](./water_line.md#shared-mechanics)所述，将一级净化水送回机器，可将成功率提高至 85%。这是提高该成功率的唯一方式。
 
-The CPU also requires an <ItemLink id="gregtech:gt.metaitem.03:32233" showIcon="left" /> to run, and has a 20% chance of consuming that filter on each cycle, so you need to passively produce filters to run the CPU continuously.
+机器还需要<ItemLink id="gregtech:gt.metaitem.03:32233" showIcon="left" />才能运行，每个处理周期有 20% 的概率消耗一个滤网。要持续运行，需稳定供应滤网。
 
-Like other Water Line multiblocks, the CPU can process recipes in parallel without any structural upgrades. Set how many parallels the CPU should run by clicking the "Open parallel configuration window"<FloatingImage src="gregtech:textures/gui/overlay_button/batch_mode_on.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} /> button. The filter's consumption probability is not affected by parallel.
+与净水产线的其他多方块机器一样，澄清净化单元无需升级结构即可并行处理配方。点击「打开并行配置窗口」按钮<FloatingImage src="gregtech:textures/gui/overlay_button/batch_mode_on.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} />可设置并行数。并行数不影响滤网的消耗概率。
 
 > [!WARNING]
-> The CPU cannot change its void mode, and **all excess items and fluids will be voided**. Make sure the CPU's maximum output doesn't exceed the output hatch's capacity. 
+> 澄清净化单元无法更改溢出模式，**所有超出容量的物品和流体都会被销毁**。请确保最大产量不超过输出仓容量。 
 
-## References
-- [GTNH Wiki : Clarifier Purification Unit](https://wiki.gtnewhorizons.com/wiki/Clarifier_Purification_Unit)
+## 参考资料
+- [GTNH Wiki：澄清净化单元](https://wiki.gtnewhorizons.com/wiki/Clarifier_Purification_Unit)

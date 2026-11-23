@@ -1,2 +1,2 @@
-Allows Complex alloys to be created
-Recipe Tier is limited to {color_name:Hatch} Tier
+可以冶炼复杂合金
+配方等级受限于{color_name:仓室}等级

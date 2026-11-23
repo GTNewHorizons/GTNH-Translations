@@ -1,9 +1,11 @@
 ---
 navigation:
-  title: Covers
+  title: 覆盖板
   icon: minecraft:grass
   parent: ./misc_index.md
 ---
-# Covers
+# 覆盖板
 
-## Conveyor Module
+<a name="conveyor-module" />
+
+## 传送带

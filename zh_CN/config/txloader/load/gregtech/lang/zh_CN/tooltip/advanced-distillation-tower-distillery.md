@@ -1,6 +1,6 @@
-Stats dictated by tower mode
-Right click the controller with screwdriver to change mode
+属性由机器模式决定
+使用螺丝刀右击控制器以更改模式
 {hr}
-{color_mode:Distillery Mode}
-Outputs only one fluid
-{color_parallel:(2 * floor(Height / 3)) * Voltage Tier} Parallels
+{color_mode:蒸馏室模式}
+仅输出一种流体
+并行：{color_parallel:(2 * floor(层数 / 3)) * 电压等级}

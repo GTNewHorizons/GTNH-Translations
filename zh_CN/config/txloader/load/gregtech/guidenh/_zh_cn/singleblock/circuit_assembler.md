@@ -23,9 +23,9 @@ bindings:
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAGhQ=="}
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAGkw=="}
 navigation:
-  title: Circuit Assembler
+  title: 电路组装机
   icon: gregtech:gt.blockmachines:491
   parent: ./singleblock_index.md
   position: 10
 ---
-# Circuit Assembler
+# 电路组装机

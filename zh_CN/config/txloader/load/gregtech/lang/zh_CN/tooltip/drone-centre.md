@@ -1,16 +1,16 @@
-{aqua:Drone #10032, cleared for takeoff!}
-Monitors multiblock machines in range
-Replace maintenance hatch on other multi with drone downlink module
-Provides maintenance, power control, monitoring, and more
+{aqua:10032号无人机，准许起飞！}
+监控范围内的多方块机器
+使用无人机下行模块替换其他多方块结构上的维护仓
+将提供维护、电源控制、监控和更多功能
 {hr}
-Operation range is determined by Drone Tier:
-T1-128, T2-512, T3-4096, T4-4096(Auto)/Infinite(Key)
-T4 drone allows cross-dimension connection!
-{red:To enable cross-dimension,}
-{red:downlink module must have the same key with centre.}
-{red:But it's not necessary for auto connection in range}
+监控范围由无人机等级决定：
+T1-128格，T2-512格，T3-4096格，T4-4096格（自动）/无限（密钥）
+T4无人机可跨维度连接！
+{red:启用跨维度连接时，}
+{red:下行模块必须与中心持有相同密钥。}
+{red:但范围内自动连接时无需密钥}
 {hr}
-Place drones in input bus; only one needed to operate
-Automatically upgrade based on the drone level in the input bus
-There is a chance per second that the drone will crash
-Chance is determined by Drone Tier: T1: 1/28800, T2: 1/172800, T3 & T4: 0
+将无人机放入输入总线，只需一架即可运行
+根据输入总线中的无人机等级自动升级
+无人机每秒有一定概率坠毁
+几率由无人机等级决定：T1：1/28800，T2：1/172800，T3和T4：0

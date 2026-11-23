@@ -4,7 +4,7 @@ item_ids:
 bindings:
   - {type: "betterquesting", id: "c9yhGUSqSBKfUE-I0l_kbw=="}
 navigation:
-  title: Implosion Compressor
+  title: 纳米芯片组装复合体
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1001
   position: -10001

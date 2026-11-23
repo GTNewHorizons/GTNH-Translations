@@ -12,7 +12,7 @@ bindings:
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKFw=="}
   - {type: "betterquesting", id: "vLnSpTweSki3BaorBNQhxQ=="}
 navigation:
-  title: Fusion Reactor
+  title: 核聚变反应堆
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1193
   position: -6001

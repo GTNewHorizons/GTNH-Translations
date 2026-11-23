@@ -7,12 +7,12 @@ bindings:
   - {type: "betterquesting", id: "smCKxKkMSeyIAUeFInS4hQ=="}
   - {type: "betterquesting", id: "hWXZi-whQfmgWO0EII7g2g=="}
 navigation:
-  title: Component Assembly Line
+  title: 部件装配线
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:32026
   position: -8001
 ---
-# Component Assembly Line
+# 部件装配线
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib name="main" controller="gregtech:gt.blockmachines:32026">
     <Tier value="1" locked />
@@ -20,24 +20,24 @@ navigation:
   </ImportStructureLib>
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:32026" showIcon="left" /> (CoAL) is a UV tier multiblock for bulk crafting component parts such as motors, pumps, and even field generators. 
+<ItemLink id="gregtech:gt.blockmachines:32026" showIcon="left" />（CoAL）是 UV 等级的多方块机器，可批量合成电动马达、电动泵乃至力场发生器等部件。 
 
-Despite its name, the CoAL does not require ingredients to be inserted in any particular order--everything can go in a single input bus/hatch. No datasticks or optical hatches are required either. 
+部件装配线对原料的放入顺序没有要求，所有原料可放入同一个输入总线或输入仓，也无需闪存或光学仓。 
 
-The reason for using the CoAL for component parts over the regular [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) or [<ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />](./advanced_assembly_line.md) is that all recipe costs are reduced by 25%, including the length of the recipe itself.  
-The only limitation is that components are made 64 at a time which makes CoAL use far more resources than planned, especially for field generators, when entering a new tier.
+与普通[<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md)或[<ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />](./advanced_assembly_line.md)相比，用部件装配线制作部件可将所有配方成本降低 25%，配方耗时也会缩短 25%。  
+但部件始终按每批 64 个合成。刚进入新等级时，为制作一批部件可能要投入远超计划的资源，制作力场发生器时尤为明显。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | UV |
-| Structure Size (LxWxH) | 33x9x10 |
-| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
-| Overclocks | Imperfect |
-| Maintenance | Need Maintenance |
-| Pollution | Produces no pollution |
+| 解锁等级 | UV |
+| 结构尺寸（长×宽×高） | 33x9x10 |
+| 电力 | 允许任意能源仓，包括多安能源仓和激光能源仓 |
+| 超频 | 非完美超频 |
+| 维护 | 需要维护 |
+| 污染 | 无污染 |
 
-## Crafting and Construction
-### Crafting
+## 合成与建造
+### 合成
 
 <RecipesFor id="gregtech:gt.blockmachines:32026" handlerId="gt.recipe.fakeAssemblylineProcess" />
 
@@ -53,48 +53,48 @@ The only limitation is that components are made 64 at a time which makes CoAL us
 
 <RecipesFor id="gregtech:gt.blockframes:316" handlerBlacklist="gt.recipe.unpackager" />
 
-### Structure
+### 结构
 
-The Component Assembly Line has a fixed-length and does NOT consist of any "slices" like the regular [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) or other Assembly-line variants. 
+部件装配线的长度固定，无法像普通[<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md)或其他装配线变体那样增减段数。 
 
-The component assembly line casings are a tiered component that determine the maximum tier of recipes and the speed bonus for lower tier recipes, and glass must be UV+ but has no effect on the operation of the machine. 
+部件装配线外壳是分级部件，其等级决定可处理配方的最高等级及低等级配方的速度加成。玻璃必须为 UV 或更高等级，但具体等级不影响机器运行。 
 
-The Component Assembly Line can be rotated or flipped.
+部件装配线可以旋转或翻转。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannels "glass" and "component_casing" to specify the tier of those components.
+可用<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />预览或建造结构。通过子频道「glass」和「component_casing」可分别指定玻璃和外壳的等级。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:32026" showIcon="left" /> | 1, Front center, 8th layer |
+| <ItemLink id="gregtech:gt.blockmachines:32026" showIcon="left" /> | 1 个，位于正面第 8 层中央 |
 | <ItemLink id="gregtech:gt.blockcasings8:7" showIcon="left" /> | 516-646 |
 | <ItemLink id="gregtech:gt.blockcasings9" showIcon="left" /> | 126 |
 | <ItemLink id="gregtech:gt.blockcasings9:1" showIcon="left" /> | 124 |
 | <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 55 |
 | <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 30 |
 | <ItemLink id="gregtech:gt.blockframes:316" showIcon="left" /> | 2-4 |
-| <ItemImage id="bartworks:BW_TieredGlass:5" />Any &cUV+&r Tiered Glass | 280 |
-| <ItemImage id="GoodGenerator:componentAssemblylineCasing" />&9Tiered&r Component Assembly Line Casing | 43 |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Any outer <ItemLink id="gregtech:gt.blockcasings8:7" showIcon="left" /> of 9th layer |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1, Casings around controller |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+ |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 0+, Any side bottom edge casing |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1+ |
+| <ItemImage id="bartworks:BW_TieredGlass:5" />任意 &cUV+&r 等级玻璃 | 280 个 |
+| <ItemImage id="GoodGenerator:componentAssemblylineCasing" />&9分级&r部件装配线外壳 | 43 个 |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="能源仓">可使用普通、多安或激光能源仓</Tooltip> | 1 个或更多，可替换第 9 层外侧任意<ItemLink id="gregtech:gt.blockcasings8:7" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />维护仓 | 1 个，替换控制器周围的外壳 |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 1 个或更多 |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓 | 0 个或更多，可替换任意一侧底边的外壳 |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线 | 1 个或更多 |
 
-### Wallsharing
+### 共用墙壁
 
-CoALs may wallshare each of their sides to save on casings, glass, and buses/hatches. Overlapping the top layer with another one directly overhead and upside down is very effective because it shares an entire set of component assembly line casings.
+部件装配线的各侧均可共用墙壁，以节省外壳、玻璃、总线和仓。将另一台机器倒置并叠在正上方，使两台机器共用顶层，尤其划算，因为这样可以共用整套部件装配线外壳。
 
-## Usage
+## 用途
 
-The tier of component assembly line casings on a CoAL determine which recipes it can run; the casing tier must be greater than or equal to the component parts being crafted (ie. UV parts require at least UV component assembly line casings).
+部件装配线能处理哪些配方，由外壳的等级决定。外壳必须达到或超过要制造的部件等级。例如，UV 部件至少需要 UV 部件装配线外壳。
 
-For every casing tier above the minimum requirement of a recipe, the recipe time is halved. This does not require any additional power; it simply cuts the recipe's required time in half.
-In addition, CoAL performs 2/4 Imperfect Overclock (draw 4x power to make recipe 2x faster) - since Multi-Amp and Laser hatches are supported, this lets the CoAL assemble components significantly faster than the other options.
+外壳每比配方的最低要求高一个等级，配方耗时就减半。这一加成无需额外功率。
+此外，部件装配线还支持 2/4 非完美超频，即消耗 4 倍功率、获得 2 倍处理速度。配合多安或激光能源仓，部件装配线能比其他设备更快地组装部件。
 
 > [!NOTE]
-> Due to the high cost of these casings, players usually skip some tiers to save on both time and resources. Note that the 25% discount from the CoAL does not always "pay back" the cost to make a specific tier of casing.
+> 由于这些外壳造价高昂，玩家通常会跳过部分等级，以节省时间和资源。部件装配线节省的 25% 成本并不总能抵消制作某一等级外壳的开销。
 
 {/* Skipping wiki's Casing material listing to make user use NEI at themselves rather than just reading */}
 
-## References
-- [GTNH Wiki : Component Assembly Line](https://wiki.gtnewhorizons.com/wiki/Component_Assembly_Line)
+## 参考资料
+- [GTNH Wiki：部件装配线](https://wiki.gtnewhorizons.com/wiki/Component_Assembly_Line)

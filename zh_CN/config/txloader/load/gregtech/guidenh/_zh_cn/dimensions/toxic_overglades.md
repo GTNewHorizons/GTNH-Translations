@@ -6,7 +6,7 @@ item_ids:
 bindings:
   - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKSg=="}
 navigation:
-  title: Toxic Overglades
+  title: 废土世界
   parent: ./_index.md
   icon: gtneioreplugin:blockDimensionDisplay_Eg
   position: -7

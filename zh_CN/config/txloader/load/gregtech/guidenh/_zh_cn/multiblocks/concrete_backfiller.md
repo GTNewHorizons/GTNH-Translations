@@ -6,12 +6,12 @@ bindings:
   - {type: "betterquesting", id: "uYT4jmFtQhOo5PoJLDyh-w=="}
   - {type: "betterquesting", id: "b-YCbvcNT4uEjg2pN-H6jw=="}
 navigation:
-  title: Concrete Backfiller
+  title: 混凝土回填机
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:143
   position: -2001
 ---
-# Concrete Backfiller
+# 混凝土回填机
 <Row wrap="square" align="right" width="220">
   <ContentTabs background="transparent">
     <Tab title="T1">
@@ -27,21 +27,21 @@ navigation:
   </ContentTabs>
 </Row>
 
-The <ItemLink id="gregtech:gt.blockmachines:143" showIcon="left" /> is an MV tier multiblock for filling in the area below it with light concrete to seal any air gaps where mobs could spawn. 
+<ItemLink id="gregtech:gt.blockmachines:143" showIcon="left" />是 MV 等级的多方块机器，用浅色混凝土填充下方区域，封堵可能生成怪物的空隙。 
 
-The Concrete Backfiller is available in two tiers to further increase its range. Filled concrete will prevent mobs from spawning underground. If you want to prevent mobs from spawning around your base, use this machine or move bases to the [<ItemLink id="personalspace:personalPortal" showIcon="left">Personal Dimension</ItemLink>](/dimensions/personal_dimension.md).
+混凝土回填机有两个等级，高等级的工作范围更大。回填混凝土可阻止怪物在地下生成。若想阻止基地周围刷怪，可以使用这台机器，或将基地搬到[<ItemLink id="personalspace:personalPortal" showIcon="left">私人维度</ItemLink>](/dimensions/personal_dimension.md)。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | MV(T1) |
+| 解锁等级 | MV（T1） |
 | ^^ | EV(T2) |
-| Structure Size (LxWxH) | 3x3x7 |
-| Power | Regular |
-| Overclocks | Imperfect |
-| Maintenance | Need Maintenance |
-| Pollution | Produces no pollution |
+| 结构尺寸（长×宽×高） | 3x3x7 |
+| 电力 | 普通能源仓 |
+| 超频 | 非完美超频 |
+| 维护 | 需要维护 |
+| 污染 | 无污染 |
 
-## Crafting and Construction
+## 合成与建造
 <ContentTabs background="transparent">
   <Tab title="T1">
     <Template 
@@ -63,22 +63,22 @@ The Concrete Backfiller is available in two tiers to further increase its range.
   </Tab>
 </ContentTabs>
 
-### Wallshare
-The Concrete Backfiller can wallshare, although it is not meaningful since wallsharing makes most of the machines' working areas overlap.
+### 共用墙壁
+混凝土回填机可以共用墙壁，但这样会让机器的大部分工作区域重叠，实际收益不大。
 
-## Usage
-The Concrete Backfiller slowly fills in the area below it with <ItemLink id="gregtech:gt.blockconcretes:8" showIcon="left"/> to seal any air gaps where mobs could spawn. The Concrete Backfiller does NOT break or replace blocks and does NOT stop when it reaches a wall. Liquids (i.e. water and lava) can either be skipped or filled based on the liquid filling setting<FloatingImage src="gregtech:textures/gui/overlay_button/LiquidMode.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} /> in the GUI of the controller. Each block of light concrete consumes 144L of wet concrete from the input hatch.
+## 用途
+混凝土回填机会逐步用<ItemLink id="gregtech:gt.blockconcretes:8" showIcon="left"/>填满下方区域，封住可能刷怪的空隙。机器不会破坏或替换方块，遇到墙也不会停止。控制器界面的液体填充设置<FloatingImage src="gregtech:textures/gui/overlay_button/LiquidMode.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} />决定跳过还是填充水、熔岩等液体。每放置一块浅色混凝土，都会从输入仓消耗 144 L 湿混凝土。
 
-The vertical range of the Concrete Backfiller is from bedrock to the layer just below the machine. The horizontal range is square despite being listed as a radius and depends on the tier of the machine. The T1 machine's radius is 16 blocks (33x33), and the T2 machine's radius is 64 blocks (129x129). The fill area is centered on the controller rather than being perfectly chunk-aligned like the [<ItemLink id="gregtech:gt.blockmachines:1157" showIcon="left" />](./fluid_drilling_rig.md).
+机器的垂直工作范围从基岩一直到机器正下方一层。水平范围虽以半径表示，实际为正方形，大小取决于机器等级。T1 的半径为 16 格（33x33），T2 的半径为 64 格（129x129）。回填区域以控制器为中心，与[<ItemLink id="gregtech:gt.blockmachines:1157" showIcon="left" />](./fluid_drilling_rig.md)完全按区块对齐的范围不同。
 
-The filling speed depends on the supplied voltage, as seen in the table below. Exceeding the minimum voltage tier applies imperfect overclocks which consume 4x the power for 2x the speed. There is no benefit to exceeding UV power since the machine cannot go faster than 1 block per tick. The power consumption is always 0.75A of the supplied voltage.
+回填速度取决于供电电压，见下表。超过最低电压等级时会触发非完美超频，消耗 4 倍功率来换取 2 倍速度。机器最快每 tick 只能填充 1 格，因此超出 UV 后速度不会再提高。用电始终为供电电压下的 0.75 A。
 
-| Voltage | MV | HV | EV | IV | LuV | ZPM | UV+ |
+| 电压 | MV | HV | EV | IV | LuV | ZPM | UV+ |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Seconds per Block | 3.00 | 1.50 | 0.75 | 0.40 | 0.20 | 0.10 | 0.05 |
+| 每格耗时（秒） | 3.00 | 1.50 | 0.75 | 0.40 | 0.20 | 0.10 | 0.05 |
 {: widths="100,"}
 
-When first enabled, the Concrete Backfiller deploys its mining pipes from the center of the machine straight down to bedrock. This can take a few seconds depending on the current y-level of the machine and voids any blocks in the way. If necessary, press the "abort and retract mining pipes" button<FloatingImage src="gregtech:textures/gui/overlay_button/retract_pipes.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} /> inside the GUI of the controller to immediately stop the process. Supply mining pipes through an input bus and retrieve them from an output bus, or just use the slot inside the controller.
+首次启动时，混凝土回填机从机器中心垂直铺设采矿管，直达基岩。视机器所在的 Y 坐标而定，这可能需要数秒，管道沿途的方块都会被销毁。如需立即终止，可在控制器界面点击「中止并收回采矿管」按钮<FloatingImage src="gregtech:textures/gui/overlay_button/retract_pipes.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} />。可用输入总线供应采矿管，再从输出总线取回，也可直接使用控制器内的槽位。
 
-## References
-- [GTNH Wiki : Concrete Backfiller](https://wiki.gtnewhorizons.com/wiki/Concrete_Backfiller)
+## 参考资料
+- [GTNH Wiki：混凝土回填机](https://wiki.gtnewhorizons.com/wiki/Concrete_Backfiller)
