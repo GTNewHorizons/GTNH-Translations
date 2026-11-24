@@ -149,6 +149,10 @@ dashboard.element.gravisuite.status.own_settings=GraviSuite config > hudPosition
 dashboard.preview.gravisuite.mode=Gravitation Engine: ON
 dashboard.preview.gravisuite.energy=Energy Level: 100%
 
+## Extra Utilities
+dashboard.element.extrautilities.tps=Server TPS
+dashboard.element.extrautilities.tps.description=Shows how fast the server runs.\nToggle it with the §6/xu_tps§7 command.\nDrawn behind open screens, change it in\nDashboard config > Other > Extra Utilities TPS With HUD.
+
 ## Hunger Overhaul
 dashboard.element.hungeroverhaul.health_status=Health Status
 dashboard.element.hungeroverhaul.health_status.description=Shows Hurt, Injured or Dying while your health is low
@@ -549,5 +553,7 @@ dashboard.config.other.pickup_feed_seconds=Item Pickups Time
 dashboard.config.other.pickup_feed_seconds.tooltip=How long each row of the item pickups shows, in seconds
 dashboard.config.other.pickup_feed_slide_out=Item Pickups Slide Out
 dashboard.config.other.pickup_feed_slide_out.tooltip=How long each row of the item pickups takes to slide away, in milliseconds, 0 to just disappear
+dashboard.config.other.extra_utilities_tps_with_hud=Extra Utilities TPS With HUD
+dashboard.config.other.extra_utilities_tps_with_hud.tooltip=Draw the Extra Utilities /xu_tps line with the HUD, behind open screens\nOff: over everything, like Extra Utilities does
 dashboard.config.other.active_layout=Active Layout
 dashboard.config.other.active_layout.tooltip=Which of the HUD layouts is used. Each one remembers its own element positions, sizes and looks
