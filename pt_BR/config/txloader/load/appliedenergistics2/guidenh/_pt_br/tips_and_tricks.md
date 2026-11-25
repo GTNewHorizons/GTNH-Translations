@@ -4,17 +4,17 @@ navigation:
   position: 20
 ---
 
-# Tips and Tricks
+# Dicas e Truques
 
-A load of random little recommendations
+Um monte de pequenas recomendações aleatórias
 
-* Remove Optifine.
-* You can rotate and zoom into guidebook scenes that have the zoom and annotation hide/show buttons.
-* Keep your network treelike and avoid loops.
-* Keep full-block [devices](ae2_mechanics/devices.md) in groups of 8 or less unless you deeply understand how [channels](ae2_mechanics/channels.md) route through a network.
-* Pick a wood and stick with it for all your [patterns](items_blocks/patterns.md). Enabling substitutions sometimes works, but using the same wood type everywhere greatly reduces hassle.
-* Add an [energy cell](items_blocks/energy_cells.md) so that your network can handle power spikes.
-* You can use water in the <ItemLink id="appliedenergistics2:tile.BlockCondenser" />.
-* The best way to keep your network clean is to not put random mob loot like swords and armor in. Each unique combination of enchantment and durability is another [type](ae2_mechanics/bytes_and_types.md).
-* An "item entering system" event must occur when returning the result of a [processing pattern](items_blocks/patterns.md), like through an <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />, <ItemLink id="appliedenergistics2:tile.BlockInterface" />, or an interface return slot. You cannot just pipe the result into a chest with a <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> on it.
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> pushes complete recipe batches to an adjacent inventory. This is useful for making sure machines do not receive partial batches, but sometimes you want the ingredients to go to multiple places. You can achieve this using multiple interfaces or an <ItemLink id="appliedenergistics2:tile.BlockInterface" /> as a [pipe subnet](tricks_example/pipe_subnet.md).
+* Remova o Optifine.
+* Você pode girar e aplicar zoom em cenas do guia que contam com botões de zoom e de ocultar/exibir anotações.
+* Mantenha sua rede com uma estrutura em árvore e evite loops.
+* Mantenha o bloco completo [dispositivos](ae2_mechanics/devices.md) em grupos de 8 ou menos, a menos que você entenda profundamente como [canais](ae2_mechanics/channels.md) rota através de uma rede.
+* Escolha uma madeira e mantenha-se fiel a ela para todos os seus projetos. [padrões](items_blocks/patterns.md). Permitir substituições às vezes funciona, mas usar o mesmo tipo de madeira em toda parte reduz bastante os transtornos.
+* Adicione um [célula de energia](items_blocks/energy_cells.md) para que sua rede consiga lidar com picos de energia.
+* Você pode usar água no <ItemLink id="appliedenergistics2:tile.BlockCondenser" />.
+* A melhor maneira de manter sua rede organizada é não inserir nela itens aleatórios obtidos de criaturas (mobs), como espadas e armaduras. Cada combinação única de encantamento e durabilidade constitui um [tipo] diferente.(ae2_mechanics/bytes_and_types.md).
+* Um evento de "entrada de item no sistema" deve ocorrer ao retornar o resultado de um [padrão de processamento].(items_blocks/patterns.md), como por meio de um <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />, <ItemLink id="appliedenergistics2:tile.BlockInterface" />, ou um slot de retorno de interface. Você não pode simplesmente direcionar o resultado para um baú com um <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> nisso.
+* O <ItemLink id="appliedenergistics2:tile.BlockInterface" /> Envia lotes completos de receitas para um estoque adjacente. Isso é útil para garantir que as máquinas não recebam lotes parciais, mas às vezes você quer que os ingredientes vão para vários locais. Você pode conseguir isso usando várias interfaces ou um sistema de gerenciamento de receitas. <ItemLink id="appliedenergistics2:tile.BlockInterface" /> como um [pipe subnet](tricks_example/pipe_subnet.md).

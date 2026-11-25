@@ -7,4 +7,4 @@ navigation:
 
 # Botania
 
-Guides for Botania.
+Guias para o Botania.

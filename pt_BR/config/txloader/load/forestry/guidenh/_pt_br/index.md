@@ -7,4 +7,4 @@ navigation:
 
 # Bee with You
 
-Guides for Forestry beekeeping.
+Guias para o Forestry beekeeping.
