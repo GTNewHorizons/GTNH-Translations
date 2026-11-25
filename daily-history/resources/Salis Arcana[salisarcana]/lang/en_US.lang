@@ -153,6 +153,11 @@ tc.research_name.salisarcana:CHESTSCAN=Container Scanning
 tc.research_text.salisarcana:CHESTSCAN=Looking a little closer
 tc.research_page.salisarcana:CHESTSCAN.0=Thanks to your research about deconstructing items, you've learned to look inside other blocks with your Thaumometer by using it to "deconstruct" the block magically. You can scan any block that can hold items, such as a chest or hopper, to scan all contained items automatically.
 
+tc.research_name.salisarcana:INFUSION_PREVIEW=Measure Twice, Infuse Once
+tc.research_text.salisarcana:INFUSION_PREVIEW=Preview your infusions
+tc.research_page.salisarcana:INFUSION_PREVIEW.0=Tired of starting an infusion only to discover halfway through that you were a few drops of §5Praecantatio§0 short, or that your pedestal arrangement was unstable enough to tear the ritual apart? After one too many... incidents, you've learned to ask your Goggles of Revealing to do the maths in advance.<BR>While wearing the goggles and looking at a prepared infusion altar, you will now see the recipe's output, the essentia it will consume (with checks beside each aspect you actually have on hand), and the predicted instability of the craft. All before you ever raise your wand to start it.
+tc.research_page.salisarcana:INFUSION_PREVIEW.1=Of course, if the infusion still collapses spectacularly after all that... Well, the altar does not err.
+
 item.Wand.staffter.obj=Staffter
 
 focus.upgrade.salisarcana:disenchant.name=Disenchant Focus
@@ -280,6 +285,13 @@ salisarcana:wand_rod.special.alfheimSpiritual_staff.1=§5Regenerates §d1 vis§5
 salisarcana:wand_rod.special.alfheimSpiritual_staff.2=  §5at the cost of §bsome Botania mana§5.
 salisarcana:wand_rod.special.alfheimSpiritual_staff.3=§5If paired with Alfheim wand caps, reduces the §bmana cost§5 of
 salisarcana:wand_rod.special.alfheimSpiritual_staff.4=  §5regenerating vis by your armor's §bmana discounts§5.
+
+salisarcana:infusion.preview.invalid=§cInvalid Location
+salisarcana:infusion.preview.unformed=§6Right-Click with a wand to activate
+salisarcana:infusion.preview.norecipe=§cNo valid recipe found.
+salisarcana:infusion.preview.enchantment=Requires §a%s §eLevels
+salisarcana:infusion.preview.missingessentia=§cNot enough essentia
+salisarcana:infusion.preview.valid=§6Right-Click with wand to start
 
 salisarcana:wand_rod.special.tbthaumium=§5Regenerates §d1 vis§5 of a random uncapped aspect every 2.5 seconds (max §d10% vis§5)
 salisarcana:wand_rod.special.tbvoid=§5Regenerates §d1 vis§5 of a random uncapped aspect every 2.5 seconds (max §d10% vis§5)
