@@ -143,7 +143,9 @@ serverutilities.mixins.endermen=Endermen Mixin'ini Etkinleştir
 serverutilities.mixins.bypassplayerlimit=Oyuncu Sınırını Aşma Mixin'ini Etkinleştir
 serverutilities.mixins.farmlandtramplingprotection=Tarım Arazisi Ezilme Koruması Mixin'ini Etkinleştir
 
+# Multiplayer Browser "Message of the Day"
 serverutilities.motd=Sunucu MOTD
+serverutilities.motd.update_frequency=MotD Update Frequency (Milliseconds)
 serverutilities.motd.line1=Birinci MOTD Satırı
 serverutilities.motd.line2=İkinci MOTD Satırı
 
@@ -503,6 +505,8 @@ commands.backup.prune.usage=/backup prune preview
 commands.backup.stop.usage=/backup stop
 commands.backup.getsize.usage=/backup getsize
 commands.backup.list.usage=/backup list
+commands.backup.pause.usage=/backup pause [duration, e.g. 30m, 1h, 5d]
+commands.backup.resume.usage=/backup resume
 commands.reload.usage=/reload [*|domain:*|domain:id]
 commands.my_settings.usage=/my_settings <config id> [value]
 commands.team.usage=/team
@@ -646,6 +650,11 @@ cmd.backup_manual_launch_oc=%s yalnızca sahiplenilmiş araziyi içeren manuel b
 cmd.backup_already_running=Yedekleme veya saklama taraması sürüyor!
 cmd.backup_manual_failed=Yedekleme başlatılamadı veya tamamlanamadı. Yukarıdaki hataya ve sunucu günlüğüne bak.
 cmd.backup_not_running=Yedekleme çalışmıyor!
+cmd.backup_paused=Automatic backups paused, you can resume them with /backup resume.
+cmd.backup_paused_until=Automatic backups paused until %s, you can resume them with /backup resume.
+cmd.backup_resumed=Automatic backups resumed.
+cmd.backup_already_paused=Automatic backups are already paused.
+cmd.backup_already_resumed=Automatic backups aren't paused.
 cmd.backup_prune_header=Saklama önizlemesi (hiçbir şey silinmez):
 cmd.backup_prune_entry=%s %s | %s | %s | %s
 cmd.backup_prune_keep=KEEP
