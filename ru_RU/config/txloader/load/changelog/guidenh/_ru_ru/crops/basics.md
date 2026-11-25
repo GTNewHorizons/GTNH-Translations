@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Crop Basics
+  title: Основы культур
   parent: crops.md
   icon: cropsnh:plantLens
 categories:
@@ -9,45 +9,45 @@ author: Skorched
 date: 2026-05-20
 ---
 
-# Crop Basics
-There is a lot to these crops, so let's get some basics out of the way first! In order to even start on crops, you must have made your first <Color id="RED">GT Tools</Color> in order to craft the Crop Sticks. All CropsNH crops are planted on Crop Sticks, so they're a vital starting point.
+# Основы культур
+В этих культурах много нюансов, так что давай сначала разберёмся с основами! Чтобы вообще начать работу с культурами, тебе нужно сделать свои первые <Color id="RED">GT инструменты</Color>, ведь без них не получится скрафтить жёрдочки. Все культуры CropsNH сажаются на жёрдочки, так что это ключевой первый шаг.
 
-## Getting Seeds
-<Color id="GREEN">Seeds</Color> can be made in a variety of ways, depending on what crop you are aiming for. Some crops simply require planting a "regular" crop on a crop stick, such as with saplings. Planting a vanilla sapling on Crop Sticks will create a <Color id="GREEN">Bonsai</Color> of the relevant type.
+## Получение семян
+<Color id="GREEN">Семена</Color> можно получить разными способами в зависимости от того, какую культуру ты хочешь вырастить. Для некоторых культур достаточно просто посадить «обычную» культуру на жёрдочку, как, например, с саженцами. Если посадить ванильный саженец на жёрдочки, получится <Color id="GREEN">бонсай</Color> соответствующего типа.
 
-To find how to get a seed, you can search it in NEI and find either how to breed it, how to create it, or if it shows nothing, then just use the "regular" version to plant on crop sticks. All of these mechanics will be explained further in this guide.
+Чтобы узнать, как получить семена, найди их в NEI, там будет показано, как их вывести или создать. Если ничего не показано, просто посади «обычную» версию на жёрдочки. Все эти механики подробнее разобраны дальше в этом руководстве.
 
-Left clicking a planted seed will harvest the crop (if mature) and remove it, potentially dropping a seed depending on the <Color id="RED">resistance</Color> (will be explained next) of the seed. <Color id="BLUE">Spades</Color> <ItemImage id="cropsnh:reinforcedSpade" /> will increase your chance of obtaining seeds.
+ЛКМ по посаженным семенам проведёт жатву (если культура созрела) и уберёт растение, при этом могут выпасть семена, в зависимости от <Color id="RED">устойчивости</Color> культуры (о ней расскажем дальше). <Color id="BLUE">Лопатки</Color> <ItemImage id="cropsnh:reinforcedSpade" /> повышают шанс получить семена.
 
-# Crop Stats
-There are two main types of stats when it comes to crops:
-- Seed Stats
-- Soil Stats
+# Характеристики культур
+Существует два основных типа характеристик культур:
+- Характеристики семян
+- Характеристики почвы
 
-## Seed Stats
-<Color id="GREEN">Seed Stats</Color> are broken down into 3 parts:
-- <Color id="BLUE">Growth</Color> - Determines how fast your crop will grow if given the correct conditions
-- <Color id="RED">Gain</Color> - Determines the amount of drops on harvesting
-- <Color id="GREEN">Resistance</Color> - Determines a few other mechanics, such as chance of dropping seeds, ease of "trampling" the crop, likelihood of generating weeds and more!
+## Характеристики семян
+Существует 3 типа <Color id="GREEN">характеристик семян</Color>:
+- <Color id="BLUE">Рост</Color> - определяет, как быстро будет расти твоя культура при правильных условиях
+- <Color id="RED">Урожайность</Color> - определяет количество дропа при жатве
+- <Color id="GREEN">Устойчивость</Color> - определяет ряд других механик, например шанс выпадения семян, лёгкость «вытаптывания» культуры, вероятность появления сорняков и многое другое!
 
-Growing these stats is vital for getting a good output on your farms!
+Прокачка этих характеристик очень важна для хорошей отдачи твоих ферм!
 
-When first placing a crop, you will see the stats (1:1:1 for your first), and all of the relevant info will be on the tooltip, such as growth progress.
+Когда ты впервые сажаешь культуру, ты увидишь её характеристики (1:1:1 для самой первой), а вся нужная информация, например прогресс роста, будет в подсказке культыры.
 
-## Soil Stats
-Though not an "official" name, these are the stats that determine the behaviour of your planted seed. These are broken into:
-- <Color id="BLUE">Fertilizer</Color> - Speeds up crop growth and prevents stat loss on breeding
-- <Color id="RED">Water</Color> - Helps to prevent your plants from getting sick by keeping them hydrated
-- <Color id="GREEN">Weed-Ex</Color> - Prevents the spreading of sickness
+## Характеристики почвы
+Хотя это и не «официальное» название, именно эти характеристики определяют поведение посаженных семян. Обрати внимание,  название немного обманчиво: все характеристики почвы на самом деле хранятся не в блоке почвы, а на жёрдочках, и если их сломать и поставить заново, характеристики обнулятся. Эти характеристики делятся на:
+- <Color id="BLUE">Удобрение</Color> - ускоряет рост культуры и предотвращает потерю характеристик при скрещивании
+- <Color id="RED">Вода</Color> - помогает предотвратить болезни растений, поддерживая их увлажнёнными
+- <Color id="GREEN">Гербицид</Color> - предотвращает распространение болезней
 
-These 3 stats can be increased using  <Color id="BLUE">Fertilizer</Color> <ItemImage id="cropsnh:fertilizer" />, <Color id="RED">Watering Cans</Color> <ItemImage id="ExtraUtilities:watering_can" /> or <Color id="GREEN">Weed-Ex Can</Color> <ItemImage id="cropsnh:weedEX" /> respectively.
+Эти 3 характеристики можно повысить с помощью <Color id="BLUE">удобрения</Color> <ItemImage id="cropsnh:fertilizer" />, <Color id="RED">лейки</Color> <ItemImage id="ExtraUtilities:watering_can" /> и <Color id="GREEN">гербицида</Color> <ItemImage id="cropsnh:weedEX" /> соответственно.
 
 > [!NOTE]
-> Some seeds <Color id="RED">CANNOT</Color> be grown in world on *any* soil, and must be farmed using the [Industrial Farm](if.md)
+> Некоторые семена <Color id="RED">НЕЛЬЗЯ</Color> вырастить в мире на *любой* почве, их нужно выращивать только на [промышленной ферме](if.md)
 
-## Helpful Notes on Tiers:
-These are some general rules of thumb regarding crop tiers:
-- Tier 4: Last tier where crops can be planted anywhere
-- Tier 5: Last tier where crops can be planted anywhere if they can see the sky
-- Tier 11: Last tier where crops can be planted anywhere if in an 80%+ humidity biome
-- Tier 12: Last tier where crops can be planted anywhere if they can see the sky <Color id="RED">AND</Color> are in a 80%+ humidity biome.
+## Полезные заметки про тиры:
+Несколько общих практических правил о тирах культур:
+- Тир 4: последний тир, на котором культуры можно сажать где угодно
+- Тир 5: последний тир, на котором культуры можно сажать где угодно, если они видят небо
+- Тир 11: последний тир, на котором культуры можно сажать где угодно, если биом имеет влажность 80%+
+- Тир 12: последний тир, на котором культуры можно сажать где угодно, если они видят небо <Color id="RED">И</Color> находятся в биоме с влажностью 80%+

@@ -21,8 +21,19 @@ item.compactkineticgenerators:IridiumBlade.name=Иридиевая лопаст�
 
 # tooltip
 tooltip.ckg.eu=Выход энергии: 0-%s EU/t макс.
-tooltip.ckg.ku=Выход энергии: 0-%s KU/t макс.
-tooltip.ckg.capacity0=Буфер: 1m EU
-tooltip.ckg.capacity1=Буфер: 4m EU
-tooltip.ckg.capacity2=Буфер: 10m EU
-tooltip.ckg.capacity3=Буфер: 40m EU
+tooltip.ckg.outputScale=Output multiplier: ×%s
+tooltip.ckg.capacity=Capacity: %s
+
+# Config
+compactkineticgenerators.config.general=General
+compactkineticgenerators.config.general.tooltip=Energy tier and generator multipliers.
+compactkineticgenerators.config.extremeTier=Extreme Kinetic Generator tier
+compactkineticgenerators.config.extremeTier.tooltip=Energy tier of the Extreme Kinetic Generator. Tier 7 allows up to 131,072 EU/t.
+compactkineticgenerators.config.windOutput=Wind output multipliers
+compactkineticgenerators.config.windOutput.tooltip=Output relative to the standard wind generator. Order: Low, Medium, High, Extreme.
+compactkineticgenerators.config.windRotorDamage=Wind rotor wear multipliers
+compactkineticgenerators.config.windRotorDamage.tooltip=Rotor wear relative to the standard wind generator. Order: Low, Medium, High, Extreme.
+compactkineticgenerators.config.waterOutput=Water output multipliers
+compactkineticgenerators.config.waterOutput.tooltip=Output relative to the standard water generator. Order: Low, Medium, High, Extreme.
+compactkineticgenerators.config.waterRotorDamage=Water rotor wear multipliers
+compactkineticgenerators.config.waterRotorDamage.tooltip=Rotor wear relative to the standard water generator. Order: Low, Medium, High, Extreme.

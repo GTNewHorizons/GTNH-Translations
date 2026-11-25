@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Crop Breeding
+  title: Скрещивание культур
   parent: crops.md
   icon: cropsnh:genericSeed
 categories:
@@ -9,39 +9,39 @@ author: Skorched
 date: 2026-05-20
 ---
 
-# Crop Breeding
-There are only so many seeds that can be made by just planting a vanilla seed on crop sticks. There are three main ways to generate other seeds, and that will be covered in this segment. For breeding methods that happen "in world", there is a 50/50 chance of the crop either [spreading](spreading.md), or breeding (presuming a valid breeding setup)
+# Скрещивание культур
+Если просто сажать ванильные семена на жёрдочки, получится лишь ограниченный набор семян. Есть три основных способа получить остальные, и о них пойдёт речь в этом разделе. Для способов скрещивания, которые происходят «в мире», с шансом 50/50 культура либо [распространится](spreading.md), либо скрестится (при условии, что скрещивание настроено правильно).
 
-## Deterministic Breeding
+## Детерминированное скрещивание
 <FloatingImage src="../assets/crops/determine.png" displayWidth="128" wrap="square" align="left">
   <ImageAnnotation>
-    An example of a deterministic breeding
+    Пример детерминированного скрещивания
   </ImageAnnotation>
 </FloatingImage>
-Deterministic Breeding is where the target seed has a "recipe" of sorts. In this case, simply set up two mature plants as required in the recipe, and have double crop sticks in the centre with the valid growing conditions for the target crop. If there is a valid deterministic breeding case, the new plant will always be either a spread crop of either of the parents, or the target crop. Pool mutations will not occur
+При детерминированном скрещивании у целевых семян есть своего рода «рецепт». В этом случае просто посади две зрелые культуры, как указано в рецепте, а между ними поставь двойные жёрдочки с подходящими условиями роста для новой культуры. Если подходящий случай детерминированного скрещивания существует, новым растением всегда станет либо распространённая культура одного из родителей, либо целевая культура. Мутации из пулов при этом не происходят.
 <br clear="all">
 
-## Pool Breeding
+## Скрещивание по пулам
 <FloatingImage src="../assets/crops/pools.png" displayWidth="128" wrap="square" align="left">
   <ImageAnnotation>
-    An example of a Crop Mutation Pool
+    Пример пула мутаций культур
   </ImageAnnotation>
 </FloatingImage>
 
-For the majority of crops, breeding the base seed is done through <Color id="GREEN">Pool Breeding</Color>. By searching the uses of any scanned crop, the page shown here can be found, which displays all "pools" that the seed belongs to. For any target crop to be generated this way, you must have two mature parents from within the same pool as the target crop on either side, and follow the same basic setup steps as deterministic breeding. This is often a much less "accurate" method, as without the right planning, the valid pool of "output" crops will be larger than just the crop you desire
+Для большинства культур базовое семя получают через <Color id="GREEN">скрещивание по пулам</Color>. Если посмотреть, где используется любая отсканированная культура, можно найти показанную здесь страницу, на которой отображены все «пулы», к которым принадлежат семена. Чтобы получить целевую культуру таким способом, тебе нужны два зрелых родителя из того же пула, что и целевая культура, по обе стороны от неё, а базовые шаги настройки те же, что и при детерминированном скрещивании. Этот метод часто гораздо менее «точный»: без правильного планирования пул возможных «результатов» культур будет шире, чем одна нужная тебе культура.
 <br clear="all">
 
-## Crop Breeder Machine
-For more advanced crops, you must use a <Color id="BLUE">Crop Breeder</Color> <ItemImage id="gregtech:gt.blockmachines:28025" />. These are fully deterministic in their outputs, but have a chance to void outputs depending on the voltage tier of machine used, starting at 40% success at LV, and 100% at ZPM+.
+## Механизм «Селекционер культур»
+Для улучшенных культур нужно использовать <Color id="BLUE">селекционер культур</Color> <ItemImage id="gregtech:gt.blockmachines:28025" />. Результаты у него полностью детерминированы, но есть шанс потерять результат в зависимости от тира вольтажа используемого механизма: от 40% успеха на LV до 100% на ZPM и выше.
 
-All recipes in the crop breeders take some set of inputs (often just two seeds, but can be more), and an amount of <Color id="GREEN">Enriched Fertilizer</Color>. The recipe for this can be somewhat misleading, as it is dependent on both the tier, and stats of the output seed. 
+Все рецепты в селекционерах культур требуют некий набор входных предметов (часто это просто двое семян, но может быть и больше) и некоторое количество <Color id="GREEN">обогащённого удобрения</Color>. Рецепт для него может вводить в заблуждение, так как зависит и от тира, и от характеристик получаемых семян.
 
-As an example, let us say we are trying to produce a <Color id="RED">Bauxia Seed</Color>. The recipe stated in NEI is Galvania Seed + Nickelback Seed + Bauxite Ore + <Color id="GREEN">7560L Enriched Fertilizer</Color>.
+Для примера допустим, что мы хотим получить <Color id="RED">семена Бауксии</Color>. Рецепт в NEI: семена Гальвании + семена Пятицентовика + бокситовая руда + <Color id="GREEN">7560 л обогащённого удобрения</Color>.
 
-The actual amount of fertilizer can vary greatly depending on the stats of the input as shown below:
-- 1/1/1 inputs: <Latex formula="\text{Fertilizer} = 6 \times 144 + (1 + 1 + 1) \times 72 = 1080L" />
-- 31/31/31 inputs: <Latex formula="\text{Fertilizer} = 6 \times 144 + (31 + 31 + 31) \times 72 = 7560L" />
+Фактическое количество удобрения может сильно отличаться в зависимости от характеристик входных семян, как показано ниже:
+- Входные семена 1/1/1: <Latex formula="\text{Удобрение} = 6 \times 144 + (1 + 1 + 1) \times 72 = 1080\,\text{л}" />
+- Входные семена 31/31/31: <Latex formula="\text{Удобрение} = 6 \times 144 + (31 + 31 + 31) \times 72 = 7560\,\text{л}" />
 
-This is particularly important when you consider that as an example an MV Crop Breeder can only store 6,400L in its input fluid slot.
+Это особенно важно, если учесть, что, например, селекционер культур тира MV может хранить во входном слоте для жидкости только 6 400 л.
 
-As such it may be needed to "down-stat" seeds for this specific purpose
+Поэтому для этой цели может понадобиться «понижать характеристики» семян.
