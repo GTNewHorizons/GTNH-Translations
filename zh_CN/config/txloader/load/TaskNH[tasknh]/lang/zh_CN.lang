@@ -85,6 +85,8 @@ tasknh.hud.section.subtasks=子任务%s
 # Command messages
 tasknh.cmd.not_in_team=你不在团队中
 tasknh.cmd.no_tasks=无任务
+tasknh.cmd.list_open_hint=点击任务 ID，然后按 Enter 键打开任务。
+tasknh.cmd.list_open_tooltip=点击以填入命令。
 tasknh.cmd.no_permission=你没有使用该命令的权限
 tasknh.cmd.synced=已将任务同步给所有在线玩家
 tasknh.cmd.gui_client_only=GUI是仅客户端可用的
@@ -100,6 +102,7 @@ tasknh.cmd.file_not_found=文件未找到：%s
 tasknh.cmd.imported=已导入%s项任务
 tasknh.cmd.import_failed=导入失败：%s
 tasknh.cmd.task_not_found=任务未找到：%s
+tasknh.cmd.ambiguous_task_id=找到多个任务匹配%s。请使用完整UUID。
 tasknh.cmd.usage.create=使用方式：/tasknh create <标题>
 tasknh.cmd.usage.assign=使用方式：/tasknh assign <id> <玩家>
 tasknh.cmd.usage.unassign=使用方式：/tasknh unassign <id> <玩家>
