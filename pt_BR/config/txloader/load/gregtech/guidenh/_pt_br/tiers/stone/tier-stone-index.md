@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: Stone Age
+  title: Era da Pedra
   icon: minecraft:grass
   parent: /tiers/tiers-index.md
 ---
 
-> [!WARNING]
-> This page is under construction. Check again later, or [help contribute](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
+> [!Aviso]
+> Esta página está em construção. Volte mais tarde, ou [ajude a contribuir](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
