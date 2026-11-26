@@ -1,16 +1,16 @@
-{aqua:Drone #10032, cleared for takeoff!}
-Monitors multiblock machines in range
-Replace maintenance hatch on other multi with drone downlink module
-Provides maintenance, power control, monitoring, and more
+{aqua:드론 #10032, 이륙 허가 완료!}
+범위 내 멀티블록 기계를 모니터링합니다.
+다른 멀티블록의 유지보수 해치를 드론 다운링크 모듈로 교체합니다.
+유지보수, 전력 제어, 모니터링 등을 제공합니다.
 {hr}
-Operation range is determined by Drone Tier:
-T1-128, T2-512, T3-4096, T4-4096(Auto)/Infinite(Key)
-T4 drone allows cross-dimension connection!
-{red:To enable cross-dimension,}
-{red:downlink module must have the same key with centre.}
-{red:But it's not necessary for auto connection in range}
+작동 범위는 드론 티어에 따라 결정됩니다:
+T1-128, T2-512, T3-4096, T4-4096(자동)/무한(키)
+T4 드론은 차원 간 연결을 허용합니다!
+{red:차원 간 연결을 활성화하려면,}
+{red:다운링크 모듈이 센터와 동일한 키를 가져야 합니다.}
+{red:그러나 범위 내 자동 연결에는 필요하지 않습니다.}
 {hr}
-Place drones in input bus; only one needed to operate
-Automatically upgrade based on the drone level in the input bus
-There is a chance per second that the drone will crash
-Chance is determined by Drone Tier: T1: 1/28800, T2: 1/172800, T3 & T4: 0
+드론을 입력 버스에 넣으십시오. 작동에는 하나만 필요합니다.
+입력 버스에 있는 드론 레벨에 따라 자동으로 업그레이드됩니다.
+매초 드론이 추락할 확률이 있습니다.
+확률은 드론 티어에 따라 결정됩니다: T1: 1/28800, T2: 1/172800, T3 & T4: 0

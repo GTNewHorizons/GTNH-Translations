@@ -1,1 +1,1 @@
-Machine Type: {color_machine_type:BEC Hatch}
+기계 유형: {color_machine_type:BEC Hatch}

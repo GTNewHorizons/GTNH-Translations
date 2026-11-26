@@ -1,13 +1,13 @@
-Equivalent to 32 Large Heat Exchangers
-Inputs are {color_hot:Lava}, {color_hot:Hot Coolant}, or {color_hot:Hot Solar Salt}
-Outputs are {color_cold:Pahoehoe Lava}, {color_cold:IC2 Coolant}, or {color_cold:Cold Solar Salt}
-Converts distilled water into {color_steam:Steam} or {color_steam:SH Steam} in the process
-Outputs {color_steam:SH Steam} if the input rate of hot fluid is above a certain {light_purple:threshold}
-Explodes immediately if it runs out of distilled water
+대형 열 교환기 32개에 해당합니다.
+입력은 {color_hot:용암}, {color_hot:뜨거운 냉각수}, 또는 {color_hot:뜨거운 태양염}입니다.
+출력은 {color_cold:파호이호이 용암}, {color_cold:IC2 냉각수}, 또는 {color_cold:차가운 태양염}입니다.
+이 과정에서 증류수를 {color_steam:증기} 또는 {color_steam:SH 증기}로 변환합니다.
+뜨거운 유체의 입력 속도가 특정 {light_purple:임계값}을 초과하면 {color_steam:SH 증기}를 출력합니다.
+증류수가 떨어지면 즉시 폭발합니다.
 {hr}
-{color_hot:Lava} | SH Threshold {light_purple:{var:lava_threshold} {L}/s} | Max Input {color_hot:{var:lava_max_input} {L}/s} | Max Output {color_steam:{var:lava_max_output} {L}/t SH Steam}
-{color_hot:Hot Coolant} | SH Threshold {light_purple:{var:coolant_threshold} {L}/s} | Max Input {color_hot:{var:coolant_max_input} {L}/s} | Max Output {color_steam:{var:coolant_max_output} {L}/t SH Steam}
-{color_hot:Hot Solar Salt} | SH Threshold {light_purple:{var:salt_threshold} {L}/s} | Max Input {color_hot:{var:salt_max_input} {L}/s} | Max Output {color_steam:{var:salt_max_output} {L}/t SH Steam}
+{color_hot:용암} | SH 임계값 {light_purple:{var:lava_threshold} {L}/s} | 최대 입력 {color_hot:{var:lava_max_input} {L}/s} | 최대 출력 {color_steam:{var:lava_max_output} {L}/t SH 증기}
+{color_hot:뜨거운 냉각수} | SH 임계값 {light_purple:{var:coolant_threshold} {L}/s} | 최대 입력 {color_hot:{var:coolant_max_input} {L}/s} | 최대 출력 {color_steam:{var:coolant_max_output} {L}/t SH 증기}
+{color_hot:뜨거운 태양염} | SH 임계값 {light_purple:{var:salt_threshold} {L}/s} | 최대 입력 {color_hot:{var:salt_max_input} {L}/s} | 최대 출력 {color_steam:{var:salt_max_output} {L}/t SH 증기}
 {hr}
-A circuit in the controller lowers the SH threshold at the cost of steam
-{light_purple:-{var:threshold_reduction}%} SH Threshold and {color_loss:-{var:steam_penalty}%} steam output per circuit over {var:min_circuit}
+컨트롤러의 회로는 증기를 대가로 SH 임계값을 낮춥니다.
+{var:min_circuit}개를 초과하는 회로마다 SH 임계값 {light_purple:-{var:threshold_reduction}%} 및 증기 출력 {color_loss:-{var:steam_penalty}%}

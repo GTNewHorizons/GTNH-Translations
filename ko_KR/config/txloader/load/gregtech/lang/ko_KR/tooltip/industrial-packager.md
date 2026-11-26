@@ -1,3 +1,3 @@
 {hr}
-This Multiblock is used for EXTREME packaging requirements
-Can be configured to work as an Unpackager in the controller
+이 멀티블록은 극한의 포장 요구 사항에 사용됩니다.
+컨트롤러에서 포장해체기로 작동하도록 구성할 수 있습니다.

@@ -1,3 +1,3 @@
-Process that milled ore!
-{color_note:Locked to one milled ore type per controller}
-{color_mechanic:Performs 4/4 Perfect Overclocks}
+분쇄된 광석을 처리하는 공정입니다!
+{color_note:컨트롤러당 하나의 분쇄된 광석 유형에 고정됩니다}
+{color_mechanic:4/4 완벽한 오버클럭을 수행합니다}

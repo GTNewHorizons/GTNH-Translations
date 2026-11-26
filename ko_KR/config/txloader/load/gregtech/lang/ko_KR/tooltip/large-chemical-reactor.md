@@ -1,3 +1,3 @@
-Accepts fluids instead of fluid cells
-Can perform several direct recipes that skip intermediate compounds
-{color_mechanic:Performs 4/4 Perfect Overclocks}
+유체 셀 대신 유체를 받습니다
+중간 화합물을 건너뛰는 여러 직접 레시피를 수행할 수 있습니다
+{color_mechanic:4/4 완벽한 오버클럭을 수행합니다}

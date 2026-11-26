@@ -1,5 +1,5 @@
-Requires a {color_key:Sawblade} in the controller slot to run
-Better Sawblades give increased bonuses
-A {color_key:Transcendent Metal Sawblade} allows for a single {color_hatch:Multi-Amp Energy Hatch}
+작동하려면 컨트롤러 슬롯에 {color_key:톱날}이 필요합니다.
+더 좋은 톱날은 더 큰 보너스를 제공합니다.
+{color_key:초월 금속 톱날}을 사용하면 단일 {color_hatch:다중 앰프 에너지 해치}를 사용할 수 있습니다.
 {hr}
-Use a {color_name:Screwdriver} to disable animations
+애니메이션을 비활성화하려면 {color_name:드라이버}를 사용하십시오.

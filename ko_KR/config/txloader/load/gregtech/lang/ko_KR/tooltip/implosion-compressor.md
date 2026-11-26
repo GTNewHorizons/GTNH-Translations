@@ -1,1 +1,1 @@
-Explosions are fun
+폭발은 재미있습니다.

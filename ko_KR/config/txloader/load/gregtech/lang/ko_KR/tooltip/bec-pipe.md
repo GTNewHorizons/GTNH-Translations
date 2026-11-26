@@ -1,6 +1,4 @@
-기계 유형: {yellow:BEC 도관}
-여러 보스-아인슈타인 응축물 멀티블록을 하나의 네트워크로 연결합니다.
-네트워크에 연결하려면 멀티블록에 도관과 연결되는 {gold:{item:gregtech:gt.blockmachines:15476}}이 있어야 합니다.
-응축물의 흐름을 제어하려면 {gold:{item:gregtech:gt.blockmachines:15760}}을 사용하십시오.
-분기하거나 방향을 바꿀 수 있습니다. 멀티블록끼리 연결하기만 하면 서로 이어집니다.
-색상이 일치하는 파이프와 해치에만 연결됩니다.
+BEC 멀티블록을 하나의 네트워크로 연결합니다.
+BEC 멀티블록에 있는 {gold:{item:gregtech:gt.blockmachines:15476}}에 부착됩니다.
+분기하거나 방향을 바꿀 수 있지만, 색상이 일치하는 도관과 해치에만 연결됩니다.
+응축물의 표시 여부/흐름을 제어하려면 {gold:{item:gregtech:gt.blockmachines:15760}}을 사용하십시오.

@@ -1,3 +1,3 @@
-{color_speed:100%} Speed {color_speed:+{var:speed_increase}%} per {color_name:Item Pipe Casing} Tier
-{color_efficiency:{var:eu_eff}%} {EU} Usage
-{tier-color:glass_tier_for_multiamp:{VN:glass_tier_for_multiamp}+} glass allows for a single {color_hatch:Multi-Amp Energy Hatch}
+{color_speed:100%} 속도, {color_name:아이템 파이프 케이싱} 티어당 {color_speed:+{var:speed_increase}%}
+{color_efficiency:{var:eu_eff}%} {EU} 사용량
+{tier-color:glass_tier_for_multiamp:{VN:glass_tier_for_multiamp}+} 유리는 멀티앰프 에너지 해치 하나를 허용합니다.

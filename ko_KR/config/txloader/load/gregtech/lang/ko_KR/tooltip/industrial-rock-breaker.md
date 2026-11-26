@@ -1,4 +1,4 @@
 {hr}
-Use a {color_name:Programmed Circuit} to specify which recipe to run
-{color_mode:1}=Cobble, {color_mode:2}=Stone, {color_mode:3}=Obsidian, {color_mode:4}=Basalt
-{color_mode:5}=Deepslate, {color_mode:6}=Netherrack, {color_mode:7}=Endstone
+{color_name:프로그래밍된 회로}를 사용하여 실행할 조합법을 지정하십시오.
+{color_mode:1}=조약돌, {color_mode:2}=돌, {color_mode:3}=흑요석, {color_mode:4}=현무암
+{color_mode:5}=심층암, {color_mode:6}=네더랙, {color_mode:7}=엔드 스톤

@@ -1,2 +1,2 @@
-Allows Complex alloys to be created
-Recipe Tier is limited to {color_name:Hatch} Tier
+복합 합금을 생성할 수 있게 합니다.
+조합법 티어는 {color_name:해치} 티어로 제한됩니다.

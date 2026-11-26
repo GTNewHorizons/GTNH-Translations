@@ -1,1 +1,1 @@
-Changes the structure of items to produce new ones
+아이템의 구조를 변경하여 새로운 아이템을 생산합니다.

@@ -1,6 +1,6 @@
 {hr}
-Factory Grade Auto Chisel
-{color_mode:Chisel Bus}: Set the target block with ghost items
-{color_mode:CRIB}: Set the target block with the pattern output
-{color_mode:Input Bus}: Set the target block with a programmed circuit (see {color_name:NEI})
-Supports {blue:ArchitectureCraft} shapes as target blocks
+공장 등급 자동 조각기
+{color_mode:Chisel Bus}: 고스트 아이템으로 대상 블록을 설정합니다
+{color_mode:CRIB}: 패턴 출력으로 대상 블록을 설정합니다
+{color_mode:Input Bus}: 프로그래밍된 회로로 대상 블록을 설정합니다({color_name:NEI} 참조)
+{blue:ArchitectureCraft} 형상을 대상 블록으로 지원합니다

@@ -1,5 +1,7 @@
-일부 유체를 사용하여 레시피 시간을 줄일 수 있습니다. 회로를 입력 버스에 놓으십시오.
-{aqua:{var:start_tier}} 티어를 초과할 때마다 {white:전압} 티어당 열이 {red:{var:heat_per_tier}K} 증가합니다.
-레시피 요구량을 초과하는 {red:{var:discount_heat}K}마다 {aqua:EU 사용량}이 {white:5%} 감소합니다.
-레시피 요구량을 초과하는 {red:{var:perfect_oc_heat}K}마다 {light_purple:완벽한 오버클럭}이 1회 적용됩니다.
-즉, EBF가 레시피 시간을 2배가 아닌 4배 줄여 효율을 100%로 높입니다.
+기본 {color_heat:열}은 {color_name:가열 코일}에 의해 결정됩니다.
+{VNF:base_tier_for_heat_increase}를 초과하는 {color_name:전압} 티어마다 열은 {color_heat:+{var:heat_per_tier}{K}} 증가합니다.
+{hr}
+조합법 요구량을 {color_heat:{var:eu_reduction_heat}{K}} 초과할 때마다 {EU} 사용량이 {color_eu_usage:{var:eu_reduction}%} 감소합니다.
+조합법 요구량을 {color_heat:{var:heat_per_poc}{K}} 초과할 때마다 {color_mechanic:완벽한 오버클럭 1회}를 부여합니다.
+{color_mechanic:완벽한 오버클럭}은 속도를 {color_speed:2배}가 아닌 {color_speed:4배}로 증가시킵니다(에너지 효율 100%).
+{color_note:특정 유체는 기본 조합법 소요 시간도 줄입니다}

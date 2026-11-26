@@ -1,6 +1,6 @@
-Stats dictated by tower mode
-Right click the controller with screwdriver to change mode
+능력치는 타워 모드에 따라 결정됩니다
+모드를 변경하려면 드라이버로 컨트롤러를 우클릭하십시오
 {hr}
-{color_mode:Distillery Mode}
-Outputs only one fluid
-{color_parallel:(2 * floor(Height / 3)) * Voltage Tier} Parallels
+{color_mode:증류기 모드}
+유체를 하나만 출력합니다
+{color_parallel:(2 * floor(높이 / 3)) * 전압 티어} 병렬 처리

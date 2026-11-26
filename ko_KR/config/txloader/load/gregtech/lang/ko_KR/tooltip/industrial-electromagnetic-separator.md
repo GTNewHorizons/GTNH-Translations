@@ -1,5 +1,5 @@
-Requires an {color_key:Electromagnet} in the {white:Electromagnet Housing} to run
-Better Electromagnets give increased bonuses
-A {color_key:Tengam Electromagnet} allows for a single {green:Multi-Amp Energy Hatch}
+작동하려면 {white:전자석 하우징} 안에 {color_key:전자석}이 필요합니다
+더 좋은 전자석은 더 큰 보너스를 제공합니다
+{color_key:텐감 전자석}을 사용하면 {green:다중 앰프 에너지 해치} 하나를 사용할 수 있습니다
 {hr}
-Use a {color_name:Screwdriver} to switch modes
+모드를 전환하려면 {color_name:드라이버}를 사용하십시오
