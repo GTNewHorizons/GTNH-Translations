@@ -1,1 +1,1 @@
-Needs a Turbine, place inside controller
+터빈이 필요하며, 컨트롤러 내부에 설치하십시오.

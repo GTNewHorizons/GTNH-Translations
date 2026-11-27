@@ -1,3 +1,3 @@
 #include:gregtech:large-turbine-rotor
-Generates power from Gas based on the turbine and fitting
+터빈과 조임을 기반으로 가스에서 전력을 생산합니다.
 #include:gregtech:large-turbine-fitting

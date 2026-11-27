@@ -1,2 +1,2 @@
-Use a screwdriver to adjust the fitting of the turbine
-Loose fit increases flow in exchange for efficiency
+드라이버를 사용하여 터빈의 조임을 조정하십시오.
+느슨한 조임은 효율을 희생하는 대신 유량을 증가시킵니다.

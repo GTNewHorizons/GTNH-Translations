@@ -1,7 +1,7 @@
-{dark_gray:{italic:"all it does is make metals hot"}}
-{color_parallel:{var:parallels}} Parallels
-{color_speed:-{var:speed_bonus}%} Recipe Time per {color_tier:Heating Coil} Tier above TPV (additive)
-{color_efficiency:-{var:energy_discount}%} {EU} Usage per {color_tier:Heating Coil} Tier above the Recipe Tier (multiplicative)
+{dark_gray:{italic:"하는 일이라고는 금속을 뜨겁게 만드는 것뿐입니다"}}
+{color_parallel:{var:parallels}} 병렬 처리
+TPV보다 높은 {color_tier:가열 코일} 티어당 조합법 시간 {color_speed:-{var:speed_bonus}%} (가산)
+조합법 티어보다 높은 {color_tier:가열 코일} 티어당 {EU} 사용량 {color_efficiency:-{var:energy_discount}%} (곱연산)
 {hr}
-{color_tier:Recipe} Tier limited by {color_tier:Glass} Tier
-Can also use normal ABS coils in their place instead, if you don't like the bonuses :)
+{color_tier:조합법} 티어는 {color_tier:유리} 티어에 의해 제한됩니다.
+보너스가 마음에 들지 않으신다면, 그 대신 일반 ABS 코일을 사용하셔도 됩니다 :)

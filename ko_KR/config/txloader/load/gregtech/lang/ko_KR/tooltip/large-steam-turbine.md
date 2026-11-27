@@ -1,4 +1,4 @@
 #include:gregtech:large-turbine-rotor
-Generates power from Steam based on the turbine and fitting
-Outputs 1 {L} of Distilled Water for every 160 {L} of Steam
+터빈과 조임에 따라 증기로부터 전력을 생산합니다.
+증기 160 {L}마다 증류수 1 {L}를 출력합니다.
 #include:gregtech:large-turbine-fitting

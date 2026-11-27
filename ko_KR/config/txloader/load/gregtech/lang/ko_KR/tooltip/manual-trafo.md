@@ -1,5 +1,5 @@
-Operates in 4 different modes:
-Mode 1: {color_name:Circuit 0} in controller: {color_mode:Direct-Upstep}
-Mode 2: {color_name:Circuit 1} in controller: {color_mode:Direct-Downstep}
-Mode 3: {color_name:Circuit 2} in controller: {color_mode:Tapped-Upstep} {color_deprecated:(currently disabled)}
-Mode 4: {color_name:Circuit 3} in controller: {color_mode:Tapped-Downstep} {color_deprecated:(currently disabled)}
+4가지 서로 다른 모드로 작동합니다:
+모드 1: 컨트롤러에 {color_name:회로 0}이 있을 때: {color_mode:직접 승압}
+모드 2: 컨트롤러에 {color_name:회로 1}이 있을 때: {color_mode:직접 강압}
+모드 3: 컨트롤러에 {color_name:회로 2}이 있을 때: {color_mode:탭 승압} {color_deprecated:(현재 비활성화됨)}
+모드 4: 컨트롤러에 {color_name:회로 3}이 있을 때: {color_mode:탭 강압} {color_deprecated:(현재 비활성화됨)}
