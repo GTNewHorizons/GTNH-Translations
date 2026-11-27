@@ -86,6 +86,8 @@ tasknh.hud.section.subtasks=Подзадачи %s
 # Command messages
 tasknh.cmd.not_in_team=Вы не состоите в команде.
 tasknh.cmd.no_tasks=Задач нет.
+tasknh.cmd.list_open_hint=Click a task ID, then press Enter to open the task.
+tasknh.cmd.list_open_tooltip=Click to fill in the command.
 tasknh.cmd.no_permission=У вас нет прав на использование этой команды.
 tasknh.cmd.synced=Задачи синхронизированы со всеми онлайн-игроками.
 tasknh.cmd.gui_client_only=GUI доступен только на клиенте.
@@ -101,6 +103,7 @@ tasknh.cmd.file_not_found=Файл не найден: %s
 tasknh.cmd.imported=Импортировано %s задач.
 tasknh.cmd.import_failed=Ошибка импорта: %s
 tasknh.cmd.task_not_found=Задача не найдена: %s
+tasknh.cmd.ambiguous_task_id=Multiple tasks match %s. Use the full UUID.
 tasknh.cmd.usage.create=Использование: /tasknh create <название>
 tasknh.cmd.usage.assign=Использование: /tasknh assign <id> <игрок>
 tasknh.cmd.usage.unassign=Использование: /tasknh unassign <id> <игрок>

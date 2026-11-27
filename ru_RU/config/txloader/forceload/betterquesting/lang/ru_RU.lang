@@ -9784,68 +9784,68 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGVw.name=Давай возьмем не�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGVw.desc=Для начала нам понадобятся трубы, чтобы всё соединить. Не используй эти трубы на перекрестках, иначе предметы будут выбирать путь случайным образом, а ты этого не хочешь.%n%n[note]Помни, что автоматизация с помощью PR вызывает лаги, так что не используй её больше необходимого минимума на серверах и дождись AE2. В одиночной игре делай что хочешь, но помни, что AE2 намного мощнее[/note].
 
 # Quest: Junctions
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWA.name=Junctions
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWA.desc=So how do we deal with junctions then? We use these pipes. They are smart and they will send everything where it needs to go, so if you make a junction make sure you put this pipe there.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWA.name=Ответвления
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWA.desc=Как же быть с разветвлениями? Для этого стоит использовать такие трубы. Они «умные» и сами направят всё туда, куда нужно, поэтому, если делаешь ответвление, обязательно установите в этом месте такую ​​трубу.
 
 # Quest: Interacting With Stuff
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWQ.name=Interacting With Stuff
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWQ.desc=That's all nice and all, but none of these pipes connect to chests and machines. What am I supposed to do with them?%n%nI'm glad you asked. You are going to need a special pipe for that. This is a pipe you need to use to connect to machines and chests. You'll have to set it up with chips that we'll make soon.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWQ.name=Взаимодействие с объектами
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWQ.desc=Всё это, конечно, замечательно, но ни одна из этих труб не подключается к сундукам или механизмам. И что мне с ними делать?%n%nХороший вопрос. Для этого тебе понадобится особая труба. Именно её нужно использовать для подключения к механизмам и сундукам. А ещё её придётся оснастить специальными чипами — мы как раз скоро их сделаем.
 
 # Quest: Chips
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWg.name=Чипы
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWg.desc=Now you need to make some chips to use in those interface pipes. These are useless on their own but essential for crafting the others.%n%nNow would be a good time to look into crops or magic to get all the dyes you will need for your advanced chips.%n%n[note]If NEI's bookmarks are blocking you on the left, you can turn it off (O) until that gets fixed.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWg.desc=Теперь тебе нужно изготовить несколько чипов для использования в соединительных трубах. Сами по себе они бесполезны, но необходимы для создания других компонентов.%n%nСамое время заняться выращиванием сельскохозяйственных культур или магией, чтобы получить все красители, которые потребуются тебе для создания продвинутых чипов.%n%n[note]Если закладки NEI перекрывают обзор слева, ты можешь их отключить (клавиша O), пока эта проблема не будет исправлена.[/note]
 
 # Quest: Item Responder Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWw.name=Чип "Получатель предметов"
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWw.desc=This chip also stores items in connected inventory. It designates a storage for items that are set in the filter of this chip. They do not actively request for items, they only serve as a destination for items to go. You can open up the menu by right-clicking the chip. There you can set which items should it accept and the priority. Items will go to item responders with higher priority first.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGWw.desc=Этот чип также обеспечивает хранение предметов в подключенных инвентарях. Он определяет место для хранения тех предметов, которые указаны в его фильтре. Чип не запрашивает предметы активно — он лишь служит пунктом назначения, куда они могут быть направлены. ПКМ по чипу откроет его меню. В меню можно выбрать, какие предметы будут приниматься, а также задать приоритет. Предметы в первую очередь будут поступать в те хранилища, у которых установлен более высокий приоритет.
 
 # Quest: Item Overflow Chip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXA.name=Item Overflow Chip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXA.desc=This chip stores the items in a connected inventory. It designates a storage for items that have no other place to go. It is strongly recommended to have a default storage for items in every pipe system, otherwise bad stuff can happen. Best used with a large chest (diamond for example).%n%nIt seems to have some bugs though, so don't craft more than one without testing it first.%n%nYou might have to just use a normal item responder and add the items you want routed back to your overflow spot.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXA.name=Чип "Лишних предметов"
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXA.desc=Этот чип сохраняет предметы в подключенном хранилище. Он определяет место для предметов, которым больше некуда попасть. Настоятельно рекомендуется предусмотреть такое хранилище по умолчанию в каждой системе труб — в противном случае могут возникнуть неприятности. Лучше всего использовать его в сочетании с большим сундуком (например, алмазным).%n%nПохоже, в его работе есть ошибки, поэтому не советую создавать сразу несколько штук, не протестировав предварительно один экземпляр.%n%nВозможно, тебе придется воспользоваться обычным получателем предметов и добавить в него предметы, которые должны направляться в хранилище для излишков.
 
 # Quest: Dynamic Item Responder
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXQ.name=Dynamic Item Responder
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXQ.desc=The dynamic item responder chip behaves exactly like an item responder chip, but instead of you setting up which items it should accept, it looks in the chest what items are there and those items it will accept.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXQ.name=Динамичный получатель предметов
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXQ.desc=Динамичный получатель предметов работает точно так же, как Чип "Получатель предметов", но вместо того, чтобы ты сам задавал список принимаемых предметов, он проверяет содержимое сундука и начинает принимать те предметы, которые в нём уже есть.
 
 # Quest: Item Extractor Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXg.name=Чип "Извлекатель предметов"
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXg.desc=This chip will extract items from the connecting inventory. The extracted items then look for pipes with item responder chips where there's a free space they could go. If they don't find any they will go to the overflow default storage chest.%n%nIf you want it to extract everything leave the filter empty and set it to blacklist.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXg.desc=Этот чип извлекает предметы из подключенного к нему хранилища. Затем извлеченные предметы перемещаются по трубам в поисках чипов "Получатель предметов", к которым подключены хранилища со свободным местом. Если подходящее место не найдено, предметы направляются в твой основной сундук хранения.%n%nЕсли ты хочешь, чтобы извлекались все предметы, оставь фильтр пустым и установи режим черный список.
 
 # Quest: Item Broadcaster
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXw.name=Передатчик предметов
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXw.desc=The item broadcaster is a chip that tells everything in the pipe system what items it has in the connecting inventory and if another chip needs anything it will send it to them. Right-click it to set the items it will transmit. If you leave it empty and set to blacklist it will transmit everything.%n%nDefinitely use one in combination with an item overflow chip on your default storage chest. That way overflow will end up in the chest, but will be usable by the rest of your system.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGXw.desc=Передатчик предметов — это чип, который сообщает всем в системе труб, какие предметы у него есть в подлюченном инвентаре, и отправляет их другим чипам, если тем что-то понадобится. Щелкни по нему ПКМ, чтобы настроить предметы для передачи. Если ты оставишь его пустым и включишь черный список, он будет передавать все.%n%nОбязательно используй его в связке с чипом "Лишних предметов" в твоем основном сундуке хранения. Так излишки будут попадать в этот сундук, но при этом останутся доступными для остальной части системы.
 
 # Quest: Item Stock Keeper Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYA.name=Чип "Сберегатель предметов"
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYA.desc=The item stock keeper looks at the connecting inventory and keeps item stocked in there. If the item is missing it will keep bothering item broadcasters every few seconds if they have the item and if they can send it. It's basically like an annoying child.%n%nIt is really useful though. Want a chest that will always have 64 cobble and dirt in it and if you take them they will get replaced? This guy is perfect for that job. It's great for keeping machines stocked. When stocking GT machines, the top left slot of the 3x3 is equal to the left slot of the machine. Want a chemical reactor that keeps 3 hydrogen cells ready to go to make ammonia, just add nitrogen? This is the chip for you.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYA.desc=Сберегатель предметов следит за подключённым инвентарём и поддерживает в нём заданное количество предметов. Если какого-то предмета не хватает, он каждые несколько секунд опрашивает передатчик предметов, есть ли у них этот предмет и могут ли они его отправить. По сути, это как капризный ребёнок.%n%nПри этом он невероятно полезен. Хочешь сундук, в котором всегда будет по 64 булыжника и земли, а всё забранное сразу восполняется? Этот чип подходит для такой задачи идеально. Он отлично справляется с поддержанием запасов в механизмах. При заполнении механизмов из GregTech верхний левый слот сетки 3×3 соответствует левому слоту механизма. Нужен химический реактор, в котором всегда лежат наготове 3 ячейки с водородом для производства аммиака, чтобы оставалось только добавить азот? Этот чип создан для тебя.
 
 # Quest: Crafting Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYQ.name=Чип создания
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYQ.desc=The crafting chip does exactly what it says. It's not just for default crafting. You can use it with GT machines. Just put in the matrix that it should insert and the output is what it should extract. A great use for them is in combination with fluid canners or super tanks for filling cells.%n%n[note]While these chips are really powerful for your PRT system they become a lag hazard relatively quickly, so be careful.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYQ.desc=Чип создания делает ровно то, что написано в его названии. Он нужен не только для обычного крафта: его можно использовать и с GT механизмами. Просто укажи в матрице то, что нужно подать, а в качестве результата то, что нужно извлечь. Отлично подходит в сочетании с канистрами для жидкостей или суперцистернами для наполнения капсул.%n%n[note]Хотя эти чипы очень мощные для твоей системы PRT, они довольно быстро начинают создавать просадки TPS и лаги, так что будь осторожнее.[/note]
 
 # Quest: Request Pipe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYg.name=Труба запроса
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYg.desc=This pipe lets you request stuff from the system. It shows all items that are available thanks to broadcast chips and even stuff that can be crafted thanks to crafting chips.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYg.desc=Эта труба позволяет запрашивать предметы из системы. Она показывает все предметы, доступные благодаря передатчикам предметов, и даже те, которые можно создать с помощью чипов создания.
 
 # Quest: Simple Storage System
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYw.name=Простая система хранения
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYw.desc=[warn]Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.[/warn]%n%nTime to build a simple system to store your stuff. Place down the drawer controller and place the drawers around it. Connect the interface pipe to the drawer controller and put the dynamic item responder and broadcaster chips inside. Don't forget to set the broadcaster to transmit everything by leaving the filter empty and setting it to blacklist. Now you can request stuff from your storage and if you have a chest with a pipe and extractor chip everything you put inside will be sorted into the storage.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYw.desc=[warn]Использование контроллера ящиков с большим объёмом ввода-вывода просадит TPS! Если ты играешь на сервере, не используй ящики, иначе их могут удалить, а тебя забанить.[/warn]%n%nПора собрать простую систему для хранения твоих вещей. Поставь контроллер ящиков и расставь ящики вокруг него. Подключи маршрутизирующую трубу с интерфейсом к контроллеру ящиков и вставь внутрь динамичный получатель предметов и передатчик предметов. Не забудь настроить передатчик предметов на передачу всего: оставь фильтр пустым и переключи его в режим чёрного списка. Теперь ты можешь запрашивать предметы из своего хранилища, а если у тебя есть сундук с трубой и чипом "Извлекатель предметов", всё, что ты в него положишь, будет отсортировано в хранилище.
 
 # Quest: Desulfurizing Oil Automation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZA.name=Desulfurizing Oil Automation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZA.desc=This quest line will show you how to automate desulfurizing of oil products. Return here once you have unlocked the LV distillery quest and have some polyethylene plates.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZA.name=Автоматизация обессеривания нефти
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZA.desc=Эта цепочка квестов покажет тебе, как автоматизировать обессеривание нефтепродуктов. Вернись сюда, когда разблокируешь квест на базовый дистилятор и раздобудешь полиэтиленовые пластины.
 
 # Quest: Storing the Fluids
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZQ.name=Storing the Fluids
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZQ.desc=First we should make a place to store all the fluids we'll use.%n%nIf you're interested what they'll be used for:%n1 for oxygen%n1 for hydrogen%n1 for sulfuric acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZQ.name=Хранение жидкостей
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZQ.desc=Сначала нужно подготовить место для хранения всех жидкостей, которые нам понадобятся.%n%nЕсли тебе интересно, для чего они будут использоваться:%n1 для кислорода%n1 для водорода%n1 для серной кислоты
 
 # Quest: Electrolyzing Water
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZg.name=Электролиз воды
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZg.desc=Now let's automate electrolyzing water into oxygen and hydrogen. You'll need hydrogen for tons of stuff including desulfurization, obtaining tungsten, and nitric acid production. Oxygen is also useful as I'm sure you noticed when making steel.%n%nHow to set it up:%n%nPlace the electrolyzer down and connect it to water and electricity. Place the 2 super tanks nearby. Set the electrolyzer to produce hydrogen gas and oxygen cells. Use normal GT fluid pipes to output the hydrogen gas into one super tank. That is now your hydrogen storage. Now connect interface pipes to all 3 machines.%n%nFor the electrolyzer put in item stock keeper set to keep 2 empty cells stored. Also put in extractor set to extract oxygen cells.%n%nNow for the oxygen storage put in item responder chip set to accept oxygen cells and extractor set to extract empty cells.%n%nNow put some empty cells inside your default storage chest and don't forget to have a broadcaster there.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZg.desc=Теперь автоматизируем электролиз воды на кислород и водород. Водород понадобится для множества вещей, включая обессеривание, получение вольфрама и производство азотной кислоты. Кислород тоже полезен, как ты наверняка заметил при изготовлении стали.%n%nКак это настроить:%n%nПоставь электролизёр и подключи его к воде и электричеству. Рядом поставь 2 супер резервуара. Настрой электролизёр на производство газообразного водорода и капсул с кислородом. Используй обычные жидкостные трубы GT, чтобы вывести водород в одну из суперцистерн. Это и будет твоё хранилище водорода. Теперь подключи маршрутизирующие трубы с интерфейсом ко всем 3 механизмам.%n%nВ электролизёр поставь чип "Сберегатель предметов", настроенный на хранение 2 пустых капсул. Также поставь чип "Извлекатель предметов", настроенный на извлечение капсул с кислородом.%n%nТеперь для хранилища кислорода поставь чип "Получатель предметов", настроенный на приём капсул с кислородом, и чип "Извлекатель предметов", настроенный на извлечение пустых капсул.%n%nТеперь положи немного пустых капсул в свой основной сундук хранения и не забудь установить там чип передатчик предметов.
 
 # Quest: Desulfurizing the Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZw.name=Desulfurizing the Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZw.desc=Now it's time to start the actual desulfurization. Use a chemical reactor of your choice, fill it with sulfuric light fuel and hook it to power. Now connect an interface pipe to it. Put an item stock keeper inside set to store 4 hydrogen cells. Then put in item extractor set to extract hydrogen sulfide and empty cells.%n%nGo to your hydrogen storage super tank and put in a crafting chip set to make one hydrogen cell from one empty cell.%n%nAnd that's all.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZw.name=Обессеривание нефти
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGZw.desc=Теперь пора приступить к самому обессериванию. Возьми любой химический реактор, залей в него сернистое лёгкое топливо и подключи к питанию. Затем подключи к нему маршрутизирующую трубу с интерфейсом. Поставь внутрь чип "Сберегатель предметов", настроенный на хранение 4 капсул с водородом. После этого поставь чип "Извлекатель предметов", настроенный на извлечение сероводорода и пустых капсул.%n%nПерейди к супер резервуару с хранилищем водорода и поставь в неё чип создания, настроенный на создание одной капсулы с водородом из одной пустой капсулы.%n%nВот и всё.
 
 # Quest: Dealing with H2S
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGaA.name=Работа с H2S
@@ -9857,7 +9857,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGaQ.desc=Вот маленькая на�
 
 # Quest: Reward for Desulfurizing Automation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGag.name=Награда за автоматизацию обессеривания
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGag.desc=The greatest reward is having your stuff automated if you've done everything correctly, but here's a reward for making it this far.%n%nSome other setups to look at automating are making polyethylene and nitric acid.%n%nWith stock keeper chips you can always keep a set amount on-hand and when you pull out the cells to use elsewhere, your setup will automatically make more.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGag.desc=Лучшая награда, если ты всё сделал правильно, это автоматизированное хозяйство, но вот тебе награда за то, что ты дошёл досюда.%n%nЕщё можно автоматизировать, например, производство полиэтилена и азотной кислоты.%n%nС помощью чипов "Сберегатель предметов" можно всегда держать под рукой нужное количество предметов, а когда ты забираешь капсулы для использования в другом месте, твоя схема автоматически изготовит новые.
 
 
 ## Quest Line: SFM and Computers
