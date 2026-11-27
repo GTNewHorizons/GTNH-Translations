@@ -7,11 +7,6 @@ item.GT_Rockcutter_Item_LV.name=ロックカッター (LV)
 item.GT_Rockcutter_Item_MV.name=ロックカッター (MV)
 item.GT_Rockcutter_Item_HV.name=ロックカッター (HV)
 item.GT_Teslastaff_Item.name=テスラスタッフ
-BW_ItemBlocks.name=エッチドラピスセル
-BW_ItemBlocks.0.name=エッチドラピスセル
-BW_ItemBlocks.1.name=プレート加工されたラピスラズリセル
-GT_LESU_CASING.name=LESU外装
-GT_LESU_CASING.0.name=LESU外装
 
 bw.blockores.01.name=鉱石
 bw.blockores.02.name=小さな鉱石
@@ -119,8 +114,6 @@ BW_ExtraGlass.3.name=超越金属強化ホウケイ酸ガラス (透明)
 BW_ExtraGlass.4.name=ヘキサナイト強化ホウケイ酸ガラス (透明)
 BW_ExtraGlass.5.name=ユニバーシウム強化ホウケイ酸ガラス (透明)
 tooltip.glass_tier.0.name=ガラスTier:
-tooltip.LESU.0.name=最大容量です！
-tooltip.LESU.1.name=コントローラーが複数あります！
 
 tooltip.windmeter.0.name=§8《§7風車§8／Windmill》§7 の設置場所を選ぶための、簡易的な風速計
 tooltip.windmeter.1.name=耐久値:
@@ -168,11 +161,6 @@ tooltip.tile.waterpump.fmt=燃料を消費して毎秒 %s L の水を生成し�
 
 tooltip.tile.mbf.1.name=汚染/秒
 tooltip.tile.windmill.0.name=運動エネルギーで動く原始的な§8《§7破砕機§8／Macerator》§7です;§f寸法: §67§7x§612§7x§67§7 (§6幅,W§7x§6高さ,H§7x§6奥行,L§7);§f構造: ;§f1段目: 7x7 レンガ、角には置かない。本体は正面中央;§f2-5段目: 5x5 テラコッタ、角には置かない、中空。ドアを1つ設置できる。ディスペンサーを1つ以上設置;§f6段目: 5x5 木材、角にも設置、中空;§f7段目: 7x7 木材、角には置かない、中空;§f8段目: 7x7 木材、角には置かない、中空。正面中央に原始的な動力シャフトボックス;§f9段目: 7x7 木材、角には置かない、中空;§f10段目: 5x5 木材、角にも設置、中空;§f11段目: 3x3 木材、角にも設置、中空;§f12段目: 1x1 木材;§7稼働には原始的な動力シャフトボックス内にローターが必要です。;§7アイテムはディスペンサー内に出力されます。;§7処理速度は風速に依存して加速されます。(IC2の風車に似ています。)
-tooltip.tile.lesu.0.name=GT-2スタイル L.E.S.U.の本体ブロック;サイズ: 任意
-tooltip.tile.lesu.1.name= §8《§7LESU外装§8／LESU Casing》§71個あたりの電力ストレージ:
-tooltip.tile.lesu.2.name=出力EU: LESU外装の量に依存します;入力EU: 出力EUの次の電圧Tier層になります;入/出力アンペアはGUIに4つの§8《§7プログラム回路§8／Programmed Circuit》§7を配置して設定します;出力面にはドットがあります
-tooltip.tile.lesu.3.name=コントローラーは一台のみ、筐体共有はできません！
-tooltip.tile.lesu.deprecated=廃止済み - 次のメジャーアップデートで削除予定です
 tooltip.tile.tiereddsc.0.name=電圧:
 tooltip.tile.tiereddsc.1.name=入力アンペア数: 
 tooltip.tile.tiereddsc.2.name=出力アンペア数:
@@ -302,12 +290,6 @@ chat.proxy.reverse.true=§dReversed§r Recipe Order
 BW.gui.text.radio_hatch.tooltip.radiation_shutter=放射線遮蔽機構
 BW.gui.text.radio_hatch.tooltip.radiation_shutter_control=放射線遮蔽機構の制御
 
-BW.gui.text.lesu.eu=EU: %s
-BW.gui.text.lesu.max=最大: %s
-BW.gui.text.lesu.max_in=最大入力EU/t: %s
-BW.gui.text.lesu.eu_out=出力EU/t: %s
-BW.gui.text.lesu.amp_io=入/出力アンペア/t: %s
-
 # chat
 BW.chat.thtr.cannot_change_mode=THTR稼働中はモードを変更できません。
 BW.chat.thtr.running_in.emptying=THTR is now running in emptying mode.
@@ -348,7 +330,6 @@ gt.blockmachines.bw.manualtrafo.name=マニュアル変圧器
 gt.blockmachines.bw.windmill.name=風車
 gt.blockmachines.circuitassemblyline.name=回路組立ライン
 gt.blockmachines.dehp.name=深部地中熱ポンプ
-gt.blockmachines.lesu.name=L.E.S.U.
 gt.blockmachines.megablastfurnace.name=メガ・電気高炉
 gt.blockmachines.megachemicalreactor.name=メガ・化学反応器
 gt.blockmachines.megadistillationtower.name=メガ・蒸留塔
