@@ -1,11 +1,11 @@
 ---
 navigation:
-  title: Quality of Life
+  title: Qualidade de vida
   parent: /index.md
   icon: gregtech:gt.Item_Toolbox
 ---
-# Quality of Life
-This is one of the biggest categories of changes coming to 2.9, touching nearly every aspect of the pack to make life easier in some way. This list does not include the incredible amount of minor tweaks or bug fixes as they are too plentiful to mention.
+# Qualidade de vida
+Esta é uma das maiores categorias de mudanças que chegam à versão 2.9, abrangendo praticamente todos os aspectos do pacote para, de alguma forma, facilitar a vida do usuário. Esta lista não inclui a enorme quantidade de pequenos ajustes ou correções de erros, já que são numerosos demais para serem mencionados.
 
-# List of Quality of Life Changes:
+# Lista de melhorias na qualidade de vida:
 <Category name="Quality Of Life" rows="3"/>

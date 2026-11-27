@@ -84,7 +84,7 @@ O Aer Vis, exigido por uma Bancada de Trabalho Arcano, e a essentia Metallum, ne
 
 Os nodos possuem diferentes tipos, qualidades e composições de aspectos. Uma vez que você os compreenda, poderá pesquisar formas de movê-los, preservá-los e modificá-los, utilizando o que encontrar durante a exploração para abastecer as instalações mágicas da sua base.
 
-> [!Aviso]
+> [!WARNING]
 > Ao extrair energia de um nó usando uma varinha rudimentar, evite esgotar um aspecto até zero de forma descuidada. <Color color="#D5B77A">Esvaziar um nó completamente</Color> pode danificá-la e afetar sua capacidade de fornecer energia mais tarde. Primeiro, informe-se sobre quais proteções sua varinha e as pesquisas concluídas oferecem.
 
 Mais tarde, você também encontrará <Color color="#B7A0D6">Centi-Vis</Color>: Nodos modificados podem fornecer esse tipo de energia a dispositivos compatíveis. Armazenar Vis em uma varinha e construir uma rede de suprimento de Centi-Vis são duas formas de fornecimento de energia que você precisa compreender separadamente.

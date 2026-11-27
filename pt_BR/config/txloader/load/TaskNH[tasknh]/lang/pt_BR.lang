@@ -86,6 +86,8 @@ tasknh.hud.section.subtasks=Subtasks %s
 # Command messages
 tasknh.cmd.not_in_team=You are not in a team.
 tasknh.cmd.no_tasks=No tasks.
+tasknh.cmd.list_open_hint=Click a task ID, then press Enter to open the task.
+tasknh.cmd.list_open_tooltip=Click to fill in the command.
 tasknh.cmd.no_permission=You don't have permission to use this command.
 tasknh.cmd.synced=Synced tasks to all online players.
 tasknh.cmd.gui_client_only=GUI is client-only.
@@ -101,6 +103,7 @@ tasknh.cmd.file_not_found=File not found: %s
 tasknh.cmd.imported=Imported %s tasks.
 tasknh.cmd.import_failed=Import failed: %s
 tasknh.cmd.task_not_found=Task not found: %s
+tasknh.cmd.ambiguous_task_id=Multiple tasks match %s. Use the full UUID.
 tasknh.cmd.usage.create=Usage: /tasknh create <title>
 tasknh.cmd.usage.assign=Usage: /tasknh assign <id> <player>
 tasknh.cmd.usage.unassign=Usage: /tasknh unassign <id> <player>

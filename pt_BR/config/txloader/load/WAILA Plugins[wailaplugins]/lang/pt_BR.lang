@@ -5,7 +5,7 @@ wp.hud.msg.no=Não
 
 wailaplugins.config.title=Configuração do WAILAPlugins
 wailaplugins.config.section.blood_magic=Definições do Blood Magic
-wailaplugins.config.section.railcraft=Railcraft Settings
+wailaplugins.config.section.railcraft=Configurações do Railcraft
 wailaplugins.config.section.plugins=Definições Globais do Plugin
 
 ## Blood Magic ##
@@ -48,10 +48,10 @@ wp.hud.msg.breedProgress=Progresso da Criação: %s
 wp.hud.msg.breedError=Erro: %s
 
 wp.hud.msg.effectiveProductionMul=Produção Efetiva: %s
-wp.hud.msg.revealYield=Hold Shift for expected Jubilant yields
+wp.hud.msg.revealYield=Mantenha a tecla Shift pressionada para ver os rendimentos esperados de exultante
 wp.hud.msg.yieldPerHour=por hora
-wp.hud.msg.isJubilant=Is Jubilant
-wp.hud.msg.isNotJubilant=Is not Jubilant
+wp.hud.msg.isJubilant=É exultante
+wp.hud.msg.isNotJubilant=Não é exultante 
 
 wp.hud.msg.queen=Rainha
 wp.hud.msg.princess=Princesa
@@ -68,19 +68,19 @@ wp.config.Forestry.sapling=Mostrar Muda de Árvore
 
 ## Gregtech 5U
 
-wp.config.Gregtech5U.fluidFilter=Show Fluid Filter Info
-wp.config.Gregtech5U.transformer=Show Transformer
-wp.config.Gregtech5U.solar=Show Solar Calcification
-wp.config.Gregtech5U.machineFacing=Show Machine Facing
-wp.config.Gregtech5U.multiblock=Show Multiblock Info
-wp.config.Gregtech5U.basicmachine=Show Basicmachine Info
+wp.config.Gregtech5U.fluidFilter=Exibir informações do filtro de fluido
+wp.config.Gregtech5U.transformer=Exibir Transformador
+wp.config.Gregtech5U.solar=Exibir calcificação solar
+wp.config.Gregtech5U.machineFacing=Exibir orientação da máquina
+wp.config.Gregtech5U.multiblock=Exibir informações do multibloco
+wp.config.Gregtech5U.basicmachine=Exibir informações básicas da máquina
 
 ## IC2 Crops
 
-wp.config.IC2Crops.cropName=Show Crop Names
-wp.config.IC2Crops.cropStats=Show Crop Stats
-wp.config.IC2Crops.plantInfo=Show Plant Info
-wp.config.IC2Crops.envInfo=Show Environment Info
+wp.config.IC2Crops.cropName=Exibir nome da plantação
+wp.config.IC2Crops.cropStats=Exibir status da plantação
+wp.config.IC2Crops.plantInfo=Exibir informações da planta
+wp.config.IC2Crops.envInfo=Exibir informações do ambiente
 
 ## Magical Crops ##
 
@@ -103,16 +103,16 @@ wp.hud.msg.formed=Formado: %s
 wp.hud.msg.generating=Gerando: %d RF/t
 wp.hud.msg.engineTemp=Temperatura: %d / %d °C
 wp.hud.msg.temp=Temperatura: %d °C
-wp.hud.msg.energyStored=Stored: %s
+wp.hud.msg.energyStored=Armazenado: %s
 
 wp.hud.msg.charge=Carga: %s
 wp.hud.msg.needMeter=Manter Medidor de Carga
 
-wp.hud.msg.currentRate=Current rate: %d (%d L/s)
-wp.hud.msg.biomeHumidityRate=Biome humidity rate: %d
-wp.hud.msg.rainingRate=Raining rate: %d
-wp.hud.msg.snowingRate=Snowing rate: %d
-wp.hud.msg.cantSeeTheSkyRate=Can't see the sky rate: %d
+wp.hud.msg.currentRate=Taxa atual: %d (%d L/s)
+wp.hud.msg.biomeHumidityRate=Taxa de umidade do bioma: %d
+wp.hud.msg.rainingRate=Taxa de chuva: %d
+wp.hud.msg.snowingRate=Taxa de queda de neve: %d
+wp.hud.msg.cantSeeTheSkyRate=Taxa de "não é possível ver o céu": %d
 
 wp.config.Railcraft.charge=Mostrar Carga
 wp.config.Railcraft.energy=Mostrar Energia RF
@@ -156,10 +156,10 @@ wp.hud.msg.compare=Comparar
 wp.hud.msg.strength=Força: %s
 
 ## Resourceful Crops ##
-wp.config.ResourcefulCrops.showHover=Show Hovering Item
-wp.config.ResourcefulCrops.showOutputItem=Shard -> Output Hover
+wp.config.ResourcefulCrops.showHover=Mostrar Item Pairando
+wp.config.ResourcefulCrops.showOutputItem=Fragmento -> Exibição ao passar o cursor
 
 ## Thermal Expansion ##
 
-wp.hud.msg.augments.hidden=Shift for augment info
-wp.hud.msg.augments.shown=Augment info:
+wp.hud.msg.augments.hidden=Pressione Shift para obter informações adicionais
+wp.hud.msg.augments.shown=Informações de aprimoramento:

@@ -3357,7 +3357,7 @@ GT5U.gui.button.fluid_regulation_panel=Open Fluid Regulation Panel
 GT5U.gui.button.max_fluid=Maximum Fluid Consumption (L/t)
 GT5U.gui.button.turbinemenu=Open Chamber Controller
 GT5U.gui.button.machineinfo=Display Machine Information
-GT5U.gui.button.max_parallel=Always use maximum
+GT5U.gui.button.max_parallel=Sempre use o máximo
 GT5U.gui.button.compressed_bus_settings=Open Bus Settings
 GT5U.gui.button.calculator=Open Machine Calculator
 GT5U.gui.button.probtable=Open Probabilities
@@ -3574,7 +3574,6 @@ GT5U.gui.text.structure_error.cleanroom_plascrete=Not enough plascrete blocks
 GT5U.gui.text.structure_error.defc_fusion_machine_casing=Tiers 3-5 require Mk-II fusion machine casings
 GT5U.gui.text.structure_error.exo_foundry_hypercooler_hatch=Missing coolant hatch for hypercooler
 GT5U.gui.text.structure_error.laser_need_uev=Need UEV-tiered laser for Multi-Amp support
-GT5U.gui.text.structure_error.lesu_error=Unable to identify LESU structure
 GT5U.gui.text.structure_error.lsc_cap=Too many empty capacitors
 GT5U.gui.text.structure_error.latex_singularity=Rumor says you need §osomething§r to have such powerful energy hatches
 GT5U.gui.text.structure_error.manual_transformer_energy=Energy hatches must be of the same tier
@@ -4627,6 +4626,7 @@ GT5U.armor.part.name.MilkInfusion=Augment: Milk Infusion
 GT5U.armor.part.name.HoloInventory=Augment: Holographic Inventory
 GT5U.armor.part.name.Terrasteel=Augment: Terrestrial Enhancement
 GT5U.armor.part.name.Soulbound=Augment: Soul Tether
+GT5U.armor.part.name.Magnet=Augment: Item Attractor
 GT5U.armor.part.name.ApprenticeStriders=Augment: Apprentice Striders
 GT5U.armor.part.name.ArchmageStriders=Augment: Archmage Striders
 GT5U.armor.part.name.EldritchStriders=Augment: Eldritch Striders
@@ -4654,6 +4654,7 @@ GT5U.armor.part.tooltip.MilkInfusion=Removes bad potion effects
 GT5U.armor.part.tooltip.HoloInventory=Opens a holographic view of nearby inventories
 GT5U.armor.part.tooltip.Terrasteel=Grants the Will of the Ancients. Effects include:\n - 40%% Mana Discount\n - Passive Mana generation for Mana Tablets\n - Passive health regeneration when not fully fed
 GT5U.armor.part.tooltip.Soulbound=Prevents this armor piece from being dropped on death
+GT5U.armor.part.tooltip.Magnet=Instantly picks up nearby items and XP while active
 GT5U.armor.part.tooltip.ApprenticeStriders=Allows the user to run faster, jump higher, grants step assist and a vis discount
 GT5U.armor.part.tooltip.ArchmageStriders=Allows the user to run faster, jump higher, grants step assist and a vis discount
 GT5U.armor.part.tooltip.EldritchStriders=Allows the user to run faster, jump higher, grants step assist and a vis discount
@@ -4684,6 +4685,7 @@ GT5U.armor.behavior.HoloInventory=Holographic Inventory
 GT5U.armor.behavior.Terrasteel=Will of the Ancients
 GT5U.armor.behavior.Soulbound=Soulbound
 GT5U.armor.behavior.Levitation=Levitation Mode
+GT5U.armor.behavior.Magnet=Magnet
 
 GT5U.armor.message.enabled=%s §aEnabled§r
 GT5U.armor.message.disabled=%s §cDisabled§r
@@ -4969,7 +4971,7 @@ gt.interact.desc.MachContr.DisMachine=§8Disable machine
 gt.interact.desc.MachContr.SafeMode=§8Safe Mode
 
 ## Conveyor
-gt.interact.desc.conveyor.AlwaysOn=Always On
+gt.interact.desc.conveyor.AlwaysOn=Sempre Ligado
 gt.interact.desc.conveyor.MachProcState=Use Machine Processing State
 gt.interact.desc.conveyor.InvertedMachProcState=Use Inverted Machine Processing State
 gt.interact.desc.conveyor.AllowIn=Allow Input
@@ -5012,7 +5014,7 @@ gt.interact.desc.FluidFilter.BlockFlow=§8Block Flow
 gt.interact.desc.FluidFilter.Empty=§8Filter Empty
 
 ## Fluid Regulator
-gt.interact.desc.fluid_regulator.AlwaysOn=Always On
+gt.interact.desc.fluid_regulator.AlwaysOn=Sempre Ligado
 gt.interact.desc.fluid_regulator.MachProcState=Use Machine Processing State
 gt.interact.desc.fluid_regulator.InvertedMachProcState=Use Inverted Machine Processing State
 
@@ -5046,7 +5048,7 @@ gt.interact.desc.Player_Detector.Other_Players=§8Other players
 gt.interact.desc.Player_Detector.Only_Owner=§8Only owner
 
 ## Pump
-gt.interact.desc.Pump.AlwaysOn=Always On
+gt.interact.desc.Pump.AlwaysOn=Sempre Ligado
 gt.interact.desc.Pump.MachProcState=Use Machine Processing State
 gt.interact.desc.Pump.InvertedMachProcState=Use Inverted Machine Processing State
 gt.interact.desc.Pump.AllowIn=Allow Input
@@ -7002,10 +7004,10 @@ nei.options.tools.dump.gt5u.rotorss=Turbine Rotors dumped to dumps/rotors.json
 nei.options.tools.dump.gt5u.warn_env=You're outside of the pack. Some IDs present in the full pack might be missing in this dump.
 nei.options.tools.dump.gt5u.mode.0=Free
 nei.options.tools.dump.gt5u.mode.1=Used
-nei.options.inventory.search.chemicalFormulaSearchMode=Chemical Formula Search
-nei.options.inventory.search.chemicalFormulaSearchMode.0=Always
-nei.options.inventory.search.chemicalFormulaSearchMode.1=Prefix: %s
-nei.options.inventory.search.chemicalFormulaSearchMode.2=Never
+nei.options.inventory.search.chemicalFormulaSearchMode=Busca por fórmula química
+nei.options.inventory.search.chemicalFormulaSearchMode.0=Sempre
+nei.options.inventory.search.chemicalFormulaSearchMode.1=Prefixo: %s
+nei.options.inventory.search.chemicalFormulaSearchMode.2=Nunca
 
 # Waila
 GT5U.waila.cable.throughput=Throughput: §a%s§r EU/t (%s A)
@@ -7090,12 +7092,14 @@ GT5U.waila.hatch.crafting_input_slave.recipeOrder=Recipe order: %s
 GT5U.waila.hatch.outputme.item_cache_capacity=Item cache capacity: §e%s§r
 GT5U.waila.hatch.outputme.fluid_cache_capacity=Fluid cache capacity: §e%s L§r
 GT5U.waila.hatch.outputme.item_cache_empty=This bus has no cached stacks
-GT5U.waila.hatch.outputme.item_cache_detail=The bus contains §6%d§r cached stack%s:
+GT5U.waila.hatch.outputme.item_cache_detail=The bus contains §6%d§r cached stack:
+GT5U.waila.hatch.outputme.item_cache_details=The bus contains §6%d§r cached stacks:
 GT5U.waila.hatch.outputme.item_cache_detail.more=§oAnd %d more...
 GT5U.waila.hatch.outputme.flush_interval=§7Flushes to ME every §e%ss§7 (§anext in %ss§7)
 GT5U.waila.hatch.outputme.flush_interval.idle=§7Flushes to ME every §e%ss§7
 GT5U.waila.hatch.outputme.fluid_cache_empty=This hatch has no cached fluids
-GT5U.waila.hatch.outputme.fluid_cache_detail=The hatch contains §6%d§r cached fluid%s:
+GT5U.waila.hatch.outputme.fluid_cache_detail=The hatch contains §6%d§r cached fluid:
+GT5U.waila.hatch.outputme.fluid_cache_details=The hatch contains §6%d§r cached fluids:
 GT5U.waila.hatch.outputme.fluid_cache_detail.more=§oAnd %d more...
 GT5U.waila.industrial_apiary.current_queen=Current Queen: §a%s
 GT5U.waila.industrial_apiary.effective_production=Effective Production: §b%s
@@ -8287,6 +8291,7 @@ key.gt.jump_increase=Increase Jump Boost
 key.gt.jump_decrease=Decrease Jump Boost
 key.gt.force_field=Toggle Force Field
 key.gt.toggle_levitation_mode=Toggle Levitation Mode
+key.gt.toggle_magnet=Toggle Magnet
 key.gt.open_radial_menu=Open Radial Menu
 
 # Tooltips for GT Tools
@@ -8520,7 +8525,7 @@ GT5U.tooltip.electric.tier=Tier: %d
 GT5U.tooltip.electric.tier.s=Tier: %s
 
 GT5U.tooltip.typefilter.set_to=Filter set to %s
-GT5U.tooltip.typefilter.ore_prefix=Ore prefix: %s
+GT5U.tooltip.typefilter.ore_prefix=Prefixo de minério: %s
 GT5U.tooltip.typefilter.size=Filter size: %s
 
 GT5U.tooltip.space_project_frontend.item_count=Item Count: %s
@@ -9829,6 +9834,12 @@ gt.blockcasings14.6.name=Extruder Machine Casing
 gt.blockcasings14.7.name=Tension Resistant Machine Casing
 gt.blockcasings14.8.name=Plasma Collider Casing
 gt.blockcasings14.9.name=Quadcell Driving Casing
+gt.blockcasings14.10.name=Niobium-Titanium Pipe Casing
+gt.blockcasings14.11.name=Mysterious Crystal Pipe Casing
+gt.blockcasings14.12.name=Neutronium Pipe Casing
+gt.blockcasings14.13.name=Infinity Pipe Casing
+gt.blockcasings14.14.name=Transcendent Metal Pipe Casing
+gt.blockcasings14.15.name=SpaceTime Pipe Casing
 
 gt.blockcasingsNH.0.name=Air Filter Turbine Casing
 gt.blockcasingsNH.1.name=Air Filter Vent Casing
