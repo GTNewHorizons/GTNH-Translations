@@ -32,6 +32,7 @@ schematica.gui.materialname=建材
 schematica.gui.materialamount=量
 schematica.gui.materialrequired=必要数
 schematica.gui.materialavailable=準備完了
+schematica.gui.materialmanualoption=Manual option: %d
 schematica.gui.materialdump=ファイルに書き出し
 schematica.gui.printer=プリントモード
 
@@ -158,3 +159,5 @@ schematica.command.download.usage=/schematicaDownload <名前>
 schematica.command.download.started=「%s」をダウンロード中...
 schematica.command.download.downloadSucceeded=「%s」のダウンロードが完了しました
 schematica.command.download.downloadFail=ダウンロード失敗
+schematica.command.download.requiresUpdate=Update Schematica to download %s. Your client uses a different download format.
+schematica.command.download.serverRequiresUpdate=The server uses a different Schematica download format. Update the server to download schematics.
