@@ -32,6 +32,7 @@ schematica.gui.materialname=malzeme
 schematica.gui.materialamount=Miktar
 schematica.gui.materialrequired=Gerekli
 schematica.gui.materialavailable=Mevcut 
+schematica.gui.materialmanualoption=Manual option: %d
 schematica.gui.materialdump=Dosyaya kaydet
 schematica.gui.printer=Yazıcı
 
@@ -158,3 +159,5 @@ schematica.command.download.usage=/schematicaDownload <name>
 schematica.command.download.started=%s indirilmeye başlandı...
 schematica.command.download.downloadSucceeded=%s başarıyla indirildi.
 schematica.command.download.downloadFail=İndirme başarısız.
+schematica.command.download.requiresUpdate=Update Schematica to download %s. Your client uses a different download format.
+schematica.command.download.serverRequiresUpdate=The server uses a different Schematica download format. Update the server to download schematics.
