@@ -32,6 +32,7 @@ schematica.gui.materialname=Материал
 schematica.gui.materialamount=Количество
 schematica.gui.materialrequired=Необходимо
 schematica.gui.materialavailable=Доступно
+schematica.gui.materialmanualoption=Manual option: %d
 schematica.gui.materialdump=Сохранить в файл
 schematica.gui.printer=Принтер
 
@@ -158,3 +159,5 @@ schematica.command.download.usage=/schematicaDownload <name>
 schematica.command.download.started=Начата загрузка %s...
 schematica.command.download.downloadSucceeded=Успешно загружен %s.
 schematica.command.download.downloadFail=Загрузка не удалась.
+schematica.command.download.requiresUpdate=Update Schematica to download %s. Your client uses a different download format.
+schematica.command.download.serverRequiresUpdate=The server uses a different Schematica download format. Update the server to download schematics.
