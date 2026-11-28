@@ -372,9 +372,9 @@ team_config.serverutilities.blocked_creatures=Creature Types To Block Within Cla
 
 # Sidebar Buttons
 sidebar_button=Sidebar Buttons
-sidebar_button.serverutilities.my_team=My Team
+sidebar_button.serverutilities.my_team=Meu Time
 sidebar_button.serverutilities.my_team.tooltip=Opens a GUI where you can manage your team
-sidebar_button.serverutilities.settings=Client Settings
+sidebar_button.serverutilities.settings=Configurações do Cliente
 sidebar_button.serverutilities.settings.tooltip=Edit client-side-only settings
 sidebar_button.serverutilities.notifications=Notifications
 sidebar_button.serverutilities.admin_panel=Admin Panel
@@ -382,7 +382,7 @@ sidebar_button.serverutilities.chats=Chats
 sidebar_button.serverutilities.chats.general=General Chat
 sidebar_button.serverutilities.chats.admin=Admin Chat
 sidebar_button.serverutilities.chats.team=Team Chat
-sidebar_button.serverutilities.leaderboards=Leaderboards
+sidebar_button.serverutilities.leaderboards=Rankings
 sidebar_button.serverutilities.toggle.gamemode=Toggle Gamemode
 sidebar_button.serverutilities.toggle.gamemode.tooltip=Toggles between survival and creative mode
 sidebar_button.serverutilities.toggle.rain=Toggle Rain
@@ -394,8 +394,8 @@ sidebar_button.serverutilities.toggle.night.tooltip=Sets nighttime
 sidebar_button.serverutilities.heal=Heal
 sidebar_button.serverutilities.heal.tooltip=Heals player to max health and saturation, and extinguishes if player is on fire
 sidebar_button.serverutilities.server_info=Server Info
-sidebar_button.serverutilities.claimed_chunks=Claimed Chunks
-sidebar_button.serverutilities.trash_can=Trash Can
+sidebar_button.serverutilities.claimed_chunks=Chunks Carregados
+sidebar_button.serverutilities.trash_can=Lata de Lixo
 sidebar_button.serverutilities.trash_can.tooltip=Opens a trash can. Items from it disappear after you close the GUI, but will remain there as long as it's open
 sidebar_button.serverutilities.mail=Mail
 serverutilities.sidebar_button.reset=Reset Sidebar
@@ -419,7 +419,7 @@ serverutilities.admin_panel.ranks.delete_confirm=This will permanently delete ra
 
 # Keys
 key.serverutilities.nbt=Edit NBT
-key.serverutilities.trash=Trash Can
+key.serverutilities.trash=Lata de Lixo
 
 # Commands
 commands.shutdown.usage=/shutdown
@@ -584,7 +584,7 @@ serverutilities.lang.chunks.unclaim_all_dim=Unclaim all chunks in %s
 serverutilities.lang.chunks.unclaim_all_q=Unclaim all chunks?
 serverutilities.lang.chunks.unclaim_all_dim_q=Unclaim all chunks in %s?
 serverutilities.lang.chunks.claims_invalid_dim=Can't claim chunks in this dimension
-serverutilities.lang.chunks.claimed_count=Claimed Chunks: %d / %s
+serverutilities.lang.chunks.claimed_count=Chunks Carregados: %d / %s
 serverutilities.lang.chunks.loaded_count=Loaded Chunks: %d / %s
 serverutilities.lang.chunks.claimed_area=Claimed Area
 serverutilities.lang.chunks.wilderness=Wilderness
@@ -736,7 +736,7 @@ facing.east=Leste
 
 relative_facing.bottom=Bottom
 relative_facing.top=Top
-relative_facing.back=Back
+relative_facing.back=Voltar
 relative_facing.left=Left
 relative_facing.right=Right
 

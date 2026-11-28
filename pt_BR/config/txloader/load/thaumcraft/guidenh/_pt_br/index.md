@@ -46,7 +46,7 @@ O livro possui abas separadas para diferentes tópicos e complementos. As pesqui
 | Conteúdo do livro | Informações fornecidas |
 | --- | --- |
 | Pesquise ícones e conexões | Pré-requisitos entre entradas de pesquisa e dicas sobre como desbloqueá-las |
-| <Color color="#B7A0D6">Research notes</Color> | Pesquisa realizada em uma Mesa de Pesquisa, principalmente por meio de conexões de aspectos. |
+| <Color color="#B7A0D6">Anotações de pesquisa</Color> | Pesquisa realizada em uma Mesa de Pesquisa, principalmente por meio de conexões de aspectos. |
 | Pesquisa que consome pontos de pesquisa | Os tipos de aspecto e os pontos de pesquisa necessários para desbloqueá-lo |
 | Pesquisa concluída | Usos do aparelho, instruções de operação e receitas |
 | <Color color="#D5B77A">Marcador de conhecimento proibidos</Color> | Os efeitos roxos e os avisos associados indicam que aprender sobre esta pesquisa pode causar distorção. |
@@ -104,13 +104,13 @@ Por exemplo, suponha que uma receita arcana tenha um requisito base de 100 Vis d
 
 ## Fluxo, Corrupção e Distorção
 
-Environmental problems and effects on the player need to be understood separately.
+Problemas ambientais e seus efeitos sobre o jogador precisam ser compreendidos separadamente.
 
-| Concept | Main Target | What to Know |
+| Conceito | Alvo principal | O que você precisa saber |
 | --- | --- | --- |
-| <Color color="#D5B77A">Flux</Color> | The surrounding environment | Improper magical processing can release pollution; watch your alchemy facilities and their surroundings |
-| <Color color="#D5B77A">Taint</Color> | Terrain, blocks and creatures | An environmental hazard that needs dedicated treatment; investigate its source and control methods when you find it |
-| <Color color="#D5B77A">Warp</Color> | The player | Forbidden research and some actions cause Warp, which can trigger related events |
+| <Color color="#D5B77A">Fluxo</Color> | The surrounding environment | Improper magical processing can release pollution; watch your alchemy facilities and their surroundings |
+| <Color color="#D5B77A">Mancha</Color> | Terrain, blocks and creatures | An environmental hazard that needs dedicated treatment; investigate its source and control methods when you find it |
+| <Color color="#D5B77A">Urdidura</Color> | The player | Forbidden research and some actions cause Warp, which can trigger related events |
 
 Cleaning up environmental pollution does not remove the player's Warp, and dealing with Warp does not replace treating a tainted area. Look for forbidden knowledge warnings when reading new research, and consider pollution control when preparing new alchemy facilities.
 
